@@ -1,0 +1,90 @@
+This is meant to be a very basic and linear tutorial on how to install LMMS.
+Examples provided assume you're running Debian GNU/Linux.
+
+== Installing LMMS from SVN ==
+
+* First you need to get LMMS sources from the SVN repositrty, or update your sources, if you're upgrading from a previous version
+** the following command will download LMMS sources in a newly created folder named "lmms" in the current dir
+ <code>svn co https://lmms.svn.sourceforge.net/svnroot/lmms/trunk lmms
+* Then you have to configure LMMS
+** cd into the "lmms" directory
+** generate the config script running
+ make -f Makefile.svn
+** and configure LMMS running
+ ./configure
+** resolve any unmet dependencies the configure script prompts you for (see section "[[Installation#Resolving_Dependencies|Resolving dependencies]]" below for more on this topic)
+** tune your system to make full use of LMMS potential (see section "[[Tuning LMMS-intallatin]]" below for more info on this topic)
+* Now compile LMMS
+** cd into the sources directory (if you're not already there)
+ make
+** Finally you can install LMMS by running as root
+ make install
+
+ 
+
+== Resolving dependencies ==
+
+To compile LMMS from sources you need several development libraries, from graphical to sound ones. Some are essential and some are optional.
+
+The only libraries you '''need''' to install (if not already present in your system) to get LMMS to work are the following:
+* Qt 3.x libs and Qt 3.x development libs, both multithreaded
+** under Debian run ''aptitude install libqt3-mt libqt3-mt-dev libqt3-headers qt3-dev-tools''
+** On a 64 bit system that uses lib64qt3, it may be necessary to make some modifications before configure will find your qt libraries. The kludge that worked for me was editing configure, and replacing all occurances of '' $QTDIR/lib'' with ''$QTDIR/lib64''  --- //[[removethis-west@gratainc.com|Alex West]] 2006/04/30 10:30 Mandriva 2006//
+
+Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
+* [[http://www.alsa-project.org/|ALSA]] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded\\ see [[http://www.alsa-project.org/]] and [[http://alsa.opensrc.org/]] for info
+** under Debian run ''aptitude install libasound2-dev''
+* [[http://jackaudio.org/|JACK]] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
+** under Debian run ''aptitude install libjack0.100.0-dev libjackasyn-dev''
+* [[http://www.libsdl.org/index.php|SDL]] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them //before// starting LMMS)
+** under Debian run ''aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
+* [[http://www.opensound.com/|OSS]] - Open Sound System - now replaced by [[http://www.alsa-project.org/|ALSA]]
+
+Even if you don't install all necessary libraries ''before'' configuring LMMS, you'll receive messages telling you what isn't in place to proceed, so you'll be able to fulfill the requirements ''while'' configuring LMMS, running ''./configure'' multiple times and resolving issues one at a time.
+
+
+====== Tuning your LMMS-installation ======
+
+To make use of the full LMMS potential you may need to install some extra libraries. Here is a list of some of them:
+  * ogg-vorbis libraries - to decode/encode .ogg samples and/or songs
+    * under Debian run aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
+  * samplerate conversion tools - to downsample and upsample audio from 4Hz up to 192kHz
+    * under Debian run aptitude install ''libsamplerate0-dev''
+  * sound file library - for reading and writing files containing sampled audio data
+    * under Debian run aptitude install ''libsndfile1-dev''
+  * asynchronous library for interfacing with the JACK sound server - to convert programs that do sound input or output via the OSS system into JACK clients by starting them with the jacklaunch command
+\\ 
+Again, even if you don't install all the libraries //before// configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
+\\
+\\
+
+== Enable LADSPA Support ==
+
+When compiling a recent SVN-copy of LMMS you'll automatically get LADSPA-support - independent of whether you installed LADSPA-SDK on your system or not.
+
+== Enable VST Support ==
+
+(this needs update -> ./configure --with-stk)
+
+* To enable VST support in LMMS you need to have the following packages installed:
+** libwine-dev (or wine-devel, depending on your distribution)
+** when using official 0.2.x releases (and ''not'' a recent SVN copy) then you have to download Steinbergs VST SDK Version 2.3 or 2.4. For licensing issues it can not be included in the LMMS distribution. Get the necessary files here: [[http://www.steinberg.de/331+M52087573ab0.html]]
+** Copy the files aeffect.h and aeffectx.h into the directory "lmms-0.2.x/include/"
+* Compile your LMMS distribution as stated above (re-run configure)
+
+
+
+== Installing LMMS on Gentoo Linux ==
+
+LMMS is now avaible for Gentoo in the "semi-official" overlay www.gentoo-sunrise.org.
+
+So, Gentoo users who want to install LMMS only have to do:
+
+ # emerge -va layman
+ # echo "source /usr/portage/local/layman/make.conf" >> /etc/make.conf
+ # layman -f -a sunrise
+ # echo "media-sound/lmms ~x86" >> /etc/portage/package.keywords
+ # emerge -av lmms
+ 
+
+This ebuild stills experimental and no-official so bugs shouldn't be reported on Gentoo's Bugzilla unless it's a problem with the ebuild and you write a patch (you can report this patch at bugs.gentoo.org on bug 100170). If you have any other problem with it, please contact me: cooldwind at gmail dot com.
