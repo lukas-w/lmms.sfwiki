@@ -1,0 +1,15 @@
+=== How to get up and running with LMMS ===
+
+OK. This is going to be very brief, but I thought a few helpful pointers might be useful for people to avoid the 3 hours plus that I spent trying to load instrument plugins in LMMS (0.1.1).
+
+Once you fire up LMMS there are two main windows you use all the time: the song editor and the beat/bassline editor.
+
+To insert a new instrument plugin into the beat/bassline editor, click the yellow star on the left hand side of the main window (my presets). This gives directories containing presets for the main plugins: double click one of the presets to insert them into the beat/bassline editor.
+
+If you make a mistake, or want to change an instrument, click it's grey button within the beat/bassline editor so you can view it's editor window, then right click on the preset you want to change it to and click "send to active channel".
+
+With the audiofile processor plugin, the presets are a bit weird for normal use.. just select the Kick-4-your subwoofer patch, load your new sample and increase the sustain.
+
+The drum pattern editing is pretty self-explanatory. If you double click the drum editing, it opens a piano-roll so you can edit bassline patterns instead. The volume for each note is at the bottom of the piano roll (as expected).
+
+You can insert instruments direcly into the song-editor (for long improvisation pieces etc) but for loop-based music it is best to write each loop for each instrument in a different beat/bassline editor (they all use the same instrument stack) and then put the piece together in the song-editor.
