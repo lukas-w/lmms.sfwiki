@@ -27,8 +27,9 @@ http://italc.sf.net/wiki-media/guide.png
 * [[Getting started]]
 * [[Manual]]
 * [[How to report bugs]]
-* [[User FAQ|FAQ]]
 * [[Tip of the day]]
+* [[Mailing lists]]
+* [[User FAQ|FAQ]]
 |}
 <br>
 {| cellspacing="0" valign="top" align="center" width="100%"
@@ -55,6 +56,7 @@ http://italc.sf.net/wiki-media/development.png
 * [[Plugin development tutorial]]
 * [[Guidelines on coding style]]
 * [[Submitting a patch]]
+* [[Mailing lists]]
 * [[How to cross-compile LMMS]]
 * [[Roadmap|Roadmap/TODO]]
 * [[Developer FAQ|FAQ]]
