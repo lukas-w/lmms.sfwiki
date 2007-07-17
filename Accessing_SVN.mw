@@ -1,6 +1,6 @@
-===== Accessing SVN =====
+== Accessing SVN ==
 
-==== Anonymous SVN ====
+=== Anonymous SVN ===
 
 If you want to access SVN for downloading the latest version, you do the following:
 
@@ -18,13 +18,13 @@ If you want to update your SVN-checkout simply type
 inside lmms-directory
 
 
-==== SVN with your SF.net-account ====
+=== SVN with your SF.net-account ===
 
 Of course you can use your SF.net-account for checking out a local working-copy to work on. If you're a registered developer of LMMS, you'll also be able to commit your changes.
 
  svn co https://lmms.svn.sf.net/svnroot/lmms/trunk/lmms --username=YOUR_SF_NET_NICK
 
 
-==== WebSVN ====
+=== WebSVN ===
 
 For browsing the SVN-repository in an easy way you can also use the [[http://svn.sourceforge.net/viewvc/lmms/trunk/|WebSVN]] of LMMS.
