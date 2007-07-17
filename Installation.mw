@@ -5,7 +5,7 @@ Examples provided assume you're running Debian GNU/Linux.
 
 * First you need to get LMMS sources from the SVN repositrty, or update your sources, if you're upgrading from a previous version
 ** the following command will download LMMS sources in a newly created folder named "lmms" in the current dir
- <code>svn co https://lmms.svn.sourceforge.net/svnroot/lmms/trunk lmms
+ svn co https://lmms.svn.sourceforge.net/svnroot/lmms/trunk lmms
 * Then you have to configure LMMS
 ** cd into the "lmms" directory
 ** generate the config script running
@@ -43,20 +43,17 @@ Next you need to allow LMMS to communicate with your audio hardware, so you have
 Even if you don't install all necessary libraries ''before'' configuring LMMS, you'll receive messages telling you what isn't in place to proceed, so you'll be able to fulfill the requirements ''while'' configuring LMMS, running ''./configure'' multiple times and resolving issues one at a time.
 
 
-====== Tuning your LMMS-installation ======
-
 To make use of the full LMMS potential you may need to install some extra libraries. Here is a list of some of them:
-  * ogg-vorbis libraries - to decode/encode .ogg samples and/or songs
-    * under Debian run aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
-  * samplerate conversion tools - to downsample and upsample audio from 4Hz up to 192kHz
-    * under Debian run aptitude install ''libsamplerate0-dev''
-  * sound file library - for reading and writing files containing sampled audio data
-    * under Debian run aptitude install ''libsndfile1-dev''
-  * asynchronous library for interfacing with the JACK sound server - to convert programs that do sound input or output via the OSS system into JACK clients by starting them with the jacklaunch command
-\\ 
-Again, even if you don't install all the libraries //before// configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
-\\
-\\
+* ogg-vorbis libraries - to decode/encode .ogg samples and/or songs
+** under Debian run aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
+* samplerate conversion tools - to downsample and upsample audio from 4Hz up to 192kHz
+** under Debian run aptitude install ''libsamplerate0-dev''
+* sound file library - for reading and writing files containing sampled audio data
+** under Debian run aptitude install ''libsndfile1-dev''
+* asynchronous library for interfacing with the JACK sound server - to convert programs that do sound input or output via the OSS system into JACK clients by starting them with the jacklaunch command
+
+Again, even if you don't install all the libraries '''before''' configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
+
 
 == Enable LADSPA Support ==
 
