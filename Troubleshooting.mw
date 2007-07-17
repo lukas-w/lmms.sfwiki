@@ -1,0 +1,35 @@
+=== LMMS segfaults and there are no error messages on the console. How do I get debugging information? ===
+Use the GNU Debugger:
+
+ :~$ gdb lmms
+ GNU gdb 6.X
+ Copyright (C) 2006 Free Software Foundation, Inc.
+ ...
+ 
+ (gdb) r
+ Starting program: lmms
+ ...
+
+If a segfault happens, LMMS will freeze and you'll get some information on the terminal. Entering ''bt'' or ''bt full'' will show a backtrace you can [[Reporting a bug|report]].
+
+Make sure you have debugging symbols in LMMS. That usually means compiling with the ''-g'' flag and not stripping the symbols afterwards.
+
+
+=== When I try to play one of the demo-songs the sound gets crapped. What can I do? ===
+If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
+
+Another thing is the internal buffer-size, used by LMMS. The smaller this value the smaller the latency. If you have problems because of low performance, you can try to increase the buffer-size. Then LMMS renders more data at one time and interrupts aren't always spurious... Use the setup-dialog to change this parameter.
+
+You can also try to re-compile LMMS with tuning-options according to your platform. configure offers additional optimization-options like dropping surround-support. See configure --help for details.
+
+
+=== As soon as I start LMMS it eats all my CPU-time. Is that normal? ===
+You're using a quite old version of LMMS which had this bug. Try to upgrade LMMS and everything should be alright...
+
+
+=== When using JACK as audio-interface, there's no sound. What to do? ===
+You probably didn't start JACK-transport. Start an application like [http://qjackctl.sourceforge.net/ qjackctl] and click on "play" or whatever it is named in your application. Then everything should be alright. Actually LMMS automatically should start JACK-transport on startup. You may also need to connect lmms to your sound card, using the patch bay in qjackctl. 
+
+
+=== I compiled LMMS with VST-support but it doesn't work at all ===
+Make sure you didn't pass -fomit-frame-pointer in a FLAG-parameter to configure. This is known to lead to an unusable LVSL (LMMS VST Support Layer).
