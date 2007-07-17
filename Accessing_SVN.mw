@@ -8,7 +8,7 @@ If you want to access SVN for downloading the latest version, you do the followi
 
 Afterwards you have a directory ''lmms'' in your current directory which contains a complete source-directory. Before you continue, make sure you've automake-, autoconf- and libtool-packages installed! Then change into directory "lmms" and type
  make -f Makefile.svn</code>
-Now you can configure and build LMMS the usual way or see [[documentation:installation|Installation tutorial]] for details on how to proceed.
+Now you can configure and build LMMS the usual way or see [[Installation|Installation tutorial]] for details on how to proceed.
 
 
 If you want to update your SVN-checkout simply type
