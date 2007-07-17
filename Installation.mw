@@ -20,7 +20,8 @@ Examples provided assume you're running Debian GNU/Linux.
 
 To compile LMMS from sources you need several development libraries, from graphical to sound ones. Some are essential and some are optional.
 
-The only libraries you '''need''' to install (if not already present in your system) to get LMMS to work are the following:
+=== Required libraries ===
+
 * Qt 3.x libs and Qt 3.x development libs, both multithreaded
 ** under Debian run ''aptitude install libqt3-mt libqt3-mt-dev libqt3-headers qt3-dev-tools''
 ** On a 64 bit system that uses lib64qt3, it may be necessary to make some modifications before configure will find your qt libraries. The kludge that worked for me was editing configure, and replacing all occurances of '' $QTDIR/lib'' with ''$QTDIR/lib64''  --- ''[[removethis-west@gratainc.com|Alex West]] 2006/04/30 10:30 Mandriva 2006''
@@ -32,11 +33,14 @@ Next you need to allow LMMS to communicate with your audio hardware, so you have
 ** under Debian run ''aptitude install libjack0.100.0-dev libjackasyn-dev''
 * [http://www.libsdl.org/index.php SDL] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them ''before'' starting LMMS)
 ** under Debian run ''aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
-* [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [ http://www.alsa-project.org/ ALSA]
+* [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [http://www.alsa-project.org/ ALSA]
 
 Even if you don't install all necessary libraries ''before'' configuring LMMS, you'll receive messages telling you what isn't in place to proceed, so you'll be able to fulfill the requirements ''while'' configuring LMMS, running ''./configure'' multiple times and resolving issues one at a time.
 
+=== Optional (but strongly recommended) libraries ===
+
 To make use of the full LMMS potential you may need to install some extra libraries. Here is a list of some of them:
+
 * ogg-vorbis libraries - to decode/encode .ogg samples and/or songs
 ** under Debian run aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
 * samplerate conversion tools - to downsample and upsample audio from 4Hz up to 192kHz
@@ -44,6 +48,10 @@ To make use of the full LMMS potential you may need to install some extra librar
 * sound file library - for reading and writing files containing sampled audio data
 ** under Debian run aptitude install ''libsndfile1-dev''
 * asynchronous library for interfacing with the JACK sound server - to convert programs that do sound input or output via the OSS system into JACK clients by starting them with the jacklaunch command
+* STK library + headers for using STK (Sound Synthesis Toolkit)
+** under Debian run aptitude install ''libstk0-dev stk''
+* WINE + devel-packages for being able to use VST-plugins within LMMS
+** under Debian run aptitude install ''libwine-dev libwine''
 
 Again, even if you don't install all the libraries '''before''' configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
 
@@ -58,7 +66,7 @@ When compiling a recent SVN-copy of LMMS you'll automatically get LADSPA-support
 
 * To enable VST support in LMMS you need to have the following packages installed:
 ** libwine-dev (or wine-devel, depending on your distribution)
-** when using official 0.2.x releases (and ''not'' a recent SVN copy) then you have to download Steinbergs VST SDK Version 2.3 or 2.4. For licensing issues it can not be included in the LMMS distribution. Get the necessary files here: [http://www.steinberg.de/331+M52087573ab0.html http://www.steinberg.de/331+M52087573ab0.html]
+** when using official 0.2.x releases of LMMS (and ''not'' a recent SVN copy) then you have to download Steinbergs VST SDK Version 2.3 or 2.4. For licensing issues it can not be included in the LMMS distribution. Get the necessary files here: [http://www.steinberg.de/331+M52087573ab0.html http://www.steinberg.de/331+M52087573ab0.html]
 ** Copy the files aeffect.h and aeffectx.h into the directory "lmms-0.2.x/include/"
 * Compile your LMMS distribution as stated above (re-run configure)
 
