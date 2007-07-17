@@ -4,8 +4,7 @@ Examples provided assume you're running Debian GNU/Linux.
 
 == Installing LMMS from SVN ==
 
-* First you need to get LMMS sources from the SVN repository, or update your sources, if you're upgrading from a previous version
-** the following command will download LMMS sources in a newly created folder named "lmms" in the current dir
+* First you need to get LMMS sources from the SVN repository, or update your sources, if you're upgrading from a previous version. The following command will checkout a recent SVN-copy of in a newly created folder named "lmms" in the current dir.
  svn co https://lmms.svn.sourceforge.net/svnroot/lmms/trunk lmms
 * Then you have to configure LMMS: cd into the "lmms" directory and generate the config script running
  make -f Makefile.svn
@@ -28,7 +27,7 @@ The only libraries you '''need''' to install (if not already present in your sys
 ** On a 64 bit system that uses lib64qt3, it may be necessary to make some modifications before configure will find your qt libraries. The kludge that worked for me was editing configure, and replacing all occurances of '' $QTDIR/lib'' with ''$QTDIR/lib64''  --- ''[[removethis-west@gratainc.com|Alex West]] 2006/04/30 10:30 Mandriva 2006''
 
 Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
-* [[http://www.alsa-project.org/|ALSA]] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded\\ see [[http://www.alsa-project.org/]] and [[http://alsa.opensrc.org/]] for info
+* [[http://www.alsa-project.org/|ALSA]] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [[http://www.alsa-project.org/]] and [[http://alsa.opensrc.org/]] for info
 ** under Debian run ''aptitude install libasound2-dev''
 * [[http://jackaudio.org/|JACK]] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
 ** under Debian run ''aptitude install libjack0.100.0-dev libjackasyn-dev''
@@ -77,6 +76,5 @@ So, Gentoo users who want to install LMMS only have to do:
  # layman -f -a sunrise
  # echo "media-sound/lmms ~x86" >> /etc/portage/package.keywords
  # emerge -av lmms
- 
 
 This ebuild stills experimental and no-official so bugs shouldn't be reported on Gentoo's Bugzilla unless it's a problem with the ebuild and you write a patch (you can report this patch at bugs.gentoo.org on bug 100170). If you have any other problem with it, please contact me: cooldwind at gmail dot com.
