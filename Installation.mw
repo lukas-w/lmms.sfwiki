@@ -1,7 +1,6 @@
 This is meant to be a very basic and linear tutorial on how to install LMMS.
 Examples provided assume you're running Debian GNU/Linux.
 
-
 == Installing LMMS from SVN ==
 
 * First you need to get LMMS sources from the SVN repository, or update your sources, if you're upgrading from a previous version. The following command will checkout a recent SVN-copy of in a newly created folder named "lmms" in the current dir.
@@ -27,13 +26,13 @@ The only libraries you '''need''' to install (if not already present in your sys
 ** On a 64 bit system that uses lib64qt3, it may be necessary to make some modifications before configure will find your qt libraries. The kludge that worked for me was editing configure, and replacing all occurances of '' $QTDIR/lib'' with ''$QTDIR/lib64''  --- ''[[removethis-west@gratainc.com|Alex West]] 2006/04/30 10:30 Mandriva 2006''
 
 Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
-* [[http://www.alsa-project.org/|ALSA]] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [[http://www.alsa-project.org/]] and [[http://alsa.opensrc.org/]] for info
+* [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info
 ** under Debian run ''aptitude install libasound2-dev''
-* [[http://jackaudio.org/|JACK]] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
+* [http://jackaudio.org/ JACK] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
 ** under Debian run ''aptitude install libjack0.100.0-dev libjackasyn-dev''
-* [[http://www.libsdl.org/index.php|SDL]] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them ''before'' starting LMMS)
+* [http://www.libsdl.org/index.php SDL] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them ''before'' starting LMMS)
 ** under Debian run ''aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
-* [[http://www.opensound.com/|OSS]] - Open Sound System - now replaced by [[http://www.alsa-project.org/|ALSA]]
+* [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [ http://www.alsa-project.org/ ALSA]
 
 Even if you don't install all necessary libraries ''before'' configuring LMMS, you'll receive messages telling you what isn't in place to proceed, so you'll be able to fulfill the requirements ''while'' configuring LMMS, running ''./configure'' multiple times and resolving issues one at a time.
 
@@ -59,7 +58,7 @@ When compiling a recent SVN-copy of LMMS you'll automatically get LADSPA-support
 
 * To enable VST support in LMMS you need to have the following packages installed:
 ** libwine-dev (or wine-devel, depending on your distribution)
-** when using official 0.2.x releases (and ''not'' a recent SVN copy) then you have to download Steinbergs VST SDK Version 2.3 or 2.4. For licensing issues it can not be included in the LMMS distribution. Get the necessary files here: [[http://www.steinberg.de/331+M52087573ab0.html]]
+** when using official 0.2.x releases (and ''not'' a recent SVN copy) then you have to download Steinbergs VST SDK Version 2.3 or 2.4. For licensing issues it can not be included in the LMMS distribution. Get the necessary files here: [http://www.steinberg.de/331+M52087573ab0.html http://www.steinberg.de/331+M52087573ab0.html]
 ** Copy the files aeffect.h and aeffectx.h into the directory "lmms-0.2.x/include/"
 * Compile your LMMS distribution as stated above (re-run configure)
 
