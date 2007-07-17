@@ -10,7 +10,7 @@ Use the GNU Debugger:
  Starting program: lmms
  ...
 
-If a segfault happens, LMMS will freeze and you'll get some information on the terminal. Entering ''bt'' or ''bt full'' will show a backtrace you can [[Reporting a bug|report]].
+If a segfault happens, LMMS will freeze and you'll get some information on the terminal. Entering ''bt'' or ''bt full'' will show a backtrace you can [[How to report bugs|report]].
 
 Make sure you have debugging symbols in LMMS. That usually means compiling with the ''-g'' flag and not stripping the symbols afterwards.
 
