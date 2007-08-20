@@ -33,3 +33,7 @@ You probably didn't start JACK-transport. Start an application like [http://qjac
 
 === I compiled LMMS with VST-support but it doesn't work at all ===
 Make sure you didn't pass -fomit-frame-pointer in a FLAG-parameter to configure. This is known to lead to an unusable LVSL (LMMS VST Support Layer).
+
+
+=== The singerbot-plugin just produces undefinable sounds ===
+Please make sure '''not''' to have installed ''swh-plugins''-package. It's known to break Festivals speech-synthesis for some reason.
