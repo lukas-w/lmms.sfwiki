@@ -2,9 +2,13 @@
 
 === Anonymous SVN ===
 
-If you want to access SVN for downloading the latest version, you do the following:
+If you want to access SVN for downloading the latest '''developer''' version, you do the following:
 
  svn co https://lmms.svn.sourceforge.net/svnroot/lmms/trunk/lmms
+
+For getting the latest stable version, do the following:
+
+ svn co https://lmms.svn.sourceforge.net/svnroot/lmms/branches/lmms
 
 Afterwards you have a directory ''lmms'' in your current directory which contains a complete source-directory. Before you continue, make sure you've automake-, autoconf- and libtool-packages installed! Then change into directory "lmms" and type
  make -f Makefile.svn
@@ -26,4 +30,4 @@ Of course you can use your SF.net-account for checking out a local working-copy 
 
 === WebSVN ===
 
-For browsing the SVN-repository in an easy way you can also use the [[http://svn.sourceforge.net/viewvc/lmms/trunk/|WebSVN]] of LMMS.
+For browsing the SVN-repository in an easy way you can also use the [http://svn.sourceforge.net/viewvc/lmms/trunk/ WebSVN] of LMMS.
