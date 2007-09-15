@@ -60,8 +60,6 @@ Again, even if you don't install all the libraries '''before''' configuring LMMS
 
 When compiling a recent SVN-copy of LMMS you'll automatically get LADSPA-support - independent of whether you installed LADSPA-SDK on your system or not.
 
-
-
 == Installing LMMS on Gentoo Linux ==
 
 LMMS is now avaible for Gentoo in the "semi-official" overlay www.gentoo-sunrise.org.
