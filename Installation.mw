@@ -60,16 +60,6 @@ Again, even if you don't install all the libraries '''before''' configuring LMMS
 
 When compiling a recent SVN-copy of LMMS you'll automatically get LADSPA-support - independent of whether you installed LADSPA-SDK on your system or not.
 
-== Enable VST Support ==
-
-(this needs update -> ./configure --with-stk)
-
-* To enable VST support in LMMS you need to have the following packages installed:
-** libwine-dev (or wine-devel, depending on your distribution)
-** when using official 0.2.x releases of LMMS (and ''not'' a recent SVN copy) then you have to download Steinbergs VST SDK Version 2.3 or 2.4. For licensing issues it can not be included in the LMMS distribution. Get the necessary files here: [http://www.steinberg.de/331+M52087573ab0.html http://www.steinberg.de/331+M52087573ab0.html]
-** Copy the files aeffect.h and aeffectx.h into the directory "lmms-0.2.x/include/"
-* Compile your LMMS distribution as stated above (re-run configure)
-
 
 
 == Installing LMMS on Gentoo Linux ==
