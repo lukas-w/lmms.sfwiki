@@ -56,9 +56,7 @@ To make use of the full LMMS potential you may need to install some extra librar
 Again, even if you don't install all the libraries '''before''' configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
 
 
-== Enable LADSPA Support ==
 
-When compiling a recent SVN-copy of LMMS you'll automatically get LADSPA-support - independent of whether you installed LADSPA-SDK on your system or not.
 
 == Installing LMMS on Gentoo Linux ==
 
