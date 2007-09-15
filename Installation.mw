@@ -4,8 +4,8 @@ Examples provided assume you're running Debian GNU/Linux.
 == Installing LMMS from SVN ==
 
 * First you need to get LMMS sources from the SVN repository, or update your sources, if you're upgrading from a previous version. The following command will checkout a recent SVN-copy of in a newly created folder named "lmms" in the current dir.
- svn co https://lmms.svn.sourceforge.net/svnroot/lmms/trunk lmms
-* Then you have to configure LMMS: cd into the "lmms" directory and generate the config script running
+ svn co https://lmms.svn.sourceforge.net/svnroot/lmms/branches/lmms stable-0.3
+* Then you have to configure LMMS: cd into the "stable-0.3" directory and generate the config script running
  make -f Makefile.svn
 * configure LMMS by running
  ./configure
@@ -15,7 +15,6 @@ Examples provided assume you're running Debian GNU/Linux.
 * Finally you can install LMMS by running as root
  make install
 
- 
 == Resolving dependencies ==
 
 To compile LMMS from sources you need several development libraries, from graphical to sound ones. Some are essential and some are optional.
