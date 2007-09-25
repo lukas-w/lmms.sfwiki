@@ -1,1 +1,14 @@
 For reporting any kind of bugs please use the bug-tracker at [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434]. ''Please take a look at other submitted bugs ([https://sourceforge.net/tracker/?group_id=105168&atid=640434 https://sourceforge.net/tracker/?group_id=105168&atid=640434]) before opening a new item as someone else might have reported the same bug.''
+
+== How to efficiently report bugs ==
+
+* Start a new shell/terminal:
+  bash ~ $  ulimit -l unlimited
+  bash ~ $  lmms
+
+* Now, when LMMS crashes, there will be a file called "core" in your working directory (~ per the example above).  The file may be large enough to be worth zipping.
+
+* Please send that to "Tobias Doerffel" <tobias.doerffel AT gmail DOT com> so hopefully we can locate the bug.
+** If you've been helped on LMMS' mailing-list, please send a mail to the person helping you and put the above address in Cc:
+
+''NOTE: please, do '''not''' send it to the list, it'll be rejected because of its size.''
