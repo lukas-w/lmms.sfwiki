@@ -46,4 +46,4 @@ The path to the plugins directory is (as of v. 0.3.0) hardcoded, meaning that yo
  - enter the password for root
  - type "ln -s /usr/lib64/lmms/ /usr/lib/lmms"
 
-And you're ready to go. Someone should fix this. ;-)
+And you're ready to go. Someone should fix this (hint: src/core/config_mgr.cpp ;-) )
