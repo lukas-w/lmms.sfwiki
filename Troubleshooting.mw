@@ -37,3 +37,13 @@ Make sure you didn't pass -fomit-frame-pointer in a FLAG-parameter to configure.
 
 === The singerbot-plugin just produces undefinable sounds ===
 Please make sure '''not''' to have installed ''swh-plugins''-package. It's known to break Festivals speech-synthesis for some reason.
+
+=== Plugins don't load on 64bit platforms ===
+The path to the plugins directory is (as of v. 0.3.0) hardcoded, meaning that you'll have to manually setup a link from the right place, to the expected place:
+
+ - open a terminal
+ - type "su -"
+ - enter the password for root
+ - type "ln -s /usr/lib64/lmms/ /usr/lib/lmms"
+
+And you're ready to go. Someone should fix this. ;-)
