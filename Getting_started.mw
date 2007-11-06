@@ -1,15 +1,15 @@
-=== How to get up and running with LMMS ===
+= Getting Started with LMMS =
 
-OK. This is going to be very brief, but I thought a few helpful pointers might be useful for people to avoid the 3 hours plus that I spent trying to load instrument plugins in LMMS (0.1.1).
+LMMS is a sequencer, software synthesis and composer for Linux (and soon for Windows).  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
 
-Once you fire up LMMS there are two main windows you use all the time: the song editor and the beat/bassline editor.
+When you first start LMMS, several key components are shown.  The menu bar is at the top, above the tool bar and master track controls.  The toolbar permanently on the left is the Side Bar, which is an easy way to access the instruments, sounds, presets and projects.  The windows displayed by default are the Song Editor, the Beat + Bassline Editor and the Project Notes.
 
-To insert a new instrument plugin into the beat/bassline editor, click the yellow star on the left hand side of the main window (my presets). This gives directories containing presets for the main plugins: double click one of the presets to insert them into the beat/bassline editor.
+To insert a new instrument plugin preset into the Beat + Bassline or Song Editor, click the yellow star in the Side Bar to display the Presets.  You can also insert samples by choosing the single green note icon (the 'My samples' icon) from the Side Bar.  You can click and hold on an instrument preset to hear the sound it generates.  You can then place the instruments you want into the editor by dragging it to the editor.  You can also double click presets to place them directly into the Beat + Bassline Editor.  If you make a mistake and want to remove an instrument, click on its grey 'toolkit' icon within the editor and choose 'Remove this track'.  Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organise the instruments or samples heirarchially.
 
-If you make a mistake, or want to change an instrument, click it's grey button within the beat/bassline editor so you can view it's editor window, then right click on the preset you want to change it to and click "send to active channel".
+When you insert an instrument into the editor, the instrument's editor window will be automatically opened for you.  You can also see this editor by clicking on its grey 'name' button in the Song or Beat + Bassline editors.  This 'name' button acts as a toggle, to dispel the editor window again; you can also click on its window controls as normal.  Instruments have five tabs: Plugin, Env/LFO/Filter, Arp/Chord, FX and MIDI.  The 'Plugin' tab changes with the type of instrument; all other tabs are standard for every instrument.
 
-With the audiofile processor plugin, the presets are a bit weird for normal use.. just select the Kick-4-your subwoofer patch, load your new sample and increase the sustain.
+== Creating a track ==
 
-The drum pattern editing is pretty self-explanatory. If you double click the drum editing, it opens a piano-roll so you can edit bassline patterns instead. The volume for each note is at the bottom of the piano roll (as expected).
+The standard way to create a track is to add drum instruments to the Beat + Bassline Editor and instruments for melody tracks into the Song Editor.  Then create different drum loops in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are then included in the Song Editor by clicking on the start bar of the track and dragging its end out to the end bar of the track.   The same technique can be used for repetitive bass lines.  For melody tracks, click on the start bar to create a piano roll track and then double-click that to open the Piano Roll Editor.  Place notes in the piano roll by clicking on their start quanta line and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Finally hit 'play' and enjoy your music!
 
-You can insert instruments direcly into the song-editor (for long improvisation pieces etc) but for loop-based music it is best to write each loop for each instrument in a different beat/bassline editor (they all use the same instrument stack) and then put the piece together in the song-editor.
+Of course, it's a lot more complex than that...
