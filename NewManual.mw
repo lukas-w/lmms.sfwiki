@@ -1,0 +1,45 @@
+= Introduction =
+
+Short, introductory pages on each topic, establishing what you need to run LMMS and understand this document.
+
+== [[Getting LMMS]] ==
+== [[Installing LMMS]] ==
+== [[Terms and Conventions]] ==
+== [[Getting Started]] ==
+
+= Using LMMS =
+
+A task-oriented description of how to use LMMS to compose music.
+
+== Working with Instruments ==
+== Working with Samples ==
+== Composing in the Piano Roll Editor ==
+== Composing Bass Lines and Drum Sequences ==
+== Putting it together in the Song Editor ==
+== Working with Automation ==
+== Working with LADSPA effects ==
+== Using MIDI ==
+== Exporting the finished product ==
+
+= Reference =
+
+A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
+
+== Main menu bar ==
+== Tool bar ==
+== Side bar ==
+== Plugin Editor ==
+== Song Editor ==
+== Piano Roll Editor ==
+== Beat / Bassline Editor ==
+== Automation Editor ==
+== Project Notes ==
+
+= Appendices =
+
+== Definitions ==
+== Programming Notes ==
+== Interfaces and APIs ==
+== License ==
+
+'' This is a contents page only - all actual articles are supposed to be linked from here. ''
