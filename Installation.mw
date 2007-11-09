@@ -54,10 +54,9 @@ To make use of the full LMMS potential you may need to install some extra librar
 
 Again, even if you don't install all the libraries '''before''' configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
 
+== Installation under various distributions ==
 
-
-
-== Installing LMMS on Gentoo Linux ==
+=== Gentoo Linux ===
 
 LMMS is now avaible for Gentoo in the "semi-official" overlay www.gentoo-sunrise.org.
 
@@ -70,3 +69,7 @@ So, Gentoo users who want to install LMMS only have to do:
  # emerge -av lmms
 
 This ebuild stills experimental and no-official so bugs shouldn't be reported on Gentoo's Bugzilla unless it's a problem with the ebuild and you write a patch (you can report this patch at bugs.gentoo.org on bug 100170). If you have any other problem with it, please contact me: cooldwind at gmail dot com.
+
+=== Fedora ===
+
+Fedora has (early) LMMS packages available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].
