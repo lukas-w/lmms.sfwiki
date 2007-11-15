@@ -1,0 +1,44 @@
+= Instrument Basics =
+
+An instrument (or plugin) is a sound generator that plays notes on command.  Each instrument is comprised of a specific plugin that generates the sound and a number of common ways to control the sound generated.  Many parameters of an instrument can be changed in real time using [[Automation]].
+
+= The instrument window =
+
+The instrument window looks like this:
+
+[http://tangram.dnsalias.net/lmms-imgs/instrument-default-tripleosc-plugin.png]
+
+The window is divided up into two main sections - the main controls at the top and the sound controls at the bottom.
+
+== Main controls ==
+
+The main controls are:
+
+* The instrument's volume.
+* It's position in space (i.e. left or right pan position and front to back fade position).  These can be controlled indepentently by [[Automation]] just like most other controls.
+* The effects channel that the instrument is currently using.  At the moment the effects channel is unused.
+* A button to save the settings of this instrument.
+
+These are always present no matter what plugin you have selected.
+
+== Sound controls ==
+
+The sound controls section is headed by a selector for five 'tabs':
+
+* '''Plugin''' shows the controls for how this particular plugin generates sound.  This is the only tab that changes per plugin.
+* '''Env/LFO/Filter''' shows the controls for the sound's envelope (its loudness over time), its use of the Low Frequency Oscillator, and pitch filtering.
+* '''Arp/Chord''' shows the controls for making the instrument automatically play arpeggios or chords.
+* '''FX''' shows the chain of [[LADSPA]] effects plugins operating on this instrument.
+* '''MIDI''' shows which [[MIDI]] channels this instrument will receive and send events on.
+
+Let's deal with these tabs in more detail.
+
+== The Plugin tab ==
+
+The plugin tab contains all the controls that set how this plugin actually generates sound.  For more information on this, read the individual [[Plugins]] page.
+
+== The Env/LFO/Filter tab ==
+
+The '''Envelope''' of an instrument is how loud or soft it is from the moment the note is pressed to after it is released.  Immediately before the note is pressed, the envelope is at zero and the instrument produces no noise.  The note goes through an '''attack''' from when the note is pressed until it reaches its maximum loudness.  From then there is an initial '''hold''' period where the note remains at maximum loudness.  The note then '''decay'''s to a softer pitch which is the '''sustain''' level.  Finally when the note is '''release'''d it fades away to silence.  There may also be a '''pre-delay''' between when the note is pressed and when the volume starts rising.
+
+To get a feel for these parameters it helps to compare them to the envelope of known instruments.  A piano has a very short attack and no hold, a long delay to a very quiet sustain, and finally a release which is fast but not instantaneous.  A flute has a slightly longer attack, and a very short hold and decay as the initial puff is expended.  The sustain level is then almost the full volume, and the note has a quick release.  A bell has a short attack, no hold or sustain, but a long release.  A car passing by has a long attack and long release.
