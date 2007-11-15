@@ -53,7 +53,7 @@ The Env/LFO/Filter section has three 'sub-tabs' that select the 'target' for thr
 
 In order to understand what the Cutoff and Q/Reso targets do, we must first deal with filters.
 
-== Filters ==
+=== Filters ===
 
 A filter is a method of changing a sound by letting some frequencies through and reducing other frequencies.  For instance, a low-pass filter lets only the bass, or low frequencies, through and cuts the high, treble, frequencies.  The frequency at which this takes place is controllable in LMMS.
 
