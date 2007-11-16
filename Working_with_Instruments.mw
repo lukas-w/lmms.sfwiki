@@ -125,17 +125,20 @@ The FX tab looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-instrument-default-tripleosc-arp.png
 
-In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument against the 'wet' sound of the effects in place.
+In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument by itself against the 'wet' sound of the effects in place.  The terms '''wet''' and '''dry''' are used often in this context.
 
 The effects you select are taken from the list installed on your system, so you must have LADSPA effects installed in order to have them listed here.  Click the 'add' button to select a new LADSPA effect to add to the chain.  This then gives you several controls over the process of sending sound to and receiving it from the effect:
 
-* The wet/dry balance.
-* Something else?
+* The '''wet/dry''' balance - from 0% wet (i.e. no effect, just instrument) to 100% wet (only effects).
+* The '''decay''' control sets how much silence must pass before the effect turns off completely.  Turning the effect off reduces the amount of CPU time used processing silence and reduces the chance of unwanted noise.  However, if the effect turns off too soon it may introduce a 'clipped' sound to the effect: for instance, in the case of a reverb, if the reverb time is longer than the decay time then the reverb will be cut off before it has fully died away.
+* The '''gate''' threshold controls a similar parameter: it sets the level of noise below which the instrument will be considered to be silent.  A flanger effect placed on an instrument with a very long fade-out (say a ride cymbal) will be almost inaudible at the end of the tail of the cymbal.  Cutting the effect off early may reduce the CPU requirements and the chance of unwanted effect noise being heard.
 * The '''controls''' button displays (or removes) the separate window giving the controls specific to this effect.
 
 Note that some effects will also have ways to set their internal wet/dry level.  This sometimes takes the form of a wet/dry knob, but also can be two knobs to set the level of the wet output and the level of the dry, bypassed, output.
 
 To remove an effect, select its context menu and choose 'Remove effect'.
+
+Note that the CPU increase and signal quality change when using effects is mentioned here but should not be exaggerated.  In reality, the author has used many instruments each with separate effects and has not noticed any problems with real-time playback on a modest dual-core processor.  The CPU levels during such a performance likewise remained very low.
 
 == The MIDI tab ==
 
