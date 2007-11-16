@@ -146,6 +146,13 @@ The MIDI tab looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-instrument-default-tripleosc-midi.png
 
-These controls allow you to set which MIDI channel the instrument receives commands on, and which it then sends commands to.
+These controls allow you to set which MIDI channel the instrument receives MIDI events on, and which it sends events to.  Both these controls work in similar ways:
 
-'''Note''': the Arp/Chord, FX and MIDI tab writeups are incomplete.
+* Click the '''Receive MIDI-events''' or '''Send MIDI-events''' title next to the light to turn the reception or sending of MIDI events on or off.
+* The '''channel''' setting controls which MIDI channel events will be received or sent on.
+* The '''Default velocity''' control clamps all incoming or outgoing notes to once velocity when set.
+* The '''Device selector''' button shows a list of which devices in your system can act as sources or sinks for MIDI events.
+
+= Navigation =
+
+|| Prev: [[GettingStarted]] || Up: [[NewManual]] || Next: [[Working with Samples]] ||
