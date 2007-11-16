@@ -1,0 +1,14 @@
+The AudioFile Processor plugin is used to play back uncompressed or compressed samples in an instrument.  It looks like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-instrument-audiofile-wav.png
+
+The main controls are:
+
+* The '''amplitude''' for playback of the wave file, in percentage of the original.  You can go above 100% if your wave file is quiet and you want to make it louder.  Because of the way the audio signal is processed in LMMS, if the master volume or the volume of the instrument or track is low enough you won't cause any clipping.  Naturally, you can also quiet a sound down by using percentages less than 100%.  This won't correct clipping that was present in the original file, however.
+* The '''start''' and '''end''' of playback of the sample.  This can be used if you only want to play back a specific part of a sample.
+The symbols to the right are also controls:
+* The left-pointing arrow controls the '''direction''' of playback.  When grey, the sample is played forward; when blue, the sample is played in reverse.
+* The cyclic arrows control whether the sample is '''repeated''' from the beginning once it reaches the end (or vice versa for reversed playback) if the note is still held down and playback has progressed all the way through the file.
+* The folder icon allows you to choose a '''new file''' from a file open dialog.  You can also change the current sample by dragging a sample from the Samples section of the Side Bar.
+
+The radio button controls whether the wave file is displayed as dots or lines.  Originally the dots display was intended to be quicker to produce than the lines display.  This is no longer the case, and the dots display produces no significant difference in the look of the wave file.  This control is due to be phased out in the next release.
