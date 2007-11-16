@@ -12,3 +12,7 @@ The symbols to the right are also controls:
 * The folder icon allows you to choose a '''new file''' from a file open dialog.  You can also change the current sample by dragging a sample from the Samples section of the Side Bar.
 
 The radio button controls whether the wave file is displayed as dots or lines.  Originally the dots display was intended to be quicker to produce than the lines display.  This is no longer the case, and the dots display produces no significant difference in the look of the wave file.  This control is due to be phased out in the next release.
+
+= Navigation =
+
+|| Up: [[Plugins]] || Next: [[BitInvader Plugin]] ||
