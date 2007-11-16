@@ -1,9 +1,13 @@
 This is the current list of instrument plugins, and links to their specific sections in the documentation:
 
 * [[AudioFileProcessor Plugin]] - playing audio files.
-* [[Bit Invader Plugin]] - 'simple and dirty' wavetable synthesis.
+* [[BitInvader Plugin]] - 'simple and dirty' wavetable synthesis.
 * [[Kicker Plugin]] - drum synthesis.
 * [[LB302 Plugin]] - a monophonic implementation of the TB303 sound.
-* [[PolyLB302 Plugin]] - a polyphonic version of the LB302.
+* [[Organic Plugin]] - an additive organ synthesizer.
+* [[PatMan Plugin]] - a GUS-compatible patch instrument.
+* [[PluckedStringSynth Plugin]] - a synthesizer designed to recreate the sound of plucked strings.
+* [[PoLyB302 Plugin]] - a polyphonic version of the LB302.
 * [[SingerBot Plugin]] - a 'singing' sound synthesizer.
 * [[TripleOscillator Plugin]] - the 'standard' synthesis module.
+* [[Vibed Plugin]] - an alternative vibrating-string synthesis module.
