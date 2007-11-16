@@ -55,9 +55,11 @@ In order to understand what the Cutoff and Q/Reso targets do, we must first deal
 
 === Filters ===
 
-A filter is a method of changing a sound by letting some frequencies through and reducing other frequencies.  For instance, a low-pass filter lets only the bass, or low frequencies, through and cuts the high, treble, frequencies.  The frequency at which this takes place is controllable in LMMS.
+A filter is a method of changing a sound by letting some frequencies through and reducing other frequencies.  For instance, a low-pass filter lets only the bass, or low frequencies, through and cuts the high, treble, frequencies.  The frequency at which this takes place is set by the '''cutoff''' frequency control.
 
-Although it is technically possible to build a frequency that has 'cuts' the unwanted frequencies entirely, it usually introduces unwanted delays and effects into the sound.  Therefore, most filters also have a '''Q factor''' setting which controls how steep or sharp the drop-off is.  The larger the Q factor, the steeper the drop-off in the sound level.
+Although it is technically possible to build a frequency that has 'cuts' the unwanted frequencies entirely, it usually introduces unwanted delays and effects into the sound.  Therefore, most filters also have a '''Q factor''' setting which controls how steep or sharp the drop-off is.  The larger the Q factor, the steeper the drop-off in the sound level.  In some filter designs, the Q factor also causes a resonance at harmonics of the cutoff frequency, so often the Q factor is also called the filter's ''resonance''.
+
+In order to enable the filter, you must press the 'light' button next to the word '''filter'''.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
 
 The types of filter that LMMS offers are:
 
@@ -67,3 +69,11 @@ The types of filter that LMMS offers are:
 * '''Notch''' - The inverse of the Bandpass filter, this cuts only a certain frequency band.
 * '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesisers.
 * '''2x Lowpass''' - A lowpass filter with twice the Q factor.
+
+Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies - using anything other than a sine wave will do that - and then set the cutoff and Q factor and see how it changes the sound.
+
+=== Filters with Envelopes ===
+
+Filters do not have to be static and unchanged throughout the entire note.  LMMS allows you to control both the cutoff frequency and the Q factor via an envelope.  Nor does this envelope have to be the same as the volume envelope for the note - each parameter can have an independent envelope.  The envelope sets the value from its maximum or minimum to the set control level; for example, if a low-pass filter has the cutoff control set to 1000Hz and an envelope is used to sweep this value up in a long attack and long decay, the value of the control will go from 14000Hz (the maximum) down to 1000Hz and then back up.  This will make the instrument sound like it's been damped down and then the damping removed.
+
+Another typical use of this is to add a resonance to an instrument that changes with time.  In this case the volume and Q envelopes would be quite similar, so that as the note hits the resonance sweeps down, and then disappears upwards again when the note is released.  (Writer's note: add more detail about how to actually achieve this.)
