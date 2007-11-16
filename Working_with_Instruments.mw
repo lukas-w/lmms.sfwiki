@@ -61,7 +61,7 @@ A filter is a method of changing a sound by letting some frequencies through and
 
 Although it is technically possible to build a frequency that has 'cuts' the unwanted frequencies entirely, it usually introduces unwanted delays and effects into the sound.  Therefore, most filters also have a '''Q factor''' setting which controls how steep or sharp the drop-off is.  The larger the Q factor, the steeper the drop-off in the sound level.  In some filter designs, the Q factor also causes a resonance at harmonics of the cutoff frequency, so often the Q factor is also called the filter's ''resonance''.
 
-In order to enable the filter, you must press the 'light' button next to the word '''filter'''.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
+In order to enable the filter, press the '''filter''' title bar and the light at the left will turn on.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
 
 The types of filter that LMMS offers are:
 
