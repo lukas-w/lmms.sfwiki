@@ -4,6 +4,8 @@ Samples are simply recorded audio in compressed or uncompressed form.  They can 
 
 = Samples as sounds =
 
+A sample treated just as a sound means that you want to play the sample back at exactly the same pitch and speed it was recorded at.  The best way to do this
+
 = Samples as instruments =
 
 = Samples as percussion =
