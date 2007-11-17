@@ -16,9 +16,9 @@ The instrument window looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-instrument-default-tripleosc-plugin.png
 
-The window is divided up into two main sections - the main controls at the top and the sound controls at the bottom.
+The window is divided up into three main sections - the instrument controls at the top, the sound controls in the middle and the piano keys at the bottom.
 
-== Main controls ==
+== Instrument controls ==
 
 The main controls are:
 
@@ -160,6 +160,16 @@ These controls allow you to set which MIDI channel the instrument receives MIDI 
 * The '''channel''' setting controls which MIDI channel events will be received or sent on.
 * The '''Default velocity''' control clamps all incoming or outgoing notes to once velocity when set.
 * The '''Device selector''' button shows a list of which devices in your system can act as sources or sinks for MIDI events.
+
+= Piano Keys =
+
+At the bottom of the Instrument window is a small section of a piano keyboard.  This will display the notes that are playing by greying out the key or keys as they're played.
+
+When the instrument window is selected, you can use the keyboard of your computer to play notes in a two-octave range.  This starts from Z at C3 and goes horizontally across the bottom two rows of tke keyboard to M playing B3 - i.e. ZXCVBNM play the natural notes and SDGHJ play the sharps and flats.  It continues with Q playing C4 and uses the top two rows of the keyboard up to P playing E5 - i.e. QWERTYUIOP plays the natural notes and 2356790 play the sharps and flats.  In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected.
+
+In addition, the orange mark just above the keys shows the 'base note' of the keyboard.  Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz.  For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth).  This allows you to adjust an individual instrument to be pitched correctly in relation to all the others.  This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz.  However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch.
+
+The scroll bar at the bottom of the screen allows you to move up and down (i.e. left and right) the keyboard to see different ranges of notes.
 
 = Navigation =
 
