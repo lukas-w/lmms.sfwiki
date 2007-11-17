@@ -12,7 +12,7 @@ The Sample Track also allows you to play several different samples in the same t
 
 You can also overlap samples and they will play simultaneously rather than one occluding the other.  However, there is no indication in the sample of where the overlaps are, so even though you can put one sample completely over another you will not be able to see the sample underneath unless you actually move the top sample.  This can be confusing and is not recommended.
 
-Unlike other editors, these tracks are stereo by default.  If you have two mono recordings for the left and right channel and want to include them as a stereo pair, you can add them individually into separate sample tracks.  At the moment there is no way to pan each track left or right, however.  You may be better off at this stage combining the two tracks into one stereo track in your favourite audio editor.
+Unlike other music composition programs, these tracks are stereo by default.  If you have two mono recordings for the left and right channel and want to include them as a stereo pair, you can add them individually into separate sample tracks.  At the moment there is no way to pan each track left or right, however.  You may be better off at this stage combining the two tracks into one stereo track in your favourite audio editor.
 
 = Samples as instruments =
 
