@@ -18,6 +18,10 @@ Unlike other music composition programs, these tracks are stereo by default.  If
 
 Typically, you will use a sample as an instrument when the sample is of an instrument playing a single note and you want to play that note at different pitches to make a melody or harmony line.
 
+In order to create an instrument using a sample, drag the sample from the Samples section of the Side Bar onto the Song Editor.  This will create a new track with the sample in an [[AudioFileProcessor Plugin]] instrument window, already displayed if you need to change some parameters.  Often you might need to change the amplitude or start or end time in order to get the sound right, so having this window opened for you makes this easier.  To close it, simply choose its close window or the large instrument button in the Song Editor.
+
+You then create notes and edit them using the [[Piano Roll Editor]].
+
 = Samples as percussion =
 
 = Navigation =
