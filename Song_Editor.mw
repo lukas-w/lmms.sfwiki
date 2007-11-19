@@ -1,0 +1,11 @@
+The Song Editor displays the structure of your song.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-simple.png
+
+Down the left-hand side of the window are listed the instrument and beat/bassline tracks available; on the right of these is listed the activity of each track at each bar in the song. For beat lines this is simply a block showing that the beat/bassline is active; Instruments will have a small display of the notes in a piano roll. Double-clicking on this small note display will bring up the Piano Roll editor for that instrument at that point in time.
+
+You can add new instrument track to the song editor by dragging them from the Side Bar. The instrument's [[plugin]] will be displayed, allowing you to make any changes you need to the sound of the instrument. You can dispel this plugin display by using its close button or by clicking on the instrument name button in the song editor.
+
+To add a new beat or bassline track, you need to open the Beat & Bassline Editor and click the 'new line' button. You can then right-click on the name of the beat/bassline in the song editor in order to rename it to something more sensible.
+
+You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the stippled handle on the left-hand side of the instrument line. You can also change the colour of the track by right-clicking on a segment of the track and choosing 'Change color' from the drop-down menu, allowing you to easily see track groupings.  You can also change the icon of the track to more accurately reflect what instrument it is.  The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
