@@ -24,6 +24,8 @@ You then create notes and edit them using the [[Piano Roll Editor]].
 
 = Samples as percussion =
 
+A common use of samples is for percussion and repetitive note patterns.  To do this, drag the sample from the Side Bar into the [[Beat Bassline Editor|Beat + Bassline Editor]].  You can also double-click on a sample to directly add it to the Beat + Bassline Editor.  Like other instruments, the instrument plugin is displayed when the track is opened in case you want to edit any of its parameters.
+
 = Navigation =
 
 || Previous: [[Working with Instruments]] || Up: [[NewManual]] || Next: [[Composing in the Piano Roll Editor]] ||
