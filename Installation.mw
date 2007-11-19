@@ -23,7 +23,9 @@ To compile LMMS from sources you need several development libraries, from graphi
 
 * Qt 3.x libs and Qt 3.x development libs, both multithreaded
 ** under Debian run ''aptitude install libqt3-mt libqt3-mt-dev libqt3-headers qt3-dev-tools''
+** under Fedora and RPM based system run ''yum install qt-devel''.  On 64-bit systems where you do not intend to compile 32-bit targets, run ''yum install qt-devel.x86_64'' so as not to install the 32-bit development libraries.
 ** On a 64 bit system that uses lib64qt3, it may be necessary to make some modifications before configure will find your qt libraries. The kludge that worked for me was editing configure, and replacing all occurances of '' $QTDIR/lib'' with ''$QTDIR/lib64''  --- ''[[removethis-west@gratainc.com|Alex West]] 2006/04/30 10:30 Mandriva 2006''
+** Alternatively, on 64-bit systems you may be able to do ''./configure --with-qtdir=/usr/lib64/qt-3.3/''. --[[User:PaulWay|PaulWay]] 22:19, 18 November 2007 (PST)
 
 Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
 * [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info
