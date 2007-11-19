@@ -38,7 +38,7 @@ To '''copy a segment''', simply hold the ''control'' key down ''before you click
 
 To '''delete a segment''', click on it using the middle mouse button or right-click on it and choose 'delete' from the context menu.
 
-Double-clicking on a segment aims to '''edit the segment's contents'''.  If you double-click on an instrument track segment, the [[Piano Roll Editor]] window will open and the notes in that segment will be displayed for editing.  If you double-click on a sample track segment, a file open dialog will display allowing you to choose a new sample for that segment.  If you double-click on a beat or bassline segment, the Beat + Bassline Editor window will open and that beat or bassline will be displayed.
+Double-clicking on a segment aims to '''edit the segment's contents'''.  If you double-click on an instrument track segment, the [[Piano Roll Editor]] window will open and the notes in that segment will be displayed for editing.  If you double-click on a sample track segment, a file open dialog will display allowing you to choose a new sample for that segment.  If you double-click on a beat or bassline segment, the [[Beat Bassline Editor|Beat + Bassline Editor]] window will open and that beat or bassline will be displayed.
 
 = The Song Editor toolbar =
 
