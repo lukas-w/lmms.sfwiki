@@ -6,7 +6,7 @@ An instrument is a sound generator that plays notes on command.  Each instrument
 
 You can create an instrument in a variety of ways.
 
-The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]].  You drop it in the editor that you want to use it in - most tone-producing instruments (samples and synthesizers) will go into the [[Song Editor]] and drum sounds will go into the [[Beat Bassline Editor]].  This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
+The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]].  You drop it in the editor that you want to use it in - most tone-producing instruments (samples and synthesizers) will go into the [[Song Editor]] and drum sounds will go into the [[Beat Bassline Editor|Beat + Bassline Editor]].  This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
 
 You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the editor as above.
 
