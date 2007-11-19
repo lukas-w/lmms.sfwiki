@@ -1,5 +1,7 @@
 This is the current list of instrument plugins, and links to their specific sections in the documentation:
 
+= Available Plugins =
+
 * [[AudioFileProcessor Plugin]] - playing audio files.
 * [[BitInvader Plugin]] - 'simple and dirty' wavetable synthesis.
 * [[Kicker Plugin]] - drum synthesis.
@@ -11,3 +13,7 @@ This is the current list of instrument plugins, and links to their specific sect
 * [[SingerBot Plugin]] - a 'singing' sound synthesizer.
 * [[TripleOscillator Plugin]] - the 'standard' synthesis module.
 * [[Vibed Plugin]] - an alternative vibrating-string synthesis module.
+
+= Navigation =
+
+|| Prev: [[Side Bar]] || Up: [[NewManual]] || Next: [[Song Editor]]
