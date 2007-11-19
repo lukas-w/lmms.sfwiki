@@ -26,6 +26,20 @@ Note that there is no button allowing you to add a new instrument track.  This i
 
 You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the stippled handle on the left-hand side of the instrument line. You can also change the colour of the track by right-clicking on a segment of the track and choosing 'Change color' from the drop-down menu, allowing you to easily see track groupings.  You can also change the icon of the track to more accurately reflect what instrument it is.  The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
 
+== Working with Segments ==
+
+Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the insert tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-button-insert-tool.png).
+
+To create a new segment, simply left-click on the track activity inside the bar in which you want the segment to start.  For instrument and sample tracks, this creates a blank area to put notes or samples in.  For beat and bassline tracks, this creates one bar filled with the bassline as programmed.
+
+To move a segment, simply drag it around by clicking and holding anywhere inside the segment.  Normally this will lock to the start of the bar, but you can free drag (with a 1/64th resolution) the segment by pressing the ''control'' key down ''once you have started dragging''.
+
+To copy a segment, simply hold the ''control'' key down ''before you click'' and then drag the segment to its copies' new location.  You can also right-click on the segment, choose ''copy'' from the context menu, click to create a new sample where you want the copy to go, right click and choose ''paste'' from the menu.  You can't copy segments of one type to tracks of another type, however.
+
+To delete a segment, click on it using the middle mouse button or right-click on it and choose 'delete' from the context menu.
+
+Double-clicking on a segment aims to work with the contents of that segment.  If you double-click on an instrument track segment, the [[Piano Roll Editor]] window will open and the notes in that segment will be displayed for editing.  If you double-click on a sample track segment, a file open dialog will display allowing you to choose a new sample for that segment.  If you double-click on a beat or bassline segment, the Beat + Bassline Editor window will open and that beat or bassline will be displayed.
+
 = The Song Editor toolbar =
 
 The Song Editor window has a toolbar that allows you to control playback of the song, add new tracks, choose edit tools, customise the method of playback, and control the view of the song.
