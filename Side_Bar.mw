@@ -1,0 +1,21 @@
+The Side Bar is permanently attached to the left-hand side of the window.  It has two modes, retracted and extended.  In retracted mode it looks like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-retracted.png
+
+It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.  When you click on any one section label, the side bar will extend and show you the contents of that section.
+
+= The Instrument Plugins section =
+
+= The Projects section =
+
+= The Samples section =
+
+= The Presets section =
+
+= The Home Directory section =
+
+= The Root File System section =
+
+= Navigation =
+
+|| Prev: [[Tool bar]] || Up: [[NewManual]] || Next: [[Plugins]] ||
