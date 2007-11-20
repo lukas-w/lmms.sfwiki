@@ -9,12 +9,14 @@ Short, introductory pages on each topic, establishing what you need to run LMMS 
 
 = Tutorials =
 
+Step-by-step task-oriented guides to achieving particular goals in LMMS.
+
 == [[Getting started]] - a brief walk-through for the impatient ==
 == [[Your First Song with LMMS]] - a more step-by-step tutorial ==
 
 = Using LMMS =
 
-A task-oriented description of how to use LMMS to compose music.
+A thematic description of how the various tools in LMMS work.
 
 == [[Working with Instruments]] ==
 == [[Working with Samples]] ==
@@ -47,4 +49,4 @@ A reference style description of the functions of each menu item and tool, inclu
 == Interfaces and APIs ==
 == License ==
 
-'' This is a contents page only - all actual articles are supposed to be linked from here. ''
+'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
