@@ -8,9 +8,9 @@ Typically you'll be adding samples of drums and instrument notes into the Beat +
 
 = Composing patterns =
 
-Beside each instrument plugin is a display of the beats in a bar, divided up into sixteenth-notes (four per beat in a four-beat bar).  This resembles the classic interface of the [http://en.wikipedia.org/wiki/Roland_TR-808 Roland TR-808], with the four beats shaded alternately for easy reference.  Pressing the buttons turns on the note at that particular sixteenth-note of the bar; pressing it again turns it off.
+Beside each instrument plugin is a display of the beats in a bar, divided up into steps - four steps per beat in a four-beat bar.  This resembles the classic interface of the [http://en.wikipedia.org/wiki/Roland_TR-808 Roland TR-808], with the four beats shaded alternately for easy reference.  Pressing the step buttons turns on the note at that particular step of the bar; pressing it again turns it off.
 
-The best way to get the feel for this is to add a bass or kick drum and a hi-hat to the Beat + Bassline Editor, turn on the first, fifth, ninth and thirteenth buttons (i.e. the first sixteenth-note of each beat in the bar) and press the 'play' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-toolbar-play.png).  This will start the rhythm playing at four steady beats in a bar.  Then you can turn buttons on and off on each instrument ''while the rhythm is playing'' to get a feel for the sound of that rhythm.  This will give you an intuitive feel for the sound of the rhythm based on when the notes are played, and is the best way to refine a pattern.
+The best way to get the feel for this is to add a bass or kick drum and a hi-hat to the Beat + Bassline Editor, turn on the first, fifth, ninth and thirteenth steps (i.e. the first step of each beat in the bar) and press the 'play' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-toolbar-play.png).  This will start the rhythm playing at four steady beats in a bar.  Then you can turn buttons on and off on each instrument ''while the rhythm is playing'' to get a feel for the sound of that rhythm.  This will give you an intuitive feel for the sound of the rhythm based on when the notes are played, and is the best way to refine a pattern.
 
 == More than one pattern ==
 
