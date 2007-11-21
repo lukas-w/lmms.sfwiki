@@ -28,7 +28,7 @@ You can drag instruments and beat/bassline tracks up and down in order to organi
 
 == Working with Segments ==
 
-Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the insert tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-button-insert-tool.png).
+Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-toolbar-edit.png).
 
 To '''create a new segment''', simply left-click on the track activity inside the bar in which you want the segment to start.  For instrument and sample tracks, this creates a blank area to put notes or samples in.  For beat and bassline tracks, this creates one bar filled with the bassline as programmed.
 
