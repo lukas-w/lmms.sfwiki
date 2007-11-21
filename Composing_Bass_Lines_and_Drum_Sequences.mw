@@ -63,6 +63,8 @@ The Beat + Bassline Editor can also be used to play instruments, not just drum s
 
 Using the standard pattern buttons as above, the sample will play its [[Working with Instruments#Base note|base note]].  However, sometimes you will have a repetitive bassline that does not play the same note all the time.  In this situation, right-click on the pattern buttons and choose '''Open in piano-roll'''.  This will open the [[Piano Roll Editor]] with a new pattern.  This pattern, too, can be any length (not just a single bar).
 
+Putting notes in a piano roll is also useful for times when you need more notes, or more accuracy in placement, than the sixteen steps per bar of the Beat + Bassline Editor can give you.  It also allows you to vary the volume of each note.
+
 = Navigation =
 
 Reference: [[Beat Bassline Editor|Beat + Bassline Editor]
