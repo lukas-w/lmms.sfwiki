@@ -6,6 +6,14 @@ It has six sections that provide easy access to the variety of files and presets
 
 = Instrument Plugins =
 
+When you click on the Instrument Plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-retracted-instrument.png), the sidebar expands to show you the available instrument plugins:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-extended-instrument-none.png.
+
+By default, no instrument plugin is selected.  When you hover the mouse over one, its box will expand to include a description of the plugin in question, like so:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-extended-instrument-audiofile.png
+
 = Projects =
 
 = Samples =
