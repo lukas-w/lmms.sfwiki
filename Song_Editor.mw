@@ -52,16 +52,19 @@ The grey stippled area immediately at the left of the track (http://tangram.dnsa
 
 Next appears the '''track tools menu''' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-tools.png). This displays a drop-down menu with two options: '''clone track''' and '''remove track'''.  Cloning a track makes an exact copy of the track and its contents and pastes them at the bottom of the track list.  Hopefully it won't be necessary to explain what removing a track does. :-)
 
-After this is the '''mute control''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-mute.png).  This allows you to turn off the sound of this track temporarily.  This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument.  Right clicking on the track gives you the option to [[[Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control.  Once the automation menu is displayed, right-clicking ''again'' on the control (which will require you to move your mouse slightly to the left) will toggle all the track mute buttons - in other words, all tracks 'on' will be turned 'off' and vice versa.
+After this is the '''mute control''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-mute.png).  This allows you to turn off the sound of this track temporarily.  This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument.  Right clicking on the track gives you the option to [[Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control.  Once the automation menu is displayed, right-clicking ''again'' on the control (which will require you to move your mouse slightly to the left) will toggle all the track mute buttons - in other words, all tracks 'on' will be turned 'off' and vice versa.
 
-The rest of the track settings displays the '''sound source'''.  This varies between instrument tracks, sample tracks and beat/bassline tracks.
+The rest of the track settings displays the '''sound source''' information.  This varies between instrument tracks, sample tracks and beat/bassline tracks.
 
-For instrument tracks you get a volume control (also automatable), a drop-down menu to select the track's midi inputs and outputs, and the button that displays the instrument's plugin.
+For instrument tracks you get a volume control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-volume.png) (also automatable), a drop-down menu to select the track's midi inputs and outputs (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-midi.png), and the button that displays the instrument's plugin ((http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-plugin.png).
 
-For sample tracks you get a volume control (likewise also automatable), a button button which allows you to set up [[LADSPA|effects]]] on the samples in the track, and the name of the sample track (which can be edited by right-clicking on it).
+For sample tracks you get a volume control (likewise also automatable), a button which allows you to set up [[LADSPA|effects]] on the samples in the track, and the name of the sample track (which can be edited by right-clicking on it).
 
 For beat / bassline tracks, you get an graphic displaying the content of the pattern (clicking on this gives you a file open dialog open to a directory of icons to allow you to choose an icon which reflects the content of the track) and the pattern's name
 (likewise editable with a right-click).
+
+At the far right of the sound source there is an '''activity bar''' ((http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-activity-off.png) which lights up when the instrument is actually playing.
+
 = The Track Context menu =
 
 The track context menu appears when you right-click on a segment of a track's activity.
