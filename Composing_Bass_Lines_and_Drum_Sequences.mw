@@ -45,7 +45,27 @@ There are advantages and disadvantages to each of the above approaches:
 
 Ultimately, like so many things in the artistic world it is better to use the methods you are familiar with than to struggle with a way that someone else considers 'correct'.  For beginners I would recommend starting with the first or second methods until you have established a clear preference.  It is also very useful to pick and choose from the methods here as the situation dictates.
 
+= Putting patterns into your song =
+
+Naturally, the patterns by themselves do not create rhythms in your songs.  Using the editing tools in the [[Song Editor]], you 'draw' new areas for the rhythm to be active at any time in your song.  This also allows you to have a pattern that goes for a fraction of a bar (using the drag-with-control method); however, you cannot shrink a pattern to be less than the size of one bar.
+
+= More than one bar? =
+
+Sometimes you have a rhythm that that is two bars long; or one that repeats not every bar, but every two bars.  Sometimes it might make sense to create two patterns ('rhythm 1' and 'rhythm 2', for example) and alternate their use in the Song Editor.  However, LMMS caters specifically for this by allowing you to create patterns that are more than one bar long.
+
+Simply right-click on the pattern buttons and choose the number of bars you want to add in the '''Add Steps''' submenu of the pattern's context menu.  This will allow you to increase the number of bars that ''this specific pattern'' takes.  Instruments that are not set to have this many steps will repeat every bar.  You can likewise remove steps using the '''Remove Steps''' submenu if you've changed your mind.
+
+When adding a new pattern that is more than one bar long in the Song Editor, the initial pattern 'block' size will the same number of bars as the pattern.  However, once created, you can shrink or enlarge this in multiples of a single bar, thus allowing you to cut a multiple-bar pattern in mid-pattern.  The 'repeat' marks in these bars will be displayed at multiples of the pattern length, for easy identification.
+
+= Not just the same note? =
+
+The Beat + Bassline Editor can also be used to play instruments, not just drum samples.  This is where the word 'bassline' in the title comes from - it is commonly used to play the repetitive notes of a typical bassline in electronic music.  This saves a lot of the copy and paste process that would be required if you were composing for the instrument directly in a track of the Song Editor.
+
+Using the standard pattern buttons as above, the sample will play its [[Working with Instruments#Base note|base note]].  However, sometimes you will have a repetitive bassline that does not play the same note all the time.  In this situation, right-click on the pattern buttons and choose '''Open in piano-roll'''.  This will open the [[Piano Roll Editor]] with a new pattern.  This pattern, too, can be any length (not just a single bar).
+
 = Navigation =
+
+Reference: [[Beat Bassline Editor|Beat + Bassline Editor]
 
 || Prev: [[Composing in the Piano Roll Editor]] || Up: [[NewManual]] || Next: [[Putting it together]] ||
 
