@@ -1,0 +1,52 @@
+Bass lines and drum sequences are repetitive patterns usually lasting one, or occasionally several, bars.  They are composed using the [[Beat Bassline Editor|Beat + Bassline Editor]], shown here:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-bb-simple.png
+
+= Adding new instruments =
+
+Typically you'll be adding samples of drums and instrument notes into the Beat + Bassline Editor.  For this reason, simply double-clicking on a sample or preset in the [[Side Bar]] will add it directly into the Beat + Bassline Editor.  You can also drag samples and presets onto it as well and drop them in the free area at the bottom of the editor window.  You can rearrange the order of instruments by dragging tracks by their stippled handle (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-grabbar.png).
+
+= Composing patterns =
+
+Beside each instrument plugin is a display of the beats in a bar, divided up into sixteenth-notes (four per beat in a four-beat bar).  This resembles the classic interface of the [http://en.wikipedia.org/wiki/Roland_TR-808 Roland TR-808], with the four beats shaded alternately for easy reference.  Pressing the buttons turns on the note at that particular sixteenth-note of the bar; pressing it again turns it off.
+
+The best way to get the feel for this is to add a bass or kick drum and a hi-hat to the Beat + Bassline Editor, turn on the first, fifth, ninth and thirteenth buttons (i.e. the first sixteenth-note of each beat in the bar) and press the 'play' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-toolbar-play.png).  This will start the rhythm playing at four steady beats in a bar.  Then you can turn buttons on and off on each instrument ''while the rhythm is playing'' to get a feel for the sound of that rhythm.  This will give you an intuitive feel for the sound of the rhythm based on when the notes are played, and is the best way to refine a pattern.
+
+== More than one pattern ==
+
+This has all taken place in the first of what will be many separate patterns in your song.  This is called 'Beat/Bassline 1' in the [[Song Editor] and in the pattern selector of the Beat + Bassline Editor.  You can create a new pattern using the '''new bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-button-new-bassline.png) and it will be named incrementally from there.  You can also rename these patterns by right-clicking on their name in the Song Editor and typing in a new name.  This is often useful to more specifically identify what the pattern is for future editing.
+
+= Philosophies of pattern design =
+
+There are several schools of thought to pattern design, usually stemming from the kind of software one has used previously.  To illustrate the differences, imagine a typical 4/4 'trance' rhythm (the 'oontz-oontz-oontz-oontz' style: kick-snare-kick-snare-kick-snare-kick-snare) and a variation on that style with two snare hits instead of one at the end of the bar.
+
+== One pattern per bar structure ==
+
+This is probably the most common style of pattern in use.  Each separate pattern includes beats for all the instruments it uses.  In our example, you would have one pattern containing the kick-snare-kick-snare-kick-snare-kick-snare and one containing the kick-snare-kick-snare-kick-snare-kick-snare''snare''.
+
+== Pattern and variations ==
+
+Once again we have two patterns in our example.  The key change here is that the variation pattern ''only'' includes the snare hit on the last sixteenth of the bar.  In order to get the complete variation pattern, we sequence both the rhythm and the variation ''together'' in the Song Editor.
+
+== One pattern per instrument ==
+
+We now change our philosophy significantly by having three separate patterns.  One contains just the kick drum, common to both the rhythm and variation.  The second contains just the snare drum for the rhythm, and the third contains just the snare for the variation.  Once again, in order to get the complete effect you sequence the tracks together in the Song Editor.
+
+== Which is best? ==
+
+There are advantages and disadvantages to each of the above approaches:
+
+* The first makes logical sense considered from a musical notation point of view, and is often easier to see the integration of all the instruments in the rhythm.  For instance, you will get a clearer picture of whether two instruments play on the same sixteenth using this method.
+* However, the first means that you have to reprogram the entire rhythm for each minor variation.  It is often much quicker to simply program that second pattern to contain only the notes that vary.  On the other hand, this does not allow you to take out notes that are already in the 'base' pattern.
+* This might logically suggest that a further break-down into common sections and their variations.
+* The 'one instrument per pattern' method is the logical extension of this.  While it is often harder to compose the instruments individually, it is easy to combine them in new and novel ways in the Song Editor.
+* Adding more tracks to separate out these individual differences, however, may make the rhythm tracks harder to manage and combine together.
+* On the other hand, it often feels tiring to create yet another drum track for another slight variation in the rhythm, even when this might sound significantly better.  The temptation to reuse what is already there even if it sounds boring is one of the great causes of songs sounding dispirited and ordinary.
+
+Ultimately, like so many things in the artistic world it is better to use the methods you are familiar with than to struggle with a way that someone else considers 'correct'.  For beginners I would recommend starting with the first or second methods until you have established a clear preference.  It is also very useful to pick and choose from the methods here as the situation dictates.
+
+= Navigation =
+
+|| Prev: [[Composing in the Piano Roll Editor]] || Up: [[NewManual]] || Next: [[Putting it together]] ||
+
+[[Category:HowTo]]
