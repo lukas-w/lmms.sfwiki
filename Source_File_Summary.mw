@@ -1,0 +1,3 @@
+== Source Files ==
+'''about_dialog.h''' - Declaration of class aboutDialog (The "About LMMS" dialog box)
+'''aeffectx.h''' - simple header to allow VeSTige compilation and eventually work
