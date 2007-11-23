@@ -71,6 +71,12 @@ This controls the length of notes made with the creation tool.  You can either s
 
 = Keyboard =
 
+Below the tool bar on the left-hand side of the window is the keyboard.  This shows a segment of a keyboard, seen side-on, that relates to the notes displayed in the piano roll.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-keyboard.png
+
+This can be scrolled up and down using the scroll bar on the right-hand side of the piano roll, or by using the scroll wheel on your mouse.  You can also click on this to play the corresponding note.
+
 = Notes =
 
 = Velocities =
