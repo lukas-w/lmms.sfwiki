@@ -14,7 +14,17 @@ The next drop-down menu (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-bbedit
 
 The '''new bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-bbeditor-toolbar-new-bassline.png) creates a new bassline, incrementally numbered from "Beat/Bassline 0" up.  This can (and should) be renamed in the [[Song Editor]] to make it easier to identify which pattern you are editing.
 
-= Instrument Controls =
+= Instrument Track =
+
+Each instrument added to the Beat + Bassline Editor is listed in a bar looking like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-bbeditor-track-default.png
+
+== Instrument Settings ==
+
+The instrument settings are very similar to the [[Song Editor]]'s [[Song Editor#The Track Settings bar|track settings]] bar.  This gives you a way to move the instrument up and down in the order, clone or remove the instrument, change or automate the volume, and set the instrument's [[Plugins|plugin]] settings.
+
+== Steps ==
 
 = Beat timeline =
 
