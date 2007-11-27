@@ -1,1 +1,3 @@
-(Initial write-up coming.)
+So you've just loaded up LMMS and you want to find your way around?  In this situation, programmers write a "hello world" program; we're going to write "Popcorn", a classic for the synthesiser that should be well known.
+
+You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of preset sounds.  You can hold the mouse button down on any preset to hear a preview of its sound.  Drag the "Bell" preset onto the space in the middle of the Song Editor and, when you drop it, a new track will be created with that preset as the instrument.
