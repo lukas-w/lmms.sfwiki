@@ -1,18 +1,18 @@
 The Side Bar is permanently attached to the left-hand side of the window.  It has two modes, retracted and extended.  In retracted mode it looks like this:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-retracted.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted.png
 
 It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.  When you click on any one section label, the side bar will extend and show you the contents of that section.
 
 = Instrument Plugins =
 
-When you click on the Instrument Plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-retracted-plugin.png), the sidebar expands to show you the available instrument plugins:
+When you click on the Instrument Plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-plugin.png), the sidebar expands to show you the available instrument plugins:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-expanded-plugins-none.png.
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-none.png.
 
 By default, no instrument plugin is selected.  When you hover the mouse over one, its box will expand to include a description of the plugin in question, like so:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-expanded-plugins-audiofile.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-audiofile.png
 
 = Projects =
 
