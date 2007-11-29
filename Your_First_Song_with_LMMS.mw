@@ -6,9 +6,29 @@ You've got the default screen in front of you, with the [[Song Editor]], [[Beat 
 
 Drag the "'''Moog'''" preset onto the space in the middle of the Song Editor and, when you drop it, a new track will be created with that preset as the instrument.{{ref|1}}  The instrument plugin will then be displayed.  At this stage we're happy with how that instrument sounds, so click on its plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-plugin-moog.png) to close it again.
 
-= Editing notes =
+= Making the melody =
 
 We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
+
+== The first note ==
+
+Now click in the black square just to the right of the 'A4' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-demo-1stnote.png
+
+However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
+
+After this, the new notes we put down will be the same length, because the Piano Roll Editor is set to Last Note (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png)
+
+== More notes ==
+
+Continue creating notes in the pattern shown:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-bar.png
 
 = Footnotes =
 
