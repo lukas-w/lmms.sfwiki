@@ -8,7 +8,7 @@ The tool bar of the Beat + Bassline Editor looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar.png
 
-The '''play''' and '''stop''' buttons (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-playback.png) allow you to play the currently selected pattern.  When '''play''' is pressed, it will be replaced with a '''pause''' symbol (http://tangram.dnsalias.net/lmss-imgs/lmms-0.3.1/icons-pause.png) allowing you to pause the playback rather than stop it entirely.  Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
+The '''play''' and '''stop''' buttons (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-playback.png) allow you to play the currently selected pattern.  When '''play''' is pressed, it will be replaced with a '''pause''' symbol (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pause.png) allowing you to pause the playback rather than stop it entirely.  Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
 
 The next drop-down menu (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-bassline.png) allows you to select the '''bassline''' to edit.  It displays the current bassline being edited.
 
