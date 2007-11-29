@@ -1,16 +1,16 @@
 The Piano Roll Editor is the main method of working with melodies and harmonies.
 
-It can be accessed by double-clicking a track segment created in an instrument track (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-segments-instrument.png).  It can also be accessed using the 'show piano roll' button in the main tool bar (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-toolbar-pianoroll.png), but this does not open any piano roll in particular and you will not be able to add notes.  A message will be displayed in the window telling you to double-click in a track segment first.
+It can be accessed by double-clicking a track segment created in an instrument track (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-segments-instrument.png).  It can also be accessed using the 'show piano roll' button in the main tool bar (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png), but this does not open any piano roll in particular and you will not be able to add notes.  A message will be displayed in the window telling you to double-click in a track segment first.
 
 The piano roll editor looks like this:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-simple.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 
 = Tool Bar =
 
 The Piano Roll toolbar looks like this:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar.png
 
 Many of the tools are similar to those found in the [[Song Editor]] but there are several important additions.  In addition, there are slight but key changes in the way editing is done in the Piano Roll Editor.  At this stage it means learning two slightly incompatible editing styles.
 
@@ -18,7 +18,7 @@ Many of the tools are similar to those found in the [[Song Editor]] but there ar
 
 The playback controls look like:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-playback.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-playback.png
 
 This gives you the standard play and stop controls, with the addition of a '''record''' button.  Pressing this will start recording the notes you play on a MIDI keyboard or your computer's keyboard (see [[Working with Instruments#Piano Keys|the Piano Keys section]] for more details).  Press '''stop''' to stop recording.  You can also press the space bar to toggle between play and stop (which also works when recording).
 
@@ -26,7 +26,7 @@ This gives you the standard play and stop controls, with the addition of a '''re
 
 The editing tools look like:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-editing.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing.png
 
 This is where the key difference between editing in the Piano Roll and in the Song Editor comes in.  The four tools you have '''create''' notes, '''erase''' notes, draw '''selections''' and '''move''' selections.  The behaviour of the create and erase tools will be detailed in the [[#Notes|notes]] section below.
 
@@ -36,7 +36,7 @@ The selection tools allow you to move areas of notes around, as well as cutting 
 
 The clipboard tools look like:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-clipboard.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-clipboard.png
 
 The selection tools above also allow you to cut, copy and paste areas of notes.  There are several minor 'gotchas' at of revision 0.3.1, however:
 
@@ -47,7 +47,7 @@ The selection tools above also allow you to cut, copy and paste areas of notes. 
 
 The playback control tools look like:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-playcontrol.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-playcontrol.png
 
 These have essentially the same function as the same tools in the Song Editor.
 
@@ -55,13 +55,13 @@ These have essentially the same function as the same tools in the Song Editor.
 
 You can alter the size of a bar as displayed on screen by choosing a magnification from the zoom control:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-zoom-100.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-zoom-100.png
 
 == Quantisation ==
 
 The current [[Glossary#quantisation|quantisation]] setting is displayed in a drop-down menu:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-quantise-16.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-quantise-16.png
 
 This allows you to set the minimum 'step' of the start or length of each note when recording.  It has no effect on notes made with the creation tool.
 
@@ -69,7 +69,7 @@ This allows you to set the minimum 'step' of the start or length of each note wh
 
 The current note length setting is displayed in a drop-down menu:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-toolbar-notelen-last.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png
 
 This controls the length of notes made with the creation tool.  You can either specify a given note length, or specify that the next note will be the same length as the last note.
 
@@ -77,13 +77,13 @@ This controls the length of notes made with the creation tool.  You can either s
 
 Below the tool bar on the left-hand side of the window is the keyboard.  This shows a segment of a keyboard, seen side-on, that relates to the notes displayed in the piano roll.
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-keyboard.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-keyboard.png
 
 This can be scrolled up and down using the scroll bar on the right-hand side of the piano roll, or by using the scroll wheel on your mouse.  You can also click on this to play the corresponding note.
 
 The main area of the Piano Roll Editor is the note area:
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-pianoroll-notearea-all-empty.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-all-empty.png
 
 = Notes =
 
