@@ -1,6 +1,6 @@
 The Song Editor displays the structure of your song.
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-simple.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-simple.png
 
 Down the left-hand side of the window are listed the instrument and beat/bassline tracks available; on the right of these is listed the activity of each track at each bar in the song. For beat lines this is simply a block showing that the beat/bassline is active; Instruments will have a small display of the notes in a piano roll. Double-clicking on this small note display will bring up the Piano Roll editor for that instrument at that point in time.
 
@@ -16,9 +16,9 @@ Each track's activity is divided into '''segments'''.  For instrument tracks, th
 
 You can add new instrument track to the song editor by dragging them from the Side Bar. The instrument's [[Plugins|plugin]] will be displayed, allowing you to make any changes you need to the sound of the instrument. You can dispel this plugin display by using its close button or by clicking on the instrument name button in the song editor.
 
-To add a new beat or bassline track, click the '''add beat/bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-button-new-bassline.png) to add a new bassline.  Alternatively, you can open the [[Beat Bassline Editor|Beat + Bassline Editor]] and click the '''add beat/bassline''' button (same symbol) to the right of the bassline selector.  You can then right-click on the name of the beat/bassline in the song editor in order to rename it to something more identifiable.
+To add a new beat or bassline track, click the '''add beat/bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-button-new-bassline.png) to add a new bassline.  Alternatively, you can open the [[Beat Bassline Editor|Beat + Bassline Editor]] and click the '''add beat/bassline''' button (same symbol) to the right of the bassline selector.  You can then right-click on the name of the beat/bassline in the song editor in order to rename it to something more identifiable.
 
-To add a new sample track, click the '''add sample-track''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-button-new-sampletrack.png) to add a new sample track.
+To add a new sample track, click the '''add sample-track''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-button-new-sampletrack.png) to add a new sample track.
 
 Note that there is no button allowing you to add a new instrument track.  This is because you would have to select a plugin for the instrument before the track was created, and this is far easier to do by tradding the correct plugin or preset from the [[Side Bar]].
 
@@ -28,7 +28,7 @@ You can drag instruments and beat/bassline tracks up and down in order to organi
 
 == Working with Segments ==
 
-Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-toolbar-edit.png).
+Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-edit.png).
 
 To '''create a new segment''', simply left-click on the track activity inside the bar in which you want the segment to start.  For instrument and sample tracks, this creates a blank area to put notes or samples in.  For beat and bassline tracks, this creates one bar filled with the bassline as programmed.
 
@@ -48,22 +48,22 @@ The Song Editor window has a toolbar that allows you to control playback of the 
 
 To the left of the track's activity is a set of buttons and controls that allow you to work with the track as a whole.
 
-The grey stippled area immediately at the left of the track (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-grabbar.png) is the '''grab bar'''.  This allows you to grab the track and drag it up and down in the order of tracks.  This is very useful since new tracks are, by default, created at the bottom of the track list and you may be adding a track that is logically connected with tracks near the top.
+The grey stippled area immediately at the left of the track (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png) is the '''grab bar'''.  This allows you to grab the track and drag it up and down in the order of tracks.  This is very useful since new tracks are, by default, created at the bottom of the track list and you may be adding a track that is logically connected with tracks near the top.
 
-Next appears the '''track tools menu''' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-tools.png). This displays a drop-down menu with two options: '''clone track''' and '''remove track'''.  Cloning a track makes an exact copy of the track and its contents and pastes them at the bottom of the track list.  Hopefully it won't be necessary to explain what removing a track does. :-)
+Next appears the '''track tools menu''' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-tools.png). This displays a drop-down menu with two options: '''clone track''' and '''remove track'''.  Cloning a track makes an exact copy of the track and its contents and pastes them at the bottom of the track list.  Hopefully it won't be necessary to explain what removing a track does. :-)
 
-After this is the '''mute control''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-mute.png).  This allows you to turn off the sound of this track temporarily.  This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument.  Right clicking on the track gives you the option to [[Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control.  Once the automation menu is displayed, right-clicking ''again'' on the control (which will require you to move your mouse slightly to the left) will toggle all the track mute buttons - in other words, all tracks 'on' will be turned 'off' and vice versa.
+After this is the '''mute control''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-mute.png).  This allows you to turn off the sound of this track temporarily.  This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument.  Right clicking on the track gives you the option to [[Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control.  Once the automation menu is displayed, right-clicking ''again'' on the control (which will require you to move your mouse slightly to the left) will toggle all the track mute buttons - in other words, all tracks 'on' will be turned 'off' and vice versa.
 
 The rest of the track settings displays the '''sound source''' information.  This varies between instrument tracks, sample tracks and beat/bassline tracks.
 
-For instrument tracks you get a volume control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-volume.png) (also automatable), a drop-down menu to select the track's midi inputs and outputs (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-midi.png), and the button that displays the instrument's plugin ((http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-plugin.png).
+For instrument tracks you get a volume control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-volume.png) (also automatable), a drop-down menu to select the track's midi inputs and outputs (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-midi.png), and the button that displays the instrument's plugin (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-plugin.png).
 
 For sample tracks you get a volume control (likewise also automatable), a button which allows you to set up [[LADSPA|effects]] on the samples in the track, and the name of the sample track (which can be edited by right-clicking on it).
 
 For beat / bassline tracks, you get an graphic displaying the content of the pattern (clicking on this gives you a file open dialog open to a directory of icons to allow you to choose an icon which reflects the content of the track) and the pattern's name
 (likewise editable with a right-click).
 
-At the far right of the sound source there is an '''activity bar''' ((http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-songeditor-track-settings-activity-off.png) which lights up when the instrument is actually playing.
+At the far right of the sound source there is an '''activity bar''' ((http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png) which lights up when the instrument is actually playing.
 
 = The Track Context menu =
 
