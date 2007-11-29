@@ -1,6 +1,6 @@
 The Piano Roll Editor is the main method of working with melodies and harmonies.
 
-It can be accessed by double-clicking a track segment created in an instrument track (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-segments-instrument.png).  It can also be accessed using the 'show piano roll' button in the main tool bar (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png), but this does not open any piano roll in particular and you will not be able to add notes.  A message will be displayed in the window telling you to double-click in a track segment first.
+It can be accessed by double-clicking a track segment created in an instrument track (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  It can also be accessed using the 'show piano roll' button in the main tool bar (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png), but this does not open any piano roll in particular and you will not be able to add notes.  A message will be displayed in the window telling you to double-click in a track segment first.
 
 The piano roll editor looks like this:
 
