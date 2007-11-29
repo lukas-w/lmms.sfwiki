@@ -2,7 +2,13 @@ So you've just loaded up LMMS and you want to find your way around?  In this sit
 
 = Choosing the instrument =
 
-You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1-sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.  Drag the "Moog" preset onto the space in the middle of the Song Editor and, when you drop it, a new track will be created with that preset as the instrument.{{ref|1}}
+You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
+
+Drag the "'''Moog'''" preset onto the space in the middle of the Song Editor and, when you drop it, a new track will be created with that preset as the instrument.{{ref|1}}  The instrument plugin will then be displayed.  At this stage we're happy with how that instrument sounds, so click on its plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-plugin-moog.png) to close it again.
+
+= Editing notes =
+
+We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
 
 = Footnotes =
 
