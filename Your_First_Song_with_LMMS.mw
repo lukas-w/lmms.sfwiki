@@ -4,7 +4,7 @@ So you've just loaded up LMMS and you want to find your way around?  In this sit
 
 You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
 
-Drag the "'''Moog'''" preset onto the space in the middle of the Song Editor and, when you drop it, a new track will be created with that preset as the instrument.{{ref|1}}  The instrument plugin will then be displayed.  At this stage we're happy with how that instrument sounds, so click on its plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-plugin-moog.png) to close it again.
+Drag the "'''Moog'''" preset onto the space in the middle of the Song Editor and, when you drop it, a new track will be created with that preset as the instrument.<sup><small>[[Your First Song with LMMS#note1|[1]]]</small></sup>  The instrument plugin will then be displayed.  At this stage we're happy with how that instrument sounds, so click on its plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-plugin-moog.png) to close it again.
 
 = Making the melody =
 
