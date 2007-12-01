@@ -30,6 +30,22 @@ Continue creating notes in the pattern shown:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-bar.png
 
+To place a note, you need to aim for the line at the start of the beat; LMMS will recognise a small fraction of the area left of the beat line as being closer to that beat than the previous.  If you make a mistake placing a note, you can move it to its correct position by clicking on the middle of the note (where the cursor turns into a four-way cross) and dragging the note to its new position.  LMMS will play the note that you're dragging onto as an aide to correct placement.  You can move notes horizontally (in time) as well as vertically (in pitch).
+
+If you need to delete a note, simply right-click on it.
+
+== Copy and paste ==
+
+We now want to repeat those seven notes at the start of the bar in the next bar.  One way to do that is to simply click the correct notes.  But, for this tutorial, we'll introduce the Piano Roll's copy and paste functions.
+
+Click on the '''area selector''' tool in the Piano Roll toolbar's editing palette (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing.png), which is the third icon from the left - the dashed-outline square.  Now drag an area from the top-right (e.g. the C5 line in bar 2) to the bottom left (onto the G3 key).  You'll see a blue rectangle expand out and the notes that start inside this area will turn blue.  To select all the notes you will need to drag slightly onto the keyboard, something which is possible when dragging ''onto'' the keyboard but not ''off'' it (which is why we started dragging from the top right).
+
+Once you have selected all the notes, press the '''copy''' button in the toolbar's clipboard palette (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-clipboard.png), which is the middle icon, looking like a page on top of another.  This copies these notes into a clipboard.  They will be pasted back into the first bar of the piano roll, so we need to move the current notes out of the way.
+
+Fortunately, the '''move area''' tool in the editing palette, looking like a four-direction arrow, allows you to move all the notes in a selected area.  Select this tool and grab anywhere inside the selection to move it so that the first note is in the second bar.  It may be handy to actually grab one note, or note where the horizontal note shading lies when you start dragging, because you will find you often drag the notes up or down as well and we want to make sure we keep them at the same pitch.  Ensure that the first note is on the A4 line and starts on the first beat of the second bar.
+
+Now we can paste the notes back in.  Press the '''paste''' button in the clipboard palette to paste the notes we previously copied back into the first bar.{{ref|2}}
+
 = Footnotes =
 
 {{note|1}} - You could alternatively have dropped it on the existing "TripleOscillator: Default" track to replace that instrument with the one you were dragging, but this gives you an idea of how to create new instrument tracks.
