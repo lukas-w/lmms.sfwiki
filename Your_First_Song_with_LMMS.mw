@@ -80,7 +80,13 @@ We can now go on to create another piano roll segment and fill in the next four 
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.png
 
+Due to the way that the segments overlap, you will have to create the new segment in a new bar (e.g. bar 11) and then move it into position over the previous segment.
+
 Note that there is a slight oddity in the Piano Roll Editor that causes you to start editing at bar 2 when opening occasional new segments.  Check which bar you're writing notes into before getting to far!
+
+Your Song Editor should now look like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
 
 = Footnotes =
 
