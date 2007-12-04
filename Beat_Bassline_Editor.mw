@@ -26,6 +26,12 @@ The instrument settings are very similar to the [[Song Editor]]'s [[Song Editor#
 
 == Steps ==
 
+To the right are shown sixteen steps, four to each beat in a four-beat bar.  Each step is a button that can be turned on and off.  When a step is turned on, the sound from the instrument will play at that step in the bar.  The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly.
+
+== Adding and removing steps ==
+
+It is possible to add steps to and remove steps from the step display.  This simply adds an extra bar (or more) and puts steps in that, so it does not change the tempo of the beats currently in the track or the duration of each step.  You cannot remove steps so that there would be less than sixteen steps.  Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, it makes little sense to add less than sixteen at a time.
+
 = Context Menu =
 
 = Navigation =
