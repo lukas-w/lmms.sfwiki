@@ -34,6 +34,24 @@ It is possible to add steps to and remove steps from the step display.  This sim
 
 = Context Menu =
 
+Right-clicking on the steps for a track gives you a context menu for that track:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
+
+'''Open in piano-roll''' allows you to edit the notes of a pattern in the [[Piano Roll Editor]] rather than just as steps.  This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
+
+'''Copy''' and '''Paste''' allow you to copy a set of steps from one track to another, by copying the original track's steps, right-clicking on the new track and choosing Paste.
+
+'''Mute/Unmute''' allows you to quickly mute or unmute the entire instrument in all patterns.
+
+'''Clear all notes''' allows you to quickly erase the steps in this track.
+
+'''Change Name''' allow you to change the name of this track from its default of the instrument plugin or sample you loaded.  '''Reset Name''' resets it back to this default.
+
+'''Freeze''' allows you to freeze a pattern in playback while you edit it.  I am still seeking a more complete explanation of this functionality.
+
+'''Add steps''' and '''Remove steps''' allow you to add steps to or remove steps from the bar.  See above for a more complete description.
+
 = Navigation =
 
 HowTo: [[Composing Bass Lines and Drum Sequences]]
