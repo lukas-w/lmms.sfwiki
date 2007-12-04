@@ -28,11 +28,29 @@ The '''Automation Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0
 
 The '''Project Notes''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-notes.png) shows or hides the [[Project Notes]] window.
 
-= Tempo Controls =
+= Tempo Control =
+
+The current '''tempo''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png) is shown in orange 7-segment numerals.  This is a standard control, so it can be changed by dragging up and down inside it and it can be automated from its context menu.
+
+= Sound Quality Controls =
+
+Beneath the tempo control are two controls that set the quality of the sound produced by LMMS.
+
+The '''High Quality''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-highquality.png) turns on use of higher precision mathematics in all the instruments.  This will generally increase the quality of the sound - reducing artifacts and obvious clipping - at the expense of increased CPU usage.  It may also alter the sound of some [[LADSPA]] effects, particularly reverbs.
+
+The '''Auto Limit''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-autolimit.png) activates a soft limiting function that prevents the sound from hitting the maximum or minimum extents of the 16-bit precision of a WAV file.  This can make some sounds softer but will avoid having clipping if a chance resonance or constructive interference should occur during your song.
 
 = Volume and Pitch Controls =
 
+To the right of the tempo control are the master volume and pitch controls.
+
+The '''Master Volume''' control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-master-volume.png) sets the master volume for the entire song.
+
+The '''Master Pitch''' control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-master-pitch.png) sets the 'root' note on which every other note in the song is based.  Turn this down to make the piece play at a lower pitch, and vice versa.  This can be useful if you have programmed a reproduction of another song to be in a certain key and, upon checking it against the original, find the original to be in a different key.
+
 = Wave and CPU Usage Display =
+
+Finally, the '''Wave / CPU Display''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-wave-cpu.png) displays the current waveform being played during playback and the current CPU usage of all the LMMS instruments, effects and sequencing.  You can turn the wave display off or on by clicking it, although this does little to reduce CPU usage.
 
 = Navigation =
 
