@@ -1,0 +1,41 @@
+The main menu bar gives you various options to control the overall functioning of LMMS:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menubar.png
+
+= Project Menu =
+
+The Project menu allows you to load, save and export projects and import MIDI files.
+
+'''New''' creates a new project.
+
+'''Open''' gives you a dialog to choose an existing project file to open.
+
+'''Recently opened Projects''' opens up a submenu listing all the recent project files you have opened, so that you can easily open a project you were recently working on.  This does not include a project that you have just created and saved, so you have to open the project at least once before it will show up in this menu.
+
+'''Save''' saves the current project if it has already been saved.  If not it functions as if you had chosen 'Save as'.
+
+'''Save As''' gives you a dialog to choose a (new) location and name to save your project in.
+
+'''Import''' allows you to import MIDI and other files as new instrument lines.
+
+'''Export''' allows you to export your song as an uncompressed WAV file or compressed OGG file.  No MP3 file export support is planned.  Once you have chosen a name and location to save the file, you then get presented with a dialog:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menu-project-export-settings.png
+
+This allows you to choose the format of the file and, for OGG files, the bit rate and bit rate management method (these settings are ignored for WAV files).  Please note that, at this stage, the format chosen here and the extension you used on the file in the export file dialog are not synchronised automatically - you must set them the same manually to end up with a file which is named correctly for its content.  You can also choose whether to use the [[Tool Bar#Sound_Quality_Controls|High Quality Mode]] when performing the song.
+
+On pressing 'OK' the song will be performed from where the playback point was last set.  To get the entire song exported you should check that the playback mark is at the start of the song before exporting it.
+
+= Edit Menu =
+
+= Settings Menu =
+
+= Tools Menu =
+
+= Help Menu =
+
+= Navigation =
+
+|| Prev: [[Exporting the finished product]] || Up: [[NewManual]] || Next: [[Tool Bar]] ||
+
+[[Category:Reference]]
