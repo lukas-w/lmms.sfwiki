@@ -67,7 +67,53 @@ At the far right of the sound source there is an '''activity bar''' ((http://tan
 
 = The Track Context menu =
 
-The track context menu appears when you right-click on a segment of a track's activity.
+The track context menu appears when you right-click on a segment of a track's activity.  The options presented depend on which type of track it is.
+
+== Instrument Tracks ==
+
+The instrument track context menu looks like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-contextmenu-instrument.png
+
+This gives you the most options of all the song editor context menus.
+
+'''Open in piano-roll''' opens the clicked-on segment in the [[Piano Roll Editor]] (strangely enough).
+
+'''Delete''' deletes the clicked-on segment.
+
+'''Cut''' removes the clicked-on segment and puts it in the clipboard.
+
+'''Copy''' takes a copy of the clicked-on segment and puts it in the clipboard.
+
+'''Paste''' pastes the contents of the clipboard into this segment, overwriting its previous contents.
+
+'''Mute/Unmute''' allows you to turn sound off or on for this track while editing it.  This does not affect the set volume of the track, but acts like the 'mute' button on a mixing desk.
+
+'''Clear all notes''' allows you to erase the contents of the clicked-on segment without deleting the segment itself.
+
+Normally the name of the instrument is given to the segment.  This is copied and pasted with the contents of the segment, so you can see the original source of this segment.  '''Reset name''' allows you to reset that name to the name of the instrument plugin of the track, and '''Change name''' allows you to edit it manually.
+
+'''Freeze''' allows you to [[Definitions#Freeze|freeze]] the sound of this track by creating a pre-rendered sample of the track alone.  This then cuts down on the workload of rendering this track, which may be useful on lower-powered systems or tracks with complex effects and melodies.  You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
+
+'''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern.  This is similar to the same option in the [[Beat Bassline Editor|Beat + Bassline Editor] but seems to have little purpose here.
+
+== Sample Tracks ==
+
+The sample track context menu looks like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-contextmenu-sample.png
+
+The actions of each option are essentially the same as those for the instrument track above.
+
+== Bassline Tracks ==
+
+The bassline track context menu looks like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-contextmenu-bassline.png
+
+The actions of each option are essentially the same as those for the instrument track above.  The only addition is:
+
+'''Change color''' allows you to change the colour of the bassline track.  This allows you to coordinate the function or content of the tracks by their colour, allowing you to quickly work out which bassline in a complex rhythm section you are dealing with.
 
 = Navigation =
 
