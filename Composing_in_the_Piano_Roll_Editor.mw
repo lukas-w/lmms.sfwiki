@@ -4,7 +4,21 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 
 = Writing Notes =
 
-The standard
+The standard tool for editing notes in the Piano Roll Editor is the pencil tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-pencil.png).  With this you can create, move, resize and delete notes.
+
+To '''create''' a note, simply click inside the piano roll grid.  The horizontal dark grey will show you which note on the keyboard you are going to be creating, and when you click the instrument will play that note as an aural cue.
+
+The length of the note created is set by the note length control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png).  By default this is set to use the length of the last note created or edited.  This is often convenient when creating many notes of the same length.  Alternatively, you can select from a list of standard note lengths, expressed in fractions of a beat.
+
+To '''move''' a note, drag any part of the note (except the end).  You can drag it vertically to change pitch, horizontally to change its start time, or both.
+
+To '''resize''' a note, drag the end of the note.  This simply changes its end 'cut-off' point while keeping the note starting at its original point in time.  You cannot change the start time while keeping the note end at its original point in time - to do this you should move the note to its new start time and then resize it to the desired length.
+
+There are two ways of easily creating a much longer note in a series of short ones (or vice versa) and using the 'last note' length setting above.  One is to create all the notes of one length first at their correct points in time, and then go back and fill in the longer notes; resizing the first longer note will then set the length.  The other way is to create the longer note as a short note, resize it, and then grab the resize handle of a shorter note and resize it to its original length (e.g. move it one quanta shorter and then back).
+
+To '''delete''' a note, right-click on it.  You can also use the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png) - when using this, simply left-click on any note to delete it.
+
+The start time of a note is '''quantised''' to the fraction of a beat shown in the quantisation selector (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-quantise-16.png).  This controls both where a note starts and its length - both have to be multiples of the quantisation setting.  It does not affect notes that are already created whose property you are not changing - for instance, with quantisation set to 1/32, you can position a note on an odd 32nd (i.e. not on a vertical 1/16th step line); then, with quantisation set to 1/16, you can resize that note and its end point will be forced to be on an even 32nd without changing the start point.  In this example the note would always be an odd number of 32nds in length.
 
 = Editing Notes =
 
