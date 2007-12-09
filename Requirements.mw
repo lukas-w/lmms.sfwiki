@@ -10,3 +10,14 @@ There're no special needs. LMMS will run with an ordinary cheap 2-channel soundc
 == Software ==
 
 For running LMMS you need Linux (Debian or Ubuntu recommended). Detailed requirements and recommendations can be found at [[Installation#Resolving_dependencies|Resolving dependencies]].
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Getting LMMS]]
+| Up: [[NewManual]]
+| Next: [[Installing LMMS]]
+|}
+
+[[Category:Introduction]]
