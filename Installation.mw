@@ -75,3 +75,14 @@ This ebuild stills experimental and no-official so bugs shouldn't be reported on
 === Fedora ===
 
 Fedora has (early) LMMS packages available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Requirements]]
+| Up: [[NewManual]]
+| Next: [[Terms and Conventions]]
+|}
+
+[[Category:Introduction]]
