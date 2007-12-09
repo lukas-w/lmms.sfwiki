@@ -48,7 +48,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
 
 '''Change Name''' allow you to change the name of this track from its default of the instrument plugin or sample you loaded.  '''Reset Name''' resets it back to this default.
 
-'''Freeze''' allows you to freeze a pattern in playback while you edit it.  I am still seeking a more complete explanation of this functionality.
+'''Freeze''' allows you to pre-render the sound of this track.  This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time each time.  While the track is frozen, changes to it do not take effect.  You can thaw a track while playing, but can only refreeze it when playback is stopped.
 
 '''Add steps''' and '''Remove steps''' allow you to add steps to or remove steps from the bar.  See above for a more complete description.
 
