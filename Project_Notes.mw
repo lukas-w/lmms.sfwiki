@@ -2,6 +2,14 @@ The Project Notes window is a small text editor that allows you to write notes f
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/notes-simple.png
 
+= Editing the notes =
+
+A more complete view of the editor window shows its tools for formatting text:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/notes-fullsize.png
+
+These tools allow you to choose the font, size, and colour of the text, as well as its location in the window.
+
 = Navigation =
 
 {| style="border: 1px solid black;"
