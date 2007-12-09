@@ -181,6 +181,11 @@ The scroll bar at the bottom of the screen allows you to move up and down (i.e. 
 
 References: [[Instruments]], [[Plugins]]
 
-|| Prev: [[GettingStarted]] || Up: [[NewManual]] || Next: [[Working with Samples]] ||
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Your First Song with LMMS]]
+| Up: [[NewManual]]
+| Next: [[Working with Samples]]
+|}
 
 [[Category:HowTo]]
