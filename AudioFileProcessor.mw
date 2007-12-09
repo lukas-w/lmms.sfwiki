@@ -15,6 +15,11 @@ The radio button controls whether the wave file is displayed as dots or lines.  
 
 = Navigation =
 
-|| Up: [[Plugins]] || Next: [[BitInvader Plugin]] ||
+{| style="border: 1px solid black;"
+|-
+| Prev: 
+| Up: [[NewManual]]
+| Next: [[BitInvader Plugin]]
+|}
 
 [[Category:Plugins]]
