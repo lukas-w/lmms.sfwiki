@@ -63,7 +63,7 @@ The current [[Glossary#quantisation|quantisation]] setting is displayed in a dro
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-quantise-16.png
 
-This allows you to set the minimum 'step' of the start or length of each note when recording.  It has no effect on notes made with the creation tool.
+This allows you to set the minimum 'step' of the start or length of each note when recording, or when using the pencil tool.
 
 == Note Length ==
 
