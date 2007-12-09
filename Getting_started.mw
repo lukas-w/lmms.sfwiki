@@ -15,3 +15,14 @@ The standard way to create a track is to add drum instruments to the [[Beat Bass
 For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = c, etc) or on a MIDI keyboard.
 
 Finally hit 'play' and enjoy your music!
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Terms and Conventions]]
+| Up: [[NewManual]]
+| Next: [[Your First Song in LMMS]]
+|}
+
+[[Category:Tutorial]]
