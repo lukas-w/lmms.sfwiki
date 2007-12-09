@@ -98,6 +98,11 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16b
 
 = Navigation =
 
-|| Prev: [[Getting started]] || Up: [[NewManual]] || Next: [[Working with Instruments]] ||
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Getting started]]
+| Up: [[NewManual]]
+| Next: [[Working with Instruments]]
+|}
 
 [[Category:Tutorials]]
