@@ -1,0 +1,46 @@
+LMMS is very configurable, with many settings allowing you to control how you interact with the software.  There are two main ways to work with these configuration parameters.
+
+= Settings Dialog =
+
+The main settings dialog is accessed through the '''Show settings dialog''' menu option in the '''Settings''' menu.  The window has a set of tabbed sections on the left and the settings for each on the right.  The first tab displayed is the general settings tab:
+
+== General Settings ==
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-general.png
+
+== Directories ==
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-directories.png
+
+== Performance Settings ==
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-performance.png
+
+== Audio Settings ==
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-audio.png
+
+== MIDI Settings ==
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-midi.png
+
+= Setup Wizard =
+
+Alternatively, you can be guided through a series of steps that will configure the most commonly changed settings in your LMMS setup.  This is accessed through the '''Show settings dialog''' menu option in the '''Settings''' menu.  The wizard will also be shown to you the first time you start LMMS.  The wizard has a series of pages, starting with a welcome screen for the first step:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-wizard-1.png
+
+By clicking '''Next''' you will move to the next page, which asks you for the directory that LMMS will save your projects and presets in and look for your samples in.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-wizard-2.png
+
+= Navigation =
+
+{|
+|-
+| Prev: [[Project Notes]]
+| Up: [[NewManual]]
+| Next: [[Definitions]]
+|}
+
+[[Category:Reference]] [[Category:Incomplete]]
