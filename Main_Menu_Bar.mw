@@ -28,6 +28,10 @@ On pressing 'OK' the song will be performed from where the playback point was la
 
 = Edit Menu =
 
+The two options typically in this menu are '''Undo''' and '''Redo'''.  These can be also accessed by pressing the common keys Ctrl-Z and Shift-Ctrl-Z, respectively.  They allow you to step backward, or forward, through a history of edits to your project, reversing mistaken actions or re-applying them.
+
+In this version the undo feature only works correctly for some forms of editing.  In particular, in the [[Piano Roll Editor]] the bulk move, copy and paste facilities using the selection tool and/or clipboard do not get undone or redone correctly.  The developers are aware of this problem and are working on a fix in a future version.
+
 = Settings Menu =
 
 = Tools Menu =
