@@ -34,6 +34,8 @@ In this version the undo feature only works correctly for some forms of editing.
 
 = Settings Menu =
 
+These two menu items allow you various ways to configure how LMMS works.  '''Show settings dialog''' gives you a full display of all the configurable options in LMMS, while '''Show setup wizard''' will walk you through configuring the most popular options in LMMS.  For more details on these see the [[LMMS Settings]] documentation.
+
 = Tools Menu =
 
 = Help Menu =
