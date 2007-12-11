@@ -25,6 +25,14 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-general.png
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-directories.png
 
+This tab allows you to set where files are loaded from and saved to.
+
+* The '''Working''' directory is where your projects and saved presets are stored.  Projects are saved in a subdirectory named 'projects' and presets similarly.  You can put samples into a directory named 'samples' under the working directory and they will appear in the [[Side Bar]]'s samples section.  You can also use subdirectories in the samples directory to classify your samples; they will appear as folders in the side bar.  They will be listed separately from the default samples and presets that come with LMMS.
+* The '''VST-plugin''' directory is used if you have VST plugins installed (e.g. under WINE).  Set this to the appropriate directory and your VST plugins will be available in LMMS.
+* The '''Artwork''' directory is where themes for customising the look of LMMS can be stored.
+* The '''FL Studio''' installation directory is used if you have Fruity Loops Studio&copy; installed.  Set this to the directory containing your copy of Fruity Loops Studio and you can load your project files into LMMS.
+* The '''LADSPA Plugin''' directory is where [[LADSPA]] effects are installed.  If you have multiple locations, separate them with colons in the standard UNIX path manner.
+
 == Performance Settings ==
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-performance.png
