@@ -37,6 +37,13 @@ This tab allows you to set where files are loaded from and saved to.
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-performance.png
 
+The controls on this tab affect the speed of the rendering of your song into audio in relation to other parts of the interface.  While on most modern hardware rendering performance is not an issue, this may help people with older hardware use LMMS without gaps in playback.
+
+*When the '''Disable channel activity indicators''' control is turned on, the activity indicators on each channel (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png) do not activate whenever there is activity on that channel.  Normally, these glow orange and fade as each note is played per channel, and displaying this activity graphically can take up a reasonable amount of CPU time.
+*When '''Only press keys on channel-piano manually''' is turned off, any open instrument plugin window will display the notes that it is playing on its piano keyboard, whether those be from actions by the user (e.g. on a MIDI keyboard) or during playback.  By turning this on, these note presses are only displayed from user input, thus saving an amount of CPU time.
+*By setting the '''Number of CPUs''' to equal the number of processor cores in your system, you can get LMMS to take full advantage of your CPU power by distributing the sound rendering across the cores.  This allows slower multicore systems to play pieces that a single core may not be able to render.  However, setting this to greater than the number of cores in your system does not make better use of the system and may waste time switching between the rendering threads on one processor.
+:You control this setting by dragging the number display up and down like a regular 'knob' control.
+
 == Audio Settings ==
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-audio.png
