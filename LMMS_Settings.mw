@@ -61,6 +61,8 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-audio.png
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-midi.png
 
+Similar to the Audio settings above, this allows you to select the interface to use to receive and send MIDI signals with your instruments.  Select the '''MIDI Interface''' that connects your computer to your MIDI instruments and set any device-specific '''Settings''' with these controls.
+
 = Setup Wizard =
 
 Alternatively, you can be guided through a series of steps that will configure the most commonly changed settings in your LMMS setup.  This is accessed through the '''Show settings dialog''' menu option in the '''Settings''' menu.  The wizard will also be shown to you the first time you start LMMS.  The wizard has a series of pages, starting with a welcome screen for the first step:
