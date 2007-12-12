@@ -48,6 +48,15 @@ The controls on this tab affect the speed of the rendering of your song into aud
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-audio.png
 
+*The '''Audio Interface''' sets the mechanism that LMMS uses to produce audio.  You can select from:
+** ALSA (Advanced Linux Sound Architecture)
+** dummy (no sound output) - useful only for testing whether LMMS is functioning correctly.
+** JACK (the Jack Audio Connection Kit)
+** OSS (the Open Sound System)
+** SDL (Simple DirectMedia Layer)
+:JACK is the most advanced of all these interfaces, but requires a working JACK daemon to connect to in order to function.  ALSA is the default and is standard on almost all modern Linux systems.  Support for PulseAudio may be coming in the future.
+*With each interface, you can select the actual '''device''' and the number of '''channels''' used by LMMS.  These are interface-dependent settings and should be left at their defaults unless you have a good understanding of the interface in use on your computer.
+
 == MIDI Settings ==
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-midi.png
