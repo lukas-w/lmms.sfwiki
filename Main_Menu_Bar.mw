@@ -38,6 +38,8 @@ These two menu items allow you various ways to configure how LMMS works.  '''Sho
 
 = Tools Menu =
 
+The only option currently in this menu is the '''Live Tool'''.  The [[Live Tool]] can be used to control instruments during a performance, but is also useful when previewing a mix checking the levels of various instruments.  When it is open, pressing F1 - F10 will mute or unmute the first ten instruments in the [[Beat Bassline Editor|Beat + Bassline Editor]] and the Space bar will toggle playback in the Song Editor.
+
 = Help Menu =
 
 = Navigation =
