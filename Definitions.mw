@@ -27,6 +27,16 @@ Here are a list of terms used in LMMS and their meaning.
 = Q =
 = R =
 = S =
+
+; Sample
+: An individual audio file, used either in an [[#I|instrument]] (see [[AudioFileProcessor Plugin]]) or a [[#S|sample track]].
+; Sample Track
+: A type of [[#T|track]] that is designed to take audio files.  Multiple different [[#S|Samples]] can be placed in one sample track, and they can overlap.  See [[Working with Samples]].
+; Segment
+: A block in a [[#T|track]] that contains a sample (in the case of a [[#S|sample track]]), notes in a [[#P|piano roll]] or repeats of a [[#B|beat / bassline]].  Each type of [[#T|track]] only uses one type of segment.  See [[Song Editor]].
+; Song
+: The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[Song Editor]]
+
 = T =
 
 ; Track
