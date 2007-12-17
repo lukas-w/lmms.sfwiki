@@ -2,6 +2,23 @@
 
 Samples are simply recorded audio in compressed or uncompressed form.  They can be almost anything, from someone singing or playing a real instrument or an atmospheric recorded effect to the sound of a hand-clap, drum beat or percussion hit.  Samples can be used in three fundamental ways - either played as a sound in their own right, played as an instrument, or played as percussion.
 
+= File formats =
+
+Your sound files can be in a number of formats:
+
+* Lossless (large):
+** [http://en.wikipedia.org/wiki/WAV WAV] - Microsoft WAVe format
+** [http://en.wikipedia.org/wiki/AIFF AIFF] - Audio Interchange File Format
+** [http://en.wikipedia.org/wiki/Au_file_format AU] - AUdio file format
+** [http://en.wikipedia.org/wiki/Flac FLAC] - Free Lossless Audio Compression
+** RAW [http://en.wikipedia.org/wiki/PCM PCM] samples in a file.
+* Lossy (compact):
+** [http://en.wikipedia.org/wiki/Ogg Ogg] - Open wavelet compression format
+** [http://en.wikipedia.org/wiki/MP3 MP3] - Layer 3 MPEG audio encoding
+** [http://en.wikipedia.org/wiki/Speex Speex] - An Ogg subformat optimised for speech compression
+** [http://en.wikipedia.org/wiki/Soundblaster VOC] files created using Creative Labs Soundblaster cards
+** DrumSynth (ds) files
+
 = Samples as sounds =
 
 A sample treated just as a sound means that you want to play the sample back at exactly the same pitch and speed it was recorded at.  You can put the sample in an [[AudioFileProcessor Plugin]] [[Instrument]] in the [[Song Editor]] and then create a note in the [[Piano Roll Editor]] that is the length of the sample.  This can take some experimentation to stretch the note out to the length of the sample.  By doing this you are also limited to playing only one sample on this track.  There is an easier way.
