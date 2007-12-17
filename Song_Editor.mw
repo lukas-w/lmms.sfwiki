@@ -95,7 +95,7 @@ Normally the name of the instrument is given to the segment.  This is copied and
 
 '''Freeze''' allows you to [[Definitions#Freeze|freeze]] the sound of this track by creating a pre-rendered sample of the track alone.  This then cuts down on the workload of rendering this track, which may be useful on lower-powered systems or tracks with complex effects and melodies.  You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
 
-'''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern.  This is similar to the same option in the [[Beat Bassline Editor|Beat + Bassline Editor] but seems to have little purpose here.
+'''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern.  This is similar to the same option in the [[Beat Bassline Editor|Beat + Bassline Editor]] but seems to have little purpose here.
 
 == Sample Tracks ==
 
