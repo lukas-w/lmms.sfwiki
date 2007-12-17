@@ -42,6 +42,12 @@ The only option currently in this menu is the '''Live Tool'''.  The [[Live Tool]
 
 = Help Menu =
 
+There are three items in the Help menu.
+
+* '''Help''' is planned to show a complete help system.  However, at this stage this option will only display a message saying no help is available and referring you to this site.
+* '''What's This?''' changes your cursor into a help cursor.  When you click on any part of a LMMS window, you will then see the contextual help for this item.  Much of the help is in place but some items are still awaiting text being written for them.
+* '''About''' gives you a dialog which lists the LMMS project's home page, its key developers, translation information if you are using LMMS in a language other than English, and the GNU GPL license that the software is released under.
+
 = Navigation =
 
 {| style="border: 1px solid black;"
