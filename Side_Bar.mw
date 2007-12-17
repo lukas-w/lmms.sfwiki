@@ -16,6 +16,12 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-audiof
 
 You can then drag an instrument plugin to either the [[Song Editor]] or the [[Beat Bassline Editor|Beat + Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat + Bassline Editor.
 
+----
+
+In all sections but the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-sidebar-folder-closed.png).  If you double-click on a folder, it opens (and its icon changes to http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-sidebar-folder-open.png) and displays its contents indented to the right of the folder name.  To close it again, double-click on the folder name again.
+
+These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
+
 = Projects =
 
 = Samples =
