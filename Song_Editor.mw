@@ -30,6 +30,8 @@ You can drag instruments and beat/bassline tracks up and down in order to organi
 
 Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-edit.png).
 
+=== The Edit Tool ===
+
 To '''create a new segment''', simply left-click on the track activity inside the bar in which you want the segment to start.  For instrument and sample tracks, this creates a blank area to put notes or samples in.  For beat and bassline tracks, this creates one bar filled with the bassline as programmed.
 
 To '''move a segment''', simply drag it around by clicking and holding anywhere inside the segment.  Normally this will lock to the start of the bar, but you can free drag (with a 1/64th resolution) the segment by pressing the ''control'' key down ''once you have started dragging''.
@@ -39,6 +41,12 @@ To '''copy a segment''', simply hold the ''control'' key down ''before you click
 To '''delete a segment''', click on it using the middle mouse button or right-click on it and choose 'delete' from the context menu.
 
 Double-clicking on a segment aims to '''edit the segment's contents'''.  If you double-click on an instrument track segment, the [[Piano Roll Editor]] window will open and the notes in that segment will be displayed for editing.  If you double-click on a sample track segment, a file open dialog will display allowing you to choose a new sample for that segment.  If you double-click on a beat or bassline segment, the [[Beat Bassline Editor|Beat + Bassline Editor]] window will open and that beat or bassline will be displayed.
+
+=== The Move Tool ===
+
+The '''Move''' tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-move.png) allows you to select a rectangular region of the segments in the tracks and move them as a group.
+
+In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all the segments in the song forward or backward one bar at a time.  Effectively, Shift-Insert inserts a new bar at the start of the piece and Shift-Delete removes a bar.  Segments that are already at the first bar will not be deleted but other later segments will still move up.
 
 = The Song Editor toolbar =
 
