@@ -136,7 +136,7 @@ This gives you the most options of all the song editor context menus.
 
 Normally the name of the instrument is given to the segment.  This is copied and pasted with the contents of the segment, so you can see the original source of this segment.  '''Reset name''' allows you to reset that name to the name of the instrument plugin of the track, and '''Change name''' allows you to edit it manually.
 
-'''Freeze''' allows you to [[Definitions#Freeze|freeze]] the sound of this track by creating a pre-rendered sample of the track alone.  This then cuts down on the workload of rendering this track, which may be useful on lower-powered systems or tracks with complex effects and melodies.  You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
+'''Freeze''' allows you to [[Definitions#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone.  This then cuts down on the workload of rendering this track, which may be useful on lower-powered systems or tracks with complex effects and melodies.  You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
 
 '''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern.  This is similar to the same option in the [[Beat Bassline Editor|Beat + Bassline Editor]] but seems to have little purpose here.
 
