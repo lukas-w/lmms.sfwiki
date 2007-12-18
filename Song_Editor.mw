@@ -34,7 +34,11 @@ By holding down the '''shift''' key and dragging in a track, you can resize the 
 
 === Scrolling around ===
 
-The scroll bars at the right and bottom of the window allow you to move the segment view around.  You can also hold down shift and use the mouse wheel to scroll horizontally.
+The scroll bars at the right and bottom of the window allow you to move the segment view around.  You can also hold down '''shift''' and use the mouse wheel to scroll horizontally.
+
+=== Zooming in and out ===
+
+The zoom control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-zoom-100.png) allows you to choose a magnification control for the segment area.  Larger magnifications will show detail more clearly, and smaller magnifications will allow you to see more of the playback.  You can also hold down '''ctrl''' and use the mose wheel to control the zoom setting.
 
 == Working with Segments ==
 
