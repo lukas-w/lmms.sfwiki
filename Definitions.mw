@@ -40,6 +40,8 @@ Here are a list of terms used in LMMS and their meaning.
 : A block in a [[#T|track]] that contains a sample (in the case of a [[#S|sample track]]), notes in a [[#P|piano roll]] or repeats of a [[#B|beat / bassline]].  Each type of [[#T|track]] only uses one type of segment.  See [[Song Editor]].
 ; Song
 : The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[Song Editor]]
+; Step
+: One sixteenth of a bar in the [[Beat Bassline Editor|Beat + Bassline Editor]]; a single 'tab' in the pattern display.
 
 = T =
 
