@@ -43,6 +43,8 @@ Here are a list of terms used in LMMS and their meaning.
 
 = T =
 
+; Thaw
+: To unfreeze a track, rendering it again in real time during playback.  See [[Definitions#F|freeze]].
 ; Track
 : A row in the [[Song Editor]] containing an instrument, sample track, or beat / bassline.
 
