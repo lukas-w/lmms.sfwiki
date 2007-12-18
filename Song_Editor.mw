@@ -26,6 +26,10 @@ Note that there is no button allowing you to add a new instrument track.  This i
 
 You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the stippled handle on the left-hand side of the instrument line. You can also change the colour of the track by right-clicking on a segment of the track and choosing 'Change color' from the drop-down menu, allowing you to easily see track groupings.  You can also change the icon of the track to more accurately reflect what instrument it is.  The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
 
+== Resizing tracks ==
+
+By holding down the '''shift''' key and dragging in a track, you can resize the height of a track.  This can be very useful for sample tracks when you need to see more precision in the sample.
+
 == Working with Segments ==
 
 Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-edit.png).
