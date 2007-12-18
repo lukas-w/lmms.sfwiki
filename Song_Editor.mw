@@ -22,13 +22,19 @@ To add a new sample track, click the '''add sample-track''' button (http://tangr
 
 Note that there is no button allowing you to add a new instrument track.  This is because you would have to select a plugin for the instrument before the track was created, and this is far easier to do by tradding the correct plugin or preset from the [[Side Bar]].
 
-== Ordering your tracks ==
+== Working with existing tracks ==
+
+=== Moving tracks ===
 
 You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the stippled handle on the left-hand side of the instrument line. You can also change the colour of the track by right-clicking on a segment of the track and choosing 'Change color' from the drop-down menu, allowing you to easily see track groupings.  You can also change the icon of the track to more accurately reflect what instrument it is.  The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
 
-== Resizing tracks ==
+=== Resizing tracks ===
 
 By holding down the '''shift''' key and dragging in a track, you can resize the height of a track.  This can be very useful for sample tracks when you need to see more precision in the sample.
+
+=== Scrolling around ===
+
+The scroll bars at the right and bottom of the window allow you to move the segment view around.  You can also hold down shift and use the mouse wheel to scroll horizontally.
 
 == Working with Segments ==
 
