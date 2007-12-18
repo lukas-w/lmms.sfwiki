@@ -1,0 +1,18 @@
+You use the [[Song Editor]] to link the various sounds, rhythms and melodies together into a complete performance.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.1.3/songeditor-simple.png
+
+= Track types =
+
+The fundamental unit that you work with in the Song Editor is a track.  Each track is a row in the song editor window; the left part of the track controls the type of track and the right part displays when sounds are going to be created by that track.  This sounds like a generalisation, because it is - tracks can be of a number of different types, and each type of track has a different way of working.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Composing Bass Lines and Drum Sequences]]
+| Up: [[NewManual]]
+| Next: [[Working with Automation]]
+|}
+
+[[Category:HowTo]] [[Category:Incomplete]]
