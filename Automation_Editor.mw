@@ -22,6 +22,26 @@ The following controls allow you to automate them:
 
 = Editing automation =
 
+This is a typical view of the automation window:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-volume-channel-default.png
+
+The window title '''Default - Channel volume''' tells you that this is editing the volume channel of the Default instrument plugin.
+
+In the main part of the window we have a graph of the value of the control over time.  The time is listed along the X axis (at the top of the window) and the value of the control is listed along the Y axis.  The editor cursor is linked to horizontal and vertical red lines to make it easier to correlate a value either with a previous or future value or to precisely line it up with a time.
+
+The area under the graph in orange provides an easy way to see the volume over time.  It is displayed in this way because volume goes from 0 upward.  In circumstances where the value can be negative, the zero line is inside the graph and values below zero are shaded orange from the value to zero.  An example of such a control is the left-to-right pan position of an instrument.
+
+The actual value of the control at any point in time is dictated by the last control point at or before that time.  A zoomed-in view of a control point is shown here:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-point-zoomed.png
+
+The yellow mark is the control point.  There is only ever one control point for any point in time, although the same value can occur at many points in time.
+
+Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pencil-up.png) you can create new points simply by dragging over the graph.  You can also move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can also delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).
+
+The spacing of control points as you draw is set by the quantisation setting (see below).
+
 = Automation Editor Toolbar =
 
 The toolbar for the Automation Editor controls much of its functionality, and is similar in many ways to the toolbars of other windows.
