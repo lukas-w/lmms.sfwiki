@@ -17,8 +17,8 @@ The following controls allow you to automate them:
 * Almost any knob (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-volume.png).
 * The BPM display (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png).
 * Any other control that features seven-segment numeric LED display (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-fx-chnl.png).
-* The Instrument plugin's sound position X and Y axes (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-pan-fade.png)
-* The mute control on any instrument (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-mute.png)
+* The Instrument plugin's sound position pan and fade (i.e. X and Y axes) (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-pan-fade.png) independently.
+* The mute control on any instrument (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-mute.png).
 
 = Editing automation =
 
