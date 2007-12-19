@@ -1,10 +1,20 @@
 You use the [[Song Editor]] to link the various sounds, rhythms and melodies together into a complete performance.
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.1.3/songeditor-simple.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-simple.png
 
 = Track types =
 
 The fundamental unit that you work with in the Song Editor is a track.  Each track is a row in the song editor window; the left part of the track controls the type of track and the right part displays when sounds are going to be created by that track.  This sounds like a generalisation, because it is - tracks can be of a number of different types, and each type of track has a different way of working.
+
+== Sample Tracks ==
+
+Typically, sample tracks are used to include recordings of singers or instruments playing a melody line.  This allows you to have live musicians alongside the music in your LMMS projects.  However, as yet there are no facilities to trim the start of the sample, or to tune it or scale it to fit with the bars in your music.  These should be done in an audio editing program such as Audacity beforehand.
+
+Sample tracks are the simplest type of track because they only have a volume control and an effects chain.
+
+== Bassline Tracks ==
+
+== Instrument Tracks ==
 
 = Navigation =
 
