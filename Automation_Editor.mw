@@ -1,5 +1,7 @@
 The Automation Editor allows you to control the absolute value of any automatable control at any point in time during the performance.  This allows you everything from very simple effects like turning the volume on an instrument up at the start of the song, to very complex manipulation of the envelopes or filters of the instrument itself.  Even the controls in [[LADSPA Effects]] can be automated!
 
+= The window itself =
+
 When opened using the Automation Editor button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png), the main window looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-nopattern.png
@@ -7,6 +9,16 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-nopattern.png
 This is because the content of the automation has to be applied to an actual control.  As the text suggests, you need to right-click on a control in order to edit the automation for that control.
 
 = What can be automated? =
+
+To automate a control, right-click on it and select '''Open in automation editor''' from the context menu.
+
+The following controls allow you to automate them:
+
+* Almost any knob (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-volume.png).
+* The BPM display (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png).
+* Any other control that features seven-segment numeric LED display (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-fx-chnl.png).
+* The Instrument plugin's sound position X and Y axes (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-pan-fade.png)
+* The mute control on any instrument (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-mute.png)
 
 = Editing automation =
 
