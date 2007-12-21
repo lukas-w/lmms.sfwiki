@@ -30,6 +30,8 @@ The window title '''Default - Channel volume''' tells you that this is editing t
 
 In the main part of the window we have a graph of the value of the control over time.  The time is listed along the X axis (at the top of the window) and the value of the control is listed along the Y axis.  The editor cursor is linked to horizontal and vertical red lines to make it easier to correlate a value either with a previous or future value or to precisely line it up with a time.
 
+For most controls, the time axis (i.e. the horizontal ruler) is equivalent to the time in the Song Editor.  In other words, bar one in the Automation Editor is equal to bar one in the Song Editor.  The exception to this rule is with drum patterns, where bar one is the start of the pattern.  For drum patterns, bar one is repeated every time they are played, and subsequent bars of automation are ignored.
+
 The area under the graph in orange provides an easy way to see the volume over time.  It is displayed in this way because volume goes from 0 upward.  In circumstances where the value can be negative, the zero line is inside the graph and values below zero are shaded orange from the value to zero.  An example of such a control is the left-to-right pan position of an instrument.
 
 The actual value of the control at any point in time is dictated by the last control point at or before that time.  A zoomed-in view of a control point is shown here:
