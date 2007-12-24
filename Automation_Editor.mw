@@ -50,6 +50,11 @@ The toolbar for the Automation Editor controls much of its functionality, and is
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar.png
 
+The fundamental tools are similar in behaviour to their equivalents in the [[Piano Roll Editor]] and their description is not repeated here.  The main changes are:
+
+* There is no record functionality (that I know of).
+* The zoom controls can control both the horizontal and vertical directions of the window.
+
 = Navigation =
 
 HowTo: [[Working with Automation]]
