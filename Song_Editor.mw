@@ -66,17 +66,23 @@ In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all t
 
 The Song Editor window has a toolbar that allows you to control playback of the song, add new tracks, choose edit tools, customise the method of playback, and control the view of the song.
 
+== Playback Buttons ==
+
 * The '''Play''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-play.png) starts playback at the current cursor point.
 * The '''Stop''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-stop.png) stops playback if it has been started and moves the cursor depending on what mode you have chosen in the play control tool (see below).
 * While the song is playing, you can use the '''Pause''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-pause.png) to halt playback without moving the cursor.
 
+== Add Track Buttons ==
+
 * The '''Add Bassline Track''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-add-bassline.png) allows you to add a new beat / bassline track.
 * The '''Add Sample Track''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-add-sampletrack.png) allows you to add a new sample track, and not to add a new penguin as you may have suspected.  Penguins can only be added to LMMS in audio form.
+
+== Editing Tools ==
 
 * The '''Edit''' tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-edit.png) is the main tool used in the Song Editor.  You use it to create segments in tracks ([[Song Editor#The Edit Tool|see above]]).
 * The '''Move''' tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-move.png) allows you to select regions of segments and move them around as one group ([[Song Editor#The Move Tool|see above]]). 
 
-The next three buttons control various aspects of playback.
+== Playback Controls ==
 
 * The '''Autoscroll''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-autoscroll-yes.png) is normally turned on.  During playback, the view in the song editor will automatically move to include the current playback point.  If it moves off the right hand edge of the window, the window will be repositioned so it is at the left hand edge.  If the autoscroll button is turned off (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-autoscroll-no.png), then the window position will not follow the playback point during playback.
 * The '''Loop''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-loop-no.png) is normally turned off.  When turned on (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-loop-yes.png), the loop points are turned on and playback will loop continuously between the start and end loop points.  This can be useful when testing a particular section of your piece, but it only exists as a playback mode, not as a way to repeat a section a certain number of times.
@@ -84,6 +90,8 @@ The next three buttons control various aspects of playback.
 ** '''To Start''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tostart.png) - by default, the playback position will return to the start of the song.
 ** '''To Before''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tobefore.png) - when in this mode, the playback position will return to the position that it previously started from.  This will usually be where you last placed the playback position.
 ** '''Continue''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png) - in this mode, the playback position will not be moved and playback will commence from where it is stopped.
+
+== Zoom Controls ==
 
 * The final control is the '''Zoom''' control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-zoom-100.png).  Setting this allows you to control how much detail is shown in the view of the track segments.  The larger this is, the more detail you see; the smaller it is, the more of the song you see in the view.  You can also hold down '''ctrl''' and use the mouse wheel to zoom in and out.
 
