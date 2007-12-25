@@ -38,11 +38,13 @@ The actual value of the control at any point in time is dictated by the last con
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-point-zoomed.png
 
-The yellow mark is the control point.  There is only ever one control point for any point in time, although the same value can occur at many points in time.
+The yellow mark is the '''control point'''.  There is only ever one control point for any point in time, although the same value can occur at many points in time.  (I.e. points do not stack vertically).
 
 Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pencil-up.png) you can create new points simply by dragging over the graph.  You can also move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can also delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).
 
 The spacing of control points as you draw is set by the quantisation setting (see below).
+
+Points can be erased either by right-clicking on them or by using the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png).  When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png).
 
 = Automation Editor Toolbar =
 
