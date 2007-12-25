@@ -34,15 +34,21 @@ For most controls, the time axis (i.e. the horizontal ruler) is equivalent to th
 
 The area under the graph in orange provides an easy way to see the volume over time.  It is displayed in this way because volume goes from 0 upward.  In circumstances where the value can be negative, the zero line is inside the graph and values below zero are shaded orange from the value to zero.  An example of such a control is the left-to-right pan position of an instrument.
 
-The actual value of the control at any point in time is dictated by the last control point at or before that time.  A zoomed-in view of a control point is shown here:
+== Control Points ==
+
+The actual value of the control at any point in time is dictated by the last '''control point''' at or before that time.  A zoomed-in view of a control point is shown here:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-point-zoomed.png
 
 The yellow mark is the '''control point'''.  There is only ever one control point for any point in time, although the same value can occur at many points in time.  (I.e. points do not stack vertically).
 
-Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pencil-up.png) you can create new points simply by dragging over the graph.  You can also move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can also delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).
+== Drawing Control Points ==
 
-The spacing of control points as you draw is set by the quantisation setting (see below).
+Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pencil-up.png) you can create new points simply by dragging over the graph.  You can also move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can also delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).  You can also quickly select the drawing tool by pressing '''shift-D'''.
+
+The spacing of control points as you draw is set by the quantisation setting (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantisation-16.png).  By default this is set to 1/16th notes
+
+== Erasing Control Points ==
 
 Points can be erased either by right-clicking on them or by using the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png).  When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png).
 
