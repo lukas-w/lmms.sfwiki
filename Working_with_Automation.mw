@@ -1,0 +1,47 @@
+Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song.
+
+= Automate This! =
+
+The list of controls that can be automated is vast, as can be seen from the list in the [[Automation#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
+
+* Track controls such as the Volume and Mute settings, in both the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Piano Roll Editor]].
+* Virtually all Instrument controls:
+** The settings of the Instrument [[Plugins|Plugin]] itself, worthy of a subsection in its own right:
+*** All the knobs, such as phase, tuning, and pan.
+*** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix type between them.
+** The knobs controlling the envelope, LFO and filter parameters.
+** The radio buttons controlling the filter and LFO.
+** The type of filter selected.
+** The arpeggio type and length.
+** The controls for any effects you've got on the instrument, and whether all effects are on or not.
+** The MIDI channels to receive and send note data on.
+* The master Tempo, Pitch and Volume.
+
+Basically, right-click on it, and if it's got an 'Open in Automation Editor' option in the context menu, it's automatable!
+
+Let's look at some examples of how to use automation in your songs.
+
+== Fading in ==
+
+== Adding expression ==
+
+By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
+
+== Eighties acid effects ==
+
+== Sounds flying past ==
+
+= Navigation =
+
+Reference: [[Automation Editor]]
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Putting the song together]]
+| Up: [[NewManual]]
+| Next: [[Working with LADSPA effects]]
+|}
+
+[[Category:HowTo]] [[Category:Incomplete]]
