@@ -23,6 +23,24 @@ Let's look at some examples of how to use automation in your songs.
 
 == Fading in ==
 
+The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece.  This is accomplished by automating the volume control of the instrument in the Song Editor.
+
+The first thing you will find out is that automation is always measured from the start of the song, regardless of where the instrument track has its first segment.  So if you have the first bar of piano roll in the instrument track appearing in bar 33, you will need to start fading the instrument in at bar 33 rather than bar 1.
+
+The second thing you will find out is that a fade in will usually last for many bars, and it's easier to draw a diagonal line of that length when the horizontal scale (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-horizzoom-100.png) is reduced to about 25%.
+
+The third thing you will find out is that having lots of control points is unnecessary for volume, as people are not very sensitive to small changes in volume.  In addition, having more control points means more editing later if you change your mind.  Set the quantisation control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png) to around 1/2 or 1/4 and you can still get a relatively even line without having a lot of unnecessary control points if you want to change it later.
+
+For example, in this piece:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-songeditor.png
+
+The automation on the first Moog track's Volume control looks like this:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automation.png
+
+Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
+
 == Adding expression ==
 
 By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
