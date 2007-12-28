@@ -23,7 +23,7 @@ Let's look at some examples of how to use automation in your songs.
 
 == Fading in ==
 
-The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece.  This is accomplished by automating the volume control of the instrument in the Song Editor.
+The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece when it enters.  This is accomplished by automating the volume control of the instrument in the Song Editor.
 
 The first thing you will find out is that automation is always measured from the start of the song, regardless of where the instrument track has its first segment.  So if you have the first bar of piano roll in the instrument track appearing in bar 33, you will need to start fading the instrument in at bar 33 rather than bar 1.
 
