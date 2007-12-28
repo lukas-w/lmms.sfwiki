@@ -19,6 +19,11 @@ The list of controls that can be automated is vast, as can be seen from the list
 
 Basically, right-click on it, and if it's got an 'Open in Automation Editor' option in the context menu, it's automatable!
 
+There are two things to remember when automating controls:
+
+* The automation for controls on tracks in a beat/bassline only goes for the first bar (or as many bars as the beat/bassline pattern lasts).
+* All other automation starts from bar 1 of the song editor.
+
 Let's look at some examples of how to use automation in your songs.
 
 == Fading in ==
@@ -50,6 +55,27 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-sh
 == Eighties acid effects ==
 
 == Sounds flying past ==
+
+In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-1.png
+
+I then created a diagonal line from pan-right (+1024 at top) to pan-left (-1024 at bottom):
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-2.png
+
+And now the sound 'flies' past from right to left!
+
+http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.ogg
+
+Notice that the sound 'resets' to the right after each bar, because the pattern is only one bar long.  If I wanted another set of claps that flew in the other direction, I have a couple of options:
+
+* I can create a second pattern that has automation taking it from left to right and alternate the patterns in the song.  This means that you have a second track, which may be inconvenient.
+* I can add a second bar of notes (via the pattern's context menu '''Add Steps''' option) and then have the automation return to the right.  This would limit me to having the claps return immediately after they left, which may not work in the piece.
+
+You can download this as an MMPZ file from
+
+http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
 
 = Navigation =
 
