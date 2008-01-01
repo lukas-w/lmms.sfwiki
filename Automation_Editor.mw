@@ -4,7 +4,9 @@ The Automation Editor allows you to control the absolute value of any automatabl
 
 When opened using the Automation Editor button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png), the main window looks like this:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-nopattern.png
+<!--{\end{center}}-->
 
 This is because the content of the automation has to be applied to an actual control.  As the text suggests, you need to right-click on a control in order to edit the automation for that control.
 
@@ -27,7 +29,9 @@ The following controls allow you to automate them:
 
 This is a typical view of the automation window:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-volume-channel-default.png
+<!--{\end{center}}-->
 
 The window title '''Default - Channel volume''' tells you that this is editing the volume channel of the Default instrument plugin.
 
@@ -41,7 +45,9 @@ The area under the graph in orange provides an easy way to see the volume over t
 
 The actual value of the control at any point in time is dictated by the last '''control point''' at or before that time.  A zoomed-in view of a control point is shown here:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-point-zoomed.png
+<!--{\end{center}}-->
 
 The yellow mark is the '''control point'''.  There is only ever one control point for any point in time, although the same value can occur at many points in time.  (I.e. points do not stack vertically).
 
@@ -59,7 +65,9 @@ Points can be erased either by right-clicking on them or by using the eraser too
 
 The toolbar for the Automation Editor controls much of its functionality, and is similar in many ways to the toolbars of other windows.
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar.png
+<!--{\end{center}}-->
 
 The fundamental tools are similar in behaviour to their equivalents in the [[Piano Roll Editor]] and their description is not repeated here.  The main changes are:
 
