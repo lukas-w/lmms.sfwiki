@@ -101,6 +101,13 @@ You can download this as an MMPZ file from
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
 
+= When not to use Automation =
+
+Though Automation gives you great power and flexibility over the sound of an instrument or your entire piece, there are some times where it is overkill and others where there are easier ways to achieve what you want.
+
+* Automation currently lacks any tools to make regular shapes such as sine waves.  Drawing these can be quite difficult, especially if you are looking at drawing such a shape for a long time.  Instead, use an LFO - either in the instrument plugin or as an effect.
+* Automation can be applied to change the characteristics of each note individually - for example, to have a note gradually fade away or gradually introduce vibrato - but it is tedious to do this to every note.  The LFO settings in the instrument plugin's Evelope/LFO/Filter section allow you to set the attack rate of the LFO to gradually fade in vibrato, and the envelope can be set to give a long decay time.
+
 = Navigation =
 
 Reference: [[Automation Editor]]
