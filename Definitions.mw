@@ -1,36 +1,36 @@
 Here are a list of terms used in LMMS and their meaning.
 
-= A =
-= B =
-= C =
-= D =
-= E =
-= F =
+== A ==
+== B ==
+== C ==
+== D ==
+== E ==
+== F ==
 
 ; Freeze
 : To freeze a song or bassline track is to pre-render its sound and play that rather than render the track in real time.  This allows you to render a very complex track that would otherwise take too much CPU time to play with all the other tracks in the song.  While a track is frozen, changes to it do not take effect.  When [[Definitions#T|thawed]], the changes will take effect and the track will once again be rendered in real time as the song progresses.  Tracks can only be frozen when playback is stopped.
 
-= G =
-= H =
-= I =
-= J =
-= K =
-= L =
+== G ==
+== H ==
+== I ==
+== J ==
+== K ==
+== L ==
 
 ; LMMS
-: the Linux MultiMedia System.
+: the Linux MultiMedia Studio.
 
-= M =
-= N =
-= O =
-= P =
+== M ==
+== N ==
+== O ==
+== P ==
 
 ; Project
 : The entire package of instruments, tracks, patterns and settings that comprise the whole performance of the song.  This is what you save and load from the Project menu.
 
-= Q =
-= R =
-= S =
+== Q ==
+== R ==
+== S ==
 
 ; Sample
 : An individual audio file, used either in an [[#I|instrument]] (see [[AudioFileProcessor Plugin]]) or a [[#S|sample track]].
@@ -43,19 +43,19 @@ Here are a list of terms used in LMMS and their meaning.
 ; Step
 : One sixteenth of a bar in the [[Beat Bassline Editor|Beat + Bassline Editor]]; a single 'tab' in the pattern display.
 
-= T =
+== T ==
 
 ; Thaw
 : To unfreeze a track, rendering it again in real time during playback.  See [[Definitions#F|freeze]].
 ; Track
 : A row in the [[Song Editor]] containing an instrument, sample track, or beat / bassline.
 
-= U =
-= V =
-= W =
-= X =
-= Y =
-= Z =
+== U ==
+== V ==
+== W ==
+== X ==
+== Y ==
+== Z ==
 
 = Navigation =
 
