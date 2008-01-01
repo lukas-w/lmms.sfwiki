@@ -1,6 +1,8 @@
 The Tool Bar is at the top of the window, permanently underneath the [[Main Menu Bar]].  It looks like this:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar.png
+<!--{\end{center}}-->
 
 = File Controls =
 
@@ -10,7 +12,7 @@ The '''New Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/t
 
 The '''Open Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-open-project.png) opens an existing song file in your LMMS Working Directory.
 
-The '''Save Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-save.png) saves the current project.  If you have not yet saved the project you will be prompted for a name and location to save it.
+The '''Save Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-save.png) saves the current project. If you have not yet saved the project you will be prompted for a name and location to save it.
 
 The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) exports the current project as a WAV or OGG file.  It will export it from the current play location in the [[Song Editor]] so be sure to set the play location to the first bar if you want the entire song exported.
 
