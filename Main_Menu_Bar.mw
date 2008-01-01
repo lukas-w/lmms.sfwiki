@@ -1,6 +1,8 @@
 The main menu bar gives you various options to control the overall functioning of LMMS:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menubar.png
+<!--{\end{center}}-->
 
 = Project Menu =
 
@@ -20,7 +22,9 @@ The Project menu allows you to load, save and export projects and import MIDI fi
 
 * '''Export''' allows you to export your song as an uncompressed WAV file or compressed OGG file.  No MP3 file export support is planned.  Once you have chosen a name and location to save the file, you then get presented with a dialog:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menu-project-export-settings.png
+<!--{\end{center}}-->
 
 : This allows you to choose the format of the file and, for OGG files, the bit rate and bit rate management method (these settings are ignored for WAV files).  Please note that, at this stage, the format chosen here and the extension you used on the file in the export file dialog are not synchronised automatically - you must set them the same manually to end up with a file which is named correctly for its content.  You can also choose whether to use the [[Tool Bar#Sound_Quality_Controls|High Quality Mode]] when performing the song.
 
