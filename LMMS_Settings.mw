@@ -8,7 +8,9 @@ Most of the settings in the Settings Dialog do not take effect until you restart
 
 == General Settings ==
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-general.png
+<!--{\end{center}}-->
 
 *The '''Buffer Size''' slider controls the size of the audio processing buffer.  The display at the left of the control tells you the size of the buffer in frames and in milliseconds.  The longer the buffer, the less temporary peaks in CPU usage and interrupts from the rest of the operating system will affect the sound output.  However, the longer the buffer the more delay between when you make a change to a control and when that change is finally heard.  This affects both live performance and experimenting with the sound while composing.  It does not affect normal playback.
 
@@ -23,19 +25,23 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-general.png
 
 == Directories ==
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-directories.png
+<!--{\end{center}}-->
 
 This tab allows you to set where files are loaded from and saved to.
 
 * The '''Working''' directory is where your projects and saved presets are stored.  Projects are saved in a subdirectory named 'projects' and presets similarly.  You can put samples into a directory named 'samples' under the working directory and they will appear in the [[Side Bar]]'s samples section.  You can also use subdirectories in the samples directory to classify your samples; they will appear as folders in the side bar.  They will be listed separately from the default samples and presets that come with LMMS.
 * The '''VST-plugin''' directory is used if you have VST plugins installed (e.g. under WINE).  Set this to the appropriate directory and your VST plugins will be available in LMMS.
 * The '''Artwork''' directory is where themes for customising the look of LMMS can be stored.
-* The '''FL Studio''' installation directory is used if you have Fruity Loops Studio&copy; installed.  Set this to the directory containing your copy of Fruity Loops Studio and you can load your project files into LMMS.
+* The '''FL Studio''' installation directory is used if you have Fruity Loops Studio&copy; installed.  Set this to the directory containing your copy of Fruity Loops Studio and when importing FLP-files, LMMS will try to load samples from the FL-installation-directory.
 * The '''LADSPA Plugin''' directory is where [[LADSPA]] effects are installed.  If you have multiple locations, separate them with colons in the standard UNIX path manner.
 
 == Performance Settings ==
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-performance.png
+<!--{\end{center}}-->
 
 The controls on this tab affect the speed of the rendering of your song into audio in relation to other parts of the interface.  While on most modern hardware rendering performance is not an issue, this may help people with older hardware use LMMS without gaps in playback.
 
@@ -46,7 +52,9 @@ The controls on this tab affect the speed of the rendering of your song into aud
 
 == Audio Settings ==
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-audio.png
+<!--{\end{center}}-->
 
 *The '''Audio Interface''' sets the mechanism that LMMS uses to produce audio.  You can select from:
 ** ALSA (Advanced Linux Sound Architecture)
@@ -59,7 +67,9 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-audio.png
 
 == MIDI Settings ==
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-dialog-midi.png
+<!--{\end{center}}-->
 
 Similar to the Audio settings above, this allows you to select the interface to use to receive and send MIDI signals with your instruments.  Select the '''MIDI Interface''' that connects your computer to your MIDI instruments and set any device-specific '''Settings''' with these controls.
 
@@ -67,11 +77,15 @@ Similar to the Audio settings above, this allows you to select the interface to 
 
 Alternatively, you can be guided through a series of steps that will configure the most commonly changed settings in your LMMS setup.  This is accessed through the '''Show settings dialog''' menu option in the '''Settings''' menu.  The wizard will also be shown to you the first time you start LMMS.  The wizard has a series of pages, starting with a welcome screen for the first step:
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-wizard-1.png
+<!--{\end{center}}-->
 
 By clicking '''Next''' you will move to the next page, which asks you for the directory that LMMS will save your projects and presets in and look for your samples in.  This sets the '''working directory''' setting in the [[LMMS Settings#Directories|Settings Dialog]] above.
 
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/settings-wizard-2.png
+<!--{\end{center}}-->
 
 That's it!  You can now click '''Finish''' to save your settings or '''Cancel''' to cancel any changes.
 
