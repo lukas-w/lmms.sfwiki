@@ -1,4 +1,3 @@
-
 == Introduction ==
 
 LMMS 0.4 is going to be a big step ahead and thus we do not only want to provide excellent features but also a real nice GUI. We want to start with improving artwork of plugins. Some of them are ok (e.g. Vibed, LB302) but some are really horrible from a todays point of view and look far too childish or just done very cheaply, e.g. TripleOscillator, SingerBot, VeSTige and partly AudioFileProcessor. The logos/icons of all of them are ok, but their editor-GUI sucks. We need a new professional looking style.
@@ -29,6 +28,18 @@ We want all graphic designers out there to make some proposals for new artwork. 
 !'''Comments'''
 |-
 | old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/organic/artwork.png || brandmaier || old childish looking artwork which needs re-design
+|-
+|}
+
+== Kicker ==
+
+{| cellpadding="10" border="1"
+!
+!'''Image'''
+!'''Author'''
+!'''Comments'''
+|-
+| old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/branches/lmms-mv/plugins/kicker/artwork.png || tobydox || old childish looking artwork which needs re-design
 |-
 |}
 
