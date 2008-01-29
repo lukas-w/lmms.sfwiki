@@ -1,3 +1,4 @@
+
 == Introduction ==
 
 LMMS 0.4 is going to be a big step ahead and thus we do not only want to provide excellent features but also a real nice GUI. We want to start with improving artwork of plugins. Some of them are ok (e.g. Vibed, LB302) but some are really horrible from a todays point of view and look far too childish or just done very cheaply, e.g. TripleOscillator, SingerBot, VeSTige and partly AudioFileProcessor. The logos/icons of all of them are ok, but their editor-GUI sucks. We need a new professional looking style.
@@ -5,8 +6,7 @@ LMMS 0.4 is going to be a big step ahead and thus we do not only want to provide
 
 We want all graphic designers out there to make some proposals for new artwork. The only limitations so far are that you have to fill out an area of 250x250 px and all controls have to stay the same (although their appearence/size/position can be changed of course). Furthermore the graphics should match at least a bit LMMS' rather dark appearence as well as the given logos/icons should be integrated.
 
-
-== TripleOscillator ==
+== AudioFileProcessor ==
 
 {| cellpadding="10" border="1"
 !
@@ -14,11 +14,21 @@ We want all graphic designers out there to make some proposals for new artwork. 
 !'''Author'''
 !'''Comments'''
 |-
-| old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/triple_oscillator/artwork.png || tobydox || old childish looking artwork which needs re-design
+| old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/audio_file_processor/artwork.png || tobydox || old childish looking artwork which needs re-design
 |-
-| proposal 1 || http://lgar89.googlepages.com/tripleosc.png || AmbroXio ||  Radiactive looking artowork. [http://picasaweb.google.com/LGAR89/Amblogg/photo?authkey=ROWA3rfCUhM#5152238722547559266 With buttons on]
+| proposal 1 || http://telemacro.files.wordpress.com/2008/01/audiofile.png || fabi || Dark grey, glowing, buttonized feeling.
 |-
-| proposal 2 || http://telemacro.files.wordpress.com/2008/01/triple_oscillator_2.png || fabi ||  Dark Grey rockin'. 
+|}
+
+== Organic ==
+
+{| cellpadding="10" border="1"
+!
+!'''Image'''
+!'''Author'''
+!'''Comments'''
+|-
+| old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/organic/artwork.png || brandmaier || old childish looking artwork which needs re-design
 |-
 |}
 
@@ -36,6 +46,22 @@ We want all graphic designers out there to make some proposals for new artwork. 
 |-
 |}
 
+== TripleOscillator ==
+
+{| cellpadding="10" border="1"
+!
+!'''Image'''
+!'''Author'''
+!'''Comments'''
+|-
+| old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/triple_oscillator/artwork.png || tobydox || old childish looking artwork which needs re-design
+|-
+| proposal 1 || http://lgar89.googlepages.com/tripleosc.png || AmbroXio ||  Radioactive looking artwork. [http://picasaweb.google.com/LGAR89/Amblogg/photo?authkey=ROWA3rfCUhM#5152238722547559266 With buttons on]
+|-
+| proposal 2 || http://telemacro.files.wordpress.com/2008/01/triple_oscillator_2.png || fabi ||  Dark Grey rockin'. 
+|-
+|}
+
 == VeSTige ==
 
 {| cellpadding="10" border="1"
@@ -47,19 +73,5 @@ We want all graphic designers out there to make some proposals for new artwork. 
 | old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/vestige/artwork.png || tobydox || old childish looking artwork which needs re-design
 |-
 | proposal 1 || http://telemacro.files.wordpress.com/2008/01/vestige.png || fabi || Same dark feeling as others :)
-|-
-|}
-
-== AudioFileProcessor ==
-
-{| cellpadding="10" border="1"
-!
-!'''Image'''
-!'''Author'''
-!'''Comments'''
-|-
-| old image || http://lmms.svn.sourceforge.net/viewvc/*checkout*/lmms/trunk/lmms/plugins/audio_file_processor/artwork.png || tobydox || old childish looking artwork which needs re-design
-|-
-| proposal 1 || http://telemacro.files.wordpress.com/2008/01/audiofile.png || fabi || Dark grey, glowing, buttonized feeling.
 |-
 |}
