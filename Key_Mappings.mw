@@ -7,7 +7,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 == Instrument Plugins ==
 
 {| style="border: 1px solid black;"
-|-
+|+
 | Key
 | Action
 | Notes
@@ -15,7 +15,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 |}
 == Beat + Bassline Editor ==
 {| style="border: 1px solid black;"
-|-
+|+
 | Key
 | Action
 | Notes
@@ -25,7 +25,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Piano Roll Editor ==
 {| style="border: 1px solid black;"
-|-
+|+
 | Key
 | Action
 | Notes
@@ -46,7 +46,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Song Editor ==
 {| style="border: 1px solid black;"
-|-
+|+
 | Key
 | Action
 | Notes
@@ -56,7 +56,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Automation Editor ==
 {| style="border: 1px solid black;"
-|-
+|+
 | Key
 | Action
 | Notes
@@ -66,7 +66,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Other ==
 {| style="border: 1px solid black;"
-|-
+|+
 | Key
 | Action
 | Notes
