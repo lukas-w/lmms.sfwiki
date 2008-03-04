@@ -30,6 +30,17 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
+| Ctrl-C
+| Copy selected area
+| When area selected
+|-
+| Ctrl-V
+| Paste selected area
+| When area selected
+|-
+| Ctrl-X
+| Cut selected area
+| When area selected
 
 |}
 
