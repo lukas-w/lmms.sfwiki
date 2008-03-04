@@ -1,6 +1,11 @@
+__NOTOC__ __NOEDITSECTION__
 Here are a list of terms used in LMMS and their meaning.
 
 == A ==
+
+; Automation
+: Controlling the position of a knob or other control in LMMS over time.  Automation is edited in the [[Automation Editor]] for individual controls.  See the article on [[Working With Automation]] for a more task-oriented description.
+
 == B ==
 == C ==
 == D ==
@@ -63,7 +68,7 @@ Here are a list of terms used in LMMS and their meaning.
 |-
 | Prev: [[LMMS Settings]]
 | Up: [[NewManual]]
-| Next: [[Programming Notes]]
+| Next: [[Key Mappings]]
 |}
 
 [[Category:Appendix]]
