@@ -51,6 +51,22 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
+| Ctrl-drag on segment
+| Copy segment
+| * Ctrl must be re-pressed each time you want to copy.
+  *
+|-
+| Shift-drag on segment
+| ?
+|
+|-
+| Shift-Insert
+| Insert bar immediately after current play point
+|
+|-
+| Shift-Delete
+| Delete bar immediately after current play point
+|
 
 |}
 
