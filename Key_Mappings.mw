@@ -53,8 +53,10 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 |-
 | Ctrl-drag on segment
 | Copy segment
-| * Ctrl must be re-pressed each time you want to copy.
-  *
+|
+* Ctrl must be re-pressed each time you want to copy.
+* Can drag to new track (vertically) as well as new time (horizontally).
+* Dropping onto an existing segment replaces that segment.
 |-
 | Shift-drag on segment
 | ?
