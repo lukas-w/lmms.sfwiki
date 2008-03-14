@@ -75,6 +75,14 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Shift-Delete
 | Delete bar immediately after current play point
 |
+|-
+| Left and Right arrows
+| Move play point earlier or later
+| 
+|-
+| Up and Down arrows
+| ?
+| 
 
 |}
 
