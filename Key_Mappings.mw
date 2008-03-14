@@ -82,6 +82,17 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
+| Plus ('+')
+| Move to next pattern
+|
+|-
+| Minus ('-')
+| Move to previous pattern
+|
+|-
+| Space
+| Start / pause playback of this pattern
+| Sometimes you have to make sure that you've selected a play point in the Beat + Bassline Editor or it will start playback on the Song Editor.
 
 |}
 
