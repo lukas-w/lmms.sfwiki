@@ -31,6 +31,38 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | F10
 | Show [[Project Notes]]
 |
+|-
+| Ctrl-N
+| Create a new project
+| Will ask to save existing project if any changes have been made
+|-
+| Ctrl-O
+| Open an existing project
+| Will ask to save existing project if any changes have been made
+|-
+| Ctrl-S
+| Save current project
+|
+|-
+| Ctrl-Shift-S
+| Save current project under a new name
+|
+|-
+| Ctrl-E
+| Export current project to WAV or OGG
+|
+|-
+| Ctrl-Q
+| Quit LMMS
+| Will ask to save existing project if any changes have been made
+|-
+| Ctrl-Z
+| Undo
+| Patchy at best.  Sometimes works on window other than the one you've just edited in.
+|-
+| Ctrl-R
+| Redo
+| See Undo.
 |}
 
 == Instrument Plugins ==
