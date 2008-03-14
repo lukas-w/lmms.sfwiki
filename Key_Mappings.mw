@@ -91,11 +91,27 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 |-
 | Middle click on timeline
 | Move loop start point to that time
-| If you click after the loop end point, it will move the loop start point to the loop end point and the loop end point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+| 
+* If you click after the loop end point, it will move the loop start point to the loop end point and the loop end point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+* Locked to the nearest bar position
+|-
+| Ctrl middle click on timeline
+| Move loop start point to that time exactly
+|
+* Same loop direction behaviour as above.
+* Ignores bar locking of above.
 |-
 | Right click on timeline
 | Move loop end point to that time
-| If you click before the loop start point, it will move the loop end point to the loop start point and the loop start point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+| 
+* If you click before the loop start point, it will move the loop end point to the loop start point and the loop start point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+* Locked to the nearest bar position
+|-
+| Ctrl right click on timeline
+| Move loop end point to that time exactly
+|
+* Same loop direction behaviour as above.
+* Ignores bar locking of above.
 |}
 
 == Beat + Bassline Editor ==
