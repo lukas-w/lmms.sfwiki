@@ -51,12 +51,18 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
-| Ctrl-drag on segment
+| Ctrl pressed before drag on segment
 | Copy segment
 |
 * Ctrl must be re-pressed each time you want to copy.
 * Can drag to new track (vertically) as well as new time (horizontally).
 * Dropping onto an existing segment replaces that segment.
+|-
+| Ctrl pressed after drag on segment
+| Don't lock segment to bar start during move
+|
+* If Ctrl is pressed before drag starts, see above entry.
+* If you want to re-align the segment to guaranteed bar start, just move it again without holding down Ctrl.
 |-
 | Shift-drag on empty part of track
 | Resize track
