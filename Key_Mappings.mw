@@ -41,6 +41,10 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Ctrl-X
 | Cut selected area
 | When area selected
+|-
+| Ctrl held when clicking on note
+| Edit note detuning in [[Automation Editor]]
+|
 
 |}
 
