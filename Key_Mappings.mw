@@ -75,6 +75,29 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 |-
 |}
 
+== All editors that include a time line ==
+I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll Editor.
+
+{| style="border: 1px solid black;"
+|+
+| Key
+| Action
+| Notes
+
+|-
+| Left-click on timeline
+| Move playback position to that time
+| Works during playback as well as when stopped
+|-
+| Middle click on timeline
+| Move loop start point to that time
+| If you click after the loop end point, it will move the loop start point to the loop end point and the loop end point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+|-
+| Right click on timeline
+| Move loop end point to that time
+| If you click before the loop start point, it will move the loop end point to the loop start point and the loop start point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+|}
+
 == Beat + Bassline Editor ==
 {| style="border: 1px solid black;"
 |+
