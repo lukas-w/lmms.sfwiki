@@ -115,6 +115,30 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Cut selected area
 | When area selected
 |-
+| Ctrl-A
+| Select all notes
+|
+|-
+| Ctrl-D
+| Select draw tool
+|
+|-
+| Ctrl-E
+| Select erase tool
+|
+|-
+| Ctrl-S
+| Select selector tool
+|
+|-
+| Ctrl-M
+| Select selection movement tool
+|
+|-
+| Delete
+| Delete selected notes
+|
+|-
 | Ctrl held when clicking on note
 | Edit note detuning in [[Automation Editor]]
 |
