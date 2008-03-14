@@ -119,24 +119,32 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Select all notes
 |
 |-
-| Ctrl-D
+| Shift-D
 | Select draw tool
 |
 |-
-| Ctrl-E
+| Shift-E
 | Select erase tool
 |
 |-
-| Ctrl-S
+| Shift-S
 | Select selector tool
 |
 |-
-| Ctrl-M
+| Shift-M
 | Select selection movement tool
 |
 |-
 | Delete
 | Delete selected notes
+|
+|-
+| Home
+| Move playback point to start of automation
+|
+|-
+| Space bar
+| Start or stop playback
 |
 |-
 | Ctrl held when clicking on note
