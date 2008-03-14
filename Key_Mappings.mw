@@ -177,6 +177,18 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Resize track
 | Clicking on a segment when you start the shift-drag will not do anything.
 |-
+| Mouse wheel up or down
+| Move up or down in the song editor view (higher or lower pitches shown)
+|
+|-
+| Shift held down during mouse wheel up or down
+| Move left or right in the song editor view (earlier or later times)
+|
+|-
+| Ctrl held down during mouse wheel up or down
+| Zoom in or out horizontally
+|
+|-
 | Shift-Insert
 | Insert bar immediately after current play point
 |
