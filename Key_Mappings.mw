@@ -73,6 +73,12 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
+| '''Any Knob'''
+|-
+| Shift held while dragging control
+| ??? (seems to multiply the change by some step factor)
+| Applies only to standard up-down (i.e. non-classical twist-the-knob) mode
+
 |}
 
 == All editors that include a time line ==
