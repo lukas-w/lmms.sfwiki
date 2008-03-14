@@ -78,11 +78,19 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 |-
 | Left and Right arrows
 | Move play point earlier or later
-| 
+| Does not move current view window
 |-
 | Up and Down arrows
 | ?
 | 
+|-
+| Space bar
+| Start or pause playback
+|
+|-
+| Home key
+| Move play point to start of song
+| Does not move current view window
 
 |}
 
