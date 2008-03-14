@@ -88,6 +88,68 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 |}
 
+== Project Notes ==
+{| style="border: 1px solid black;"
+|+
+| Key
+| Action
+| Notes
+|-
+| Ctrl-Z
+| Undo last edit
+|
+|-
+| Ctrl-X
+| Cut selected text
+| 
+|-
+| Ctrl-C
+| Copy selected text
+| 
+|-
+| Ctrl-V
+| Paste selected text
+|
+|-
+| Ctrl-B
+| Toggle ''bold'' text on/off
+| 
+|-
+| Ctrl-I
+| Toggle '''italic''' text on/off
+| 
+|-
+| Ctrl-L
+| Left justify text
+| 
+|-
+| Ctrl-E
+| Centre text
+| 
+|-
+| Ctrl-R
+| Right justify text
+| 
+|-
+| Ctrl-J
+| Justify text to both margins
+|
+
+|}
+
+== File Browser (in Side Bar) ==
+{| style="border: 1px solid black;"
+|+
+| Key
+| Action
+| Notes
+|-
+| F5
+| Refresh file listing
+|
+
+|}
+
 == Other ==
 {| style="border: 1px solid black;"
 |+
