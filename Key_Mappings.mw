@@ -58,9 +58,9 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 * Can drag to new track (vertically) as well as new time (horizontally).
 * Dropping onto an existing segment replaces that segment.
 |-
-| Shift-drag on segment
-| ?
-|
+| Shift-drag on empty part of track
+| Resize track
+| Clicking on a segment when you start the shift-drag will not do anything.
 |-
 | Shift-Insert
 | Insert bar immediately after current play point
