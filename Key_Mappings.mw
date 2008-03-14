@@ -205,11 +205,11 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 |
 |-
 | Ctrl-B
-| Toggle ''bold'' text on/off
+| Toggle '''bold''' text on/off
 | 
 |-
 | Ctrl-I
-| Toggle '''italic''' text on/off
+| Toggle ''italic'' text on/off
 | 
 |-
 | Ctrl-L
