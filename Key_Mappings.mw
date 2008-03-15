@@ -389,6 +389,24 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 | Action
 | Notes
 |-
+| ''' 'Track' editor? ''' - does this mean segments on tracks or the track controls?
+|-
+| Ctrl-click while rubberband active
+| Invert selection
+|-
+| Shift-click on selection
+| Add or remove an object from the selection
+|-
+| Ctrl-drag
+| ??? (track.cpp - seems to start an application drag and drop action)
+|-
+| Ctrl-Middle click
+| Mute segment
+| Watch out for below!
+|-
+| Middle click
+| Delete segment
+| 
 
 |}
 
