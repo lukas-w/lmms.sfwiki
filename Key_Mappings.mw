@@ -148,6 +148,18 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 | Action
 | Notes
 |-
+| Mouse wheel up or down
+| Move up or down in the song editor view (higher or lower pitches shown)
+|
+|-
+| Shift held down during mouse wheel up or down
+| Move left or right in the song editor view (earlier or later times)
+|
+|-
+| Ctrl held down during mouse wheel up or down
+| Zoom in or out horizontally
+|
+|-
 | Ctrl-C
 | Copy selected area
 | When area selected
