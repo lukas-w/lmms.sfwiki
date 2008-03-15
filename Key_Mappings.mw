@@ -127,6 +127,9 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 | Action
 | Notes
 |-
+| Right click on pattern
+| Show context menu for editing patterns
+|-
 | Plus ('+')
 | Move to next pattern
 |
