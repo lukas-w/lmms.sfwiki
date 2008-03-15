@@ -220,6 +220,14 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 | Action
 | Notes
 |-
+| Right click on segment
+| Show context menu for segment editing
+| ''Inconsistent with Piano Roll Editor''
+|-
+| Middle click on segment
+| Delete segment
+| ''Inconsistent with Piano Roll Editor''
+|-
 | Ctrl pressed before drag on segment
 | Copy segment
 |
