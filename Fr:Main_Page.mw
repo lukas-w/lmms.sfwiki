@@ -1,6 +1,6 @@
 Bienvenue sur le wiki de la documentation de LMMS. Vous trouverez ici beaucoup d'informations sur LMMS.
 
-LMMS vise à être une alternative libre et gratuite à des logiciels populaires (mais propriétaires et payants) comme FL Studio, Cubase et Logic, qui vous donnent la possibilité de produire de la musique avec votre ordinateur en créant/synthétisant des sons, arrangeant des samples jouant en direct avec votre clavier et plus encore... LMMS combine les fonctionnalités d'un traqueur/séquenceur (gestion d' échantillons/de canaux/de samples/de morceaux/d'effets) complet et de ces synthétiseurs puissants et échantilloneurs dans une interface graphique moderne et simple à comprendre.
+LMMS vise à être une alternative libre et gratuite à des logiciels connus (mais propriétaires et payants) comme FL Studio, Cubase et Logic, qui vous donnent la possibilité de composer de la musique avec votre ordinateur en créant/synthétisant des sons, arrangeant des samples, jouant en direct avec votre clavier et plus encore... LMMS combine les fonctionnalités d'un traqueur/séquenceur (gestion d' échantillons/de canaux/de samples/de morceaux/d'effets) complet et de ces synthétiseurs et échantilloneurs puissants dans une interface graphique moderne et simple à comprendre.
 
 {| cellspacing="3" valign="top" align="center" width="100%"
 | width="50%" style="color: #000" valign="top"|
@@ -23,12 +23,12 @@ http://italc.sf.net/wiki-media/guide.png
 | width="160px" style="color: #000" valign="top"|
 http://italc.sf.net/wiki-media/admin.png
 | style="color: #000" valign="top"|
-'''User guides'''
+'''Guides d'utilisateur'''
 * [[Download|Télécharger]]
 * [[Requirements|Pré-requis]]
 * [[Installation]]
 * [[Troubleshooting|Dépannage]]
-* [[Tuning LMMS-installation]]
+* [[Tuning LMMS-installation|Tuner l'installation de LMMS]]
 |}
 </div>
 | width="50%" style="color: #000" valign="top"|
@@ -37,7 +37,7 @@ http://italc.sf.net/wiki-media/admin.png
 | width="160px" style="color: #000" valign="top"|
 http://italc.sf.net/wiki-media/development.png
 | style="color: #000" valign="top"|
-'''Developers'''
+'''Développeurs'''
 * '''[[Artwork contest|Concours d'artworks]]'''
 * [[Accessing SVN|Accéder au SVN]]
 * [[Creating a localization|Créer une localisation]]
