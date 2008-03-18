@@ -1,0 +1,62 @@
+__NOTOC__ __NOEDITSECTION__
+= Introduction =
+
+Pages d'introduction courtes sur chaque sujet, vous expliquant ce dont vous avez besoin pour démarrer LMMS et comprendre ce document.
+
+== [[Getting LMMS|Télécharger LMMS]] ==
+== [[Requirements|Pré-requis]] ==
+== [[Installation|Installer LMMS]] ==
+== [[Terms and Conventions|Termes et conventions]] ==
+
+= Tutoriels =
+
+Guides pas-à-pas pour arriver à certains buts dans LMMS.
+
+== [[Getting started|Commencer]] - une solution brève pour les impatients ==
+== [[Your First Song with LMMS|Votre première musique avec LMMS]] - un tutoriel plus pas-à-pas ==
+
+= Utiliser LMMS =
+
+Une description par thèmes de comment marchent les différents outils de LMMS.
+
+== [[Working with Instruments|Utiliser les instruments]] ==
+<!--{\newpage}-->
+== [[Working with Samples|Utiliser des samples]] ==
+== [[Composing in the Piano Roll Editor|Composer dans l'éditeur de notes]] ==
+== [[Composing Bass Lines and Drum Sequences|Composer des basses et des séquences de tambour]] ==
+== [[Putting the song together|Utiliser l'éditeur de morceau]] ==
+== [[Working with Automation|Utiliser l'automatisation]] ==
+== [[Working with LADSPA effects|Utiliser les effets LADSPA]] ==
+== [[Using MIDI|Utiliser le MIDI]] ==
+== [[Exporting the finished product|Exporter le morceau terminé]] ==
+
+= Référence =
+
+Des références sur les fonctions de chaque outil ou objet du menu, incluant comment ils s'insèrent avec les tâches dans la section Utiliser LMMS.
+
+== [[Main Menu Bar|Barre du menu principal]] ==
+== [[Tool Bar|Barre d'outils]] ==
+== [[Side Bar|Barre de côté]] ==
+== [[Plugins]] ==
+== [[Song Editor|Éditeur de morceau]] ==
+== [[Piano Roll Editor|Éditeur de notes]] ==
+<!--{\newpage}-->
+== [[Beat Bassline Editor|Éditeur de basses]] ==
+<!--{\newpage}-->
+== [[Automation Editor|Éditeur d'automatisation]] ==
+<!--{\newpage}-->
+== [[Project Notes|Notes du projet]] ==
+<!--{\newpage}-->
+== [[LMMS Settings|Options de LMMS]] ==
+
+= Appendices =
+
+== [[Definitions|Définitions]] ==
+== [[Key Mappings|Raccourcis clavier]] ==
+== [[Programming Notes|Notes de programmation]] ==
+== [[Interfaces and APIs|Interfaces et APIs]] ==
+== [[License|Licence]] ==
+<!--{\newpage}-->
+== [[Roadmap]] ==
+
+<!--{%}-->'' C'est une page à contenu seulement - tous les articles actuels sont supposé être liés ici. La logique derrière la structure de cette page peut être trouvée à [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|a l'article de Wikipédia sur la documentation logicielle]. ''
