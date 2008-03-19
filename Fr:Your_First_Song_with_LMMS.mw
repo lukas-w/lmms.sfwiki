@@ -111,11 +111,11 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16b
 
 = Footnotes =
 
-[[Your First Song with LMMS#Choosing the instrument| [1]]] - You could alternatively have dropped it on the existing "TripleOscillator: Default" track to replace that instrument with the one you were dragging, but this gives you an idea of how to create new instrument tracks.
+[[Fr:Your First Song with LMMS#Choosing the instrument| [1]]] - Vous pourriez alternativement l'avoir laché sur la piste "TripleOscillator: Default" existante pour remplacer cet instrument avec celui que vous étiez en train de déplacer, mais ça vous donnait une idée de comment créer des nouvelles pistes d'instrument.
 
-[[Your First Song with LMMS#Copy and paste| [2]]] - As of version 0.3.1, the copy and paste functionality in the Piano Roll Editor has several known problems.  The developers are aware of these problems and plan to fix them in a future release.
+[[Fr:Your First Song with LMMS#Copy and paste| [2]]] - Avec la version 0.3.1, les fonctionnalités copier et coller dans l'éditeur de notes a quelques problèmes connus. Les développeurs sont conscients de ces problèmes et planifient de les fixer dans une version future.
 
-[[Your First Song with LMMS#More structure| [3]]] - You should avoid having segments that overlap as there is no clear display of how many segments overlap in a particular area.  A small segment might completely disappear behind a large one, leaving you confused as to where those extra notes were coming from.  In this case, it makes good sense to use it.
+[[Fr:Your First Song with LMMS#More structure| [3]]] - Vous devriez éviter d'avoir des segments qui se chevauchent car il n'y a pas d'affichage clair pour plusieurs segments qui se superposent dans une zone particulière. Un petit segment pourrait disparaître complétement derrière un plus gros, vous laissant confus d'où viennent ces notes en plus. Dans ce cas, ça met un sens à l'éviter.
 
 = Navigation =
 
