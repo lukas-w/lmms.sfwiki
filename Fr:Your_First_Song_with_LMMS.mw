@@ -43,19 +43,23 @@ Si vous faites une erreur en plaçant une note, vous pouvez la déplacer vers sa
 
 Si vous avez besoin de supprimer une note, effectuez simplement un clic droit dessus.
 
-== Copy and paste ==
+== Copier et coller ==
 
-We now want to repeat those seven notes at the start of the bar in the next bar.  One way to do that is to simply click the correct notes.  But, for this tutorial, we'll introduce the Piano Roll's copy and paste functions.
+Nous voulons maintenant répéter ces sept notes au début de la barre dans la prochaine barre. Un moyen pour faire ceci et de simplement cliquer sur les notes correctes. Mais, pour ce tutoriel, nous allons apprendre les fonctions copier et coller de l'éditeur de notes.
 
-Click on the '''area selector''' tool in the Piano Roll toolbar's editing palette (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing.png), which is the third icon from the left - the dashed-outline square.  Now drag an area from the top-right (e.g. the C5 line in bar 2) to the bottom left (onto the G3 key).  You'll see a blue rectangle expand out and the notes that start inside this area will turn blue.  To select all the notes you will need to drag slightly onto the keyboard, something which is possible when dragging ''onto'' the keyboard but not ''off'' it (which is why we started dragging from the top right).
+Cliquez sur l'outil '''sélécteur de zone''' dans les outils d'édition de la barre d'outils de l'éditeur de notes (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing.png), qui est la troisième icone à partir de la gauche - le carré en pointillés. Maintenant créez une zone depuis en haut à droite jusqu'à en bas à gauche. Vous verrez un rectangle bleu s'agrandir et toutes les notes qui commencent à l'intérieur de ce cadre vont se transformer en bleu. Pour séléctionner toutes les notes vous devrez séléctionner un peu sur le clavier, qui est possible en sélectionnant '''vers''' le clavier et pas '''depuis''' celui-ci (c'est pour cela que nous avons commencé à séléctionner depuis la droite). 
 
-Once you have selected all the notes, press the '''copy''' button in the toolbar's clipboard palette (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-clipboard.png), which is the middle icon, looking like a page on top of another.  This copies these notes into a clipboard.  They will be pasted back into the first bar of the piano roll, so we need to move the current notes out of the way.
+Dès que vous avez séléctionné toutes les notes, appuyez sur le bouton '''copier''' dans les outils de copie de la barre d'outils (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-clipboard.png), 
+qui est l'icone du milieu, qui ressemble à un page sur une autre. Cela copie ces notes dans un presse-papier. Elles vont être collées dans la premières barre de l'éditeur de notes, donc nous devons déplacer les notes actuelles autre part.
+which is the middle icon, looking like a page on top of another.  This copies these notes into a clipboard.  They will be pasted back into the first bar of the piano roll, so we need to move the current notes out of the way.
 
-Fortunately, the '''move area''' tool in the editing palette, looking like a four-direction arrow, allows you to move all the notes in a selected area.  Select this tool and grab anywhere inside the selection to move it so that the first note is in the second bar.  It may be handy to actually grab one note, or note where the horizontal note shading lies when you start dragging, because you will find you often drag the notes up or down as well and we want to make sure we keep them at the same pitch.  Ensure that the first note is on the A4 line and starts on the first beat of the second bar.
+Heureusement, l'outil '''déplacer une zone''' dans les outils d'édition, ressemblant à une quadruple-flèche, vous permet de déplacer toutes les notes dans une zone de séléction. Séléectionnez cet outil et cliquez n'importe où dans la séléction pour la déplacer donc que la première note soit dans la seconde barre. 
+Garantissez-vous que la première note est sur la ligne A4 (la) et commence au premier temps de la seconde barre.
 
-Now we can paste the notes back in.  Press the '''paste''' button in the clipboard palette to paste the notes we previously copied back into the first bar.<sup><small>[[Your First Song with LMMS#Footnotes| [2]]]</small></sup>
+Maintenant nous voulez coller les notes. Appuyez sur le bouton '''coller''' dans les outils de copie pour coller les notes que nous avions copiées dans la première barre.
+<sup><small>[[Your First Song with LMMS#Footnotes| [2]]]</small></sup>
 
-We can now press the '''play''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
+Nous pouvons maintenant appuyer sur le bouton '''jouer''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-play.png) dans la fenêtre de l'éditeur de notes pour jouer la mélodie. Quand ça arrive à la fin de la dernière barre in laquelle il y a des notes, ça va automatiquement répéter depuis le début de la première barre.
 
 == Oops! ==
 
