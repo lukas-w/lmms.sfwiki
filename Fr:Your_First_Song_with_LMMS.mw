@@ -60,9 +60,9 @@ Maintenant nous voulez coller les notes. Appuyez sur le bouton '''coller''' dans
 
 Nous pouvons maintenant appuyer sur le bouton '''jouer''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-play.png) dans la fenêtre de l'éditeur de notes pour jouer la mélodie. Quand ça arrive à la fin de la dernière barre in laquelle il y a des notes, ça va automatiquement répéter depuis le début de la première barre.
 
-== Oops! ==
+== Oups! ==
 
-When we play the melody so far, we realise that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward using the '''select area''' and '''move area''' tools (as explained above) in order to have the first note start on the right beat.
+Quand nous jouons la mélodie, nous réalisons qu'elle démarre sur le mauvais temps. Le deuxième la (A4) est vraiment supposée être au début de la barre, et les deux notes avant celle-ci se trouvent dans la barre précédent. Cependant, nous ne pouvons pas aller avant la barre 1 de l'éditeur de notes. Nous devons déplacer toutes les notes en avant en utilisant les outils '''séléction de zone''' et '''déplacer une zone''' dans cet ordre pour que la première note démarre au bon temps.
 
 == The first 'four' bars ==
 
