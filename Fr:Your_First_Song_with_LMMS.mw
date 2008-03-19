@@ -38,8 +38,7 @@ Continuez à créer des notes dans l'éditeur de notes comme si-dessous :
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-bar.png
 <!--{\end{center}}-->
 
-Pour placer une note, vous devez la déplacer à droite de la ligne au début du temps. LMMS reconnaitra une petite partie de la zone à gauche de la ligne de ce temps comme étant plus proche de ce temps que du précédent.
-Si vous faites une erreur en plaçant une note, vous pouvez la déplacer vers sa bonne position en cliquant sur le milieu de la note (où le curseur se transforme en quadruple-flèche) et en déplaçant la note avec le bouton de la souris appuyé. LMMS va jouer la note que vous êtes en train de déplacer en tant qu'aide pour trouver une bonne position. Vous pouvez déplacer les notes horizontallement (en temps) aussi bien que verticalement (en ton).
+Pour placer une note, vous devez la déplacer à droite de la ligne au début du temps. Si vous faites une erreur en plaçant une note, vous pouvez la déplacer vers sa bonne position en cliquant sur le milieu de la note (où le curseur se transforme en quadruple-flèche) et en déplaçant la note avec le bouton de la souris appuyé. LMMS va jouer la note que vous êtes en train de déplacer en tant qu'aide pour trouver une bonne position. Vous pouvez déplacer les notes horizontallement (en temps) aussi bien que verticalement (en ton).
 
 Si vous avez besoin de supprimer une note, effectuez simplement un clic droit dessus.
 
