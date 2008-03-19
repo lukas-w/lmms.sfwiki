@@ -30,17 +30,18 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 
 Après ceci, les nouvelles notes que nous créérons vont avoir la même longueur, parce que l'éditeur de notes est fixé à la dernière note (Last Note). (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png)
 
-== More notes ==
+== Plus de notes ==
 
-Continue creating notes in the pattern shown:
+Continuez à créer des notes dans l'éditeur de notes comme si-dessous :
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-bar.png
 <!--{\end{center}}-->
 
-To place a note, you need to aim for the line at the start of the beat; LMMS will recognise a small fraction of the area left of the beat line as being closer to that beat than the previous.  If you make a mistake placing a note, you can move it to its correct position by clicking on the middle of the note (where the cursor turns into a four-way cross) and dragging the note to its new position.  LMMS will play the note that you're dragging onto as an aide to correct placement.  You can move notes horizontally (in time) as well as vertically (in pitch).
+Pour placer une note, vous devez la déplacer à droite de la ligne au début du temps. LMMS reconnaitra une petite partie de la zone à gauche de la ligne de ce temps comme étant plus proche de ce temps que du précédent.
+Si vous faites une erreur en plaçant une note, vous pouvez la déplacer vers sa bonne position en cliquant sur le milieu de la note (où le curseur se transforme en quadruple-flèche) et en déplaçant la note avec le bouton de la souris appuyé. LMMS va jouer la note que vous êtes en train de déplacer en tant qu'aide pour trouver une bonne position. Vous pouvez déplacer les notes horizontallement (en temps) aussi bien que verticalement (en ton).
 
-If you need to delete a note, simply right-click on it.
+Si vous avez besoin de supprimer une note, effectuez simplement un clic droit dessus.
 
 == Copy and paste ==
 
