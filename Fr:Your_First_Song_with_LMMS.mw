@@ -14,21 +14,21 @@ Nous voulons maintenant ajouter des notes pour faire la mélodie. Cliquez sur la
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 <!--{\end{center}}-->
 
-== The first note ==
+== La première note ==
 
-Now click in the black square just to the right of the 'A4' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
+Maintenant cliquez dans le carré noir juste à droite du la ('A4' dans le système anglais) (qui est trois lignes/demi-tons sous le do ('C5')). Ceci va créer une nouvelle noire - une note d'une pulsation (d'un temps) - démarrant à ce moment (au début du morceau).
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-demo-1stnote.png
 <!--{\end{center}}-->
 
-However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
+Cependant, c'est trop long: nous avons besoin de notes d'un demi temps - une croche - de longueur. Pour le changer, nous déplaçons simplement le pointeur de la souris au côté droit de la note, jusqu'à ce que le curseur se transforme en une double-flèche. Ensuite nous gardons le bouton de la souris appuyé et glissons la fin de la note deux 'blocs' à gauche (chaque bloc est un seizième d'une barre).
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 <!--{\end{center}}-->
 
-After this, the new notes we put down will be the same length, because the Piano Roll Editor is set to Last Note (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png)
+Après ceci, les nouvelles notes que nous créérons vont avoir la même longueur, parce que l'éditeur de notes est fixé à la dernière note (Last Note). (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png)
 
 == More notes ==
 
