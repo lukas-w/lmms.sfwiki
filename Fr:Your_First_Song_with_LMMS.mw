@@ -64,9 +64,9 @@ Nous pouvons maintenant appuyer sur le bouton '''jouer''' (http://tangram.dnsali
 
 Quand nous jouons la mélodie, nous réalisons qu'elle démarre sur le mauvais temps. Le deuxième la (A4) est vraiment supposée être au début de la barre, et les deux notes avant celle-ci se trouvent dans la barre précédent. Cependant, nous ne pouvons pas aller avant la barre 1 de l'éditeur de notes. Nous devons déplacer toutes les notes en avant en utilisant les outils '''séléction de zone''' et '''déplacer une zone''' dans cet ordre pour que la première note démarre au bon temps.
 
-== The first 'four' bars ==
+== Les 'quatre' premières barres ==
 
-If you're confident, you can now continue adding the notes of the tune to make the first four bars (up to where the main melody repeats).  Here's what your piano roll should look like at the end of this:
+Si vous êtes confiant, vous pouvez maintenant continuer à ajouter les notes de la musique pour remplir les 4 premières barres. Voilà à quoi devrait ressembler votre éditeur de notes après avoir fait ceci :
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
