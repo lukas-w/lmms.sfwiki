@@ -6,7 +6,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Main Window (i.e. works anywhere) ==
 
-{| style="border: 1px solid black;"
+{| border="1"
 |+
 | Key
 | Action
