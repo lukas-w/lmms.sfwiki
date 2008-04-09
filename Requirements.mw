@@ -1,25 +1,23 @@
-The hardware and software required to run LMMS is reasonably modest.
+Le matériel et les logiciels requis pour démarrer LMMS sont résonnablement modestes.
 
-= Hardware =
+= Matériel =
 
-== CPU/RAM ==
-Depending on the type and size of the songs you plan to write it's recommended to have at least 1 GHz and 512 MB of RAM. If you use VST-plugins and a recent SVN-copy of LMMS it's also recommended to have multiple cores and/or CPUs.
+== Processeur/RAM ==
+Dépendant du type et de la taille des musiques que vous composerez, il est recommandé d'avoir 1GHz et 512Mo de RAM. Si vous utiliser les plugins VST et une copy récente du SVN il est recommandé d'avoir plusieurs coeurs et/ou processeurs.
 
-== Soundcard ==
-There're no special needs. LMMS will run with an ordinary cheap 2-channel soundcard but it can also make use of surround-soundcards! Furthermore a MIDI-port should not be missing if you plan to record your keyboard-plays with LMMS.
+== Carte son ==
+Il n'y a pas de besoins spéciaux. LMMS peut démarrer avec une carte ordinaire avec 2 cannaux but il peut aussi utiliser les cartes son surround! Un port MIDI ne devrait pas être absent si vous prévoyez d'enregistrer un morceau au piano avec LMMS.
 
-
-= Software =
-
-For running LMMS you need Linux (Debian or Ubuntu recommended). Detailed requirements and recommendations can be found at [[Installation#Resolving_dependencies|Resolving dependencies]].
+= Logiciels =
+Pour démarrer LMMS vous avez besoin de Linux (Debian ou Ubuntu recommandés). Les requis détaillés et recommandations se situent sur [[Installation#Resolving_dependencies|Résoudre les dépendances]].
 
 = Navigation =
 
 {| style="border: 1px solid black;"
 |-
 | Prev: [[Getting LMMS]]
-| Up: [[NewManual]]
-| Next: [[Installation|Installing LMMS]]
+| Up: [[Fr:NewManual]]
+| Next: [[Installation|Installer LMMS]]
 |}
 
 [[Category:Introduction]]
