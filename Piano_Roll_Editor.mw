@@ -34,10 +34,16 @@ The selection tools allow you to move areas of notes around, as well as cutting 
 
 The clipboard tools look like http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-clipboard.png
 
-The selection tools above also allow you to cut, copy and paste areas of notes.  There are several minor 'gotchas' at of revision 0.3.1, however:
+The selection tools above also allow you to cut, copy and paste areas of notes.  There are two things to note when pasting notes, however:
 
-* The place notes are pasted is often not the same as the place notes are copied or cut from.  It seems reliable when the start of the region is within the first bar, but from there it's a bit random.
+* Notes are pasted into the start of the bar that is shown in the piano roll editor when the notes are pasted.  Therefore you must position the window to start at the bar you want the notes to be placed into before pasting.
 * The notes you've just pasted are not selected.
+
+A further gotcha is:
+
+* While you have the note movement tool active and notes are selected, any drag operation on the piano roll will move those notes, whether or not you start the drag inside the selection area or not.
+
+This interface is planned to be improved and simplified in future versions of LMMS.
 
 == Playback Control ==
 
