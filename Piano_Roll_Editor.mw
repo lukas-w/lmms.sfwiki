@@ -81,6 +81,8 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-all-empty.pn
 
 = Velocities =
 
+The 'weight' of each note - its loudness or softness - is termed '''velocity''' in music sequencers.  This velocity is shown as a vertical bar at the bottom of the window.  You can change the velocity of each note by clicking on this bar and dragging it to its preferred location.  This information is also recorded when you record notes from a MIDI keyboard that is capable of recording the velocity of the notes as they are played.
+
 = Navigation =
 
 HowTo: [[Composing in the Piano Roll Editor]]
