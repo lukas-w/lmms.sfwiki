@@ -1,7 +1,32 @@
 This is meant to be a very basic and linear tutorial on how to install LMMS.
-Examples provided assume you're running Debian GNU/Linux.
 
-== Installing LMMS from SVN ==
+= Installation under various distributions =
+
+== Gentoo Linux ==
+
+LMMS is now avaible for Gentoo in the "semi-official" overlay www.gentoo-sunrise.org.
+
+So, Gentoo users who want to install LMMS only have to do:
+
+ # emerge -va layman
+ # echo "source /usr/portage/local/layman/make.conf" >> /etc/make.conf
+ # layman -f -a sunrise
+ # echo "media-sound/lmms ~x86" >> /etc/portage/package.keywords
+ # emerge -av lmms
+
+This ebuild stills experimental and no-official so bugs shouldn't be reported on Gentoo's Bugzilla unless it's a problem with the ebuild and you write a patch (you can report this patch at bugs.gentoo.org on bug 100170). If you have any other problem with it, please contact me: cooldwind at gmail dot com.
+
+== Fedora ==
+
+Fedora has version 0.3.2 of LMMS available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].  After installing the yum repository for Planet CCRMA, then execute:
+
+  yum install lmms
+
+And then yum should resolve all your dependencies and install the software for you.
+
+= Installing LMMS from SVN =
+
+Examples provided assume you're running Debian GNU/Linux.
 
 * First you need to get LMMS sources from the SVN repository, or update your sources, if you're upgrading from a previous version. The following command will checkout a recent SVN-copy of in a newly created folder named "lmms" in the current dir.
  svn co https://lmms.svn.sourceforge.net/svnroot/lmms/branches/lmms stable-0.3
@@ -12,6 +37,8 @@ Examples provided assume you're running Debian GNU/Linux.
 * resolve any unmet dependencies the configure script prompts you for (see section "[[Installation#Resolving_dependencies|Resolving dependencies]]" below for more on this topic)
 * Now compile LMMS: cd into the sources directory (if you're not already there)
  make
+** People with more than one CPU core can use make's -j option to compile some files in parallel.  For instance:
+ make -j 2
 * Finally you can install LMMS by running as root
  make install
 
@@ -22,8 +49,12 @@ To compile LMMS from sources you need several development libraries, from graphi
 === Required libraries ===
 
 * Qt 3.x libs and Qt 3.x development libs, both multithreaded
-** under Debian run ''aptitude install libqt3-mt libqt3-mt-dev libqt3-headers qt3-dev-tools''
-** under Fedora and RPM based system run ''yum install qt-devel''.  On 64-bit systems where you do not intend to compile 32-bit targets, run ''yum install qt-devel.x86_64'' so as not to install the 32-bit development libraries.
+** under Debian run
+ aptitude install libqt3-mt libqt3-mt-dev libqt3-headers qt3-dev-tools
+** under Fedora and RPM based system run 
+ yum install qt-devel
+** On 64-bit Fedora systems where you do not intend to compile 32-bit targets, run 
+ yum install qt-devel.x86_64
 ** On a 64 bit system that uses lib64qt3, it may be necessary to make some modifications before configure will find your qt libraries. The kludge that worked for me was editing configure, and replacing all occurances of '' $QTDIR/lib'' with ''$QTDIR/lib64''  --- ''[[removethis-west@gratainc.com|Alex West]] 2006/04/30 10:30 Mandriva 2006''
 ** Alternatively, on 64-bit systems you may be able to do ''./configure --with-qtdir=/usr/lib64/qt-3.3/''. --[[User:PaulWay|PaulWay]] 22:19, 18 November 2007 (PST)
 
@@ -55,30 +86,6 @@ To make use of the full LMMS potential you may need to install some extra librar
 ** under Debian run aptitude install ''libwine-dev libwine''
 
 Again, even if you don't install all the libraries '''before''' configuring LMMS, you'll receive warnings at the end of the configure process telling you what isn't in place to achieve the best setup, and you'll be able to get what's needed, again running ''./configure'' multiple times and installing software until you get the desired result.
-
-== Installation under various distributions ==
-
-=== Gentoo Linux ===
-
-LMMS is now avaible for Gentoo in the "semi-official" overlay www.gentoo-sunrise.org.
-
-So, Gentoo users who want to install LMMS only have to do:
-
- # emerge -va layman
- # echo "source /usr/portage/local/layman/make.conf" >> /etc/make.conf
- # layman -f -a sunrise
- # echo "media-sound/lmms ~x86" >> /etc/portage/package.keywords
- # emerge -av lmms
-
-This ebuild stills experimental and no-official so bugs shouldn't be reported on Gentoo's Bugzilla unless it's a problem with the ebuild and you write a patch (you can report this patch at bugs.gentoo.org on bug 100170). If you have any other problem with it, please contact me: cooldwind at gmail dot com.
-
-=== Fedora ===
-
-Fedora has version 0.3.2 of LMMS available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].  After installing the yum repository for Planet CCRMA, then execute:
-
-  yum install lmms
-
-And then yum should resolve all your dependencies and install the software for you.
 
 = Navigation =
 
