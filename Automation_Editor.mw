@@ -57,6 +57,14 @@ Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-penc
 
 The spacing of control points as you draw is set by the quantisation setting (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantisation-16.png).  By default this is set to 1/16th notes
 
+== Copying Control Points ==
+
+In version 0.3, each automated control is separate from all others and there is no way to have one set of automation run two controls.  To solve this, you can copy and paste control points from one automated control to another.  On the one hand you can select all the points by pressing ''Ctrl-A'', then copying and pasting the points from one control to the other.  Alternately, you can use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-select-tool.png) to select a region of points and then copy and paste that region.  While the points are selected you can also move these points in both directions on the page.
+
+== Pasting Control Points ==
+
+Like other windows in LMMS that can select and copy points, when you paste the control points the will be placed starting from the first bar shown in the automation editor.  Before you paste the points, make sure the window is appropriately located to put the points into place.  Once the points are placed the selection area will still be active and you can still move the points after they have been placed.
+
 == Erasing Control Points ==
 
 Points can be erased either by right-clicking on them or by using the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png).  When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png).
