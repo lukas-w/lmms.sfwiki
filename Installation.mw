@@ -74,7 +74,11 @@ This ebuild stills experimental and no-official so bugs shouldn't be reported on
 
 === Fedora ===
 
-Fedora has (early) LMMS packages available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].
+Fedora has version 0.3.2 of LMMS available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].  After installing the yum repository for Planet CCRMA, then execute:
+
+  yum install lmms
+
+And then yum should resolve all your dependencies and install the software for you.
 
 = Navigation =
 
