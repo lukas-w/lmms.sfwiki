@@ -6,7 +6,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Main Window (i.e. works anywhere) ==
 
-{| border="1"
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -67,7 +67,7 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 
 == Instrument Plugins ==
 
-{| border="1"
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -82,9 +82,9 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 |}
 
 == All editors that include a time line ==
-I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll Editor.
+I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]], [[Song Editor]] and [[Automation Editor]].
 
-{| border="1"
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -120,8 +120,8 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 * Ignores bar locking of above.
 |}
 
-== Beat + Bassline Editor ==
-{| border="1"
+== [[Beat Bassline Editor|Beat + Bassline Editor]] ==
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -144,8 +144,8 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 
 |}
 
-== Piano Roll Editor ==
-{| border="1"
+== [[Piano Roll Editor]] ==
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -213,7 +213,7 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 
 |}
 
-== Song Editor ==
+== [[Song Editor]] ==
 {| border="1" cellspacing="0"
 |+
 | Key
@@ -287,8 +287,8 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 
 |}
 
-== Automation Editor ==
-{| border="1"
+== [[Automation Editor]] ==
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -356,8 +356,8 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 
 |}
 
-== Project Notes ==
-{| border="1"
+== [[Project Notes]] ==
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -406,7 +406,7 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 |}
 
 == File Browser (in Side Bar) ==
-{| border="1"
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
@@ -419,7 +419,7 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 |}
 
 == Other ==
-{| border="1"
+{| border="1" cellspacing="0"
 |+
 | Key
 | Action
