@@ -7,4 +7,5 @@ Here you can add things which could be displayed in a "tip of the day"-dialog in
 * You can change each track's colour in the Song Editor from its context menu.  This helps you group tracks together logically.
 * If your instrument seems to 'click' when you release the note, try extending its decay or release time.
 * You can click on the oscilloscope playback display in order to turn it off if you find it distracting.
-* Once you've customised a sample or instrument to your tastes, it's a good idea to save it so that you can use it in other songs!
+* Once you've customised a sample or instrument to your tastes, it's a good idea to save it as a preset so that you can use it in other songs!
+* Automation applied to an instrument in a [[Beat Bassline Editor|Beat + Bassline Editor]] track only applies to the number of bars that the pattern goes for, typically one.  If you want to automate fade-ins or other effects on an instrument for longer than that one bar, then you must either move the instrument to the Song Editor or automate its effects via an individual effects line.
