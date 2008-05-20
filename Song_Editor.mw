@@ -26,7 +26,9 @@ Note that there is no button allowing you to add a new instrument track.  This i
 
 === Moving tracks ===
 
-You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the 'grip' - the stippled handle on the left-hand side of the instrument line (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png). You can also change the colour of the track by right-clicking on a segment of the track and choosing 'Change color' from the drop-down menu, allowing you to easily see track groupings.  You can also change the icon of the track to more accurately reflect what instrument it is.  The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
+You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the 'grip' - the stippled handle on the left-hand side of the instrument line (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png).  You can also easily make a copy of an entire track by holding down ''Ctrl'' while dragging the grip.
+
+The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
 
 === Resizing tracks ===
 
