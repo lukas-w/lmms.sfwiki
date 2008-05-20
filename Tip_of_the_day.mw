@@ -9,3 +9,4 @@ Here you can add things which could be displayed in a "tip of the day"-dialog in
 * You can click on the oscilloscope playback display in order to turn it off if you find it distracting.
 * Once you've customised a sample or instrument to your tastes, it's a good idea to save it as a preset so that you can use it in other songs!
 * Automation applied to an instrument in a [[Beat Bassline Editor|Beat + Bassline Editor]] track only applies to the number of bars that the pattern goes for, typically one.  If you want to automate fade-ins or other effects on an instrument for longer than that one bar, then you must either move the instrument to the Song Editor or automate its effects via an individual effects line.
+* If you don't have enough effects in the "FX" tab of an instrument, try searching for and installing more LADSPA effects using your distribution's standard package management tool.
