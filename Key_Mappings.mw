@@ -245,6 +245,10 @@ I.e. the Beat + Bassline Editor, Piano Roll Editor, Song Editor and Piano Roll E
 | Resize track
 | Clicking on a segment when you start the shift-drag will not do anything.
 |-
+| Ctrl-drag on 'grip' section of track (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png).
+| Copy entire track.
+|
+|-
 | Mouse wheel up or down
 | Move up or down in the song editor view
 |
