@@ -17,6 +17,7 @@ Your sound files can be in a number of formats:
 ** [http://en.wikipedia.org/wiki/MP3 MP3] - Layer 3 MPEG audio encoding
 ** [http://en.wikipedia.org/wiki/Speex Speex] - An Ogg subformat optimised for speech compression
 ** [http://en.wikipedia.org/wiki/Soundblaster VOC] files created using Creative Labs Soundblaster cards
+* Lossless (yet compact)
 ** DrumSynth (ds) files
 
 = Samples as sounds =
