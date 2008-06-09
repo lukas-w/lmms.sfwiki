@@ -55,11 +55,11 @@ The yellow mark is the '''control point'''.  There is only ever one control poin
 
 Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pencil-up.png) you can create new points simply by dragging over the graph.  You can also move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can also delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).  You can also quickly select the drawing tool by pressing '''shift-D'''.
 
-The spacing of control points as you draw is set by the quantisation setting (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantisation-16.png).  By default this is set to 1/16th notes
+The spacing of control points as you draw is set by the quantisation setting (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png).  By default this is set to 1/16th notes
 
 == Copying Control Points ==
 
-In version 0.3, each automated control is separate from all others and there is no way to have one set of automation run two controls.  To solve this, you can copy and paste control points from one automated control to another.  On the one hand you can select all the points by pressing ''Ctrl-A'', then copying and pasting the points from one control to the other.  Alternately, you can use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-select-tool.png) to select a region of points and then copy and paste that region.  While the points are selected you can also move these points in both directions on the page.
+In version 0.3, each automated control is separate from all others and there is no way to have one set of automation run two controls.  To solve this, you can copy and paste control points from one automated control to another.  On the one hand you can select all the points by pressing ''Ctrl-A'', then copying and pasting the points from one control to the other.  Alternately, you can use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-select.png) to select a region of points and then copy and paste that region.  While the points are selected you can also move these points in both directions on the page.
 
 == Pasting Control Points ==
 
