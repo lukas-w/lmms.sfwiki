@@ -69,7 +69,7 @@ Like other windows in LMMS that can select and copy points, when you paste the c
 
 Points can be erased either by right-clicking on them or by using the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png).  When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png).
 
-However, you often have to be almost exactly on the point to erase it and this gets increasingly difficult as you try to erase more points.  It is much easier to use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-select.png) and then deleting all the points by pressing the '''Delete''' key.
+However, you often have to be almost exactly on the point to erase it and this gets increasingly difficult as you try to erase more points.  It is much easier to use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-select.png) to select the points you want to remove and then press the '''Delete''' key to delete them.
 
 = Automation Editor Toolbar =
 
