@@ -1,0 +1,45 @@
+__NOTOC__ __NOEDITSECTION__
+Welcome to the Table of Contents of the manual for LMMS version 0.4.0.
+
+# '''Introduction'''
+#:Short, introductory pages on each topic, establishing what you need to run LMMS and understand this document.
+## [[0.4:Terms|Terms and conventions]] used in this documentation.
+## [[0.4:Requirements|Requirements]] for installing and using LMMS
+## [[0.4:Installation|Installation]] procedures for LMMS
+## [[0.4:QuickStartGuide|Quick Start Guide]]
+# '''Tutorials'''
+#:Step-by-step task-oriented guides to achieving particular goals in LMMS.
+## [[0.4:Getting started]] - a brief walk-through for the impatient
+## [[0.4:Your First Song with LMMS]] - a more step-by-step tutorial
+# '''Using LMMS'''
+#:A thematic description of how the various tools in LMMS work.
+## [[0.4:Working with Instruments]]
+## [[0.4:Working with Samples]]
+## [[0.4:Composing in the Piano Roll Editor]]
+## [[0.4:Composing Bass Lines and Drum Sequences]]
+## [[0.4:Putting the song together]]
+## [[0.4:Working with Automation]]
+## [[0.4:Working with LADSPA effects]]
+## [[0.4:Using MIDI]]
+## [[0.4:Exporting the finished product]]
+# '''Reference'''
+#: A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
+## [[0.4:Main Menu Bar]]
+## [[0.4:Tool Bar]]
+## [[0.4:Side Bar]]
+## [[0.4:Plugins]]
+## [[0.4:Song Editor]]
+## [[0.4:Piano Roll Editor]]
+## [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
+## [[0.4:Automation Editor]]
+## [[0.4:Project Notes]]
+## [[0.4:LMMS Settings]]
+# '''Appendices'''
+## [[0.4:Definitions]]
+## [[0.4:Key Mappings]]
+## [[0.4:Programming Notes]]
+## [[0.4:Interfaces and APIs]]
+## [[0.4:License]]
+## [[0.4:Roadmap]]
+
+<!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
