@@ -294,6 +294,10 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 | Action
 | Notes
 |-
+| Shift - Left Click
+| Draw a straight line between this point and the previously clicked point
+|
+|-
 | Mouse wheel up or down
 | Move view up or down
 |-
