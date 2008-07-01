@@ -16,7 +16,7 @@ backtrace:
   ...
   (gdb) thread apply all backtrace
 
-* The output of this command is interesting for us!  Please either report it to the [[bugtracker]] or email it to the [[mailing list]]
+* The output of this command is interesting for us!  Please either report it to the [[bug tracker]] or email it to the [[mailing lists|mailing list]].
 
 == How to report bugs without GDB ==
 * Start a new shell/terminal:
