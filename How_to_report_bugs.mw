@@ -1,7 +1,24 @@
 For reporting any kind of bugs please use the bug-tracker at [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434]. ''Please take a look at other submitted bugs ([https://sourceforge.net/tracker/?group_id=105168&atid=640434 https://sourceforge.net/tracker/?group_id=105168&atid=640434]) before opening a new item as someone else might have reported the same bug.''
 
-== How to efficiently report bugs ==
+== How to efficiently report bugs with GDB ==
 
+*If you are using LMMS and encounter a bug, please include a full
+backtrace:
+
+  $ gdb /usr/bin/lmms
+  ...
+  (gdb) r <Enter>
+  ...
+  <do whatever crashes LMMS>
+  ...
+    Program received signal SIGSEGV, Segmentation fault.
+    [Switching to Thread ... (LWP ...)]
+  ...
+  (gdb) thread apply all backtrace
+
+* The output of this command is interesting for us!  Please either report it to the [[bugtracker]] or email it to the [[mailing list]]
+
+== How to report bugs without GDB ==
 * Start a new shell/terminal:
   bash ~ $  ulimit -l unlimited
   bash ~ $  lmms
