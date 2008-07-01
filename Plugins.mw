@@ -18,8 +18,14 @@ This is the current list of instrument plugins, and links to their specific sect
 = Effect Plugins =
 * [[Bass Booster]]
 * [[Peak Controller]]
+* [[Spectrum Analyzer]]
 * [[Stereo Enhancer]]
 * [[Stereophonic Matrix]]
+
+= Controllers =
+* [[LFO Controller]]
+* [[MIDI Controller]]
+* [[Peak Controller]]
 
 = Navigation =
 
