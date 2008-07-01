@@ -22,7 +22,8 @@ A thematic description of how the various tools in LMMS work.
 * [[Composing Bass Lines and Drum Sequences]]
 * [[Putting the song together]]
 * [[Working with Automation]]
-* [[Working with LADSPA effects]]
+* [[Working with Controllers]]
+* [[Working with Effects and the Mixer]]
 * [[Using MIDI]]
 * [[Exporting the finished product]]
 
@@ -39,6 +40,7 @@ A reference style description of the functions of each menu item and tool, inclu
 * [[Beat Bassline Editor|Beat + Bassline Editor]]
 <!--{\newpage}-->
 * [[Automation Editor]]
+* [[FX Mixer]]
 <!--{\newpage}-->
 * [[Project Notes]]
 <!--{\newpage}-->
