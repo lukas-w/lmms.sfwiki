@@ -12,8 +12,8 @@ This is the current list of instrument plugins, and links to their specific sect
 * [[SF2 Player]] - the official SoundFont2 player.
 * [[SingerBot]] - a 'singing' sound synthesizer.
 * [[TripleOscillator]] - the 'standard' subtractive synthesis module.
-* [[VeSTige Plugin]] - VSTi-hosting plugin (only available on i386)
-* [[Vibed Plugin]] -  powerful vibrating-string synthesis module.
+* [[VeSTige]] - VSTi-hosting plugin (only available on i386)
+* [[Vibed]] -  powerful vibrating-string synthesis module.
 
 = Effect Plugins =
 * [[Bass Booster]]
