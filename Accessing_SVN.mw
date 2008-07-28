@@ -10,6 +10,7 @@ For getting the latest stable version, do the following:
 
 Afterwards you have a directory ''lmms'' in your current directory which contains a complete source-directory. Before you continue, make sure you've cmake- and libtool-packages installed! Then change into directory "lmms" and type
  cmake .
+(note the dot after command, it tells cmake to operate on current directory)
 Now you can configure and build LMMS the usual way or see [[Installation|Installation tutorial]] for details on how to proceed.
 
 
