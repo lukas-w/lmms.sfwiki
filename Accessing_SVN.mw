@@ -8,8 +8,8 @@ For getting the latest stable version, do the following:
 
  svn co https://lmms.svn.sourceforge.net/svnroot/lmms/branches/lmms
 
-Afterwards you have a directory ''lmms'' in your current directory which contains a complete source-directory. Before you continue, make sure you've automake-, autoconf- and libtool-packages installed! Then change into directory "lmms" and type
- make -f Makefile.svn
+Afterwards you have a directory ''lmms'' in your current directory which contains a complete source-directory. Before you continue, make sure you've cmake- and libtool-packages installed! Then change into directory "lmms" and type
+ cmake .
 Now you can configure and build LMMS the usual way or see [[Installation|Installation tutorial]] for details on how to proceed.
 
 
@@ -18,7 +18,6 @@ If you want to update your SVN-checkout simply type
  svn up
 
 inside lmms-directory
-
 
 === SVN with your SF.net-account ===
 
