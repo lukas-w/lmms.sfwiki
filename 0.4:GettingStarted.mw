@@ -1,0 +1,28 @@
+= Getting Started with LMMS =
+
+LMMS is a sequencer, software synthesis and composer for Linux (and soon for Windows).  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
+
+When you first start LMMS, several key components are shown.  The [[0.4:MainMenuRef|menu bar]] is at the top, above the [[0.4:ToolBarRef|tool bar]] and master track controls.  The toolbar permanently on the left is the [[0.4:SideBarRef|Side Bar]], which is an easy way to access the instruments, sounds, presets and projects.  The windows displayed by default are the [[0.4:SongEditorRef|Song Editor]], the [[0.4:BassEditorRef||Beat + Bassline Editor]] and the [[0.4:NotesRef|Project Notes]].
+
+To insert a new instrument plugin preset into the Beat + Bassline or Song Editor, click the yellow star in the Side Bar to display the [[0.4:SideBarRef#Presets|Presets]].  You can also insert samples by choosing the single green note icon (the 'My samples' icon) from the Side Bar.  You can click and hold on an instrument preset or sample to hear the sound it generates.  You can then place the instruments you want into the editor by dragging it to the editor.  You can also double click presets to place them directly into the Beat + Bassline Editor.  If you make a mistake and want to remove an instrument, click on its grey 'toolkit' icon within the editor and choose 'Remove this track'.  Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organise the instruments or samples heirarchially.
+
+When you insert an instrument into the editor, the instrument's editor window will be automatically opened for you.  You can also see this editor by clicking on its grey 'name' button in the Song or Beat + Bassline editors.  This 'name' button acts as a toggle, to dispel the editor window again; you can also click on its window controls as normal.  Instruments have five tabs: Plugin, Env/LFO/Filter, Arp/Chord, FX and MIDI.  The 'Plugin' tab changes with the type of instrument; all other tabs are standard for every instrument.
+
+== Creating a track ==
+
+The standard way to create a track is to add drum instruments to the [[0.4:BassEditorRef|Beat + Bassline Editor]] and instruments for melody tracks into the [[0.4:SongEditorRef|Song Editor]].  Then create different drum loops using the '''Add bassline''' button in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are listed in the Song Editor as they're created.  To make them sound, click on the start bar in the track's timeline to create a new segment.  You can also drag its end out to make the pattern go across multiple bars.   The same technique can be used for repetitive bass lines.
+
+For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[0.4:PianoRollRef|Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = c, etc) or on a MIDI keyboard.
+
+Finally hit 'play' and enjoy your music!
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:QuickStartGuide|Quick Start Guide]]
+| Up: [[0.4:TOC|Table of Contents]]
+| Next: [[0.4:FirstSong|Your First Song with LMMS]]
+|}
+
+[[Category:Tutorial]]
