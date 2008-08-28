@@ -39,3 +39,11 @@ Click on the enable/disable looppoints button in the song editor or pianoroll. I
 
 
 ==== How do I Import a drums beat I'd made in Hydrogen? ====
+
+
+== Developpment ==
+====  What is the compression format used to compress projects ? ====  
+
+qCompress/qUncompress which itself uses libz. For decompressing projects, use 
+--
+lmms -d inputfile.mmpz > output.mmp"
