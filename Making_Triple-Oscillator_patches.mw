@@ -25,3 +25,15 @@ Electric bass guitars produce a wide variety of tones.  This is just your basic 
 *  Go to the "FX" page and add a TAP Chorus/Flanger effect.  This adds an extra layer of richness to the sound.
 *  Now, go back to the "PLUGIN" page and decide where you want OSC 3's volume (that is, the amount of phase modulation between OSC 3 and OSC 2).
 *  Finally, re-enforce the fundamental (lowest harmonic) of your sound by turning OSC 1 up just a bit.  This is optional.  Or you can use a triangle wave.  Whatever, it's your sound.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Your First Song with LMMS]]
+| Up: [[NewManual]]
+| Next: [[Working with Instruments]]
+|}
+
+[[Category:Tutorial]] [[Category:Incomplete]]
+[[Category:0.3-Manual]]
