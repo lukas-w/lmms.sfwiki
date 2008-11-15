@@ -1,0 +1,30 @@
+= Commencer avec LMMS =
+
+LMMS est un séquenceur, sythétiseur et composeur pour Linux et Windows. Il inclut une série de plug-ins de synthétiseurs logiciels, des échantillons sonores ainsi qu'une «boîte à rythme» et un éditeur de notes, des outils d'automatisation et un accès aux effets LADSPA.
+
+Quand vous lancez LMMS pour la première fois, plusieurs éléments clés vous sont montrés. La [[Main Menu Bar|barre de menu(en)]] est en haut, en-dessous la [[Tool bar|barre d'outils(en)]] et les contrôles principaux du morceau. La barre d'outils se trouvant à gauche est le [[Side Bar|panneau latéral(en)]], qui est un moyen rapide d'accéder aux instruments, sons, pré-configurés et projets. Les fenêtres affichées par défaut sont l'[[Song Editor|éditeur de musique(en)]], l'[[Beat Bassline Editor|éditeur de rythmes et basses(en)]] et les [[Project Notes|notes du projet(en)]].
+
+Pour insérer un nouveau pré-configuré de plugin d'instrument dans l'éditeur de rythmes et basses ou musique, cliquez sur l'étoile jaune sur le panneau latéral pour afficher les [[Side Bar#Presets|pré-configurés(en)]]. Vous pouvez aussi insérer des échantillons en choisissant la note verte (l'icône «Mes échantillons») depuis le panneau latéral. Vous pouvez cliquer et maintenir un pré-configuré d'instrument ou un échantillon pour écouter le son qu'il génère. Vous pouvez ensuite les placez dans l'éditeur en les sélectionnant et les maintenant jusqu'à l'éditeur. Vous pouvez aussi double-cliquer sur des pré-configurés pour les placer directement dans l'éditeur de rythmes et basses. Si vous faites une bêtise et que vous voulez supprimer un instrument, cliquez sur son icône «kit d'outils» dans l'éditeur et choisissez «Supprimer cet piste». Les instruments sont divisés entre ceux disponibles à l'installation et ceux de l'utilisateur, et des sous-dossiers dans votre système de fichiers peuvent être utilisés pour organiser les instruments ou échantillons hiérarchiquement.
+
+Quand vous insérez un instrument dans l'éditeur, la fenêtre d'édition d'instrument va automatiquement être ouverte pour vous. Vous pouvez aussi voir cet éditeur en cliquant sur son bouton gris de nom dans l'éditeur de musique ou de rythmes + basses. Ce bouton de nom fonctionne comme un commutateur, pour refermer la fenêtre d'éditeur une fois de plus; vous pouvez aussi cliquer sur ses contrôles de fenêtre comme d'habitude. Les instruments ont cinq onglets: Plugin, Env/LFO/Filter, Arp/Chord, FX et MIDI. L'onglet «Plugin» change avec le type d'instrument, tous les autres sont les mêmes pour tous les instruments.
+
+== Créer une piste ==
+
+La méthode normale pour créer une piste et d'ajouter un instrument de batterie à l'[[Beat Bassline Editor|éditeur de rythmes et basses(en)]] et les instruments pour les mélodies dans l'[[Song Editor|éditeur de mélodie]]. Ensuite créez différentes boucles de batterie en utilisant le bouton '''Ajouter une boucle de batterie''' dans l'éditeur de rythmes et de basses pour chaque rythme que vous voulez - une ligne de basse principale, une ligne de hihat, rythmes spéciaux, etc. Ils sont listés dans l'éditeur de mélodie dès qu'ils sont crées. Pour les entendre, cliquez sur la barre de lancement dans la barre de temps de la piste pour créer un nouveau segment. Vous pouvez aussi sélectionner sa fin pour agrandir la piste. La même technique peut être utilisée pour les basses se répétant.
+
+Pour les pistes de mélodies, cliquez sur la barre de lancement pour créer un nouveau segment puis double-cliquez ce segment pour ouvrir l'[[Piano Roll Editor|éditeur de mélodies]]. Placez les notes dans l'éditeur de mélodies en cliquant sur 
+For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = c, etc) or on a MIDI keyboard.
+
+Finally hit 'play' and enjoy your music!
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Terms and Conventions]]
+| Up: [[NewManual]]
+| Next: [[Your First Song with LMMS]]
+|}
+
+[[Category:Tutorial]]
+[[Category:0.3-Manual]]
