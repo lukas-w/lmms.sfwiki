@@ -1,62 +1,62 @@
 __NOTOC__ __NOEDITSECTION__
+'''Notez que ce manuel est actuellement valable pour les versions 0.3.x et peut être dépassée!'''  Vous pouvez regarder la catégorie au bas de chaque page pour voir à quelle version il se rapporte.
+
 = Introduction =
 
-Pages d'introduction courtes sur chaque sujet, vous expliquant ce dont vous avez besoin pour démarrer LMMS et comprendre ce document.
-
-== [[Getting LMMS|Télécharger LMMS]] ==
-== [[Requirements|Pré-requis]] ==
-== [[Installation|Installer LMMS]] ==
-== [[Terms and Conventions|Termes et conventions]] ==
+Des pages courtes d'introduction sur chaque sujet, établissant ce dont vous avez besoin pour lancer LMMS et comprendre ce document.
+* [[Requirements|Pré-requis (en)]]
+* [[Installation|Installer LMMS (en)]]
+* [[Terms and Conventions|Termes et conventions (en)]]
 
 = Tutoriels =
 
-Guides pas-à-pas pour arriver à certains buts dans LMMS.
-
-== [[Getting started|Commencer]] - une solution brève pour les impatients ==
-== [[Fr:Your First Song with LMMS|Votre première musique avec LMMS]] - un tutoriel plus pas-à-pas ==
+Des guides pas-à-pas orientés sur une tâche pour achever différents buts dans LMMS.
+* [[Fr:Getting started|Commencer]] - un bref pas en avant pour les impatients
+* [[Fr:Your First Song with LMMS|Votre première musique avec LMMS]] - un tutoriel plus pas-à-pas
+* [[Making Triple-Oscillator patches|Créer des patchs pour le triple-oscillator]] - un guide pour créer des patchs avec le triple-oscillator utiles.
 
 = Utiliser LMMS =
 
-Une description par thèmes de comment marchent les différents outils de LMMS.
-
-== [[Working with Instruments|Utiliser les instruments]] ==
+Une description thématique pour voir comment les différents outils dans LMMS marchent.
+* [[Working with Instruments|Utiliser les instruments (en)]]
 <!--{\newpage}-->
-== [[Working with Samples|Utiliser des samples]] ==
-== [[Composing in the Piano Roll Editor|Composer dans l'éditeur de notes]] ==
-== [[Composing Bass Lines and Drum Sequences|Composer des basses et des séquences de tambour]] ==
-== [[Putting the song together|Utiliser l'éditeur de morceau]] ==
-== [[Working with Automation|Utiliser l'automatisation]] ==
-== [[Working with LADSPA effects|Utiliser les effets LADSPA]] ==
-== [[Using MIDI|Utiliser le MIDI]] ==
-== [[Exporting the finished product|Exporter le morceau terminé]] ==
+* [[Working with Samples|Utiliser des échantillons (en)]]
+* [[Composing in the Piano Roll Editor|Composer dans l'éditeur de notes (en)]]
+* [[Composing Bass Lines and Drum Sequences|Composer des lignes de basse et séquences de percussions (en)]]
+* [[Putting the song together|Mettre les sons ensemble (en)]]
+* [[Working with Automation|Utiliser l'automatisation (en)]]
+* [[Working with Controllers|Utiliser les controlleurs (en)]]
+* [[Working with Effects and the Mixer|Utiliser les effets et le mixer (en)]]
+* [[Using MIDI|Utiliser le MIDI (en)]]
+* [[Exporting the finished product|Exporter le produit final (en)]]
 
 = Référence =
 
-Des références sur les fonctions de chaque outil ou objet du menu, incluant comment ils s'insèrent avec les tâches dans la section Utiliser LMMS.
-
-== [[Main Menu Bar|Barre du menu principal]] ==
-== [[Tool Bar|Barre d'outils]] ==
-== [[Side Bar|Barre de côté]] ==
-== [[Plugins]] ==
-== [[Song Editor|Éditeur de morceau]] ==
-== [[Piano Roll Editor|Éditeur de notes]] ==
+Une description dans le style d'une référence des fonctions de chaque choix du menu et outil, incluant comment il s'inscrit avec les tâches dans la section Utiliser LMMS.
+* [[Main Menu Bar|Barre de menu principale (en)]]
+* [[Tool Bar|Barre d'outils (en)]]
+* [[Side Bar|Panneau latéral (en)]]
+* [[Plugins|Plugins (en)]]
+* [[Song Editor|Éditeur de musique (en)]]
+* [[Piano Roll Editor|Éditeur de notes (en)]]
 <!--{\newpage}-->
-== [[Beat Bassline Editor|Éditeur de basses]] ==
+* [[Beat Bassline Editor|Éditeur de percussions et basses (en)]]
 <!--{\newpage}-->
-== [[Automation Editor|Éditeur d'automatisation]] ==
+* [[Automation Editor|Éditeur d'automatisation]]
+* [[FX Mixer|Mixer d'effets (en)]]
 <!--{\newpage}-->
-== [[Project Notes|Notes du projet]] ==
+* [[Project Notes|Les notes du projet (en)]]
 <!--{\newpage}-->
-== [[LMMS Settings|Options de LMMS]] ==
+* [[LMMS Settings|Les options de LMMS (en)]]
 
 = Appendices =
 
-== [[Definitions|Définitions]] ==
-== [[Key Mappings|Raccourcis clavier]] ==
-== [[Programming Notes|Notes de programmation]] ==
-== [[Interfaces and APIs|Interfaces et APIs]] ==
-== [[License|Licence]] ==
+* [[Definitions|Définitions (en)]]
+* [[Key Mappings|Position de touches (en)]]
+* [[Programming Notes|Notes de programmation (en)]]
+* [[Interfaces and APIs|Interfaces et APIs (en)]]
+* [[License|Licence (en)]]
 <!--{\newpage}-->
-== [[Roadmap]] ==
+* [[Roadmap|Roadmap (en)]]
 
-<!--{%}-->'' C'est une page à contenu seulement - tous les articles actuels sont supposé être liés ici. La logique derrière la structure de cette page peut être trouvée à [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|a l'article de Wikipédia sur la documentation logicielle]. ''
+<!--{%}-->'' C'est une page à contenu seulement — tous les articles actuels sont supposés être liés depuis ici. La rationalité derrière la structure de cette page peut être trouvée à l'[http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|article de wikipédia sur la documentation logicielle (en)]. ''
