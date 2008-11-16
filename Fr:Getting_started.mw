@@ -12,18 +12,17 @@ Quand vous insérez un instrument dans l'éditeur, la fenêtre d'édition d'inst
 
 La méthode normale pour créer une piste et d'ajouter un instrument de batterie à l'[[Beat Bassline Editor|éditeur de rythmes et basses(en)]] et les instruments pour les mélodies dans l'[[Song Editor|éditeur de mélodie]]. Ensuite créez différentes boucles de batterie en utilisant le bouton '''Ajouter une boucle de batterie''' dans l'éditeur de rythmes et de basses pour chaque rythme que vous voulez - une ligne de basse principale, une ligne de hihat, rythmes spéciaux, etc. Ils sont listés dans l'éditeur de mélodie dès qu'ils sont crées. Pour les entendre, cliquez sur la barre de lancement dans la barre de temps de la piste pour créer un nouveau segment. Vous pouvez aussi sélectionner sa fin pour agrandir la piste. La même technique peut être utilisée pour les basses se répétant.
 
-Pour les pistes de mélodies, cliquez sur la barre de lancement pour créer un nouveau segment puis double-cliquez ce segment pour ouvrir l'[[Piano Roll Editor|éditeur de mélodies]]. Placez les notes dans l'éditeur de mélodies en cliquant sur 
-For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = c, etc) or on a MIDI keyboard.
+Pour les pistes de mélodies, cliquez sur la barre de lancement pour créer un nouveau segment puis double-cliquez ce segment pour ouvrir l'[[Piano Roll Editor|éditeur de mélodies]]. Placez les notes dans l'éditeur de mélodies en cliquant sur leur début puis séléctionnez leur fin pour les faire aussi courtes ou longues que vous voulez. Vous pouvez aussi déplacer les notes vers le haut et le bas pour la hauteur et en avant et en arrière pour le moment où elles sont jouées. Alternativement, vous pouvez utiliser le bouton 'record' dans l'éditeur de notes et jouer les notes en temps réel, au clavier (en qwerty, Z = C, S = C#, X = D, Q = c, etc., sinon prenez les notes situées au même endroit) ou sur un clavier MIDI.
 
-Finally hit 'play' and enjoy your music!
+Finallement, appuyez sur 'jouer' et appréciez votre musique!
 
 = Navigation =
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[Terms and Conventions]]
-| Up: [[NewManual]]
-| Next: [[Your First Song with LMMS]]
+| Précédent: [[Terms and Conventions|Termes et conventions (en)]]
+| Haut: [[NewManual|Manuel]]
+| Prochain: [[Fr:Your First Song with LMMS|Votre première musique avec LMMS]]
 |}
 
 [[Category:Tutorial]]
