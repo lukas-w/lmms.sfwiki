@@ -14,7 +14,6 @@ http://italc.sf.net/wiki-media/guide.png
 * [[Fr:NewManual|Manuel]]
 * [[How to report bugs|Comment reporter des bugs (en)]]
 * [[Tip of the day|Astuce du jour (en)]]
-* [[Mailing lists|Mailing lists (en)]]
 * [[User FAQ|FAQ (en)]]
 |}
 <br>
@@ -23,11 +22,9 @@ http://italc.sf.net/wiki-media/guide.png
 http://italc.sf.net/wiki-media/admin.png
 | style="color: #000" valign="top"|
 '''Guides d'utilisateur'''
-* [[Download|Télécharger (en)]]
 * [[Requirements|Pré-requis (en)]]
 * [[Installation|Installation (en)]]
 * [[Troubleshooting|Dépannage (en)]]
-* [[Tuning LMMS-installation|Personnaliser l'installation de LMMS (en)]]
 |}
 </div>
 | width="50%" style="color: #000" valign="top"|
@@ -44,9 +41,7 @@ http://italc.sf.net/wiki-media/development.png
 * [[Guidelines on coding style|Explications du style de codage (en)]]
 * [[Submitting a patch|Envoyer un patch (en)]]
 * [[Mailing lists|Mailing lists (en)]]
-* [[How to cross-compile LMMS|Comment cross-compiler LMMS (en)]]
 * [[Roadmap|Roadmap/TODO (en)]]
-* [[Developer FAQ|FAQ (en)]]
 |}
 </div>
 |}
