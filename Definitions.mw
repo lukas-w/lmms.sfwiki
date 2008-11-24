@@ -4,10 +4,14 @@ Here are a list of terms used in LMMS and their meaning.
 == A ==
 
 ; Automation
-: Controlling the position of a knob or other control in LMMS over time.  Automation is edited in the [[Automation Editor]] for individual controls.  See the article on [[Working With Automation]] for a more task-oriented description.
+: Setting the position of a knob or other control in LMMS over time by a manually-drawn envelope.  Automation is edited in the [[Automation Editor]] for individual controls.  See the article on [[Working With Automation]] for a more task-oriented description.
 
 == B ==
 == C ==
+
+; Controller
+: Setting the position of a knob or other control in LMMS over time by a generated envelope such as an [[Definitions#L|LFO]].  This differs from automation because automation is drawn manually by the user and is often not a repeated effect such as a sine, square or saw wave, whereas controllers use such waves to give a regular pattern to a control.
+
 == D ==
 == E ==
 == F ==
@@ -21,6 +25,9 @@ Here are a list of terms used in LMMS and their meaning.
 == J ==
 == K ==
 == L ==
+
+; LFO
+: Low Frequency Oscillator.  This typically refers to oscillators whose usual frequency is in the 0.1Hz - 10Hz range - i.e. from one beat every ten seconds to ten beats every second.  Above this frequency the oscillator is generating frequencies in the audible spectrum and the 'low frequency' prefix is not used.  LFOs are typically used to control things such as filter sweeps and amplitude oscillation ('vibrato').
 
 ; LMMS
 : the Linux MultiMedia Studio.
