@@ -16,6 +16,9 @@ Here are a list of terms used in LMMS and their meaning.
 == E ==
 == F ==
 
+; Filter
+: A filter alters the frequency spectrum of a sound coming out of an oscillator.  Common filters are low-pass (meaning low frequencies are let through), high-pass (allowing high frequencies through), notch (blocking a narrow range of frequencies), and band-pass (allowing only a narrow range of frequencies).  Filters, even in the digital world, cannot be truly linear - i.e. the graph of the filter's response over frequency shows a curved 'knee' dropping down rather than a vertical line.  This means that a low-pass filter set to 100Hz will let some frequencies lower than that through, although the lower the frequency the more it will be cut.  The steepness of the drop in a filter is called it's [[Definitions#Q|Q]] parameter.  Historically, some analogue filters also introduced 'resonance' or amplification of frequencies around the 'knee' point in the filter - this effect has been used in much electronic music and is included in LMMS.
+
 ; Freeze
 : To freeze a song or bassline track is to pre-render its sound and play that rather than render the track in real time.  This allows you to render a very complex track that would otherwise take too much CPU time to play with all the other tracks in the song.  While a track is frozen, changes to it do not take effect.  When [[Definitions#T|thawed]], the changes will take effect and the track will once again be rendered in real time as the song progresses.  Tracks can only be frozen when playback is stopped.
 
@@ -41,6 +44,10 @@ Here are a list of terms used in LMMS and their meaning.
 : The entire package of instruments, tracks, patterns and settings that comprise the whole performance of the song.  This is what you save and load from the Project menu.
 
 == Q ==
+
+; Q
+: The steepness of the cutoff of a [[Definitions#F|filter]].
+
 == R ==
 == S ==
 
