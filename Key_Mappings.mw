@@ -157,23 +157,23 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 |-
 | Shift held down during mouse wheel up or down
 | Move left or right in the song editor view (earlier or later times)
-|
+| Alternatively use horizontal mouse wheel
 |-
 | Ctrl held down during mouse wheel up or down
 | Zoom in or out horizontally
 |
 |-
 | Ctrl-C
-| Copy selected area
-| When area selected
+| Copy selected notes
+| 
 |-
 | Ctrl-V
-| Paste selected area
-| When area selected
+| Paste copied notes
+| 
 |-
 | Ctrl-X
-| Cut selected area
-| When area selected
+| Cut selected notes
+| 
 |-
 | Ctrl-A
 | Select all notes
@@ -191,10 +191,6 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 | Select selector tool
 |
 |-
-| Shift-M
-| Select selection movement tool
-|
-|-
 | Delete
 | Delete selected notes
 |
@@ -207,10 +203,53 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 | Start or stop playback
 |
 |-
-| Ctrl held when clicking on note
-| Edit note detuning in [[Automation Editor]]
+| Ctrl
+| Temporarily use the select tool
+| When held down
+|-
+| Alt
+| Disable quantization
+| When held down
+|-
+| Ctrl+Shift
+| Keep old selection while selecting new notes
+| When held down
+|-
+| Shift+Drag selection
+| Copy selection and move those notes
 |
-
+|-
+| Arrow Keys
+| Scroll
+|
+|-
+| Ctrl+Up
+| Move selected notes up an octave
+|
+|-
+| Ctrl+Down
+| Move selected notes down an octave
+|
+|-
+| Shift+Left
+| Move selected notes left
+|
+|-
+| Shift+Right
+| Move selected notes right
+|
+|-
+| Ctrl+Left
+| Move time ticker left
+|
+|-
+| Ctrl+Right
+| Move time ticker right
+|
+|-
+| Num Pad
+| Change quantization
+|
 |}
 
 == [[Song Editor]] ==
