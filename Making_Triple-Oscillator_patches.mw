@@ -11,7 +11,7 @@ Start with a fresh Triple-Oscillator with the default sine-wave patch.
 
 = Organ =
 Real organs are basically additive synthesizers:  They add together a few dozen simple sine waves to form a complex tone.  This is pretty easy to mimic with the Triple-Oscillator and LMMS's chords.
-*  Start with a fresh sine patch, and using each oscillator's "Crs" knobs have them pla in three different octaves.
+*  Start with a fresh sine patch, and using each oscillator's "Crs" knobs have them placed in three different octaves.
 *  Flip over to the "FUNC" page and turn on chords.  Set the chord to "Octave" and set "RANGE" to three or four.  Neat, eh?
 *  Play different Cs.  They sound similar, don't they?  That's because most of the harmonics are the same.
 *  For some fun, change one of the oscillators to a triangle wave.
