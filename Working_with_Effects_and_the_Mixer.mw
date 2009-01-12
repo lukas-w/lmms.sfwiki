@@ -3,6 +3,8 @@
 To add an Effect to a single sample first bring up the Audiofile Processor by left clicking on the sample name in the Beat+Bassline editor and then by clicking "Add Effect" found under the "FX" tab.  This will popup a list of all the LADSPA effects currently installed on your computer.  Multiple effects can be added to the same sample by reproducing these steps.  Please refer to [[The FX tab ]] entry for more details.
 
 
+http://i56.photobucket.com/albums/g163/oktyabr/lmms/procchop.png
+
 == The FX Mixer ==
 
 The FX Mixer can be used purely as a mixer for any instrument by selecting a channel using your mouse wheel in the instrument's "FX CHNL" window. Several instruments can share the same channel.  By default all instruments are automatically assigned the "Master" mixer channel which controls the volume level of the overall mix.  Volume of a given channel is adjusted by moving the channel's slider up or down.  A small green light above the slider means the channel is active, clicking the light will make the light go out indicating that the channel is muted.
