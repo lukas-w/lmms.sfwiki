@@ -15,11 +15,6 @@ By clicking the "Add effect" button on the FX Mixer you can add an effect that w
 
 http://i56.photobucket.com/albums/g163/oktyabr/lmms/fxchainchop.png
 
-== Channel Bank Selection ==
-
-Next to the Master slider are buttons labeled "A" through "D".  Clicking on one of these buttons will change the Mixer to reflect that bank of channels.  By default the Mixer is set on bank "A" and by using all four banks you have access to a total of 64 different mixer channels.
-
-http://i56.photobucket.com/albums/g163/oktyabr/lmms/mixerchop.jpg
 
 
 NOTE: It is useful to note that mixer channel sliders, as well as many other things, can be automated by right clicking on a slider and then selecting "Edit song-global automation".  In this way it is possible to assign volume level changes to several instruments at once, over the length of your song.  Please refer to [[Working with Automation]] for more information.
