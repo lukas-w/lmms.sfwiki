@@ -1,0 +1,14 @@
+== Sample FX revisited ==
+
+To add an Effect to a single sample first bring up the Audiofile Processor by left clicking on the sample name in the Beat+Bassline editor and then by clicking "Add Effect" found under the "FX" tab.  This will popup a list of all the LADSPA effects currently installed on your computer.  Multiple effects can be added to the same sample by reproducing these steps.  Please refer to [[The FX tab ]] entry for more details.
+
+
+== The FX Mixer ==
+
+The FX Mixer can be used purely as a mixer for any instrument by selecting a channel using your mouse wheel in the instrument's "FX CHNL" window. Several instruments can share the same channel.  By default all instruments are automatically assigned the "Master" mixer channel which controls the volume level of the overall mix.  Volume of a given channel is adjusted by moving the channel's slider up or down.  A small green light above the slider means the channel is active, clicking the light will make the light go out indicating that the channel is muted.
+
+By clicking the "Add effect" button on the FX Mixer you can add an effect that will influence the sound of any and all instruments on that given channel.  In this way it is easier to have the same amount of "wet" sound for a given FX over several different instruments without trying to calibrate them one by one.  Select which channel you want to assign a new effect by clicking it's name, i.e. FX1, FX2, FX3 and so on.  The name of the chosen channel will light up green when it is selected.
+
+Next to the Master slider are buttons labeled "A" through "D".  Clicking on one of these buttons will change the Mixer to reflect that bank of channels.  By default the Mixer is set on bank "A" and by using all four banks you have access to a total of 64 different mixer channels.
+
+NOTE: It is useful to note that mixer channel sliders, as well as many other things, can be automated by right clicking on a slider and then selecting "Edit song-global automation".  In this way it is possible to assign volume level changes to several instruments at once, over the length of your song.  Please refer to [[Working with Automation]] for more information.
