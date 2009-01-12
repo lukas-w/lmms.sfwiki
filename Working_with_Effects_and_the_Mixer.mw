@@ -14,7 +14,7 @@ By default all instruments are automatically assigned the "Master" mixer channel
 http://i56.photobucket.com/albums/g163/oktyabr/lmms/mixerchop.jpg
 
 
-By clicking the "Add effect" button on the FX Mixer you can add an effect that will influence the sound of any and all instruments on that given channel.  In this way it is easier to have the same amount of "wet" sound for a given FX over several different instruments without trying to calibrate them one by one.  Select which channel you want to assign a new effect by clicking it's name, i.e. FX1, FX2, FX3 and so on.  The name of the chosen channel will light up green when it is selected.
+Select which channel you want to assign a new effect by clicking it's name, i.e. FX1, FX2, FX3 and so on.  The name of the chosen channel will light up green when it is selected.  By clicking the "Add effect" button on the FX Mixer you can add an effect that will influence the sound of any and all instruments on that given channel.  In this way it is easier to have the same amount of "wet" sound for a given FX over several different instruments without trying to calibrate them one by one.  
 
 http://i56.photobucket.com/albums/g163/oktyabr/lmms/fxchainchop.png
 
