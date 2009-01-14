@@ -23,3 +23,16 @@ http://i56.photobucket.com/albums/g163/oktyabr/lmms/fxchainchop.png
 NOTE: It is useful to note that mixer channel sliders, as well as many other things, can be automated by right clicking on a slider and then selecting "Edit song-global automation".  In this way it is possible to assign volume level changes to several instruments at once, over the length of your song.  Please refer to [[Working with Automation]] for more information.
 
 http://i56.photobucket.com/albums/g163/oktyabr/lmms/songchop.png
+
+= Navigation =
+
+Reference: [[FX Mixer]]
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Working with controllers]]
+| Up: [[NewManual]]
+| Next: [[Using MIDI]]
+|}
+
+[[Category:HowTo]] [[Category:Incomplete]]
