@@ -1,5 +1,5 @@
-=== LMMS segfaults and there are no error messages on the console. How do I get debugging information? ===
-Use the GNU Debugger:
+=== LMMS segfaults et il n'y a aucun messages d'erreurs dans la console.Comment puis-je trouver des information de debugage ? ===
+Vous pouvez utiliser GNU Debugger (GDB)
 
  :~$ gdb lmms
  GNU gdb 6.X
@@ -10,10 +10,10 @@ Use the GNU Debugger:
  Starting program: lmms
  ...
 
+Si un segault arrive, LMMS se bloquera et vous pourrez récupérer des information dans le terminal. En tappant ''bt'' ou ''bt full'' vous verrez un rapport complet que vous pourrez nous envoyer. Pour plus d'information veuillez consulter la page [[How to report bugs|Comment rapporter des bugs]].
 If a segfault happens, LMMS will freeze and you'll get some information on the terminal. Entering ''bt'' or ''bt full'' will show a backtrace you can [[How to report bugs|report]].
 
-Make sure you have debugging symbols in LMMS. That usually means compiling with the ''-g'' flag and not stripping the symbols afterwards.
-
+Assurez vous d'avoir LMMS avec l'option Debug. Cela signifie dans la pluspart des cas, que vous devez avoir compilé LMMS avec l'option ''-g''
 
 === When I try to play one of the demo-songs the sound gets crapped. What can I do? ===
 If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
