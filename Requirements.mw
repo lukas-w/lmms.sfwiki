@@ -8,9 +8,9 @@ La puissance du processeur et la quantité de RAM dépendera du type et de la ta
 == Carte Son ==
 Pour utiliser LMMS il n'y a aucun besoin particulier en matière de carte son. LMMS peut fonctionner aussi bien avec une petite carte son interne à 2 canaux, qu'une carte surround. En revanche vous aurez besoin d'un port midi si vous pensez utiliser un Clavier Midi externe pour enregistrer ou lire à partir de LMMS. Si votre clavier Externe fonctionne en USB, il sera automatiquement reconnu dans LMMS.
 
-= Operating Systems =
+= Système d'exploitation (OS) =
 
-LMMS is tested and available on the following platforms:
+LMMS est testé et disponible sur ces platformes :
 
  * Linux
  * Windows
