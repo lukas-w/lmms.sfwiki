@@ -17,3 +17,22 @@ Or you can go to Project|Export (Ctrl+E).
 After this choose a name for the song (e.g. File-Name-Here .wav) and a location to save the exported song.
 
 http://img12.imageshack.us/img12/6278/export2eg4.png
+
+
+Following this there will be the ''Export Project'' window.  This window displays all the export options that can be used to adjust the quality and precision of the exported song file.
+
+http://img18.imageshack.us/img18/4933/export3zc7.png
+
+== File format ==
+
+There are two options given in this window:
+
+- *.wav or waveform audio format is usually the best choice for newer users because it can be read on most computers and media devices without conversion.
+
+- *.ogg or ogg vorbis format is a preferred choice for those who are particular about sound quality, however this format is limited in what devices it can be played on.
+
+== Samplerate ==
+
+This option is allows a person to adjust how many times the song will be sampled per second.  The more times the song is sampled per second the more sensitive the exporter will be to changes in the song.  In other words, if you have a lot of changes over a short amount of time you will want a much higher sample rate.  In general this should be left as is, because if it is turned down too low the song with not progress properly and may make the final product sound distorted.  On the other hand, if the sample rate is turned up too high the song file will become extremely large and take much longer when being processed by the exporting tool.
+
+== Bitrate ==
