@@ -1,33 +1,31 @@
-Pour rapporter tout type de bugs, vous devez utiliser [[bug tracker]].
+For reporting any kind of bugs please use the [[bug tracker]].
 
-== Comment rapporter efficacement des bugs en utilisant GDB ==
+== How to efficiently report bugs with GDB ==
 
-*Si vous êtes en train d'utiliser LMMS et qu'un bug se produit, s'il vous plait,
-envoyez nous un rapport Complet. Voici la marche à suivre :
-Vous devez avoir gdb d'installé.
-Ouvrez une console et tapez : 
+*If you are using LMMS and encounter a bug, please include a full
+backtrace:
 
   $ gdb /usr/bin/lmms
   ...
   (gdb) r <Enter>
   ...
-  <Maintenant faite les manipulations nécessaire afin de déclencher le bugs dans LMMS>
+  <do whatever crashes LMMS>
   ...
     Program received signal SIGSEGV, Segmentation fault.
     [Switching to Thread ... (LWP ...)]
   ...
   (gdb) thread apply all backtrace
 
-* Le résultat de cette commande est intéressant pour nous! Copiez/Collez le soit dans un rapport de bug via [[bug tracker]], soit par email sur la [[mailing lists|mailing list]].
+* The output of this command is interesting for us!  Please either report it to the [[bug tracker]] or email it to the [[mailing lists|mailing list]].
 
+== How to report bugs without GDB ==
+* Start a new shell/terminal:
+  bash ~ $  ulimit -l unlimited
+  bash ~ $  lmms
 
-== Comment rapporter un bug '''sans''' GDB ==
-* Ouvrez une nouvelle console et tapez : 
-  $ ulimit -l unlimited
-  $ lmms
+* Now, when LMMS crashes, there will be a file called "core" in your working directory (~ per the example above).  The file may be large enough to be worth zipping.
 
-* Maintenant, quand LMMS va planter, il y aura un fichier appelé "core" dans votre répertoire de travail. Dans l'exemple ci-dessus il sera créé dans votre Home. Ce fichiers peut etre très important. Il vaut mieux le compresser avant de l'envoyer.
+* Please send that to "Tobias Doerffel" <tobias.doerffel AT gmail DOT com> so hopefully we can locate the bug.
+** If you've been helped on LMMS' mailing-list, please send a mail to the person helping you and put the above address in Cc:
 
-* S'il vous plait, envoyer ce fichier à "Tobias Doerffel" <tobias.doerffel AT gmail DOT com> afin que nous puissions localiser ce bug.
-** Si vous avez été aidé sur la mailing-list de LMMS, envoyez ce fichier à la personne qui vous a aidée, et mettez l'adresse de Tobias Doeffel en copie :
-''NOTE: S'il vous plait, '''n'envoyez pas''' ce fichier en pièce jointe à la list, il sera sans doute rejetté à cause de sa grande taille. Privilégiez plutot un accès ftp.''
+''NOTE: please, do '''not''' send it to the list, it'll be rejected because of its size.''
