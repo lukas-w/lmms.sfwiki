@@ -1,3 +1,7 @@
+'''Translations:'''
+* [[How to report bugs (FR)|Français]]
+
+== Online Bug Tracker ==
 For reporting any kind of bugs please use the [[bug tracker]].
 
 == How to efficiently report bugs with GDB ==
