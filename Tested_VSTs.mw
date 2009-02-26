@@ -6,12 +6,14 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{rh}}|Linux
 | {{rh}}|Windows
 | {{rh}}|Mac OS
-| {{rh}}|Other
+| {{rh}}|Other OS
+| {{rh}}|Remarks
 | {{rh}}|Homepage
 |-
 ! {{rh}} | MDA Piano
 | {{wikitable_cell}}|piano instrument
 | {{Yes}}
+| {{?}}
 | {{?}}
 | {{?}}
 | {{?}}
@@ -23,11 +25,13 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{?}}
 | {{?}}
+| {{?}}
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 ! {{rh}} | DSK AcoustiKGruitarZ
 | {{wikitable_cell}}|guitar instrument
 | {{Yes}}
+| {{?}}
 | {{?}}
 | {{?}}
 | {{?}}
@@ -40,6 +44,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{?}}
 | {{?}}
+| {{?}}
 |-
 ! {{rh}} | Crystal
 | {{wikitable_cell}}|synthesizer (generic crossbreeding)
@@ -48,10 +53,12 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{?}}
 | {{?}}
+| {{?}}
 |-
 ! {{rh}} | Rain
 | {{wikitable_cell}}|rain simulator
 | {{Yes}}
+| {{?}}
 | {{?}}
 | {{?}}
 | {{?}}
