@@ -1,1 +1,61 @@
 Here is a list of VST's that have been found to work with LMMS. There is no gurantee that they will definitely work with your system. Think of it as a guide, please feel free to add any that you find to work also (or not). It is generally good practise to test a VST you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up.
+
+
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<TR VALIGN=TOP>
+		<TH ROWSPAN=2 WIDTH=25% BGCOLOR="#008000">
+			<P>VST plugin</P>
+			<P ALIGN=CENTER>Name</P>
+		</TH>
+		<TH COLSPAN=2 WIDTH=50% BGCOLOR="#0099ff">
+			<P>Linux platforms</P>
+		</TH>
+		<TH WIDTH=25% BGCOLOR="#0000ff">
+			<P>Windows platforms</P>
+		</TH>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=25%>
+			<P>Kubuntu 8.10 64-bit</P>
+		</TD>
+		<TD WIDTH=25%>
+			<P>Some distro (example)</P>
+		</TD>
+		<TD WIDTH=25%>
+			<P>Vista 32-bit</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=25%>
+			<P>Mda piano</P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#00ae00">
+			<P>Works 
+			</P>
+		</TD>
+		<TD WIDTH=25%>
+			<P>Fail</P>
+		</TD>
+		<TD WIDTH=25%>
+			<P>Works</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=25%>
+			<P>DKS ThoR</P>
+		</TD>
+		<TD WIDTH=25% BGCOLOR="#c90016">
+			<P>Fail</P>
+		</TD>
+		<TD WIDTH=25%>
+			<P>Fail</P>
+		</TD>
+		<TD WIDTH=25%>
+			<P>Works (just an example)</P>
+		</TD>
+	</TR>
+</TABLE>
