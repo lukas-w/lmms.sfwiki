@@ -60,3 +60,61 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 		</TR>
 	
 </TABLE>
+
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}" class="wikitable sortable"
+| {{rh}}|VST plugin name
+| {{rh}}|Plugin type
+| {{rh}}|Linux
+| {{rh}}|Windows
+| {{rh}}|Mac OS
+| {{rh}}|Other
+| {{rh}}|Homepage
+|-
+! {{rh}} | MDA Piano
+| {{wikitable_cell}}|piano instrument
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|http://something
+|-
+! {{rh}} | DSK Thor
+| {{wikitable_cell}}|synthesizer
+| {{No}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|http://www.dskmusic.com
+|-
+! {{rh}} | DSK AcoustiKGruitarZ
+| {{wikitable_cell}}|guitar instrument
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|http://www.dskmusic.com
+|-
+! {{rh}} | JazzBaby
+| {{wikitable_cell}}|piano instrument
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{?}}
+|-
+! {{rh}} | Crystal
+| {{wikitable_cell}}|synthesizer (generic crossbreeding)
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{?}}
+|-
+! {{rh}} | Rain
+| {{wikitable_cell}}|rain simulator
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{?}}
+|}
