@@ -13,6 +13,7 @@ This is the current list of instrument plugins, and links to their specific sect
 * [[SingerBot]] - a 'singing' sound synthesizer.
 * [[TripleOscillator]] - the 'standard' subtractive synthesis module.
 * [[VeSTige]] - VSTi-hosting plugin (only available on i386)
+**[[Tested VSTs]]
 * [[Vibed]] -  powerful vibrating-string synthesis module.
 
 = Effect Plugins =
