@@ -128,6 +128,15 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|Best played with a velocity sensitive keyboard, it can turn its hand to natural sounding or totally synthetic tones.
 | {{wikitable_cell}}| http://krakli.com/krakli-free-synths/
 |-
+| {{rh}} | Squelch
+| {{wikitable_cell}} | Monophonic Squelch Generator
+| {{Yes}}
+| {{?}} 
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}| Squelch is designed to easily and quickly implement those all-too-popular acidic psytrance squiggles.
+| {{wikitable_cell}}| http://hosted.filefront.com/aeonsound/
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
