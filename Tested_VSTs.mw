@@ -1,6 +1,6 @@
 Here is a list of VST's that have been found to work with LMMS. There is no gurantee that they will definitely work with your system. Think of it as a guide, please feel free to add any that you find to work also (or not). It is generally good practise to test a VST you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up.
 
-{| style="font-size: 85%; text-align: center; {{wikitable_table}}" class="wikitable sortable"
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
 | {{rh}}|Linux
@@ -10,7 +10,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{rh}}|Remarks
 | {{rh}}|Homepage
 |-
-! {{rh}} | MDA Piano
+| {{rh}} | MDA Piano
 | {{wikitable_cell}}|piano instrument
 | {{Yes}}
 | {{Yes}}
@@ -19,7 +19,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
 |-
-! {{rh}} | DSK Thor
+| {{rh}} | DSK Thor
 | {{wikitable_cell}}|synthesizer
 | {{No}}
 | {{?}}
@@ -28,7 +28,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
-! {{rh}} | DSK AcoustiKGruitarZ
+| {{rh}} | DSK AcoustiKGruitarZ
 | {{wikitable_cell}}|guitar instrument
 | {{Yes}}
 | {{?}}
@@ -37,7 +37,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
-! {{rh}} | JazzBaby
+| {{rh}} | JazzBaby
 | {{wikitable_cell}}|piano instrument
 | {{Yes}}
 | {{?}}
@@ -46,7 +46,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|http://smatni.tripod.com/safwanmatnivstplugins/
 |-
-! {{rh}} | Crystal
+| {{rh}} | Crystal
 | {{wikitable_cell}}|synthesizer (generic crossbreeding)
 | {{Yes}}
 | {{?}}
@@ -55,7 +55,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|http://www.greenoak.com/crystal/
 |-
-! {{rh}} | Rain
+| {{rh}} | Rain
 | {{wikitable_cell}}|rain simulator
 | {{Yes}}
 | {{?}}
@@ -64,7 +64,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|http://www.xoxos.net/vst/vst.html#nature
 |-
-! {{rh}} | AquesTone
+| {{rh}} | AquesTone
 | {{wikitable_cell}}|vocal synthesizer
 | {{Yes}}
 | {{?}}
@@ -72,4 +72,10 @@ Here is a list of VST's that have been found to work with LMMS. There is no gura
 | {{?}}
 | {{wikitable_cell}}|sounds retarded with pitch bend at the max. value, otherwise just very japanese
 | {{wikitable_cell}}|http://www.a-quest.com/aquestone/index_en.html
+|}
+===Templates for the compability table:===
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{Yes}}
+| {{No}}
+| {{Depends}}
 |}
