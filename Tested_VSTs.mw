@@ -92,6 +92,15 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|
 | {{wikitable_cell}}| http://www.vst4free.com/free_vst.php?id=371
 |-
+| {{rh}} | HERCS Abakos
+| {{wikitable_cell}} | Synth
+| {{Yes}}
+| {{?}} 
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}| http://www.hercsmusicsystems.com/
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
