@@ -8,7 +8,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{rh}}|Windows
 | {{rh}}|Mac OS
 | {{rh}}|Other OS
-| {{rh}}|Remarks
+| {{rh}}|Remarks and info
 | {{rh}}|Homepage
 |-
 | {{rh}} | MDA Piano
@@ -17,7 +17,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{?}}
+| {{wikitable_cell}}|
 | {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
 |-
 | {{rh}} | DSK Thor
@@ -26,7 +26,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{?}}
 | {{?}}
-| {{?}}
+| {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | DSK AcoustiKGruitarZ
@@ -35,7 +35,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{?}}
 | {{?}}
-| {{?}}
+| {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | JazzBaby
@@ -44,7 +44,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{?}}
 | {{?}}
-| {{?}}
+| {{wikitable_cell}}|
 | {{wikitable_cell}}|http://smatni.tripod.com/safwanmatnivstplugins/
 |-
 | {{rh}} | Crystal
@@ -53,7 +53,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{?}}
 | {{?}}
-| {{?}}
+| {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.greenoak.com/crystal/
 |-
 | {{rh}} | Rain
@@ -62,7 +62,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{?}}
 | {{?}}
-| {{?}}
+| {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.xoxos.net/vst/vst.html#nature
 |-
 | {{rh}} | AquesTone
