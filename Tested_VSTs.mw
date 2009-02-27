@@ -1,5 +1,6 @@
 Here is a list of VST's that have been found to work with LMMS. There is no guarantee that they will definitely work with your system. Think of it as a guide, please feel free to add any that you find to work also (or not). It is generally good practise to test a VST you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up.
 
+===Tested with 0.4.3===
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
@@ -73,7 +74,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|sounds retarded with pitch bend at the max. value, otherwise just very japanese
 | {{wikitable_cell}}|http://www.a-quest.com/aquestone/index_en.html
 |}
-===Templates for the compatibility table:===
+===Templates for the compatibility table===
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{Yes}}
 | {{No}}
