@@ -1,5 +1,5 @@
 = Getting Started with LMMS =
-
+{{CV}}
 LMMS is a sequencer, software synthesis and composer for Linux and Windows.  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
 
 When you first start LMMS, several key components are shown.  The [[Main Menu Bar|menu bar]] is at the top, above the [[Tool Bar|tool bar]] and master track controls.  The toolbar permanently on the left is the [[Side Bar]], which is an easy way to access the instruments, sounds, presets and projects.  The windows displayed by default are the [[Song Editor]], the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Project Notes]].
