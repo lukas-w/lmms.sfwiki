@@ -1,16 +1,16 @@
-Le matériel et les logiciels requis par LMMS pour fonctionner correctement sont relativement modestes.
+The hardware and software required to run LMMS is reasonably modest.
 
-= Matériel =
+= Hardware =
 
 == CPU/RAM ==
-La puissance du processeur et la quantité de RAM dépendera du type et de la taille des morceaux que vous voulez composer. Il est recommandé d'avoir au moins un processeur cadencé à 1GHz et 512Mo de Ram. Si vous utilisez des plugins VST et une version SVN récente de LMMS il est aussi recommandé d'avoir un ordinateur multi-core et/ou multi-processeur.
+Depending on the type and size of the songs you plan to write it's recommended to have at least 1 GHz and 512 MB of RAM. If you use VST-plugins and a recent SVN-copy of LMMS it's also recommended to have multiple cores and/or CPUs.
 
-== Carte Son ==
-Pour utiliser LMMS il n'y a aucun besoin particulier en matière de carte son. LMMS peut fonctionner aussi bien avec une petite carte son interne à 2 canaux, qu'une carte surround. En revanche vous aurez besoin d'un port midi si vous pensez utiliser un Clavier Midi externe pour enregistrer ou lire à partir de LMMS. Si votre clavier Externe fonctionne en USB, il sera automatiquement reconnu dans LMMS.
+== Soundcard ==
+There are no special needs. LMMS will run with an ordinary cheap 2-channel soundcard but it can also make use of surround-soundcards! Furthermore you will need a MIDI port if you plan to use your MIDI keyboard to record or play back from LMMS.
 
-= Système d'exploitation (OS) =
+= Operating Systems =
 
-LMMS est testé et disponible sur ces platformes :
+LMMS is tested and available on the following platforms:
 
  * Linux
  * Windows
