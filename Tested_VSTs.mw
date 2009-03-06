@@ -137,6 +137,96 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}| Squelch is designed to easily and quickly implement those all-too-popular acidic psytrance squiggles.
 | {{wikitable_cell}}| http://hosted.filefront.com/aeonsound/
 |-
+| {{rh}} | GTG 44 S
+| {{wikitable_cell}} | Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Analog modeling synth.  MIDI Channel must be set to "---".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | GTG FM4
+| {{wikitable_cell}} | FM Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|4-operator FM synth.  Good pads, keys.  MIDI Channel must be set to "All".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | GTG MicroOrganMkIII
+| {{wikitable_cell}} | Organ
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Drawbar organ with percussion, key click, vibrato and unison.  MIDI channel must be set to "All".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | GTG MX 2008
+| {{wikitable_cell}} | Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|3-osc analog-style synth with 3 LFOs (only one is host-syncable), delay and chorus effects.  MIDI channel must be set to "--".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | GTG NK 1001
+| {{wikitable_cell}} | Monosynth
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Analog modeling monophonic synth.  Very warm sound.  MIDI channel must be set to "All".  I recommend setting Key Trig to "Last".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | GTG Strings
+| {{wikitable_cell}} | String synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|String synthesizer with unique filter section.  MIDI channel must be set to "All".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | Wollo Drone
+| {{wikitable_cell}} | Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Analog modeling synth.
+| {{wikitable_cell}}|http://www.wollo.com/vst.htm
+|-
+| {{rh}} | DSK SizSenze
+| {{wikitable_cell}} | Synthesizer
+| {{No}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Layering synth.  Great pads and keys.  After waiting 10 minutes for it to load I gave up.
+| {{wikitable_cell}}|http://rekkerd.org/dsk-vsti/
+|-
+| {{rh}} | MrRay73
+| {{wikitable_cell}} | Electric piano
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Fender Rhodes electric piano synthesizer (no samples).  Very good sound.  Non-free, nag screen (you can play while the nag screen's up but you can't edit).
+| {{wikitable_cell}}|I don't remember.
+|-
+| {{rh}} | PolyIblit
+| {{wikitable_cell}} | Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Analog-style synth with two multimode filters.  Lots and lots of filter types.  4 LFOs and 4 Envelopes, routable in semi-modular fashion.  Badly in need of a unison mode or chorus effect.  Great for fat leads, keys, arps and basses but lousy for pads.
+| {{wikitable_cell}}|http://www.bostreammail.net/ers/polyiblit.html
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
@@ -146,6 +236,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|some exceptions and other interesting stuff
 | {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
 |}
+
 ===Templates for the compatibility table===
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{Yes}}
