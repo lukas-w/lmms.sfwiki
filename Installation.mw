@@ -4,17 +4,12 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 
 == Gentoo Linux ==
 
-LMMS is now avaible for Gentoo in the "semi-official" overlay www.gentoo-sunrise.org.
+LMMS is now avaible for Gentoo in the official portage tree.
 
 So, Gentoo users who want to install LMMS only have to do:
 
- # emerge -va layman
- # echo "source /usr/portage/local/layman/make.conf" >> /etc/make.conf
- # layman -f -a sunrise
- # echo "media-sound/lmms ~x86" >> /etc/portage/package.keywords
+ # echo "media-sound/lmms **" >> /etc/portage/package.keywords
  # emerge -av lmms
-
-This ebuild stills experimental and no-official so bugs shouldn't be reported on Gentoo's Bugzilla unless it's a problem with the ebuild and you write a patch (you can report this patch at bugs.gentoo.org on bug 100170). If you have any other problem with it, please contact me: cooldwind at gmail dot com.
 
 == Fedora ==
 
