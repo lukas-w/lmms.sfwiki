@@ -2,6 +2,12 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 
 = Installation under various distributions =
 
+'''Please note that many distributions only ship outdated versions of LMMS (0.3.x or even older!). It's strongly advised against using these old versions as they're rather unstable and feature-incomplete compared to the current 0.4.x series!'''
+
+== Ubuntu ==
+
+Ubuntu Jaunty comes with a recent version of LMMS. For installing recent versions of LMMS on Jaunty as well as Intrepid and Hardy, please take a look at [https://launchpad.net/~tobydox/+archive/ppa Tobydox' Personal Package Archive].
+
 == Gentoo Linux ==
 
 LMMS is now avaible for Gentoo in the official portage tree.
@@ -13,19 +19,18 @@ So, Gentoo users who want to install LMMS only have to do:
 
 == Fedora ==
 
-Fedora has version 0.3.2 of LMMS available in the Planet CCRMA repository [http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/].  After installing the yum repository for Planet CCRMA, then execute:
+Fedora has currently does not have a recent version of LMMS but it is in preparation.
 
-  yum install lmms
 
-And then yum should resolve all your dependencies and install the software for you.
-
-= Installing LMMS from SVN =
+= Installing LMMS from Git =
 
 Examples provided assume you're running Debian GNU/Linux.
 
-* First you need to get LMMS sources from the SVN repository, or update your sources, if you're upgrading from a previous version. The following command will checkout a recent SVN-copy of in a newly created folder named "lmms" in the current dir.
- svn co https://lmms.svn.sourceforge.net/svnroot/lmms/branches/lmms stable-0.4
-* Then you have to configure LMMS: cd into the "stable-0.4" directory and run CMake
+* First you need to clone the Git repository - or update your sources - if you're upgrading from a previous version. The following commands will do this for you inside a newly created folder named "lmms".
+ git clone git://lmms.git.sourceforge.net/gitroot/lmms
+ cd lmms
+ git checkout -b stable-0.4 origin/stable-0.4
+* Next you have to configure LMMS:
  mkdir build
  cd build
  cmake .. -DCMAKE_INSTALL_PREFIX=/usr
@@ -33,7 +38,7 @@ Examples provided assume you're running Debian GNU/Linux.
 * Now compile LMMS:
  make
 ** People with more than one CPU core can use make's -j option to compile some files in parallel.  For instance:
- make -j 2
+ make -j2
 * Finally you can install LMMS by running as root
  sudo make install
 
@@ -44,14 +49,14 @@ To compile LMMS from sources you need several development libraries, from graphi
 
 === Required libraries ===
 
-* Qt >= 4.3 libs + development files
+* Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
 ** under Debian based distributions run
  aptitude install libqt4-dev qt4-dev-tools
 * sound file library - for reading and writing files containing sampled audio data
 ** under Debian run aptitude install ''libsndfile1-dev''
 
 Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
-* [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info
+* [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info - '''ALSA is the recommended audio-interface to use with LMMS'''.
 ** under Debian run ''aptitude install libasound2-dev''
 * [http://jackaudio.org/ JACK] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
 ** under Debian run ''aptitude install libjack0.100.0-dev libjackasyn-dev''
@@ -59,7 +64,6 @@ Next you need to allow LMMS to communicate with your audio hardware, so you have
 ** under Debian run ''aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
 * [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [http://www.alsa-project.org/ ALSA]
 
-Even if you don't install all necessary libraries ''before'' configuring LMMS, you'll receive messages telling you what isn't in place to proceed, so you'll be able to fulfill the requirements ''while'' configuring LMMS, running ''./configure'' multiple times and resolving issues one at a time.
 
 
 === Optional (but strongly recommended) libraries ===
@@ -75,8 +79,12 @@ To make use of the full LMMS potential you may need to install some extra librar
 ** under Debian run aptitude install ''libstk0-dev stk''
 * WINE + devel-packages for being able to use VST-plugins within LMMS
 ** under Debian run aptitude install ''libwine-dev libwine''
+* FFTW3 - used by the SpectrumAnalyzer plugin
+** under Debian run aptitude install ''libfftw3-dev''
+* Fluidsynth - required to build the powerful Sf2Player plugin
+** under Debian run aptitude install ''libfluidsynth-dev''
 
-Again, even if you don't install all the libraries '''before''' running cmake, you'll receive warnings afterwards. So remove CMakeCache.txt and run cmake again until you get the desired result.
+If you don't install all the libraries '''before''' running cmake, you'll receive warnings afterwards. So remove CMakeCache.txt and run cmake again until you get the desired result.
 
 = Navigation =
 
