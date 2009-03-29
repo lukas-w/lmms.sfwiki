@@ -1,6 +1,6 @@
 ==MIDI settings==
 http://lmms.sourceforge.net/wiki/screenshots/midi_settings.png
-ALSA-Seq and 'default' as the device setting are the recommended settings. Modify only if necessary.
+ALSA-Seq and 'default' as the device settings are the recommended settings. Modify only if necessary.
 ==Setting MIDI input/output==
 http://lmms.sourceforge.net/wiki/screenshots/midi_in2.png
 ==MIDI tab==
