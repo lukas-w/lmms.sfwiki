@@ -295,6 +295,15 @@ PC-2 features a 'psycho-acoustic relevance' mode. Instead of using a peak or rms
 On the other hand, the simple, classic compression behavior can be engaged too by simply switching off the complex loudness model. 
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/pc2/pc2.zip
 |-
+| {{rh}} |Timemachine - Vintage sampler v1.0.2
+| {{wikitable_cell}}|digititus creator
+| {{Yes}}
+| {{?}} 
+| {{No}}
+| {{?}}
+| {{wikitable_cell}}|The ultimate digititus creator! TimeMachine is a VST plugin that provides accurate reproduction of the characteristic sound of vintage samplers, such as the Commodore 64, or older Akai samplers. The (virtual) sampling rate can be varied, as well as the number of bits used for digital representation. furthermore, aliasing distortion can be generated individually for AD and DA conversion. 
+| {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/timemachine/timemachine.zip
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
@@ -303,6 +312,7 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 | {{?}}
 | {{wikitable_cell}}|some exceptions and other interesting stuff
 | {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
+|-
 |}
 
 ===Templates for the compatibility table===
