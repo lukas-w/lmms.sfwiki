@@ -1,0 +1,31 @@
+The Triple Oscillator plugin is a synthesizer which generates sounds by combining the waveforms of up to three function generators.
+http://img6.imageshack.us/img6/8240/lmmstripleoscillator.png
+== Plugin settings ==
+The first panel controls the way the oscillators interact with each other. The available settings are:
+* '''Phase Modulation''' 
+* '''Amplitude Modulation'''
+* '''Mixed''' - The waveforms are added (default)
+* '''Synchronized''' - The waveform of the first oscillator is restarted with the frequency of the second one (The waveform of the second one does not matter in this mode)
+* '''Frequence Modulation'''
+The next three panels are the settings for the three oscillators.
+* The waveform generated
+* '''Vol''' - (Volume) Amplitude of the waveform. Set to 0 when you don't want to use this oscillator.
+* '''Pan''' - (Panning) Affects the stereo panning of the oscillator.
+* '''Crs''' - (Chorus) Frequency of the oscillator relative to the note played in semitones
+* '''FL''' and '''FR''' - Fine-tuning of the frequency for the left and right stereo channel
+* '''PO''' - (Phase Offset) Phase offset of the waveform relative to the other oscillators
+* '''SPD''' - (Stereo Phase Offset) Phase offset between left and right stereo channel
+
+== Waveforms ==
+;Sine: The "purest" sound. Useful for organ-like instruments. Due to their physical properties frequency filters have no effect on sine waves.
+;Triangle:
+;Sawtooth: Useful for string instruments.
+;Pulse wave: The typical sound of vintage arcade games. Sounds much less old-fashioned when combined with other waveforms.
+;Moog-like Triangle:
+;Exponential Wave:
+;Noise: Useful for creating snare drums (You might prefer to use [[Kicker]] for synthesized percussion instruments).
+;User-defined: Double-click to use any sound file as a waveform.
+
+==Tips==
+* The best results are reached by combining different waveforms with different chorus settings.
+* Most sounds sounds created by a triple oscillator sound boring and dull without an [[Envelope]].
