@@ -284,6 +284,17 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|Omnisone is a free spatial image processor VST plugin, with control of the side signal level, means to enhance the ambiance, and to re-pan both input signals individually, even outside the loudspeaker base
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/omnisone/omnisone.zip
 |-
+| {{rh}} |PC-2 Pschoacoustic compressor v1.0.1
+| {{wikitable_cell}}|compressor
+| {{Yes}}
+| {{?}}
+| {{No}}
+| {{?}}
+| {{wikitable_cell}}|Conventional compressors are based on peak or rms-level estimation to compute their time-variant gain or attenuation. This property of most compressors often causes undesirable intermodulation distortion and pumping/breathing artefacts.
+PC-2 features a 'psycho-acoustic relevance' mode. Instead of using a peak or rms-level estimation, this mode employes a perceptual loudness model to compute the loudness of the input signal. This perceptual loudness model is combined with advanced attack and release stages that model peripheral adaptation of the human auditory nerve. The result is a very transparent compression characteristic, even with very short attack and release times.
+On the other hand, the simple, classic compression behavior can be engaged too by simply switching off the complex loudness model. 
+| {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/pc2/pc2.zip
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
