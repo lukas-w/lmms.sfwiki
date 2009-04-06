@@ -304,6 +304,15 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 | {{wikitable_cell}}|The ultimate digititus creator! TimeMachine is a VST plugin that provides accurate reproduction of the characteristic sound of vintage samplers, such as the Commodore 64, or older Akai samplers. The (virtual) sampling rate can be varied, as well as the number of bits used for digital representation. furthermore, aliasing distortion can be generated individually for AD and DA conversion. 
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/timemachine/timemachine.zip
 |-
+| {{rh}} |Pushtec 5+1A
+| {{wikitable_cell}}|6-band mid-range and program EQ
+| {{Yes}}
+| {{?}}
+| {{No}}
+| {{?}}
+| {{wikitable_cell}}|6 band mid-range and program EQ. The algorithm is based on a circuit schematic of two of the most sought-after vintage analogue EQ's
+| {{wikitable_cell}}|http://www.kvraudio.com/developer_challenge/2006/PushTec1.2.zip
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
