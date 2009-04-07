@@ -331,6 +331,45 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 | {{wikitable_cell}}|SEND combines resonating low and high-pass filters with non-linear elements that generate even or odd harmonics. 
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/send/send.zip
 |-
+| {{rh}} |MDA Plugins
+| {{wikitable_cell}}|various, see website
+| {{Yes}} (as of 0.4.4)
+| {{?}}
+| {{?}}
+| {{?}}
+| {{lc}}|Lots of versatile OpenSource effect plugins:
+* Bandisto  - Multi-band distortion
+* BeatBox - Drum replacer
+* Combo - Amp & speaker simulator
+* De-ess - High frequency dynamics processor
+* Degrade - Sample quality reduction
+* Delay - Simple stereo delay with feedback tone control
+* Detune - Simple up/down pitch shifting thickener
+* Dither - Range of dither types including noise shaping
+* DubDelay - Delay with feedback saturation and time/pitch modulation
+* Dynamics - Compressor / Limiter / Gate
+* Envelope - Envelope follower / VCA
+* Image - Stereo image adjustment and M-S matrix
+* Leslie - Rotary speaker simulator
+* Limiter - Opto-electronic style limiter
+* Loudness - Equal loudness contours for bass EQ and mix correction
+* Multiband - Multi-band compressor with M-S processing modes
+* Overdrive - Soft distortion
+* Re-Psycho! - Drum loop pitch changer
+* RezFilter - Resonant filter with LFO and envelope follower
+* Round Panner - 3D panner
+* Shepard - Continuously rising/falling tone generator
+* Splitter - Frequency / level crossover for setting up dynamic processing
+* Stereo Simulator - Haas delay and comb filtering
+* Sub-Bass Synthesizer - Several low frequency enhancement methods
+* Talkbox - High resolution vocoder
+* TestTone - Signal generator with pink and white noise, impulses and sweeps
+* Thru-Zero Flanger - Classic tape-flanging simulation
+* Tracker - Pitch tracking oscillator, or pitch tracking EQ
+* Vocoder - Switchable 8 or 16 band vocoder
+* VocInput - Pitch tracking oscillator for generating vocoder carrier input
+| {{wikitable_cell}}|http://mda.smartelectronix.com/effects.htm http://sourceforge.net/projects/mda-vst/
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
