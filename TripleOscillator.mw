@@ -1,17 +1,19 @@
 The Triple Oscillator plugin is a synthesizer which generates sounds by combining the waveforms of up to three function generators.
+
 http://img6.imageshack.us/img6/8240/lmmstripleoscillator.png
+
 == Plugin settings ==
 The first panel controls the way the oscillators interact with each other. The available settings are:
-* '''Phase Modulation''' 
-* '''Amplitude Modulation'''
+* '''Phase Modulation''' - phase of oscillator is modulated (i.e. phase locally changes left/right) by sub-oscillator
+* '''Amplitude Modulation''' - output oscillator and its suboscillator is multiplied 
 * '''Mixed''' - The waveforms are added (default)
 * '''Synchronized''' - The waveform of the first oscillator is restarted with the frequency of the second one (The waveform of the second one does not matter in this mode)
-* '''Frequence Modulation'''
+* '''Frequency Modulation''' - frequency of oscillator is modulated (i.e. phase globally changes left/right) by sub-oscillator
 The next three panels are the settings for the three oscillators.
 * The waveform generated
 * '''Vol''' - (Volume) Amplitude of the waveform. Set to 0 when you don't want to use this oscillator.
 * '''Pan''' - (Panning) Affects the stereo panning of the oscillator.
-* '''Crs''' - (Chorus) Frequency of the oscillator relative to the note played in semitones
+* '''Crs''' - (Coarse) Frequency of the oscillator relative to the note played in semitones
 * '''FL''' and '''FR''' - Fine-tuning of the frequency for the left and right stereo channel
 * '''PO''' - (Phase Offset) Phase offset of the waveform relative to the other oscillators
 * '''SPD''' - (Stereo Phase Offset) Phase offset between left and right stereo channel
