@@ -1,4 +1,4 @@
-Organic is an additive synthesizer which combines the output of up to 8 oscillators. Although it has more oscillators it is less flexible than the [[TripleOscillator]] because it lacks some of its abilities, among them the option to modulate the oscillators with each other.
+Organic is an additive synthesizer which combines the output of up to 8 oscillators. Although it has more oscillators than the [[TripleOscillator]] it is less flexible because it lacks a lot of its abilities, among them the option to modulate the oscillators with each other.
 
 Organic is most useful for creating organ instruments (that's where its name comes from) and pads.
 
@@ -10,7 +10,7 @@ http://img90.imageshack.us/img90/7018/lmmspluginorganic.png
 ** 1%: Sawtooth
 ** 2%: Pulse
 ** 3%: Triangle
-** 4%: Moog-like
+** 4%: Moog Triangle
 ** 5%: Exponential
 *'''Vol:''' Volume of the oscillator.
 *'''Pan:''' Stereo panning of the oscillator.
@@ -46,7 +46,7 @@ This is the default coarse of the oscillators with "Wide" on +/- 0
 | +28
 | +31
 |-
-! Semitones relative to previous oscilator
+! Semitones relative to previous oscillator
 | -
 | +7
 | +12
