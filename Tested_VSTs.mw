@@ -376,7 +376,7 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 | {{?}}
 | {{No}}
 | {{?}}
-| {{wikitable_cell}}|Glitch chops up your audio in real-time and applies a variety of effects which can either be chosen at random, manually sequenced, or a mixture of both. The sounds it generates range from quite subtle to extremely bizarre, depending on how much you tweak the controls.
+| {{wikitable_cell}}|Glitch chops up your audio in real-time and applies a variety of effects which can either be chosen at random, manually sequenced, or a mixture of both. The sounds it generates range from quite subtle to extremely bizarre, depending on how much you tweak the controls. **when trying to change paramters on the different effects it can max them out and then be unable to change back again**
 | {{wikitable_cell}}|http://illformed.org/plugins/glitch/
 |-
 | {{rh}} | Sample plugin (for adding your own)
