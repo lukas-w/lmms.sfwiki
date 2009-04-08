@@ -370,6 +370,15 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 * VocInput - Pitch tracking oscillator for generating vocoder carrier input
 | {{wikitable_cell}}|http://mda.smartelectronix.com/effects.htm http://sourceforge.net/projects/mda-vst/
 |-
+| {{rh}} |Glitch
+| {{wikitable_cell}}|Glitch machine
+| {{Yes}}
+| {{?}}
+| {{No}}
+| {{?}}
+| {{wikitable_cell}}|Glitch chops up your audio in real-time and applies a variety of effects which can either be chosen at random, manually sequenced, or a mixture of both. The sounds it generates range from quite subtle to extremely bizarre, depending on how much you tweak the controls.
+| {{wikitable_cell}}|http://illformed.org/plugins/glitch/
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
