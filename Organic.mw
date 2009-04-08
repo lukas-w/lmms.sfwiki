@@ -1,5 +1,7 @@
 Organic is an additive synthesizer which combines the output of up to 8 oscillators. Although it has more oscillators than the [[TripleOscillator]] it is less flexible because it lacks a lot of its abilities, among them the option to modulate the oscillators with each other.
 
+The phase offsets of each oscillator are randomized whenever a note is played (for both stereo channels separately). For that reason this instrument sounds slightly different everytime you press a key even when you don't change any settings.
+
 Organic is most useful for creating organ instruments (that's where its name comes from) and pads.
 
 http://img90.imageshack.us/img90/7018/lmmspluginorganic.png
@@ -20,7 +22,6 @@ http://img90.imageshack.us/img90/7018/lmmspluginorganic.png
 *'''Dist:''' Adds a clipper effect (distortion)
 *'''Vol:''' General volume
 *'''Randomise:''' Randomises all oscillator settings.
-
 
 == Tuning of the oscillators==
 This is the default coarse of the oscillators with "Wide" on +/- 0
