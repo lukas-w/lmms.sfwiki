@@ -1,0 +1,22 @@
+Kicker is a kick- and bassdrum synthesizer. It works by starting with a triangle wave at a certain frequency and gradually changing it to another frequency.
+
+*'''Start:''' Start frequency
+*'''End:''' End frequency
+*'''Decay:''' Time it takes to get from start frequency to end frequency
+*'''Dist:''' Distortion added to the output
+*'''Gain:''' Additional gain added to the output (makes it louder)
+
+Kicker ignores the pitch of the note it plays. Thus it is best used in the [[Beat Bassline Editor|Beat/Bassline]].
+
+To get sounds which actually sound like drums you should set "Start" to a low level and "End" even lower. "Decay" should also be quite low. <!-- Maybe someone has some other ways this plugin can be used? -->
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: 
+| Up: [[NewManual]]
+| Next: [[LB302]]
+|}
+
+[[Category:Plugins]]
