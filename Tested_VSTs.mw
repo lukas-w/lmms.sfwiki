@@ -260,7 +260,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}| Juno 6 is an VST based virtual Analogue Synthesizer for Windows written in C++, that emulates the sound technics of the original Roland Juno 6/60 Synthesizer. The project itself is based on the ultramaster juno 6 linux sources.
+| {{wikitable_cell}}| Juno 6 is an VST based virtual Analogue Synthesizer for Windows written in C++, that emulates the sound technics of the original Roland Juno 6/60 Synthesizer. The project itself is based on the ultramaster juno 6 linux sources **when adjusting faders sometimes they can run away to max, but they can easily be adjusted back down to desired setting**
 | {{wikitable_cell}}| http://juno6.gruftie.com/index2.html
 |-
 | {{rh}} | Sample plugin (for adding your own)
