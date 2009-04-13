@@ -299,6 +299,15 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|The concept behind PoiZone was to design a synthesizer that had the smallest number of controls while providing the maximum flexibility and features.
 | {{wikitable_cell}}|http://www.image-line.com/documents/poizone.html
 |-
+| {{rh}} | DirectWave
+| {{wikitable_cell}}|Sampler
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|DirectWave loads and edits most of the existing sound formats out there (WAV (any), SF2 (Soundfont), AKP (Akai), Propellerheads Recycle, Native Instruments Battery, Kontakt *(nki), GIGA *(gig) & eMagic EXS24, ...) and it can even sample your existing VSTi instruments. 
+| {{wikitable_cell}}|http://www.image-line.com/documents/directwave.html
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
