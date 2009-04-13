@@ -290,6 +290,15 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|Morphine is a powerful Additive Synthesizer with a logical, flexible architecture that allows you to create any sound. You can do this directly by adjusting harmonics manually or by taking any input sample and resynthesizing it into one of 4 independent voices.
 | {{wikitable_cell}}|http://www.image-line.com/documents/morphine.html
 |-
+| {{rh}} | PoiZone
+| {{wikitable_cell}}|Subtractive Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|The concept behind PoiZone was to design a synthesizer that had the smallest number of controls while providing the maximum flexibility and features.
+| {{wikitable_cell}}|http://www.image-line.com/documents/poizone.html
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
