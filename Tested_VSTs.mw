@@ -308,6 +308,20 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|DirectWave loads and edits most of the existing sound formats out there (WAV (any), SF2 (Soundfont), AKP (Akai), Propellerheads Recycle, Native Instruments Battery, Kontakt *(nki), GIGA *(gig) & eMagic EXS24, ...) and it can even sample your existing VSTi instruments. 
 | {{wikitable_cell}}|http://www.image-line.com/documents/directwave.html
 |-
+| {{rh}} | SimSynth Live
+| {{wikitable_cell}}|Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{lc}}|SimSynth Live captures the big multi-oscillator sound of a MiniMoog, and combines it with the warm, fat sound of Oberheim style SVF filters.
+
+Following issues on Linux:
+* Takes a while to load
+* Various UI glitches
+* Not very stable
+| {{wikitable_cell}}|http://www.image-line.com/documents/simsynthlive.html
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
