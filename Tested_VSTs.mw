@@ -272,6 +272,24 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}| Sytrus Hybrid Synthesizer - subtractive but addictive. A disruptive innovation in software synthesis, nothing else compares to the diversity Sytrus packs. FM, RM & Subtractive synthesis - have it all.
 | {{wikitable_cell}}| http://www.image-line.com/documents/sytrus.html
 |-
+| {{rh}} | WASP
+| {{wikitable_cell}}|Analogue Virtual Synthesizer
+| {{No}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|The WASP vsti-dxi is best described as a "broad" analogue emulation synth, which means it can model sounds from a large range of analog synths such as Moog, Roland and others.
+| {{wikitable_cell}}|http://www.image-line.com/documents/wasp.html
+|-
+| {{rh}} | Morphine
+| {{wikitable_cell}}|Additive Virtual Synthesizer
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Morphine is a powerful Additive Synthesizer with a logical, flexible architecture that allows you to create any sound. You can do this directly by adjusting harmonics manually or by taking any input sample and resynthesizing it into one of 4 independent voices.
+| {{wikitable_cell}}|http://www.image-line.com/documents/morphine.html
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
