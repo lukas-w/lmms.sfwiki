@@ -322,6 +322,24 @@ Following issues on Linux:
 * Not very stable
 | {{wikitable_cell}}|http://www.image-line.com/documents/simsynthlive.html
 |-
+| {{rh}} | KORG Wavestation
+| {{wikitable_cell}}|Wavetable Synth
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Wavestation synthesizer features:
+    * 32 note polyphonic (CPU dependant).
+    * 484 PCM waveforms.
+    * 32 digital oscillators.
+    * 32 digital filters.
+    * 64 envelope generators.
+    * 64 LFOs.
+    * 55 effect types.
+    * 550 performances, 385 patches (ROM8 Banks + RAM3 Banks) sound included.
+    * Performance/Patch/Wave Sequence Data can be imported (in .SYX file).
+| {{wikitable_cell}}|http://www.korg.com/service/downloadinfo.asp?DID=719
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
