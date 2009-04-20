@@ -340,6 +340,20 @@ Following issues on Linux:
     * Performance/Patch/Wave Sequence Data can be imported (in .SYX file).
 | {{wikitable_cell}}|http://www.korg.com/service/downloadinfo.asp?DID=719
 |-
+| {{rh}} | Rob Papen's Blue
+| {{wikitable_cell}}|Synth
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|This exciting synth delivers FM Synthesis, Phase Distortion Synthesis, Wave Shaping Synthesis and Subtractive Synthesis is one creative combination! We call it "Crossfusion synthesis".
+
+BLUE has six oscillators which can be connected in various ways, two analogue style modelled stereo filters, an enormous range of processing and modulation options, sequencer and an incredibly powerful arpeggiator.
+Despite these heavy features, BLUE is so easy-to-use thanks to its user interface and the innovative 'easy edit' page for quick sound changes!
+
+This all brought together with over 1700 inspirational Rob Papen presets covering a wide range of musical styles.
+| {{wikitable_cell}}|http://www.robpapen.com/blue.html
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
