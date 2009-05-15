@@ -86,6 +86,18 @@ To make use of the full LMMS potential you may need to install some extra librar
 
 If you don't install all the libraries '''before''' running cmake, you'll receive warnings afterwards. So remove CMakeCache.txt and run cmake again until you get the desired result.
 
+== Other notes ==
+
+After running cmake you might get the following cmake error:
+
+   CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+   Please set them or make sure they are set and tested correctly in the CMake files:
+   X11_Xft_LIB (ADVANCED)
+      linked by target "remote_zynaddsubfx" in directory /home/kizzo/lmms-work/lmms/plugins/z
+   ynaddsubfx
+
+I forgot exactly how I arrived to this solution: aptitude install libxft-dev libfreetype6-dev .
+
 = Navigation =
 
 {| style="border: 1px solid black;"
