@@ -69,6 +69,7 @@ Then right-click on the filter's '''Cutoff''' control and automate it:
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automation.png
 
 You can draw various shapes - blocks, rising and falling curves, sawteeth and jumps.
+It can be difficult to draw with the mouse. Since .4.4 sh+leftMouse Clicking will create strait connected lines. Use this to make slow fine linear gradual changes.
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.ogg
 
