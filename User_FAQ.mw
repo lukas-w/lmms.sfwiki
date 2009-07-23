@@ -42,6 +42,8 @@ Click on the enable/disable looppoints button in the song editor or pianoroll. I
 
 ==== How do I Import a MP3 or OGG file? ====
 
+==== How do I edit the locations in the sidebar when you open a file in LMMS ? ====
+Highlight the folder that you want to be on the sidebar, select it, and drag it to the sidebar.
 
 == Development ==
 ====  What is the compression format used to compress projects ? ====  
