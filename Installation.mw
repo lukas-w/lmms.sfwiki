@@ -24,7 +24,11 @@ Fedora has currently does not have a recent version of LMMS but it is in prepara
 
 = Installing LMMS from Git =
 
-Examples provided assume you're running Debian GNU/Linux.
+* To install LMMS on Ubuntu, simply run this one command, which is all the below commands tied together for convenience:
+
+ sudo aptitude update && install libqt4-dev qt4-dev-tools build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev  libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git cmake git-core && git clone git://lmms.git.sourceforge.net/gitroot/lmms && cd lmms && git checkout -b stable-0.4 origin/stable-0.4 && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
+
+To install manually from Git (Examples provided assume you're running Debian GNU/Linux):
 
 * First you need to clone the Git repository - or update your sources - if you're upgrading from a previous version. The following commands will do this for you inside a newly created folder named "lmms".
  git clone git://lmms.git.sourceforge.net/gitroot/lmms
