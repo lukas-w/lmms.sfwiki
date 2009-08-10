@@ -51,7 +51,7 @@ To compile LMMS from sources you need several development libraries, from graphi
 
 * Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
 ** under Debian based distributions run
- aptitude install libqt4-dev qt4-dev-tools
+ aptitude install libqt4-dev qt4-dev-tools build-essential
 * sound file library - for reading and writing files containing sampled audio data
 ** under Debian run aptitude install ''libsndfile1-dev''
 
