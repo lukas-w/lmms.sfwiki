@@ -49,7 +49,7 @@ To compile LMMS from sources you need several development libraries, from graphi
 
 === Required libraries ===
 
-* For a one-command install of all the required packages, libraries and most of the optional libraries (on Ubuntu), simply run:
+* For a one-command install of all the required packages, libraries and most of the optional libraries (on Ubuntu), simply run: (triple-click to select everything on this line)
  sudo aptitude install libqt4-dev qt4-dev-tools build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev  libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev
 
 * Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
