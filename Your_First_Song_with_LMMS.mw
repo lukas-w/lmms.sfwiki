@@ -46,15 +46,15 @@ If you need to delete a note, simply right-click on it.
 
 == Copy and paste ==
 
-We now want to repeat those seven notes at the start of the bar in the next bar.  One way to do that is to simply click the correct notes.  But, for this tutorial, we'll introduce the Piano Roll's copy and paste functions.
+We now want to repeat those seven notes at the start of the bar in the next bar.  There are three ways to do this.
 
-Click on the '''area selector''' tool in the Piano Roll toolbar's editing palette (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing.png), which is the third icon from the left - the dashed-outline square.  Now drag an area from the top-right (e.g. the C5 line in bar 2) to the bottom left (onto the G3 key).  You'll see a blue rectangle expand out and the notes that start inside this area will turn blue.  To select all the notes you will need to drag slightly onto the keyboard, something which is possible when dragging ''onto'' the keyboard but not ''off'' it (which is why we started dragging from the top right).
+The first and worst way to do it is to simply click the correct notes. But this is tedious. Let's use some of LMMS's features to speed this up.
 
-Once you have selected all the notes, press the '''copy''' button in the toolbar's clipboard palette (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-clipboard.png), which is the middle icon, looking like a page on top of another.  This copies these notes into a clipboard.  They will be pasted back into the first bar of the piano roll, so we need to move the current notes out of the way.
+The first real way to do it is to use the duplicator tool. First select the notes you want to copy. Hold down Ctrl and make a selection rectangle around the notes you want to copy. Next, hold Shift and drag the newly selected notes. You are now dragging a copy of the selected notes. You can place these where you want them to go.
 
-Fortunately, the '''move area''' tool in the editing palette, looking like a four-direction arrow, allows you to move all the notes in a selected area.  Select this tool and grab anywhere inside the selection to move it so that the first note is in the second bar.  It may be handy to actually grab one note, or note where the horizontal note shading lies when you start dragging, because you will find you often drag the notes up or down as well and we want to make sure we keep them at the same pitch.  Ensure that the first note is on the A4 line and starts on the first beat of the second bar.
+Alternatively you can use good old copy and paste. Again, use Ctrl to select the notes you want, and then press Ctrl+C. Press Ctrl+V to paste the notes, and move them to their new location.
 
-Now we can paste the notes back in.  Press the '''paste''' button in the clipboard palette to paste the notes we previously copied back into the first bar.<sup><small>[[Your First Song with LMMS#Footnotes| [2]]]</small></sup>
+To select all notes you can press Ctrl+A.
 
 We can now press the '''play''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
 
