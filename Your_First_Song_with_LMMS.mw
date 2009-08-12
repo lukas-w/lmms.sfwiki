@@ -60,7 +60,7 @@ We can now press the '''play''' button (http://tangram.dnsalias.net/lmms-imgs/lm
 
 == Oops! ==
 
-When we play the melody so far, we realise that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward using the '''select area''' and '''move area''' tools (as explained above) in order to have the first note start on the right beat.
+When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat.
 
 == The first 'four' bars ==
 
