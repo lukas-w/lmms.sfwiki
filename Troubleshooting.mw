@@ -23,7 +23,7 @@ And look at the card and device numbers - for example:
 
  card 2: SI7012 [SiS SI7012], device 0: Intel ICH [SiS SI7012]
 
-Next, go to LMMS, open the settings menu (Edit > Settings), go to the Audio Settings tab, and in the "device" field, type 
+Next, go to LMMS, open the settings menu (Edit > Settings), go to the Audio Settings tab, and in the "device" field, delete "default" and type 
 
  hw:x,x
 
