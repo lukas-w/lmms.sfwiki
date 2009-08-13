@@ -14,6 +14,20 @@ If a segfault happens, LMMS will freeze and you'll get some information on the t
 
 Make sure you have debugging symbols in LMMS. That usually means compiling with the ''-g'' flag and not stripping the symbols afterwards.
 
+=== I get lots of latency (lag) when playing instruments in LMMS ===
+This is often the cause of your sound being routed through PulseAudio (which is the default for many desktop distributions such as Ubuntu), even if you have set the audio interface to ALSA. To fix this problem, LMMS needs to directly access your sound card. To do this, run
+
+ aplay -l
+
+And look at the card and device numbers - for example:
+
+ card 2: SI7012 [SiS SI7012], device 0: Intel ICH [SiS SI7012]
+
+Next, go to LMMS, open the settings menu (Edit > Settings), go to the Audio Settings tab, and in the "device" field, type 
+
+ hw:x,x
+
+Where the first "x" is the card number, and the second is the device number. For example, the above configuration would be "hw:2,0". Restart LMMS and you should have very little latency.
 
 === When I try to play one of the demo-songs the sound gets crapped. What can I do? ===
 If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
