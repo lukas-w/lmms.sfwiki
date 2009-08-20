@@ -30,8 +30,7 @@ So, Gentoo users who want to install LMMS only have to do:
 
 == Fedora ==
 
-Fedora has currently does not have a recent version of LMMS but it is in preparation.
-
+LMMS is now available in the standard Fedora updates repository.  If you wish to use VST plugins, you will need to install the ''lmms-vst'' package as well as the ''lmms'' package.
 
 = Installing LMMS from Git =
 
