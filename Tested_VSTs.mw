@@ -137,6 +137,15 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}| Squelch is designed to easily and quickly implement those all-too-popular acidic psytrance squiggles.
 | {{wikitable_cell}}| http://hosted.filefront.com/aeonsound/
 |-
+| {{rh}} | Synth1-v1.0.7
+| {{wikitable_cell}} | polyphonic synth
+| {{Yes}}
+| {{?}} 
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}| Synth1 is a virtual analogue synth.it features 2xosc,2xlfo,arpeggiator,effects,equaliser,unison mode & writable patch banks.
+| {{wikitable_cell}}| | {{rh}} | http://www.geocities.jp/daichi1969/softsynth/synth1v107.zip
+|-
 | {{rh}} | GTG 44 S
 | {{wikitable_cell}} | Synthesizer
 | {{Yes}}
