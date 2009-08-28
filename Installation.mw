@@ -10,13 +10,12 @@ Ubuntu Jaunty comes with a relatively recent version of LMMS (0.4.2). For instal
 
 * Alternatively, you can compile and install LMMS 0.4.5 using this single command:
 
- sudo aptitude update && sudo aptitude install libqt4-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev  libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git cmake && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && git checkout -b stable-0.4 origin/stable-0.4 && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
+ sudo aptitude update && sudo aptitude install libqt4-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev  libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git cmake && mkdir lmms-install && cd lmms-install && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && git checkout -b stable-0.4 origin/stable-0.4 && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
 
 * If you want to try the latest and greatest (the 0.9.x series), run this command instead:
 
- sudo aptitude update && sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev  libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git cmake && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
+ sudo aptitude update && sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev  libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git cmake && mkdir lmms-install && cd lmms-install && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
 
-* Do not run both commands without deleting the "lmms" folder first - you will get an error message otherwise.
 * Compiling LMMS requires a download of roughly 115mb.
 
 == Gentoo Linux ==
