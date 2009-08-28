@@ -16,8 +16,7 @@ Ubuntu Jaunty comes with a relatively recent version of LMMS (0.4.2). For instal
 
  sudo aptitude update && sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev ubuntustudio-audio-plugins libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git cmake && mkdir lmms-install && cd lmms-install && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install && cd && rm -r lmms-install
 
-
-* Compiling LMMS requires a download of roughly 115mb.
+* Compiling LMMS for the first time requires a download of roughly 115mb, including dependencies and other packages. Without dependencies , it requires a download of around 23mb.
 
 == Gentoo Linux ==
 
