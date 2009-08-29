@@ -12,6 +12,7 @@ Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest v
 
 To install LMMS manually for Intrepid and Hardy, please take a look at [https://launchpad.net/~tobydox/+archive/ppa Tobydox' Personal Package Archive].
 
+
 * If you want to try the latest UNSTABLE branch, run this command instead. Please note that the LMMS developers do not support this version as it is unfinished:
 
  sudo wget https://dl.getdropbox.com/u/29948/winejaunty.list -O /etc/apt/sources.list.d/winehq.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 387EE263 && sudo aptitude update && sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev ubuntustudio-audio-plugins libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git wine wine-dev cmake && mkdir lmms-install && cd lmms-install && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install && cd && rm -r lmms-install
