@@ -1,0 +1,70 @@
+Vous avez finalement décidé de contribuer au développement d'un plugin pour LMMS ! C'est super ! Dans un premier temps, il est recommandé de visionner le code source de l'un des plugins fournis avec LMMS. De préférence celui qui ressemble le plus à votre projet.
+Vous allez de toute manière trouver des informations sur la structure d'un plugin sur cette page-ci.
+
+
+=== Connaissances requises ===
+
+* C++/C
+* quelques expériences avec Trolltech's Qt
+* connaissances basiques en DSP
+
+=== Méthodes ===
+
+...
+
+=== Structure d'en-tête du plugin ===
+
+Votre plugin doit définir une structure d'en-tête avec le style suivant :
+
+ extern "C"
+ {
+ plugin::descriptor YourPluginNameHere_plugin_descriptor =
+ {
+        STRINGIFY_PLUGIN_NAME( PLUGIN_NAME ),
+        "YourPluginNameHere",
+        QT_TRANSLATE_NOOP( "pluginBrowser",
+                                "YourPluginDescriptionHere" ),
+        "YourNameHere <YourEmailAdressHere>",
+        0x0100,
+        plugin::INSTRUMENT,
+        PLUGIN_NAME::findEmbeddedData( "logo.png" )
+ } ;
+ 
+ }
+
+
+NB : Ceci doit être dans le fichier source (.cpp) de votre plugin.
+
+=== Callback du plugin ===
+
+LMMS peut uniquement trouver votre plugin si vous avez le style de codage en C suivant dans le fichier contenant votre classe. Ce code est appelé par LMMS chaque fois qu'une nouvelle instance du plugin est créée.
+
+ extern "C"
+ {
+ // neccessary for getting instance out of shared lib
+ plugin * lmms_plugin_main( void * _data )
+ {
+         return( new yourInstrumentClassNameHere( static_cast<channelTrack *>( _data ) ) )
+ }
+ }
+
+
+NB : Ceci est dans le fichier source (.cpp) de votre plugin
+
+=== Makefiles ===
+
+* Copiez Makefile.am d'un autre plugin dans le dossier de votre plugin et modifiez-le en fonction des besoins
+* Modifiez the Makefile.am dans le dossier racine du plugin. Ajoutez l'adresse du répertoire au champ "SUBDIRS = " 
+* Modifiez configure.in dans le dossier racine de LMMS et ajoutez votre Makefile à la liste "AC_CONFIG_FILES"
+* Lancez ''aclocal'', ''autoconf'' et ''automake'' dans le dossier de LMMS
+* Lancez ''configure'', ''make'' et ''make install''
+
+
+=== Artwork ===
+
+Créez deux fichiers PNG. L'un appelé "logo.png" qui sera affiché en tant que logo du plugin dans l'explorateur. L'autre est "artwork.png" qui sera l'image de fond de votre plugin.
+
+
+=== Conseils ===
+
+* Ne donnez pas le même nom au plugin et à votre classe car cela causera des conflits entre votre nom de classe et l'espace de noms de votre plugin - bien sûr vous pouvez utiliser un compilateur sensible à la casse, par exemple PLUGIN_NAME dans Makefile.am est "myplugin" et votre classe est appelée "myPlugin"
