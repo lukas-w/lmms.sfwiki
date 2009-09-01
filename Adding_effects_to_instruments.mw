@@ -1,0 +1,11 @@
+== Adding effects to instruments ==
+
+LMMS comes with instrument effects plugins called "LADSPA effects". They can provide a huge number of effects, from adding reverb, echoes and tremolos, to more complicated things like stereo matrices and distortion effects. To add an effect to your instruments:
+
+* Open the instrument window by clicking on it in the song editor
+* Navigate to the "FX" tab
+* Click the button next to "enable effects"
+* Click "add effect"
+* Either search for the desired effect or scroll through to find it. Try "Reverb" as an example.
+* Once the effect is added, you can change its properties through control knobs in the interface. Remember that for any of these controls, they can be assigned to physical controllers on any MIDI hardware you have. 
+* On the Linux version of LMMS, you can add more effects. On Ubuntu and Debian especially, it is easy to find more packages containing more effects by searching your package manager for "LADSPA".
