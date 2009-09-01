@@ -1,0 +1,14 @@
+=== I get lots of latency (lag) when playing instruments in LMMS ===
+This is often the cause of your sound being routed through PulseAudio (which is the default for many desktop distributions such as Ubuntu), even if you have set the audio interface to ALSA. To fix this problem, LMMS needs to directly access your sound card. To do this, run
+
+ aplay -l
+
+And look at the card and device numbers - for example:
+
+ card 2: SI7012 [SiS SI7012], device 0: Intel ICH [SiS SI7012]
+
+Next, go to LMMS, open the settings menu (Edit > Settings), go to the Audio Settings tab, and in the "device" field, delete "default" and type 
+
+ hw:x,x
+
+Where the first "x" is the card number, and the second is the device number. For example, the above configuration would be "hw:2,0". Restart LMMS and you should have very little latency.
