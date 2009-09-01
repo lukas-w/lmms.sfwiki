@@ -1,0 +1,24 @@
+== Adding Instruments == 
+
+LMMS ships with a large selection of powerful synthesizers and sample-based instruments, supporting patch, soundfont and even VST plugins. However, the process for adding these instruments for LMMS remains the same:
+
+* Click on the button at the top of the left toolbar to expand it.
+* You will see a list of instrument plugins here, with a short description of each one. 
+* Try one by dragging it from the toolbar to the song editor. Its track will appear in LMMS.
+* Some instruments require an instrument file or sample to function (AudiofileProcessor, SF Player and Patman being the main ones). You can find free instrument files across the web. A good website for this (although it requires free registration) is [http://www.kvraudio.com/ KVR Audio].
+
+== Adding a Soundfont to SF Player ==
+
+* Open SF Player from the song editor.
+* Click the folder icon in the instrument window and browse to your soundfont (.sf2) file.
+* You may want to change the instrument contained in the soundfont file. To do this, click the spanner icon below, and choose from the list.
+
+== Adding a Patch file to Patman ==
+
+* Open Patman from the song editor.
+* Click the folder icon in the instrument window and browse to the Patch (.pat) file. LMMS comes with several patch files for you to try out. 
+
+== Adding a sample to AudiofileProcessor ==
+
+* Open AudiofileProcessor from the song editor.
+* Click the folder icon and browse to your audio file. AudiofileProcessor supports many audio formats including mp3 and ogg.
