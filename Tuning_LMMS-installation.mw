@@ -1,0 +1,61 @@
+This article describes some of the common performance issues you may encounter after a plain vanilla (uncustomized) installation of LMMS on a Linux-based system, as well as touching on a few of the more common ways of installing LMMS.
+
+==Installation==
+
+===From Your Linux Distribution's Software Repositories===
+Many Linux distributions (Ubuntu, Debian, etc.) have online software repositories from which most, if not all, their software is installed from. These software databases may be accessed by various means, but the simplest way is typically via a graphical "package manager" such as the Synaptic Package Manager. This is the easiest and recommended way of installing software, although other options exist as described in subsequent sections. Search your package list for "lmms" and install as you would install any other app specific to your distribution.
+
+===From a Third-Party LMMS Repository===
+An Ubuntu-specific third-party repository has been created to offer more up-to-date versions of LMMS than are typically maintained in your Linux distribution's standard repositories. You may add this repository to your package manager to automatically keep current with the latest LMMS releases published there. Follow these steps in order to add the repository and install LMMS:
+#Open a terminal window from the main menu under ''Applications'', ''Accessories'', ''Terminal''.
+#In the terminal window enter the following commands (Use Ctrl-C to copy text from your web browser and Shift-Ctrl-V to paste text into the terminal):
+##sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ADDE29B2
+##sudo sh -c "echo 'deb http://ppa.launchpad.net/tobydox/lmms/ubuntu jaunty main' >> /etc/apt/sources.list"
+##sudo sh -c "echo 'deb-src http://ppa.launchpad.net/tobydox/lmms/ubuntu jaunty main' >> /etc/apt/sources.list"
+##sudo apt-get update
+##sudo apt-get install lmms
+#In steps two and three above you may need to replace "jaunty" with the version of Ubuntu you are using (for example "hardy" or "intrepid"). You can locate the version of Ubuntu you are using from the main menu under ''System'', ''About Ubuntu''.
+
+===From Source Code===
+In order to use the current developmental release of LMMS (an unofficially-released work in progress) or official LMMS releases that are not available in your Linux distribution's repositories you will need to compile the LMMS source code. This procedure is outside the scope of this document, unless someone adds it in the briefest and simplest way possible (good luck).
+
+==Post-Installation==
+
+===Setup LMMS===
+When running LMMS for the first time you will fairly quickly be presented with the Settings dialog. The most important options here regarding audio quality (fidelity and continuity of sound) and latency (the delay between when you tell LMMS to generate sound and when the sound actually emits from your speakers) are the ''buffer size'' under General Settings and ''audio interface'' under Audio Settings.
+====Buffer size====
+The buffer size is measured in frames and defaults to 256. The latency is an estimation of how long the sound will take to emit from your speakers after you/LMMS trigger the sound's generation/playback. Ideally the sound playback should occur immediately, or at least as close as your ears can tell to immediately. If when playing a sample using your MIDI keyboard/controller, the regular keyboard or the LMMS sample browser it sounds like the sample is played at the same time you tell it to then your buffer size is set to a good value. The higher the buffer size the longer the sound will take to reach your speakers once it is told to play. The lower the buffer size the faster the sound will take to reach your speakers once it is told to play. Computers with slower processors (CPUs) may require a higher buffer size in order to avoid skips/pops in the audio. Keep in mind you will need to close and reopen LMMS after making adjustments to the buffer size.
+====Audio Interface====
+The audio interface is the sound server (program/application) used to send audio to the sound card drivers that ultimately cause your sound card/chipset to generate audio. The most common choices are ALSA and JACK.
+=====ALSA (Advanced Linux Sound Architecture)=====
+The default audio interface is ''ALSA (Advanced Linux Sound Architecture)'' and requires no additional software to work. It is '''highly recommended''' that if either of the following two conditions exist on your system that you install the latest version of ALSA from source code:
+#Your CPU (single-core system) or one of your CPU's cores (multi-core systems) remains maxed-out while LMMS is idle (not doing anything).
+#LMMS audio output skips, pops or is otherwise unclean and/or imperfect.
+Multiple tutorials exist to install the latest version of ALSA from source, overwriting the version of ALSA contained in your Linux distribution's repositories. Here are a few:
+
+http://alsa.opensrc.org/index.php/Quick_Install
+
+http://tldp.org/HOWTO/Alsa-sound-4.html
+
+Take care when installing ALSA from source, paying attention to any errors you may receive as well as any modifications to the instructions you may need to make based on the current version number of ALSA and differences in the Linux distribution you are using. There is no de facto set of instructions for doing this that cover all distributions and scenarios. If you break your ALSA installation and would like to revert it to the original please use your distribution's package manager to reinstall the ALSA packages, which should overwrite any changes you have made.
+=====JACK (JACK Audio Connection Kit)=====
+JACK (''jackd'' and optionally ''qjackctl'' in the repositories) is a separate application that can handle multiple audio inputs and outputs, allowing you to route them into and out of various audio applications as well as your sound cards' various audio outputs. This allows a higher level of control over how your sound is processed and routed and may or may not work to your advantage depending on your level of experience and audio requirements. If using JACK you will need to manually start it prior to opening LMMS and ensure that it is configured properly on your system.
+
+==Instrument Plugins==
+Instrument plugins are small, integrated applications included with LMMS that you may assign to a track in order to generate sound. These are the heart of LMMS because of the diversity with which they allow the generation and manipulation of sound to create music, and are primarily what separate LMMS from an ordinary MIDI sequencer.
+===System Resource Requirements===
+Each instrument plugin has its own CPU and RAM requirements, meaning that one may sound great on your system while another may max out your CPU and cause audio problems. When using various instrument plugins it is wise to take note of how they affect your system's CPU and RAM, particularly when playing multiple notes at the same time. The ''Sf2 Player'' plugin (for playing SoundFont samples) has relatively low system requirements and is great for intensely polyphonic works. Plugins such as ''Organic'' have significantly higher CPU requirements and can quickly bring even the fastest system to its knees.
+===Performance Workarounds===
+====Export Your Project====
+Even if your LMMS project is so complex that it can't be played back reliably in real-time, you may export your project to a WAV or OGG audio file. This will cause LMMS to render your project to an audio file as slowly as necessary, retaining perfect audio quality despite any hardware shortcomings. Click ''File'', ''Export'' from within LMMS to save a project this way. The resulting sound file may be played back with your favorite audio player (VLC, Audacious, etc.).
+====Disable High Quality Mode====
+In LMMS under ''Edit'', ''Settings'', ''General Settings'' there is an option called "HQ-mode for output audio-device" that you may disable. This feature is undocumented (as far as I can tell) and may or may not improve real-time audio rendering performance.
+
+==Further Reading==
+If you are using the current version of LMMS and ALSA, your computer has a fast CPU and plenty of RAM and you still experience problems please use the following additional resources to seek help:
+
+*[http://lmms.sourceforge.net/wiki/index.php?title=Main_Page LMMS Wiki]
+
+*[http://lmms.sourceforge.net/wiki/index.php?title=Troubleshooting LMMS Wiki - Troubleshooting]
+
+*[http://sourceforge.net/mailarchive/forum.php?forum_name=lmms-users LMMS Users Mailing List Archive]
