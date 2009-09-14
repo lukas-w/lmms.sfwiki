@@ -20,6 +20,33 @@ Finally hit 'play' and enjoy your music!
 
 (work in progress)
 
+(Figure.1) (example)
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  14  16 
+Bass drum      | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+open hi-hat    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</pre>
+
+X=note on ;
+/=silence
+
+above in (Figure.1) we have a simple 4 beat pattern using 16ths or 16 segments within our pattern. You can see from "Bass drum" that there is an X (note on) at 1,5,9,13, ,this gives us the typical beat used in most techno/trance or house style music. Next is the snare drum at 5, and 13, which gives us a swing type feel to the rhythm. And finally the open and closed hi-hats to compliment the rhythm.
+ 
+now that you have the general idea these patterns can be applied to your songs in LMMS using the "beat + bassline editor" (which uses the 16ths/16 steps to 1 bar or 4 beats).
+
+
+below are some examples for you to try out and perhaps use in your songs.
+
+(1) AMEN BREAK - [this was a drum solo originally performed by Gregory Sylvester Coleman, but has been heavily sampled and pitched up for use in drum and bass and jungle styles]
+
+
+<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
+Crash/Ride Cym. :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
+Bass/Snare Dr.  :  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
+</pre>
+
 = Navigation =
 
 {| style="border: 1px solid black;"
