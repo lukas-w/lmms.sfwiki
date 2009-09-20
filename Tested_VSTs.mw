@@ -488,6 +488,15 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 | {{wikitable_cell}}|Glitch chops up your audio in real-time and applies a variety of effects which can either be chosen at random, manually sequenced, or a mixture of both. The sounds it generates range from quite subtle to extremely bizarre, depending on how much you tweak the controls. **when trying to change paramters on the different effects it can max them out and then be unable to change back again**
 | {{wikitable_cell}}|http://illformed.org/plugins/glitch/
 |-
+| {{rh}} |CamelCrusher
+| {{wikitable_cell}}|Distortion
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|CamelCrusher is a free 'colouring' multi-effect plugin. It offers two characteristically different distortion sounds which can be blended together to create a wide variety of tones and textures. Great for guitars, drums and plenty more!
+| {{wikitable_cell}}|http://www.camelaudio.com/camelcrusher.php
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
