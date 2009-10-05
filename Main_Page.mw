@@ -40,8 +40,8 @@ http://lmms.sourceforge.net/wiki-media/admin.png
 http://lmms.sourceforge.net/wiki-media/development.png
 | style="color: #000" valign="top"|
 '''Developers'''
-* [[Artwork contest]] (outdated)
 * [[Accessing Git repository]]
+* [[Developer Documentation|Documentation]]
 * [[Creating a localization]]
 * [[Plugin development tutorial]]
 * [[Guidelines on coding style]]
@@ -51,6 +51,7 @@ http://lmms.sourceforge.net/wiki-media/development.png
 * [[Roadmap|Roadmap/TODO]]
 * [[Developer FAQ|FAQ]]
 * [[Developer Discussion]]
+* [[Artwork contest]] (outdated)
 |}
 </div>
 |}
