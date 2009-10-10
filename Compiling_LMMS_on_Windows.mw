@@ -1,0 +1,32 @@
+Note!! This guides is incomplete! I can't get past the libsndfile step.
+
+
+How to compile LMMS on Windows, for Windows:
+
+  1. install git: http://code.google.com/p/msysgit/downloads/list
+     as of this writing, I'm using Git-1.6.4-preview20090730.exe 
+     - select Run Git from the Windows Command Prompt
+     - Use OpenSSH
+     - Use Unix style line endings
+
+  2. Now you need to [[Accessing_Git_repository|clone the git repository]].
+     - open command prompt
+     - go to some folder where you want to store your working copy of lmms
+     - then follow the guide to clone lmms. Do not run cmake or try to compile yet.
+
+  3. Installing the Dependencies:
+     - '''libsndfile: Unknown. I can't get it to compile for windows in such a way that cmake recognizes it'''
+     - list other dependencies here
+
+  4. install cmake: http://www.cmake.org/cmake/resources/software.html
+     - add cmake to the path for all users
+
+  5. install qt creator
+     - components: make sure mingw and qt are checked
+     - add the qt bin folder and the mingw bin folder to path for all users
+
+  6. run qt creator
+     - file->open->navigate to lmms and open CMakeLists.txt
+     - click Run cmake
+
+you're good to go! you can test the program with F5 and it will build correctly and automatically set up the debugger. you can also check in your edits with the qtcreator git plugin
