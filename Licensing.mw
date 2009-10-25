@@ -1,0 +1,175 @@
+Warning : This article is translated from french. Some things have to be edited (links, ...) !
+
+==Comparision of free licenses==
+
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{rh}} width="20%" | Licenses
+| {{rh}} width="10%" | Private modification
+| {{rh}} width="10%" | Private distribution
+| {{rh}} width="10%" | Private broadcast
+| {{rh}} width="10%" | Commercial use
+| {{rh}} width="10%" | Commercial modification
+| {{rh}} width="10%" | Commercial distribution
+| {{rh}} width="10%" | Commercial broadcast
+| {{rh}} width="10%" | License propagation
+|-
+| {{rh}} | [http://morne.free.fr/Necktar7/creactionfr.htm C reaction]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+|-
+| {{rh}} | Creative Commons - by [http://creativecommons.org/licenses/by/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by/2.5/ 2.5] et [http://creativecommons.org/licenses/by/3.0/ 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-nc [http://creativecommons.org/licenses/by-nc/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nc/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nc/3.0/ 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| author autorisation
+| author autorisation
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-nc-nd [http://creativecommons.org/licenses/by-nc-nd/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nc-nd/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nc-nd/3.0/ 3.0]
+| uniquement si accord de l'auteur
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| author autorisation
+| author autorisation
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-nc-sa [http://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nc-sa/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| author autorisation
+| author autorisation
+| {{Yes}}
+|-
+| {{rh}} | Creative Commons - by-nd [http://creativecommons.org/licenses/by-nd/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nd/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nd/3.0/ 3.0]
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-sa [http://creativecommons.org/licenses/by-sa/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-sa/2.5/ 2.5] et [http://creativecommons.org/licenses/by-sa/3.0/ 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://creativecommons.org/licenses/devnations/2.0/ Creative Commons - Developing Nations 2.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://creativecommons.org/licenses/nc-sampling+/1.0/ Creative Commons - NonCommercial Sampling Plus 1.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| author autorisation
+| author autorisation
+| {{Yes}}
+|-
+| {{rh}} | [http://creativecommons.org/licenses/sampling+/1.0/ Creative Commons - Sampling Plus 1.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| {{Yes}}
+|-
+| {{rh}} | [http://www.fmpl.org/fmpl.html Free Music Public License]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| author autorisation
+| {{No}}
+| {{Yes}}
+|-
+| {{rh}} | [http://gnuart.org/francais/gnugpl.html GNU GPL (GNUArt)]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://iang.info/fr/license.html IANG]
+| {{Yes}}, with contributors participation for artistic choices
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}, with customers participation for economic choices
+| {{Yes}}, with contributors/customers participation for artistic/economic choices
+| {{Yes}}, with customers participation for economic choices
+| {{Yes}}, with customers participation for economic choices
+| {{Yes}}
+|-
+| {{rh}} | [http://artlibre.org/licence/lal/ Licence Art Libre]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://openmusic.linuxtag.org/modules/freecontent/content/openmusic/green.html Open Music License - Green]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://openmusic.linuxtag.org/modules/freecontent/content/openmusic/yellow.html Open Music License - Yellow]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| author autorisation
+| author autorisation
+| {{Yes}}
+| {{No}}
+|}
