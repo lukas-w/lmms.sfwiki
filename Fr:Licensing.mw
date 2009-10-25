@@ -1,0 +1,194 @@
+==Comment choisir une licence ?==
+
+Toutes les licences libres relèvent pour le droit français de la gestion individuelle du droit d'auteur, non d'un système de gestion collective, sacem ou autre. 
+Chaque licence est un système d'autorisations plus ou moins larges, de cession ou concession de droits au public, touchant les trois domaines : 
+* droit de copie, plus ou moins étendu, 
+* droit de modification (sampling, remix,...), plus ou moins étendu, 
+* droit de distribution, plus ou moins étendu.
+Ces trois droits pouvant être accordés à usage commercial ou non-commercial. 
+
+Les licences les plus larges autorisent copie, modification et distribution pour tous usages y compris commerciaux, les plus restreintes autorisent seulement la copie à usage non commercial. 
+Ces licences selon ce qu'elles accordent, sont plus ou moins libres (ce point est l'objet de débats riches et nourris, toutefois pas abordés ici).
+
+==Tableau comparatif des licences libres==
+
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{rh}} width="20%" | Licences libres applicables à la musique
+| {{rh}} width="10%" | Modification privée
+| {{rh}} width="10%" | Distribution privée
+| {{rh}} width="10%" | Diffusion privée
+| {{rh}} width="10%" | Usage commercial
+| {{rh}} width="10%" | Modification commerciale
+| {{rh}} width="10%" | Distribution privée
+| {{rh}} width="10%" | Diffusion privée
+| {{rh}} width="10%" | Propagation de la licence
+|-
+| {{rh}} | [http://morne.free.fr/Necktar7/creactionfr.htm C reaction]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+|-
+| {{rh}} | Creative Commons - by [http://creativecommons.org/licenses/by/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by/2.5/ 2.5] et [http://creativecommons.org/licenses/by/3.0/ 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-nc [http://creativecommons.org/licenses/by-nc/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nc/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nc/3.0/ 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-nc-nd [http://creativecommons.org/licenses/by-nc-nd/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nc-nd/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nc-nd/3.0/ 3.0]
+| uniquement si accord de l'auteur
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-nc-sa [http://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nc-sa/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{Yes}}
+|-
+| {{rh}} | Creative Commons - by-nd [http://creativecommons.org/licenses/by-nd/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-nd/2.5/ 2.5] et [http://creativecommons.org/licenses/by-nd/3.0/ 3.0]
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| {{rh}} | Creative Commons - by-sa [http://creativecommons.org/licenses/by-sa/2.0/fr/deed.fr 2.0], [http://creativecommons.org/licenses/by-sa/2.5/ 2.5] et [http://creativecommons.org/licenses/by-sa/3.0/ 3.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://creativecommons.org/licenses/devnations/2.0/ Creative Commons - Developing Nations 2.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://creativecommons.org/licenses/nc-sampling+/1.0/ Creative Commons - NonCommercial Sampling Plus 1.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{Yes}}
+|-
+| {{rh}} | [http://creativecommons.org/licenses/sampling+/1.0/ Creative Commons - Sampling Plus 1.0]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{Yes}}
+|-
+| {{rh}} | [http://www.fmpl.org/fmpl.html Free Music Public License]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{No}}
+| {{Yes}}
+|-
+| {{rh}} | [http://gnuart.org/francais/gnugpl.html GNU GPL (GNUArt)]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://iang.info/fr/license.html IANG]
+| {{Yes}}, avec participation des contributeurs aux choix artistiques
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}, avec participation des clients au choix économiques
+| {{Yes}}, avec participations des contributeurs/clients aux choix artistiques/économiques
+| {{Yes}}, avec participation des clients au choix économiques
+| {{Yes}}, avec participation des clients au choix économiques
+| {{Yes}}
+|-
+| {{rh}} | [http://artlibre.org/licence/lal/ Licence Art Libre]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://openmusic.linuxtag.org/modules/freecontent/content/openmusic/green.html Open Music License - Green]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| {{rh}} | [http://openmusic.linuxtag.org/modules/freecontent/content/openmusic/yellow.html Open Music License - Yellow]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| uniquement si accord de l'auteur
+| uniquement si accord de l'auteur
+| {{Yes}}
+| {{No}}
+|}
+
+La licence Creative Commons - by-nc-sa 2.5 est compatible avec la gestion collective, mais les statuts de la SACEM ne sont pas compatibles avec cette licence.
+De toute façon, cette licence n'est pas applicable en France, comme tous les contrats 2.5, qui ne sont pas présentés sur cette page.
+Pour la Free Music Public License, la diffusion commerciale est autorisé uniquement dans le cadre d'un concert.
+
+==Références==
+http://www.dogmazic.net/faq.php?id_cat=103&myfaq=yes&categories=Comment+prot%E9ger+sa+musique+la+d%E9poser+sous+une+licence+%3F
+
+http://www.dogmazic.net/static.php?op=tableau_licences.php
