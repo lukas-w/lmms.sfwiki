@@ -6,6 +6,10 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 
 == Ubuntu ==
 
+To install LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
+
+== Older Versions of LMMS ==
+
 Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
 
  sudo wget https://dl.getdropbox.com/u/29948/jaunty.list -O /etc/apt/sources.list.d/tobydox.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ADDE29B2 && sudo aptitude update && sudo aptitude install lmms ubuntustudio-plugins lmms-vst
