@@ -370,7 +370,7 @@ This all brought together with over 1700 inspirational Rob Papen presets coverin
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}I
+| {{wikitable_cell}}
 | {{wikitable_cell}}|  http://www.shuriken.se/index.php?option=com_content&task=view&id=22&Itemid=34                                                                           
 |-
 | {{rh}} | Delaylama
@@ -417,6 +417,7 @@ This all brought together with over 1700 inspirational Rob Papen presets coverin
 | {{?}}
 | {{wikitable_cell}}| 
 | {{wikitable_cell}}| http://evm.110mb.com/free.htm
+|-
 | {{rh}} | Sample plugin (for adding your own)
 | {{?}}
 | {{Yes}}
