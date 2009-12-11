@@ -8,6 +8,46 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 
 To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
 
+
+*It has been reported that LMMS does not work "out of the box" using its alsa driver in Ubuntu-9.10 (Karmic)*
+
+so here is a tutorial below on how to get LMMS running using the alsa driver.
+
+(1) first we need to find the name/number of our soundcard , do command aplay -l ; arecord -l      --the output should be something like this...
+
+**** List of PLAYBACK Hardware Devices ****
+card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+**** List of CAPTURE Hardware Devices ****
+card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+from "device" we can see 0 , so this should equate to hw:0   (there may be other options eg plughw:)
+
+
+(2) now in terminal do command gksu gedit /etc/pulse/default.pa 
+
+ and change the lines ...  
+                          #load-module module-alsa-sink
+                          #load-module module-alsa-source device=hw:1,0
+to..........
+                          load-module module-alsa-sink device=hw:x
+                          load-module module-alsa-source device=hw:x   (remember to uncomment #)
+
+(where x is the card #number ,this can also be hw:x,x you will have to experiment a bit, though mostly it will be hw:0 for the internal soundcard)
+
+(3) you will now need to reboot for these changes to take effect and to continue the rest of the changes required
+
+
+(4) open the "multimedia system selector" either by the gui in > system > preferences ,or with the command gstreamer-properties  by using the terminal.now change both input & output plugin: to "pulseaudio" and device: to the line containing "hw:0" (or whatever your result was from (1) which will be something like... pulsesink device="alsa_output.hw_0" and pulsesrc device="alsa_input.hw_0
+
+
+(5) open LMMS and goto > edit > settings > audio (speaker icon) and change "audio interface" to "alsa"(if not already) and below that change where it says "settings for alsa" > Default, to the audio device name from step (1) e.g hw:0
+
+(6) restart LMMS, and hopefully your good to go, (you may/will have to use "gstreamer-properties" to change device back to default when you are not using LMMS, to be able to hear any other audio streams)
+
 == Older Versions of Ubuntu ==
 
 Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
