@@ -34,7 +34,8 @@ from "device" we can see 0 , so this should equate to hw:0   (there may be other
                           #load-module module-alsa-source device=hw:1,0
 to..........
                           load-module module-alsa-sink device=hw:x
-                          load-module module-alsa-source device=hw:x   (remember to uncomment #)
+                          load-module module-alsa-source device=hw:x  
+(remember to uncomment #)
 
 (where x is the card #number ,this can also be hw:x,x you will have to experiment a bit, though mostly it will be hw:0 for the internal soundcard)
 
