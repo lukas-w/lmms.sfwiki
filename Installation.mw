@@ -9,7 +9,7 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
 
 
-*It has been reported that LMMS does not work "out of the box" using its alsa driver in Ubuntu-9.10 (Karmic)*
+<font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its alsa driver in Ubuntu-9.10 (Karmic)*</font>
 
 so here is a tutorial below on how to get LMMS running using the alsa driver.
 
