@@ -26,6 +26,14 @@ card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
 
 from "device" we can see 0 , so this should equate to hw:0   (there may be other options eg plughw:)
 
+*another method of finding your soundcards details is command cat /proc/asound/cards ,mine gives 
+
+cat /proc/asound/cards
+ 0 [Intel          ]: HDA-Intel - HDA Intel
+                      HDA Intel at 0x78540000 irq 16
+
+this also shows card 0, and the name "Intel" which can be passed to step (5) below as plughw:Intel , with all other steps remaining the same.
+
 
 (2) now in terminal do command gksu gedit /etc/pulse/default.pa 
 
