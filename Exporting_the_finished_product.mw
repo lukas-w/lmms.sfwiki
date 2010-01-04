@@ -36,7 +36,7 @@ This option is allows a person to adjust how many times the song will be sampled
 
 == Bitrate ==
 
-Bit rate refers to the amount/speed at which the song is processed my the device reading it.  This option is important because it allows for choice of both quality and size of the song file.  The higher the bit rate the better the quality of the music being read.  However, a higher bit rate also means a larger song file.  The following list gives comparable examples of bit rates.
+Bit rate refers to the amount/speed at which the song is processed by the device reading it.  This option is important because it allows for choice of both quality and size of the song file.  The higher the bit rate the better the quality of the music being read.  However, a higher bit rate also means a larger song file.  The following list gives comparable examples of bit rates.
 
 {| class="wikitable sortable"
 |----- bgcolor="#FFFFFF"
