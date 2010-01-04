@@ -1,4 +1,4 @@
-Here is a list of VST's that have been found to work with LMMS. There is no guarantee that they will definitely work with your system. Think of it as a guide, please feel free to add any that you find to work also (or not). It is generally good practise to test a VST you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up.
+Here is a list of VST's that have been found to work with LMMS. There is no guarantee that they will definitely work with your system though.  Think of it as a guide.  Please feel free to add any that you find to work also (or not). It is generally good practise to test a VST you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up.
 
 ===VST instruments===
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
