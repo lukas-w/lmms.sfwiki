@@ -22,6 +22,9 @@ Here are a list of terms used in LMMS and their meaning.
 ; Freeze
 : To freeze a song or bassline track is to pre-render its sound and play that rather than render the track in real time.  This allows you to render a very complex track that would otherwise take too much CPU time to play with all the other tracks in the song.  While a track is frozen, changes to it do not take effect.  When [[Definitions#T|thawed]], the changes will take effect and the track will once again be rendered in real time as the song progresses.  Tracks can only be frozen when playback is stopped.
 
+; FX
+: Effects. 
+
 == G ==
 == H ==
 == I ==
