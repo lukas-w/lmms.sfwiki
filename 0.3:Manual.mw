@@ -1,1 +1,62 @@
-#REDIRECT [[0.3-en/Contents]]
+__NOTOC__ __NOEDITSECTION__
+<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: 1em; width: 95%; float:left;">This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div>
+ 
+= Introduction =
+
+Short, introductory pages on each topic, establishing what you need to run LMMS and understand this document.
+* [[Requirements]]
+* [[Installation|Installing LMMS]]
+* [[Terms and Conventions]]
+
+= Tutorials =
+
+Step-by-step task-oriented guides to achieving particular goals in LMMS.
+* [[Getting started]] - a brief walk-through for the impatient
+* [[Your First Song with LMMS]] - a more step-by-step tutorial
+* [[Making Triple-Oscillator patches]] - Guidelines for creating useful triple-oscillator patches
+
+= Using LMMS =
+
+A thematic description of how the various tools in LMMS work.
+* [[Working with Instruments]]
+<!--{\newpage}-->
+* [[Working with Samples]]
+* [[Composing in the Piano Roll Editor]]
+* [[Composing Bass Lines and Drum Sequences]]
+* [[Putting the song together]]
+* [[Working with Automation]]
+* [[Working with Controllers]]
+* [[Working with Effects and the Mixer]]
+* [[Using MIDI]]
+* [[Exporting the finished product]]
+
+= Reference =
+
+A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
+* [[Main Menu Bar]]
+* [[Tool Bar]]
+* [[Side Bar]]
+* [[Plugins]]
+* [[Song Editor]]
+* [[Piano Roll Editor]]
+<!--{\newpage}-->
+* [[Beat Bassline Editor|Beat + Bassline Editor]]
+<!--{\newpage}-->
+* [[Automation Editor]]
+* [[FX Mixer]]
+<!--{\newpage}-->
+* [[Project Notes]]
+<!--{\newpage}-->
+* [[LMMS Settings]]
+
+= Appendices =
+
+* [[Definitions]]
+* [[Key Mappings]]
+* [[Programming Notes]]
+* [[Interfaces and APIs]]
+* [[License]]
+<!--{\newpage}-->
+* [[Roadmap]]
+
+<!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
