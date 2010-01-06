@@ -1,1 +1,2 @@
 = Localization =
+All translations should be based on the English version. The articles' title should begin with the language's two-lettered ISO 639-1 code (Fr, De, Es, ...), followed by the LMMS version (if the article is version-dependent), followed by the actual title, in that language.  It wouldn't make much sense to translate articles leaving the titles in English, wouldn't it? Here are some examples: ''Fr:Page Principale, Fr:0.4:Manuel''
