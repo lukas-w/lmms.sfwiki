@@ -4,7 +4,7 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 
 '''Please note that many distributions only ship outdated versions of LMMS (0.3.x or even older!). It's strongly advised against using these old versions as they're rather unstable and feature-incomplete compared to the current 0.4.x series!'''
 
-== http://distrowatch.com/images/icon-small/ubuntu.png Ubuntu ==
+== http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu ==
 
 To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
 
@@ -82,7 +82,7 @@ So, Gentoo users who want to install LMMS only have to do:
  # echo "media-sound/lmms **" >> /etc/portage/package.keywords
  # emerge -av lmms
 
-== http://distrowatch.com/images/icon-small/fedora.png Fedora ==
+== http://gsmartcontrol.berlios.de/home/images/os_icons/fedora.png Fedora ==
 
 LMMS is now available in the standard Fedora updates repository.  If you wish to use VST plugins, you will need to install the ''lmms-vst'' package as well as the ''lmms'' package.
 
