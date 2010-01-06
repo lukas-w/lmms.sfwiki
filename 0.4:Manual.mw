@@ -1,0 +1,49 @@
+__NOTOC__ __NOEDITSECTION__
+
+<span style="background:red; color:white; padding: 0em 1em;">UNDER CONSTRUCTION
+Please refer to [[NewManual]] for now.
+
+# '''Introduction'''
+#:Short, introductory pages on each topic, establishing what you need to run LMMS and understand this document.
+## [[0.4:Terms|Terms and conventions]] used in this documentation.
+## [[0.4:Requirements|Requirements]] for installing and using LMMS
+## [[0.4:Installation|Installation]] procedures for LMMS
+## [[0.4:QuickStartGuide|Quick Start Guide]]
+# '''Tutorials'''
+#:Step-by-step task-oriented guides to achieving particular goals in LMMS.
+## [[0.4:GettingStarted|Getting started]] - a brief walk-through for the impatient
+## [[0.4:FirstSong|Your First Song with LMMS]] - a more step-by-step tutorial
+# '''Using LMMS'''
+#:A thematic description of how the various tools in LMMS work.
+## [[0.4:InstrumentsHowTo|Working with Instruments]]
+## [[0.4:SamplesHowTo|Working with Samples]]
+## [[0.4:PianoRollHowTo|Composing in the Piano Roll Editor]]
+## [[0.4:BassEditorHowTo|Composing Bass Lines and Drum Sequences]]
+## [[0.4:SongEditorHowTo|Putting the song together]]
+## [[0.4:ControllerHowTo|Using Controllers]]
+## [[0.4:AutomationHowTo|Working with Automation]]
+## [[0.4:LADSPAHowTo|Working with LADSPA effects]]
+## [[0.4:MIDIHowTo|Using MIDI]]
+## [[0.4:ExportingHowTo|Exporting the finished product]]
+# '''Reference'''
+#: A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
+## [[0.4:MainMenuRef|Main Menu Bar]]
+## [[0.4:ToolBarRef|Tool Bar]]
+## [[0.4:SideBarRef|Side Bar]]
+## [[0.4:PluginsRef|Plugins]]
+## [[0.4:SongEditorRef|Song Editor]]
+## [[0.4:PianoRollRef|Piano Roll Editor]]
+## [[0.4:BassEditorRef|Beat + Bassline Editor]]
+## [[0.4:ControllerRef|Controller Editor]]
+## [[0.4:AutomationRef|Automation Editor]]
+## [[0.4:NotesRef|Project Notes]]
+## [[0.4:SettingsRef|LMMS Settings]]
+# '''Appendices'''
+## [[0.4:DefinitionsApp|Definitions]]
+## [[0.4:KeyMappingApp|Key Mappings]]
+## [[0.4:ProgrammingApp|Programming Notes]]
+## [[0.4:InterfacesApp|Interfaces and APIs]]
+## [[0.4:LicenseApp|License]]
+## [[0.4:RoadmapApp|Roadmap]]
+
+<!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
