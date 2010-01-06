@@ -1,28 +1,82 @@
-= Getting Started with LMMS =
+= Getting Started with LMMS = 
+{{CV}}
+LMMS is a sequencer, software synthesis and composer for Linux and Windows.  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
 
-LMMS is a sequencer, software synthesis and composer for Linux (and soon for Windows).  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
+When you first launch LMMS, several key components are shown.  The [[Main Menu Bar]] is at the top, above the [[Tool Bar]] and master track controls.  The toolbar permanently on the left is the [[Side Bar]], which is an easy way to access the instruments, sounds, presets and projects.  The windows displayed by default are the [[Song Editor]], the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Project Notes]].
 
-When you first start LMMS, several key components are shown.  The [[0.4:MainMenuRef|menu bar]] is at the top, above the [[0.4:ToolBarRef|tool bar]] and master track controls.  The toolbar permanently on the left is the [[0.4:SideBarRef|Side Bar]], which is an easy way to access the instruments, sounds, presets and projects.  The windows displayed by default are the [[0.4:SongEditorRef|Song Editor]], the [[0.4:BassEditorRef||Beat + Bassline Editor]] and the [[0.4:NotesRef|Project Notes]].
-
-To insert a new instrument plugin preset into the Beat + Bassline or Song Editor, click the yellow star in the Side Bar to display the [[0.4:SideBarRef#Presets|Presets]].  You can also insert samples by choosing the single green note icon (the 'My samples' icon) from the Side Bar.  You can click and hold on an instrument preset or sample to hear the sound it generates.  You can then place the instruments you want into the editor by dragging it to the editor.  You can also double click presets to place them directly into the Beat + Bassline Editor.  If you make a mistake and want to remove an instrument, click on its grey 'toolkit' icon within the editor and choose 'Remove this track'.  Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organise the instruments or samples heirarchially.
+To insert a new instrument plugin preset into the [[Beat Bassline Editor|Beat + Bassline Editor]] or [[Song Editor]], click the yellow star (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in the Side Bar to display the [[Side Bar#Presets|Presets]].  You can also insert samples by choosing the 'My samples' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png) from the Side Bar.  You can click and hold on an instrument preset or sample to hear the sound it generates.  You can then place the instruments you want into the editor by dragging it to the editor.  You can also double click presets to place them directly into the Beat + Bassline Editor.  If you make a mistake and want to remove an instrument, click on its grey 'toolkit' icon within the editor and choose 'Remove this track'.  Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organise the instruments or samples heirarchially.
 
 When you insert an instrument into the editor, the instrument's editor window will be automatically opened for you.  You can also see this editor by clicking on its grey 'name' button in the Song or Beat + Bassline editors.  This 'name' button acts as a toggle, to dispel the editor window again; you can also click on its window controls as normal.  Instruments have five tabs: Plugin, Env/LFO/Filter, Arp/Chord, FX and MIDI.  The 'Plugin' tab changes with the type of instrument; all other tabs are standard for every instrument.
 
-== Creating a track ==
+== Creating a Track ==
 
-The standard way to create a track is to add drum instruments to the [[0.4:BassEditorRef|Beat + Bassline Editor]] and instruments for melody tracks into the [[0.4:SongEditorRef|Song Editor]].  Then create different drum loops using the '''Add bassline''' button in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are listed in the Song Editor as they're created.  To make them sound, click on the start bar in the track's timeline to create a new segment.  You can also drag its end out to make the pattern go across multiple bars.   The same technique can be used for repetitive bass lines.
+The standard way to create a track is to add drum instruments to the [[Beat Bassline Editor|Beat + Bassline Editor]] and instruments for melody tracks into the [[Song Editor]].  Then create different drum loops using the '''Add bassline''' button in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are listed in the Song Editor as they're created.  To make them sound, click on the start bar in the track's timeline to create a new segment.  You can also drag its end out to make the pattern go across multiple bars.   The same technique can be used for repetitive bass lines.
 
-For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[0.4:PianoRollRef|Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = c, etc) or on a MIDI keyboard.
+For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = C, etc) or on a MIDI keyboard.
 
 Finally hit 'play' and enjoy your music!
+
+= Drum Pattern Tabs/Maps =
+
+(work in progress)
+
+('''figure.1''') ('''example''')
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+open hi-hat    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</pre>
+
+X=note on ;
+/=silence
+
+above in (Figure.1) we have a simple 4 beat pattern using 16ths or 16 segments within our pattern. You can see from "Bass drum" that there is an X (note on) at 1,5,9,13, ,this gives us the typical beat used in most techno/trance or house style music. Next is the snare drum at 5, and 13, which gives us a swing type feel to the rhythm. And finally the open and closed hi-hats to compliment the rhythm.
+ 
+now that you have the general idea these patterns can be applied to your songs in LMMS using the "beat + bassline editor" (which uses the 16ths/16 steps to 1 bar or 4 beats).
+
+
+below are some examples for you to try out and perhaps use in your songs.
+
+('''1''') '''Amen Break''' - [this was a drum solo originally performed by Gregory Sylvester Coleman, but has been heavily sampled and pitched up for use in drum and bass and jungle styles]
+
+
+<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
+Crash/Ride Cym. :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
+Bass/Snare Dr.  :  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
+</pre>
+
+
+('''2''') '''Typical Break-beat''' - [by moving the Bass drum out of regular 4/4 timing we create a "break-beat]
+
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
+open hi-hat    | / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</pre>
+
+
+('''3''') '''Prodigy "Smack My Bitch Up"''' - [break-beat intro] [shown 1st in the Beat+bassline Editor]
+
+
+http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
+
+[main beat]
+
+http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
+
+(*note the lowered volumes of the snare drum in the 2 examples above i.e the dimmed <FONT COLOR="#00ff00">led's</FONT> in certain steps)
 
 = Navigation =
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[0.4:QuickStartGuide|Quick Start Guide]]
-| Up: [[0.4:TOC|Table of Contents]]
-| Next: [[0.4:FirstSong|Your First Song with LMMS]]
+| Prev: [[Terms and Conventions]]
+| Up: [[NewManual]]
+| Next: [[Your First Song with LMMS]]
 |}
 
 [[Category:Tutorial]]
