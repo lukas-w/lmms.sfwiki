@@ -1,3 +1,5 @@
+''You might want to have a look at the [[Tested VSTs|VST Database]] too!''
+
 == Working with VSTs and VSTi Plugins ==
 
 VST and VSTi plugins are industry-wide audio plugins supported in most commercial audio editors on Windows and Mac OS X. They range from the smallest effects (similar to LADSPA effects) to entire instruments and programs in their own right. Luckily, these powerful plugins work with LMMS the vast majority of the time. On the Windows version of LMMS, VST and VSTi plugins work perfectly, but on Linux the support isn't quite as good. LMMS on Linux requires the installation of [http://www.winehq.org/ Wine] before these plugins can be used. Here are the steps:
