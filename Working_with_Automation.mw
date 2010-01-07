@@ -2,7 +2,7 @@ Automation is a powerful tool for customising the sound of your project.  It can
 
 = Automate This! =
 
-The list of controls that can be automated is vast, as can be seen from the list in the [[Automation#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
+The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
 
 * Track controls such as the Volume and Mute settings, in both the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Piano Roll Editor]].
 * Virtually all Instrument controls:
