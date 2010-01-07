@@ -48,6 +48,8 @@ LV2 is a successor, based on LADSPA but permitting easy extensibility.
 == N ==
 == O ==
 == P ==
+; Peak Controller
+: A Peak Controller is similar to a noise gate, but with greater flexibility. Peak controllers are commonly placed on a percussion track, and then use the output signal to control the volume of another sustained sound. This results in the sustained sound being chopped up in time with the percussion, and has been used by artists such as Madonna (vogue) and Seal (crazy) to create very distinctive sounds.
 
 ; Project
 : The entire package of instruments, tracks, patterns and settings that comprise the whole performance of the song.  This is what you save and load from the Project menu.
