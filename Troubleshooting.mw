@@ -1,3 +1,5 @@
+''You might also be interested in "[[How to report bugs]]"''
+
 === LMMS segfaults and there are no error messages on the console. How do I get debugging information? ===
 Use the GNU Debugger:
 
