@@ -1,0 +1,75 @@
+The Beat + Bassline Editor is the main mechanism for sequencing rhythms and repetitive musical lines in LMMS.  It looks like this:
+
+<!--{\begin{center}}-->
+http://img30.imageshack.us/img30/2728/beatbasslineeditor.png
+<!--{\end{center}}-->
+
+= Tool Bar =
+
+The tool bar of the Beat + Bassline Editor looks like this:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar.png
+<!--{\end{center}}-->
+
+The '''play''' and '''stop''' buttons (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-playback.png) allow you to play the currently selected pattern.  When '''play''' is pressed, it will be replaced with a '''pause''' symbol (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pause.png) allowing you to pause the playback rather than stop it entirely.  Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
+
+The next drop-down menu (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-bassline.png) allows you to select the '''bassline''' to edit.  It displays the current bassline being edited.
+
+The '''new bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-new-bassline.png) creates a new bassline, incrementally numbered from "Beat/Bassline 0" up.  This can (and should) be renamed in the [[Song Editor]] to make it easier to identify which pattern you are editing.
+
+= Instrument Track =
+
+Each instrument added to the Beat + Bassline Editor is listed in a bar looking like this:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-track-default.png
+<!--{\end{center}}-->
+
+== Instrument Settings ==
+
+The instrument settings are very similar to the [[Song Editor]]'s [[Song Editor#The Track Settings bar|track settings]] bar.  This gives you a way to move the instrument up and down in the order, clone or remove the instrument, change or automate the volume, and set the instrument's [[Plugins|plugin]] settings.
+
+== Steps ==
+
+To the right are shown sixteen steps, four to each beat in a four-beat bar.  Each step is a button that can be turned on and off.  When a step is turned on, the sound from the instrument will play at that step in the bar.  The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly.
+
+== Adding and removing steps ==
+
+It is possible to add steps to and remove steps from the step display.  This simply adds an extra bar (or more) and puts steps in that, so it does not change the tempo of the beats currently in the track or the duration of each step.  You cannot remove steps so that there would be less than sixteen steps.  Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, it makes little sense to add less than sixteen at a time.
+
+= Context Menu =
+
+Right-clicking on the steps for a track gives you a context menu for that track:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
+<!--{\end{center}}-->
+
+'''Open in piano-roll''' allows you to edit the notes of a pattern in the [[Piano Roll Editor]] rather than just as steps.  This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
+
+'''Copy''' and '''Paste''' allow you to copy a set of steps from one track to another, by copying the original track's steps, right-clicking on the new track and choosing Paste.
+
+'''Mute/Unmute''' allows you to quickly mute or unmute the entire instrument in all patterns.
+
+'''Clear all notes''' allows you to quickly erase the steps in this track.
+
+'''Change Name''' allow you to change the name of this track from its default of the instrument plugin or sample you loaded.  '''Reset Name''' resets it back to this default.
+
+'''Freeze''' allows you to pre-render the sound of this track.  This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time each time.  While the track is frozen, changes to it do not take effect.  You can thaw a track while playing, but can only refreeze it when playback is stopped.
+
+'''Add steps''' and '''Remove steps''' allow you to add steps to or remove steps from the bar.  See above for a more complete description.
+
+= Navigation =
+
+HowTo: [[Composing Bass Lines and Drum Sequences]]
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Piano Roll Editor]]
+| Up: [[0.4:Manual]]
+| Next: [[Automation Editor]]
+|}
+
+[[Category:Reference]]
+[[Category:0.4-Manual]]
