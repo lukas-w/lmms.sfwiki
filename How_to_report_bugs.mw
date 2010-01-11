@@ -1,5 +1,5 @@
-== Online Bug Tracker ==
-For reporting any kind of bugs please use the [[bug tracker]].
+== Online Bug tracker ==
+For reporting any kind of bugs please use the bug-tracker at https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434. Please take a look at other submitted bugs (https://sourceforge.net/tracker/?group_id=105168&atid=640434) before opening a new item as someone else might have reported the same bug.
 
 == How to efficiently report bugs with GDB ==
 
