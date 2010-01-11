@@ -13,7 +13,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{rh}}|Homepage
 |-
 | {{rh}} | DSK AcoustiKGruitarZ
-| {{wikitable_cell}}|guitar instrument
+| {{wikitable_cell}}|Acoustic Guitar
 | {{Yes}}
 | {{Yes}}
 | {{?}}
@@ -22,7 +22,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | DSK ElectriKGruitarZ
-| {{wikitable_cell}}|guitar instrument
+| {{wikitable_cell}}|Electric Guitar
 | {{?}}
 | {{Yes}}
 | {{?}}
@@ -44,7 +44,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{rh}}|Homepage
 |-
 | {{rh}} | MDA Piano
-| {{wikitable_cell}}|piano instrument
+| {{wikitable_cell}}|Piano
 | {{Yes}}
 | {{Yes}}
 | {{?}}
@@ -53,7 +53,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
 |-
 | {{rh}} | JazzBaby
-| {{wikitable_cell}}|piano instrument
+| {{wikitable_cell}}|Piano
 | {{Yes}}
 | {{?}}
 | {{?}}
@@ -71,7 +71,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
 | {{rh}} | MrRay73
-| {{wikitable_cell}} | Electric piano
+| {{wikitable_cell}} | Electric Piano
 | {{Yes}}
 | {{?}}
 | {{?}}
@@ -93,7 +93,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{rh}}|Homepage
 |-
 | {{rh}} | DSK Thor
-| {{wikitable_cell}}|synthesizer
+| {{wikitable_cell}}|Synthesizer
 | {{No}}
 | {{?}}
 | {{?}}
@@ -102,16 +102,16 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | Crystal
-| {{wikitable_cell}}|synthesizer (generic crossbreeding)
+| {{wikitable_cell}}|Synthesizer
 | {{Yes}}
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}|
+| {{wikitable_cell}}| (generic crossbreeding)
 | {{wikitable_cell}}|http://www.greenoak.com/crystal/
 |-
 | {{rh}} | Rain
-| {{wikitable_cell}}|rain simulator
+| {{wikitable_cell}}|Rain Simulator
 | {{Yes}}
 | {{?}}
 | {{?}}
@@ -120,7 +120,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|http://www.xoxos.net/vst/vst.html#nature
 |-
 | {{rh}} | AquesTone
-| {{wikitable_cell}}|vocal synthesizer
+| {{wikitable_cell}}|Vocal Synthesizer
 | {{Yes}}
 | {{Yes}}
 | {{?}}
@@ -237,7 +237,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
 | {{rh}} | GTG Strings
-| {{wikitable_cell}} | String synthesizer
+| {{wikitable_cell}} | String Synthesizer
 | {{Yes}}
 | {{?}}
 | {{?}}
@@ -296,7 +296,7 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}| Powerful analog-style synthesizer 
+| {{wikitable_cell}}| Powerful analog-style Synthesizer 
 | {{wikitable_cell}}| http://www.cakewalk.com/products/Z3TA/
 |-
 | {{rh}} | virtual juno6
