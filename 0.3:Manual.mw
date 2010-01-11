@@ -12,42 +12,42 @@ Short, introductory pages on each topic, establishing what you need to run LMMS 
 
 Step-by-step task-oriented guides to achieving particular goals in LMMS.
 * [[0.3:Getting Started|Getting Started]] - a brief walk-through for the impatient
-* [[Your First Song with LMMS]] - a more step-by-step tutorial
-* [[Making Triple-Oscillator patches]] - Guidelines for creating useful triple-oscillator patches
+* [[0.3:Your First Song with LMMS|Your First Song with LMMS]] - a more step-by-step tutorial
+* [[0.3:Making Triple-Oscillator Patches|Making Triple-Oscillator Patches]] - Guidelines for creating useful triple-oscillator patches
 
 = Using LMMS =
 
 A thematic description of how the various tools in LMMS work.
-* [[Working with Instruments]]
+* [[0.3:Working with Instruments|Working with Instruments]]
 <!--{\newpage}-->
-* [[Working with Samples]]
-* [[Composing in the Piano Roll Editor]]
-* [[Composing Bass Lines and Drum Sequences]]
-* [[Putting the song together]]
-* [[Working with Automation]]
-* [[Working with Controllers]]
-* [[Working with Effects and the Mixer]]
-* [[Using MIDI]]
-* [[Exporting the finished product]]
+* [[0.3:Working with Samples|Working with Samples]]
+* [[0.3:Composing in the Piano Roll Editor|Composing in the Piano Roll Editor]]
+* [[0.3:Composing Bass Lines and Drum Sequences|Composing Bass Lines and Drum Sequences]]
+* [[0.3:Putting the song together|Putting the song together]]
+* [[0.3:Working with Automation|Working with Automation]]
+* [[0.3:Working with Controllers|Working with Controllers]]
+* [[0.3:Working with Effects and the Mixer|Working with Effects and the Mixer]]
+* [[0.3:Using MIDI|Using MIDI]]
+* [[0.3:Exporting the Song|Exporting the Song]]
 
 = Reference =
 
 A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
-* [[Main Menu Bar]]
-* [[Tool Bar]]
-* [[Side Bar]]
-* [[Plugins]]
+* [[0.3:Main Menu Bar|Main Menu Bar]]
+* [[0.3:Tool Bar|Tool Bar]]
+* [[0.3:Side Bar|Side Bar]]
+* [[0.3:Plugins|Plugins]]
 * [[0.3:Song Editor|Song Editor]]
-* [[Piano Roll Editor]]
+* [[0.3:Piano Roll Editor|Piano Roll Editor]]
 <!--{\newpage}-->
-* [[Beat Bassline Editor|Beat + Bassline Editor]]
+* [[0.3:Beat Bassline Editor|Beat + Bassline Editor]]
 <!--{\newpage}-->
-* [[Automation Editor]]
-* [[FX Mixer]]
+* [[0.3:Automation Editor|Automation Editor]]
+* [[0.3:FX Mixer|FX Mixer]]
 <!--{\newpage}-->
-* [[Project Notes]]
+* [[0.3:Project Notes|Project Notes]]
 <!--{\newpage}-->
-* [[LMMS Settings]]
+* [[0.3:LMMS Settings|LMMS Settings]]
 
 = Appendices =
 
