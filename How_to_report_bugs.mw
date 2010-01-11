@@ -1,5 +1,5 @@
 == Online Bug tracker ==
-For reporting any kind of bugs please use the bug-tracker at https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434. Please take a look at other submitted bugs (https://sourceforge.net/tracker/?group_id=105168&atid=640434) before opening a new item as someone else might have reported the same bug.
+For reporting any kind of bugs, use the [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 bug tracker]. Please take a look at other [https://sourceforge.net/tracker/?group_id=105168&atid=640434 submitted bugs] before opening a new item as someone else might have reported the same bug.
 
 == How to efficiently report bugs with GDB ==
 
@@ -16,7 +16,7 @@ For reporting any kind of bugs please use the bug-tracker at https://sourceforge
   ...
   (gdb) thread apply all backtrace
 
-* The output of this command is interesting for us!  Please either report it to the [[bug tracker]] or email it to the [[mailing lists|mailing list]].
+* The output of this command is interesting for us!  Please either report it to the [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 bug tracker] or email it to the [[mailing lists|mailing list]].
 
 == How to report bugs without GDB ==
 * Start a new shell/terminal:
