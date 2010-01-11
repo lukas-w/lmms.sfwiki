@@ -1,0 +1,51 @@
+The Side Bar is permanently attached to the left-hand side of the window.  It has two modes, retracted and extended.  In retracted mode it looks like this:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted.png
+<!--{\end{center}}-->
+
+It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.  When you click on any one section label, the side bar will extend and show you the contents of that section.
+
+= Instrument Plugins =
+
+When you click on the Instrument Plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-plugin.png), the sidebar expands to show you the available instrument plugins:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-none.png.
+<!--{\end{center}}-->
+
+By default, no instrument plugin is selected.  When you hover the mouse over one, its box will expand to include a description of the plugin in question, like so:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-audiofile.png
+<!--{\end{center}}-->
+
+You can then drag an instrument plugin to either the [[Song Editor]] or the [[Beat Bassline Editor|Beat + Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat + Bassline Editor.
+
+----
+
+In all sections but the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you double-click on a folder, it opens and displays its contents indented to the right of the folder name.  To close it again, double-click on the folder name again.
+
+These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
+
+= Projects =
+
+= Samples =
+
+= Presets =
+
+= Home Directory =
+
+= Root File System =
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Tool Bar]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Plugins]]
+|}
+
+[[Category:Reference]] [[Category:Incomplete]]
+[[Category:0.4-Manual]]
