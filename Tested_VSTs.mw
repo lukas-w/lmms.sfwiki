@@ -2,13 +2,13 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 
 ==== Guitar ====
 
-{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+{| style="font-size: 85%; text-align:center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
-| {{rh}}|Linux
-| {{rh}}|Windows
-| {{rh}}|OSX
-| {{rh}}|Other OS
+| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
+| {{rh}}|Other
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
 |-
@@ -36,10 +36,10 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
-| {{rh}}|Linux
-| {{rh}}|Windows
-| {{rh}}|OSX
-| {{rh}}|Other OS
+| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
+| {{rh}}|Other
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
 |-
@@ -85,10 +85,10 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
-| {{rh}}|Linux
-| {{rh}}|Windows
-| {{rh}}|OSX
-| {{rh}}|Other OS
+| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
+| {{rh}}|Other
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
 |-
