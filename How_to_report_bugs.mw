@@ -3,8 +3,7 @@ For reporting any kind of bugs please use the bug-tracker at https://sourceforge
 
 == How to efficiently report bugs with GDB ==
 
-*If you are using LMMS and encounter a bug, please include a full
-backtrace:
+*If you are using LMMS and encounter a bug, please include a full backtrace:
 
   $ gdb /usr/bin/lmms
   ...
