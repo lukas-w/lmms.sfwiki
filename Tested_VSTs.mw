@@ -1,33 +1,16 @@
 Here is a list of VST's that have been found to work with LMMS. There is no guarantee that they will definitely work with your system though.  Think of it as a guide.  Please feel free to add any that you find to work also (or not). It is generally good practise to test a VST you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up.
 
-===VST instruments===
+==== Guitar ====
+
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
 | {{rh}}|Linux
 | {{rh}}|Windows
-| {{rh}}|Mac OS
+| {{rh}}|OSX
 | {{rh}}|Other OS
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
-|-
-| {{rh}} | MDA Piano
-| {{wikitable_cell}}|piano instrument
-| {{Yes}}
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|
-| {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
-|-
-| {{rh}} | DSK Thor
-| {{wikitable_cell}}|synthesizer
-| {{No}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|
-| {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | DSK AcoustiKGruitarZ
 | {{wikitable_cell}}|guitar instrument
@@ -46,6 +29,28 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dskmusic.com
+|}
+
+==== Piano ====
+
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{rh}}|VST plugin name
+| {{rh}}|Plugin type
+| {{rh}}|Linux
+| {{rh}}|Windows
+| {{rh}}|OSX
+| {{rh}}|Other OS
+| {{rh}}|Remarks, information
+| {{rh}}|Homepage
+|-
+| {{rh}} | MDA Piano
+| {{wikitable_cell}}|piano instrument
+| {{Yes}}
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
 |-
 | {{rh}} | JazzBaby
 | {{wikitable_cell}}|piano instrument
@@ -55,6 +60,46 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://smatni.tripod.com/safwanmatnivstplugins/
+|-
+| {{rh}} | GTG MicroOrganMkIII
+| {{wikitable_cell}} | Organ
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Drawbar organ with percussion, key click, vibrato and unison.  MIDI channel must be set to "All".
+| {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | MrRay73
+| {{wikitable_cell}} | Electric piano
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Fender Rhodes electric piano synthesizer (no samples).  Very good sound.  Non-free, nag screen (you can play while the nag screen's up but you can't edit).
+| {{wikitable_cell}}|I don't remember.
+|}
+
+==== Synthesizer ====
+
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{rh}}|VST plugin name
+| {{rh}}|Plugin type
+| {{rh}}|Linux
+| {{rh}}|Windows
+| {{rh}}|OSX
+| {{rh}}|Other OS
+| {{rh}}|Remarks, information
+| {{rh}}|Homepage
+|-
+| {{rh}} | DSK Thor
+| {{wikitable_cell}}|synthesizer
+| {{No}}
+| {{?}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | Crystal
 | {{wikitable_cell}}|synthesizer (generic crossbreeding)
@@ -173,15 +218,6 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{wikitable_cell}}|4-operator FM synth.  Good pads, keys.  MIDI Channel must be set to "All".
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
-| {{rh}} | GTG MicroOrganMkIII
-| {{wikitable_cell}} | Organ
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|Drawbar organ with percussion, key click, vibrato and unison.  MIDI channel must be set to "All".
-| {{wikitable_cell}}|http://www.gtgsynths.com
-|-
 | {{rh}} | GTG MX 2008
 | {{wikitable_cell}} | Synthesizer
 | {{Yes}}
@@ -226,15 +262,6 @@ Here is a list of VST's that have been found to work with LMMS. There is no guar
 | {{?}}
 | {{wikitable_cell}}|Layering synth.  Great pads and keys.  After waiting 10 minutes for it to load I gave up.
 | {{wikitable_cell}}|http://rekkerd.org/dsk-vsti/
-|-
-| {{rh}} | MrRay73
-| {{wikitable_cell}} | Electric piano
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|Fender Rhodes electric piano synthesizer (no samples).  Very good sound.  Non-free, nag screen (you can play while the nag screen's up but you can't edit).
-| {{wikitable_cell}}|I don't remember.
 |-
 | {{rh}} | PolyIblit
 | {{wikitable_cell}} | Synthesizer
@@ -437,13 +464,13 @@ This all brought together with over 1700 inspirational Rob Papen presets coverin
 | {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
 |}
 
-===VST effects===
+===VST Effects===
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
 | {{rh}}|Linux
 | {{rh}}|Windows
-| {{rh}}|Mac OS
+| {{rh}}|OSX
 | {{rh}}|Other OS
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
@@ -572,7 +599,7 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 |-
 |}
 
-===Templates for the compatibility table===
+'''Templates for the compatibility table'''
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{Yes}}
 | {{No}}
