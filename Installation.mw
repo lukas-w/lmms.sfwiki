@@ -9,53 +9,64 @@ This is meant to be a very basic and linear tutorial on how to install LMMS.
 To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
 
 
-<font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its alsa driver in Ubuntu-9.10 (Karmic)*</font>
+<font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its Alsa driver in Ubuntu-9.10 (Karmic)*</font>
 
-so here is a tutorial below on how to get LMMS running using the alsa driver.
+Thus below is a tutorial on how to get LMMS working using the alsa driver.
 
-(1) first we need to find the name/number of our soundcard , do command aplay -l ; arecord -l      --the output should be something like this...
 
-**** List of PLAYBACK Hardware Devices ****
-card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
+1. First we need to find the name/number of our soundcard. To do so, open a terminal window and enter:
+ aplay -l ; arecord -l
+
+
+-the output should be something like this...
+
+<font color=blue>
+ **** List of PLAYBACK Hardware Devices ****
+ card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
   Subdevices: 0/1
   Subdevice #0: subdevice #0
-**** List of CAPTURE Hardware Devices ****
-card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
+ **** List of CAPTURE Hardware Devices ****
+ card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
   Subdevices: 1/1
-  Subdevice #0: subdevice #0
+  Subdevice #0: subdevice #0</font>
 
-from "device" we can see 0 , so this should equate to hw:0   (there may be other options eg plughw:)
+from "device" we can see 0 , so this should equate to hw:0   (there may be other options e.g. plughw:)
 
-*another method of finding your soundcards details is command cat /proc/asound/cards ,mine gives 
-
-cat /proc/asound/cards
+-Another method of finding your soundcard's details is:
+ cat /proc/asound/cards 
+mine gives: 
+<font color=blue>
  0 [Intel          ]: HDA-Intel - HDA Intel
-                      HDA Intel at 0x78540000 irq 16
+                      HDA Intel at 0x78540000 irq 16</font>
 
-this also shows card 0, and the name "Intel" which can be passed to step (5) below as plughw:Intel , with all other steps remaining the same.
+this also shows '''card 0''', and the name '''"Intel"''' which can be passed to step (5) below as '''plughw:Intel''' , with all other steps remaining the same.
 
 
-(2) now in terminal do command gksu gedit /etc/pulse/default.pa 
+2. Now in terminal type
+ gksu gedit /etc/pulse/default.pa 
 
- and change the lines ...  
+and change the lines ...  
+<font color=blue>
                           #load-module module-alsa-sink
-                          #load-module module-alsa-source device=hw:1,0
+                          #load-module module-alsa-source device=hw:1,0</font>
 to..........
-                          load-module module-alsa-sink device=hw:x
-                          load-module module-alsa-source device=hw:x  
+<font color=blue>
+                          load-module module-alsa-sink <font color=green>device=hw:x</font>
+                          load-module module-alsa-source device=hw:<font color=green>x</font></font>
 (remember to uncomment #)
 
-(where x is the card #number ,this can also be hw:x,x you will have to experiment a bit, though mostly it will be hw:0 for the internal soundcard)
-
-(3) you will now need to reboot for these changes to take effect and to continue the rest of the changes required
+(where '''x''' is the card '''#number''', this can also be '''hw:x,x''' you will have to experiment a bit, though mostly it will be '''hw:0''' for the internal soundcard)
 
 
-(4) open the "multimedia system selector" either by the gui in > system > preferences ,or with the command gstreamer-properties  by using the terminal.now change both input & output plugin: to "pulseaudio" and device: to the line containing "hw:0" (or whatever your result was from (1) which will be something like... pulsesink device="alsa_output.hw_0" and pulsesrc device="alsa_input.hw_0
+3. You will now need to reboot for these changes to take effect and to continue the rest of the changes required.
 
 
-(5) open LMMS and goto > edit > settings > audio (speaker icon) and change "audio interface" to "alsa"(if not already) and below that change where it says "settings for alsa" > Default, to the audio device name from step (1) e.g hw:0
+4. Open the "Multimedia System Selector" either through the gui under System > Preferences, or with the command gstreamer-properties by using the terminal. Now change both input & output plugin: to "pulseaudio" and device: to the line containing "hw:0" (or whatever your result was from (1) which will be something like... pulsesink device="alsa_output.hw_0" and pulsesrc device="alsa_input.hw_0
 
-(6) restart LMMS, and hopefully your good to go, (you may/will have to use "gstreamer-properties" to change device back to default when you are not using LMMS, to be able to hear any other audio streams)
+
+5. Open LMMS and go to > edit > settings > audio (speaker icon) and change "audio interface" to "Alsa"(if not already) and below that change where it says "settings for Alsa" > Default, to the audio device name from step (1) e.g. '''hw:0'''
+
+6. Restart LMMS, and hopefully you'll be good to go, (you may/will have to use "gstreamer-properties" to change the device back to default when you are not using LMMS, to be able to hear any other audio streams though)
 
 == http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
 
