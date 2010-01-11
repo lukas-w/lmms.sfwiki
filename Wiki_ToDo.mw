@@ -1,15 +1,23 @@
+__NOTOC__ __NOEDITSECTION__
 This is a page listing some of the work that should be done in the wiki. 
 
-* Remove pages in category "[[Special:Categories|Delete]]".
-* Simplify pages in category "[[Special:Categories|Simplify]]".
-* Write simple tutorials for newbies. 
-* Improve the Roadmap page. 
-* Transcribe 0.3 articles into newer 0.4 (mostly different screenshots). 
-* Translate pages into different languages and write a note if a page hasn't been translated yet. 
-* Make a sitemap
-* Add tips in the [[Tip of the day]] page.
-* Fix red links by writing useful content.
-* Fix French "licensing" page. 
-   
-* .. and lots, LOTS more.
-* oh! and you can also write down, on this very page, stuff that should be done.
+
+== Quick & Easy ==
+* Add tips to the [[Tip of the day]] page
+* Fix red links by writing useful content
+* Correct typos
+* Test new or untested [[Tested VSTs|VST plugins]]
+* Write new ideas for fixes on this very page
+* Categorize incomplete pages as "[[Special:Categories|Incomplete]]", and complex ones as "[[Special:Categories|Simplify]]"
+== Translations ==
+* Translate pages into different languages
+* Write [[User:Octosquidopus#Templates|warnings]](click for templates) on untranslated pages
+* Fix French [[Fr:Licensing]] page
+
+== Advanced ==
+* Write simple tutorials for newbies
+* Improve the [[Roadmap]] page
+* Transcribe 0.3 articles into newer 0.4 (mostly different screenshots)
+* Make a [[Sitemap]]
+* (for admins) Remove pages in category "[[Special:Categories|Delete]]"
+* Simplify pages in category "[[Special:Categories|Simplify]]"
