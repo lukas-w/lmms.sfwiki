@@ -23,11 +23,11 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 |-
 | {{rh}} | DSK ElectriKGruitarZ
 | {{wikitable_cell}}|Electric Guitar
-| {{?}}
+| {{Yes}}
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}|
+| {{wikitable_cell}}| Takes ~15 seconds to load
 | {{wikitable_cell}}|http://www.dskmusic.com
 |}
 
@@ -406,12 +406,12 @@ This all brought together with over 1700 inspirational Rob Papen presets coverin
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}
-| {{wikitable_cell}}|  http://www.shuriken.se/index.php?option=com_content&task=view&id=22&Itemid=34                                                                           
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|  http://www.shuriken.se/?page_id=83                                                                           
 |-
-| {{rh}} | Delaylama
-| {{wikitable_cell}} | Synthesizer
-| {{?}}
+| {{rh}} | DelayLama
+| {{wikitable_cell}} | Voice Synthesizer
+| {{yes}}
 | {{Yes}}
 | {{?}} 
 | {{?}}
