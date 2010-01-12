@@ -1,0 +1,39 @@
+If you find all your instruments sounding like an Atari 2600 (unless that's what you were going for), these guidelines for creating patched that sound like familiar musical instruments or sounds will help.  These instructions are intentionally a bit vague, so you can easily adapt them to the type of music you want to write.  When making patches, it often helps to have a BB track playing the sound over and over as you edit.
+
+= Synth bass =
+We'll start with your basic synth techno bass sound, because this is a relatively simple patch to start learning your way around the Triple-Oscillator with.
+Start with a fresh Triple-Oscillator with the default sine-wave patch.  
+*  Start on the "PLUGIN" page and change the waveforms.  Try some different combinations:  A square, a triangle and a sine wave are a good combo, or set them all to saw or moog-saw.
+*  Select the "ENV/LFO" page.  Turn the filter on to "LowPass", "2x LowPass" or "Moog" and turn the cutoff all the way down.  Your sound becomes almost inaudible.
+*  Go to the "CUTOFF" subpage and turn the envelope on.  Turn "Hold", "Sustain" and "Release" to zero.  Hear the filter now?
+*  Now start playing with the resonance knob in the "FILTER" section.  If you're using the Moog filter, don't turn the resonance past about 0.85 - you've been warned!
+*  Now play some really low notes.
+
+= Organ =
+Real organs are basically additive synthesizers:  They add together a few dozen simple sine waves to form a complex tone.  This is pretty easy to mimic with the Triple-Oscillator and LMMS's chords.
+*  Start with a fresh sine patch, and using each oscillator's "Crs" knobs have them placed in three different octaves.
+*  Flip over to the "FUNC" page and turn on chords.  Set the chord to "Octave" and set "RANGE" to three or four.  Neat, eh?
+*  Play different Cs.  They sound similar, don't they?  That's because most of the harmonics are the same.
+*  For some fun, change one of the oscillators to a triangle wave.
+*  You can refine the sound by changing which octaves each oscillator plays in, or by adjusting their relative volumes.
+
+= Electric bass =
+Electric bass guitars produce a wide variety of tones.  This is just your basic bass with no overdrive or anything like that.
+*  Start with a sine patch and mute OSC 1.  Turn OSC 2's valume to 100%.
+*  Set "OSC 2 + OSC 3" to PM (Phase Modulation)
+*  Turn on the volume envelope and give it a long decay, very short release and an attack around 1/50 or 1/20 of a second.
+*  Go to the "FX" page and add a TAP Chorus/Flanger effect.  This adds an extra layer of richness to the sound.
+*  Now, go back to the "PLUGIN" page and decide where you want OSC 3's volume (that is, the amount of phase modulation between OSC 3 and OSC 2).
+*  Finally, re-enforce the fundamental (lowest harmonic) of your sound by turning OSC 1 up just a bit.  This is optional.  Or you can use a triangle wave.  Whatever, it's your sound.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Your First Song with LMMS]]
+| Up: [[0.3:Manual]]
+| Next: [[Working with Instruments]]
+|}
+
+[[Category:Tutorial]] [[Category:Incomplete]]
+[[Category:0.3-Manual]]
