@@ -1,0 +1,27 @@
+The FX Mixer, as its name implies, is a tool for final edits to the song and its individual elements by adding ''Effects''.  This will bring up the mixer itself.  
+
+http://img525.imageshack.us/img525/1780/27467115.jpg
+
+==Usage==
+
+To access the FX Mixer simply click:  http://img186.imageshack.us/img186/4696/fxmix.jpg
+
+*The mixer has 4 racks, labelled ''A'', ''B'', ''C'', and ''D''.  Each with 16 tracks, which are made up of 2 channels, a left and a right, indicated by a volume indicator bar on each side of the fader.  By default, all plugins, files, and tracks are routed through the ''Master'' fader/track.  
+
+
+*The ''Master'' fader controls the overall volume of the combined plugins and/or tracks, it also gives the ability to to apply an ''effect'' to all tracks/plugins.  To adjust the ''Master fader'' left click once on its name and then click ''Add effect''.  This will bring up the dialogue box for all the effect from which a single effect can be selected.
+
+
+*Tracks work similarly to the ''Master'' fader, except that they can only control plugins.  However, a plugin must first be assigned to a track.  To assign a plugin select it from either the ''Song-editor'' or the ''Beat-editor'', depending on where it is located.  Once you have selected the plugin adjust the ''FX CHNL'' [[image: http://img41.imageshack.us/img41/1411/fxch1.jpg|frame|alt=FX CHNL|FX CHNL tool]]  to whichever track you wish.  Any number of plugins can be assigned to a single track in order to achieve the same effect with each plugin (e.g. A drumkit effect).  Now that the desired plugins have been assigned, effects and volume adjustments may be added.  ''(Note: To change the title of a track double-click on the current title.)''
+
+== Navigation ==
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Exporting the finished product]]
+| Up: [[0.3:Manual]]
+| Next: [[Tool Bar]]
+|}
+
+[[Category:Reference]]
+[[Category:0.3-Manual]]
