@@ -206,6 +206,8 @@ After running cmake you might get the following cmake error:
 
 I forgot exactly how I arrived to this solution: aptitude install libxft-dev libfreetype6-dev .
 
+See also: [[Tuning LMMS-installation]]
+
 = Navigation =
 
 {| style="border: 1px solid black;"
