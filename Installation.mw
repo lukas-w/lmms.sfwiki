@@ -112,10 +112,8 @@ To install manually from Git (Examples provided assume you're running Debian GNU
  cd build
  cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 * resolve any unmet dependencies (see section "[[Installation#Resolving_dependencies|Resolving dependencies]]" below for more on this topic)
-* Now compile LMMS:
+* Now compile LMMS: (People with more than one CPU core can use make's -j2 option to compile some files in parallel instead, accelerating the process. i.e. '''make -j2''' )
  make
-** People with more than one CPU core can use make's -j option to compile some files in parallel.  For instance:
- make -j2
 * Finally you can install LMMS by running as root
  sudo make install
 
@@ -127,18 +125,19 @@ To compile LMMS from sources you need several development libraries, from graphi
 === Required libraries ===
 
 * Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
-** under Debian based distributions run
- aptitude install libqt4-dev qt4-dev-tools build-essential
+** under Debian based distributions (including Ubuntu) run:
+ sudo aptitude install libqt4-dev qt4-dev-tools build-essential
 * sound file library - for reading and writing files containing sampled audio data
-** under Debian run aptitude install ''libsndfile1-dev''
+** under Debian based distributions (including Ubuntu) run: 
+ sudo aptitude install ''libsndfile1-dev''
 
 Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
 * [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info - '''ALSA is the recommended audio-interface to use with LMMS'''.
-** under Debian run ''aptitude install libasound2-dev''
+** under Debian run ''sudo aptitude install libasound2-dev''
 * [http://jackaudio.org/ JACK] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
-** under Debian run ''aptitude install libjack0.100.0-dev libjackasyn-dev''
+** under Debian run ''sudo aptitude install libjack0.100.0-dev libjackasyn-dev''
 * [http://www.libsdl.org/index.php SDL] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them ''before'' starting LMMS)
-** under Debian run ''aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
+** under Debian run ''sudo aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
 * [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [http://www.alsa-project.org/ ALSA]
 
 
@@ -148,18 +147,18 @@ Next you need to allow LMMS to communicate with your audio hardware, so you have
 To make use of the full LMMS potential you may need to install some extra libraries. Here is a list of some of them:
 
 * ogg-vorbis libraries - to decode/encode .ogg samples and/or songs
-** under Debian run aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
+** under Debian run sudo aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
 * samplerate conversion tools - to downsample and upsample audio from 4Hz up to 192kHz
-** under Debian run aptitude install ''libsamplerate0-dev''
+** under Debian run sudo aptitude install ''libsamplerate0-dev''
 * asynchronous library for interfacing with the JACK sound server - to convert programs that do sound input or output via the OSS system into JACK clients by starting them with the jacklaunch command
 * STK library + headers for using STK (Sound Synthesis Toolkit)
-** under Debian run aptitude install ''libstk0-dev stk''
+** under Debian run sudo aptitude install ''libstk0-dev stk''
 * WINE + devel-packages for being able to use VST-plugins within LMMS
-** under Debian run aptitude install ''libwine-dev libwine''
+** under Debian run sudo aptitude install ''libwine-dev libwine''
 * FFTW3 - used by the SpectrumAnalyzer plugin
-** under Debian run aptitude install ''libfftw3-dev''
+** under Debian run sudo aptitude install ''libfftw3-dev''
 * Fluidsynth - required to build the powerful Sf2Player plugin
-** under Debian run aptitude install ''libfluidsynth-dev''
+** under Debian run sudo aptitude install ''libfluidsynth-dev''
 
 If you don't install all the libraries '''before''' running cmake, you'll receive warnings afterwards. So remove CMakeCache.txt and run cmake again until you get the desired result.
 
@@ -204,7 +203,7 @@ After running cmake you might get the following cmake error:
       linked by target "remote_zynaddsubfx" in directory /home/kizzo/lmms-work/lmms/plugins/z
    ynaddsubfx
 
-I forgot exactly how I arrived to this solution: aptitude install libxft-dev libfreetype6-dev .
+I forgot exactly how I arrived to this solution: sudo aptitude install libxft-dev libfreetype6-dev .
 
 See also: [[Tuning LMMS-installation]]
 
