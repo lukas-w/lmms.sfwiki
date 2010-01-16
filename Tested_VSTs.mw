@@ -29,6 +29,38 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{?}}
 | {{wikitable_cell}}| Takes ~15 seconds to load
 | {{wikitable_cell}}|http://www.dskmusic.com
+|-
+| {{rh}} | DVS Guitar
+| {{wikitable_cell}}|Electric Guitar
+| {{?}}
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.dream.vortex.btinternet.co.uk/instruments
+|}
+
+==== Harmonica ====
+
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{rh}}|VST plugin name
+| {{rh}}|Plugin type
+| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
+| {{rh}}|Other
+| {{rh}}|Remarks, information
+| {{rh}}|Homepage
+|-
+|-
+| {{rh}} | DSK Harmonica (beta)
+| {{wikitable_cell}}|Harmonica
+| {{?}}
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}| Very primitive
+| {{wikitable_cell}}|http://www.dskmusic.com
 |}
 
 ==== Piano ====
@@ -49,7 +81,7 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}|
+| {{wikitable_cell}}|Pretty common piano sound
 | {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
 |-
 | {{rh}} | JazzBaby
@@ -64,20 +96,20 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{rh}} | GTG MicroOrganMkIII
 | {{wikitable_cell}} | Organ
 | {{Yes}}
-| {{?}}
+| {{Yes}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|Drawbar organ with percussion, key click, vibrato and unison.  MIDI channel must be set to "All".
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
-| {{rh}} | MrRay73
+| {{rh}} | MrRay73 1.0
 | {{wikitable_cell}} | Electric Piano
+| {{Yes}}
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{?}}
-| {{wikitable_cell}}|Fender Rhodes electric piano synthesizer (no samples).  Very good sound.  Non-free, nag screen (you can play while the nag screen's up but you can't edit).
-| {{wikitable_cell}}|I don't remember.
+| {{wikitable_cell}}|Fender Rhodes electric piano synthesizer (no samples).  Very good sound.  This is the old version, but it's free. Click on "MrRay seventy three" to hide the donations message and get to the controls.
+| {{wikitable_cell}}|http://www.genuinesoundware.com/?a=downloads (archive)
 |}
 
 ==== Synthesizer ====
@@ -95,10 +127,10 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{rh}} | DSK ThoR
 | {{wikitable_cell}}|Synthesizer
 | {{No}}
+| {{Yes}}
 | {{?}}
 | {{?}}
-| {{?}}
-| {{wikitable_cell}}| Error message on Linux
+| {{wikitable_cell}}| Error message on Linux. Very cool UFO-type echoed sound
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | Crystal
