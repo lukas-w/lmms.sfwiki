@@ -33,10 +33,6 @@ Here are a list of terms used in LMMS and their meaning.
 == L ==
 ; LADSPA
 :LADSPA is an acronym for Linux Audio Developers Simple Plugin API. It is a standard for handling filters and effects, licensed under the GNU LGPL. It was originally designed for Linux through consensus on the Linux Audio Developers Mailing List, but works on a variety of other platforms. It is used in many free audio software projects and there is a wide range of LADSPA plugins available.
-LADSPA exists primarily as a header file written in the C programming language.
-There are many audio plugin standards and most major modern software synthesizers and sound editors support a variety. The best known standard is probably Steinberg Cubase's Virtual Studio Technology. LADSPA is unusual in that it attempts to provide only the "Greatest Common Divisor" of other standards. This means that its scope is limited, but it is simple and plugins written using it are easy to embed in many other programs. The standard has changed very little with time, so compatibility problems are rare.
-DSSI extends LADSPA to cover instrument plugins.
-LV2 is a successor, based on LADSPA but permitting easy extensibility.
 
 ; LFO
 : Low Frequency Oscillator.  This typically refers to oscillators whose usual frequency is in the 0.1Hz - 10Hz range - i.e. from one beat every ten seconds to ten beats every second.  Above this frequency the oscillator is generating frequencies in the audible spectrum and the 'low frequency' prefix is not used.  LFOs are typically used to control things such as filter sweeps and amplitude oscillation ('vibrato').
@@ -47,6 +43,9 @@ LV2 is a successor, based on LADSPA but permitting easy extensibility.
 == M ==
 == N ==
 == O ==
+; Ogg
+Ogg is a free, open standard container format maintained by the Xiph.Org Foundation. Similarly to MP3, it is designed to provide efficient streaming and manipulation of high quality digital multimedia.
+
 == P ==
 ; Peak Controller
 : A Peak Controller is similar to a noise gate, but with greater flexibility. Peak controllers are commonly placed on a percussion track, and then use the output signal to control the volume of another sustained sound. This results in the sustained sound being chopped up in time with the percussion, and has been used by artists such as Madonna (vogue) and Seal (crazy) to create very distinctive sounds.
