@@ -1,32 +1,40 @@
-[[Image:Example.jpg]][[Image:Example.jpg]]= Instrument Basics =
+An instrument is a sound generator that plays notes on command.  Each instrument is comprised of a specific plugin that generates the sound and a number of common ways to control the sound generated.  Many parameters of an instrument can be changed in real time using [[0.4:Working with Automation|Automation]].
 
-An instrument is a sound generator that plays notes on command.  Each instrument is comprised of a specific plugin that generates the sound and a number of common ways to control the sound generated.  Many parameters of an instrument can be changed in real time using [[Automation]].
+= Creating an Instrument =
 
-= Creating an instrument =
+You can create an instrument in a variety of ways. 
 
-You can create an instrument in a variety of ways.
+The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]]. You drop it in the editor that you want to use it in - most tone-producing instruments (samples and synthesizers) will go into the [[Song Editor]] and drum sounds will go into the [[Beat Bassline Editor|Beat + Bassline Editor]].  This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
 
-The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]].  You drop it in the editor that you want to use it in - most tone-producing instruments (samples and synthesizers) will go into the [[Song Editor]] and drum sounds will go into the [[Beat Bassline Editor|Beat + Bassline Editor]].  This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
+
+http://img96.imageshack.us/img96/4769/presetsdemo.png
+
+
 
 You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the editor as above.
+http://img43.imageshack.us/img43/6226/plugindemo.png
 
-= The instrument window =
+= The Instrument Window =
 
-The instrument window looks like this:
+Various instrument windows looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-plugin-tripleosc.png
+http://img59.imageshack.us/img59/2714/tripleoscillator.png
+http://img130.imageshack.us/img130/6513/organic.png
+http://img195.imageshack.us/img195/7711/kicker.png
+
 <!--{\end{center}}-->
 
 The window is divided up into three main sections - the instrument controls at the top, the sound controls in the middle and the piano keys at the bottom.
 
-== Instrument controls ==
+== Instrument Controls ==
 
 The main controls are:
 
 * The instrument's volume.
-* It's position in space (i.e. left or right pan position and front to back fade position).  These can be controlled indepentently by [[Automation]] just like most other controls.
-* The effects channel that the instrument is currently using.  At the moment the effects channel is unused.
+* The pitch.
+* The pan.
+* The effects channel that the instrument is currently using.
 * A button to save the settings of this instrument.
 
 These are always present no matter what plugin you have selected.
@@ -39,7 +47,7 @@ The sound controls section is headed by a selector for five 'tabs':
 * '''Env/LFO/Filter''' shows the controls for the sound's envelope (its loudness over time), its use of the Low Frequency Oscillator, and pitch filtering.
 * '''Arp/Chord''' shows the controls for making the instrument automatically play arpeggios or chords.
 * '''FX''' shows the chain of [[LADSPA]] effects plugins operating on this instrument.
-* '''MIDI''' shows which [[MIDI]] channels this instrument will receive and send events on.
+* '''MIDI''' shows which [[0.4:Using MIDI|MIDI]] channels this instrument will receive and send events on.
 
 Let's deal with these tabs in more detail.
 
@@ -191,7 +199,7 @@ The scroll bar at the bottom of the screen allows you to move up and down (i.e. 
 
 = Navigation =
 
-References: [[Instruments]], [[Plugins]]
+References: [[Plugins]]
 
 {| style="border: 1px solid black;"
 |-
