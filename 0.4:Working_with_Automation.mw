@@ -56,7 +56,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-sh
 
 == Eighties acid effects ==
 
-The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TR303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
+The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
 
 First, create a new track with any instrument, put a bar of repetitive notes in it, and then copy that to create sixteen bars (I copy that bar in the piano roll and paste it three times to create a four-bar phrase, and then copy that segment in the song editor to get four four-bar segments).  Then open the instrument's plugin and select the Envelope/LFO/Filter tab:
 
