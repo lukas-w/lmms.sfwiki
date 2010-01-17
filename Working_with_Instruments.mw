@@ -1,4 +1,4 @@
-[[Image:Example.jpg]][[Image:Example.jpg]]= Instrument Basics =
+= Instrument Basics =
 
 An instrument is a sound generator that plays notes on command.  Each instrument is comprised of a specific plugin that generates the sound and a number of common ways to control the sound generated.  Many parameters of an instrument can be changed in real time using [[Automation]].
 
