@@ -1,3 +1,4 @@
+<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: 1em; width: 95%; float:left;">This article refers to version '''0.3''' of LMMS which is now depreciated. For the latest version, see [[0.4:Your First Song with LMMS]]</div>
 So you've just loaded up LMMS and you want to find your way around?  In this situation, programmers write a "hello world" program; we're going to write "Popcorn", a classic for the synthesizer that should be well known.
 
 = Choosing the instrument =
