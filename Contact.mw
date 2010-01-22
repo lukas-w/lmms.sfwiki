@@ -1,2 +1,18 @@
-[[Mailing lists]]<br>
-IRC Channel: [irc://irc.freenode.net/lmms #lmms on irc.freenode.org]
+__NOTOC__ __NOEDITSECTION__
+== Mailing Lists ==
+For communication between LMMS-developers, -users, etc, we have several mailinglists.
+
+=== LMMS-devel ===
+
+This list is designated for all people involved in LMMS-development or interested in it. New features, technologies, releases, bugs and other problems are being discussed here.<br>
+[http://lists.sourceforge.net/lists/listinfo/lmms-devel http://lists.sourceforge.net/lists/listinfo/lmms-devel]
+
+=== LMMS-users ===
+
+This list is open for discussion between LMMS-users.<br>
+[http://lists.sourceforge.net/lists/listinfo/lmms-users http://lists.sourceforge.net/lists/listinfo/lmms-users]
+
+== Contacting the maintainer ==
+If you want to contact the maintainer of LMMS (e.g. for sending a [[Creating a localization|localization]]), use the following e-mail-address:
+
+http://lmms.sourceforge.net/graphics/mailaddr_bw.gif
