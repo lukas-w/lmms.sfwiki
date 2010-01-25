@@ -1,18 +1,22 @@
 __NOTOC__ __NOEDITSECTION__
-This page serves to coalesce art-oriented documentation on the architecture of LMMS. This section is very new, please help refine these if you spot issues or can help fill out information on a missing topic.
+http://img40.imageshack.us/img40/1294/colorsur.png This page serves to coalesce art-oriented documentation on the architecture of LMMS. This section is very new, please help refine these if you spot issues or can help fill out information on a missing topic.
 
 = Introduction =
-Short, introductory pages on each topic establishing what you need to understand.
-* [[Terms and Conventions]]
+Short, introductory pages on each topic establishing what you need to understand.<br>
+
+http://img683.imageshack.us/img683/4199/infode.png [[Terms and Conventions]]
 
 = Tutorials =
-Step-by-step task-oriented guides.
-* [[Creating a Theme]]
+Step-by-step task-oriented guides.<br>
+
+http://img251.imageshack.us/img251/4992/preferencesdesktoptheme.png [[Creating a Theme]]
 
 = Events =
-* [[Artwork contest|Artwork contest  (outdated)]]
+http://img96.imageshack.us/img96/929/configusers.png [[Artwork contest|Artwork contest  (outdated)]]
 
 = Appendices =
 
+* [[Developer Documentation]]<br>
+* [[Writer Documentation]]<br>
 
 <!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
