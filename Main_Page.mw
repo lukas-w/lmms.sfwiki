@@ -1,56 +1,70 @@
-''Welcome to the LMMS documentation Wiki!'' [http://lmms.info/home.php ''(Go to LMMS homepage)'']<br>
-''Here you'll find documentation, tutorials, guides, resources, and much more.''           
+''Welcome to the LMMS Wiki! Here you'll find documentation, tutorials, guides, resources, and much more.'' [http://lmms.info/home.php ''(Go to LMMS homepage)'']
+
+
 
 {| cellspacing="3" valign="top" align="center" width="100%"
 | width="50%" style="color: #000" valign="top"|
 <div style="padding: .4em .9em .9em">
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki-media/guide.png
+http://img20.imageshack.us/img20/1012/contents.png
 | style="color: #000" valign="top"|
-'''End User Documentation'''
+'''Documentation'''
 
-* [[0.4:Getting Started|Getting Started]]
-* [[0.4:Manual|User Manual]]
-<!--  * [[0.4:GettingStarted|Getting Started for Version 0.4]] -->
-* [[How to report bugs|How to Report Bugs]]
-* [[Tip of the day|Tip of the Day]]
-* [[User FAQ|FAQ]]
-* [[Tested VSTs|VST Database]]
-* [[Wiki ToDo]]
+http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting Started|Getting Started]]<br>
+http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|User's Manual]]<br>
+http://img97.imageshack.us/img97/5625/helpfaq.png [[User FAQ|FAQ]]<br>
+http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|Tip of the Day]]<br>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|VST Database]]<br>
 |}
-<br>
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki-media/admin.png
+http://img34.imageshack.us/img34/5773/userconfig.png
 | style="color: #000" valign="top"|
-'''User guides'''
-* [[Download]]
-* [[Requirements]]
-* [[Installation]]
-* [[Troubleshooting]]
-* [[Tuning LMMS-installation]]
+
+'''Guides'''<br>
+
+http://img508.imageshack.us/img508/1540/memory.png [[Requirements]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting]]<br>
+http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|How to Report Bugs]]<br>
+<!-- MOVED TO "INSTALLATION" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br> -->
 |}
 </div>
+<br>
 | width="50%" style="color: #000" valign="top"|
 <div style="padding: .4em .9em .9em">
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki-media/development.png
+http://img163.imageshack.us/img163/1751/packagedevelopment.png
 | style="color: #000" valign="top"|
-'''Developers'''
-* [[Accessing Git repository]]
-* [[Developer Documentation|Documentation]]
-* [[Creating a localization]]
-* [[Plugin development tutorial]]
-* [[Guidelines on coding style]]
-* [[Submitting a patch]]
-* [[Contact]]
-* [[Roadmap|Roadmap/TODO]]
-* [[Developer FAQ|FAQ]]
-* [[Developer Discussion]]
-* [[Artwork contest]] (outdated)
+'''Community'''<br>
+
+http://img44.imageshack.us/img44/8494/execd.png [[Developer Documentation|Developers]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Writers]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artists]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img251.imageshack.us/img251/7428/newsg.png
+| style="color: #000" valign="top"|
+
+'''News'''<br>
+<!-- 
+==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
+*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
+*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
+*KEEP ONLY THE 5 MOST RECENT NEWS
+-->
+
+01-25: updated ''Main Page''<br>
+01-20: new article ''[[Creating a Theme]]''<br>
+01-11: simplified [[Tested VSTs|''VST Database'']]<br>
+
 |}
 </div>
 |}
-[[Main_Page|English]], [[Página_principal|Español]], [[Fr:Main_Page|Français]], [[De:Main_Page|Deutsch]], [[Pt:Main_Page|Português]]
+----
+'''[[Main_Page|English]]''', [[De:Main_Page|Deutsch]], [[Página_principal|Español]], [[Fr:Main_Page|Français]],  [[Pt:Main_Page|Português]]
