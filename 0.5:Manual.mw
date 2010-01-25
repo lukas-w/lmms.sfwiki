@@ -1,0 +1,63 @@
+__NOTOC__ __NOEDITSECTION__
+<div style="color: #000000; background: #F5FAFF;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">This manual refers to an upcoming version of LMMS, version '''0.5'''. For the current version of LMMS, see [[0.4:Manual]]</div>
+
+''Please note that version 0.5 hasn't been released yet, and that its documentation is still incomplete.''
+
+= Introduction =
+
+Short, introductory pages on each topic, establishing what you need to run LMMS and understand this document.
+* [[Requirements]]
+* [[Installation|Installing LMMS]]
+* [[Terms and Conventions]]
+
+= Tutorials =
+
+Step-by-step task-oriented guides to achieving particular goals in LMMS.
+* [[0.5:Getting Started|Getting Started]] - a brief walk-through for the impatient
+* [[0.5:Your First Song with LMMS|Your First Song with LMMS]] - a more step-by-step tutorial
+* [[0.5:Making Triple-Oscillator Patches|Making Triple-Oscillator patches]] - Guidelines for creating useful triple-oscillator patches
+
+= Using LMMS =
+
+A thematic description of how the various tools in LMMS work.
+* [[0.5:Working with Instruments|Working with Instruments]]
+<!--{\newpage}-->
+* [[0.5:Working with Samples|Working with Samples]]
+* [[0.5:Composing in the Piano Roll Editor|Composing in the Piano Roll Editor]]
+* [[0.5:Composing Bass Lines and Drum Sequences|Composing Bass Lines and Drum Sequences]]
+* [[0.5:Putting the song together|Putting the song together]]
+* [[0.5:Working with Automation|Working with Automation]]
+* [[0.5:Working with Controllers|Working with Controllers]]
+* [[0.5:Working with Effects and the Mixer|Working with Effects and the Mixer]]
+* [[0.5:Working with VSTs|Working with VSTs]]
+* [[0.5:Using MIDI|Using MIDI]]
+* [[0.5:Exporting the Song|Exporting the Song]]
+
+= Reference =
+
+A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
+* [[0.5:Main Menu Bar|Main Menu Bar]]
+* [[0.5:Tool Bar|Tool Bar]]
+* [[0.5:Side Bar|Side Bar]]
+* [[0.5:Plugins|Plugins]]
+* [[0.5:Song Editor|Song Editor]]
+* [[0.5:Piano Roll Editor|Piano Roll Editor]]
+<!--{\newpage}-->
+* [[0.5:Beat Bassline Editor|Beat + Bassline Editor]]
+<!--{\newpage}-->
+* [[0.5:Automation Editor|Automation Editor]]
+* [[0.5:FX Mixer|FX Mixer]]
+<!--{\newpage}-->
+* [[0.5:Project Notes|Project Notes]]
+<!--{\newpage}-->
+* [[0.5:LMMS Settings|LMMS Settings]]
+
+= Appendices =
+
+* [[Glossary]]
+* [[Key Mappings]]
+* [[License]]
+<!--{\newpage}-->
+* [[Roadmap]]
+
+<!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
