@@ -13,7 +13,7 @@ For now, let's drag the "'''Xylophon'''" preset onto the space in the middle of 
 We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
+http://img101.imageshack.us/img101/8506/pianoroll.png
 <!--{\end{center}}-->
 
 == The first note ==
@@ -21,7 +21,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 Now click in the black square just to the right of the 'A5' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-demo-1stnote.png
+http://img682.imageshack.us/img682/3583/pianorollnoteareademo1s.png
 <!--{\end{center}}-->
 
 However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
@@ -30,7 +30,7 @@ However, this is too long: we need notes half a beat - a quaver - long.  To chan
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 <!--{\end{center}}-->
 
-After this, the new notes we put down will be the same length, because the Piano Roll Editor is set to Last Note (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png)
+After this, the new notes we put down will be the same length, because the Piano Roll Editor is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
 
 == More notes ==
 
@@ -56,7 +56,7 @@ Alternatively you can use good old copy and paste. Again, use Ctrl to select the
 
 To select all notes you can press Ctrl+A.
 
-We can now press the '''play''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
+We can now press the '''play''' button (http://img685.imageshack.us/img685/2559/play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
 
 == Oops! ==
 
