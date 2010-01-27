@@ -42,10 +42,13 @@ A: Click on the intrument button on the track. There’s a blue bar just above t
 A: Click on the enable/disable looppoints button in the song editor or pianoroll. It is disabled by default. Two blue arrows will appear in the upper tracking area of the window. You can adjust these loop points by rightclicking and dragging them or pressing middle and right button.
 
 
-'''Q: How do I Import a drums beat I'd made in Hydrogen?
+'''Q: How do I Import a drums beat I'd made in Hydrogen?<br>
+A: If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
 
 
-'''Q: How do I Import a MP3 or OGG file?
+'''Q: How do I Import a MP3 or OGG file?<br>
+A: Through the [[AudioFileProcessor]] plugin.
+
 
 '''Q: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
 A: Highlight the folder that you want to be on the sidebar, select it, and drag it to the sidebar.
