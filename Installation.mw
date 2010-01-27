@@ -101,20 +101,20 @@ Just go to: ''System''/''Administration''/''Add''/''Remove Software'' to choose 
 
 = http://a.fsdn.com/con/icons/pr/progit@sf.net/git.logo.gif Installing LMMS from Git =
 
-To install manually from Git (Examples provided assume you're running Debian GNU/Linux):
+To install manually from Git (Examples provided assume you're running Debian or Ubuntu GNU/Linux, and that you have git installed):
 
 * First you need to clone the Git repository - or update your sources - if you're upgrading from a previous version. The following commands will do this for you inside a newly created folder named "lmms".
  git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms
  cd lmms
  git checkout -b stable-0.4 origin/stable-0.4
-* Next you have to configure LMMS:
+* Next resolve any unmet dependencies (see section "[[Installation#Resolving_dependencies|Resolving dependencies]]" below for more on this topic)
+* Then you have to configure LMMS:
  mkdir build
  cd build
  cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-* resolve any unmet dependencies (see section "[[Installation#Resolving_dependencies|Resolving dependencies]]" below for more on this topic)
-* Now compile LMMS: (People with more than one CPU core can use make's -j2 option to compile some files in parallel instead, accelerating the process. i.e. '''make -j2''' )
- make
-* Finally you can install LMMS by running as root
+* Now compile LMMS: (People with more than one CPU core can use make's -j2 option to compile some files in parallel instead, accelerating the process. Otherwise '''"make"''' is just fine. )
+ make -j2
+* Finally you can install LMMS:
  sudo make install
 
 
