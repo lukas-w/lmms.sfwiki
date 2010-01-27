@@ -101,7 +101,7 @@ Just go to: ''System''/''Administration''/''Add''/''Remove Software'' to choose 
 
 = http://a.fsdn.com/con/icons/pr/progit@sf.net/git.logo.gif Installing LMMS from Git =
 
-To install manually from Git (Examples provided assume you're running Debian or Ubuntu GNU/Linux, and that you have git installed):
+To install manually from Git (Examples provided assume you're running Debian or Ubuntu GNU/Linux, and that you have '''git''' and '''cmake''' installed):
 
 * First you need to clone the Git repository - or update your sources - if you're upgrading from a previous version. The following commands will do this for you inside a newly created folder named "lmms".
  git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms
