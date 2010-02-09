@@ -1,0 +1,16 @@
+This page contains various templates used in the wiki in order to guide and facilitate further development.
+
+== Useful Links ==
+
+*[http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wiki Cheatsheet]
+*[http://tangram.dnsalias.net/lmms-imgs/ Old LMMS Images]
+
+== Templates ==
+
+<div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">Red message template (45%)</div><br><br>
+
+ <nowiki><div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">(example:)The outdated or useless pages below are requested to be removed by an administrator.</div></nowiki>
+
+<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">Yellow message template (95%)</div><br><br>
+
+ <nowiki><div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div></nowiki>
