@@ -21,6 +21,8 @@ The list of controls that can be automated is vast, as can be seen from the list
 
 Basically, right-click on it, and if it's got an 'Open in Automation Editor' option in the context menu, it's automatable!
 
+However, only controls that are on default LMMS GUI's can be automated. -eg: You cant automate any knobs or sliders on any 3. parts VST instruments. including zynAddSubFX, even though it is included with LMMS. 
+
 There are two things to remember when automating controls:
 
 * The automation for controls on tracks in a beat/bassline only goes for the first bar (or as many bars as the beat/bassline pattern lasts).
