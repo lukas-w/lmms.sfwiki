@@ -190,7 +190,7 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{rh}} | HERCS Abakos
 | {{wikitable_cell}} | Synth
 | {{Yes}}
-| {{?}} 
+| {{Yes}} 
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|
@@ -493,6 +493,28 @@ This all brought together with over 1700 inspirational Rob Papen presets coverin
 | {{?}}
 | {{wikitable_cell}}|some exceptions and other interesting stuff
 | {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
+|}
+
+===VST Pads===
+{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
+| {{rh}}|VST plugin name
+| {{rh}}|Plugin type
+| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
+| {{rh}}|Other
+| {{rh}}|Remarks, information
+| {{rh}}|Homepage
+|-
+|-
+| {{rh}} | DSK Etheral Padz 2
+| {{wikitable_cell}}|Pad syntheziser
+| {{?}}
+| {{Yes -but..*}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}| *Loading takes -very- long and LMMS will often crash -Pagefile bloates 
+| {{wikitable_cell}}|http://www.dskmusic.com
 |}
 
 ===VST Effects===
