@@ -1,0 +1,6 @@
+Controls are the 'knobs' and 'sliders' that can be found on the GUIs of LMMS. All Controls on LMMS default GUIs can be bound to an automation-track, and hence be automated.
+However, some controls has 'spans' that are larger than the automation envelope can ''visually'' accommodate.
+This does not mean that you cant automate the entire span. You can drag the mouse beyond the 'limit' of the actual envelope, and that will expand the envelope logically, but you will not be able to ''see'' what you are doing.
+This is a glitch, that most likely will be corrected in a later release.
+A very useful feature is that you can bind several controllers to the ''same'' automation-track. When you have more controllers bound to one automation envelope, you can 'browse' the bound-family by right-clicking the envelope in the song-editor. The connected controls will be listed, and you will be presented with an option to release (eg -disconnect from automation envelope) the individual controllers. 
+Finally -binding controls to automation envelopes is done by holding ctrl, leftclic-hold on the control, and then dragging the control into the envelope.
