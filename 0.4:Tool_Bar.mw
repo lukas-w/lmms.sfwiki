@@ -4,6 +4,14 @@ The Tool Bar is at the top of the window, permanently underneath the [[0.4:Main 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar.png
 <!--{\end{center}}-->
 
+(In 0.4.6 this has changed. The changes are not dramatic, but there are some buttons that has been removed:
+* Quality
+* Auto Limit 
+The speed-bar buttons are arranged in 2 rows. 
+The top row is all about project-handling.
+The bottom row has buttons for toggling the different LMMS GUIs.
+The colors are also a litle different.)
+
 = File Controls =
 
 The first four buttons in the top row deal with opening and saving files.
