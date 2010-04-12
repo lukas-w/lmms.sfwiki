@@ -28,6 +28,7 @@ In all sections but the Instrument Plugins section, the listing you get function
 
 These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
 
+= Projects =
 (WIP)
 A project is all the collected information about choices of instruments, midi-notes, inserted waves, LADSPA-effects and all settings on the various GUIs.
 In fact, a project is your ‘song’.
