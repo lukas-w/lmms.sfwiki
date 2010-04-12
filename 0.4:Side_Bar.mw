@@ -28,62 +28,20 @@ In all sections but the Instrument Plugins section, the listing you get function
 
 These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
 
-= Projects =
-(WIP)
-A project is all the collected information about choices of instruments, midi-notes, inserted waves, LADSPA-effects and all settings on the various GUIs.
-In fact, a project is your ‘song’.
-The first time you save a project you are prompted for a filename. All later saves will take place in the background, and LMMS will display a short ‘success’ message in the bottom part of the screen.
-Wait for that message. If you do something major during the save-process, LMMS could hang.
+= My Projects =
+Is the 2. option in the sidebar.
+You get a shortcut to the project folder-browser.
+Depending on your user-created subfolders, there will be a browser-tree.
+Loading a project is simple. Just double-click on the name of the project you like to load. Wait for the project to load ''completely'', before using other features in LMMS!
 
-One thing around projects:
-Save often!
-LMMS is stable, but some events can still make the program hang.
-My experience has taught me to always save before :
+Observe the small input-field in the bottom. This makes it possible for you to find a project with token search. Just enter a few characters from the project disk-name, and the smart-search in LMMS will filter the projects in the folder that is highlighted.
 
-* Add a new VST instrument 
-* Drag a  control into an automation envelope
-* Drag an instrument from ‘My instruments’ into another instrument (eg replace an instrument)
-* Add a wavefile to the AudioFileProcessor plugin (especially larger files)
-* Play fast notes with a mouse on the piano-roll 
-* Add LADSPA effects to the FX-mixer
+Right next to the input-field there is an update-button. If you cant find your latest project, press this button. The tree will collapse, and all folders are updated.
 
-And generally every time you have made something you really like, and would dislike to loose :)
+There are 2 more buttons for accessing projects. Both are in the top speedbar.
 
-So.. A ‘good’ project – How can we make that..
-By ‘good’ I don’t mean the song :) –That will be entirely up to you and your creative talent, but ‘good’ is all about the technical part.
-When you open a new project, there will be some default instrument in that project.
-I recommend that you delete the 3OC from the song-editor and in the Beat-Bass-editor. Most of the time the default 3OC instruments will be left as ‘forgotten extras’ and your song will be exclusively based on predefined instruments you have loaded from your banks.
-Don’t ever delete the wave-processer-preset!
-For some reason there is no preset in the default collection. If you delete it, you will not have a container for longer wavefiles like vocals.
-
-A project could be created in 2 different ways.
-* You compose a song in the piano-roll and expand it with the instruments that you either create or you load from the banks.
-* You import a midi-file with an existing song. All instruments will be ‘dummies’ and be of the type ‘Sound-font’.
-
-For both situations there are some similarities.
-When LMMS load ‘factory’ instruments, they are all named ‘Default preset’.
-Take a look at the zynAddSubFX collection ‘Arpaggios’
-Here we have the instrument “0001-Arpaggio1”.
-When you load this instrument it will be named ‘Default preset’.
-So will every instrument that is packed with LMMS.
-This makes it impossible for you to see what instrument you have in a project, when you re-open the project in a week.
-Always rename loaded instruments, preferably with the disk-file-name.
-You can either right-click the instrument and rename it in the small popup, or you can open the instrument and rename it in the edit-field.
-
-If you leave the instrument in its ‘factory-default-setting’ –eg you don’t change a single knob or add effects to the chain, then you do not need to resave the instrument. If on the other hand you DO make changes to the instrument, then you should always save that instrument in your own instrument collection. I don’t think it’s a good idea to overwrite the factory-defaults, but that’s up to you.
-
-The next thing you should do is to choose a FX-channel for the new instrument.
-LMMS has 64 channels and no channel should ‘host’ more than one instrument!
-
-Its by fine balancing the individual instrument in the mixer that you will be able to create your final song (downmix the song).
-
-It’s a good idea to add the instrument name to the mixer-channel. just right-click the white letters in the mixer.
-
-''(I have a hope, that later releases of LMMS will have a little button next to the FX-choice, making it possible to auto add the instrument name to the chosen channel in the mixer –That would be neat :)'' 
-
-It can be useful to even add the mixer channel to the instrument. later when you down-mix, this 2-way reference can aid you greatly.
-
-When you add an instrument to the song-editor it will default be added to the bottom of the stack. You do not have to leave the project in that order. Save the project!, and then start to arrange the order of the instruments by dragging them up or down. The drag-handle is the ‘nobled’ part leftmost on the instruments in the song-editor.
+The 3. speedbar button points to the projects-folder, and will open a project-browser.
+The 4. speedbar button will open a listing of recently opened projects.
 
 = Samples =
 
