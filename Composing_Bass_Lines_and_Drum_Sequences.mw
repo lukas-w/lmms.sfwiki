@@ -51,6 +51,8 @@ Ultimately, like so many things in the artistic world it is better to use the me
 
 Naturally, the patterns by themselves do not create rhythms in your songs.  Using the editing tools in the [[Song Editor]], you 'draw' new areas for the rhythm to be active at any time in your song.  This also allows you to have a pattern that goes for a fraction of a bar (using the drag-with-control method); however, you cannot shrink a pattern to be less than the size of one bar.
 
+One thing you need to be careful about is doubling ''identical'' events. Identical soundfiles playing on top of each other can come out absolutely horrid due to mutual amplifying! If you experience severe distortion in your drum pattern, make sure that identical sounds are not ‘stacked’.
+
 = More than one bar? =
 
 Sometimes you have a rhythm that that is two bars long; or one that repeats not every bar, but every two bars.  Sometimes it might make sense to create two patterns ('rhythm 1' and 'rhythm 2', for example) and alternate their use in the Song Editor.  However, LMMS caters specifically for this by allowing you to create patterns that are more than one bar long.
