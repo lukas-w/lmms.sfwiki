@@ -103,6 +103,9 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 * The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)
 * The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
 
+Unfortunately VSTige instruments generates sounds ‘internally’. This means that you will not be able to use the ENV/LFO tab posibillities on VST instruments at all. ZynAddSubFX is in fact a LMMS included VST instrument, so this limitation goes for ZynAddSubFX as well.
+You can however still add LADSPA-effects to VSTige instrument in FX-tab.
+
 == The Arp/Chord tab ==
 
 The Arp/Chord tab looks like this:
