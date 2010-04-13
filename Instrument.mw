@@ -1,0 +1,12 @@
+Instruments in LMMS are the preset-sound-generators that is packed with LMMS and virtually anything you can find on the net from the VSTige family.
+
+You may like to check the [[Tested VSTs]]-page, where many VST instruments are listed as ‘working in LMMS’ –and some as ‘sadly -Nope’. 
+As you will see ‘Working’ is not general. Some will be valid in Linux, some in Win and some in both and beyond.
+
+If you find and install an instruments that works in LMMS, you can aid the community by adding those to the list.
+
+Windows user: Pay attention to your CPU usage, and most important to your page-file usage.
+Just because a VST produces a sound in LMMS, it by far does not mean that it is a stable plugin!
+Some VSTs will bloat your memory, some will do the same to the page-file. Eventually the pc will crash! 
+
+Writing music and arranging music is of cause LMMS’ primary source of enjoyment, but creating instruments can be über amusing. If you succeed in creating something super, you may like to share your creation on the instrument share section :[http://lsp.lmms.info/?action=browse&category=Presets Presets].
