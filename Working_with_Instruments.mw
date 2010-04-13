@@ -127,7 +127,7 @@ The chords section has no other controls than the ones listed above.  When a not
 The arpeggios section has a number of extra controls:
 
 * The '''direction''' that the arpeggio is played in can be selected from up, down, both directions (up then down) and random notes from the chord.
-* The '''time''' (in milliseconds) between each note.
+* The '''time''' (in milliseconds) between each note. Obs: If you right-click the knob, you have the option to beat-synchronize the time!
 * The '''gate''' time (as a percentage of the note time above).  At 100% gate time, each note will be played for the full time between each note.  At less than this, each note will be cut short and the rest will be filled with silence.  At more than this, each note will overlap the next note and will finish later than the start of the next.
 * The '''mode''' of playing the arpeggio.
 ** In '''free''' mode, each note will be start an arpeggio when the note starts.  If a second note is played later, a second arpeggio will start at that (later) time and play independently of the first.
