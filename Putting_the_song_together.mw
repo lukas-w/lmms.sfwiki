@@ -13,6 +13,9 @@ Typically, sample tracks are used to include recordings of singers or instrument
 Sample tracks are the simplest type of track because they only have a volume control and an effects chain.
 
 == Bassline Tracks ==
+-are default blue. They are different from instrumental tracks in one significant way: They can be drag-expanded! While an instrument track has the content and length that was created in the piano-roll, a beat-bassline track (BB-track) could have any length (above one). Drag your mouse from the end of the BB-track and it will expand. (Dragging in an instrument-track will move it) You can of cause also move BB-tracks. Dragging in the middle moves the track.
+It makes good sense that BB-tracks can be expanded with repetitive content. That will often be what you want in a project. As explained in the section above, instruments that are defined in the BB-editor, can behave just like percussion-patterns, but use this feature with care.
+Do remember to name your BB-tracks and to allocate FX-channels for the sound-generators!
 
 == Instrument Tracks ==
 
