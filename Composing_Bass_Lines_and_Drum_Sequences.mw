@@ -53,6 +53,11 @@ Naturally, the patterns by themselves do not create rhythms in your songs.  Usin
 
 One thing you need to be careful about is doubling ''identical'' events. Identical soundfiles playing on top of each other can come out absolutely horrid due to mutual amplifying! If you experience severe distortion in your drum pattern, make sure that identical sounds are not ‘stacked’.
 
+
+== Natual variations ==
+If you listen to a human drummer the fact that it is a human is obvious. The pattern has fine loudness variations as the drummer hits the drums with a ‘human touch’. This can be emulated and will indeed give your drumline much better quality.
+Rest the mouse on a drumnote and then scroll your mouse-wheel. The note will change its color-intensity (brighter == louder, dimmer==lower). You can actually also open the drumpattern in the piano-roll (right-click, chose ‘Open in piano-roll’) and there use the loudness balks to control the individual note loudness.
+
 = More than one bar? =
 
 Sometimes you have a rhythm that that is two bars long; or one that repeats not every bar, but every two bars.  Sometimes it might make sense to create two patterns ('rhythm 1' and 'rhythm 2', for example) and alternate their use in the Song Editor.  However, LMMS caters specifically for this by allowing you to create patterns that are more than one bar long.
