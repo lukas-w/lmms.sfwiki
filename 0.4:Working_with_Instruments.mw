@@ -108,7 +108,7 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 
 * The '''delay''' before the oscillator starts.
 * The '''attack''' or fade-in rate of the oscillator - the rate at which it goes from starting to having full effect.
-* The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)
+* The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)If right-click the knob, LMMS open a context-menu, and you will have the option to beat-synchronize the speed. This is a strong feature and very usfull for woble or dubstep instruments.
 * The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
 
 == The Arp/Chord tab ==
