@@ -1,0 +1,7 @@
+On this tab you add the LADSPA effects that are part of LMMS. You will find simple as well as very advanced effect in the LADSPA collection.
+
+You add effects using the ‘Add effect’ button. This opens the LADSPA browser. The smart-search allow you to enter characters in the inputfield and have the browser filtering the effects.
+When you load the effect you wil get a new set of controls for the effect.
+
+The effects that you add to the instruments can be stacked. You can many effects to the instruments without significantly challenge to the CPU, but this will of cause be hardware dependent!
+The only rule of thumb is that some kind of reverb sound good on most instruments in electronica. Otherwise.. experiment, experiment and then experiment some more.
