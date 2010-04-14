@@ -34,6 +34,12 @@ Once you have finished recording that section, press the '''stop''' button (http
 
 = Editing Notes =
 
+One of the features in normal music is that there are minute variations. This is because the music is performed by a human artist. In computer generated music the quality is not present, but LMMS offer a method to achieve it.
+Just below the editor area in the piano-roll, you will find a section with vertical bars. One bar for each note in the piano-roll. Each bar represent one notes volume. 
+There are 2 different ways to adjust the volume. Rest your mouse over a note and scroll the mouse-wheel. The color-brightness change. The dimmer the lower.
+Of cause you also adjust each bar with your mouse and also drag the mouse along creating a wavy pattern. Especially percussion tracks can be improved with fine adjustments of the loudness.
+
+
 == Copy and paste ==
 
 When you compose you will often find the need for duplicating a selected section or all the notes in the piano-roll. LMMS offers several ways to achieve this.
