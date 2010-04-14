@@ -45,8 +45,6 @@ In order to create an instrument using a sample, drag the sample from the Sample
 
 You then create notes and edit them using the [[Piano Roll Editor]].
 
-A common problem especially with percussion samples is ‘click sound’ artefacts. If you get unwanted clicks try altering the attack ao. sustain in LFO/ENV. You can also attempt to find a ‘softspot’ using the ‘start’ / ‘end’ dials, but that is difficult. Use a sound-editor program like audacity if you are left with this option. The important thing is to start and end the sound when it is silent. It can be difficult to maintain the sound quality you initially liked and avoid clicks.
-
 = Samples as percussion =
 
 A common use of samples is for percussion and repetitive note patterns.  To do this, drag the sample from the Side Bar into the [[Beat Bassline Editor|Beat + Bassline Editor]].  You can also double-click on a sample to directly add it to the Beat + Bassline Editor.  Like other instruments, the instrument plugin is displayed when the track is opened in case you want to edit any of its parameters.
