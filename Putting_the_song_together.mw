@@ -18,6 +18,13 @@ It makes good sense that BB-tracks can be expanded with repetitive content. That
 Do remember to name your BB-tracks and to allocate FX-channels for the sound-generators!
 
 == Instrument Tracks ==
+Needless to say, this is where your creativity is the crucial factor. Good insight in chords and chord-progressions will greatly aid you in the composing of your song. There 100ths’ of pages on the net on the subject. If we keep focus on the LMMS specifics, then there are a few acts that could be considered as ‘best-practice’.
+* Name all instruments
+When you load a factory-instrument or a blank default-preset, the name will be ‘Default-preset’. Don’t omit to name you instrument. Next month when you reopen your project and see 20+ ‘Default-presets’ you are so lost. And only you have the blame..
+I recommend that you use the disk-file-name for factory-presets. If you make changes to the instrument, save it to a different folder with a new name.
+* Allocate a FX-channel
+The FX-channels refers to the mixer. Each channel or ‘Bus’ is handled separately and you will get better dynamic in your music if only one mixer channel is used for one instrument. This goes for the percussion as well!
+LMMS has 64 channels, and you may like to use each 16-slot family for a different purpose. You could have ordinary instrument in slot A, Effects in slot B and percussion in slot C, but that’s just a suggestion. You should rename each mixer-channel with its instrument name.
 
 = Navigation =
 
