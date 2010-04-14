@@ -5,3 +5,15 @@ When you load the effect you wil get a new set of controls for the effect.
 
 The effects that you add to the instruments can be stacked. You can many effects to the instruments without significantly challenge to the CPU, but this will of cause be hardware dependent!
 The only rule of thumb is that some kind of reverb sound good on most instruments in electronica. Otherwise.. experiment, experiment and then experiment some more.
+
+Reference: [[FX Mixer]]
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Working with Effects and the Mixer]]
+| Up: [[0.3:Manual]]
+| Next: [[Using MIDI]]
+|}
+
+[[Category:HowTo]]
+[[Category:0.3-Manual]]
