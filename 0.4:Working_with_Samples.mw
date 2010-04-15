@@ -8,6 +8,7 @@ Your sound files can be in a number of formats:
 
 * Lossless (large):
 ** [http://en.wikipedia.org/wiki/WAV WAV] - Microsoft WAVe format
+*** The community has reported problems with lossless uncompressed wave-files.  
 ** [http://en.wikipedia.org/wiki/AIFF AIFF] - Audio Interchange File Format
 ** [http://en.wikipedia.org/wiki/Au_file_format AU] - AUdio file format
 ** [http://en.wikipedia.org/wiki/Flac FLAC] - Free Lossless Audio Compression
@@ -15,6 +16,7 @@ Your sound files can be in a number of formats:
 * Lossy (compact):
 ** [http://en.wikipedia.org/wiki/Ogg Ogg] - Open wavelet compression format
 ** [http://en.wikipedia.org/wiki/MP3 MP3] - Layer 3 MPEG audio encoding
+*** On Win32 v0.4.6 mp3 import is not supported.
 ** [http://en.wikipedia.org/wiki/Speex Speex] - An Ogg subformat optimised for speech compression
 ** [http://en.wikipedia.org/wiki/Soundblaster VOC] files created using Creative Labs Soundblaster cards
 * Lossless (yet compact)
