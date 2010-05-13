@@ -27,8 +27,8 @@ http://img18.imageshack.us/img18/4933/export3zc7.png
 
 There are two options given in this window:
 
-# *.wav or waveform audio format is usually the best choice for newer users because it can be read on most computers and media devices without conversion.
-# *.ogg or ogg vorbis format is a preferred choice for those who are particular about sound quality, however this format is limited in what devices it can be played on.
+# *.wav or waveform audio format is usually the best choice for newer users because it can be read on most computers and media devices (and other applications) without conversion.
+# *.ogg or ogg vorbis format is a "lossy" format (like jpg) that does not preserve 100% of the quality of the original track, but which results in a much smaller file size than .wav. It may be a better choice for online distribution or other situations where space is a concern, however this format is more limited in what devices (and applications) it can be played on.
 
 == Samplerate ==
 
