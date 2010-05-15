@@ -47,16 +47,16 @@ Vantagens e Desvantagens HA de CADA Uma das Abordagens Acima:
 
 Finalmente, Tantas Coisas Como No mundo artístico, É Melhor USAR OS MÉTODOS Que Estão os familiarizados com uma Luta de Uma MANEIRA considerações Alguém que "Correto". Para Iniciantes eu recomendaria OS Começar com Métodos de Primeira OU Segunda Até Que VOCÊ tenha Criado Preferência Uma clara. Também É Muito Útil Adiar para e Adiar Os métodos Aqui Que uma Situação impõe.
 
-= Putting patterns into your song =
+= Padrões de Colocação em sua música =
 
-Naturally, the patterns by themselves do not create rhythms in your songs.  Using the editing tools in the [[Song Editor]], you 'draw' new areas for the rhythm to be active at any time in your song.  This also allows you to have a pattern that goes for a fraction of a bar (using the drag-with-control method); however, you cannot shrink a pattern to be less than the size of one bar.
+Naturalmente, os padrões por si só não criar ritmos em suas canções. Usando as ferramentas de edição na [Song [Editor]], que 'novas áreas desenhar "para o ritmo a ser ativo a qualquer momento em sua música. Isso também permite que você tenha um padrão que vai para uma fração de um bar (com o arrastar-com-controle de método), porém, não é possível encolher um padrão a ser menor que o tamanho de um bar.
 
-One thing you need to be careful about is doubling ''identical'' events. Identical soundfiles playing on top of each other can come out absolutely horrid due to mutual amplifying! If you experience severe distortion in your drum pattern, make sure that identical sounds are not ‘stacked’.
+Uma coisa que você precisa ter cuidado com está dobrando''''eventos idênticos. Idêntico soundfiles jogar em cima uns dos outros podem sair absolutamente horrível devido à ampliação de mútuo! Se você tiver graves distorções na sua bateria padrão, certifique-se que sons idênticos não são "empilhados".
 
 
-== Natual variations ==
-If you listen to a human drummer the fact that it is a human is obvious. The pattern has fine loudness variations as the drummer hits the drums with a ‘human touch’. This can be emulated and will indeed give your drumline much better quality.
-Rest the mouse on a drumnote and then scroll your mouse-wheel. The note will change its color-intensity (brighter == louder, dimmer==lower). You can actually also open the drumpattern in the piano-roll (right-click, chose ‘Open in piano-roll’) and there use the loudness balks to control the individual note loudness.
+== == Variações Natual
+Se você ouvir um baterista humano o fato de que ele é um ser humano é evidente. O modelo tem variações de intensidade bem como o baterista acerta a bateria com um "toque humano". Isso pode ser emulado e certamente dar o seu drumline muito melhor qualidade.
+Posicione o mouse sobre um drumnote e role o mouse wheel. A nota vai alterar a sua intensidade de cor (brilhante == mais alto, dimmer == baixo). Você realmente pode também abrir o drumpattern no piano roll (clique com o botão direito, escolha 'Abrir em rolos de piano ") e não use o volume balks para controlar o volume nota individual.
 
 = More than one bar? =
 
