@@ -52,32 +52,32 @@ Ao automatizar o controle de tempo par conseguir dominar Mais lento (a''''rallen
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
 
-== == Eighties efeitos do ácido
+== == Efeitos do ácido Eighties
 
-O [http://en.wikipedia.org/wiki/Acid_house Acid House] e http://en.wikipedia.org/wiki/Acid_trance [Acid Trance movimentos] eram famosos por utilizar o Roland TR303 para tocar uma melodia repetitiva e variação da freqüência de corte do filtro e outros parâmetros de envelope para alterar o som através de toda a peça. Devido à natureza repetitiva da melodia, é tentador usar um bassline para armazenar a melodia, mas a automação no Beat / Bassline Editor só vai enquanto o padrão - por isso, a automação você vai colocar em repetir-se cada vez o padrão se repete, ao invés de constante mudança.
+O http://en.wikipedia.org/wiki/Acid_house [Acid House] e http://en.wikipedia.org/wiki/Acid_trance [Movimentos Acid Trance ERAM] famosos Por utilizar o Roland TR303 parágrafo tocar Uma melodia repetitiva e variação da freqüência de corte do filtro e Outros Parâmetros de envelope n º Através alterar o som de Toda uma PECA. Devido a Natureza da melodia repetitiva, É tentador USAR UM armazenar n bassline uma melodia, uma Automação Mas não Beat / Bassline Editor tão vai enquanto o Padrão - por isso, a Automação VOCÊ vai colocar em repetir-se CADA Vez o Padrão se repete, AO inves de Mudança constante.
 
-Primeiro, crie uma nova pista com qualquer instrumento (não VSTige. Neste exemplo, vamos usar os filtros da LFO guia ENV / e instrumentos VST não posso utilizar esse recurso. Gerador ZynAddSubFX O pacote é um instrumento VST e ele não pode usar LFO filtros.) colocar uma barra de notas repetitivo e, em seguida copiar que criar barras (dezesseis eu copiar esse bar no piano roll e colá-lo três vezes para criar uma frase de quatro compassos, e depois copiar esse segmento da música editor para conseguir que quatro segmentos de quatro compassos). Em seguida, abra o plugin de instrumento e selecione o Envelope / LFO / guia Filtro:
+Primeiro, CRIE Uma nova pista com qualquer Instrumento (não VSTige. Neste exemplo, vamos USAR OS Filtros da LFO Guia ENV / Instrumentos VST e Não Posso utilizar esse mês RECURSO. Gerador ZynAddSubFX O Pacote É UM Instrumento VST e Ele Não PoDE Filtros USAR LFO. ) colocar Uma barra de Notas repetitivo e, em seguida copiar Que criar barras (dezesseis eu copiar Esse bar não rolam piano e cola-lo Três Vezes parágrafo criar Uma frase de Quatro compassos, e DEPOIS copiar Esse segmento editor da musica para conseguir Que Quatro Quatro segmentos de compassos). Em seguida, abra o plugin de instrumento e selecione o Envelope / LFO / Guia Filtro:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
 
-Ligue a seção Filtro, defina o tipo de filtro para Moog, e certifique-se que o montante LFO está definido para zero.
+Ligue uma seção Filtro, DeFina o tipo de filtro n Moog, e certifique-se que o Montante LFO ESTÁ Definido n. zero.
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-filter-pointers.png
 
-controle Então clique com o botão direito sobre o''filtro''de corte e automatizá-lo:
+então clique com o controle Botão Direito Sobre corte o''filtro''de e automatizá-lo:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automation.png
 
-Você pode desenhar formas diferentes - blocos, subindo e caindo curvas, sawteeth e saltos.
-Pode ser difícil para desenhar com o mouse. Desde .4.4 sh + clicar leftMouse criará estreito linhas conectadas. Use isso para fazer slow multa linear mudanças graduais.
+Voce PoDE desenhar Diferentes Formas - blocos, Subindo e caindo curvas, saltos e sawteeth.
+Pôde Ser Difícil parágrafo desenhar com o mouse. Desde .4.4 sh + clicar leftMouse criará estreito Linhas conectadas. Use isso parágrafo Fazer multa lenta linear Mudanças graduais.
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.ogg
 
-O arquivo de projeto pode ser baixado aqui:
+O ARQUIVO DE PROJETO PoDE Ser Baixado AQUI:
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
 
-É interessante notar aqui que a freqüência das alterações pontos de controle do som. No compasso 17, há quatro varreduras para cima com a quantização definido como 16/01, e depois do compasso 21, há quatro varreduras para baixo com a quantização definido como 1 / 32 (ou seja, duas vezes como muitos pontos de controle). As alterações para o corte do filtro não acontecem de forma analógica, como alguém girando um botão - que acontecem digitalmente e pular instantaneamente entre as definições. Isso significa que você pode ouvir as mudanças na freqüência como etapas distintas - os quatro varreduras para cima pode soar um pouco stuttery ou irregular e varre para baixo pode parecer mais suave. Para o controle fino você pode até querer usar quantização 1/64th. No entanto, uma vez que é mais difícil conseguir uma curva verdadeiramente ou mesmo linha de desenho, a desvantagem desta abordagem pode ser que o seu próprio imprecisões na elaboração dos pontos de controle tornam-se audíveis e são mais difíceis de editar para fora.
+É Interessante notar Que Aqui uma freqüência das Alterações Pontos de controle do som. Nenhum compasso 17, ha Quatro varreduras n Cima com uma quantização 16/01 Definido como, e Depois do compasso 21, ha Quatro varreduras parágrafo Baixo com uma quantização Definido Como 1 / 32 (ou seja, Duas Vezes Como Para muitos Pontos de controle). Como Alterações Para o corte do filtro Não Acontecem de forma Analógica, entre instantaneamente digitalmente Acontecem Como Alguém Botão UM desanimo - Que Pular e como Definições. Isso Significa Que VOCÊ Ouvir PoDE como Mudanças na freqüência Como Etapas distintas - Os Quatro varreduras n Cima PoDE soar Um pouco irregular OU stuttery e Varre Baixo Mais Parecer n PoDE suave. Para o controle fino VOCÊ PoDE Até Querer USAR 1/64th quantização. No entanto, Uma Vez Que É Mais Difícil conseguir Uma curva verdadeiramente Ou mesmo Linha de Desenho, uma desvantagem Desta PoDE Abordagem Ser O Que Seu Próprio imprecisões nd Elaboração dos Pontos de controle tornam-se audíveis e São Mais Difíceis de editar parágrafo fóruns.
 
 == Sons voando passado ==
 
