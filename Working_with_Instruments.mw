@@ -33,15 +33,15 @@ Estás Estão os semper Presentes, Não Importa o Que plugin selecionou voce.
 
 == == Controles de som
 
-A seção de controles de som é dirigido por um seletor de cinco "guias":
+A seção de controles de Som e dirigido Seletor de hum Por Cinco "guias":
 
-''*'''Plugin' mostra os comandos para como este plugin especial gera som. Este é o guia que as mudanças só por plugin.
-*'''Env / LFO / Filtro''' mostra os comandos para o envelope de som (sua sonoridade ao longo do tempo), o uso do Low Frequency Oscillator e arremesso de filtragem.
-*'''Arp / Chord''' mostra os comandos para fazer o instrumento tocar automaticamente arpejos ou acordes.
-mostra''*'''FX' da cadeia de [[LADSPA efeitos]] plugins que operam no presente instrumento.
-mostra''*'''MIDI ", que [[canais MIDI]] este instrumento irá receber e enviar eventos.
+''*''' OS Plugin 'Mostra os comandos n Como Este plugin Gera som especial. Este É O Que Guia de Mudanças Por plugin só.
+*'''Env / LFO / Filtro''' Mostra OS comandos envelope o n º de som (sua sonoridade Ao longo do tempo), O uso do Low Frequency Oscillator e Arremesso de Filtragem.
+OS *'''Arp / Chord''' Mostra parágrafo comandos Fazer o Instrumento tocar automaticamente OU acordes arpejos.
+Mostra''*''' da FX "Cadeia de [[LADSPA operam Efeitos]] plugins Que não Instrumento presente.
+Mostra''*''' MIDI ", que [[Canais MIDI]] Este Instrumento ira receber e enviar Eventos.
 
-Vamos lidar com esses guias em mais detalhes.
+Vamos lidar com sos Mais detalhes em guias.
 
 == O guia Plugin ==
 
