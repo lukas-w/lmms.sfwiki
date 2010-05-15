@@ -1,12 +1,12 @@
 So you've just loaded up LMMS and you want to find your way around?  In this situation, programmers write a "hello world" program; we're going to write "Popcorn", a classic for the synthesizer that should be well known.
 
-= Choosing the instrument =
+= Adiar o Instrumento
 
-You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
+VOCÊ TEM Uma Tela Padrão em Frente, com o [[Canção Editor]]] Beat [[Bassline Editor Beat | +] Bassline Editor e [projeto] [Notas] Aberto. Primeiro, nao clique Presets ICONE (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side [[Bar]] para Abrir Uma Lista de''' 'Filhos predefinidos. No'''''TripleOscillator DE UM Duplo clique "Abrir ESTA n massas, e VOCÊ Será presenteado com Uma variada gama de Instrumentos. PoDE Voce manter o Botão do mouse em qualquer Predefinição Parágrafo Ouvir Uma Prévia do Seu som.
 
-For now, let's drag the "'''Xylophon'''" preset onto the space in the middle of the Song Editor. When you drop it, a new track will be created with that preset as the instrument.
+Por ágora, vamos arrastar o'''''Xylophon "preset Para o Espaço No meio da canção Editor. QUANDO VOCÊ CAIR, uma nova pista Será criada com Uma Predefinição Como Instrumento.
 
-(If this were a percussion-type instrument, we might be better off dragging it to the Beat+Bassline Editor instead; you'll see why in  a second. We really want to give this instrument a string of notes (or a Piano Roll) to play, though, so Song Editor it is.)
+(Se Este Instrumento UM fossa do tipo de Percussão, Melhor Que Poderia Ser Vez Parágrafo arrasta-lo par o Beat + Bassline Editor, PORQUE VOCÊ Verá segundo em UM. NÓS Realmente Queremos dar Uma Este Instrumento Uma sequencia de Notas (piano roll OU UM ) Jogar Parágrafo Embora,, é isso Song Por Editor).
 
 = Making the melody =
 
