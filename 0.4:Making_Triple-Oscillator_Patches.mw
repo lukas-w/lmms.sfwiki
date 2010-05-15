@@ -9,13 +9,13 @@ Comece com um novo Triple-Oscilador com o patch de onda senoidal-padrão.
 * Agora, começar a jogar com o botão de ressonância no filtro "seção. Se você estiver usando o filtro Moog, não vire o passado ressonância cerca de 0,85 - você foi advertido!
 * Agora, jogar algumas notas muito baixas.
 
-= Organ =
-Real organs are basically additive synthesizers:  They add together a few dozen simple sine waves to form a complex tone.  This is pretty easy to mimic with the Triple-Oscillator and LMMS's chords.
-*  Start with a fresh sine patch, and using each oscillator's "Crs" knobs have them placed in three different octaves.
-*  Flip over to the "FUNC" page and turn on chords.  Set the chord to "Octave" and set "RANGE" to three or four.  Neat, eh?
-*  Play different Cs.  They sound similar, don't they?  That's because most of the harmonics are the same.
-*  For some fun, change one of the oscillators to a triangle wave.
-*  You can refine the sound by changing which octaves each oscillator plays in, or by adjusting their relative volumes.
+Órgão =
+órgãos Real são basicamente sintetizadores aditivo: Eles se somam algumas dezenas de ondas senoidais simples para formar um som complexo. Isso é muito fácil de imitar com o Triple-Oscillator e acordes do LMMS.
+* Comece com um patch sine fresco, e usando cada oscilador de "SIR" puxadores de tê-los colocado em três oitavas diferentes.
+* Flip sobre o "FUNC" página e ligue acordes. Definir o acorde de "Octave" e definir "RANGE" para três ou quatro. Neat, hein?
+* Jogar Cs diferente. Eles som similar, não é? Isso porque a maioria dos harmônicos são os mesmos.
+* Para divertir uma mudança, de osciladores para uma onda triangular.
+* Você pode refinar o som, alterando oitavas oscilador que cada um desempenha, ou ajustando seus volumes.
 
 = Electric bass =
 Electric bass guitars produce a wide variety of tones.  This is just your basic bass with no overdrive or anything like that.
