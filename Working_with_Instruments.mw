@@ -10,175 +10,175 @@ The most common method is to drag a preset of the appropriate type from the rele
 
 You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the editor as above.
 
-= The instrument window =
+= A janela de instrumento =
 
-The instrument window looks like this:
+A janela de instrumento parecido com este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-plugin-tripleosc.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-The window is divided up into three main sections - the instrument controls at the top, the sound controls in the middle and the piano keys at the bottom.
+A janela é dividida em três secções principais - o instrumento de controle na parte superior, os controles de som no meio e as teclas de piano ao fundo.
 
-== Instrument controls ==
+== == Controles de um instrumento
 
-The main controls are:
+Os comandos principais são:
 
-* The instrument's volume.
-* It's position in space (i.e. left or right pan position and front to back fade position).  These can be controlled indepentently by [[Automation]] just like most other controls.
-* The effects channel that the instrument is currently using.  At the moment the effects channel is unused.
-* A button to save the settings of this instrument.
+* O volume do instrumento.
+* É posição no espaço (ou seja, a esquerda ou direita pan posição frente e para trás fade posição). Estes podem ser controlados por indepentently [[automação]] como a maioria dos outros controles.
+* O canal de efeitos que o instrumento está usando atualmente. No momento em que o canal de efeitos não é utilizada.
+* Um botão para salvar as configurações deste instrumento.
 
-These are always present no matter what plugin you have selected.
+Estas estão sempre presentes, não importa o plugin que você selecionou.
 
-== Sound controls ==
+== == Controles de som
 
-The sound controls section is headed by a selector for five 'tabs':
+A seção de controles de som é dirigido por um seletor de cinco "guias":
 
-* '''Plugin''' shows the controls for how this particular plugin generates sound.  This is the only tab that changes per plugin.
-* '''Env/LFO/Filter''' shows the controls for the sound's envelope (its loudness over time), its use of the Low Frequency Oscillator, and pitch filtering.
-* '''Arp/Chord''' shows the controls for making the instrument automatically play arpeggios or chords.
-* '''FX''' shows the chain of [[LADSPA]] effects plugins operating on this instrument.
-* '''MIDI''' shows which [[MIDI]] channels this instrument will receive and send events on.
+''*'''Plugin' mostra os comandos para como este plugin especial gera som. Este é o guia que as mudanças só por plugin.
+*'''Env / LFO / Filtro''' mostra os comandos para o envelope de som (sua sonoridade ao longo do tempo), o uso do Low Frequency Oscillator e arremesso de filtragem.
+*'''Arp / Chord''' mostra os comandos para fazer o instrumento tocar automaticamente arpejos ou acordes.
+mostra''*'''FX' da cadeia de [[LADSPA efeitos]] plugins que operam no presente instrumento.
+mostra''*'''MIDI ", que [[canais MIDI]] este instrumento irá receber e enviar eventos.
 
-Let's deal with these tabs in more detail.
+Vamos lidar com esses guias em mais detalhes.
 
-== The Plugin tab ==
+== O guia Plugin ==
 
-The plugin tab contains all the controls that set how this plugin actually generates sound.  For more information on this, read the individual [[Plugins]] page.
+A guia plugin contém todos os controles que definir como este plugin realmente gera o som. Para obter mais informações sobre este assunto, leia o indivíduo [[Plugins página]].
 
-== The Env/LFO/Filter tab ==
+== O Env LFO / guia Filtro / ==
 
-The Env/LFO/Filter tab looks like this:
+A ENV / LFO / guia Filtro parecido com este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-=== Envelope basics ===
+=== === Básico Envelope
 
-The '''Envelope''' of an instrument is how loud or soft it is from the moment the note is pressed to after it is released.  Immediately before the note is pressed, the envelope is at zero and the instrument produces no noise.  The note goes through an '''attack''' from when the note is pressed until it reaches its maximum loudness.  From then there is an initial '''hold''' period where the note remains at maximum loudness.  The note then '''decay'''s to a softer pitch which is the '''sustain''' level.  Finally when the note is '''release'''d it fades away to silence.  There may also be a '''pre-delay''' between when the note is pressed and when the volume starts rising.
+O''''Envelope "de um instrumento como forte ou suave é a partir do momento em que a nota é pressionado para depois ele é liberado. Imediatamente antes da nota é pressionado, o envelope está em zero e do instrumento não produz ruído. A nota prossegue através de um''''ataque "a partir de quando a nota é pressionado até atingir o volume máximo. De seguida, há uma''inicial''hold 'período em que a nota continua a intensidade máxima. A nota, em seguida,'''decay'' de um suave tom, que é o''''manter "nível. Finalmente, quando a nota é'''release'''d ela desaparece ao silêncio. Também pode haver um'''Pré-atraso''' entre quando a nota é pressionado e quando o volume começa a aumentar.
 
-To get a feel for these parameters it helps to compare them to the envelope of known instruments.  A piano has a very short attack and no hold, a long delay to a very quiet sustain, and finally a release which is fast but not instantaneous.  A flute has a slightly longer attack, and a very short hold and decay as the initial puff is expended.  The sustain level is then almost the full volume, and the note has a quick release.  A bell has a short attack, no hold or sustain, but a long release.  A car passing by has a long attack and long release.
+Para ter uma idéia para esses parâmetros que contribui para compará-los com o envelope de instrumentos conhecidos. Um piano tem um ataque muito curto e não espera, uma longa demora para sustentar uma muito tranquilo e, finalmente, uma versão que é rápido mas não instantâneo. A flauta tem um ataque um pouco mais, e espera muito curto e decadência como o sopro inicial é gasto. A sustentar o nível de volume é, então, quase completo, ea nota tem uma liberação rápida. Um sino tem um ataque de curta distância, sem segurar ou sustentar, mas um lançamento longo. Um carro passa tem um ataque de longo tempo e solte.
 
-The Env/LFO/Filter section has three 'sub-tabs' that select the 'target' for three separate envelopes.  The default one, and the one discussed above, is the volume target.  You select the target in the same way that you select the tab in the instrument, by clicking on the label.  To control the envelope, you have six knobs to set each of the above parameters - pre-delay, attack, hold, decay, sustain, release - and a seventh one to control the amount of effect that the envelope has on the parameter.
+A ENV / LFO / seção Filter tem três "sub-guias" que selecionar o 'target' para três envelopes separados. O padrão, eo discutido acima, é o alvo volume. Você pode selecionar o destino da mesma forma que você selecione a guia no instrumento, clicando no rótulo. Para controlar o envelope, você tem seis botões para definir cada um dos parâmetros acima - atraso de pré-ataque, mantenha, decadência, sustentar liberação - e um sétimo de controlar a quantidade de efeito que o envelope tem sobre o parâmetro.
 
-For the volume envelope, this 'amount' does not actually affect the sound - the envelope only works if the amount control is 100% on.  Note that you can either either set the amount using its knob control or click on the envelope graph in order to turn it completely on or off.  The graph is green when it's turned on, grey when off and a shade between those two colours when the control is between fully on (1) and fully off (0).  The amount can also be turned down to negative one, a feature which is only useful for the Cutoff and Q/Reso targets.
+Para o envelope de volume, esse "montante" não afetam realmente o som - o envelope só funciona se o controle montante é 100%. Observe que você pode fixar o montante usando seu botão de controle ou clique no gráfico de envelope, a fim de transformá-lo completamente ligado ou desligado. O gráfico é verde quando está ligado, cinza e off, quando uma sombra entre as duas cores, quando o controle é totalmente entre a (1) e totalmente fora (0). O valor também pode ser girado para baixo para um negativo, uma característica que só é útil para a Corte e as metas Q / Reso.
 
-In order to understand what the Cutoff and Q/Reso targets do, we must first deal with filters.
+A fim de compreender o que a Corte e Q / metas Reso fazer, temos de lidar primeiro com os filtros.
 
-=== Filters ===
+Filtros === ===
 
-A filter is a method of changing a sound by letting some frequencies through and reducing other frequencies.  For instance, a low-pass filter lets only the bass, or low frequencies, through and cuts the high, treble, frequencies.  The frequency at which this takes place is set by the '''cutoff''' frequency control.
+Um filtro é um método de mudança de um som, permitindo que algumas freqüências por e reduzir as outras freqüências. Por exemplo, um filtro passa-baixa permite que apenas o baixo, ou baixas freqüências, através de cortes e de alta, os agudos, as freqüências. A freqüência com que isso ocorre é definido pelo''''corte "controle de freqüência.
 
-Although it is technically possible to build a frequency that has 'cuts' the unwanted frequencies entirely, it usually introduces unwanted delays and effects into the sound.  Therefore, most filters also have a '''Q factor''' setting which controls how steep or sharp the drop-off is.  The larger the Q factor, the steeper the drop-off in the sound level.  In some filter designs, the Q factor also causes a resonance at harmonics of the cutoff frequency, so often the Q factor is also called the filter's ''resonance''.
+Embora seja tecnicamente possível construir uma freqüência que "corta" as freqüências indesejadas inteiramente, que normalmente apresenta efeitos indesejados e atrasos no som. Portanto, a maioria dos filtros também têm um'''''factor Q ", que controla a configuração íngreme ou cortantes o drop-off é. Quanto maior o fator Q, mais abrupta do drop-off no nível do som. Em alguns modelos de filtro, o fator Q também faz uma ressonância em harmônicos da freqüência de corte, muitas vezes o factor Q também é chamado de''o filtro de ressonância''.
 
-In order to enable the filter, press the '''filter''' title bar and the light at the left will turn on.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
+A fim de ativar o filtro, pressione a barra'''''filtro', título e à luz, à esquerda acenderá. Quando esta luz está acesa, o filtro está ativo. Tenha em mente que filtrar o som de um instrumento que adiciona um overhead pequeno cálculo e pode adicionar um pequeno atraso para o som, por isso, se você não estiver usando o filtro, em seguida, mantê-lo desligado.
 
-The types of filter that LMMS offers are:
+Os tipos de filtro que oferece LMMS são:
 
-* '''Lowpass''' - This filter lets low frequencies through.
-* '''Highpass''' - This filter lets high frequencies through.
-* '''Bandpass csg''' and '''Bandpass czpg''' - These filters let only a certain band of frequencies through.
-* '''Notch''' - The inverse of the Bandpass filter, this cuts only a certain frequency band.
-* '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesisers.
-* '''2x Lowpass''' - A lowpass filter with twice the Q factor.
+Lowpass'''''- Este filtro permite que freqüências baixas através.
+Highpass'''''- Este filtro permite altas freqüências completamente.
+''*'''Csg Bandpass' e'''''Bandpass czpg' - Estes filtros permitem apenas uma certa banda de freqüências por.
+''*'''Notch "- o inverso do filtro passa-banda, este corta apenas uma determinada faixa de frequências.
+Moog'''''- A modificação do filtro passa-baixa normal que se tornou popular por sintetizadores Moog.
+*'''2 X Lowpass'''- Um filtro lowpass com o dobro do fator Q.
 
-Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies - using anything other than a sine wave will do that - and then set the cutoff and Q factor and see how it changes the sound.
+Cada tipo de filtro permite-lhe controlar o''''corte 'freqüência e quantidade de''' Q / Reso'''manutenção. Você pode experimentar com isso, a escolha de um plugin que gera múltiplas freqüências - usando nada além de uma onda senoidal vai fazer isso - e então definir o corte eo fator Q e ver como ela muda o som.
 
-=== Filters with Envelopes ===
+=== === Filtros com Envelopes
 
-Filters do not have to be static and unchanged throughout the entire note.  LMMS allows you to control both the cutoff frequency and the Q factor via an envelope.  Nor does this envelope have to be the same as the volume envelope for the note - each parameter can have an independent envelope.  The envelope sets the value from its maximum or minimum to the set control level; for example, if a low-pass filter has the cutoff control set to 1000Hz and an envelope is used to sweep this value up in a long attack and long decay, the value of the control will go from 14000Hz (the maximum) down to 1000Hz and then back up.  This will make the instrument sound like it's been damped down and then the damping removed.
+Filtros não precisa ser estático e imutável ao longo da nota inteira. LMMS permite que você controle a freqüência de corte eo fator Q através de um envelope. Nem este envelope tem que ser o mesmo que o envelope de volume para a nota - cada parâmetro pode ter um envelope independente. O envelope define o valor do seu valor máximo ou mínimo para o nível de controle conjunto, por exemplo, se um filtro passa-baixa tem o controle de corte definido para 1000 Hz e um envelope é usada para varrer esse valor em um ataque de longa e longa decadência, o valor do controle passará de 14000Hz (o máximo) até 1000Hz e depois volta. Isso fará com que o som do instrumento, como tem sido amortecido para baixo e, em seguida, a retirada de amortecimento.
 
-Another typical use of this is to add a resonance to an instrument that changes with time.  In this case the volume and Q envelopes would be quite similar, so that as the note hits the resonance sweeps down, and then disappears upwards again when the note is released.  (Writer's note: add more detail about how to actually achieve this.)
+Outro uso típico deste é adicionar uma ressonância de um instrumento que muda com o tempo. Neste caso, o volume e envelopes Q seria bastante similar, de modo que a nota atinge a ressonância varre para baixo, para cima e depois desaparece novamente quando a nota é liberado. (Nota do escritor: adicionar mais detalhes sobre a forma de realmente conseguir.)
 
-=== The Low Frequency Oscillator ===
+=== O oscilador de baixa freqüência ===
 
-Often you may want to have the sound waver or change in a repetitive way.  This is where the low frequency oscillator comes in.  It is called 'low frequency' because it is designed to have cycles of up to two seconds (?) rather than the many hundreds or thousands of cycles per second of an audible sound.  The low frequency oscillator is usually called the LFO for short.
+Muitas vezes você pode querer ter o som vacilar ou mudar de forma repetitiva. Aqui é onde o oscilador de baixa freqüência vem dentro é chamado de "baixa freqüência" porque ele é projetado para ter ciclos de até dois segundos (?) Ao invés de muitas centenas ou milhares de ciclos por segundo de um som audível. O oscilador de baixa freqüência é geralmente chamado de LFO para breve.
 
-The LFO provided by LMMS allows you to control the value of the volume, cutoff and Q factor targets independently - the LFO for each is shown under the same 'tab' as the envelope for the same target.  Each has four parameters that you can set:
+A LFO fornecidas por LMMS permite-lhe controlar o valor do volume, corte e fator Q metas de forma independente - o LFO para cada um é mostrado sob o mesmo 'tab' como o envelope para o mesmo destino. Cada um tem quatro parâmetros que podem ser definidas:
 
-* The '''delay''' before the oscillator starts.
-* The '''attack''' or fade-in rate of the oscillator - the rate at which it goes from starting to having full effect.
-* The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)
-* The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
+*''A'''delay' antes do oscilador começa.
+*''A'''ataque' ou fade-in taxa do oscilador - a taxa na qual ele vai de começar a ter efeito.
+* A velocidade'''''' de oscilação. Este é provavelmente o parâmetro que são mais propensos a usar. É medido em milissegundos por oscilação, porque muitas vezes ninguém sabe o tempo necessário para um ciclo completo do que a taxa de Hertz. (Isso também é porque a precisão da fixação do LFO em frações de Hertz é inferior a defini-la em frações de segundo.)
+* O montante'''''' que o LFO afeta o destino dado. Como o envelope, você pode definir o controle de volume manual ou clique na tela de forma de onda à esquerda da LFO para ativá-lo ou desligado.
 
-Unfortunately VSTige instruments generates sounds ‘internally’. This means that you will not be able to use the ENV/LFO tab posibillities on VST instruments at all. ZynAddSubFX is in fact a LMMS included VST instrument, so this limitation goes for ZynAddSubFX as well.
-You can however still add LADSPA-effects to VSTige instrument in FX-tab.
+Infelizmente instrumentos VSTige gera sons "internamente". Isso significa que você não será capaz de usar o ENV / posibillities guia LFO sobre os instrumentos VST em tudo. ZynAddSubFX é de fato um instrumento VST LMMS incluídos, portanto, essa limitação vale para ZynAddSubFX também.
+No entanto, pode ainda adicionar efeitos LADSPA para VSTige instrumento FX-guia.
 
-== The Arp/Chord tab ==
+== O Arp guia Chord / ==
 
-The Arp/Chord tab looks like this:
+A Arp / guia Chord parecido com este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-arp.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously.  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
+Normalmente, cada "anotar" um comando execuções nota no instrumento. Com o Arp controles / Chord, você pode mudar isso para que ele desempenha um acorde (com a raiz Nota será a nota tocada) e / ou um arpejo (ou seja, as notas do acorde tocado um após o outro ao invés de simultaneamente. Para controlar esse , ARP / guia Chord é dividido em duas seções, uma para cordas e outro para arpejos. Você transformá-los clicando em sua barra de título e à luz, à esquerda acenderá. Por padrão, eles estão fora, mas mostrado; quando desligado após isso eles vão 'roll up'. Eles vão estender-se novamente quando volta a ligar.
 
-Both sections have two common controls - the list of chords that can be played and the range in octaves over which the chord will be played.  Since some chords span more than one octave, some chords or arpeggios will overlap.  The list of chords available is vast, ranging from standard chords through jazz to regional chords and natural modes such as Lydian and Dorian.
+Ambas as partes têm dois controles comuns - a lista de acordes que podem ser reproduzidos eo intervalo de oitavas sobre a qual o acorde é reproduzido. Desde alguns acordes abrangem mais de uma oitava, alguns acordes ou arpejos se sobrepõem. A lista dos acordes disponível é vasto, desde acordes standard jazz através de acordes regionais e modos naturais, como Lídia e Dorian.
 
-=== Chords ===
+=== === Chords
 
-The chords section has no other controls than the ones listed above.  When a note down signal is received, that note will be the base for the rest of the chord.  All the notes of the chord will play simultaneously until the note is released.
+A secção de cordas não tem outros controles do que os listados acima. Quando uma nota de baixo sinal é recebido, a nota será a base para o resto do acorde. Todas as notas do acorde vai jogar em simultâneo até que a nota é liberado.
 
-=== Arpeggios ===
+Arpeggios === ===
 
-The arpeggios section has a number of extra controls:
+A seção de arpejos tem uma série de controles adicionais:
 
-* The '''direction''' that the arpeggio is played in can be selected from up, down, both directions (up then down) and random notes from the chord.
-* The '''time''' (in milliseconds) between each note. Obs: If you right-click the knob, you have the option to beat-synchronize the time!
-* The '''gate''' time (as a percentage of the note time above).  At 100% gate time, each note will be played for the full time between each note.  At less than this, each note will be cut short and the rest will be filled with silence.  At more than this, each note will overlap the next note and will finish later than the start of the next.
-* The '''mode''' of playing the arpeggio.
-** In '''free''' mode, each note will be start an arpeggio when the note starts.  If a second note is played later, a second arpeggio will start at that (later) time and play independently of the first.
-** In '''sort''' mode, no matter when another note is pressed, the arpeggios will be played in the same order, with only one note being played at any one time.  For example, if the key for C is played with an ascending Major chord arpeggio, the arpeggio of C-E-G will be played repeatedly.  If the key for F is then held down, the arpeggio will play C-E-G-F-A-C one after the other - the arpeggio for C then the arpeggio for F.
-** In '''sync''' mode, any notes held down at the same time will play a chord arpeggio in that interval.  To take the above example, when F was held down the arpeggio would play CF-EA-GC repeatedly - the notes C and F simultaneously, then the notes E and A, then the notes G and C.
+*''A'''direção' que o arpejo é jogado em podem ser selecionados a partir de cima, para baixo, ambos os sentidos (até então para baixo) e notas aleatórias do acorde.
+* O tempo'''''' (em milisegundos) entre cada nota. Obs: Se você right-click do botão, você tem a opção de bater-sincronizar o tempo!
+* O tempo''A'''gate' (como uma percentagem do tempo nota acima). A 100% do tempo portão, cada nota vai ser jogado durante todo o tempo entre cada nota. A menos que isso, cada nota vai ser cortado curto eo restante será preenchido com o silêncio. Em mais do que isso, cada nota vai sobrepor-se à próxima nota e terminar o mais tardar no início do próximo.
+*''A'''modo' de tocar o arpejo.
+** No modo'''''livre', cada nota será iniciar um arpejo quando a nota é iniciado. Se uma segunda nota é tocada mais tarde, um arpejo segunda terá início naquela época (mais tarde) e jogar, independentemente do primeiro.
+** Em'''''modo de classificação, não importa quando outra nota é pressionado, o arpejos serão disputados na mesma ordem, com uma única nota que está sendo jogado em qualquer momento. Por exemplo, se a chave para C é jogado com um arpejo ascendente acorde Maior, o arpejo do CEG será reproduzida repetidamente. Se a chave de F é então pressionado, o arpejo vai jogar CEGFAC um após o outro - o arpejo de C, em seguida, o arpejo para F.
+** Em'''''modo de sincronização, todas as notas pressionadas ao mesmo tempo, irá desempenhar um arpejo acorde nesse intervalo. Para tomar o exemplo acima, quando F foi pressionada a arpeggio jogaria CF-EA-GC repetidamente - a nota C e F ao mesmo tempo, então as notas E e A, então as notas G e C.
 
-== The FX tab ==
+== O guia FX ==
 
-The [[LADSPA]] effects allow many ways to control the sound of an instrument.  These can vary from simple effects like delays and echos to complex phasers, distortion and reverberation.  Effects can also be chained one after the other to produce very complex sounds.
+O [[LADSPA efeitos]] permitem muitas maneiras para controlar o som de um instrumento. Esses efeitos podem variar de simples, como atrasos e ecos de phasers complexo, distorção e reverberação. Efeitos também podem ser encadeados, um após o outro para produzir sons muito complexos.
 
-The FX tab looks like this:
+A guia FX parecido com este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-fx.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument by itself against the 'wet' sound of the effects in place.  The terms '''wet''' and '''dry''' are used often in this context.
+A fim de que os efeitos de processamento para realizar-se em seu instrumento, você deve habilitar o guia FX, clicando no botão 'luz' ao lado, na parte superior do separador. Isso dá a você uma maneira fácil de verificar a "seca" o som do instrumento por si só contra o molhado "som dos efeitos no lugar. Os termos''''molhado 'e'''''seca 'são usados frequentemente neste contexto.
 
-The effects you select are taken from the list installed on your system, so you must have LADSPA effects installed in order to have them listed here.  Click the 'add' button to select a new LADSPA effect to add to the chain.  This then gives you several controls over the process of sending sound to and receiving it from the effect:
+Os efeitos que você selecionar são retirados da lista de instalado em seu sistema, assim que você deve ter efeitos LADSPA instalado de forma a tê-los aqui listados. Clique no botão 'Adicionar' para selecionar um efeito LADSPA novo para acrescentar à cadeia. Isso dá-lhe então vários controles sobre o processo de envio e recebimento de som para que a partir do efeito:
 
-* The '''wet/dry''' balance - from 0% wet (i.e. no effect, just instrument) to 100% wet (only effects).
-* The '''decay''' control sets how much silence must pass before the effect turns off completely.  Turning the effect off reduces the amount of CPU time used processing silence and reduces the chance of unwanted noise.  However, if the effect turns off too soon it may introduce a 'clipped' sound to the effect: for instance, in the case of a reverb, if the reverb time is longer than the decay time then the reverb will be cut off before it has fully died away.
-* The '''gate''' threshold controls a similar parameter: it sets the level of noise below which the instrument will be considered to be silent.  A flanger effect placed on an instrument with a very long fade-out (say a ride cymbal) will be almost inaudible at the end of the tail of the cymbal.  Cutting the effect off early may reduce the CPU requirements and the chance of unwanted effect noise being heard.
-* The '''controls''' button displays (or removes) the separate window giving the controls specific to this effect.
+* Equilíbrio''A'''wet / dry' - de 0% molhado (ou seja, sem efeito, apenas instrumento) para 100% (efeitos somente).
+* O controle'''''decadência' define o quanto o silêncio deve passar antes que o efeito se desliga completamente. Passando o efeito off reduz a quantidade de tempo de CPU utilizado processamento silêncio e reduz a chance de ruídos indesejados. No entanto, se o efeito desliga cedo demais pode criar um 'cortado' som para o efeito: por exemplo, no caso de um reverb, se o tempo de reverberação é mais do que o tempo de decaimento, em seguida, o reverb vai ser cortada antes que plenamente desapareceu.
+* O limite'''''gate' controla um parâmetro semelhante: ele define o nível de ruído abaixo do qual o instrumento será considerada silenciosa. Um efeito flanger colocado em um instrumento com um longo fade out (dizem que um prato de condução) será quase inaudível no final da cauda do prato. Cortando o efeito off precoce pode reduzir os requisitos de CPU ea chance de efeito indesejado ruído ser ouvido.
+* Botão exibe''A'''controles' (ou remove) a janela separada dando a controles específicos para este efeito.
 
-For instance, here is the LADSPA 'Freeverb' effect added to the effects list:
+Por exemplo, aqui é o efeito LADSPA 'FreeVerb' adicionado à lista de efeitos:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-fx-freeverb.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-Note that some effects will also have ways to set their internal wet/dry level.  This sometimes takes the form of a wet/dry knob, but also can be two knobs to set the level of the wet output and the level of the dry, bypassed, output.
+Note-se que alguns efeitos também terá maneiras de definir o seu nível interno úmido / seco. Isso às vezes toma a forma de um botão de wet / dry, mas também pode ser de dois botões para ajustar o nível da produção molhado e ao nível da seca, a produção, ignorada.
 
-To remove an effect, select its context menu and choose 'Remove effect'.
+Para remover um efeito, selecione o menu de contexto e escolha "efeito" Remover ".
 
-Note that the CPU increase and signal quality change when using effects is mentioned here but should not be exaggerated.  In reality, the author has used many instruments each with separate effects and has not noticed any problems with real-time playback on a modest dual-core processor.  The CPU levels during such a performance likewise remained very low.
+Note que o aumento de CPU e alterar a qualidade do sinal quando os efeitos usando é mencionado aqui, mas não deve ser exagerada. Na realidade, o autor usou muitos instrumentos, cada um com efeitos diferentes e não notei nenhum problema com reprodução em tempo real em um modesto processador dual-core. Os níveis de CPU durante um desempenho tão igualmente permaneceram muito baixas.
 
-== The MIDI tab ==
+== O guia MIDI ==
 
-The MIDI tab looks like this:
+A guia MIDI parecido com este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-midi.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-These controls allow you to set which MIDI channel the instrument receives MIDI events on, and which it sends events to.  Both these controls work in similar ways:
+Esses controles permitem que você defina qual canal MIDI do instrumento recebe eventos MIDI, e que transmite os eventos. Ambos os controles funcionam de forma semelhante:
 
-* Click the '''Receive MIDI-events''' or '''Send MIDI-events''' title next to the light to turn the reception or sending of MIDI events on or off.
-* The '''channel''' setting controls which MIDI channel events will be received or sent on.
-* The '''Default velocity''' control clamps all incoming or outgoing notes to once velocity when set.
-* The '''Device selector''' button shows a list of which devices in your system can act as sources or sinks for MIDI events.
+Envie título * Clique no'''''Receber MIDI-eventos' ou'''''MIDI-eventos "ao lado da luz para ativar a recepção ou envio de eventos MIDI ligado ou desligado.
+* Controles de ajuste''A'''canal' que os eventos MIDI canal serão recebidos ou enviados por diante.
+* Controle de''A'''velocidade Default' grampos todas as notas de entrada ou saída de uma vez quando a velocidade definida.
+* O botão'''''selector de dispositivo "mostra uma lista de quais os dispositivos em seu sistema podem funcionar como fontes ou sumidouros de eventos MIDI.
 
 = Piano Keys =
 
