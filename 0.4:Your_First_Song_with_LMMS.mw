@@ -71,43 +71,43 @@ Se você estiver confiante, você pode agora continuar a adicionar as notas da m
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
 <!--{ \ End (center }}-->
 
-= More structure =
+= = Mais estrutura
 
-We can now close the Piano Roll Editor and go back to the Song Editor.  You will see that the track segment that we initially double-clicked to create the melody has expanded out to fit the notes that we've added.
+Podemos agora fechar o Piano Roll Editor e voltar para a Song Editor. Você verá que o segmento de faixa que inicialmente um duplo-clique para criar a melodia se expandiu para fora para encaixar as notas que nós adicionamos.
 
-We now want to copy that segment to create the next four bars.  The easiest way to do that is to simply hold down the Ctrl key, then drag the initial segment.  This will drag a copy of the segment to a new location, which must be outside the initial segment.  This process will look like this:
+Agora queremos copiar esse segmento para criar os próximos quatro bares. A maneira mais fácil de fazer isso é simplesmente manter pressionada a tecla Ctrl, arraste o segmento inicial. Isso vai arrastar uma cópia do segmento para uma nova localização, que deve estar fora do segmento inicial. Este processo será parecido com este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-Drop the segment on bar 6.  This is actually one bar too late, as the first three quarters of a bar of this segment is empty, as is the last quarter of the last segment.  Fortunately, segments can overlap and their notes will play simultaneously.<sup><small>[[Your First Song with LMMS#Footnotes| [3]]]</small></sup>.  Drag the second copy so that it starts at bar 5.
+Drop do segmento na barra 6. Este é realmente um bar muito tarde, como os três primeiros trimestres de um bar desse segmento está vazio, como é o último trimestre do último segmento. Felizmente, os segmentos podem sobrepor-se e as suas notas jogará simultaneamente. <sup> <small> [[Sua primeira canção com LMMS # Notas | [3 ]]]</> <pequenas / sup>. Arraste a segunda cópia para que ele inicia no compasso 5.
 
-You can now play this using the play button in the Song Editor.  You will hear a short pause as it counts the first three beats of silence, then the melody will start.  It should play smoothly through the two repeats.
+Você pode agora jogar isso utilizando o botão "play" no Song Editor. Você ouvirá uma breve pausa, já que tem as três primeiras batidas de silêncio, em seguida, a melodia começará. Deve jogar sem problemas através das duas repetições.
 
-The Song Editor should now look like this:
+A Song Editor deve agora olhar como este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-== Variation 2 ==
+== 2 == Variação
 
-We can now go on to create another piano roll segment and fill in the next four bars:
+Agora podemos ir para criar outro segmento piano roll e preencher os próximos quatro bares:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-Due to the way that the segments overlap, you will have to create the new segment in a new bar (e.g. bar 11) and then move it into position over the previous segment.
+Devido à maneira que os segmentos se sobrepõem, você terá que criar um novo segmento em um bar novo (por exemplo, 11 bar) e, em seguida, movê-lo em posição durante o segmento anterior.
 
-Note that there is a slight oddity in the Piano Roll Editor that causes you to start editing at bar 2 when opening occasional new segments.  Check which bar you're writing notes into before getting to far!
+Note que existe uma ligeira estranheza no Piano Roll Editor que você faz para começar a editar na barra 2, quando a abertura ocasional novos segmentos. Verifique qual a barra que você está escrevendo notas em antes de ir para longe!
 
-Your Song Editor should now look like this:
+Your Song Editor deve agora olhar como este:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
 = Footnotes =
 
