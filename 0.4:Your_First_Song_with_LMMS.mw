@@ -32,17 +32,17 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 
 Depois disso, as novas notas que colocamos abaixo será o mesmo comprimento, porque o Piano Roll Editor está definida como última nota (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
 
-== More notes ==
+== == Mais notas
 
-Continue creating notes in the pattern shown:
+Continue a criar notas no padrão mostrado:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://img695.imageshack.us/img695/1610/firstbar.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-To place a note, you need to aim for the line at the start of the beat; LMMS will recognise a small fraction of the area left of the beat line as being closer to that beat than the previous.  If you make a mistake placing a note, you can move it to its correct position by clicking on the middle of the note (where the cursor turns into a four-way cross) and dragging the note to its new position.  LMMS will play the note that you're dragging onto as an aide to correct placement.  You can move notes horizontally (in time) as well as vertically (in pitch).
+Para colocar uma nota, é preciso apontar para a linha no início da batida; LMMS vai reconhecer uma pequena fração da área esquerda da linha beat como sendo a que mais vencer do que o anterior. Se você cometer um erro colocar uma nota, você pode movê-la para sua posição correta, clicando no meio de nota (onde o cursor se transforma em uma cruz de quatro vias) e arrastando a nota para sua nova posição. LMMS vai tocar a nota que você está arrastando sobre como um assessor para corrigir o posicionamento. Você pode mover horizontalmente notas (no tempo), bem como na vertical (em campo).
 
-If you need to delete a note, simply right-click on it.
+Se você precisar excluir uma nota, basta clicar com o botão direito sobre ela.
 
 == Copy and paste ==
 
