@@ -2,29 +2,29 @@ You use the [[Song Editor]] to link the various sounds, rhythms and melodies tog
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-simple.png
 
-= Track types =
+= = Tipos de vias
 
-The fundamental unit that you work with in the Song Editor is a track.  Each track is a row in the song editor window; the left part of the track controls the type of track and the right part displays when sounds are going to be created by that track.  This sounds like a generalisation, because it is - tracks can be of a number of different types, and each type of track has a different way of working.
+A unidade fundamental que trabalham com você no Song Editor é uma pista. Cada faixa é uma linha na janela do editor de música, a parte esquerda da faixa controla o tipo da pista eo lado direito mostra quando os sons vão ser criados por essa via. Isso soa como uma generalização, pois é - as faixas podem ser de vários tipos diferentes, e cada tipo de faixa tem uma maneira diferente de trabalhar.
 
-== Sample Tracks ==
+== Exemplo == preferidas
 
-Typically, sample tracks are used to include recordings of singers or instruments playing a melody line.  This allows you to have live musicians alongside the music in your LMMS projects.  However, as yet there are no facilities to trim the start of the sample, or to tune it or scale it to fit with the bars in your music.  These should be done in an audio editing program such as [http://audacity.sourceforge.net Audacity] beforehand.
+Normalmente, as faixas da amostra são usados para incluir gravações de cantores ou tocando instrumentos de uma linha melodia. Isto permite-lhe ter ao lado de músicos ao vivo a música em seus projetos LMMS. No entanto, como ainda não há instalações para aparar o início da amostra, ou para ajustá-lo ou dimensioná-lo para se adequar com as barras em sua música. Estas deverão ser feitas em um programa de edição de áudio, tais como [http://audacity.sourceforge.net Audacity] de antemão.
 
-Sample tracks are the simplest type of track because they only have a volume control and an effects chain.
+faixas da amostra são o tipo mais simples de controlar, porque eles só têm um controle de volume e uma cadeia de efeitos.
 
-== Bassline Tracks ==
--are default blue. They are different from instrumental tracks in one significant way: They can be drag-expanded! While an instrument track has the content and length that was created in the piano-roll, a beat-bassline track (BB-track) could have any length (above one). Drag your mouse from the end of the BB-track and it will expand. (Dragging in an instrument-track will move it) You can of cause also move BB-tracks. Dragging in the middle moves the track.
-It makes good sense that BB-tracks can be expanded with repetitive content. That will often be what you want in a project. As explained in the section above, instruments that are defined in the BB-editor, can behave just like percussion-patterns, but use this feature with care.
-Do remember to name your BB-tracks and to allocate FX-channels for the sound-generators!
+== == Preferidas Bassline
+São padrão azul. Eles são diferentes faixas instrumentais, de uma forma significativa: Podem ser drag-expandida! Enquanto uma faixa de instrumento tem o conteúdo e extensão que foi criada no piano-roll, uma faixa bater bassline (BB via) poderia ter qualquer duração (superior a um). Arraste o mouse a partir do final da pista BB-e vai se expandir. (Arrastar em um instrumento pista vai movê-lo) Você pode também mover de causa BB-faixas. Arrastando no meio da pista se move.
+Faz sentido que o BB-tracks podem ser expandidos com conteúdo repetitivo. Isso muitas vezes ser o que quiser em um projeto. Como foi explicado na secção anterior, os instrumentos que são definidos no editor BB, pode se comportar apenas como padrões de percussão, mas usar esse recurso com cuidado.
+Lembre-se do nome de seu BB-faixas e atribuir FX-canais para o som, geradores!
 
-== Instrument Tracks ==
-Needless to say, this is where your creativity is the crucial factor. Good insight in chords and chord-progressions will greatly aid you in the composing of your song. There 100ths’ of pages on the net on the subject. If we keep focus on the LMMS specifics, then there are a few acts that could be considered as ‘best-practice’.
-* Name all instruments
-When you load a factory-instrument or a blank default-preset, the name will be ‘Default-preset’. Don’t omit to name you instrument. Next month when you reopen your project and see 20+ ‘Default-presets’ you are so lost. And only you have the blame..
-I recommend that you use the disk-file-name for factory-presets. If you make changes to the instrument, save it to a different folder with a new name.
-* Allocate a FX-channel
-The FX-channels refers to the mixer. Each channel or ‘Bus’ is handled separately and you will get better dynamic in your music if only one mixer channel is used for one instrument. This goes for the percussion as well!
-LMMS has 64 channels, and you may like to use each 16-slot family for a different purpose. You could have ordinary instrument in slot A, Effects in slot B and percussion in slot C, but that’s just a suggestion. You should rename each mixer-channel with its instrument name.
+== Preferidas Instrumento ==
+Escusado será dizer que este é o lugar onde sua criatividade é o fator crucial. Bom conhecimento em acordes e progressões de acordes, vai lhe ajudar muito na composição de sua música. 100ths Há páginas na net sobre o assunto. Se continuarmos a focar as especificidades LMMS, então há alguns atos que podem ser considerados como "melhores práticas".
+* Nome de todos os instrumentos
+Quando você carrega uma fábrica de instrumento ou de um branco-padrão predefinido, o nome será 'Default-preset. Não se omita nome do instrumento. No mês que vem quando você reabrir o projeto e ver 20 + 'Default-presets' você está tão perdido. E só você tem a culpa ..
+Eu recomendo que você utilize o disco de nome de arquivo para as predefinições de fábrica. Se você fizer alterações no instrumento, salve-o em uma pasta diferente, com um novo nome.
+* Atribuir um canal FX
+O FX-canais refere-se ao mixer. Cada canal ou 'Bus' é tratado separadamente, e você obterá uma melhor dinâmica na sua música, se apenas um canal do mixer é utilizado para um instrumento. Isso vale para a percussão bem!
+LMMS tem 64 canais, e como você pode usar cada família 16 slots para uma finalidade diferente. Você poderia ter instrumento ordinário no slot A, B Efeitos no slot e percussão em C slot, mas isso é apenas uma sugestão. Você deve renomear cada um misturador de canal com o nome do instrumento.
 
 = Navigation =
 
