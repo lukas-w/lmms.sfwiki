@@ -63,13 +63,13 @@ Agora nós podemos pressionar o''''play 'botão (http://img685.imageshack.us/img
 
 When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat.
 
-== The first 'four' bars ==
+== A primeira «quatro» bares ==
 
-If you're confident, you can now continue adding the notes of the tune to make the first four bars (up to where the main melody repeats).  Here's what your piano roll should look like at the end of this:
+Se você estiver confiante, você pode agora continuar a adicionar as notas da música para fazer os primeiros quatro compassos (até onde se repete a melodia). Aqui está o seu piano roll deve ser semelhante ao final do presente:
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
 = More structure =
 
