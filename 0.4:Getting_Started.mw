@@ -23,59 +23,59 @@ Para faixas melodia, clique na barra de começar a criar um novo segmento e, em 
 Por último hit 'play' e desfrutar da sua música!
 [[Image:Exemplo.jpg]][[Image:Exemplo.jpg]]
 
-= Drum Pattern Tabs/Maps =
+= Drum Tabs Padrão / Mapas =
 
-(work in progress)
+(Em andamento)
 
-('''figure.1''') ('''example''')
+('''''Figura.1') (''''exemplo)
 
-<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
-Bass drum      | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
-snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
-closed hi-hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
-open hi-hat    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
-</pre>
+<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Bumbo | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+fechado hat-oi | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+| Open hat-oi / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</ Pre>
 
-X=note on ;
-/=silence
+X = nota relativa;
+/ Silence =
 
-above in (Figure.1) we have a simple 4 beat pattern using 16ths or 16 segments within our pattern. You can see from "Bass drum" that there is an X (note on) at 1,5,9,13, ,this gives us the typical beat used in most techno/trance or house style music. Next is the snare drum at 5, and 13, which gives us a swing type feel to the rhythm. And finally the open and closed hi-hats to compliment the rhythm.
- 
-now that you have the general idea these patterns can be applied to your songs in LMMS using the "beat + bassline editor" (which uses the 16ths/16 steps to 1 bar or 4 beats).
-
-
-below are some examples for you to try out and perhaps use in your songs.
-
-('''1''') '''Amen Break''' - [this was a drum solo originally performed by Gregory Sylvester Coleman, but has been heavily sampled and pitched up for use in drum and bass and jungle styles]
+acima em (Figura.1), temos um padrão de 4 batida simples usando 16ths ou 16 segmentos dentro do nosso padrão. Você pode ver de "bumbo", que existe um X (note on) na 1,5,9,13, isso nos dá a típica batida utilizada na maioria techno / trance ou estilo de música house. Em seguida é a tarola, 5, e 13, que nos dá um tipo de swing para sentir o ritmo. E, finalmente, a abertura eo encerramento de oi-chapéus elogio ao ritmo.
+ 
+Agora que você tem a idéia geral, esses padrões podem ser aplicados para as suas músicas em LMMS usando o "beat editor + bassline" (que usa o 16ths/16 passos para um bar ou 4 tempos).
 
 
-<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
-Crash/Ride Cym. :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
-Bass/Snare Dr.  :  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
-</pre>
+Abaixo estão alguns exemplos para você experimentar e talvez usar em suas canções.
+
+('''1''')''' Amen Break'''- [este era um drum solo originalmente realizado por Sylvester Gregory Coleman, mas tem sido muito amostrado e armou-se para uso em drum and bass e estilos selva]
 
 
-('''2''') '''Typical Break-beat''' - [by moving the Bass drum out of regular 4/4 timing we create a "break-beat]
+<pre> | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - |
+Bater Cym Ride /. : |-Rrrrrrrr | rrrrrrrr-|-rrrrrrrr | RRRRRCRR-|
+Bass / Snare Dr.: BBS | - S-SBBS - S | BBS - S-SBBS - S | BBS - SB-S-S --- |-SBBS - SB S-S --- - |
+</ Pre>
 
 
-<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
-Bass drum      | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
-snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
-closed hi-hat  | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
-open hi-hat    | / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
-</pre>
+('''2''')''''Típica Break-beat' - [movendo o bumbo fora do tempo de 04/04 regular criamos um] "break-beat
 
 
-('''3''') '''Prodigy "Smack My Bitch Up"''' - [break-beat intro] [shown 1st in the Beat+bassline Editor]
+<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Bumbo | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+fechado hat-oi | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
+aberto | hat-oi / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</ Pre>
+
+
+('''3''')''' Prodigy "Smack My Bitch Up"'''-] [intro break-beat [1 mostrado na Beat + bassline Editor]
 
 
 http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
 
-[main beat]
+Principal [beat]
 
 http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
 
-(*note the lowered volumes of the snare drum in the 2 examples above i.e the dimmed <FONT COLOR="#00ff00">led's</FONT> in certain steps)
+(* Nota do volume reduzido de tarola nos 2 exemplos acima, ou seja, o <FONT esmaecido COLOR="#00ff00"> led's> </ FONT em determinadas etapas)
 
 = Navigation =
 
