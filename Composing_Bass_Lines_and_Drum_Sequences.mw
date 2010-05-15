@@ -18,34 +18,34 @@ A melhor maneira de começar a sentir para isso é adicionar um baixo ou bumbo e
 
 Isso TEM TODOS OS Primeiros ocorrido em Que Serao Para muitos de Padrões Distintos Música em SUA. É isso chamado de 'Beat / 1 no Bassline' [[Canção Editor]] e não Seletor de Padrão da Beat + Bassline Editor. Voce PoDE UM criar novo Padrão Usando o''''bassline novo Botão (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-button-new-bassline.png) e serao nomeados gradativamente a partir daí. Voce renomear PoDE Também Esses Padrões SEUS clicando em nomos não Song Editor e digitando Nome novo um. Freqüentemente é isto util, mais especificamente, identificar o Que É o Padrão n º edição futura.
 
-= Philosophies of pattern design =
+Filosofias de design padrão = =
 
-There are several schools of thought to pattern design, usually stemming from the kind of software one has used previously.  To illustrate the differences, imagine a typical 4/4 'trance' rhythm (the 'oontz-oontz-oontz-oontz' style: kick-snare-kick-snare-kick-snare-kick-snare) and a variation on that style with two snare hits instead of one at the end of the bar.
+Existem várias escolas de pensamento para design padrão, geralmente decorrentes do tipo de software tem um usado anteriormente. Para ilustrar as diferenças, imagine uma típica 04/04 'trance' ritmo (o "oontz-oontz-oontz oontz 'estilo: chute-laço-kick-laço-kick-laço-kick snare) e uma variação sobre o estilo com dois hits laço ao invés de um no final da barra.
 
-== One pattern per bar structure ==
+== Uma estrutura padrão por bar ==
 
-This is probably the most common style of pattern in use.  Each separate pattern includes beats for all the instruments it uses.  In our example, you would have one pattern containing the kick-snare-kick-snare-kick-snare-kick-snare and one containing the kick-snare-kick-snare-kick-snare-kick-snare''snare''.
+Este é provavelmente o estilo mais comum de modelo em uso. Cada padrão distinto inclui batidas para todos os instrumentos que utiliza. No nosso exemplo, você teria um padrão contendo o pontapé de laço-kick-laço-kick-laço-kick snare e um contendo o pontapé de laço-kick-laço-kick-laço-kick snare''snare'' .
 
-== Pattern and variations ==
+== Padrão e variações ==
 
-Once again we have two patterns in our example.  The key change here is that the variation pattern ''only'' includes the snare hit on the last sixteenth of the bar.  In order to get the complete variation pattern, we sequence both the rhythm and the variation ''together'' in the Song Editor.
+Mais uma vez temos dois padrões em nosso exemplo. A principal mudança é que o padrão de variação''apenas''inclui o snare hit no último décimo sexto do bar. A fim de obter o padrão de variação completa, a seqüência que tanto o ritmo ea variação''juntos''no Song Editor.
 
-== One pattern per instrument ==
+== Um padrão por instrumento ==
 
-We now change our philosophy significantly by having three separate patterns.  One contains just the kick drum, common to both the rhythm and variation.  The second contains just the snare drum for the rhythm, and the third contains just the snare for the variation.  Once again, in order to get the complete effect you sequence the tracks together in the Song Editor.
+Nós agora alterar a nossa filosofia de forma significativa por ter três padrões distintos. Uma contém apenas o bumbo, comum a ambos o ritmo e variação. O segundo contém apenas o tarol para o ritmo, ea terceira contém apenas o laço para a variação. Mais uma vez, a fim de obter o efeito completo é a seqüência de faixas juntos no Song Editor.
 
-== Which is best? ==
+== Qual é o melhor? ==
 
-There are advantages and disadvantages to each of the above approaches:
+Há vantagens e desvantagens de cada uma das abordagens acima:
 
-* The first makes logical sense considered from a musical notation point of view, and is often easier to see the integration of all the instruments in the rhythm.  For instance, you will get a clearer picture of whether two instruments play on the same sixteenth using this method.
-* However, the first means that you have to reprogram the entire rhythm for each minor variation.  It is often much quicker to simply program that second pattern to contain only the notes that vary.  On the other hand, this does not allow you to take out notes that are already in the 'base' pattern.
-* This might logically suggest that a further break-down into common sections and their variations.
-* The 'one instrument per pattern' method is the logical extension of this.  While it is often harder to compose the instruments individually, it is easy to combine them in new and novel ways in the Song Editor.
-* Adding more tracks to separate out these individual differences, however, may make the rhythm tracks harder to manage and combine together.
-* On the other hand, it often feels tiring to create yet another drum track for another slight variation in the rhythm, even when this might sound significantly better.  The temptation to reuse what is already there even if it sounds boring is one of the great causes of songs sounding dispirited and ordinary.
+* O primeiro faz sentido lógico considerado de um ponto de vista da notação musical, e é muitas vezes mais fácil de ver a integração de todos os instrumentos no ritmo. Por exemplo, você terá uma visão mais clara de se jogar em dois instrumentos XVI mesmo usando esse método.
+* No entanto, o primeiro meio que você tem que reprogramar o ritmo todo, para cada variação menor. Muitas vezes, é muito mais rápido do que simplesmente programa que segundo padrão para conter somente as notas que variam. Por outro lado, isso não lhe permite tirar notas que já estão na "base" padrão.
+* Isso pode sugerir que uma lógica ainda mais break-down em seções comuns e suas variações.
+* A "por um instrumento padrão de método" é a extensão lógica deste. Embora seja frequentemente mais difícil de compor os instrumentos individualmente, é mais fácil combiná-las de maneiras novas e inovadoras no Song Editor.
+* Adicionando mais trilhas de separar essas diferenças individuais, no entanto, pode tornar o ritmo faixas mais difícil de gerir e se combinam.
+* Por outro lado, que muitas vezes sente-se cansativo para criar mais uma bateria para outra pequena variação no ritmo, mesmo quando isso pode soar muito melhor. A tentação para reutilizar o que já está lá, mesmo que isso soa chato é uma das grandes causas das canções soam desanimada e ordinário.
 
-Ultimately, like so many things in the artistic world it is better to use the methods you are familiar with than to struggle with a way that someone else considers 'correct'.  For beginners I would recommend starting with the first or second methods until you have established a clear preference.  It is also very useful to pick and choose from the methods here as the situation dictates.
+Finalmente, como tantas coisas no mundo artístico, é melhor usar os métodos que estão familiarizados com a luta de uma maneira que alguém considera "correto". Para iniciantes eu recomendaria começar com os métodos de primeira ou segunda até que você tenha criado uma preferência clara. Também é muito útil para escolher e escolher os métodos aqui que a situação impõe.
 
 = Putting patterns into your song =
 
