@@ -106,33 +106,33 @@ A LFO fornecidas LMMS Permite, Por-LHE Controlar o valor do volume, corte e fato
 Instrumentos Infelizmente filhos Gera VSTige internamente ". Isso Significa Que VOCÊ Não Será Capaz de USAR o ENV / posibillities Guia LFO Sobre os Instrumentos Tudo em VST. ZynAddSubFX É de fato Um instrumento VST Incluídos LMMS, portanto, ESSA limitação vale parágrafo Também ZynAddSubFX.
 No entanto, pode Ainda Adicionar Efeitos LADSPA VSTige Instrumento n FX Guia.
 
-== O Arp guia Chord / ==
+== O Arp Guia Chord / ==
 
-A Arp / guia Chord parecido com este:
+A Arp / Guia Chord Este parecido com:
 
-<!--{ \ Begin (center }}-->
+<!--{ \ Begin (}}--> centro
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-arp.png
-<!--{ \ End (center }}-->
+<!--{ \ End (}}--> centro
 
-Normalmente, cada "anotar" um comando execuções nota no instrumento. Com o Arp controles / Chord, você pode mudar isso para que ele desempenha um acorde (com a raiz Nota será a nota tocada) e / ou um arpejo (ou seja, as notas do acorde tocado um após o outro ao invés de simultaneamente. Para controlar esse , ARP / guia Chord é dividido em duas seções, uma para cordas e outro para arpejos. Você transformá-los clicando em sua barra de título e à luz, à esquerda acenderá. Por padrão, eles estão fora, mas mostrado; quando desligado após isso eles vão 'roll up'. Eles vão estender-se novamente quando volta a ligar.
+Normalmente, cada "anotar" commando UM execuções nota não Instrumento. controles Com o Arp / Chord, VOCÊ PoDE Mudar isso para quê Ele acorde UM desempenha (com a raiz Nota Será uma nota Tocada) e / arpejo UM OU (ou seja, como Notas do acorde tocado UM Após o Outro AO inves de simultaneamente. Para esse mês Controlar, ARP / Guia acorde E Duas dividido em Seções, Uma Cordas para e Outro parágrafo arpejos. Voce transformá-los clicando em SUA Barra de Título e à luz, à Esquerda acenderá. Por Padrão, as enguias fóruns Estação, Mas Mostrado; QUANDO Desligado Após isso Eles vão 'roll up'. Eels echoed Vão-se Novamente QUANDO Volta ligar um.
 
-Ambas as partes têm dois controles comuns - a lista de acordes que podem ser reproduzidos eo intervalo de oitavas sobre a qual o acorde é reproduzido. Desde alguns acordes abrangem mais de uma oitava, alguns acordes ou arpejos se sobrepõem. A lista dos acordes disponível é vasto, desde acordes standard jazz através de acordes regionais e modos naturais, como Lídia e Dorian.
+Ambas como contraditório dez controles Dois Comuns - a Lista de acordes reproduzidos Que podem Ser EO intervalo de oitavas Sobre a Qual É o acorde Reproduzido. Acordes ALGUNS Desde abrangem Mais de Uma oitava, OU ALGUNS acordes arpejos se sobrepõem. A Lista dos acordes Disponível e vasto, acordes Desde Através jazz standard de Acordes Regionais e Modos Naturais, Como Lídia e Dorian.
 
 === === Chords
 
-A secção de cordas não tem outros controles do que os listados acima. Quando uma nota de baixo sinal é recebido, a nota será a base para o resto do acorde. Todas as notas do acorde vai jogar em simultâneo até que a nota é liberado.
+A Secção de Cordas Outros Não fazer controles TEM OS Que Acima Listados. QUANDO Uma nota de Baixo sinal e recebido, uma nota Será uma base Para o resto do acorde. Todas As notas do acorde vai Jogar em simultâneo Até Que É uma nota Liberado.
 
 Arpeggios === ===
 
-A seção de arpejos tem uma série de controles adicionais:
+A seção de dez arpejos Uma série de controles ADICIONAIS:
 
-*''A'''direção' que o arpejo é jogado em podem ser selecionados a partir de cima, para baixo, ambos os sentidos (até então para baixo) e notas aleatórias do acorde.
-* O tempo'''''' (em milisegundos) entre cada nota. Obs: Se você right-click do botão, você tem a opção de bater-sincronizar o tempo!
-* O tempo''A'''gate' (como uma percentagem do tempo nota acima). A 100% do tempo portão, cada nota vai ser jogado durante todo o tempo entre cada nota. A menos que isso, cada nota vai ser cortado curto eo restante será preenchido com o silêncio. Em mais do que isso, cada nota vai sobrepor-se à próxima nota e terminar o mais tardar no início do próximo.
-*''A'''modo' de tocar o arpejo.
-** No modo'''''livre', cada nota será iniciar um arpejo quando a nota é iniciado. Se uma segunda nota é tocada mais tarde, um arpejo segunda terá início naquela época (mais tarde) e jogar, independentemente do primeiro.
-** Em'''''modo de classificação, não importa quando outra nota é pressionado, o arpejos serão disputados na mesma ordem, com uma única nota que está sendo jogado em qualquer momento. Por exemplo, se a chave para C é jogado com um arpejo ascendente acorde Maior, o arpejo do CEG será reproduzida repetidamente. Se a chave de F é então pressionado, o arpejo vai jogar CEGFAC um após o outro - o arpejo de C, em seguida, o arpejo para F.
-** Em'''''modo de sincronização, todas as notas pressionadas ao mesmo tempo, irá desempenhar um arpejo acorde nesse intervalo. Para tomar o exemplo acima, quando F foi pressionada a arpeggio jogaria CF-EA-GC repetidamente - a nota C e F ao mesmo tempo, então as notas E e A, então as notas G e C.
+*''Que A'''direção 'o arpejo É jogado em selecionados podem Ser A partir de Cima, n º Baixo, Ambos Os sentidos (até então para baixo) e notas aleatórias do acorde.
+* O tempo'''''' milisegundos (em) CADA Entre nota. Obs: Se VOCÊ clique com o botão direito do TEM, VOCÊ um Botão de Opção tempo o bater-sincronizar!
+* Tempo''A'''gate O '(como Uma percentagem do tempo nota acima). A 100% do portão tempo, CADA nota vai Ser jogado Durante todo o tempo CADA Entre nota. A Menos Que isso, CADA nota vai Ser cortado Curto EO Restante Será preenchido com o silêncio. Em Mais do que isso, vai sobresselente CADA nota-se à nota Próxima e Cancel o Mais tardar No início do Próximo.
+*''A'''modo de 'tocar o arpejo.
+** Não modo'''''livre, CADA UM nota Será iniciar arpejo QUANDO É uma nota Iniciado. Se Uma segunda nota É Tocada Mais tarde, eh arpejo Segunda tera Início Naquela época (Mais tarde) e Jogar, independentemente do Primeiro.
+** Em'''''modo de Classificação, Não Importa Outra nota QUANDO É pressionado, o arpejos Serao disputados NA MESMA Ordem, com Uma Única Que nota ESTÁ Sendo jogado em qualquer Momento. Por exemplo, se uma chave n º C e Um jogado com arpejo ascendente acorde Maior, o arpejo do CEG repetidamente Reproduzida será. Se uma chave de F e então pressionado, o arpejo vai Jogar UM CEGFAC Após o Outro - o arpejo de C, seguida em, o arpejo n º F.
+** Em'''''modo de Sincronização, Todas As notas pressionadas ao mesmo tempo, ira UM desempenhar arpejo acorde Nesse intervalo. Para Tomar o exemplo acima, F QUANDO Foi um arpejo jogaria pressionada repetidamente CF-EA-GC - uma nota C e F ao mesmo tempo, então como NOTAS E e A, então como Notas G e C.
 
 == O guia FX ==
 
