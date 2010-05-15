@@ -6,11 +6,11 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-simple.png
 
 A unidade fundamental que trabalham com você no Song Editor é uma pista. Cada faixa é uma linha na janela do editor de música, a parte esquerda da faixa controla o tipo da pista eo lado direito mostra quando os sons vão ser criados por essa via. Isso soa como uma generalização, pois é - as faixas podem ser de vários tipos diferentes, e cada tipo de faixa tem uma maneira diferente de trabalhar.
 
-== Exemplo == preferidas
+== Exemplo == Preferidas
 
-Normalmente, as faixas da amostra são usados para incluir gravações de cantores ou tocando instrumentos de uma linha melodia. Isto permite-lhe ter ao lado de músicos ao vivo a música em seus projetos LMMS. No entanto, como ainda não há instalações para aparar o início da amostra, ou para ajustá-lo ou dimensioná-lo para se adequar com as barras em sua música. Estas deverão ser feitas em um programa de edição de áudio, tais como [http://audacity.sourceforge.net Audacity] de antemão.
+Normalmente, como FAIXAS da amostra Usados São parágrafo Incluir Gravações de cantores Instrumentos OU tocando Uma Linha de melodia. Permite, IstoÉ-LHE ter Ao lado de Músicos ao vivo uma música SEUS Projetos em LMMS. No entanto, Como Ainda Não HÁ Instalações aparar o n º da amostra início, OU parágrafo ajustá-lo OU COM dimensioná-lo n se adequar como barras música SUA los. Estás deverão UM Ser Feitas em Programa de edição de Áudio, Tais Como [http://audacity.sourceforge.net Audacity] de antemão.
 
-faixas da amostra são o tipo mais simples de controlar, porque eles só têm um controle de volume e uma cadeia de efeitos.
+FAIXAS da amostra São o tipo de Controlar Mais simples, eles PORQUE UM dez tão controle de volume e Uma Cadeia de Efeitos.
 
 == == Preferidas Bassline
 São padrão azul. Eles são diferentes faixas instrumentais, de uma forma significativa: Podem ser drag-expandida! Enquanto uma faixa de instrumento tem o conteúdo e extensão que foi criada no piano-roll, uma faixa bater bassline (BB via) poderia ter qualquer duração (superior a um). Arraste o mouse a partir do final da pista BB-e vai se expandir. (Arrastar em um instrumento pista vai movê-lo) Você pode também mover de causa BB-faixas. Arrastando no meio da pista se move.
