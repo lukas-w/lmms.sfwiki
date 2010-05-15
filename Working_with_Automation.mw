@@ -26,25 +26,25 @@ Há duas coisas a lembrar quando os controles automação:
 
 Vejamos alguns exemplos de como usar a automação em suas canções.
 
-== Fading em ==
+== Em == Fading
 
-O mais comum e mais simples para uso em automação é um instrumento de atenuação no começo do desempenho, de modo que não dominam o pedaço em que entra. Isto é conseguido através da automatização do controle de volume do instrumento na Canção Editor.
+O Comum Mais e Mais simples parágrafo em Automação USO É UM Instrumento de atenuação No começo do Desempenho, De que modo o Pedaço dominantes Não Entra em que. É isto conseguido Através da automatização do controle de volume do Instrumento nd Canção Editor.
 
-A primeira coisa que você vai descobrir é que a automação é sempre medido a partir do início da música, independentemente do local onde a faixa de instrumento tem o seu primeiro segmento. Então se você tem o primeiro bar de piano roll na trilha instrumento aparecendo na barra de 33, você vai precisar para começar a desvanecer-se o instrumento na barra 33 ao invés de um bar.
+A primeira Coisa Que VOCÊ vai Descobrir Que É um AUTOMAÇÃO E semper medido A partir da música do início, independentemente do local Onde uma faixa de instrumento o Seu dez Primeiro segmento. SE VOCÊ TEM então o Primeiro bar de rolo nd trilha piano Instrumento aparecendo nd barra de 33, VOCÊ vai precisar parágrafo Começar um Desvanecer-se o Instrumento nd Barra 33 AO inves de hum bar.
 
-A segunda coisa que você vai descobrir é que um fade in normalmente duram muitos bares, e é mais fácil para desenhar uma linha diagonal de comprimento que, quando a escala horizontal (http://tangram.dnsalias.net/lmms-imgs/lmms -0.3.1/automation-toolbar-horizzoom-100.png) é reduzido para cerca de 25%.
+A segunda Coisa Que VOCÊ vai Descobrir e Um Que fade em bares normalmente Duram Para muitos, e E mais Fácil parágrafo desenhar Uma Linha diagonal de comprimento Que, Quando uma escala horizontal (http://tangram.dnsalias.net/lmms-imgs/lmms -0.3.1/automation-toolbar-horizzoom-100.png) e Reduzido n º Cerca de 25%.
 
-A terceira coisa que você vai descobrir que é ter um monte de pontos de controle é necessário para o volume, pois as pessoas não são muito sensíveis a pequenas mudanças no volume. Além disso, ter mais pontos de controlo, uma edição mais tarde se você mudar sua mente. Defina o controle de quantização (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png) para cerca de 02/01 ou 04/01 e você ainda pode obter um relativamente linha, mesmo sem ter um monte de pontos de controle desnecessário se você quiser mudá-lo mais tarde.
+A terceira Coisa Que VOCÊ vai Descobrir Que um ter e Monte de Pontos de Controle e Necessário n o volume, POIs Pessoas Não São Muito sensíveis um volume não Pequenas Mudanças. Além disso, pontos de Controlo ter Mais, Uma edição Mais tarde SE VOCÊ Mudar SUA Mente. DeFina o controle de quantização http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png () para Cerca de 01/02 e 01/04 OU VOCÊ Ainda PoDE obter Linha relativamente hum, hum Mesmo sem ter monte de Pontos de controle desnecessário SE VOCÊ Quiser mudá-lo tarde MAIS.
 
-Por exemplo, nesta peça:
+Por exemplo, Nesta Peça:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-songeditor.png
 
-A automação no controle da faixa Moog primeiro volume parecido com este:
+A Automação nenhum controle da faixa Moog Primeiro volume parecido com Este:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automation.png
 
-Observe a posição da régua de tempo - o fade in começa em cerca de 41 bar, quando ocorrem as primeiras notas.
+Observar uma POSIÇÃO da Régua tempo de - o fade in Cerca Começa em 41 de bar, QUANDO Ocorrem como Primeiras Notas.
 
 == == Adicionando expressão
 
