@@ -4,33 +4,33 @@ The Piano Roll Editor is the main workspace for composing melodies.
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 <!--{\end{center}}-->
 
-= Writing Notes =
+= Notas = Escrita
 
-== By mouse ==
+== Por mouse ==
 
-The standard tool for editing notes in the Piano Roll Editor is the pencil tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-pencil.png).  With this you can create, move, resize and delete notes.
+A ferramenta-padrão para as notas de edição no Piano Roll Editor é a ferramenta lápis (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-pencil.png). Com isso, você pode criar, mover, redimensionar e remover notas.
 
-To '''create''' a note, simply click inside the piano roll grid.  The horizontal dark grey will show you which note on the keyboard you are going to be creating, and when you click the instrument will play that note as an aural cue.
+Para criar'''''' uma nota, basta clicar dentro da grade de rolo de piano. O cinza escuro horizontal irá mostrar-lhe que nota no teclado que você vai estar criando, e quando você clica no instrumento tocará essa nota como sugestão fonética.
 
-The length of the note created is set by the note length control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png).  By default this is set to use the length of the last note created or edited.  This is often convenient when creating many notes of the same length.  Alternatively, you can select from a list of standard note lengths, expressed in fractions of a beat.
+A duração da nota criado é definido pelo controle de duração da nota (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png). Por defeito está definido para usar o comprimento da última nota criados ou editados. Isto é frequentemente útil quando a criação de muitas notas do mesmo comprimento. Alternativamente, você pode selecionar de uma lista de tamanhos padrão nota, expressa em frações de uma batida.
 
-To '''move''' a note, drag any part of the note (except the end).  You can drag it vertically to change pitch, horizontally to change its start time, or both.
+Para'''mover''' uma nota, arrastar qualquer parte da nota (exceto a final). Você pode arrastá-la na vertical para mudar a afinação, horizontalmente para alterar seu horário de início, ou ambos.
 
-To '''resize''' a note, drag the end of the note.  This simply changes its end 'cut-off' point while keeping the note starting at its original point in time.  You cannot change the start time while keeping the note end at its original point in time - to do this you should move the note to its new start time and then resize it to the desired length.
+Observação: Para'''''resize' a, arrastar o final da nota. Isso simplesmente muda seu fim "cut-off 'ponto, mantendo a nota a partir de seu ponto original no tempo. Você não pode alterar o horário de início, mantendo a nota final em seu ponto original no tempo - para fazer isso você deve mover a nota para a nova hora de início e depois redimensioná-lo para o tamanho desejado.
 
-There are two ways of easily creating a much longer note in a series of short ones (or vice versa) and using the 'last note' length setting above.  One is to create all the notes of one length first at their correct points in time, and then go back and fill in the longer notes; resizing the first longer note will then set the length.  The other way is to create the longer note as a short note, resize it, and then grab the resize handle of a shorter note and resize it to its original length (e.g. move it one quanta shorter and then back).
+Há duas maneiras de criar facilmente uma nota muito mais em uma série de curtas (ou vice-versa) e usando o "última nota 'comprimento configuração acima. Uma delas é a criação de todas as notas de um primeiro comprimento correto em seus pontos no tempo, e depois voltar e preencher as notas mais longas, o redimensionamento da primeira nota já, então, definir o comprimento. A outra maneira é criar o maior nota como uma pequena nota, redimensioná-la e, em seguida pegar a alça de redimensionamento de uma curta nota e redimensioná-la ao seu tamanho original (por exemplo, movê-lo quanta mais curto e, em seguida, de volta).
 
-To '''delete''' a note, right-click on it.  You can also use the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png) - when using this, simply left-click on any note to delete it.
+''''Para 'apagar' a nota, clique com o botão direito sobre ela. Você também pode usar a ferramenta borracha (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png) - quando usando este, simplesmente clique com o botão esquerdo em qualquer nota para excluí-lo.
 
-The start time of a note is '''quantised''' to the fraction of a beat shown in the quantisation selector (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-quantise-16.png).  This controls both where a note starts and its length - both have to be multiples of the quantisation setting.  It does not affect notes that are already created whose property you are not changing - for instance, with quantisation set to 1/32, you can position a note on an odd 32nd (i.e. not on a vertical 1/16th step line); then, with quantisation set to 1/16, you can resize that note and its end point will be forced to be on an even 32nd without changing the start point.  In this example the note would always be an odd number of 32nds in length.
+O horário de início de uma nota é''''quantizados "com a fração de uma batida mostrado no selector de quantização (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar- quantise-16.png). Isto controla tanto quando um começa a nota e seu comprimento - ambos têm que ser múltiplos do ajuste quantização. Ela não afeta notas que já estão criados, cuja propriedade não estão mudando - por exemplo, com quantização definido como 1 / 32, você pode posicionar uma nota 32 em um estranho (ou seja, não em uma linha vertical passo 1/16th), em seguida, , com quantização definido como 16/01, você pode redimensionar esta nota e seu ponto final serão forçados a estar em um 32, mesmo sem alterar o ponto de partida. Neste exemplo, a nota seria sempre um número ímpar de 32nds de comprimento.
 
-== By keyboard ==
+== == Por teclado
 
-You can also '''record''' yourself playing the notes either on a MIDI keyboard or on the computer's keyboard using the record button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-playback-record.png).  When recording, you will hear a 'click' sound every beat to help you stay in sync with the time signature.  It can also be useful to set the quantisation to the minimum your piece requires; so even if you play a little early or late, the note will be placed in the piano roll at the correct time.  You may still have to go through and edit the notes (as above) to make sure they're positioned correctly and to remove mistakes.
+''''Você pode também 'record' se tocar as notas ou em um teclado MIDI ou no teclado do computador, usando o botão de gravação (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll -toolbar de reprodução record.png). Durante a gravação, você ouvirá um 'clique' som cada batida para ajudá-lo a permanecer em sincronia com o compasso. Também pode ser útil para definir a quantização ao mínimo sua peça exige, por isso mesmo se você jogar um pouco mais cedo ou mais tarde, a nota será colocada no piano roll no momento correto. Você ainda pode ter que percorrer e editar as notas (como acima) para ter certeza de que eles estão posicionadas corretamente e eliminar erros.
 
-LMMS also give you the option to record in ‘playing along mode’. For this type of recording you use the record-button with the black center. LMMS will play the existing notes on piano-roll and allow you to play notes simultaneously. The notes you play will be recorded.
+LMMS também dar-lhe a opção de gravar em 'modo de jogar junto ". Para este tipo de gravação que você use o botão gravar com o centro negro. LMMS vai tocar as notas existentes no piano roll e permitem que você jogue notas simultaneamente. As notas que você joga será gravado.
 
-Once you have finished recording that section, press the '''stop''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-stop.png) or the space bar to stop recording.
+Depois de ter terminado de gravar essa seção, pressione a tecla''''parar o botão '(http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-stop.png) ou a barra de espaço para parar a gravação.
 
 = Editing Notes =
 
