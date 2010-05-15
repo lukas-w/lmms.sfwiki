@@ -16,21 +16,21 @@ We now want to add notes to make the melody.  Left-click in the first bar of the
 http://img101.imageshack.us/img101/8506/pianoroll.png
 <!--{\end{center}}-->
 
-== The first note ==
+== A primeira nota ==
 
-Now click in the black square just to the right of the 'A5' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
+Agora clique no quadrado preto à direita do A5 "(note que é de três linhas, ou semitons, abaixo da nota marcada C5). Isto irá criar uma nova mania - uma nota batida longa - a partir de que momento.
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://img682.imageshack.us/img682/3583/pianorollnoteareademo1s.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
+No entanto, isso é muito longa: precisamos de notas meio batida - uma colcheia - por muito tempo. Para mudar isso, basta mover o ponteiro do mouse para a borda direita da nota, até que o cursor muda para uma seta para a esquerda e direita. Então, segure o botão do mouse pressionado e arrastar o final da nota deixou dois "blocos" (cada bloco a ser um décimo sexto do bar).
 
-<!--{\begin{center}}-->
+<!--{ \ Begin (center }}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
-<!--{\end{center}}-->
+<!--{ \ End (center }}-->
 
-After this, the new notes we put down will be the same length, because the Piano Roll Editor is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
+Depois disso, as novas notas que colocamos abaixo será o mesmo comprimento, porque o Piano Roll Editor está definida como última nota (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
 
 == More notes ==
 
