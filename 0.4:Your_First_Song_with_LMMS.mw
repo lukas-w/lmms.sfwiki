@@ -44,19 +44,20 @@ Para colocar uma nota, é preciso apontar para a linha no início da batida; LMM
 
 Se você precisar excluir uma nota, basta clicar com o botão direito sobre ela.
 
-== Copy and paste ==
+Copie e cole == ==
 
-We now want to repeat those seven notes at the start of the bar in the next bar.  There are three ways to do this.
+Agora queremos repetir as sete notas no início da barra na barra ao lado. Existem três maneiras de fazer isso.
 
-The first and worst way to do it is to simply click the correct notes. But this is tedious. Let's use some of LMMS's features to speed this up.
+A primeira e pior maneira de fazer isso é simplesmente clique na nota correta. Mas isso é tedioso. Vamos usar alguns dos recursos LMMS para acelerar isso.
 
-The first real way to do it is to use the duplicator tool. First select the notes you want to copy. Hold down Ctrl and make a selection rectangle around the notes you want to copy. Next, hold Shift and drag the newly selected notes. You are now dragging a copy of the selected notes. You can place these where you want them to go.
+A primeira forma real de fazer isso é usar a ferramenta de duplicação. Primeiro, selecione as notas que você deseja copiar. Mantenha pressionada a tecla Ctrl e faça um retângulo de seleção ao redor da nota que você deseja copiar. Em seguida, segure a tecla Shift e arrastar as notas recém-selecionado. Agora você está arrastando uma cópia da nota selecionada. Você pode colocá-las onde quiser ir.
 
-Alternatively you can use good old copy and paste. Again, use Ctrl to select the notes you want, and then press Ctrl+C. Press Ctrl+V to paste the notes, and move them to their new location.
+Alternativamente, você pode usar o bom e velho copiar e colar. Novamente, use Ctrl para selecionar as notas que você deseja e pressione Ctrl + C. Pressione Ctrl + V para colar as notas, e movê-los para sua nova localização.
 
-To select all notes you can press Ctrl+A.
+Para selecionar todas as notas que você pode pressionar Ctrl + A.
 
-We can now press the '''play''' button (http://img685.imageshack.us/img685/2559/play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
+Agora nós podemos pressionar o''''play 'botão (http://img685.imageshack.us/img685/2559/play.png) no Piano Roll Editor janela para tocar a melodia de volta. Quando se chega ao final do último compasso em que existem notas, ele irá repetir automaticamente de volta para o início do primeiro compasso.
+<nowiki>Inserir texto não-formatado aqui</nowiki><nowiki>Inserir texto não-formatado aqui</nowiki>
 
 == Oops! ==
 
