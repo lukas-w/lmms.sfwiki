@@ -45,11 +45,11 @@ In order to create an instrument using a sample, drag the sample from the Sample
 
 You then create notes and edit them using the [[Piano Roll Editor]].
 
-= Samples as percussion =
+Exemplos como percussão = =
 
-A common use of samples is for percussion and repetitive note patterns.  To do this, drag the sample from the Side Bar into the [[Beat Bassline Editor|Beat + Bassline Editor]].  You can also double-click on a sample to directly add it to the Beat + Bassline Editor.  Like other instruments, the instrument plugin is displayed when the track is opened in case you want to edit any of its parameters.
+Um uso comum das amostras é de percussão e padrões repetitivos nota. Para fazer isso, arraste a amostra da barra lateral para o [Beat [Bassline Editor Beat | + Bassline Editor]]. Você também pode clicar duas vezes sobre uma amostra para adicioná-lo diretamente para o Beat + Bassline Editor. Como outros instrumentos, o plugin instrumento é exibido quando a pista está aberta no caso de você querer editar qualquer um dos seus parâmetros.
 
-A common problem especially with percussion samples is ‘click sound’ artefacts. If you get unwanted clicks try altering the attack ao. sustain in LFO/ENV. You can also attempt to find a ‘softspot’ using the ‘start’ / ‘end’ dials, but that is difficult. Use a sound-editor program like audacity if you are left with this option. The important thing is to start and end the sound when it is silent. It can be difficult to maintain the sound quality you initially liked and avoid clicks.
+artefatos Um problema comum, especialmente com amostras de percussão é "som de clique. Se você receber cliques indesejados tentar alterar o AO ataque. sustentar em LFO / ENV. Você também pode tentar encontrar um "softspot 'usando o' Start '/' fim 'dials, mas isso é difícil. Use um bom programa editor como o Audacity, se você é deixado com essa opção. O importante é começar e terminar o som quando ele está em silêncio. Pode ser difícil manter a qualidade do som que você gostou e inicialmente evitar cliques.
 
 = Navigation =
 
