@@ -32,27 +32,27 @@ LMMS também dar-lhe a opção de gravar em 'modo de jogar junto ". Para este ti
 
 Depois de ter terminado de gravar essa seção, pressione a tecla''''parar o botão '(http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-stop.png) ou a barra de espaço para parar a gravação.
 
-= Editing Notes =
+= Notas = edição
 
-One of the features in normal music is that there are minute variations. This is because the music is performed by a human artist. In computer generated music the quality is not present, but LMMS offer a method to achieve it.
-Just below the editor area in the piano-roll, you will find a section with vertical bars. One bar for each note in the piano-roll. Each bar represent one notes volume. 
-There are 2 different ways to adjust the volume. Rest your mouse over a note and scroll the mouse-wheel. The color-brightness change. The dimmer the lower.
-Of cause you also adjust each bar with your mouse and also drag the mouse along creating a wavy pattern. Especially percussion tracks can be improved with fine adjustments of the loudness.
+Uma das características da música é normal que haja variações minuto. Isto é porque a música é executada por um artista humano. Na música gerada por computador, a qualidade não está presente, mas LMMS oferecer um método para alcançá-lo.
+Logo abaixo da área do editor do piano-roll, você encontrará uma seção com barras verticais. Um bar para cada nota do piano-roll. Cada barra representa um volume de notas.
+Há duas maneiras diferentes para ajustar o volume. Descanse o mouse sobre uma nota e rolar a roda do mouse. A mudança de brilho da cor. O dimmer inferior.
+De causar-lhe também ajustar cada barra com o mouse e arraste o mouse também ao longo de criar um padrão ondulado. Especialmente faixas de percussão podem ser melhoradas com ajustes finos da intensidade.
 
 
-== Copy and paste ==
+Copie e cole == ==
 
-When you compose you will often find the need for duplicating a selected section or all the notes in the piano-roll. LMMS offers several ways to achieve this.
-All notes can be standard selected with CTRL+a
-Selections can be made by:
-* using the select-tool
-* using keyboard-shortcuts
-The select-tool in the speedbar works like a standard ‘rubber-frame’. The notes you touch with the frame will be selected. This is ok, but you will most often just like to use the keyboard-short CTRL+mouse-drag. This nifty method lets you select just as if you used the select-tool.
-Releasing CTRL will put LMMS editor back to the default draw-mode.
-Selected notes can be smart-copied: Rest your mouse on one of the selected notes. Hold SHIFT and drag the mouse to the wanted position. When you release the mouse, you will have a copy of your selected notes.
-For a complete reference of LMMS’ keyboard shortcuts see [[http://lmms.sourceforge.net/wiki/index.php?title=Key_Mappings Mapping & Shortcuts]]
+Quando você escreve você vai encontrar muitas vezes a necessidade de duplicação de uma seção selecionada ou todas as notas no piano-roll. LMMS oferece várias maneiras de conseguir isso.
+Todas as notas podem ser selecionados com padrão CTRL + A
+As seleções podem ser feitas:
+* Usando a ferramenta de escolha
+* Utilizando os atalhos de teclado
+A escolha de ferramentas no speedbar funciona como uma norma "moldura de borracha. As notas que você tocar com o quadro será selecionado. Isto é ok, mas você na maioria das vezes apenas como usar o teclado curto CTRL + arrastar mouse. Este método permite que você selecione estiloso como se você usou a ferramenta Selecionar.
+Liberar CTRL irá colocar editor LMMS volta para o padrão chamar-mode.
+notas seleccionadas podem ser copiados inteligentes: Descanse o mouse sobre uma das notas seleccionadas. Segure SHIFT e arraste o mouse para a posição desejada. Quando você soltar o mouse, você terá uma cópia de suas notas selecionadas.
+Para uma referência completa de atalhos LMMS 'teclado ver [http://lmms.sourceforge.net/wiki/index.php?title=Key_Mappings [Mapeamento e Atalhos]]
 
-== Note velocities ==
+== Observação == velocidades
 
 = Navigation =
 
