@@ -55,36 +55,36 @@ A ENV / LFO / Guia Filtro Este parecido com:
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
 <!--{ \ End (}}--> centro
 
-=== === Envelope Básico
+=== === Básico Envelope
 
-O''''Envelope "Um instrumento de forte Como suave OU É A Partir do Momento em que A nota É pressionado n DEPOIS é ele Liberado. Imediatamente Antes da nota É pressionado, o envelope ESTÁ em zero e do Instrumento não Produz ruído. A nota prossegue Através de um''''ataque "A partir de uma nota QUANDO É pressionado Até atingir o volume Máximo. De seguida, ha uma''inicial''hold "Período em que A nota continua um Intensidade Máxima. A nota, seguida em,'''''decadência de tom suave, hum o''''manter é que "Nível. Finalmente, uma nota é'''release'''d QUANDO ELA AO Desaparece silêncio. PoDE Também Haver ''um'''Pré-Atraso 'QUANDO Entre uma nota e pressionado É QUANDO Começa o volume Aumentar um.
+O''''Envelope "Um instrumento de forte Como suave OU É A Partir do Momento em que A nota n pressionado É DEPOIS É Liberado elemento. Imediatamente Antes da nota É pressionado, o envelope ESTÁ em zero e do Instrumento não Produz ruído. A nota prossegue Através de um''''ataque "A partir de Uma nota QUANDO É pressionado Até atingir o volume Máximo. De seguida, uma''inicial''hold ha "Período em que A nota continua UM Intensidade Máxima. A nota, em seguida ,''''' decadência de tom suave, Que É hum o''''manter" Nível. Finalmente, Uma nota é'''release'''d QUANDO ELA AO Desaparece silêncio. Também PoDE Haver''QUANDO um'''Pré-Atraso 'Uma nota Entre e pressionado É QUANDO UM Começa o volume Aumentar.
 
-Para ter Uma Idéia Para esses Parâmetros Que contribui par compará-los com o envelope de Instrumentos conhecidos. Um piano TEM UM Curto Muito Ataque e Espera Não, uma longa Demora parágrafo sustentar Uma Muito tranquilo e, finalmente, Que É Uma version Rápido Mas não Instantaneo. A flauta TEM UM Ataque Pouco Mais um, e Espera Muito Curto e decadência Como o sopro É gasto inicial. A sustentar o volume de Nível É, então, Quase completo, tem nota EA Uma Liberação Rápida. Um sino TEM UM Ataque de curta distancia, sustentar OU SEM segurar, Mas UM Lançamento Longo. Um Carro Passa Ataque UM TEM de Longo tempo e solte.
+Para ter Uma Idéia Para esses Parâmetros Que contribui par o envelope compará-los com Instrumentos de conhecidos. Um piano TEM UM Curto Muito Ataque e Espera Não, uma longa Demora Parágrafo sustentar Uma Muito tranquilo e, finalmente, Que É Uma versão Rápido Mas não Instantaneo. A flauta TEM UM UM Ataque Pouco Mais, e Espera Muito Curto e decadência Como o sopro É gasto inicial. A sustentar o volume de Nível É, então, Quase completo, tem nota EA Uma Liberação Rápida. Um sino TEM UM Ataque de curta distancia, sustentar OU SEM segurar, Mas UM Lançamento Longo. Um Carro Passa Ataque UM TEM de Longo tempo e solte.
 
-Três alvo A ENV / LFO / Seção Três dez Filter "sub-guias" o Que selecionar 'Separados envelopes n º. O Padrão, EO discutido acima, É o volume Alvo. Voce PoDE selecionar o Destino da mesma forma Que VOCÊ selecione uma Guia nenhum instrumento, não clicando Rótulo. Para o envelope Controlar, VOCÊ TEM SEIS Botões parágrafo Definição da CADA UM dos Parâmetros Acima - Atraso de pré-Ataque, mantenha, decadência, Liberação sustentar - e uhm Sétimo de Controlar A quantidade de Efeito Que o envelope Sobre TEM O parâmetro.
+Alvo Três A ENV / LFO / Seção Três dez Filter "sub-guias" o Que selecionar 'Separados envelopes n º. O Padrão, EO discutido acima, É o volume Alvo. Voce selecionar PoDE o Destino da mesma forma Que VOCÊ selecione Uma Instrumento softwares antigos Guia, clicando Não Rótulo. Para o envelope Controlar, VOCÊ TEM SEIS Botões Parágrafo Definição da CADA UM dos Parâmetros Acima - Atraso de pré-Ataque, mantenha, decadência, sustentar Liberação - e uhm Sétimo QUANTIDADE de Controlar o Efeito de Um envelope Que Sobre TEM O parâmetro.
 
-Para o envelope de volume, esse "Montante" Não afetam Realmente o som - o envelope tão funciona se o controle Montante e 100%. Observe Que VOCÊ PoDE Fixar o Montante Usando Seu OU Botão de controle não clique Gráfico de envelope, a Fim de transformá-lo Completamente Desligado OU Ligado. O gráfico e Verde QUANDO ESTÁ Ligado, cinza e off, QUANDO Uma sombra Entre as Duas cores, Quando o Controle e TOTALMENTE Entre um (1) e TOTALMENTE fóruns (0). O valor Ser PoDE Também Girado parágrafo Baixo negativo UM Pará, Uma Característica Que então E Útil Para a Corte e como METAS Q / Reso.
+Para o envelope de volume, esse "Montante" Não afetam Realmente o som - o envelope Tão funciona se o controle Montante e 100%. Observe Que VOCÊ PoDE Fixar o Montante Usando Seu OU Botão de controle Não clique Gráfico de envelope, a Fim de transformá-lo Completamente Desligado OU Ligado. O Gráfico e Verde QUANDO ESTÁ Ligado, cinza e off, QUANDO Uma sombra Entre as Duas cores, Quando o Controle e TOTALMENTE Entre UM (1) e fóruns TOTALMENTE (0). O valor Ser PoDE Também Girado Parágrafo Baixo negativo UM Pará, Uma Característica Que então E Útil Para a Corte e Como METAS Q / Reso.
 
 A FIM de compreender o que A Corte e Q / METAS Fazer Reso, temos de lidar com OS Primeiro Filtros.
 
 Filtros === ===
 
-Um filtro de UM e método de Mudança som de hum, permitindo ALGUMAS Freqüências Por Que e como reduzir Freqüências outras. Por exemplo, hum filtro Passa-baixa Apenas o Que Permite, Baixo, OU Freqüências baixas, Através de cortes e de alta, Agudos do sistema operacional, como Freqüências. Um Que isso ocorre com freqüência É definido pelo''''corte "controle de freqüência.
+Um filtro de UM e método de som Mudança de hum, permitindo ALGUMAS Freqüências Por Que e Como reduzir Freqüências outras. Por exemplo, hum filtro Passa-baixa Apenas o Que Permite, Baixo, OU Baixas Freqüências, Através de cortes e de alta, Agudos do Sistema Operacional, Como Freqüências. Um Que isso com freqüência Ocorre É definido pelo''''corte "controle de freqüência.
 
-Embora Seja Tecnicamente Possível Construir Uma freqüência Que corta "como inteiramente indesejadas Freqüências, Que normalmente Apresenta Efeitos indesejados e atrasos sem som. Portanto, a maioria dos Filtros um'''''factor dez Também Q ", Que Controla uma configuração íngreme OU É cortantes o drop-off. Quanto Maior o fator Q, Mais abrupta do drop-off no Nível do som ALGUNS. Em Modelos de filtro, o fator Q Também Faz Uma ressonância em harmônicos da freqüência de corte, muitas Vezes o factor Também Q é chamado de''o filtro de ressonância''.
+Embora Seja Tecnicamente Possível Construir Uma freqüência Que corta "como inteiramente indesejadas Freqüências, Que normalmente Apresenta Efeitos indesejados e som sem atrasos. Portanto, a maioria dos um'''''factor Filtros dez Também Q", Que Controla Uma configuração íngreme OU É cortantes o drop-off. Quanto Maior o fator Q, Mais abrupta do drop-off no Nível do ALGUNS som. Em Modelos de filtro, o fator Q Também Faz Uma ressonância em harmônicos da freqüência de corte, muitas Vezes o factor Também Q é chamado de''o filtro de ressonância''.
 
-A FIM de ativar o filtro, um barra'''''filtro LIGAR Título ', e à luz, acenderá à Esquerda. QUANDO ESTA ESTÁ Luz Acesa, o filtro ESTÁ Ativo. Tenha em Mente Que Filtrar o som de Um instrumento Que adiciona overhead Cálculo hum hum Pequeno e PoDE Adicionar Pequeno Atraso n o som, por isso, SE VOCÊ Não estiver Usando o filtro, seguida em, mante-lo Desligado.
+A FIM de ativar o filtro, hum barra'''''filtro LIGAR Título ', e à luz, acenderá à Esquerda. QUANDO ESTA ESTÁ Luz Acesa, o filtro ESTÁ Ativo. Tenha em Mente Que o som de Filtrar Um instrumento Que adiciona overhead Cálculo hum hum Pequeno e PoDE Adicionar Pequeno Atraso sem som, por isso, SE VOCÊ estiver Não Usando o filtro, em seguida, mante-lo Desligado.
 
 Os Tipos de filtro Que oferece LMMS: São Paulo
 
 Lowpass'''''-Este filtro Permite, Que Através Baixas Freqüências.
 Highpass'''''-Este filtro Permite, altas Freqüências Completamente.
-''*''' Czpg CSG Bandpass 'e'''''Bandpass' - Filtros Estes permitem Certa Apenas uma banda de Por Freqüências.
+''*''' E'''''Bandpass Czpg CSG Bandpass '- Filtros Estes permitem Certa Apenas uma banda de Por Freqüências.
 ''*''' Notch "- o inverso do filtro Passa-Banda, Este corta Apenas uma determinada faixa de Frequencias.
-Moog'''''-A Modificação do filtro Passa-baixa normal Que se Tornou Por popular sintetizadores Moog.
-*'''2 X-Lowpass''' Um filtro lowpass com o dobro do fator Q.
+Moog'''''-A Modificação do filtro Passa-baixa normal Que se Tornou Por sintetizadores Moog popular.
+*'''2''X-Lowpass "Um filtro lowpass com o dobro do fator Q.
 
-freqüência CADA tipo de filtro o''''corte Permite, de-LHE Controlar 'e quantidade de''' Q / Reso'''manutenção. Voce PoDE Experimentar com isso, uma ESCOLHA DE UM plugin Que Gera Múltiplas Freqüências - Usando Além de nada Uma onda senoidal vai Fazer isso - e então o corte Definição da igualdade de oportunidades fator Q e ver Como ela muda o som.
+freqüência CADA tipo de filtro o''''corte Permite, e de-LHE Controlar 'QUANTIDADE''de' Q / Reso'''manutenção. Voce PoDE com isso Experimentar, Uma ESCOLHA DE UM plugin Que Gera Múltiplas Freqüências - Usando Além de nada Uma onda senoidal vai Fazer isso - e então o corte Definição da Igualdade de Oportunidades fator Q e ver Como ela muda o som.
 
 === === Filtros Envelopes com
 
