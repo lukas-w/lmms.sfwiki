@@ -94,16 +94,16 @@ Outro USO Típico Adicionar Deste É Uma ressonância de Um instrumento Que muda
 
 === O oscilador de baixa freqüência ===
 
-Muitas Vezes VOCÊ PoDE Querer ter o som Mudar OU vacilar de forma repetitiva. Aqui É Onde o oscilador de baixa freqüência VEM Dentro É chamado de baixa freqüência "" Porque é ele n ter projetado ciclos de Até Dois segundos (?) Ao inves de muitas centenas de milhares OU Por segundo ciclos de som audível um. O oscilador de baixa freqüência É geralmente chamado de LFO parágrafo breve.
+Muitas Vezes VOCÊ PoDE Querer ter o som Mudar OU vacilar de forma repetitiva. Aqui É Onde o oscilador de baixa freqüência VEM Dentro É chamado de baixa freqüência "" Porque É ter n elemento projetado segundos ciclos de Até Dois (?) Ao inves de muitas centenas de milhares OU Por segundo ciclos de hum som audível. O oscilador de baixa freqüência É geralmente chamado de LFO Parágrafo breve.
 
-A LFO fornecidas LMMS Permite, Por-LHE Controlar o valor do volume, corte e fator Q METAS de forma Independente - o LFO n CADA UM É Mostrado Sob o Mesmo guia "Como o envelope n o Mesmo Destino. CADA UM TEM Quatro Parâmetros Definidas Ser Que podem:
+A LFO fornecidas LMMS Permite, Por-LHE Controlar o valor do volume, corte e fator Q METAS de forma Independente - o LFO n CADA UM É Mostrado Sob o Mesmo Guia "Como o envelope não Mesmo Destino. CADA UM TEM Quatro Parâmetros Definidas Ser Que podem:
 
-*''Antes A'''delay 'do Começa oscilador.
-*''OU A'''ataque "fade-in taxa do oscilador - uma taxa nd qua Ele vai ter de Começar um Efeito.
-* A'''''' Velocidade de oscilação. Este e Provavelmente o Parâmetro Que São propensos Mais uma USAR. É medido em milissegundos Por oscilação, muitas Vezes Ninguém PORQUE SABE O Tempo Necessário n º ciclo completo UM Do que uma taxa de Hertz. (Também é isso PORQUE A precisão da Fixação do LFO em frações de Hertz inferior É uma defini-la em frações de segundo.)
+*''Antes A'''delay 'do oscilador Começa.
+*''OU A'''ataque "fade-in taxa do oscilador - Uma taxa nd qua Ele vai ter de hum Começar Efeito.
+* A'''''' Velocidade de oscilação. Este e Provavelmente o Parâmetro Que São propensos Mais uma USAR. É medido em milissegundos Por oscilação, muitas Vezes Ninguém PORQUE SABE O Tempo Necessário n º ciclo completo UM Do que Uma taxa de Hertz. (Também é isso PORQUE A precisão da Fixação do LFO em frações de Hertz inferior e Uma defini-la em frações de segundo.)
 * O Montante'''''' Que o LFO afeta o Destino dado. Como o envelope, VOCÊ Definição da PoDE o controle de volume manual clique OU NA TELA de forma de onda da LFO à Esquerda n ativa-lo OU Desligado.
 
-Instrumentos Infelizmente filhos Gera VSTige internamente ". Isso Significa Que VOCÊ Não Será Capaz de USAR o ENV / posibillities Guia LFO Sobre os Instrumentos Tudo em VST. ZynAddSubFX É de fato Um instrumento VST Incluídos LMMS, portanto, ESSA limitação vale parágrafo Também ZynAddSubFX.
+Instrumentos Infelizmente Filhos Gera VSTige internamente ". Isso Significa Que VOCÊ Não Será Capaz de USAR o ENV / posibillities Guia LFO Sobre os Instrumentos VST em Tudo. ZynAddSubFX É de fato Um instrumento VST Incluídos LMMS, portanto, ESSA limitação vale Parágrafo Também ZynAddSubFX.
 No entanto, pode Ainda Adicionar Efeitos LADSPA VSTige Instrumento n FX Guia.
 
 == O Arp Guia Chord / ==
