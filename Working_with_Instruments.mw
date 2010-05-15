@@ -20,16 +20,16 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-plugin-tripleosc.png
 
 A janela é dividida em três secções principais - o instrumento de controle na parte superior, os controles de som no meio e as teclas de piano ao fundo.
 
-== == Controles de um instrumento
+== == Controles de Instrumento UM
 
 Os comandos principais são:
 
 * O volume do instrumento.
-* É posição no espaço (ou seja, a esquerda ou direita pan posição frente e para trás fade posição). Estes podem ser controlados por indepentently [[automação]] como a maioria dos outros controles.
-* O canal de efeitos que o instrumento está usando atualmente. No momento em que o canal de efeitos não é utilizada.
-* Um botão para salvar as configurações deste instrumento.
+* E POSIÇÃO No espaço (ou seja, uma unidade organizacional Esquerda Direita POSIÇÃO pan Frente e Trás n º POSIÇÃO fade). Estes podem Ser Controlados Por indepentently [[Automação]] Como uma maioria controles dos Outros.
+* O canal de Efeitos Que o Instrumento ESTÁ Usando Atualmente. Momento em nenhum canal de Efeitos O Que Não É Utilizada.
+* Um Botão salvar Para as configurações Deste Instrumento.
 
-Estas estão sempre presentes, não importa o plugin que você selecionou.
+Estás Estão os semper Presentes, Não Importa o Que plugin selecionou voce.
 
 == == Controles de som
 
