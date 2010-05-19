@@ -1,81 +1,80 @@
-Começando com LMMS = =
-LMMS sequenciador UM é, síntese e compositor software parágrafo Linux e Windows. Ele Incluí Uma série de plug-ins de sintetizadores em software, uma amostra de Reprodução de Áudio, bateria e composição piano roll, Ferramentas de Automação e Acesso EAo Efeitos LADSPA.
+= Getting Started with LMMS = 
+LMMS is a sequencer, software synthesis and composer for Linux and Windows.  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
 
-QUANDO VOCÊ LMMS Primeiro Lançamento, Vários Componentes-chave mostrados São Paulo. O [[Main Menu Bar]] ESTÁ NA parte superior, acima do [[Tool Bar]] e controles faixa principal. A barra de ferramentas permanentemente à ESQUERDA E o [[Side Bar]], Que É Uma MANEIRA Fácil de Instrumentos acessar os, filhos, presets e projetos. As Janelas Por Padrão São exibidas como [Song [Editor]], o [Beat [Bassline Editor Beat | + Bassline Editor]] EO [[Project] Notas].
+When you first launch LMMS, several key components are shown.  The [[Main Menu Bar]] is at the top, above the [[Tool Bar]] and master track controls.  The toolbar permanently on the left is the [[Side Bar]], which is an easy way to access the instruments, sounds, presets and projects.  The windows displayed by default are the [[Song Editor]], the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Project Notes]].
 
-Para inserir Uma das muitas Fábricas plugin Instrumento pré-Definido Para a pré [Beat [Bassline Editor Beat | + Bassline Editor]] OU [Canção [editor]], clique nd estrela amarela (lmms http://tangram.dnsalias.net/ -imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side Bar parágrafo exibir uma barra [[lateral # Presets | Presets]].
+To insert one of the many factory pre-defined instrument plugin preset into the [[Beat Bassline Editor|Beat + Bassline Editor]] or [[Song Editor]], click the yellow star (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in the Side Bar to display the [[Side Bar#Presets|Presets]]. 
 
-PoDE Voce Também amostras inserir, escolhendo o Ícone "Meu amostras" http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png () a Partir da barra lateral. Voce clicar e segurar PoDE OU UM Instrumento uma amostra pré-Gera Ouvir o som Que ELE. Voce PoDE então Instrumentos colocar OS Que VOCÊ Quer parágrafo editor o, arrastando-o par o editor. Voce Fazer PoDE Também Duplo clique presets parágrafo coloca-los Diretamente não Beat + Bassline Editor, OU VOCÊ PoDE clicar com o Botão Direito Sobre o Instrumento nd Lista LMMS e menu de contexto UM abrirá. Aqui VOCÊ TEM uma Opção de enviar o Instrumento for clicado em UM OU Vazio slot não Instrumento Atual Ativo. Active Um 'Instrumento e o Instrumento Que São Destaque nd editor música. Use uma Opção de enviar um Instrumento n. Ativo SE VOCÊ Precisa carregar Um instrumento VSTige.
+You can also insert samples by choosing the 'My samples' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png) from the Side Bar.  You can click and hold on an instrument preset or sample to hear the sound it generates.  You can then place the instruments you want into the editor by dragging it to the editor. You can also double click presets to place them directly into the Beat + Bassline Editor, or you can right-click on the instrument in the list and LMMS will open a context-menu. You here have the option to send the clicked instrument into an empty slot or into the current active instrument. An 'Active Instrument' is the instrument that are highlighted in the song-editor. Use the send-to-active-instrument option if you need to load a VSTige instrument.
 
-Mais tarde VOCÊ PoDE Gostar de criar Instrumentos SEUS próprios A partir do zero. A barra lateral do 1. Botão Abre o browser predefinido. Estes São Padrão Vazio pré-Modelos Que PoDE VOCÊ USAR SEUS parágrafo Instrumentos próprios.
-(PoDE Fazer Voce Também ofcause Alterações Instrumentos de EAo Definido Fábrica e Como salvar próprios OS SEUS. Substituindo OS Instrumentos de Fábrica Não definido É recomendado)
+Later you may like to create your own instruments from scratch. The sidebar's 1. button opens the preset-browser. These are empty default preset-templates that you can use for your own instruments.
+(You can ofcause also make changes to the factory-defined instruments and save those as your own. Overwriting existing factory-defined instruments is not recommended)
 
-SE VOCÊ Erro cometer hum hum e deseja Instrumento removedor, clique Dentro NA SUA cinza 'toolkit' Ícone do editor e Escolha "Remover faixa ESTA. Os Instrumentos Fábrica em São divididos e fornecidos UsuÃ ¡rio e subpastas não Especificado Seu Sistema de Arquivos PoDE Ser Usada n. Instrumentos organizar OU OS amostras heirarchially.
+If you make a mistake and want to remove an instrument, click on its grey 'toolkit' icon within the editor and choose 'Remove this track'.  Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organise the instruments or samples heirarchially.
 
-QUANDO VOCÊ Insere Um instrumento n o editor, a Janela do editor de Instrumento n º Será automaticamente Aberto voce. Também Voce PoDE Este editor não ver clicando cinza 'nome' Botão OU editores da música Beat + Bassline. QUANDO VOCÊ não clica Botão o nome "Botão ira ligthgray Mudar para. Este Instrumento e ágora o" Active Instrumento. Isso e importante QUANDO VOCÊ Começar um USAR Instrumentos VSTige! Os "Actos de Nome Botão 'Como Uma Alavanca, n dissipar uma Janela do editor Novamente, VOCÊ Também PoDE clicar NA SUA Janela de controles normais. Instrumentos guias dez Cinco: Plugin, env / LFO / Filtro, Arp / Chord, FX e MIDI . As "Mudanças Plugin Guia" com o tipo de instrumento, Todas As outras São Padrão CADA Instrumento n º.
+When you insert an instrument into the editor, the instrument's editor window will be automatically opened for you.  You can also see this editor by clicking on its grey 'name' button in the Song or Beat + Bassline editors. When you click the 'name' button the button will change to ligthgray. This instrument is now the 'Active Instrument'. This is important when you start to use VSTige instruments! The 'name' button acts as a toggle, to dispel the editor window again; you can also click on its window controls as normal.  Instruments have five tabs: Plugin, Env/LFO/Filter, Arp/Chord, FX and MIDI.  The 'Plugin' tab changes with the type of instrument; all other tabs are standard for every instrument.
 
-== Criando Track UM ==
+== Creating a Track ==
 
-A forma Padrão parágrafo criar Uma trilha Instrumentos e agregar de Percussão Para o [Beat [Bassline Editor Beat | + Bassline Editor]] e OS Instrumentos de FAIXAS em melodia]], o [[Canção Editor. Em seguida, CRIE loops de bateria Diferentes Usando o'''Add''bassline "Botão não Beat + Bassline Editor parágrafo CADA Ritmo Que Quiser VOCÊ - Uma Linha de Baixo principal, Uma Linha de hihat, Especiais ritmos e quebras, etc Listados São Estes NA Canção Editor Como São eles criados. Para torna-los de som, clique nd barra de iniciar Na linha de tempo da pista UM criar parágrafo novo segmento. PoDE Voce Também arrastar A SUA Extremidade parágrafo fóruns parágrafo Fazer o Padrão de bares Atravessar Vários. A MESMA técnica PoDE Ser Usada parágrafo Linhas de Baixo repetitivas.
+The standard way to create a track is to add drum instruments to the [[Beat Bassline Editor|Beat + Bassline Editor]] and instruments for melody tracks into the [[Song Editor]].  Then create different drum loops using the '''Add bassline''' button in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are listed in the Song Editor as they're created.  To make them sound, click on the start bar in the track's timeline to create a new segment.  You can also drag its end out to make the pattern go across multiple bars.   The same technique can be used for repetitive bass lines.
 
-Para Melodia FAIXAS, clique nd barra de Começar um novo segmento criar UM E, em seguida, clique Duas Vezes Nesse segmento parágrafo Abrir o [[Piano Roll Editor]]. Coloque Notas nenhum piano roll, clicando em Linha de iniciar SUA quanta (para CRIA-los) E, em seguida, arrastando SUA Borda Direita n sertão longa curta OU VOCÊ Como deseja. Também Voce PoDE arrastar Notas Acima e abaixo da escala e Para a Frente e Trás parágrafo sem tempo par posicioná-los corretamente. Alternativamente, VOCÊ PoDE pressionar o Botão "record" no piano roll Editor e tocar em tempo real Notas UO, sem Teclado (Z = C, S = C #, X = D, Q = C, etc) ou de hum Teclado MIDI.
+For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = C, etc) or on a MIDI keyboard.
 
-Por último hit 'play' e desfrutar da Sua Música!
-[[Imagem: Exemplo.jpg]] [[Imagem: Exemplo.jpg]]
+Finally hit 'play' and enjoy your music!
 
-= Drum Tabs Padrão / Mapas =
+= Drum Pattern Tabs/Maps =
 
-(Em andamento)
+(work in progress)
 
-('''''Figura.1') (''''exemplo)
+('''figure.1''') ('''example''')
 
-<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
-Bumbo | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
-tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
-fechado hat-oi | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
-| Open hat-oi / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
-</ Pre>
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+open hi-hat    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</pre>
 
-X = nota relativa;
-/ Silence =
+X=note on ;
+/=silence
 
-acima em (Figura.1), temos um padrão de 4 batida simples usando 16ths ou 16 segmentos dentro do nosso padrão. Você pode ver de "bumbo", que existe um X (note on) na 1,5,9,13, isso nos dá a típica batida utilizada na maioria techno / trance ou estilo de música house. Em seguida é a tarola, 5, e 13, que nos dá um tipo de swing para sentir o ritmo. E, finalmente, a abertura eo encerramento de oi-chapéus elogio ao ritmo.
- 
-Agora que você tem a idéia geral, esses padrões podem ser aplicados para as suas músicas em LMMS usando o "beat editor + bassline" (que usa o 16ths/16 passos para um bar ou 4 tempos).
-
-
-Abaixo estão alguns exemplos para você experimentar e talvez usar em suas canções.
-
-('''1''')''' Amen Break'''- [este era um drum solo originalmente realizado por Sylvester Gregory Coleman, mas tem sido muito amostrado e armou-se para uso em drum and bass e estilos selva]
+above in (Figure.1) we have a simple 4 beat pattern using 16ths or 16 segments within our pattern. You can see from "Bass drum" that there is an X (note on) at 1,5,9,13, ,this gives us the typical beat used in most techno/trance or house style music. Next is the snare drum at 5, and 13, which gives us a swing type feel to the rhythm. And finally the open and closed hi-hats to compliment the rhythm.
+ 
+now that you have the general idea these patterns can be applied to your songs in LMMS using the "beat + bassline editor" (which uses the 16ths/16 steps to 1 bar or 4 beats).
 
 
-<pre> | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - |
-Bater Cym Ride /. : |-Rrrrrrrr | rrrrrrrr-|-rrrrrrrr | RRRRRCRR-|
-Bass / Snare Dr.: BBS | - S-SBBS - S | BBS - S-SBBS - S | BBS - SB-S-S --- |-SBBS - SB S-S --- - |
-</ Pre>
+below are some examples for you to try out and perhaps use in your songs.
+
+('''1''') '''Amen Break''' - [this was a drum solo originally performed by Gregory Sylvester Coleman, but has been heavily sampled and pitched up for use in drum and bass and jungle styles]
 
 
-('''2''')''''Típica Break-beat' - [movendo o bumbo fora do tempo de 04/04 regular criamos um] "break-beat
+<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
+Crash/Ride Cym. :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
+Bass/Snare Dr.  :  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
+</pre>
 
 
-<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
-Bumbo | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
-tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
-fechado hat-oi | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
-aberto | hat-oi / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
-</ Pre>
+('''2''') '''Typical Break-beat''' - [by moving the Bass drum out of regular 4/4 timing we create a "break-beat]
 
 
-('''3''')''' Prodigy "Smack My Bitch Up"'''-] [intro break-beat [1 mostrado na Beat + bassline Editor]
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
+open hi-hat    | / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</pre>
+
+
+('''3''') '''Prodigy "Smack My Bitch Up"''' - [break-beat intro] [shown 1st in the Beat+bassline Editor]
 
 
 http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
 
-Principal [beat]
+[main beat]
 
 http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
 
-(* Nota do volume reduzido de tarola nos 2 exemplos acima, ou seja, o <FONT esmaecido COLOR="#00ff00"> led's> </ FONT em determinadas etapas)
+(*note the lowered volumes of the snare drum in the 2 examples above i.e the dimmed <FONT COLOR="#00ff00">led's</FONT> in certain steps)
 
 = Navigation =
 
