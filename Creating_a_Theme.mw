@@ -8,25 +8,25 @@ On a regular install on Linux, the default ''themes'' directory is:
  /usr/share/lmms/themes/
 On Windows it's in the ''themes'' folder inside the LMMS installation directory.
 
-=== Prerequisites ===
+=== Pre-Requisiti ===
 To create a new theme, or to modify an existent one, some fairly basic knowledge is required:
 * image manipulation skills ''(gimp, inkscape, paint, ..)''
 * browsing through directories
 * compressing files into archives
 * LMMS Sharing Platform account
 
-=== Remember ===
+=== Ricordate ===
 -The default theme is named ''default'', and can be found in the ''themes'' folder.<br>
 -Each theme has its own folder with its images inside.<br>
 -If your theme is missing some files, LMMS will use the default ones.<br>
 -Capitalization matters on Linux.
 
-== Getting Started ==
+== Per Inziare ==
 The best thing is to make a copy of the ''default'' folder, rename that copy (i.e. ''"MyTheme"''), and then open the image files with an image editor and modify them as you wish. You can also replace them completely, but be careful with the image dimensions: sometimes they can be a bit different; sometimes they cannot!
 
-== Testing Your Theme ==
-To test your theme, all you need to do is open LMMS, go to Edit->Settings->Paths (folder icon), and enter the path to your new theme folder.
+== Testare il vostro Tema ==
+Per testare il proprio tema, tutto quello che dovete fare &egrave; lanciare LMMS, andare su Edit->Settings->Paths (icona cartella), ed inserire il percorso alla cartella del vostro nuovo tema.
 
-== Sharing Your Theme ==
-Once your theme is complete, it's a great idea to compress it to ''.tar.gz'' and share it with the community :) The [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform] is the best place for that. Remember that you'll need to register to upload content (it's free).
-*Just be cautious about licences and patent infringements if you used others' images!
+== Condividere il vostro Tema ==
+Una volta completato, risulta utile comprimerlo in un ''.tar.gz'' e condividerlo con la community :) [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform] &egrave; il miglior posto per questo. Ricordate che dovrete registrarvi per caricare del contenuto (in modo gratuito).
+*State solo attenti alle infrazioni sulle licenze e diritti vari se state utilizzando immagini di altri!
