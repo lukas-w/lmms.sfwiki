@@ -1,6 +1,6 @@
 LMMS is very flexible when it comes to theming its interface. All the image files used by the program can be accessed directly through a directory and edited by an image editor. Unfortunately, despite the ease, there hasn't been much interest in theme development; only a few themes have made it to the [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform], where they can be downloaded, rated, and commented on by users. This guide aims to help, guide, and motivate artists interested in creating themes, and interest those who aren't.
 
-== About Theming ==
+== Sulla Creazione di Temi ==
 
 A ''theme'' is a collection of files (mostly images) that set the "look and feel" of LMMS. It consists of a ''.css'' stylesheet, an ''.xml'' file, and many ''.png'' images. It can be usually downloaded as a ''.tar.gz'' archive which has to be extracted in the ''themes'' directory.
 
