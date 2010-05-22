@@ -1,104 +1,104 @@
 Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song.
 
-= Automatizar esse! =
+= Automate This! =
 
-A lista dos controles que podem ser automatizadas é vasto, como pode ser visto a partir da lista em [[Automação Editor # What_can_be_automated.3F | Automação Editor de referência]]. No entanto, vale a pena olhar para esta lista com mais detalhes para ver a grande quantidade de controles que podem ser automatizadas:
+The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
 
-* Track controles, como o volume e as configurações de Mute, tanto no [[Beat Beat Bassline Editor | + Bassline Editor]] e] a [[Piano Roll Editor].
-* Praticamente todos os controles de Instrumento:
-** As definições do acto [[Plugins | Plugin]] em si, digno de uma subseção em sua própria direita:
-*** Todos os botões, como fase de ajuste e pan.
-*** Todos os seletores de vários valores, tais como a forma de onda de cada oscilador e mesmo tipo de mistura entre eles.
-** Os botões de controle do envelope, LFO e parâmetros de filtro.
-** Os botões de controle do filtro e LFO.
-** O tipo de filtro selecionado.
-** O tipo de arpejo e comprimento.
-** Os controles para todos os efeitos que você tem sobre o instrumento, e se todos os efeitos estão ligados ou não.
-** Os canais MIDI para receber e enviar dados sobre a nota.
-* O mestre tempo, tom e volume.
+* Track controls such as the Volume and Mute settings, in both the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Piano Roll Editor]].
+* Virtually all Instrument controls:
+** The settings of the Instrument [[Plugins|Plugin]] itself, worthy of a subsection in its own right:
+*** All the knobs, such as phase, tuning, and pan.
+*** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix type between them.
+** The knobs controlling the envelope, LFO and filter parameters.
+** The radio buttons controlling the filter and LFO.
+** The type of filter selected.
+** The arpeggio type and length.
+** The controls for any effects you've got on the instrument, and whether all effects are on or not.
+** The MIDI channels to receive and send note data on.
+* The master Tempo, Pitch and Volume.
 
-Basicamente opção, clique com o botão direito sobre ele, e se ele tem um "Open in Editor Automation" no menu de contexto, é automatable!
+Basically, right-click on it, and if it's got an 'Open in Automation Editor' option in the context menu, it's automatable!
 
-Há duas coisas a lembrar quando os controles automação:
+There are two things to remember when automating controls:
 
-* A automação para o controlo de faixas em uma batida / bassline só vai para o primeiro compasso (ou como muitos bares como o beat / padrão bassline dura).
-* Todos os outros automação começa a partir de uma barra do editor de música.
+* The automation for controls on tracks in a beat/bassline only goes for the first bar (or as many bars as the beat/bassline pattern lasts).
+* All other automation starts from bar 1 of the song editor.
 
-Vejamos alguns exemplos de como usar a automação em suas canções.
+Let's look at some examples of how to use automation in your songs.
 
-== Em == Fading
+== Fading in ==
 
-O Comum Mais e Mais simples parágrafo em Automação USO É UM Instrumento de atenuação No começo do Desempenho, De que modo o Pedaço dominantes Não Entra em que. É isto conseguido Através da automatização do controle de volume do Instrumento nd Canção Editor.
+The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece when it enters.  This is accomplished by automating the volume control of the instrument in the Song Editor.
 
-A primeira Coisa Que VOCÊ vai Descobrir Que É um AUTOMAÇÃO E semper medido A partir da música do início, independentemente do local Onde uma faixa de instrumento o Seu dez Primeiro segmento. SE VOCÊ TEM então o Primeiro bar de rolo nd trilha piano Instrumento aparecendo nd barra de 33, VOCÊ vai precisar parágrafo Começar um Desvanecer-se o Instrumento nd Barra 33 AO inves de hum bar.
+The first thing you will find out is that automation is always measured from the start of the song, regardless of where the instrument track has its first segment.  So if you have the first bar of piano roll in the instrument track appearing in bar 33, you will need to start fading the instrument in at bar 33 rather than bar 1.
 
-A segunda Coisa Que VOCÊ vai Descobrir e Um Que fade em bares normalmente Duram Para muitos, e E mais Fácil parágrafo desenhar Uma Linha diagonal de comprimento Que, Quando uma escala horizontal (http://tangram.dnsalias.net/lmms-imgs/lmms -0.3.1/automation-toolbar-horizzoom-100.png) e Reduzido n º Cerca de 25%.
+The second thing you will find out is that a fade in will usually last for many bars, and it's easier to draw a diagonal line of that length when the horizontal scale (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-horizzoom-100.png) is reduced to about 25%.
 
-A terceira Coisa Que VOCÊ vai Descobrir Que um ter e Monte de Pontos de Controle e Necessário n o volume, POIs Pessoas Não São Muito sensíveis um volume não Pequenas Mudanças. Além disso, pontos de Controlo ter Mais, Uma edição Mais tarde SE VOCÊ Mudar SUA Mente. DeFina o controle de quantização http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png () para Cerca de 01/02 e 01/04 OU VOCÊ Ainda PoDE obter Linha relativamente hum, hum Mesmo sem ter monte de Pontos de controle desnecessário SE VOCÊ Quiser mudá-lo tarde MAIS.
+The third thing you will find out is that having lots of control points is unnecessary for volume, as people are not very sensitive to small changes in volume.  In addition, having more control points means more editing later if you change your mind.  Set the quantisation control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png) to around 1/2 or 1/4 and you can still get a relatively even line without having a lot of unnecessary control points if you want to change it later.
 
-Por exemplo, Nesta Peça:
+For example, in this piece:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-songeditor.png
 
-A Automação nenhum controle da faixa Moog Primeiro volume parecido com Este:
+The automation on the first Moog track's Volume control looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automation.png
 
-Observar uma POSIÇÃO da Régua tempo de - o fade in Cerca Começa em 41 de bar, QUANDO Ocorrem como Primeiras Notas.
+Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
 
-== == Adicionando Expressão
+== Adding expression ==
 
-Ao automatizar o controle de tempo par conseguir dominar Mais lento (a''''rallentando) à Medida Que se aproxima o final de Uma frase E, em seguida, retomar o Seu DEPOIS logo Ritmo, VOCÊ Dá o Seu Pedaço de Expressão - Como SE UM Jogador de piano ao vivo estivesse enfatizando Que uma seção. Isso UM Parece Pouco Como UM único "dente de serra" negativo Retirado da Automação, Como
+By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
 
-== == Efeitos do ácido Eighties
+== Eighties acid effects ==
 
-O http://en.wikipedia.org/wiki/Acid_house [Acid House] e http://en.wikipedia.org/wiki/Acid_trance [Movimentos Acid Trance ERAM] famosos Por utilizar o Roland TR303 parágrafo tocar Uma melodia repetitiva e variação da freqüência de corte do filtro e Outros Parâmetros de envelope n º Através alterar o som de Toda uma PECA. Devido a Natureza da melodia repetitiva, É tentador USAR UM armazenar n bassline uma melodia, uma Automação Mas não Beat / Bassline Editor tão vai enquanto o Padrão - por isso, a Automação VOCÊ vai colocar em repetir-se CADA Vez o Padrão se repete, AO inves de Mudança constante.
+The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TR303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
 
-Primeiro, CRIE Uma nova pista com qualquer Instrumento (não VSTige. Neste exemplo, vamos USAR OS Filtros da LFO Guia ENV / Instrumentos VST e Não Posso utilizar esse mês RECURSO. Gerador ZynAddSubFX O Pacote É UM Instrumento VST e Ele Não PoDE Filtros USAR LFO. ) colocar Uma barra de Notas repetitivo e, em seguida copiar Que criar barras (dezesseis eu copiar Esse bar não rolam piano e cola-lo Três Vezes parágrafo criar Uma frase de Quatro compassos, e DEPOIS copiar Esse segmento editor da musica para conseguir Que Quatro Quatro segmentos de compassos). Em seguida, abra o plugin de instrumento e selecione o Envelope / LFO / Guia Filtro:
+First, create a new track with any instrument,(not VSTige. In this example we will use the filters on LFO/ENV tab, and VST instruments cant utilize this feature. The bundled ZynAddSubFX generator is a VST instrument and it can not use LFO filters.) put a bar of repetitive notes in it, and then copy that to create sixteen bars (I copy that bar in the piano roll and paste it three times to create a four-bar phrase, and then copy that segment in the song editor to get four four-bar segments).  Then open the instrument's plugin and select the Envelope/LFO/Filter tab:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
 
-Ligue uma seção Filtro, DeFina o tipo de filtro n Moog, e certifique-se que o Montante LFO ESTÁ Definido n. zero.
+Turn on the Filter section, set the filter type to Moog, and make sure that the LFO amount is set to zero.  
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-filter-pointers.png
 
-então clique com o controle Botão Direito Sobre corte o''filtro''de e automatizá-lo:
+Then right-click on the filter's '''Cutoff''' control and automate it:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automation.png
 
-Voce PoDE desenhar Diferentes Formas - blocos, Subindo e caindo curvas, saltos e sawteeth.
-Pôde Ser Difícil parágrafo desenhar com o mouse. Desde .4.4 sh + clicar leftMouse criará estreito Linhas conectadas. Use isso parágrafo Fazer multa lenta linear Mudanças graduais.
+You can draw various shapes - blocks, rising and falling curves, sawteeth and jumps.
+It can be difficult to draw with the mouse. Since .4.4 sh+leftMouse Clicking will create strait connected lines. Use this to make slow fine linear gradual changes.
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.ogg
 
-O ARQUIVO DE PROJETO PoDE Ser Baixado AQUI:
+The project file can be downloaded here:
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
 
-É Interessante notar Que Aqui uma freqüência das Alterações Pontos de controle do som. Nenhum compasso 17, ha Quatro varreduras n Cima com uma quantização 16/01 Definido como, e Depois do compasso 21, ha Quatro varreduras parágrafo Baixo com uma quantização Definido Como 1 / 32 (ou seja, Duas Vezes Como Para muitos Pontos de controle). Como Alterações Para o corte do filtro Não Acontecem de forma Analógica, entre instantaneamente digitalmente Acontecem Como Alguém Botão UM desanimo - Que Pular e como Definições. Isso Significa Que VOCÊ Ouvir PoDE como Mudanças na freqüência Como Etapas distintas - Os Quatro varreduras n Cima PoDE soar Um pouco irregular OU stuttery e Varre Baixo Mais Parecer n PoDE suave. Para o controle fino VOCÊ PoDE Até Querer USAR 1/64th quantização. No entanto, Uma Vez Que É Mais Difícil conseguir Uma curva verdadeiramente Ou mesmo Linha de Desenho, uma desvantagem Desta PoDE Abordagem Ser O Que Seu Próprio imprecisões nd Elaboração dos Pontos de controle tornam-se audíveis e São Mais Difíceis de editar parágrafo fóruns.
+It is worth noting here that the frequency of control points changes the sound.  At bar 17 there are four upward sweeps with the quantisation set to 1/16, and then from bar 21 there are four downward sweeps with the quantisation set to 1/32 (i.e. twice as many control points).  The changes to the filter cutoff do not happen in an analog fashion, like someone turning a knob - they happen digitally and jump instantly between settings.  This means that you can hear the changes in frequency as distinct steps - the four upward sweeps may sound a little stuttery or jerky and the downward sweeps may sound smoother.  For fine control you may even want to use 1/64th quantisation.  However, since it is more difficult to get a truly even curve or line by drawing, the downside to this approach may be that your own inaccuracies in drawing the control points become audible and are harder to edit out.
 
-== Sons voando passado ==
+== Sounds flying past ==
 
-Em uma canção que eu escrevi que eu tinha uma série de aplausos stacatto em um padrão e eu quero que eles voam da direita para a esquerda, como um tiroteio. Eu automatizou o controle panorâmico (ou seja, na direção X) do instrumento no editor bater bassline:
+In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-1.png
 
-Eu, então, criou uma linha diagonal direita da bandeja (1024 em cima) para pan-esquerda (-1.024 em baixo):
+I then created a diagonal line from pan-right (+1024 at top) to pan-left (-1024 at bottom):
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-2.png
 
-E agora o som "voa" passado da direita para a esquerda!
+And now the sound 'flies' past from right to left!
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.ogg
 
-Observe que redefine o "som" para a direita depois de cada bar, porque o padrão é apenas uma barra longa. Se eu quisesse outro conjunto de palmas que voava no sentido contrário, tenho algumas opções:
+Notice that the sound 'resets' to the right after each bar, because the pattern is only one bar long.  If I wanted another set of claps that flew in the other direction, I have a couple of options:
 
-* Eu posso criar um segundo padrão que tem de tomar automação da esquerda para a direita e suplentes dos padrões na música. Isso significa que você tem uma segunda faixa, que pode ser inconveniente.
-* Eu posso adicionar uma segunda barra de notas (através do padrão''menu de contexto 'Adicionar Passos''' opção) e depois ter o retorno de automação para a direita. Isso me limitar a ter as palmas retornar imediatamente depois que eles deixaram, que não podem trabalhar na peça.
+* I can create a second pattern that has automation taking it from left to right and alternate the patterns in the song.  This means that you have a second track, which may be inconvenient.
+* I can add a second bar of notes (via the pattern's context menu '''Add Steps''' option) and then have the automation return to the right.  This would limit me to having the claps return immediately after they left, which may not work in the piece.
 
-Você pode baixar este como um arquivo de MMPZ
+You can download this as an MMPZ file from
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
 
@@ -122,3 +122,4 @@ Reference: [[Automation Editor]]
 
 [[Category:HowTo]] [[Category:Incomplete]]
 [[Category:0.3-Manual]]
+[[Category:English]]
