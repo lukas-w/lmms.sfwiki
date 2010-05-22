@@ -1,0 +1,34 @@
+LMMS risulta molto flessibile quando si tratta di tematizzare la sua interfaccia. Tutti i file immagine utilizzati dal programma possono essere rintracciati direttamente attraverso una cartella e modificati da un editor di immagini. Sfortunatamente, nonostante la semplicit&agrave;, non c'&egrave; stato ancora un gran interesse nello sviluppo di temi; [...] only a few themes have made it to the [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform], where they can be downloaded, rated, and commented on by users. This guide aims to help, guide, and motivate artists interested in creating themes, and interest those who aren't.
+
+== Sulla Creazione di Temi ==
+
+A ''theme'' is a collection of files (mostly images) that set the "look and feel" of LMMS. It consists of a ''.css'' stylesheet, an ''.xml'' file, and many ''.png'' images. It can be usually downloaded as a ''.tar.gz'' archive which has to be extracted in the ''themes'' directory.
+
+On a regular install on Linux, the default ''themes'' directory is: 
+ /usr/share/lmms/themes/
+On Windows it's in the ''themes'' folder inside the LMMS installation directory.
+
+=== Pre-Requisiti ===
+To create a new theme, or to modify an existent one, some fairly basic knowledge is required:
+* image manipulation skills ''(gimp, inkscape, paint, ..)''
+* browsing through directories
+* compressing files into archives
+* LMMS Sharing Platform account
+
+=== Ricordate ===
+-The default theme is named ''default'', and can be found in the ''themes'' folder.<br>
+-Each theme has its own folder with its images inside.<br>
+-If your theme is missing some files, LMMS will use the default ones.<br>
+-Capitalization matters on Linux.
+
+== Per Inziare ==
+The best thing is to make a copy of the ''default'' folder, rename that copy (i.e. ''"MyTheme"''), and then open the image files with an image editor and modify them as you wish. You can also replace them completely, but be careful with the image dimensions: sometimes they can be a bit different; sometimes they cannot!
+
+== Testare il vostro Tema ==
+Per testare il proprio tema, tutto quello che dovete fare &egrave; lanciare LMMS, andare su Edit->Settings->Paths (icona cartella), ed inserire il percorso alla cartella del vostro nuovo tema.
+
+== Condividere il vostro Tema ==
+Una volta completato, risulta utile comprimerlo in un ''.tar.gz'' e condividerlo con la community :) [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform] &egrave; il miglior posto per questo. Ricordate che dovrete registrarvi per caricare del contenuto (in modo gratuito).
+*State solo attenti alle infrazioni sulle licenze e diritti vari se state utilizzando immagini di altri!
+
+[[Category:Portuguese]]
