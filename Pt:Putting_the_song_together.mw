@@ -1,0 +1,42 @@
+You use the [[Song Editor]] to link the various sounds, rhythms and melodies together into a complete performance.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-simple.png
+
+= Tipos de vias =
+
+A unidade fundamental que trabalham com você no Song Editor é uma pista. Cada faixa é uma linha na janela do editor de música, a parte esquerda da faixa controla o tipo da pista eo lado direito mostra quando os sons vão ser criados por essa via. Isso soa como uma generalização, pois é - as faixas podem ser de vários tipos diferentes, e cada tipo de faixa tem uma maneira diferente de trabalhar.
+
+== Exemplo Preferidas ==
+
+Normalmente, como FAIXAS da amostra Usados São parágrafo Incluir Gravações de cantores Instrumentos OU tocando Uma Linha de melodia. Permite, IstoÉ-LHE ter Ao lado de Músicos ao vivo uma música SEUS Projetos em LMMS. No entanto, Como Ainda Não HÁ Instalações aparar o n º da amostra início, OU parágrafo ajustá-lo OU COM dimensioná-lo n se adequar como barras música SUA los. Estás deverão UM Ser Feitas em Programa de edição de Áudio, Tais Como [http://audacity.sourceforge.net Audacity] de antemão.
+
+FAIXAS da amostra São o tipo de Controlar Mais simples, eles PORQUE UM dez tão controle de volume e Uma Cadeia de Efeitos.
+
+== Preferidas Bassline ==
+
+São padrão azul. Eles são diferentes faixas instrumentais, de uma forma significativa: Podem ser drag-expandida! Enquanto uma faixa de instrumento tem o conteúdo e extensão que foi criada no piano-roll, uma faixa bater bassline (BB via) poderia ter qualquer duração (superior a um). Arraste o mouse a partir do final da pista BB-e vai se expandir. (Arrastar em um instrumento pista vai movê-lo) Você pode também mover de causa BB-faixas. Arrastando no meio da pista se move.
+Faz sentido que o BB-tracks podem ser expandidos com conteúdo repetitivo. Isso muitas vezes ser o que quiser em um projeto. Como foi explicado na secção anterior, os instrumentos que são definidos no editor BB, pode se comportar apenas como padrões de percussão, mas usar esse recurso com cuidado.
+Lembre-se do nome de seu BB-faixas e atribuir FX-canais para o som, geradores!
+
+== Preferidas Instrumento ==
+
+Escusado será dizer que este é o lugar onde sua criatividade é o fator crucial. Bom conhecimento em acordes e progressões de acordes, vai lhe ajudar muito na composição de sua música. 100ths Há páginas na net sobre o assunto. Se continuarmos a focar as especificidades LMMS, então há alguns atos que podem ser considerados como "melhores práticas".
+* Nome de todos os instrumentos
+Quando você carrega uma fábrica de instrumento ou de um branco-padrão predefinido, o nome será 'Default-preset. Não se omita nome do instrumento. No mês que vem quando você reabrir o projeto e ver 20 + 'Default-presets' você está tão perdido. E só você tem a culpa ..
+Eu recomendo que você utilize o disco de nome de arquivo para as predefinições de fábrica. Se você fizer alterações no instrumento, salve-o em uma pasta diferente, com um novo nome.
+* Atribuir um canal FX
+O FX-canais refere-se ao mixer. Cada canal ou 'Bus' é tratado separadamente, e você obterá uma melhor dinâmica na sua música, se apenas um canal do mixer é utilizado para um instrumento. Isso vale para a percussão bem!
+LMMS tem 64 canais, e como você pode usar cada família 16 slots para uma finalidade diferente. Você poderia ter instrumento ordinário no slot A, B Efeitos no slot e percussão em C slot, mas isso é apenas uma sugestão. Você deve renomear cada um misturador de canal com o nome do instrumento.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Composing Bass Lines and Drum Sequences]]
+| Up: [[0.3:Manual]]
+| Next: [[Working with Automation]]
+|}
+
+[[Category:HowTo]] [[Category:Incomplete]]
+[[Category:0.3-Manual]]
+[[Category:Portuguese]]
