@@ -4,11 +4,11 @@ Bass lines and drum sequences are repetitive patterns usually lasting one, or oc
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-simple.png
 <!--{\end{center}}-->
 
-= = Adição de novos instrumentos
+= Adição de novos instrumentos =
 
 Normalmente, você estará adicionando amostras de bateria e as notas do instrumento na Beat + Bassline Editor. Por este motivo, simplesmente clicando duas vezes sobre uma amostra ou pré-nos [Side [Bar]] irá adicioná-lo diretamente no Beat + Bassline Editor. Você também pode arrastar as amostras e presets para ele também e deixá-los na área livre na parte inferior da janela do editor. Você pode reorganizar a ordem dos instrumentos, arrastando faixas de seu punho pontilhado (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png).
 
-= = Padrões Compondo
+= Padrões Compondo =
 
 Ao lado de cada plugin instrumento é uma exposição de batidas em um bar, dividido em etapas - quatro passos por batida em um bar de quatro tempos. Isso se assemelha a interface clássica do [http://en.wikipedia.org/wiki/Roland_TR-808 Roland TR-808], com quatro batidas sombreadas alternadamente para a referência fácil. Pressionando os botões etapa liga a nota nessa fase particular do bar, pressionando-o novamente desliga.
 
@@ -18,7 +18,7 @@ A melhor maneira de começar a sentir para isso é adicionar um baixo ou bumbo e
 
 Isso TEM TODOS OS Primeiros ocorrido em Que Serao Para muitos de Padrões Distintos Música em SUA. É isso chamado de 'Beat / 1 no Bassline' [[Canção Editor]] e não Seletor de Padrão da Beat + Bassline Editor. Voce PoDE UM criar novo Padrão Usando o''''bassline novo Botão (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-button-new-bassline.png) e serao nomeados gradativamente a partir daí. Voce renomear PoDE Também Esses Padrões SEUS clicando em nomos não Song Editor e digitando Nome novo um. Freqüentemente é isto util, mais especificamente, identificar o Que É o Padrão n º edição futura.
 
-Filosofias de design padrão = =
+= Filosofias de design padrão =
 
 Existem várias escolas de pensamento para design padrão, geralmente decorrentes do tipo de software tem um usado anteriormente. Para ilustrar as diferenças, imagine uma típica 04/04 'trance' ritmo (o "oontz-oontz-oontz oontz 'estilo: chute-laço-kick-laço-kick-laço-kick snare) e uma variação sobre o estilo com dois hits laço ao invés de um no final da barra.
 
@@ -54,7 +54,8 @@ Naturalmente, os padrões por si só não criar ritmos em suas canções. Usando
 Uma coisa que você precisa ter cuidado com está dobrando''''eventos idênticos. Idêntico soundfiles jogar em cima uns dos outros podem sair absolutamente horrível devido à ampliação de mútuo! Se você tiver graves distorções na sua bateria padrão, certifique-se que sons idênticos não são "empilhados".
 
 
-== == Variações Natual
+== Variações Natual ==
+
 SE VOCÊ UM Ouvir baterista Humano O fato de Ele Que Ser hum e humano é evidente. Variações TEM O modelo de Bem Intensidade Como o baterista acerta a Um com bateria "toque Humano". Isso emulado Ser PoDE e Certamente dar o Seu drumline Qualidade muito melhor.
 Posicione o mouse drumnote e hum Sobre o papel da roda do mouse. A nota vai alterar uma SUA Intensidade de cor (brilhante == Mais alto, dimmer == baixo). Voce Também PoDE Realmente Abrir o drumpattern não piano roll (clique com o Botão Direito, ESCOLHA "Abrir em Rolos de piano") e não use o volume balks n Controlar o volume nota individual.
 
@@ -86,4 +87,5 @@ Reference: [[Beat Bassline Editor|Beat + Bassline Editor]]
 |}
 
 [[Category:HowTo]]
+[[Category:Portuguese]]
 [[Category:0.3-Manual]]
