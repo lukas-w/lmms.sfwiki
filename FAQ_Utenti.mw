@@ -19,9 +19,9 @@ R: S&igrave;. LMMS &egrave; libero/gratuito e open source.
 A: It's recommended to set your preferred audio-interface and it's parameters using the setup-dialog. If this doesn't work for some reason, you can also set the environment-variable "AUDIODEV" to what ever your audio-device is (e.g. ''/dev/dsp'' for OSS or ''surround40:1,0'' for ALSA).
 
 
-== Usage ==
+== Utilizzo ==
 
-'''Q: I made some piano chords in the Song-Editor but now I want to loop them. How to get them to the Beat+Bassline Editor?<br>
+'''D: I made some piano chords in the Song-Editor but now I want to loop them. How to get them to the Beat+Bassline Editor?<br>
 A: for LMMS < 0.1.2:
 
 First, drag the sound to the Beat+Bassline Editor by clicking just left or right of the button that indicates what kind of sound it is (for example: The button showing Triple Oscillator if it's a Triple Oscillator). That copies the sound to the Beat+Bassline Editor, but not the chords. Now open the chords in Piano-Roll, press Ctrl + A, Ctrl + C, open the Piano-Roll for the copied sound in the Beat+Bassline Editor, and press Ctrl + V. Now you can safely delete the bar in the Song-Editor and use the one in the Beat+Bassline Editor instead.
@@ -30,12 +30,12 @@ for LMMS >= 0.1.2
 simply press <Ctrl> while dragging the according pattern onto the destination-pattern in Beat+Bassline-Editor. Of course you can do this in reverse direction too.
 
 
-'''Q: How do I create an instrument track in the Beat/Bassline Editor?<br>
+'''D: How do I create an instrument track in the Beat/Bassline Editor?<br>
 A: Open ''My Samples'' or ''My Presets'' (buttons on the far left side of the window) and double click on the instrument you want or right click it and select an appropriate action.
 
 
-'''Q: How do I change the note an instrument plays in the Beat/Bass Editor?<br>
-A: Click on the intrument button on the track. There’s a blue bar just above the keyboard at the bottom, an orange square indicates the key that is played. Click on the blue bar to change the note.
+'''D: How do I change the note an instrument plays in the Beat/Bass Editor?<br>
+R: Click on the intrument button on the track. There’s a blue bar just above the keyboard at the bottom, an orange square indicates the key that is played. Click on the blue bar to change the note.
 
 
 '''Q: How do I enable and adjust looping points?<br>
@@ -46,8 +46,8 @@ A: Click on the enable/disable looppoints button in the song editor or pianoroll
 A: If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
 
 
-'''Q: How do I Import a MP3 or OGG file?<br>
-A: Through the [[AudioFileProcessor]] plugin.
+'''D: Come importo file MP3 o OGG?<br>
+R: Attraverso il plugin [[AudioFileProcessor]].
 
 
 '''Q: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
