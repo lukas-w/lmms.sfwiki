@@ -1,21 +1,21 @@
-''This article describes frequently asked questions regarding usage of LMMS. '''If you have any problems please refer to [[Troubleshooting]].''' ''
+''Questo articolo descrive le domande poste di frequente che riguardano  l'utilizzo di LMMS. '''Se riscontrate dei problemi riferitevi invece alla [[Risoluzione Problemi]].''' ''
 
 
-== About ==
+== A Proposito ==
 
-'''Q: What is LMMS, anyway?<br>
-A: LMMS is a sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio. Sounds and tones can be generated, played and artfully arranged to create entire tracks easily, giving you the opportunity to create music from beginning to end. The tools to create the sounds, arrange the sounds and rhythms to create tracks, layer the tracks to create songs, and then save the songs to an output format are all there, ready for you to use. LMMS can also connect to your MIDI keyboard, allowing you to play music live.
+'''D: Tra l'altro, cos'è LMMS?<br>
+A: LMMS &egrave; un sistema di generazione sonora, sintetizzatore, editor di basi/base e un sistema di controllo MIDI che pu&ograve; generare un intero studio casalingo. I Suoni e toni possono essere generati, riprodotti e [...] artfully arranged to create entire tracks easily, giving you the opportunity to create music from beginning to end. The tools to create the sounds, arrange the sounds and rhythms to create tracks, layer the tracks to create songs, and then save the songs to an output format are all there, ready for you to use. LMMS can also connect to your MIDI keyboard, allowing you to play music live.
 
-'''Q: Is there anything commercial to which LMMS might be comparable?<br>
+'''D: Is there anything commercial to which LMMS might be comparable?<br>
 A: LMMS seems to have much in common (at least in principle) with Apple's Garage Band, FL Studio (formerly Fruity Loops), Logic Studio, Beat Machine Pro and similar powerful audio tools. In terms of capability, LMMS easily matches the lower to middle-tier professional tools available, making it a great introduction to audio production which is constantly developing.
 
-'''Q: Is it free?<br>
-A: Yes. LMMS is free and open source.
+'''D: &Egrave; libero?<br>
+R: S&igrave;. LMMS &egrave; libero/gratuito e open source.
 
 
-== Settings ==
+== Impostazioni ==
 
-'''Q: I want to use another soundcard than the default one with LMMS. How to achieve this?<br>
+'''D: I want to use another soundcard than the default one with LMMS. How to achieve this?<br>
 A: It's recommended to set your preferred audio-interface and it's parameters using the setup-dialog. If this doesn't work for some reason, you can also set the environment-variable "AUDIODEV" to what ever your audio-device is (e.g. ''/dev/dsp'' for OSS or ''surround40:1,0'' for ALSA).
 
 
