@@ -1,0 +1,130 @@
+Allora, avete appena caricato LMMS e vi state guardando attorno? In questa situazione, i programmatori scrivono un programma "ciao mondo"; noi andremo a scrivere "Popcorn", un classico per i sintetizzatori che si dovrebbe conoscere ben.
+
+= Adiar o Instrumento
+
+[...] VOCÊ TEM Uma Tela Padrão em Frente, com o [[Canção Editor]]] Beat [[Bassline Editor Beat | +] Bassline Editor e [projeto] [Notas] Aberto. Primeiro, nao clique Presets ICONE (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side [[Bar]] para Abrir Uma Lista de''' 'Filhos predefinidos. No'''''TripleOscillator DE UM Duplo clique "Abrir ESTA n massas, e VOCÊ Será presenteado com Uma variada gama de Instrumentos. PoDE Voce manter o Botão do mouse em qualquer Predefinição Parágrafo Ouvir Uma Prévia do Seu som.
+
+Por ágora, vamos arrastar o'''''Xylophon "preset Para o Espaço No meio da canção Editor. QUANDO VOCÊ CAIR, uma nova pista Será criada com Uma Predefinição Como Instrumento.
+
+(Se Este Instrumento UM fossa do tipo de Percussão, Melhor Que Poderia Ser Vez Parágrafo arrasta-lo par o Beat + Bassline Editor, PORQUE VOCÊ Verá segundo em UM. NÓS Realmente Queremos dar Uma Este Instrumento Uma sequencia de Notas (piano roll OU UM ) Jogar Parágrafo Embora,, é isso Song Por Editor).
+
+= Making the melody =
+
+We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
+
+<!--{\begin{center}}-->
+http://img101.imageshack.us/img101/8506/pianoroll.png
+<!--{\end{center}}-->
+
+== A primeira nota ==
+
+Agora clique no quadrado preto à direita do A5 "(note que é de três linhas, ou semitons, abaixo da nota marcada C5). Isto irá criar uma nova mania - uma nota batida longa - a partir de que momento.
+
+<!--{ \ Begin (center }}-->
+http://img682.imageshack.us/img682/3583/pianorollnoteareademo1s.png
+<!--{ \ End (center }}-->
+
+No entanto, isso é muito longa: precisamos de notas meio batida - uma colcheia - por muito tempo. Para mudar isso, basta mover o ponteiro do mouse para a borda direita da nota, até que o cursor muda para uma seta para a esquerda e direita. Então, segure o botão do mouse pressionado e arrastar o final da nota deixou dois "blocos" (cada bloco a ser um décimo sexto do bar).
+
+<!--{ \ Begin (center }}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
+<!--{ \ End (center }}-->
+
+Depois disso, as novas notas que colocamos abaixo será o mesmo comprimento, porque o Piano Roll Editor está definida como última nota (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
+
+== == Mais notas
+
+Continue a criar notas no padrão mostrado:
+
+<!--{ \ Begin (center }}-->
+http://img695.imageshack.us/img695/1610/firstbar.png
+<!--{ \ End (center }}-->
+
+Para colocar uma nota, é preciso apontar para a linha no início da batida; LMMS vai reconhecer uma pequena fração da área esquerda da linha beat como sendo a que mais vencer do que o anterior. Se você cometer um erro colocar uma nota, você pode movê-la para sua posição correta, clicando no meio de nota (onde o cursor se transforma em uma cruz de quatro vias) e arrastando a nota para sua nova posição. LMMS vai tocar a nota que você está arrastando sobre como um assessor para corrigir o posicionamento. Você pode mover horizontalmente notas (no tempo), bem como na vertical (em campo).
+
+Se você precisar excluir uma nota, basta clicar com o botão direito sobre ela.
+
+Copie e cole == ==
+
+Agora queremos repetir as sete notas no início da barra na barra ao lado. Existem três maneiras de fazer isso.
+
+A primeira e pior maneira de fazer isso é simplesmente clique na nota correta. Mas isso é tedioso. Vamos usar alguns dos recursos LMMS para acelerar isso.
+
+A primeira forma real de fazer isso é usar a ferramenta de duplicação. Primeiro, selecione as notas que você deseja copiar. Mantenha pressionada a tecla Ctrl e faça um retângulo de seleção ao redor da nota que você deseja copiar. Em seguida, segure a tecla Shift e arrastar as notas recém-selecionado. Agora você está arrastando uma cópia da nota selecionada. Você pode colocá-las onde quiser ir.
+
+Alternativamente, você pode usar o bom e velho copiar e colar. Novamente, use Ctrl para selecionar as notas que você deseja e pressione Ctrl + C. Pressione Ctrl + V para colar as notas, e movê-los para sua nova localização.
+
+Para selecionar todas as notas que você pode pressionar Ctrl + A.
+
+Agora nós podemos pressionar o''''play 'botão (http://img685.imageshack.us/img685/2559/play.png) no Piano Roll Editor janela para tocar a melodia de volta. Quando se chega ao final do último compasso em que existem notas, ele irá repetir automaticamente de volta para o início do primeiro compasso.
+<nowiki>Inserir texto não-formatado aqui</nowiki><nowiki>Inserir texto não-formatado aqui</nowiki>
+
+== Oops! ==
+
+When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat.
+
+== A primeira «quatro» bares ==
+
+Se você estiver confiante, você pode agora continuar a adicionar as notas da música para fazer os primeiros quatro compassos (até onde se repete a melodia). Aqui está o seu piano roll deve ser semelhante ao final do presente:
+
+<!--{ \ Begin (center }}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
+<!--{ \ End (center }}-->
+
+= = Mais estrutura
+
+Podemos agora fechar o Piano Roll Editor e voltar para a Song Editor. Você verá que o segmento de faixa que inicialmente um duplo-clique para criar a melodia se expandiu para fora para encaixar as notas que nós adicionamos.
+
+Agora queremos copiar esse segmento para criar os próximos quatro bares. A maneira mais fácil de fazer isso é simplesmente manter pressionada a tecla Ctrl, arraste o segmento inicial. Isso vai arrastar uma cópia do segmento para uma nova localização, que deve estar fora do segmento inicial. Este processo será parecido com este:
+
+<!--{ \ Begin (center }}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
+<!--{ \ End (center }}-->
+
+Drop do segmento na barra 6. Este é realmente um bar muito tarde, como os três primeiros trimestres de um bar desse segmento está vazio, como é o último trimestre do último segmento. Felizmente, os segmentos podem sobrepor-se e as suas notas jogará simultaneamente. <sup> <small> [[Sua primeira canção com LMMS # Notas | [3 ]]]</> <pequenas / sup>. Arraste a segunda cópia para que ele inicia no compasso 5.
+
+Você pode agora jogar isso utilizando o botão "play" no Song Editor. Você ouvirá uma breve pausa, já que tem as três primeiras batidas de silêncio, em seguida, a melodia começará. Deve jogar sem problemas através das duas repetições.
+
+A Song Editor deve agora olhar como este:
+
+<!--{ \ Begin (center }}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
+<!--{ \ End (center }}-->
+
+== 2 == Variação
+
+Agora podemos ir para criar outro segmento piano roll e preencher os próximos quatro bares:
+
+<!--{ \ Begin (center }}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.png
+<!--{ \ End (center }}-->
+
+Devido à maneira que os segmentos se sobrepõem, você terá que criar um novo segmento em um bar novo (por exemplo, 11 bar) e, em seguida, movê-lo em posição durante o segmento anterior.
+
+Note que existe uma ligeira estranheza no Piano Roll Editor que você faz para começar a editar na barra 2, quando a abertura ocasional novos segmentos. Verifique qual a barra que você está escrevendo notas em antes de ir para longe!
+
+Your Song Editor deve agora olhar como este:
+
+<!--{ \ Begin (center }}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
+<!--{ \ End (center }}-->
+
+= Footnotes =
+
+[[Your First Song with LMMS#Choosing the instrument| [1]]] - You could alternatively have dropped it on the existing "TripleOscillator: Default" track to replace that instrument with the one you were dragging, but this gives you an idea of how to create new instrument tracks.
+
+[[Your First Song with LMMS#Copy and paste| [2]]] - As of version 0.3.1, the copy and paste functionality in the Piano Roll Editor has several known problems.  The developers are aware of these problems and plan to fix them in a future release.
+
+[[Your First Song with LMMS#More structure| [3]]] - You should avoid having segments that overlap as there is no clear display of how many segments overlap in a particular area.  A small segment might completely disappear behind a large one, leaving you confused as to where those extra notes were coming from.  In this case, it makes good sense to use it.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Getting Started]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Making Triple-Oscillator Patches]]
+|}
+
+[[Category:Tutorial]] [[Category:Incomplete]]
+[[Category:0.4-Manual]]
