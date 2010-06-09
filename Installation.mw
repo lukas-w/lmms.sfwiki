@@ -154,7 +154,7 @@ To make use of the full LMMS potential you may need to install some extra librar
 * STK library + headers for using STK (Sound Synthesis Toolkit)
 ** under Debian run sudo aptitude install ''libstk0-dev stk''
 * WINE + devel-packages for being able to use VST-plugins within LMMS
-** under Debian run sudo aptitude install ''libwine-dev libwine''
+** under Debian run sudo aptitude install ''wine-dev libwine-dev libwine''
 * FFTW3 - used by the SpectrumAnalyzer plugin
 ** under Debian run sudo aptitude install ''libfftw3-dev''
 * Fluidsynth - required to build the powerful Sf2Player plugin
