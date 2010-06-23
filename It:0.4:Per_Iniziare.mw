@@ -1,0 +1,89 @@
+= Per Iniziare con LMMS = 
+LMMS &egrave; un software sequencer, di sintesi e di composizione per Linux e Windows. Esso include una serie di plug-in sintetizzatori software, riproduttori di campioni audio, drum machine e composizione piano roll, strumenti di automatizzazione e accesso a effetti LADSPA.
+
+Quando lanciate per la prima volta LMMS, vengono mostrati i componenti chiave. La [[Barra dei Menu Standard]] si trova in cima, sopra la  [[Barra degli Strumenti]] ed i controlli di traccia principali. La barra degli strumenti che si trova fissata sulla sinistra &egrave; la [[Barra Laterale]], che &egrave; un metodo semplice per accedere agli strumenti , ai suoni, preset e progetti. Le finestre visualizzate di default sono il [[Song Editor]], il [[Beat Bassline Editor|Beat + Bassline Editor]] e il [[Project Notes]].
+
+Per inserire uno dei molti preset plugin  strumenti predefiniti nel [[Beat Bassline Editor|Beat + Bassline Editor]] o nel [[Song Editor]], cliccate sulla stella stella gialla (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) nella Barra Laterale per visualizzare i [[Side Bar#Presets|Presets]]. 
+
+Potete inserire inoltre i campioni scegliendo l'icona 'My samples' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png) dalla Barra Laterale. Potete cliccare e tenendo premuto su un preset di strumento o campione per ascoltare il suono da esso generato. Potete poi mettere gli strumenti dove desiderate nell'editor trascinando il tutto nell'editor stesso. Potete fare anche un doppio click sui preset per posizionarli direttamente nell'Editor Beat + Bassline, o potete eseguire un click col pulsante destro sullo strumento LMMS vi aprir&agrave; un menu contestuale. Qui avrete la possibilit&agrave; di mandare lo strumento cliccato in uno slot libero o all'interno lo strumento attivo corrente. Uno 'Strumento Attivo' &egrave; lo strumento che &egrave; evidenziato nell'Editor Brano. Utilizzate l'opzione manda-a-strumento-attivo se avete bisogno di caricare uno strumento VSTige.
+
+Successivamente vorrete creare i vostri strumenti da zero. Il primo pulsante della barra laterale apre il browser dei preset. Vi sono dei modelli di preset predefiniti vuoti che potete utilizzare per i vostri strumenti.
+(Potete chiaramente anche fare delle modifiche agli strumenti predefiniti di fabbrica e salvarli come propri. Non si raccomanda di sovrascrivere gli strumenti predefiniti)
+
+Se fate un errore e desiderate rimuovere uno strumento, cliccate sulla sua icona grigia 'toolkit' all'interno dell'editor e scegliete  'Remove this track' (Rimuovi da questa traccia, N.d.T.).  Gli strumenti sono divisi in forniti di fabbrica e specificati dall'utente, e possono essere utilizzate delle sotto-cartelle nel vostro file system per organizzare gli strumenti e le tracce in modo gerarchico.
+
+Quando inserite uno strumento nell'editor, la finestra dell'editor di strumenti verr&agrave; automaticamente apero per l'uso. Potete vedere questo editor anche cliccando sul suo pulsante in grigio 'name' negli edito Song or Beat + Bassline. Quando cliccate sul pulsante 'name' il pulsante stesso diventer&agrave; grigio chiaro. Questo strumento &egrave; ora lo strumento attivo ('Active Instrument'). Questo &egrave; importante per quando iniziate ad utilizzare gli strumenti VST! Il pulsante 'name' agisce come un interuttore, per sissipare di nuovo la finestra editor; potete anche cliccare sui suoi controlli di dinestra come solito. Gli strumenti possiedono cinque schede: Plugin, Env/LFO/Filter, Arp/Chord, FX e MIDI.  La scheda 'Plugin' cambia a seconda del tipo di strumento; tutte le altre schede sono standard per ogni strumento.
+
+== Creazione di una Traccia ==
+
+Il modo predefinito per creare una traccia &egrave; quella di aggiungere strumenti di percussione all'[[Beat Bassline Editor|Editor Beat + Bassline]] e strumenti per la melodia per le tracce melodiche nel [[Song Editor]]. Quindi create differenti cicli/loop utilizzando il pulsante '''Add bassline''' nell'Editor Beat + Bassline per ogni ritmica che si desidera - una linea di basso principale, una linea per gli hihat, ritmi e breack particolari, ecc. Questi vengono elencati nel Song Editor non appena creati. Per farli suonare, premete sulla barra start nella timeline della traccia per creare un nuovo segmento. Potete inoltre trascinare il suo punto di fine per far s&igrave; che il modello/pattern vada su barre multiple. La stessa tecnica pu&ograve; essere utilizzata per linee di basso ripetitive.
+
+Per tracce melodiche, cliccate sulla barra di avvio per creare un nuovo segmento e quindi cliccate su quel segmento per aprie il [[Piano Roll Editor]]. Posizionate le note nel tastiera del piano roll cliccando sulla loro linea quanta d'avvio (per crearle) e quindi trascinatele lungo il lato destro per allungarle o accorciarle quanto lo desiderate. Potete anche [...] trascinare le note su e gi&ugrave; la scala e andare avanti e indietro nel tempo per posizionarli correttamente. In alternativa, potete premere il pulsante 'record' nell'Editor Piano Roll e riprodurre le note in tempo reale, o con la tastiera (Z = C, S = C#, X = D, Q = C, etc) o su una tastiera .
+
+Infine schiacciate 'play' e godetevi la vostra musica!
+
+= Modelli Drum Tabs/Maps =
+
+(lavori in corso)
+
+('''figura.1''') ('''esempio''')
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+open hi-hat    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</pre>
+
+X=note on ;
+/=silence
+
+Sopra qui (Figura.1) avete un semplice modello 4 quarti che utilizza 16 dei 16 segmenti all'interno del nostro modello/pattern. Potete vedere dalla "Bass drum" che esiste una X (nota on) su 1,5,9,13, , questo ci fornisce una tipica battuta utilizzata nella gran parte della musica in stile techno/trance o house. Successivamente c'&egrave; una snare drum alla posizione 5 e 13, che ci fornisce classico tipo di swing al ritmo. Infine gli hi-hat di apertura e chiusura per completare il ritmo.
+ 
+Ora che vi siete fatti un'idea generale questi pattern possono essere applicati alle vostre traccie in LMMS utilizzando il "beat + bassline editor" (che utilizza step di 16/16mi a 1 bar o 4 battiti).
+
+
+di seguito alcuni esempi per farvi provare e forse utilizzare nei votri pezzi.
+
+('''1''') '''Amen Break''' - [questo &egrave;, un assolo drum eseguito originariamente da Gregory Sylvester Coleman, ma &egrave; fortemente semplificato e [...] pitched up for use in drum and bass and jungle styles]
+
+
+<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
+Crash/Ride Cym. :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
+Bass/Snare Dr.  :  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
+</pre>
+
+
+('''2''') '''Typical Break-beat''' - [by moving the Bass drum out of regular 4/4 timing we create a "break-beat]
+
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
+open hi-hat    | / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</pre>
+
+
+('''3''') '''Prodigy "Smack My Bitch Up"''' - [break-beat intro] [shown 1st in the Beat+bassline Editor]
+
+
+http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
+
+[ritmica principale]
+
+http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
+
+(*da notare i volumi pi&ugrave; bassi dello snare drum nei 2 esempi sopra ad es. i <FONT COLOR="#00ff00">led</FONT> semi-spenti in alcuni step)
+
+= Navigazione =
+
+{| style="border: 1px solid black;"
+|-
+| Prec.: [[Termini e Convenzioni]]
+| Su: [[It:0.4:Manuale]]
+| Pross.: [[La Prima Canzone con LMMS]]
+|}
+
+[[Category:Tutorial]]
+[[Category:0.4-Manuale]]
