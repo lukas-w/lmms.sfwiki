@@ -1,0 +1,27 @@
+__NOTOC__ __NOEDITSECTION__
+L'hardware ed il software richiesto per eseguire LMMS &egrave; ragionevolmente modesto.
+
+== CPU/RAM ==
+A seconda del tipo e della dimensione della traccia che intendete comporre si raccomanda di avere almeno 1 GHz e 512 MB di RAM. Se utilizzate [[Tested VSTs|VST-plugins]] ed un SVN-copy recente di LMMS viene inoltre consigliato di avere multiple core multipli e/o CPU.
+
+== Scheda Sonora ==
+Non esistono speciali richieste. LMMS verr&agrave; eseguito su una scheda economica ordinaria a 2 canali stereo ma pu&ograve; anche girare  su schede audio surround! Inoltre dovrete procurarvi una porta MIDI se intendete utilizzare la vostra [[Using MIDI|tastiera MIDI]] per registrare o eseguirla da LMMS.
+
+== Sistemi Operativi ==
+
+LMMS viene testato e reso disponibile per le seguenti piattaforme:
+
+* Linux
+* Windows
+* OS X
+
+== Navigazione ==
+
+{| style="border: 1px solid black;"
+|-
+| Up: [[0.3:Manual]]
+| Up: [[It:0.4:Manuale]]
+| Pross.: [[Installazione|Installare LMMS]]
+|}
+
+[[Category:0.4-Manuale]]
