@@ -1,0 +1,70 @@
+''Benvenuti sul Wiki di LMMS Wiki! Qui troverete documentazione, tutorial, guide, risorse e molto altro.'' [http://lmms.info/home.php ''(Vai alla homepage di LMMS)'']
+
+
+
+{| cellspacing="3" valign="top" align="center" width="100%"
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img20.imageshack.us/img20/1012/contents.png
+| style="color: #000" valign="top"|
+'''Documentazione'''
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Per Iniziare|Per Iniziare]]<br>
+http://img62.imageshack.us/img62/1012/contents.png [[It:0.4:Manuale|Manuale Utente]]<br>
+http://img97.imageshack.us/img97/5625/helpfaq.png [[FAQ Utenti|FAQ]]<br>
+http://img689.imageshack.us/img689/261/ktipx.png [[Suggerimento del Giorno|Suggerimento del Giorno]]<br>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|Database VST]]<br>
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img34.imageshack.us/img34/5773/userconfig.png
+| style="color: #000" valign="top"|
+
+'''Guide'''<br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Requisiti]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installazione]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Risoluzione Problemi]]<br>
+http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|Come Riportare un Bug]]<br>
+<!-- MOVED TO "INSTALLATION" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br> -->
+|}
+</div>
+<br>
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img163.imageshack.us/img163/1751/packagedevelopment.png
+| style="color: #000" valign="top"|
+'''Community'''<br>
+
+http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Sviluppatori]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Articolisti]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artisti]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[It:Contatti|Contatti]]<br>
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img251.imageshack.us/img251/7428/newsg.png
+| style="color: #000" valign="top"|
+
+'''News'''<br>
+<!-- 
+==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
+*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
+*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
+*KEEP ONLY THE 5 MOST RECENT NEWS
+-->
+
+01-25: updated ''Main Page''<br>
+01-20: new article ''[[Creating a Theme]]''<br>
+01-11: simplified [[Tested VSTs|''VST Database'']]<br>
+
+|}
+</div>
+|}
+----
+{{Main PageTrans}}
