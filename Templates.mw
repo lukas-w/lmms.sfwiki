@@ -14,10 +14,3 @@ This page contains various templates used in the wiki in order to guide and faci
 <div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">Yellow message template (95%)</div><br><br>
 
  <nowiki><div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div></nowiki>
-
-
-
-{{ambox
-| type  = maintenance
-| text  = type=<u>maintenance</u> – Style issues, such as {{tl|cleanup}}
-}}
