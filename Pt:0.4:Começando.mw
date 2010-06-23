@@ -1,0 +1,92 @@
+{{0.4:Getting StartedTrans}}
+
+Começando com LMMS = =
+LMMS sequenciador UM é, síntese e compositor software parágrafo Linux e Windows. Ele Incluí Uma série de plug-ins de sintetizadores em software, uma amostra de Reprodução de Áudio, bateria e composição piano roll, Ferramentas de Automação e Acesso EAo Efeitos LADSPA.
+
+QUANDO VOCÊ LMMS Primeiro Lançamento, Vários Componentes-chave mostrados São Paulo. O [[Main Menu Bar]] ESTÁ NA parte superior, acima do [[Tool Bar]] e controles faixa principal. A barra de ferramentas permanentemente à ESQUERDA E o [[Side Bar]], Que É Uma MANEIRA Fácil de Instrumentos acessar os, filhos, presets e projetos. As Janelas Por Padrão São exibidas como [Song [Editor]], o [Beat [Bassline Editor Beat | + Bassline Editor]] EO [[Project] Notas].
+
+Para inserir Uma das muitas Fábricas plugin Instrumento pré-Definido Para a pré [Beat [Bassline Editor Beat | + Bassline Editor]] OU [Canção [editor]], clique nd estrela amarela (lmms http://tangram.dnsalias.net/ -imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side Bar parágrafo exibir uma barra [[lateral # Presets | Presets]].
+
+PoDE Voce Também amostras inserir, escolhendo o Ícone "Meu amostras" http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png () a Partir da barra lateral. Voce clicar e segurar PoDE OU UM Instrumento uma amostra pré-Gera Ouvir o som Que ELE. Voce PoDE então Instrumentos colocar OS Que VOCÊ Quer parágrafo editor o, arrastando-o par o editor. Voce Fazer PoDE Também Duplo clique presets parágrafo coloca-los Diretamente não Beat + Bassline Editor, OU VOCÊ PoDE clicar com o Botão Direito Sobre o Instrumento nd Lista LMMS e menu de contexto UM abrirá. Aqui VOCÊ TEM uma Opção de enviar o Instrumento for clicado em UM OU Vazio slot não Instrumento Atual Ativo. Active Um 'Instrumento e o Instrumento Que São Destaque nd editor música. Use uma Opção de enviar um Instrumento n. Ativo SE VOCÊ Precisa carregar Um instrumento VSTige.
+
+Mais tarde VOCÊ PoDE Gostar de criar Instrumentos SEUS próprios A partir do zero. A barra lateral do 1. Botão Abre o browser predefinido. Estes São Padrão Vazio pré-Modelos Que PoDE VOCÊ USAR SEUS parágrafo Instrumentos próprios.
+(PoDE Fazer Voce Também ofcause Alterações Instrumentos de EAo Definido Fábrica e Como salvar próprios OS SEUS. Substituindo OS Instrumentos de Fábrica Não definido É recomendado)
+
+SE VOCÊ Erro cometer hum hum e deseja Instrumento removedor, clique Dentro NA SUA cinza 'toolkit' Ícone do editor e Escolha "Remover faixa ESTA. Os Instrumentos Fábrica em São divididos e fornecidos UsuÃ ¡rio e subpastas não Especificado Seu Sistema de Arquivos PoDE Ser Usada n. Instrumentos organizar OU OS amostras heirarchially.
+
+QUANDO VOCÊ Insere Um instrumento n o editor, a Janela do editor de Instrumento n º Será automaticamente Aberto voce. Também Voce PoDE Este editor não ver clicando cinza 'nome' Botão OU editores da música Beat + Bassline. QUANDO VOCÊ não clica Botão o nome "Botão ira ligthgray Mudar para. Este Instrumento e ágora o" Active Instrumento. Isso e importante QUANDO VOCÊ Começar um USAR Instrumentos VSTige! Os "Actos de Nome Botão 'Como Uma Alavanca, n dissipar uma Janela do editor Novamente, VOCÊ Também PoDE clicar NA SUA Janela de controles normais. Instrumentos guias dez Cinco: Plugin, env / LFO / Filtro, Arp / Chord, FX e MIDI . As "Mudanças Plugin Guia" com o tipo de instrumento, Todas As outras São Padrão CADA Instrumento n º.
+
+== Criando Track UM ==
+
+A forma Padrão parágrafo criar Uma trilha Instrumentos e agregar de Percussão Para o [Beat [Bassline Editor Beat | + Bassline Editor]] e OS Instrumentos de FAIXAS em melodia]], o [[Canção Editor. Em seguida, CRIE loops de bateria Diferentes Usando o'''Add''bassline "Botão não Beat + Bassline Editor parágrafo CADA Ritmo Que Quiser VOCÊ - Uma Linha de Baixo principal, Uma Linha de hihat, Especiais ritmos e quebras, etc Listados São Estes NA Canção Editor Como São eles criados. Para torna-los de som, clique nd barra de iniciar Na linha de tempo da pista UM criar parágrafo novo segmento. PoDE Voce Também arrastar A SUA Extremidade parágrafo fóruns parágrafo Fazer o Padrão de bares Atravessar Vários. A MESMA técnica PoDE Ser Usada parágrafo Linhas de Baixo repetitivas.
+
+Para Melodia FAIXAS, clique nd barra de Começar um novo segmento criar UM E, em seguida, clique Duas Vezes Nesse segmento parágrafo Abrir o [[Piano Roll Editor]]. Coloque Notas nenhum piano roll, clicando em Linha de iniciar SUA quanta (para CRIA-los) E, em seguida, arrastando SUA Borda Direita n sertão longa curta OU VOCÊ Como deseja. Também Voce PoDE arrastar Notas Acima e abaixo da escala e Para a Frente e Trás parágrafo sem tempo par posicioná-los corretamente. Alternativamente, VOCÊ PoDE pressionar o Botão "record" no piano roll Editor e tocar em tempo real Notas UO, sem Teclado (Z = C, S = C #, X = D, Q = C, etc) ou de hum Teclado MIDI.
+
+Por último hit 'play' e desfrutar da Sua Música!
+[[Imagem: Exemplo.jpg]] [[Imagem: Exemplo.jpg]]
+
+= Drum Tabs Padrão / Mapas =
+
+(Em andamento)
+
+('''''Figura.1') (''''exemplo)
+
+<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Bumbo | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+fechado hat-oi | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+| Open hat-oi / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</ Pre>
+
+X = nota relativa;
+/ Silence =
+
+acima em (Figura.1), temos um padrão de 4 batida simples usando 16ths ou 16 segmentos dentro do nosso padrão. Você pode ver de "bumbo", que existe um X (note on) na 1,5,9,13, isso nos dá a típica batida utilizada na maioria techno / trance ou estilo de música house. Em seguida é a tarola, 5, e 13, que nos dá um tipo de swing para sentir o ritmo. E, finalmente, a abertura eo encerramento de oi-chapéus elogio ao ritmo.
+ 
+Agora que você tem a idéia geral, esses padrões podem ser aplicados para as suas músicas em LMMS usando o "beat editor + bassline" (que usa o 16ths/16 passos para um bar ou 4 tempos).
+
+
+Abaixo estão alguns exemplos para você experimentar e talvez usar em suas canções.
+
+('''1''')''' Amen Break'''- [este era um drum solo originalmente realizado por Sylvester Gregory Coleman, mas tem sido muito amostrado e armou-se para uso em drum and bass e estilos selva]
+
+
+<pre> | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - |
+Bater Cym Ride /. : |-Rrrrrrrr | rrrrrrrr-|-rrrrrrrr | RRRRRCRR-|
+Bass / Snare Dr.: BBS | - S-SBBS - S | BBS - S-SBBS - S | BBS - SB-S-S --- |-SBBS - SB S-S --- - |
+</ Pre>
+
+
+('''2''')''''Típica Break-beat' - [movendo o bumbo fora do tempo de 04/04 regular criamos um] "break-beat
+
+
+<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Bumbo | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+fechado hat-oi | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
+aberto | hat-oi / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</ Pre>
+
+
+('''3''')''' Prodigy "Smack My Bitch Up"'''-] [intro break-beat [1 mostrado na Beat + bassline Editor]
+
+
+http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
+
+Principal [beat]
+
+http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
+
+(* Nota do volume reduzido de tarola nos 2 exemplos acima, ou seja, o <FONT esmaecido COLOR="#00ff00"> led's> </ FONT em determinadas etapas)
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Terms and Conventions]]
+| Up: [[0.4:Manual]]
+| Next: [[Your First Song with LMMS]]
+|}
+
+[[Category:Tutorial]]
+[[Category:0.4-Manual]]
