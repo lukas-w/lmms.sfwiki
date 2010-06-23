@@ -1,19 +1,18 @@
 __NOTOC__ __NOEDITSECTION__
 This is a page listing some of the work that should be done in the wiki. All you need is an [[Special:Userlogin|account]], some free time, and a bit of good will.
 
-== General ==
+== In General ==
 * Add tips to the [[Tip of the day]] page
 * Correct typos
 * Test new or untested [[Tested VSTs|VST plugins]]
 * Write new Todo ideas on this very page
-
-== Write ==
-* Write simple tutorials for newbies
-* Write the [[0.4:Working_with_Controllers]] page
-
-== Translations ==
 * Translate pages into different languages
-* Write [[User:Octosquidopus#Templates|warnings]](click for templates) on untranslated pages
+* Write warnings on untranslated pages
+
+== Specific Work ==
+* Write simple tutorials for newbies in the [[0.4:Manual#Tutorials|Tutorials]] section
+* Write the [[0.4:Working_with_Controllers]] page
+* Rewrite [[0.4:Getting_Started]] to more user-friendly
 
 == Advanced ==
 * Make a [[Sitemap]]
@@ -22,3 +21,4 @@ This is a page listing some of the work that should be done in the wiki. All you
 * (for admins) Remove pages in category "[[Special:Categories|Delete]]"
 * Simplify pages in category "[[Special:Categories|Simplify]]"
 * Categorize incomplete pages as "[[Special:Categories|Incomplete]]", and complex ones as "[[Special:Categories|Simplify]]"
+* Add translation links to the top of untranslated pages
