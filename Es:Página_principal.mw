@@ -1,0 +1,61 @@
+Bienvenidos a la wiki de LMMS.Aqui encontraras toda la informacion relacionada con LMMS.           [http://lmms.info/home.php ''(Back to LMMS homepage.)'']
+
+LMMS es una plataforma libre alterna a programas comerciales como FL STUDIO®, con la cual puedes crear y producir musica con tu computadora. Esto incluye la creacion de melodias y beats, el sitetizador y el mezclador de sonidos, y el arreglo de samples. Puedes divertirte con tu teclado(MIDI) y muchas otras cosas mas; todo en una interfaz moderna y amigable.
+
+
+
+{| cellspacing="3" valign="top" align="center" width="100%"
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki-media/guide.png
+| style="color: #000" valign="top"|
+'''End User Documentation'''
+
+* [[0.4:Getting Started|Getting Started]]
+* [[0.4:Manual|User Manual]]
+<!--  * [[0.4:GettingStarted|Getting Started for Version 0.4]] -->
+* [[How to report bugs|How to Report Bugs]]
+* [[Tip of the day|Tip of the Day]]
+* [[User FAQ|FAQ]]
+* [[Tested VSTs|VST Database]]
+* [[0.3:Manual|Manual for Version 0.3]]
+|}
+<br>
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki-media/admin.png
+| style="color: #000" valign="top"|
+'''User guides'''
+* [[Download]]
+* [[Requirements]]
+* [[Installation]]
+* [[Troubleshooting]]
+* [[Tuning LMMS-installation]]
+|}
+</div>
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki-media/development.png
+| style="color: #000" valign="top"|
+'''Developers'''
+* [[Accessing Git repository]]
+* [[Developer Documentation|Documentation]]
+* [[Creating a localization]]
+* [[Plugin development tutorial]]
+* [[Guidelines on coding style]]
+* [[Submitting a patch]]
+* [[Mailing lists]]
+* [[Roadmap|Roadmap/TODO]]
+* [[Developer FAQ|FAQ]]
+* [[Developer Discussion]]
+* [[Artwork contest]] (outdated)
+* [[Terms and Conventions]]
+|}
+</div>
+|}
+
+{{Main PageTrans}}
