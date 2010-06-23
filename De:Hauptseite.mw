@@ -1,0 +1,57 @@
+Willkommen im LMMS Dokumentation Wiki. Hier finden sie alle wichtigen Informationen zu LMMS. 
+
+LMMS ist eine plattformunabhängige Alternative zu kommerziellen Programmen wie FL Studio®, mit denen es möglich ist, Musik am eigenen Computer zu produzieren. Dazu gehört das Erstellen von Melodien und Rhythmen, die Erzeugung und Mischung von Klängen, sowie die Anordnung von fertigen Tonschipseln (Samples). Auch kann man eine Menge Spass mit MIDI-fähigen Instrumenten haben und das alles (und noch viel mehr) in einer modernen und benutzerfreundlichen Umgebung.
+
+{| cellspacing="3" valign="top" align="center" width="100%"
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki-media/guide.png
+| style="color: #000" valign="top"|
+'''Dokumentation'''
+* [[Getting started|Wie fang ich an?]]
+* [[0.4:Manual|Bedienungsanleitung]]
+
+* [[How to report bugs|Fehler melden]]
+* [[Tip of the day|Tip des Tages]]
+* [[Mailing lists|Mailing Listen]]
+* [[User FAQ|FAQ]]
+* [[Tested VSTs|VST Datenbank]]
+* [[0.3:Manual|Anleitung für Version 0.3]]
+|}
+<br>
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki-media/admin.png
+| style="color: #000" valign="top"|
+'''Anleitungen'''
+* [[Download]]
+* [[Requirements|Voraussetzungen]]
+* [[Installation|Installation]]
+* [[Troubleshooting|Problembehebung]]
+|}
+</div>
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki-media/development.png
+| style="color: #000" valign="top"|
+'''Entwickler'''
+* [[Artwork contest]] (outdated)
+* [[Accessing Git repository]]
+* [[Creating a localization]]
+* [[Plugin development tutorial]]
+* [[Guidelines on coding style]]
+* [[Submitting a patch]]
+* [[Mailing lists]]
+* [[How to cross-compile LMMS]]
+* [[Roadmap|Roadmap/TODO]]
+* [[Developer FAQ|FAQ]]
+* [[Developer Discussion]]
+|}
+</div>
+|}
+
+[[Main_Page|English]], [[Página_principal|Español]], [[Fr:Main_Page|Français]], [[De:Main_Page|Deutsch]], [[Pt:Main_Page|Português]]
