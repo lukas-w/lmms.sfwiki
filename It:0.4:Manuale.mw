@@ -1,0 +1,64 @@
+__NOTOC__ __NOEDITSECTION__
+<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">Questo manuale si riferisce alla versione corrente di LMMS, versione '''0.4'''. Per una versione precedente di LMMS, si veda [[0.3:Manual]]</div>
+
+''Tenete conto che anche se questo manuale sia al momento aggiornato alla versione 0.4, alcuni articoli si riferiscono ancora alla versione 0.3 e quindi potrebbero essere parzialmente datati.''
+Controllate la categoria in fondo alla pagina per vedere quale versione si riferiscono.
+
+= Introduzione =
+
+Pagine brevi e introduttive su ogni argomento, per stabilire cosa si necessita per eseguire LMMS e per comprendere questo documento.
+* [[Requisiti]]
+* [[Installazione|Installare LMMS]]
+* [[Termini e Convenzioni]]
+
+= Tutorial =
+
+Guide passo passo orientate a temi per ottenere particolari obbiettivi in LMMS.
+* [[0.4:Per Iniziare|Per Iniziare]] - una scorsa veloce per l'impaziente
+* [[0.4:Your First Song with LMMS|La Vostra Prima Canzone con LMMS]] - un ulteriore tutorial passo passo
+* [[0.4:Making Triple-Oscillator Patches|Eseguire patch Triple-Oscillator]] - Linee guida per la creazione di utili patch triple-oscillator
+
+= Utilizzare LMMS =
+
+A thematic description of how the various tools in LMMS work.
+* [[0.4:Working with Instruments|Lavorare con gli strumenti]]
+<!--{\newpage}-->
+* [[0.4:Working with Samples|Lavorare con i Campioni]]
+* [[0.4:Composing in the Piano Roll Editor|Comporre nel Editor Piano Roll]]
+* [[0.4:Composing Bass Lines and Drum Sequences|Comporre le Linee di Basso e Sequenze di Drum]]
+* [[0.4:Putting the song together|Putting the song together]]
+* [[0.4:Working with Automation|Lavorare con l'Automazione]]
+* [[0.4:Working with Controllers|Lavorare con i Controller]]
+* [[0.4:Working with Effects and the Mixer|Lavorare con gli Effetti e il Mixer]]
+* [[0.4:Working with VSTs|Lavorare con i VST]]
+* [[0.4:Using MIDI|Utilizzare il MIDI]]
+* [[0.4:Exporting the Song|Esportare una Traccia]]
+
+= Riferimenti =
+
+A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
+* [[0.4:Barra Menu Principale|Barra dei Menu Principale]]
+* [[0.4:Barra degli Strumenti|Barra degli Strumenti]]
+* [[0.4:Barra Laterale|Barra Laterale]]
+* [[0.4:Plugin|I Plugin]]
+* [[0.4:Editor Traccia|Editor Traccia]]
+* [[0.4:Piano Roll Editor|Piano Roll Editor]]
+<!--{\newpage}-->
+* [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
+<!--{\newpage}-->
+* [[0.4:Automation Editor|Automation Editor]]
+* [[0.4:FX Mixer|FX Mixer]]
+<!--{\newpage}-->
+* [[0.4:Project Notes|Note di Progetto]]
+<!--{\newpage}-->
+* [[0.4:LMMS Settings|Impostazioni di LMMS]]
+
+= Appendici =
+
+* [[Glossario]]
+* [[Key Mappings]]
+* [[Licenza]]
+<!--{\newpage}-->
+* [[Roadmap]]
+
+<!--{%}-->'' [...] This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
