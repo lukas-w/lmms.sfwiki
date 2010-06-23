@@ -1,0 +1,56 @@
+{{User FAQTrans}}
+
+''Questo articolo descrive le domande poste di frequente che riguardano  l'utilizzo di LMMS. '''Se riscontrate dei problemi riferitevi invece alla [[Risoluzione Problemi]].''' ''
+
+
+== A Proposito ==
+
+'''D: Tra l'altro, cos'è LMMS?<br>
+A: LMMS &egrave; un sistema di generazione sonora, sintetizzatore, editor di basi/base e un sistema di controllo MIDI che pu&ograve; generare un intero studio casalingo. I Suoni e toni possono essere generati, riprodotti e [...] artfully arranged to create entire tracks easily, giving you the opportunity to create music from beginning to end. The tools to create the sounds, arrange the sounds and rhythms to create tracks, layer the tracks to create songs, and then save the songs to an output format are all there, ready for you to use. LMMS can also connect to your MIDI keyboard, allowing you to play music live.
+
+'''D: Is there anything commercial to which LMMS might be comparable?<br>
+A: LMMS seems to have much in common (at least in principle) with Apple's Garage Band, FL Studio (formerly Fruity Loops), Logic Studio, Beat Machine Pro and similar powerful audio tools. In terms of capability, LMMS easily matches the lower to middle-tier professional tools available, making it a great introduction to audio production which is constantly developing.
+
+'''D: &Egrave; libero?<br>
+R: S&igrave;. LMMS &egrave; libero/gratuito e open source.
+
+
+== Impostazioni ==
+
+'''D: I want to use another soundcard than the default one with LMMS. How to achieve this?<br>
+A: It's recommended to set your preferred audio-interface and it's parameters using the setup-dialog. If this doesn't work for some reason, you can also set the environment-variable "AUDIODEV" to what ever your audio-device is (e.g. ''/dev/dsp'' for OSS or ''surround40:1,0'' for ALSA).
+
+
+== Utilizzo ==
+
+'''D: I made some piano chords in the Song-Editor but now I want to loop them. How to get them to the Beat+Bassline Editor?<br>
+A: for LMMS < 0.1.2:
+
+First, drag the sound to the Beat+Bassline Editor by clicking just left or right of the button that indicates what kind of sound it is (for example: The button showing Triple Oscillator if it's a Triple Oscillator). That copies the sound to the Beat+Bassline Editor, but not the chords. Now open the chords in Piano-Roll, press Ctrl + A, Ctrl + C, open the Piano-Roll for the copied sound in the Beat+Bassline Editor, and press Ctrl + V. Now you can safely delete the bar in the Song-Editor and use the one in the Beat+Bassline Editor instead.
+
+for LMMS >= 0.1.2
+simply press <Ctrl> while dragging the according pattern onto the destination-pattern in Beat+Bassline-Editor. Of course you can do this in reverse direction too.
+
+
+'''D: How do I create an instrument track in the Beat/Bassline Editor?<br>
+A: Open ''My Samples'' or ''My Presets'' (buttons on the far left side of the window) and double click on the instrument you want or right click it and select an appropriate action.
+
+
+'''D: How do I change the note an instrument plays in the Beat/Bass Editor?<br>
+R: Click on the intrument button on the track. There’s a blue bar just above the keyboard at the bottom, an orange square indicates the key that is played. Click on the blue bar to change the note.
+
+
+'''Q: How do I enable and adjust looping points?<br>
+A: Click on the enable/disable looppoints button in the song editor or pianoroll. It is disabled by default. Two blue arrows will appear in the upper tracking area of the window. You can adjust these loop points by rightclicking and dragging them or pressing middle and right button.
+
+
+'''Q: How do I Import a drums beat I'd made in Hydrogen?<br>
+A: If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
+
+
+'''D: Come importo file MP3 o OGG?<br>
+R: Attraverso il plugin [[AudioFileProcessor]].
+
+
+'''Q: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
+A: Highlight the folder that you want to be on the sidebar, select it, and drag it to the sidebar.
