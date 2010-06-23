@@ -2,12 +2,12 @@ __NOTOC__ __NOEDITSECTION__
 This is a page listing some of the work that should be done in the wiki. All you need is an [[Special:Userlogin|account]], some free time, and a bit of good will.
 
 == In General ==
-* Add tips to the [[Tip of the day]] page
 * Correct typos
+* Expand the [[Glossary]]
+* Add tips to the [[Tip of the day]] page
 * Test new or untested [[Tested VSTs|VST plugins]]
-* Write new Todo ideas on this very page
 * Translate pages into different languages
-* Write warnings on untranslated pages
+* Write new To-do ideas on this very page
 
 == Specific Work ==
 * Write simple tutorials for newbies in the [[0.4:Manual#Tutorials|Tutorials]] section
@@ -15,7 +15,6 @@ This is a page listing some of the work that should be done in the wiki. All you
 * Rewrite [[0.4:Getting_Started]] to more user-friendly
 
 == Advanced ==
-* Make a [[Sitemap]]
 * Improve the [[Roadmap]] page
 * Transcribe 0.3 articles into newer 0.4 (mostly different screenshots)
 * (for admins) Remove pages in category "[[Special:Categories|Delete]]"
