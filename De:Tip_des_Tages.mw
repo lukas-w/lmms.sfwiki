@@ -1,1 +1,22 @@
 {{Tip of the dayTrans}}
+
+{{Tip of the dayTrans}}
+
+Here you can add things which could be displayed in a "tip of the day"-dialog in LMMS.
+
+* You can use the sidebar on the left to get quick access to: plugins, projects, samples, presets, home and root folders
+* You can create cool sounds turning BIT INVADER's sample length down a bit and then up again!
+* There are many effects to choose from in the "FX" tab on any instrument.
+* Holding down CTRL while dragging a song segment duplicates it.
+* You can change each track's colour in the Song Editor from its context menu. This helps you group tracks together logically.
+* If your instrument seems to 'click' when you release the note, try extending its decay or release time.
+* You can click on the oscilloscope playback display in order to turn it off if you find it distracting.
+* Once you've customized a sample or instrument to your tastes, it's a good idea to save it as a preset so that you can use it in other songs!
+* Automation applied to an instrument in a [[Beat Bassline Editor|Beat + Bassline Editor]] track only applies to the number of bars that the pattern goes for, typically one.  If you want to automate fade-ins or other effects on an instrument for longer than that one bar, then you must either move the instrument to the [[Song Editor]] or automate its effects via an individual effects line.
+* If you don't have enough effects in the "FX" tab of an instrument, try searching for and installing more LADSPA effects using your distribution's standard package management tool.
+* To quickly copy an entire track in the [[Song Editor]], hold down CTRL while dragging the 'grip' area on the far left of the track.
+* Hover the mouse pointer over a step in the [[Beat Bassline Editor|Beat + Bassline Editor]] and use your mouse wheel to raise/lower the volume of that step.
+* CTRL+S saves your project. Remember to save often!
+* Use CTRL+Z to undo changes, and CTRL+R to redo.
+* Don't forget that the LMMS Wiki is there to help you! You can quickly access it through Help/Online Help.
+* Most instruments that are included in the default installation are named “Default preset”. You should make it a habit to always rename this “Default preset” to a describing new name. Double-click on “Default preset” and enter the new name.
