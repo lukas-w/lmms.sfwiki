@@ -1,0 +1,143 @@
+{{0.4:Your First Song with LMMSTrans}}
+
+So, Sie haben sich also eben LMMS heruntergeladen und möchten sich jetzt erst einmal zurechtfinden? Programmierer schreiben in dieser Situation ein "hallo Welt!" Programm. Wir werden jetzt das Lied "Popcorn" schreiben, einen allgemein bekannten Klassiker.
+
+Anmerkung: Die Abbildungen sind der englischen Version von LMMS entnommen, die sich ansonsten nicht von der deutschen Variante unterscheiden.
+
+= Auswahl des Instrumentes =
+
+
+Sie haben nun die Standard-Ansicht vor sich, auf der Sie den [[Song Editor]], [[Beat Bassline Editor|Beat + Baseline Editor]] und die [[Project Notes|Projekt Notizen]] sehen. Klicken Sie als erstes auf den Knopf "meine Presets" (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) auf der [[Side Bar|Seitenleiste]], um eine Liste von gespeicherten Instrumenten anzuzeigen. Klicken Sie doppelt auf '''TripleOscillator''', um diesen Ordner zu öffnen. Dort sehen Sie eine Reihe von Instrumenten dieser Kategorie. Wenn Sie auf einen der Einträge klicken und die Maustaste gedrückt halten, können Sie eine Vorschau von dem gewählten Instrument hören.
+
+
+Ziehen Sie beispielsweise das Preset "'''Moog'''" in den Song Editor, irgendwo unter die anderen Spuren, die dort schon eingetragen sind. Wenn Sie die Maus loslassen, wird eine neue Spur mit diesem Instrument erstellt.<sup><small>[[De:Der erste Titel mit LMMS#Footnotes| [1]]]</small></sup> Zusätzlich wird das Instrument-Plugin geöffnet. Wir wollen jetzt erstmal nicht den Klang des Instrumentes verändern, deshalb schließen wir dieses Fenster gleich wieder.
+
+= Die Melodie erstellen =
+
+Jetzt wollen wir dem Lied ein paar Noten geben, um eine Melodie zu erzeugen. Klicken Sie mit links auf den ersten Takt von der Spur "Moog", um dort ein neues Piano-Roll-Segment zu erstellen. Mit einem Doppelklick auf dieses Feld öffnen Sie den [[Piano Roll Editor]].
+(http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png)
+In diesem Fenster können Sie Noten für das neue Piano-Roll-Segment hinzufügen.
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
+<!--{\end{center}}-->
+
+== Die erste Note ==
+
+Klicken Sie nun in das große, schwarze Feld, direkt neben die Note "A4". Diese ist drei Zeilen bzw. Halbtöne tiefer als die beschriftete Note C5. Eine Viertelnote wird erzeugt - eine Note, die einen Taktschlag geht, und an dem Punkt des Mausklicks beginnt.
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-demo-1stnote.png
+<!--{\end{center}}-->
+
+Wie auch immer, die Note ist uns zu lang. Wir brauchen Noten, die einen halben Schlag gehen, also eine Achtelnote. Um das zu ändern, bewegen wir einfach den Mauszeiger zur rechten Seite der Note, bis der Mauszeiger sich in einen Pfeil verwandelt, der nach links und rechts zeigt. Dort klicken und ziehen wir die Maus zwei Blöcke nach links. Jeder dieser Blöcke ist ein sechzehntel Takt lang.
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
+<!--{\end{center}}-->
+
+Danach werden die neuen Noten, die wir erstellen, genau so lang wie diese, denn der Piano Roll Editor erzeugt in der Standardeinstellung immer genau die gleiche Länge wie die Note zuvor. 
+(http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-notelen-last.png)
+
+== Weitere Noten ==
+
+Erstellen Sie nun weitere Noten, wie hier im Beispiel:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-bar.png
+<!--{\end{center}}-->
+
+
+Um eine Note zu setzen, mit der linken Maustaste auf einen der Kästen drücken. LMMS wird die Note immer auf den am nächsten gelegenen Taktabschnitt setzen. Wenn man einen Fehler beim Noten setzen macht, kann dies korrigiert werden, in dem man auf die Mitte der Note drückt (der Cursor verwandelt sich in ein Vier-Pfeile-Kreuz) und die Note an die richtige Stelle zieht. LMMS spielt die entsprechend verschobenen Töne ab, als eine Hilfe zur richtigen Platzierung. Noten können sowohl horizontal (in der Zeit) als auch vertikal (in der Tonhöhe) verändert werden.
+
+Um eine Note zu löschen, genügt ein einfacher RechtsKlick mit der Maus.
+
+== Kopieren und Einfügen ==
+
+Jetzt wollen wir die sieben Noten des ersten Taktes im nächsten Takt wiederholen. Eine Möglichkeit ist die erneute Eingabe dieser Noten mit der Maus.
+Aber, für dieses Tutorial, nutzen wir die einfachere und schnellere Variante: Kopieren und Einfügen 
+
+Dazu nutzen wir den '''Auswahl-Modus''' Werkzeug in der Piano Roll Werkzeugliste, das dritte Symbol von links - das Quadrat mit dem Stift. Nun die Fläche von rechts oben (z.B. von der Note C5) nach links unten (z.B. G3).  Es wird ein blaues Quadrat sichtbar und alle ausgewählten Noten in diesem Bereich werden auch blau. Um alle Noten anzuwählen, muss man bis über das Keyboard ziehen, was nur möglich ist wenn man dort hin zieht, nicht aber wenn man von dort startet (weshalb wir auch von rechts oben gestartet sind).
+
+Wenn alle Noten ausgewählt wurden, den '''Kopieren''' Knopf in der Zwischenablage-Werkzeugliste drücken, welcher direkt neben der Schere zu sehen ist (sieht aus wie mehrere Seiten übereinanderliegend).  Dadurch werden die Noten in die Zwischenablage kopiert. Sie sollen wieder in den ersten Takt kopiert werden, deshalb müssen die jetzigen Noten zur Seite geschoben werden.
+
+Glücklicherweise, können alle gerade ausgewählten Noten direkt und gemeinsam verschoben werden. Einfach auf die Mitte einer der ausgewählten Noten drücken und nach rechts schieben, so das die erste Note auf dem Anfang des zeiten Taktes liegt. Am besten merken in welcher Tonhöhe sich sie Noten befinden, denn es kommt des öfteren vor, das man versehentlich die Noten nach unten und/oder oben bewegt. Versichere dich das die erste Note in diesem Fall (Tutorial) ein A4 ist, und sich auf dem ersten Schlag (Kasten) des zweiten Taktes befindet.
+
+Nun können wir die Noten wieder einfügen.  Auf den '''Einfügen''' Knopf im Zwischenablage-Menü drücken um die gerade kopierten Noten wieder im ersten Takt einzufügen. <sup><small>[[Your First Song with LMMS#Footnotes| [2]]]</small></sup>
+
+Jetzt können wir den  '''Abspiel''' Knopf (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-play.png) im Piano Roll Editor Fenster drücken, um uns die Melodie anzuhören. 
+
+Es wiederholt sich wieder vom Anfang, wenn der letzte Takt abgespielt wurde, in dem sich Noten befinden. 
+
+== Oops! ==
+
+Wenn wir die Melodie jetzt abspielen, hört sie sich verschoben an. Die zweite A4 Note ist eigentlich der Anfang des Taktes und die vorigen beiden Noten sind der Übergang des Taktes davor. 
+Wir können die Noten aber nicht weiter nach links schieben, also verschieben wir sie so weit nach rechts, dass die Melodie letztendlich auf dem richtigen Schlag beginnt.
+
+
+== Die ersten vier Takte ==
+
+Wenn das soweit funkioniert hat, kann man damit beginnen, weitere Noten hinzuzufügen, so dass man auf eine Länge von vier Takten kommt (bis da wo die Hauptmelodie sich wiederholt). 
+
+So sollte das ganze dann aussehen:)
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
+<!--{\end{center}}-->
+
+= Mehr Struktur =
+Nun kann der Piano Roll Editor geschlossen und zum Song Editor zurückgekehrt werden.  Die Länge des gewählten Abschnitts in dieser Spur hat sich automatisch angepaßt.
+
+Nun werden wir den Abschnitt kopieren um die nächsten vier Takte zu erstellen. Die einfachste Möglichkeit dafür ist, einfach die Steuerungstaste (Strg) gedrückt halten und den entsprechenden Abschnitt mit der linken Maustaste verschieben. Dadurch wird automatisch eine Kopie des Abschnitts erstellt. 
+Das sollte dann so aussehen:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
+<!--{\end{center}}-->
+
+Ziehe den neuen Abschnitt auf den sechsten Takt. Das ist eigentlich ein Takt zu spät, da die ersten 3/4 des Taktabschnitts leer sind, genau so wie das letzte Viertel des letzten Taktabschnittes. Aber Takt-Abschitte können überlappen/übereinanderliegen und die Noten werden gleichzeitig abgespielt.<sup><small>[[Your First Song with LMMS#Footnotes| [3]]]</small></sup>. 
+Ziehe die zweite Kopie so, dass sie auf Takt fünf beginnt. 
+
+Wir können das jetzt mit dem Abspiel Knopf im Song Editor anhören. Am Anfang ist eine Pause, von einem dreiviertel Takt, dann beginnt die Melodie. 
+Es sollte automatisch bis ans Ende der beiden Wiederholungen abgespielt werden.
+
+Der Song Editor sollt nun wie folgt aussehen:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
+<!--{\end{center}}-->
+
+== Variation Nummer 2 ==
+
+Nun können wir damit weitermachen, mit einem weiteren Piano Roll Abschnitt die nächsten vier Takte zu füllen:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.png
+<!--{\end{center}}-->
+
+Aufgrund dessen, dass die Abschnitte übereinanderliegen, muss der neue Abschnitt in einem neuen Takt (z.B. Takt 11) beginnen und kann dann auf die entsprechende Position auf dem vorigen Takt-Abschnitt gezogen werden.
+
+Der Song Editor sollte dann so aussehen:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
+<!--{\end{center}}-->
+
+= Fußnoten =
+
+[[Your First Song with LMMS#Choosing the instrument| [1]]] - You could alternatively have dropped it on the existing "TripleOscillator: Default" track to replace that instrument with the one you were dragging, but this gives you an idea of how to create new instrument tracks.
+
+[[Your First Song with LMMS#Copy and paste| [2]]] - As of version 0.3.1, the copy and paste functionality in the Piano Roll Editor has several known problems.  The developers are aware of these problems and plan to fix them in a future release.
+
+[[Your First Song with LMMS#More structure| [3]]] - You should avoid having segments that overlap as there is no clear display of how many segments overlap in a particular area.  A small segment might completely disappear behind a large one, leaving you confused as to where those extra notes were coming from.  In this case, it makes good sense to use it.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Getting started]]
+| Up: [[0.3:Manual]]
+| Next: [[Working with Instruments]]
+|}
+
+[[Category:Tutorial]] [[Category:Incomplete]]
