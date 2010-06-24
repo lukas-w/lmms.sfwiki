@@ -9,14 +9,14 @@ Short, introductory pages on each topic, establishing what you need to run LMMS 
 * [[Installation|Installing LMMS]]
 * [[Terms and Conventions]]
 
-= Tutorials =
+= 0.3 Tutorials =
 
 Step-by-step task-oriented guides to achieving particular goals in LMMS.
 * [[0.3:Getting Started|Getting Started]] - a brief walk-through for the impatient
 * [[0.3:Your First Song with LMMS|Your First Song with LMMS]] - a more step-by-step tutorial
 * [[0.3:Making Triple-Oscillator Patches|Making Triple-Oscillator Patches]] - Guidelines for creating useful triple-oscillator patches
 
-= Using LMMS =
+= Using LMMS 0.3 =
 
 A thematic description of how the various tools in LMMS work.
 * [[0.3:Working with Instruments|Working with Instruments]]
@@ -31,7 +31,7 @@ A thematic description of how the various tools in LMMS work.
 * [[0.3:Using MIDI|Using MIDI]]
 * [[0.3:Exporting the Song|Exporting the Song]]
 
-= Reference =
+= 0.3 Reference =
 
 A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
 * [[0.3:Main Menu Bar|Main Menu Bar]]
