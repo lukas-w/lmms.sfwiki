@@ -1,22 +1,20 @@
 {{Tip of the dayTrans}}
 
-{{Tip of the dayTrans}}
+Hier können Sachen geschrieben werden, die in der "Tip des Tages"-Dialog-Box in LMMS erscheinen können.
 
-Here you can add things which could be displayed in a "tip of the day"-dialog in LMMS.
-
-* You can use the sidebar on the left to get quick access to: plugins, projects, samples, presets, home and root folders
-* You can create cool sounds turning BIT INVADER's sample length down a bit and then up again!
-* There are many effects to choose from in the "FX" tab on any instrument.
-* Holding down CTRL while dragging a song segment duplicates it.
-* You can change each track's colour in the Song Editor from its context menu. This helps you group tracks together logically.
-* If your instrument seems to 'click' when you release the note, try extending its decay or release time.
-* You can click on the oscilloscope playback display in order to turn it off if you find it distracting.
-* Once you've customized a sample or instrument to your tastes, it's a good idea to save it as a preset so that you can use it in other songs!
-* Automation applied to an instrument in a [[Beat Bassline Editor|Beat + Bassline Editor]] track only applies to the number of bars that the pattern goes for, typically one.  If you want to automate fade-ins or other effects on an instrument for longer than that one bar, then you must either move the instrument to the [[Song Editor]] or automate its effects via an individual effects line.
-* If you don't have enough effects in the "FX" tab of an instrument, try searching for and installing more LADSPA effects using your distribution's standard package management tool.
-* To quickly copy an entire track in the [[Song Editor]], hold down CTRL while dragging the 'grip' area on the far left of the track.
-* Hover the mouse pointer over a step in the [[Beat Bassline Editor|Beat + Bassline Editor]] and use your mouse wheel to raise/lower the volume of that step.
-* CTRL+S saves your project. Remember to save often!
-* Use CTRL+Z to undo changes, and CTRL+R to redo.
-* Don't forget that the LMMS Wiki is there to help you! You can quickly access it through Help/Online Help.
-* Most instruments that are included in the default installation are named “Default preset”. You should make it a habit to always rename this “Default preset” to a describing new name. Double-click on “Default preset” and enter the new name.
+* Man kann die Seitenleiste auf der linken Seite nutzen. Damit hat man schnellen Zugang zu: Plug-Ins, Projekten, Samples, Presets und Ordnern
+* Man kann coole Töne erzeugen, indem man die Samplelänge beim Bit-Invader Plug-In nach unten dreht und dann wieder hinauf!
+* Für jedes Instrument kann man unter "FX" eine Menge Effekte auswählen.
+* Wenn man Strg gedrückt hält, während man ein Lied-Abschnitt verschiebt, wird dieses kopiert. 
+* Für jede Spur kann im Kontext-Menü (RechtsKlick) die Farbe geändert werden. Das verhilft zu einer besseren Übersicht der einzelnen Spuren.
+* Wenn bei einem Instrumentensound ein "klicken" zu vernehmen ist, hilft es, die Werte von Decay (Abfallzeit) und Release (Ausklingzeit) zu verändern.
+* Die Masterausgangs-Visualisierung (Oscilloscope) kann man durch einfaches klicken ein- oder ausschalten
+* Wenn man ein Sample oder Prest nach seinen Vorstellungen erstellt hat, sollte man es abspeichern , um es dann auch in anderen Liedern verwenden zu können.
+* Auf ein Instrument angewandte Automation in einer [[Beat Bassline Editor(deutsch)|Beat + Bassline Editor]] Spur verläuft nur so viel Takte lang wie das Pattern ist. Wenn man Fade-Ins automatisieren möchte, oder andere Effekte, die länger als der Takt gehen, muss man entweder das Instrument in den [[Song Editor]] ziehen, oder über individuelle Effekt-Linien arbeiten.
+* Wenn nicht genügen Effekte unter "FX" eines Instrumentes vorhanden sind, suche nach mehr LADSPA-Effekten (im Internet oder über den Packet-Manager) und installiere sie.
+* Um schnell eine ganze Spur im [[Song Editor]] zu kopieren, einfach Strg gedrückt halten, während man ganz links auf die geriffelte Fläche drückt und die Spur nach oben oder unten verschiebt.
+* Mit dem Maus-Rad kann man durch auf- und abscrollen die Lautstärke eines einzelen Steps im [[Beat Bassline Editor(deutsch)|Beat + Bassline Editor]] verändern.
+* Srtg+S speichert das Projekt. Denk daran oft zu speichern!
+* Nutze Srtg+Z um Schritte rückgängig zu machen. (- funktioniert in der aktuellen Version leider noch nicht -)
+* Vergiss nicht, dass LMMMS Wiki für deine Hilfe zur Verfügung steht. Man kann es direkt durch Hilfe/OnlineHilfe erreichen.
+* Die meisten Instrumente die in der Installation enthalten sind werden als "Default Preset" angezeigt. Man sollte es sich zur Angewohnheit machen, diese Instrumente direkt umzubenennen. Doppel-Klick auf den Namen und gib einen neuen ein.
