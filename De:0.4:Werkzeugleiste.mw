@@ -1,0 +1,84 @@
+{{0.4:Tool BarTrans}}
+
+Die Werkzeugleiste ist am oberen Rand des Fensters, direkt unter der [[De:0.4:Hauptmenüleiste|Hauptmenüleiste]].   Sie sieht wie folgt aus:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar.png
+<!--{\end{center}}-->
+
+(Seit Version 0.4.6 hat sich einiges geändert. Keine großen Änderungen, einige Buttons sind hinzugekommen andere wurden entfernt: 
+* Qualität
+* Auto Limit 
+Die Werkzeugleiste ist in zwei Reihen aufgeteilt. 
+In der oberen Reihe geht es ums Projekt.
+Die untere Reihe enthält Buttons um die einzelnen Bedienungselement (wie z.B. Song-Editor, Beat/Bassline Editor, PianoRoll,...) zu öffnen/schliessen.
+
+= Dateien verwalten=
+
+Die sechs Buttons in der oberen Reihe beschäftigen sich mit Öffnen und Schließen der Dateien.
+
+Der '''Neues Projekt''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-new-project.png) erstellt ein neues Projekt. 
+
+Der '''Projekt öffnen''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-open-project.png) öffnet eine vorhandene Projekt-Datei aus dem entsprechenden Projekt-Ordner
+
+Der '''Projekt speichern''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-save.png) speichert das aktuelle Projekt. Wenn es bis jetzt noch nicht abgespeichert wurde, wird man nach Projektname und Speicherort gefragt. 
+
+Der '''Projekt exportieren''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) ermöglicht den Export des aktuellen Projekts als WAV oder OGG Datei. 
+
+Es wird ausgehend vom aktuellen Abspielort im [[Song Editor]] exportiert, also sollte man sich versichern, dass der Abspiel-Cursor am Anfang ist, wenn man das ganze Lied exportieren will.
+
+= Fenster verwalten =
+
+Die fünf (sieben in der aktuellen Version) Buttons in der zweiten Reihe der Werkzeugleiste öffnen oder schließen die einzelnen Bedienungselemente. Wenn man darauf klickt, hängt die Aktion von der Einstellung des einzelnen Elementen-Fensters ab. Wenn das ausgewählte Element (z.B. der Mixer) nicht im Vordergrund, dann wird es in den Vordergrund gebracht. Wenn es im Vordergrund ist, wird es geschlossen. Wenn es geschlossen ist, wird es geöffnet und in den Vordergrund angezeigt. Wenn ein Bedienfenster geschlossen wird, wird der Inhalt nicht verändert oder gelöscht. 
+
+Bei RechtsKlick auf dem Rahmen eines Fensters öffnet sich ein Kontext-Menü. Die Option "Im Vordergrund bleiben" läßt das Fenster immer vor allen anderen Fenster stehen. Das ist z.B. sehr praktisch und hilfreich für den Mixer.
+
+Der '''Beat/Bassline Editor''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-bassline.png) zeigt oder versteckt den [[Beat Bassline Editor|Beat + Bassline Editor]].
+
+Der '''Piano Roll Editor''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png) zeigt oder versteckt das [[Piano Roll Editor]].  In diesem Fenster kann man nichts eingeben - nur wenn man vorher auf ein DoppelKlcik auf einem PianoRoll Abschnitt gemacht hat. Dann wird das entsprechende Fenster automatisch angezeigt und kann dementsprechend geöffnet und geschlossen werden.
+
+Der '''Song Editor''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-songeditor.png) zeigt oder versteckt den [[Song Editor]].
+
+Der '''Automations-Fenster''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png) zeigt oder versteckt den [[Automation Editor]].  Wie auch beim PianoRoll Editor, macht dieser nichts von alleine. Man muss erst die Automation eines Bedienfeldes öffnen (RechtsKlick Kontext-Menü) um die entsprechenden Automations-Daten zu öffnen.
+
+Der '''Projekt Notizen''' Button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-notes.png) zeigt oder versteckt das [[Project Notes|Projekt Notizen]] Fenster.
+
+= Tempo Einstellungen =
+
+Das aktuelle '''Tempo''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png) wird durch drei Nummern dargestellt. Es handelt sich hierbei um ein Standard-Bedienfeld. D.h., es kann verändert werden, in dem man mit gedrückter Maustaste auf und ab fährt. Und mit RechtsKlick öffnet sich das Kontext-Menü mit der Möglichkeit zur Automation. 
+
+= Sound Qualität Einstellung =
+
+(Version 0.3.x)
+
+Beneath the tempo control are two controls that set the quality of the sound produced by LMMS.
+
+The '''High Quality''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-highquality.png) turns on use of higher precision mathematics in all the instruments.  This will generally increase the quality of the sound - reducing artifacts and obvious clipping - at the expense of increased CPU usage.  It may also alter the sound of some [[LADSPA]] effects, particularly reverbs.
+
+The '''Auto Limit''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-autolimit.png) activates a soft limiting function that prevents the sound from hitting the maximum or minimum extents of the 16-bit precision of a WAV file.  This can make some sounds softer but will avoid having clipping if a chance resonance or constructive interference should occur during your song.
+
+= Lautstärke und Tonhöhe Einstellungen =
+
+Rechts von der Geschwindigkeitsanzeige befinden sich Regler zur Lautstärke und Tonhöhe.
+
+Der '''Lautstärke''' Regler (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-master-volume.png) setzt die Gesamtlautstärke für das ganze Lied.
+
+Der '''Tonhöhen''' Regler (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-master-pitch.png) setzt die "Grund"-Tonhöhe des Liedes an der sich alle Noten orientieren. Beim herunterdrehen wird das Stück in einer tieferen Tonlage wiedergegeben, und umgekehrt genauso. Das kann hilfreich sein, wenn man ein Lied nachgemacht hat, und feststellt, dass das Original in einer anderen Tonhöhe ist. Oder man möchte das aktuelle Projekt mit einem Lied mischen, das eine andere Tonhöhe hat. Dann kann man das (mehr oder weniger;) ganz leicht anpassen.
+
+= Wellenform und CPU Auslastungs-Anzeige =
+
+Letztendlich, die '''Wellenform / CPU Anzeige''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-wave-cpu.png) Sie gibt die Wellenform  während der Wiedergabe an. 
+
+Darunter wird die CPU Auslastung durch LMMS mit allen Instrumenten und Effekten angegeben. Man kann die Wellenform-Anzeige durch einfaches daraufklicken ausschalten, wenngleich dadurch der CPU Verbrauch nicht wirklich reduziert wird. 
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Main Menu Bar]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Side Bar]]
+|}
+
+[[Category:Reference]]
+[[Category:0.4-Manual]]
