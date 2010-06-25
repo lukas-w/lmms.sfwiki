@@ -1,7 +1,6 @@
 {{0.4:Getting StartedTrans}}
 
 = Beginnen, mit LMMS zu arbeiten =
-(Deutsche Version von: [[Getting started]])
 {{CV}}
 LMMS (Linux Multimedia Studio) ist ein Sequencer, Software Synthesizer und eine Tonsatz-Software für Linux und Windows. Es umfasst eine Reihe von Plug-In Software-Synthesizern, die Wiedergabe von Audio-Samples, Komposition mittels Drum-Modul und Klaviatur, Automatisierungswerkzeuge und Zugang zu LADSPA-Effekten.
 
@@ -71,8 +70,8 @@ http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
 
 http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
 
-(*man beachte die in der Lautstärke verringerten Snare Drums im zweiten Beispiel: die in dunkler gehaltenen <FONT COLOR="#00ff00">Led's</FONT> in manchen Steps)
-Das kann mit dem Scroll-Rad der Maus erreichen.
+(*man beachte die in der Lautstärke verringerten Snare Drums im zweiten Beispiel: die dunkleren <FONT COLOR="#00ff00">Led's</FONT> in manchen Steps)
+Das kann man mit dem Scroll-Rad der Maus erreichen.
 = Navigation =
 
 {| style="border: 1px solid black;"
