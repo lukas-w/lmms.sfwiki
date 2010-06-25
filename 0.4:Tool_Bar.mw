@@ -24,7 +24,7 @@ The '''Open Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/
 
 The '''Save Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-save.png) saves the current project. If you have not yet saved the project you will be prompted for a name and location to save it.
 
-The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) exports the current project as a WAV or OGG file.  It will export it from the current play location in the [[Song Editor]] so be sure to set the play location to the first bar if you want the entire song exported.
+The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) exports the current project as a WAV or OGG file.  It will export it from the current play location in the [[0.4:Song Editor|Song Editor]] so be sure to set the play location to the first bar if you want the entire song exported.
 
 = Window Controls =
 
@@ -32,15 +32,15 @@ The five buttons at the left of the bottom row shows or hides various windows.  
 
 All GUIs has a useful feature. If you right-click in the top-mostleft cornor, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer.
 
-The '''Beat + Bassline Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-bassline.png) shows or hides the [[Beat Bassline Editor|Beat + Bassline Editor]].
+The '''Beat + Bassline Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-bassline.png) shows or hides the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]].
 
-The '''Piano Roll Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png) shows or hides the [[Piano Roll Editor]].  You cannot edit in this window, however - you must double-click a piano roll segment in order to edit it.  The window will then display automatically.
+The '''Piano Roll Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png) shows or hides the [[0.4:Piano Roll Editor|Piano Roll Editor]].  You cannot edit in this window, however - you must double-click a piano roll segment in order to edit it.  The window will then display automatically.
 
-The '''Song Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-songeditor.png) shows or hides the [[Song Editor]].
+The '''Song Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-songeditor.png) shows or hides the [[0.4:Song Editor|Song Editor]].
 
-The '''Automation Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png) shows or hides the [[Automation Editor]].  Like the Piano Roll Editor, this does nothing as is; open the automation of a particular control using its context menu to open the automation of that control.
+The '''Automation Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png) shows or hides the [[0.4:Automation Editor|Automation Editor]].  Like the Piano Roll Editor, this does nothing as is; open the automation of a particular control using its context menu to open the automation of that control.
 
-The '''Project Notes''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-notes.png) shows or hides the [[Project Notes]] window.
+The '''Project Notes''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-notes.png) shows or hides the [[0.4:Project Notes|Project Notes]] window.
 
 = Tempo Control =
 
