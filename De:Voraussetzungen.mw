@@ -1,19 +1,21 @@
-<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">This page should be in German</div>
-
 __NOTOC__ __NOEDITSECTION__
 {{RequirementsTrans}}
 
-The hardware and software required to run LMMS is reasonably modest.
+Die Hard- und Software Voraussetzungen für LMMS sind einigermaßen bescheiden.
 
 == CPU/RAM ==
-Depending on the type and size of the songs you plan to write it's recommended to have at least 1 GHz and 512 MB of RAM. If you use [[Tested VSTs|VST-plugins]] and a recent SVN-copy of LMMS it's also recommended to have multiple cores and/or CPUs.
+Abhängig von der Art und Größe des Projekts das man erstellt, wird empfohlen mindestens über 1 GHz und 512 MB RAM zu verfügen. 
 
-== Soundcard ==
-There are no special needs. LMMS will run with an ordinary cheap 2-channel soundcard but it can also make use of surround-soundcards! Furthermore you will need a MIDI port if you plan to use your [[Using MIDI|MIDI keyboard]] to record or play back from LMMS.
+Bei aktuellen (alpha und beta) Versionen und bei Verwendung von Vsti Instrumenten (siehe [[Tested VSTs|VST Datenbank]]) wird außerdem ein Dual Core Prozessor empfohlen.
 
-== Operating Systems ==
+== Soundkarte ==
+Keine spezielen Anforderungen. LMMS sollte mit jeder normalen Stereo-Soundkarte laufen, aber es kann genauso vollständigen Gebrauch von Surround-Soundkarten machen. 
 
-LMMS is tested and available on the following platforms:
+Desweiteren braucht man einen Midi-Anschluss wenn man plant ein [[Using MIDI|MIDI Keyboard]] zum aufnehmen oder wiedergeben mit LMMS zu verwenden.
+
+== Betriebssysteme ==
+
+LMMS wurde getestet und steht unter folgenden Platformen zur Verfügung:
 
 * Linux
 * Windows
