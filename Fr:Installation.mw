@@ -1,0 +1,224 @@
+<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">This page should be in French</div>
+{{InstallationTrans}}
+
+This is meant to be a very basic and linear tutorial on how to install LMMS.
+
+= http://gsmartcontrol.berlios.de/home/images/os_icons/linux.png Installation under Linux =
+
+'''Please note that many distributions only ship outdated versions of LMMS (0.3.x or even older!). It's strongly advised against using these old versions as they're rather unstable and feature-incomplete compared to the current 0.4.x series!'''
+
+== http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu ==
+
+To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
+
+
+<font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its Alsa driver in Ubuntu-9.10 (Karmic)*</font>
+
+Thus below is a tutorial on how to get LMMS working using the alsa driver.
+
+
+1. First we need to find the name/number of our soundcard. To do so, open a terminal window and enter:
+ aplay -l ; arecord -l
+
+
+-the output should be something like this...
+
+<font color=blue>
+ **** List of PLAYBACK Hardware Devices ****
+ card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+ **** List of CAPTURE Hardware Devices ****
+ card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0</font>
+
+from "device" we can see 0 , so this should equate to hw:0   (there may be other options e.g. plughw:)
+
+-Another method of finding your soundcard's details is:
+ cat /proc/asound/cards 
+mine gives: 
+<font color=blue>
+ 0 [Intel          ]: HDA-Intel - HDA Intel
+                      HDA Intel at 0x78540000 irq 16</font>
+
+this also shows '''card 0''', and the name '''"Intel"''' which can be passed to step (5) below as '''plughw:Intel''' , with all other steps remaining the same.
+
+
+2. Now in terminal type
+ gksu gedit /etc/pulse/default.pa 
+
+and change the lines ...  
+<font color=blue>
+                          #load-module module-alsa-sink
+                          #load-module module-alsa-source device=hw:1,0</font>
+to..........
+<font color=blue>
+                          load-module module-alsa-sink <font color=green>device=hw:x</font>
+                          load-module module-alsa-source device=hw:<font color=green>x</font></font>
+(remember to uncomment #)
+
+(where '''x''' is the card '''#number''', this can also be '''hw:x,x''' you will have to experiment a bit, though mostly it will be '''hw:0''' for the internal soundcard)
+
+
+3. You will now need to reboot for these changes to take effect and to continue the rest of the changes required.
+
+
+4. Open the "Multimedia System Selector" either through the gui under System > Preferences, or with the command gstreamer-properties by using the terminal. Now change both input & output plugin: to "pulseaudio" and device: to the line containing "hw:0" (or whatever your result was from (1) which will be something like... pulsesink device="alsa_output.hw_0" and pulsesrc device="alsa_input.hw_0
+
+
+5. Open LMMS and go to > edit > settings > audio (speaker icon) and change "audio interface" to "Alsa"(if not already) and below that change where it says "settings for Alsa" > Default, to the audio device name from step (1) e.g. '''hw:0'''
+
+6. Restart LMMS, and hopefully you'll be good to go, (you may/will have to use "gstreamer-properties" to change the device back to default when you are not using LMMS, to be able to hear any other audio streams though)
+
+== http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
+
+Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
+
+ sudo wget https://dl.getdropbox.com/u/29948/jaunty.list -O /etc/apt/sources.list.d/tobydox.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ADDE29B2 && sudo aptitude update && sudo aptitude install lmms ubuntustudio-plugins lmms-vst
+
+To install LMMS manually for Intrepid and Hardy, please take a look at [https://launchpad.net/~tobydox/+archive/ppa Tobydox' Personal Package Archive].
+
+
+* If you want to try the latest UNSTABLE branch, run this command instead. Please note that the LMMS developers do not support this version as it is unfinished:
+
+ sudo wget https://dl.getdropbox.com/u/29948/winejaunty.list -O /etc/apt/sources.list.d/winehq.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 387EE263 && sudo aptitude update && sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev ubuntustudio-audio-plugins libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git wine wine-dev cmake && mkdir lmms-install && cd lmms-install && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install && cd && rm -r lmms-install
+
+* Compiling LMMS for the first time requires a download of roughly 115mb, including dependencies and other packages. Without dependencies , it requires a download of around 23mb.
+* This command adds the winehq repository for the latest version of wine and wine-dev, required for VST support.
+
+== http://gsmartcontrol.berlios.de/home/images/os_icons/gentoo.png Gentoo ==
+
+LMMS is now avaible for Gentoo in the official portage tree.
+
+So, Gentoo users who want to install LMMS only have to do:
+
+ # echo "media-sound/lmms **" >> /etc/portage/package.keywords
+ # emerge -av lmms
+
+== http://gsmartcontrol.berlios.de/home/images/os_icons/fedora.png Fedora ==
+
+LMMS is now available in the standard Fedora updates repository.  If you wish to use VST plugins, you will need to install the ''lmms-vst'' package as well as the ''lmms'' package.
+
+Just go to: ''System''/''Administration''/''Add''/''Remove Software'' to choose these packages.
+
+= http://a.fsdn.com/con/icons/pr/progit@sf.net/git.logo.gif Installing LMMS from Git =
+
+To install manually from Git (Examples provided assume you're running Debian or Ubuntu GNU/Linux, and that you have '''git''' and '''cmake''' installed):
+
+* First you need to clone the Git repository - or update your sources - if you're upgrading from a previous version. The following commands will do this for you inside a newly created folder named "lmms".
+ git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms
+ cd lmms
+ git checkout -b stable-0.4 origin/stable-0.4
+* Next resolve any unmet dependencies (see section "[[Installation#Resolving_dependencies|Resolving dependencies]]" below for more on this topic)
+* Then you have to configure LMMS:
+ mkdir build
+ cd build
+ cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+* Now compile LMMS: (People with more than one CPU core can use make's -j2 option to compile some files in parallel instead, accelerating the process. Otherwise '''"make"''' is just fine. )
+ make -j2
+* Finally you can install LMMS:
+ sudo make install
+
+
+== Resolving dependencies ==
+
+To compile LMMS from sources you need several development libraries, from graphical to sound ones. Some are essential and some are optional.
+
+=== Required libraries ===
+
+* Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
+** under Debian based distributions (including Ubuntu) run:
+ sudo aptitude install libqt4-dev qt4-dev-tools build-essential
+* sound file library - for reading and writing files containing sampled audio data
+** under Debian based distributions (including Ubuntu) run: 
+ sudo aptitude install ''libsndfile1-dev''
+
+Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
+* [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info - '''ALSA is the recommended audio-interface to use with LMMS'''.
+** under Debian run ''sudo aptitude install libasound2-dev''
+* [http://jackaudio.org/ JACK] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
+** under Debian run ''sudo aptitude install libjack0.100.0-dev libjackasyn-dev''
+* [http://www.libsdl.org/index.php SDL] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them ''before'' starting LMMS)
+** under Debian run ''sudo aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
+* [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [http://www.alsa-project.org/ ALSA]
+
+
+
+=== Optional (but strongly recommended) libraries ===
+
+To make use of the full LMMS potential you may need to install some extra libraries. Here is a list of some of them:
+
+* ogg-vorbis libraries - to decode/encode .ogg samples and/or songs
+** under Debian run sudo aptitude install ''libvorbis-dev libvorbisfile3 libvorbisenc2''
+* samplerate conversion tools - to downsample and upsample audio from 4Hz up to 192kHz
+** under Debian run sudo aptitude install ''libsamplerate0-dev''
+* asynchronous library for interfacing with the JACK sound server - to convert programs that do sound input or output via the OSS system into JACK clients by starting them with the jacklaunch command
+* STK library + headers for using STK (Sound Synthesis Toolkit)
+** under Debian run sudo aptitude install ''libstk0-dev stk''
+* WINE + devel-packages for being able to use VST-plugins within LMMS
+** under Debian run sudo aptitude install ''wine-dev libwine-dev libwine''
+* FFTW3 - used by the SpectrumAnalyzer plugin
+** under Debian run sudo aptitude install ''libfftw3-dev''
+* Fluidsynth - required to build the powerful Sf2Player plugin
+** under Debian run sudo aptitude install ''libfluidsynth-dev''
+
+If you don't install all the libraries '''before''' running cmake, you'll receive warnings afterwards. So remove CMakeCache.txt and run cmake again until you get the desired result.
+
+= http://gsmartcontrol.berlios.de/home/images/os_icons/windows.png How to compile LMMS on Windows =
+Note!! This guide is incomplete! I can't get past the libsndfile step.
+
+  1. install git: http://code.google.com/p/msysgit/downloads/list
+     as of this writing, I'm using Git-1.6.4-preview20090730.exe 
+     - select Run Git from the Windows Command Prompt
+     - Use OpenSSH
+     - Use Unix style line endings
+
+  2. Now you need to [[Accessing_Git_repository|clone the git repository]].
+     - open command prompt
+     - go to some folder where you want to store your working copy of lmms
+     - then follow the guide to clone lmms. Do not run cmake or try to compile yet.
+
+  3. Installing the Dependencies:
+     - '''libsndfile: Unknown. I can't get it to compile for windows in such a way that cmake recognizes it'''
+     - list other dependencies here
+
+  4. install cmake: http://www.cmake.org/cmake/resources/software.html
+     - add cmake to the path for all users
+
+  5. install qt creator
+     - components: make sure mingw and qt are checked
+     - add the qt bin folder and the mingw bin folder to path for all users
+
+  6. run qt creator
+     - file->open->navigate to lmms and open CMakeLists.txt
+     - click Run cmake
+
+you're good to go! you can test the program with F5 and it will build correctly and automatically set up the debugger. you can also check in your edits with the qtcreator git plugin
+
+= Other Notes =
+
+After running cmake you might get the following cmake error:
+
+   CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+   Please set them or make sure they are set and tested correctly in the CMake files:
+   X11_Xft_LIB (ADVANCED)
+      linked by target "remote_zynaddsubfx" in directory /home/kizzo/lmms-work/lmms/plugins/z
+   ynaddsubfx
+
+I forgot exactly how I arrived to this solution: sudo aptitude install libxft-dev libfreetype6-dev .
+
+See also: [[Tuning LMMS-installation]]
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Requirements]]
+| Up: [[0.4:Manual]]
+| Next: [[Terms and Conventions]]
+|}
+
+[[Category:Introduction]]
+[[Category:0.4-Manual]]
+[[Category:Simplify]]
