@@ -1,0 +1,37 @@
+{{Creating a ThemeTrans}}
+
+LMMS ist sehr flexibel, wenn es darum geht eine neues sogenanntes "Theme" (Aussehen) zu erzeugen. Alle Bild-Dateien die von dem Programm genutzt werden, können direkt über einen Ordner erreicht und mit einem Bildbearbeitungsprogramm entsprechend verändert werden. Unglücklicherweise, gibt es bis jetzt nicht viel Interesse zur Entwicklung einer neuen Oberfläche, obwohl es doch so einfach ist. Bis jetzt wurden erst ein paar "Themes" erstellt und veröffentlicht. [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform] Auf dieser Seite können sie heruntergeladen, bewertet und kommentiert werden. Diese Anleitung soll Leuten dabei helfen, die sich dafür interessieren und sie motivieren und auch die ansprechen, die sich weniger dafür interessieren.
+
+== Worum geht es ==
+
+Ein ''Theme'' ist eine Sammlung von Dateien (hauptsächlich Bildern) die das "Aussehen" von LMMS wiedergeben. Es besteht aus einer ''.css'' Stylesheet, einer ''.xml'' Datei und vielen ''.png'' Bildern. Es kann normalerweise als ''.tar.gz'' Archiv heruntergeladen werden und muss in den ''themes'' Ordner entpackt werden.
+
+In einer normalen Linux-Installation ist dieser Ordner unter:
+ /usr/share/lmms/themes/
+Unter Windows ist dieser Ordner dort zu finden, wo LMMS installiert wurde.
+
+=== Voraussetzungen ===
+Um ein neues "Theme" zu erstellen, oder ein bereits existierendes zu verändern, sind einige wenige Grundkenntnisse nötig:
+* Bildbearbeitungskenntnisse ''(z.B. Gimp, Inkscape, oder auch Paint)''
+* Ordner Kenntisse
+* wie man Dateien in ein Archiv packt
+* wenn man's veröffentlichen will, ein LMMS Sharing Platform Account (*optional, da man es natürlich auf jeder Seite veröffentlichen kann:)
+
+=== Zur Erinnerung ===
+-Das Standard "Theme" heißt ''default'', und kann im ''themes'' Ordner gefunden werden.<br>
+-Jedes "Theme" sollte seinen eigenen Ordner mit den Bildern darin haben.<br>
+-Wenn beim "Theme" ein paar Dateien fehlen, greift LMMS auf die Standard Dateien zurück.<br>
+-Groß/Kleinschreibung unter Linux beachten.
+
+== Wie fange ich an ==
+Am besten eine Kopie des Standard Ordners machen, diese dann umbenennen (z.B.''"MeinTheme"'') und mit einem Bildbearbeitungsprogramm die Bilddateien öffnen und verändern. Man kann sie auch ganz und gar austauschen, aber man sollte dabei auf die Größendimension achten: Manchmal kann diese ruhig anders sein, ein anderes mal wiederum nicht! 
+
+== Das "Theme" testen ==
+Um das neue "Theme" zu testen, einfach LMMS starten und unter Bearbeiten->Einstellungen->Pfade (Ordner Symbol) und den Ordner mit dem neuen "Theme" eingeben. Meistens ist ein Neustart von LMMS nötig, damit es aktiviert wird.
+
+
+== Das "Theme" veröffentlichen ==
+Wenn dein eigenes "Theme" fertig ist, sollte man den ganzen Ordner als ''.tar.gz'' (oder auch als .zip:) packen und es anderen Leuten zur Verfügung stellen, damit sich jeder an der ganzen Arbeit erfreuen kann;) 
+Der beste Platz dafür ist diese Seite [http://lsp.lmms.info/?action=browse&category=UI%20themes LMMS Sharing Platform]. 
+Man muss sich zwar registrieren, aber das ist umsonst (und man muss auch keine weiteren Daten angeben)
+*Vorsicht mit Lizenz und Patent Verstößen, wenn man nicht eigenes Material (auch bei der Erstellung eigener Bilder) verwendet!
