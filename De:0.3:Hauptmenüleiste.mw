@@ -1,0 +1,77 @@
+Die Hauptmenüleiste ermöglicht den direkten Zugriff auf die allgemeinen Funktionen von LMMS: 
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menubar.png
+<!--{\end{center}}-->
+
+= Projekt Menü =
+
+Im diesem Menü können Projekte geladen, gespeichert und exportiert werden. Außerdem kann man Midi-Dateien importieren.
+
+* '''Neu''' erstellt ein neues Projekt.
+
+* '''Öffnen''' öffnet einen Fenster um ein Projekt auszuwählen, das geladen werden soll.
+
+* '''Zuletzt geöfftnete Projekte''' zeigt ein Untermenü an, in dem alle zuletzt geöffneten Projekte angezeigt werden, so das man einfach eines dieser Projekte öffnen kann, an dem man zuletzt gearbeitet hat. Das beinhaltet nicht das Projekt, welches gerade erstellt und abgespeichert wurde. Das Projekt muss schon einmal geladen worden sein, damit es im Menü erscheint. 
+
+* '''Speichern''' speichert das aktuelle Projekt, wenn es denn schon mal gespeichert wurde. Wenn nicht, funktioniert es wie der nächste Punkt 'Speichern als'
+
+* '''Speichern als''' zeigt ein Fenster an mit der Möglichkeit einen (neuen) Speicherort und den Namen des Projektes einzugeben.
+
+* '''Importieren''' ermöglicht es Midi-Dateien (.mid, .midi) und FruityLoops Projekte (.flp) zu importieren. 
+(Was leider ausbaufähig ist, weil's noch nicht so gut klappt) 
+
+* '''Exportieren''' ermöglicht es, den Song als Wav-Datei oder Ogg-Datei abzuspeichern. Mp3 Export wird nicht unterstützt und ist auch nicht geplant.
+Wenn man einen Speichernamen und Speicherort eingegeben hat, wird man mit folgendem Fenster konfrontiert:)
+
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menu-project-export-settings.png
+<!--{\end{center}}-->
+
+: Hier kann man noch mal das Datei-Format wählen (wav oder ogg). Für Ogg-Dateien kann man Bit Rate wählen (d.h. Stärke der Komprimierung -> je kleiner der Wert, desto größer die Komprimierung, desto schlechter ist aber auch die Qualität) Diese Auswahl hat keine Auswirkung für Wav-Dateien. 
+
+
+: Wenn man jetzt auf 'OK' drückt, wird der Song von dort aufgezeichnet, wo sich der Abspielpunkt gerade befindet. Um den ganzen Song zu exportieren, sollte man darauf achten, dass der Abspielpunkt am Anfang ist. (DoppelKlick auf Stop Button oder mit der Maus in der oberen Leiste im Song-Editor verschieben) Am Ende des Songs wird noch eine kurze Pause-Zeit aufgezeichnet, um mögliche Delays/Flächen oder was auch immer auslaufen zu lassen. 
+Wenn man aber ein Drumloop exportieren möchte, muss dieser noch nachbearbeitet werden. 
+
+* '''Beenden''' beendet LMMS. Man wird gefragt, ob man das Projekt vorher noch speichern möchte, wenn Änderungen vorgenommen wurden 
+(Was man auch anhand eines Sternchens * am Ende des Projektnamens erkennen kann.) 
+
+= Bearbeiten Menü =
+
+Die zwei einzigen Optionen sind '''Rückgängig''' und '''Wiederherstellen'''.  Dies kann auch durch die Tastaturbefehle Strg+Z und Strg+R erreicht werden. Dadurch kann man Schritte rückgängig machen oder wieder herstellen, um versehentlich gemachte Fehler zu korrigieren. ''Leider funktioniert dies in der aktuellen Version (0.4.6) noch nicht''   Die Entwickler sind sich dessen aber bewußt und es wird daran gearbeitet.
+
+Außerdem befindet sich hier das ...
+
+= Einstellungs-Menü =
+
+Dieses Menü ermöglicht eine genaue Konfiguration von LMMS (Änderungen werden allerdings erst nach einem Neustart aktiv)
+Für genauere Informationen [[LMMS Settings]]
+
+
+= Werkzeug Menü =
+
+LADSPA Plugin Browser: Zeigt eine Liste aller verfügbaren und nicht verfügbaren LADSPA Effekte an. Zusätzlich werden Instrumente und Analysewerkzeuge aufgelistet. Ausserdem erhält man weitere Informationen zu den einzelnen Effekten (wie z.B. Name, Hersteller, Echtzeitfähigkeit, Eingangs-Kanäle, ...) 
+Leider kann man keine weiteren Einstellungen vornehmen, wie z.B. alle Effekte einer Kategorie (Delay, Reverb, ...) anzeigen. 
+
+= Hilfe Menü =
+
+Alle guten Dinge sind drei und so gibt es drei Einträge in diesem Menü
+
+* '''Online-Hilfe''' ist mit der Start Seite dieses Wikis verlinkt (momentan noch mit der englischen Seite) 
+* '''Was ist das?''' verändert den Mauszeiger in einen Hilfe-Mauszeiger Man kann nun Elemente (Icons, Buttons, was auch immer) anklicken und erhält Informationen über dessen Funktion. 
+(Auch das ist noch nicht ganz ausgereift und enthält viele Lücken)
+* '''Über''' zeigt ein Fenster mit der aktuellen Versionsnummer an. Ausserdem ist die Homepage angegeben (leider keine direkte Verlinkung), eine Liste mit den (Haupt)Entwicklern, eine Übersetzungsinformation und die Software-Lizenz Bestimmungen (Open Source GNU GPL) unter denen das Programm veröffentlicht ist.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Exporting the finished product]]
+| Up: [[0.3:Manual]]
+| Next: [[Tool Bar]]
+|}
+
+[[Category:Reference]]
+[[Category:0.3-Manual]]
