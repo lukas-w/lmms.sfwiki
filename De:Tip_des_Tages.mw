@@ -14,7 +14,7 @@ Hier können Sachen geschrieben werden, die in der "Tip des Tages"-Dialog-Box in
 * Wenn nicht genügen Effekte unter "FX" eines Instrumentes vorhanden sind, suche nach mehr LADSPA-Effekten (im Internet oder über den Packet-Manager) und installiere sie.
 * Um schnell eine ganze Spur im [[Song Editor]] zu kopieren, einfach Strg gedrückt halten, während man ganz links auf die geriffelte Fläche drückt und die Spur nach oben oder unten verschiebt.
 * Mit dem Maus-Rad kann man durch auf- und abscrollen die Lautstärke eines einzelen Steps im [[Beat Bassline Editor(deutsch)|Beat + Bassline Editor]] verändern.
-* Srtg+S speichert das Projekt. Denk daran oft zu speichern!
-* Nutze Srtg+Z um Schritte rückgängig zu machen. (- funktioniert in der aktuellen Version leider noch nicht -)
+* Strg+S speichert das Projekt. Denk daran oft zu speichern!
+* Nutze Strg+Z um Schritte rückgängig zu machen. (- funktioniert in der aktuellen Version leider noch nicht -)
 * Vergiss nicht, dass LMMMS Wiki für deine Hilfe zur Verfügung steht. Man kann es direkt durch Hilfe/OnlineHilfe erreichen.
 * Die meisten Instrumente die in der Installation enthalten sind werden als "Default Preset" angezeigt. Man sollte es sich zur Angewohnheit machen, diese Instrumente direkt umzubenennen. Doppel-Klick auf den Namen und gib einen neuen ein.
