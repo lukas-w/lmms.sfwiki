@@ -14,7 +14,7 @@ Im diesem Menü können Projekte geladen, gespeichert und exportiert werden. Au�
 
 * '''Neu''' erstellt ein neues Projekt.
 
-* '''Öffnen''' öffnet einen Fenster um ein Projekt auszuwählen, das geladen werden soll.
+* '''Öffnen''' öffnet ein Fenster um ein Projekt auszuwählen, das geladen werden soll.
 
 * '''Zuletzt geöfftnete Projekte''' zeigt ein Untermenü an, in dem alle zuletzt geöffneten Projekte angezeigt werden, so das man einfach eines dieser Projekte öffnen kann, an dem man zuletzt gearbeitet hat. Das beinhaltet nicht das Projekt, welches gerade erstellt und abgespeichert wurde. Das Projekt muss schon einmal geladen worden sein, damit es im Menü erscheint. 
 
