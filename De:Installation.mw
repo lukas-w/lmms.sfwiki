@@ -1,27 +1,26 @@
-<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">This page should be in German</div>
 {{InstallationTrans}}
 
-This is meant to be a very basic and linear tutorial on how to install LMMS.
+Dies ist als einfache Einführung gedacht, wie man LMMS installieren kann.
 
-= http://gsmartcontrol.berlios.de/home/images/os_icons/linux.png Installation under Linux =
+= http://gsmartcontrol.berlios.de/home/images/os_icons/linux.png Installation unter Linux =
 
-'''Please note that many distributions only ship outdated versions of LMMS (0.3.x or even older!). It's strongly advised against using these old versions as they're rather unstable and feature-incomplete compared to the current 0.4.x series!'''
+'''Bitte beachten, dass viele Distributionen noch alte Versionen (0.3.x oder noch älter) von LMMS enthalten. Es wird nicht empfohlen diese zu nutzen, da sie mitunter sehr unstabil laufen und auch nicht die neuesten Funktionen der aktuellen 0.4.x Reihe aufweisen!'''
 
 == http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu ==
 
-To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
+Um die aktuellste Version von LMMS auf Ubuntu 9.10 (Karmic) zu bekommen, öffne das Ubuntu Software Centre und suche nach "LMMS".
+
+<font color="#ff0000">*Berichten zu folge funktioniert LMMS nicht "sofort" mit den Alsa Treibern unter Ubuntu-9.10 (Karmic)*</font>
 
 
-<font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its Alsa driver in Ubuntu-9.10 (Karmic)*</font>
-
-Thus below is a tutorial on how to get LMMS working using the alsa driver.
+Hier ist eine Anleitung, wie man LMMS mit den ALSA Treibern nutzen kann.
 
 
-1. First we need to find the name/number of our soundcard. To do so, open a terminal window and enter:
+1. Als erster muss man den Namen/die Nummer der Soundkarte herausfinden. Um das zu tun, das Terminal Fenster öffnen und folgendes eingeben:
  aplay -l ; arecord -l
 
 
--the output should be something like this...
+- das Ergebnis könnte wie folgt aussehen...
 
 <font color=blue>
  **** List of PLAYBACK Hardware Devices ****
