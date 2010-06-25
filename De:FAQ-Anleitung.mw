@@ -1,0 +1,56 @@
+{{User FAQTrans}}
+
+''Dieser Artikel behandelt immer wieder gestellte Fragen (FAQ) betreffend des Gebrauchs/Umgangs von LMMS
+
+'''Bei irgendwelchen auftretenden Problemen bitte die Seite [[Troubleshooting]] verwenden.''' ''<br>
+Wenn noch mehr Fragen bestehen sollten, bitte ans Forum wenden [http://sourceforge.net/apps/phpbb/lmms/ Forum]
+
+
+== About ==
+
+'''Frage: Was ist überhaupt LMMS?<br>
+A: LMMS ist ein Sound System, Software-Synthesizer, Beat/Bassline Editor und MIDI Control System was ein eigenes Heim-Studio ersetzen kann. Töne können erstellt und gespielt werden um letztendlich ganze Lieder zu arrangieren. Das gibt einem die Möglichkeit Musik von "vorne bis hinten/Anfang bis Ende" zu erstellen. Es ist alles vorhanden was man braucht um Töne und Rythmen zu erstellen, Arrangieren einzelner Spuren und diese dann zu einem ganzen Lied zusammen zufügen und dann in verschiedenen Ausgabeformaten abzuspeichern. Mit LMMS kann man ausserdem externe MIDI Keyboards verwenden, oder man spielt die Töne mit der Computertastatur live ein.
+
+'''Frage: Gibt es kommerzielle Programme mit denen LMMS zu vergleichen ist?<br>
+A: LMMS hat viel gemeinsam (jedenfalls im allgemeinen) mit Apple's Garage Band, FL Studio (ehemals Fruity Loops), Logic Studio, und ähnlich leistungsstarke Audio Tools. In Bezug auf Leistungsfähigkeit, kann LMMS leicht mit Anfänger- oder halbprofessionellen Programmen mithalten. Das macht es zu einer guten Einstiegsmöglichkeit in die Audio Produktion, da es auch immer weiter entwickelt wird.
+
+'''Frage: Ist es wirklich umsonst?<br>
+A: Ja. LMMS ist wirklich umsonst (also ich meine kostenlos) und sogar Open Source d.h., jeder kann sich an der Programmierung beteiligen und bei der Entwicklung mithelfen!
+
+
+== Einstellungen ==
+
+'''Frage: Ich möchte eine andere Soundkarte beutzen als die Standardeinstellung. Wie kann ich das erreichen?<br>
+A: Es wird empfohlen dafür den Einstellungs-Dialog zu nutzen. Sollte das aus irgendwelchen Gründen nicht funktionieren, kann man wohl auch die Umgebungs-Variabel "AudioDev" auf das Audio-Device einstellen (z.B. ''/dev/dsp'' for OSS oder '' surround40:1,0'' für ALSA).
+
+
+== Nutzung ==
+
+'''Frage: Ich habe eine Melodie im Song-Editor erstellt aber nun möchte ich sie im Beat+Bassline Editor haben?<br>
+A: Einfach Strg gedrückt halten, während man das entsprechende Pattern in den gewünschten Beat+Bassline Editor zieht. Natürlich ist das auch in die andere Richtung möglich.
+
+
+'''Frage: Wie erstelle ich ein neues Instrument im Beat/Bassline Editor?<br>
+A: ''Meine Samples'' oder '' Meine Presets'' öffnen (auf der Seitenleiste links) und auf dem entsprechendem Instrument doppelklicken. Oder RechtsKlick um eine Aktion auszusuchen.
+
+
+'''Frage: Wie kann ich den Grundton eines Instruments im Beat/Bassline Editor verändern?<br>
+A: Auf den Instrumenten-Reiter in der Spur drücken. Da ist ein grünes Quadrat über der Klaviatur, welches verschoben werden kann. RechtsKlick für weitere Aktionen.
+
+
+'''Frage: Wie kann ich Loop-Punkte erstellen und setzen?<br>
+A: Auf den Loop-Punkte aktivieren/deaktivieren Button im Song-Editor oder PianoRoll drücken. In der Standard-Einstellung ist es deaktiviert.
+Bei Aktivierung erscheinen ganz oben im entsprechendem Fenster zwei blaue Pfeile. Diese könne mit mittlerer Maustaste (Startzeit) und rechter Maustaste (Endpunkt) genauer eingestellt werden. Strg gedrückt halten für Feineinstellung. 
+
+
+'''Frage: Wie kann ich einen Drumloop importieren den ich z.B. in Hydrogen erstellt habe?<br>
+A: Wenn es sich um eine Midi Datei handelt, läuft dies ganz einfach über Projekt-> Importieren. Aber nicht vergessen eine Soundfont Datei zu laden, sonst wird man nichts hören. 
+Wenn es sich um eine Audio Datei handelt z.B. Wav oder Ogg (mp3 funktioniert leider noch nicht) dann geht das entweder über den [[AudioFileProcessor]] oder über eine Sample Spur im Song-Editor. 
+
+
+'''Frage: Wie importiere ich eine Mp3 oder Ogg Datei?<br>
+A: siehe oben
+
+
+'''Frage: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
+A: Highlight the folder that you want to be on the sidebar, select it, and drag it to the sidebar.
