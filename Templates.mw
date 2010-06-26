@@ -16,11 +16,9 @@ This page contains various templates used in the wiki in order to guide and faci
  <nowiki><div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div></nowiki>
 
 == Message Boxes ==
-
+==== Out of date ====
 {{msgbox:out of date}}
- <nowiki>{{Msgbox
-|id              = Category:Out of date <!--NAME OF THIS TEMPLATE (DON'T CHANGE)-->
-|backgroundcolor = #faf6ed <!--READ "TEMPLATES" FOR A COLOR LIST-->
-|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png <!--IMAGE TO DISPLAY ON SIDES-->
-|heading         = Below is a list of pages marked as "Out of date". <!--HEADING MESSAGE-->
-|message         = Please help improve the wiki by updating them.}} <!--THE ACTUAL MESSAGE BELOW IT--></nowiki>
+ <nowiki>{{msgbox:out of date}}</nowiki>
+==== Too complex ====
+{{msgbox:too complex}}
+ <nowiki>{{msgbox:too complex}}</nowiki>
