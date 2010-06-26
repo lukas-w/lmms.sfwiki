@@ -1,0 +1,66 @@
+{{0.4:ManualTrans}}
+<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">Diese Bedienungsanleitung bezieht sch auf die aktuelle Version von LMMS: Version '''0.4.x'''.    Für eine ältere Version kann man diese hier nutzen [[0.3:Manual]] (englisch)</div>
+
+''Bitte beachten: auch wenn diese Bedienungsanleitung für die 0.4.x Version erneuert wird, beziehen sich manche Artikel noch auf die 0.3.0 Version und können somit etwas veraltet sein.''
+Um zu sehen auf welche Version es sich bezieht, kann man die Kategorie am Ende der Seite überprüfen. (z.B. 0.4:Bedienungsanleitung) 
+
+= Einleitung =
+
+Kurze, einleitende Seiten für jedes Thema, um die Grundlagen für die Nutzung von LMMS zu festigen und dieses Dokument besser zu verstehen.
+
+* [[De:Voraussetzungen|Voraussetzungen]]
+* [[De:Installation|LMMS installieren]] (unvollständige Übersetzung)
+* [[Terms and Conventions|Begriffserklärungen]] (englisch)
+
+= 0.4 Anleitungen =
+
+Aufgabenorientierte Schritt-für-Schritt Leitfaden um bestimmte Ziele mit LMMS zu erreichen.
+Step-by-step task-oriented guides to achieving particular goals in LMMS.
+* [[De:0.4:Wie_fange_ich_an%3F|Wie fange ich an]] - eine kurze Einweisung für die ganz Ungeduldigen 
+* [[De:0.4:Der_erste_Titel_mit_LMMS|Der erste Titel mit LMMS]] - ein Schritt-für-Schritt Durchgang
+* [[0.4:Making Triple-Oscillator Patches|Triple-Oscillator Presets erstellen]] - Leitfaden für die Erstellung von brauchbaren Triple-Oscillator Presets (englisch)
+
+= LMMS 0.4. nutzen =
+
+Eine thematisch geordnete Beschreibung, wie die einzelnen Werkzeuge von LMMS funktionieren.
+* [[0.4:Working with Instruments|Mit Instrumenten arbeiten]] (englisch)
+<!--{\newpage}-->
+* [[0.4:Working with Samples|Mit Samples arbeiten]] (englisch)
+* [[0.4:Composing in the Piano Roll Editor|Den Piano Roll Editor nutzen]] (englisch)
+* [[0.4:Composing Bass Lines and Drum Sequences|Den Beat und Bassline Sequencer nutzen]] (englisch)
+* [[0.4:Putting the song together|Ein Lied zusammenstellen (arrangieren)]] (englisch)
+* [[0.4:Working with Automation|Mit Automatisierung arbeiten]] (englisch)
+* [[0.4:Working with Controllers|Mit Kontrollreglern arbeiten]] (nicht vorhanden)
+* [[0.4:Working with Effects and the Mixer|Mit Effekten und dem Mixer arbeiten]] (englisch)
+* [[0.4:Working with VSTs|Mit Vst(i) arbeiten]] (englisch)
+* [[0.4:Using MIDI|MIDI benutzen]] (englisch)
+* [[0.4:Exporting the Song|Das Lied exportieren]] (englisch)
+
+= 0.4 Verweise =
+
+Verweise auf die Funktionsbeschreibungen der einzelnen Menü-Punkte und Werkzeuge. Einschließlich der Beschreibung, wie sie in die Aufgaben der einzelnen LMMS Abschnitte passen.
+* [[De:0.4:Hauptmenüleiste|Hauptmenüleiste]]
+* [[De:0.4:Werkzeugleiste|Werkzeugleiste]]
+* [[0.4:Side Bar|Seitenleiste]] (englisch)
+* [[0.4:Plugins|Plugins]] (englisch)
+* [[0.4:Song Editor|Song Editor]] (englisch)
+* [[0.4:Piano Roll Editor|Piano Roll Editor]] (englisch)
+<!--{\newpage}-->
+* [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] (englisch)
+<!--{\newpage}-->
+* [[0.4:Automation Editor|Automation Editor]] (englisch)
+* [[0.4:FX Mixer|FX Mixer]] (englisch)
+<!--{\newpage}-->
+* [[0.4:Project Notes|Projekt Notizen]] (englisch)
+<!--{\newpage}-->
+* [[De:0.4:LMMS Einstellungen|LMMS Einstellungen]]
+
+= Anlagen =
+
+* [[Glossary|Glossar]] (englisch)
+* [[Key Mappings|TastaturBefehle]] (englisch)
+* [[License|Lizenz]] (englisch)
+<!--{\newpage}-->
+* [[Roadmap]] (englisch)
+
+<!--{%}-->'' Diese Seite ist nur eine Inhaltsübersicht - alle aufgeführten Artikel sollten von hier verlinkt sein. Die Logik der Struktur hinter dieser Seite kann hier gefunden werden (englisch) [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
