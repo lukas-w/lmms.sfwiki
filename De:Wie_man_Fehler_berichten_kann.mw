@@ -1,13 +1,14 @@
-<div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 98%; float:left;">This is a German page. It should be translated into German.</div><br>
-
 {{How to report bugsTrans}}
 
-== Online Bug tracker ==
-For reporting any kind of bugs, use the [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 bug tracker]. Please take a look at other [https://sourceforge.net/tracker/?group_id=105168&atid=640434 submitted bugs] before opening a new item as someone else might have reported the same bug.
+== Online Bug Tracker ==
+Um auftretende Fehler zu melden, nutzt man am besten den [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 Bug Tracker]. Bevor man eine neue Fehlermeldung erstellt, bitte vorher bei den bereits gemeldeten Fehlern nachschauen [https://sourceforge.net/tracker/?group_id=105168&atid=640434 Submitted Bugs] ob es nicht schon von jemand anderem gemeldet wurde. (Diese Seiten sind in Englisch gehalten, damit sie jeder der beteiligten Programmierer verstehen kann. Die Fehlermeldungen sollten deshalb auch auf Englisch erfolgen.)
 
-== How to efficiently report bugs with GDB ==
 
-*If you are using LMMS and encounter a bug, please include a full backtrace:
+Für Linux User:
+
+== Effizient Fehler melden mit der GDB ==
+
+*Wenn man LMMS nutzt und einen Fehler entdeckt, bitte den ganzen Ablauf mit angeben:
 
   $ gdb /usr/bin/lmms
   ...
@@ -20,16 +21,16 @@ For reporting any kind of bugs, use the [https://sourceforge.net/tracker/?func=a
   ...
   (gdb) thread apply all backtrace
 
-* The output of this command is interesting for us!  Please either report it to the [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 bug tracker] or email it to the [[mailing lists|mailing list]].
+* Das Ergebnis des Eingabe-Befehls ist für die Entwickler von großer Bedeutung! Am besten schreibt man es direkt in den [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 Bug Tracker] oder schickt eine E-Mail an die [[mailing lists|Mailing-Liste]].
 
-== How to report bugs without GDB ==
+== Fehler melden ohne GDB ==
 * Start a new shell/terminal:
   bash ~ $  ulimit -l unlimited
   bash ~ $  lmms
 
-* Now, when LMMS crashes, there will be a file called "core" in your working directory (~ per the example above).  The file may be large enough to be worth zipping.
+* Wenn LMMS jetzt abstürzt, gibt es eine Datei namens "core" im Arbeitsverzeichnis (~ für das oben angeführte Beispiel) Die Datei ist wahrscheinlich groß genug, dass es sich lohnt, sie mit einem Pack-Programm (z.B. 7zip) zu packen.
 
-* Please send that to "Tobias Doerffel" <tobias.doerffel AT gmail DOT com> so hopefully we can locate the bug.
-** If you've been helped on LMMS' mailing-list, please send a mail to the person helping you and put the above address in Cc:
+* Diese Datei bitte an "Tobias Doerffel" <tobias.doerffel AT gmail DOT com > so das der Fehler hoffentlich aufgespürt und beseitigt werden kann. 
+** Wenn man Hilfe in der LMMS Mailing Liste gefunden hat, bitte eine Mail an die entsprechende Person schicken, die geholfen oder Hilfe angeboten hat. Die oben genannte Adresse mit in den Verteiler eingeben.
 
-''NOTE: please, do '''not''' send it to the list, it'll be rejected because of its size.''
+''Achtung: Die Datei bitte '''nicht''' direkt an die Mailing-Liste senden, denn dort wird sie aufgrund der Größe abgelehnt.''
