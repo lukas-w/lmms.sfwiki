@@ -1,23 +1,24 @@
 __NOTOC__ __NOEDITSECTION__
-This is a page listing some of the work that should be done in the wiki. All you need is an [[Special:Userlogin|account]], some free time, and a bit of good will.
+This is a page listing some of the work that should be done in the English wiki. All you need is an [[Special:Userlogin|account]], some free time, and a bit of good will.
 
-== In General ==
-* Correct typos
-* Expand the [[Glossary]]
+== In General (will never be completed)==
+* Hunt for typos
 * Add tips to the [[Tip of the day]] page
+* Write simple tutorials for newbies in the [[0.4:Manual#Tutorials|Tutorials]] section
 * Test new or untested [[Tested VSTs|VST plugins]]
-* Translate pages into different languages
+* Categorize pages. (incomplete=[[:Category:Incomplete|Incomplete]], complex=[[:Category:Simplify|Simplify]], out of date=[[:Category:Out of date|Out of date]]
+* [[Translating an Article|Translate]] pages into different languages
 * Write new To-do ideas on this very page
 
-== Specific Work ==
-* Write simple tutorials for newbies in the [[0.4:Manual#Tutorials|Tutorials]] section
+== Specific Work (done once and it's done)==
+
+* Expand the [[Glossary]]
 * Write the [[0.4:Working_with_Controllers]] page
 * Rewrite [[0.4:Getting_Started]] to more user-friendly
+* Update articles and screenshots that are [[:Category:Out of date|Out of date]]
 
-== Advanced ==
+== Advanced (for admins and people with too much free time)==
 * Improve the [[Roadmap]] page
-* Transcribe 0.3 articles into newer 0.4 (mostly different screenshots)
-* (for admins) Remove pages in category "[[Special:Categories|Delete]]"
-* Simplify pages in category "[[Special:Categories|Simplify]]"
-* Categorize incomplete pages as "[[Special:Categories|Incomplete]]", and complex ones as "[[Special:Categories|Simplify]]"
+* (for admins) Delete pages in category [[:Category:Delete|Delete]]
+* Simplify pages in category [[:Category:Simplify|Simplify]]
 * Add translation links to the top of untranslated pages
