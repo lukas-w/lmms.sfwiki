@@ -1,0 +1,90 @@
+{{De:LMMS Einstellungen}}
+
+LMMS ist sehr konfigurierbar, um die Software mit verschiedenen Einstellungen auf die eigene Arbeitsweise abzustimmen. Es gibt zwei Möglichkeiten mit den Konfigurations-Parametern zu arbeiten.
+
+= Einstellungs-Dialog =
+
+Der Haupteinstellungsdialog kann über '''Bearbeiten''' -> '''Einstellungen''' in der [[De:0.4:Hauptmenüleiste|Hauptmenüleiste]] erreicht werden.
+Das Fenster besteht aus sogenannten Registerkarten auf der linken Seite und den entsprechenden Einstellungen auf der rechten Seite. Bei der ersten Registerkarte handelt es sich um die Allgemeinen Einstellungen.
+
+Bitte beachten: Die meisten Änderungen werden erst nach einem Neustart von LMMS wirksam.
+
+
+== Allgemeine Einstellungen ==
+
+<!--{\begin{center}}-->
+http://img189.imageshack.us/img189/8991/setuplmms.png
+<!--{\end{center}}-->
+
+
+*Der Schieberegler '''Puffergröße''' verändert die Größe des Audio Prozess Puffers. Die Anzeige links darunter gibt die Größe des Puffers in Frames und Millisekunden an. Je größer der Puffer, desto weniger beeinflussen temporäre Spitzen im CPU Verbrauch und andere Unterbrechungen des Betriebssystems die Audio Wiedergabe. Auf der anderen Seite, wird dadurch auch die Verzögerung länger, von der Veränderung eines Ereignisses (z.B. Noteneingabe) bis man es tatsächlich hört. Dies betrifft beides, die Live Perfomance und das Experimentieren mit Sounds während der Komposition. Es hat aber keinen Einfluß auf die normale Wiedergabe.
+
+* Unter Verschiedenes kann man weitere Einstellungen vornehmen:
+** '''Toolstips aktivieren''' es erscheinen kleine gelbe Tooltips, wenn sich die Maus über einem Regler befindet. Das kann Rechenleistung beanspruchen, zwar nicht viel aber immerhin. Das kann zu Soundaussetzern während der Wiedergabe führen. Allerdings sind davon wahrscheinlich nur leistungsschwächere Computer betroffen. 
+
+** '''Meldung nach schließen dieses Dialogs zeigen''' erklärt sich wohl von selbst. Normalerweise weist LMMS darauf hin, dass Veränderungen in den Einstellungen erst wirksam werden, nach dem man LMMS neugestartet hat. Diesen Warnhinweis kann man hiermit ausstellen. Man muss LMMS natürlich trotzdem neu starten damit Veränderungen wirksam werden. 
+** '''Lautstärke in dBV anzeigen''' regelt wie die Instrumentenlautstärke durch LMMS angezeigt wird. Normalerweise wird sie in Prozent angezeigt, wobei 100% die Standard Einstellung ist. Das ist mit 0 dBV gleichzusetzen. Sound Engineers wissen damit eher etwas anzufangen. Mehr Informationen dazu, allerdings auf englisch, gibt es hier:   [http://en.wikipedia.org/wiki/Decibel#Voltage the WikiPedia article on Decibels]. 
+** '''Projektdaten standardmäßig komprimieren''' erklärt sich wohl auch von selbst. LMMS Projekt Dateien in unkomprimierter Form haben die Endung ''.mmp'' und komprimierte Dateien die Endung ''.mmpz''.  Im Moment gibt es keinen Grund, eine Datei nicht zu komprimieren. 
+** '''HQ-Modus für Ausgabe-Audiogerät'''
+
+== Ordner-Pfade ==
+
+<!--{\begin{center}}-->
+http://img269.imageshack.us/img269/7043/setuplmmspaths.png
+<!--{\end{center}}-->
+
+Hier wird festgelegt von wo Dateien geladen und auch abgespeichert werden.
+
+* Im '''Arbeitsverzeichnis''' Ordner werden, soweit nicht anders angegeben, die Projekte und gespeicherten Presets hinterlegt. Projekte werden in einem Unterordner namens 'projects' und mit den Presets verhält es sich genauso. Man kann eigene Samples in einen Ordner mit Namen 'Samples' im Arbeitsverzeichnis geben und diese erscheinen dann in der [[Side Bar]]'s unter Samples.  Man kann außerdem Unterordner im Sample-Ordner erstellen, um die Samples zu katalogisieren (z.B. Drum, Bass, Synth, ...) Sie werden auch als Ordner in der Seitenleiste angezeigt. Sie werden allerdings getrennt von den Standard Samples und Presets von LMMS angezeigt. 
+* Das '''VST-plugin''' wird genutzt wenn man Vst-Plugins installiert hat. Einfach den entsprechenden Ordner auswählen in dem sie sich befinden und schon hat man vollständigen Zugriff unter LMMS. 
+* Im '''Artwork''' Verzeichnis befinden sich sogenannte "Themes" die das Erscheinungsbild von LMMS verändern 
+* Das '''FL Studio''' Installations-Verzeichnis wird verwendet, wenn man Fruity Loops Studio&copy; installiert hat. Den entsprechenden Ordner angeben und LMMS wird versuchen, beim importieren von .flp-Dateien, auf die Samples des FL-Installations-Verzeichnisses zurück zugreifen. 
+* Im '''LADSPA Plugin''' Verzeichnis sind die [[LADSPA]] Effekte installiert.  Man kann mit Doppelpunkt getrennt, mehrere Speicherorte/Ordner eingeben. (das gilt natürlich auch für die anderen Pfadangaben:)
+
+== Performance Einstellungen ==
+
+<!--{\begin{center}}-->
+http://img132.imageshack.us/img132/1096/setuplmmsperformance.png
+<!--{\end{center}}-->
+
+The controls on this tab affect the speed of the rendering of your song into audio in relation to other parts of the interface.  While on most modern hardware rendering performance is not an issue, this may help people with older hardware use LMMS without gaps in playback.
+
+*When the '''Disable channel activity indicators''' control is turned on, the activity indicators on each channel (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png) do not activate whenever there is activity on that channel.  Normally, these glow green and fade as each note is played per channel, and displaying this activity graphically can take up a reasonable amount of CPU time.
+*When '''Only press keys on channel-piano manually''' is turned off, any open instrument plugin window will display the notes that it is playing on its piano keyboard, whether those be from actions by the user (e.g. on a MIDI keyboard) or during playback.  By turning this on, these note presses are only displayed from user input, thus saving an amount of CPU time.
+*By setting the '''Number of CPUs''' to equal the number of processor cores in your system, you can get LMMS to take full advantage of your CPU power by distributing the sound rendering across the cores.  This allows slower multicore systems to play pieces that a single core may not be able to render.  However, setting this to greater than the number of cores in your system does not make better use of the system and may waste time switching between the rendering threads on one processor.
+:You control this setting by dragging the number display up and down like a regular 'knob' control.
+
+== Audio Einstellungen ==
+
+<!--{\begin{center}}-->
+http://img687.imageshack.us/img687/7949/setuplmmsaudio.png
+<!--{\end{center}}-->
+
+*The '''Audio Interface''' sets the mechanism that LMMS uses to produce audio.  You can select from:
+** ALSA (Advanced Linux Sound Architecture)
+** dummy (no sound output) - useful only for testing whether LMMS is functioning correctly.
+** JACK (the Jack Audio Connection Kit)
+** OSS (the Open Sound System)
+** SDL (Simple DirectMedia Layer)
+:JACK is the most advanced of all these interfaces, but requires a working JACK daemon to connect to in order to function.  ALSA is the default and is standard on almost all modern Linux systems.  Support for PulseAudio may be coming in the future.
+*With each interface, you can select the actual '''device''' and the number of '''channels''' used by LMMS.  These are interface-dependent settings and should be left at their defaults unless you have a good understanding of the interface in use on your computer.
+
+== MIDI Einstellungen ==
+
+<!--{\begin{center}}-->
+http://img63.imageshack.us/img63/9228/setuplmmsmidi.png
+<!--{\end{center}}-->
+
+Ähnlich wie bei den Audio Einstellungen oben, kann man hier die Midischnittstelle auswählen, um Midi-Signale zu senden und/oder zu empfangen. Wähle das Eingabe/Ausgabe Gerät (Device) das den Computer mit dem Midi-Instrument verbindet. Dann kann man noch weitere gerätespezifsche '''Einstellungen''' mit den Reglern vornehmen. 
+
+== Navigation ==
+
+{|
+|-
+| Prev: [[0.4:Project Notes]]
+| Up: [[0.4:Manual]]
+| Next: [[Glossary]]
+|}
+
+[[Category:Reference]]
+[[Category:0.4-Manual]]
