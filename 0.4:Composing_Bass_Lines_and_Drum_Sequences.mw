@@ -1,4 +1,4 @@
-Bass lines and drum sequences are repetitive patterns usually lasting one, or occasionally several, bars.  They are composed using the [[Beat Bassline Editor|Beat + Bassline Editor]], shown here:
+Bass lines and drum sequences are repetitive patterns usually lasting one, or occasionally several, bars.  They are composed using the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]], shown here:
 
 <!--{\begin{center}}-->
 http://img30.yfrog.com/img30/2728/beatbasslineeditor.png
@@ -6,7 +6,7 @@ http://img30.yfrog.com/img30/2728/beatbasslineeditor.png
 
 = Adding new instruments =
 
-Typically you'll be adding samples of drums and instrument notes into the Beat + Bassline Editor.  For this reason, simply double-clicking on a sample or preset in the [[Side Bar]] will add it directly into the Beat + Bassline Editor.  You can also drag samples and presets onto it as well and drop them in the free area at the bottom of the editor window.  You can rearrange the order of instruments by dragging tracks by their stippled handle (http://img13.imageshack.us/img13/3373/grabbar.png).
+Typically you'll be adding samples of drums and instrument notes into the Beat + Bassline Editor.  For this reason, simply double-clicking on a sample or preset in the [[0.4:Side Bar|Side Bar]] will add it directly into the Beat + Bassline Editor.  You can also drag samples and presets onto it as well and drop them in the free area at the bottom of the editor window.  You can rearrange the order of instruments by dragging tracks by their stippled handle (http://img13.imageshack.us/img13/3373/grabbar.png).
 
 = Composing patterns =
 
@@ -16,7 +16,7 @@ The best way to get the feel for this is to add a bass or kick drum and a hi-hat
 
 == More than one pattern ==
 
-This has all taken place in the first of what will be many separate patterns in your song.  This is called 'Beat/Bassline 1' in the [[Song Editor]] and in the pattern selector of the Beat + Bassline Editor.  You can create a new pattern using the '''new bassline''' button (http://img69.imageshack.us/img69/1264/newbassline.png) and it will be named incrementally from there.  You can also rename these patterns by right-clicking on their name in the Song Editor and typing in a new name.  This is often useful to more specifically identify what the pattern is for future editing.
+This has all taken place in the first of what will be many separate patterns in your song.  This is called 'Beat/Bassline 1' in the [[0.4:Song Editor|Song Editor]] and in the pattern selector of the Beat + Bassline Editor.  You can create a new pattern using the '''new bassline''' button (http://img69.imageshack.us/img69/1264/newbassline.png) and it will be named incrementally from there.  You can also rename these patterns by right-clicking on their name in the Song Editor and typing in a new name.  This is often useful to more specifically identify what the pattern is for future editing.
 
 = Philosophies of pattern design =
 
@@ -49,7 +49,7 @@ Ultimately, like so many things in the artistic world it is better to use the me
 
 = Putting patterns into your song =
 
-Naturally, the patterns by themselves do not create rhythms in your songs.  Using the editing tools in the [[Song Editor]], you 'draw' new areas for the rhythm to be active at any time in your song.  This also allows you to have a pattern that goes for a fraction of a bar (using the drag-with-control method); however, you cannot shrink a pattern to be less than the size of one bar.
+Naturally, the patterns by themselves do not create rhythms in your songs.  Using the editing tools in the [[0.4:Song Editor|Song Editor]], you 'draw' new areas for the rhythm to be active at any time in your song.  This also allows you to have a pattern that goes for a fraction of a bar (using the drag-with-control method); however, you cannot shrink a pattern to be less than the size of one bar.
 
 = More than one bar? =
 
@@ -63,19 +63,19 @@ When adding a new pattern that is more than one bar long in the Song Editor, the
 
 The Beat + Bassline Editor can also be used to play instruments, not just drum samples.  This is where the word 'bassline' in the title comes from - it is commonly used to play the repetitive notes of a typical bassline in electronic music.  This saves a lot of the copy and paste process that would be required if you were composing for the instrument directly in a track of the Song Editor.
 
-Using the standard pattern buttons as above, the sample will play its [[Working with Instruments#Base note|base note]].  However, sometimes you will have a repetitive bassline that does not play the same note all the time.  In this situation, right-click on the pattern buttons and choose '''Open in piano-roll'''.  This will open the [[Piano Roll Editor]] with a new pattern.  This pattern, too, can be any length (not just a single bar).
+Using the standard pattern buttons as above, the sample will play its [[0.4:Working with Instruments#Base note|base note]].  However, sometimes you will have a repetitive bassline that does not play the same note all the time.  In this situation, right-click on the pattern buttons and choose '''Open in piano-roll'''.  This will open the [[0.4:Piano Roll Editor|Piano Roll Editor]] with a new pattern.  This pattern, too, can be any length (not just a single bar).
 
 Putting notes in a piano roll is also useful for times when you need more notes, or more accuracy in placement, than the sixteen steps per bar of the Beat + Bassline Editor can give you.  It also allows you to vary the volume of each note.
 
 = Navigation =
 
-Reference: [[Beat Bassline Editor|Beat + Bassline Editor]]
+Reference: [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[Composing in the Piano Roll Editor]]
+| Prev: [[0.4:Composing in the Piano Roll Editor|Composing in the Piano Roll Editor]]
 | Up: [[0.4:Manual]]
-| Next: [[Putting the song together]]
+| Next: [[0.4:Putting the song together|Putting the song together]]
 |}
 
 [[Category:HowTo]]
