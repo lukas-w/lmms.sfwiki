@@ -14,10 +14,9 @@ Kurze, einleitende Seiten für jedes Thema, um die Grundlagen für die Nutzung v
 
 = 0.4 Anleitungen =
 
-Aufgabenorientierte Schritt-für-Schritt Leitfaden um bestimmte Ziele mit LMMS zu erreichen.
-Step-by-step task-oriented guides to achieving particular goals in LMMS.
+Aufgabenorientierte Schritt-für-Schritt Erklärungen um bestimmte Ziele mit LMMS zu erreichen.
 * [[De:0.4:Wie_fange_ich_an%3F|Wie fange ich an]] - eine kurze Einweisung für die ganz Ungeduldigen 
-* [[De:0.4:Der_erste_Titel_mit_LMMS|Der erste Titel mit LMMS]] - ein Schritt-für-Schritt Durchgang
+* [[De:0.4:Der_erste_Titel_mit_LMMS|Der erste Titel mit LMMS]] - ein Schritt-für-Schritt Leidfaden
 * [[0.4:Making Triple-Oscillator Patches|Triple-Oscillator Presets erstellen]] - Leitfaden für die Erstellung von brauchbaren Triple-Oscillator Presets (englisch)
 
 = LMMS 0.4. nutzen =
@@ -63,4 +62,4 @@ Verweise auf die Funktionsbeschreibungen der einzelnen Menü-Punkte und Werkzeug
 <!--{\newpage}-->
 * [[Roadmap]] (englisch)
 
-<!--{%}-->'' Diese Seite ist nur eine Inhaltsübersicht - alle aufgeführten Artikel sollten von hier verlinkt sein. Die Logik der Struktur hinter dieser Seite kann hier gefunden werden [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
+<!--{%}-->'' Diese Seite ist nur eine Inhaltsübersicht - alle aufgeführten Artikel sollten von hier verlinkt sein. Die Logik der Struktur hinter dieser Seite kann hier gefunden werden (englisch) [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
