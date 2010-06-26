@@ -6,9 +6,9 @@ Automation is a powerful tool for customising the sound of your project.  It can
 
 The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
 
-* Track controls such as the Volume and Mute settings, in both the [[Beat Bassline Editor|Beat + Bassline Editor]] and the [[Piano Roll Editor]].
+* Track controls such as the Volume and Mute settings, in both the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] and the [[0.4:Piano Roll Editor|Piano Roll Editor]].
 * Virtually all Instrument controls:
-** The settings of the Instrument [[Plugins|Plugin]] itself, worthy of a subsection in its own right:
+** The settings of the Instrument [[0.4:Plugins|Plugin]] itself, worthy of a subsection in its own right:
 *** All the knobs, such as phase, tuning, and pan.
 *** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix type between them.
 ** The knobs controlling the envelope, LFO and filter parameters.
@@ -115,13 +115,13 @@ Though Automation gives you great power and flexibility over the sound of an ins
 
 = Navigation =
 
-Reference: [[Automation Editor]]
+Reference: [[0.4:Automation Editor|Automation Editor]]
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[Putting the song together]]
+| Prev: [[0.4:Putting the song together|Putting the song together]]
 | Up: [[0.4:Manual]]
-| Next: [[Working with LADSPA effects]]
+| Next: [[0.4:Working with LADSPA effects|Working with LADSPA effects]]
 |}
 
 [[Category:HowTo]] [[Category:Incomplete]]
