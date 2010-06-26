@@ -1,6 +1,6 @@
 {{0.4:Putting the song togetherTrans}}
 
-You use the [[Song Editor]] to link the various sounds, rhythms and melodies together into a complete performance.
+You use the [[0.4:Song Editor|Song Editor]] to link the various sounds, rhythms and melodies together into a complete performance.
 
 http://img96.imageshack.us/img96/9158/songeditor.png
 
@@ -22,9 +22,9 @@ Sample tracks are the simplest type of track because they only have a volume con
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[Composing Bass Lines and Drum Sequences]]
+| Prev: [[0.4:Composing Bass Lines and Drum Sequences|Composing Bass Lines and Drum Sequences]]
 | Up: [[0.4:Manual]]
-| Next: [[Working with Automation]]
+| Next: [[0.4:Working with Automation|Working with Automation]]
 |}
 
 [[Category:HowTo]] [[Category:Incomplete]]
