@@ -17,8 +17,14 @@ This page contains various templates used in the wiki in order to guide and faci
 
 == Message Boxes ==
 ==== Out of date ====
-{{msgbox:out of date}}
+{{Msgbox
+|id              = Msgbox:out of date
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png
+|heading         = This article is ''out of date''.
+|message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
  <nowiki>{{msgbox:out of date}}</nowiki>
+
 ==== Too complex ====
 {{msgbox:too complex}}
  <nowiki>{{msgbox:too complex}}</nowiki>
