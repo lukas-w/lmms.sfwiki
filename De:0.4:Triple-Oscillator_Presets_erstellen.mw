@@ -1,0 +1,44 @@
+{{0.4:Making Triple-Oscillator PatchesTrans}}
+
+Wenn alle Instrumente irgendwie nach Atari 2600 Tönen klingen (es sei denn, es ist so gewollt), dann hilft dieser Leitfaden dabei, Presets zu erstellen die sich nach bekannten Instrumenten ode Sounds anhören. Diese Anleitungen sind in der Tat etwas ungenau, so das man es einfach dem persönlichen (Musik-) Geschmack entsprechend angleichen kann. Wenn man Presets erstellt, ist es oft sehr hilfreich, den Sound während des Bearbeitens immer und immer wieder abzuspielen (z.B. im PianoRoll). 
+
+= Synth Bass =
+Wir starten mit einem einfachen Synth (Techno) Bass, denn das ist ein recht einfaches Preset zum Erlernen des Triple-Oscillator Synthesizers.
+Wir beginnen mit Standard-Preset in einem neu erstelltem Triple-Oscillator
+*  Auf der "PLUGIN" Seite verändern wir die Wellenformen der drei Oszillatoren. Einfach mal verschiedene Einstellungen ausprobieren: Quadrat (Square) + Dreieck (Triangle) + Sinus (Sine) Wellenform ist eine gute Kombination. Oder alle auf Sägezahn (Saw) oder Moog-Saw setzen. 
+*  Auf der "ENV/LFO" Seite wählen wir als Filter "LowPass" oder "2x LowPass" oder "Moog" und drehen die Frequenz (Cutoff) ganz hinunter, so dass der Sound fast nicht mehr zu hören ist. 
+*  Auf der Unterseite "CUTOFF" stellen wir die Hüllkurve (Envelope) an und drehen "Hold", "Sustain" und "Release" auf null. Kann man den Filter jetzt hören?
+*  Nun spielen wir ein wenig mit dem Resonanz (Resonance) Knopf im "Filter" Abschnitt herum. Bei Verwendung des Moog-Filters die Resonanz nicht auf höhere Werte als 0.85 drehen! Denn sonst gibt's mehr als ein leichtes Zwitschern.
+*  Zum Abschluss spielen wir ein paar (wirklich) tiefe Noten
+
+= Organ =
+Echte Orgeln sind eigentlich nichts anderes als Additive Synthesizer: Sie fügen mehrere dutzend einfache Sinus-Wellen zu einem komplexen Ton zusammen. Das kann man recht leicht mit Triple-Oscillator und der Akkordfunktion von LMMS erreichen.
+*  Wir starten mit einem neuen Preset, in dem alle Oszillatoren auf Sinus eingestellt sind. Mit dem "Crs" legen wir sie auf drei Oktaven (z.B: -12, 00, +12) 
+*  Jetzt wechselt man zur "FUNC" Seite und stellt die Akkordfunktion an.  Den Akkord auf "Oktave" einstellen oder eingestellt lassen und den "Bereich" auf drei oder vier stzen.
+*  Spiele verschiedene C Noten. Sie klingen gleich, oder? Das kommt dadurch, dass die meisten Schwingungen (Harmonics) gleich sind.
+*  Jetzt einfach mal die Wellenform eines Oszillators auf Dreieck stellen. 
+*  Man kann den Sound noch verfeinern, in dem man die Oktaven der einzelnen Oszillatoren wechselt, oder die eintsprechende Lautstärke verändert. 
+
+
+= Electric Bass =
+Elektrische Bass-Guitarren können eine breite Palette an Tönen erzeugen. Hier geht es nur um den Standard Bass ohne Verzerrung (Overdrive) oder irgend etwas ähnlichem.
+
+*  Man startet mit einem Sinus Patch und stellt die Lautstärke von Osc 1 auf 0. Die Lautstärke von Osc 2 dreht man hingegen auf 100%.
+*  "OSC 2 + OSC 3" auf PM (Phasen-Modulation) setzen.
+*  Die Lautstärken-Hüllkurve (Volume Envelope) an stellen und eine lange Abfallzeit (Decay), eine sehr kurze Ausklingzeit (Release) und für die Anschwellzeit (Attack) um 1/50 oder 1/20 einer Sekunde eingeben.
+*  Auf der "FX" Seite fügen wir ein TAP Chorus/Flanger Effekt hinzu. Dies bereichert den Sound noch etwas mehr. 
+*  Jetzt geht man wieder auf die "PLUGIN" Seite zurück und stellt die Lautstärke von Osc 3 ein (in diesem Fall, die Menge der Phasen-Modulation zwischen OSC 3 and OSC 2).
+*  Letztendlich kann man das Fundament des Tones noch etwas mehr durchsetzen in dem man Osc 1 etwas aufdreht. Das kann man beliebig nach Wunsch machen. Oder man ändert die Wellenform zum Dreieck. Oder was auch immer... 
+Es ist dein Sound und gut klingt nicht nur das was laut ist;)
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Your First Song with LMMS]]
+| Up: [[0.4:Manual]]
+| Next: [[Working with Instruments]]
+|}
+
+[[Category:Tutorial]] [[Category:Incomplete]]
+[[Category:0.4-Manual]]
