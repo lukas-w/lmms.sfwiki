@@ -26,5 +26,19 @@ This page contains various templates used in the wiki in order to guide and faci
  <nowiki>{{msgbox:out of date}}</nowiki>
 
 ==== Too complex ====
-{{msgbox:too complex}}
+{{Msgbox
+|id              = Msgbox:too complex
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Crystal_Clear_app_error.png/48px-Crystal_Clear_app_error.png
+|heading         = This article is ''too complex''.
+|message         = Please help improve the wiki by simplifying it.}}
  <nowiki>{{msgbox:too complex}}</nowiki>
+
+==== Translate ====
+{{Msgbox
+|id              = Msgbox:translate
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crystal_Clear_app_locale.png/48px-Crystal_Clear_app_locale.png
+|heading         = This article needs to be ''translated''.
+|message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
+ <nowiki>{{msgbox:translate}}</nowiki>
