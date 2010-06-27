@@ -1,3 +1,5 @@
+{{0.4:Using MIDITrans}}
+
 ==MIDI settings==
 http://lmms.sourceforge.net/wiki/screenshots/midi_settings.png
 ALSA-Seq and 'default' as the device settings are the recommended settings. Modify only if necessary.
