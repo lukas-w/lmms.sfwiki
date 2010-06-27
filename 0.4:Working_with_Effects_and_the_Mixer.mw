@@ -1,3 +1,5 @@
+{{0.4:Working with Effects and the MixerTrans}}
+
 == Sample FX revisited ==
 
 To add an Effect to a single sample first bring up the Audiofile Processor by left clicking on the sample name in the Beat+Bassline editor and then by clicking "Add Effect" found under the "FX" tab.  This will popup a list of all the LADSPA effects currently installed on your computer.  Multiple effects can be added to the same sample by reproducing these steps.  Please refer to [[The FX tab ]] entry for more details.
