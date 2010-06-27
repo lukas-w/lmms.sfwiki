@@ -28,14 +28,14 @@ http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[De:0.4:Mit In
 http://img231.imageshack.us/img231/9008/workingwithsamples.png [[De:0.4:Mit Samples arbeiten|Mit Samples arbeiten]] (unvollständige Übersetzung)<br>
 http://img444.imageshack.us/img444/3952/midipiano.png [[De:0.4:Den Piano Roll Editor nutzen|Den Piano Roll Editor nutzen]] (unvollständige Übersetzung)<br>
 http://img94.imageshack.us/img94/3945/drum.png [[De:0.4:Den Beat und Bassline Sequencer nutzen|Den Beat und Bassline Sequencer nutzen]] (unvollständige Übersetzung)<br>
-http://img717.imageshack.us/img717/1107/togetherq.png [[0.4:Putting the song together|Ein Lied zusammenstellen (arrangieren)]] (englisch)<br>
+http://img717.imageshack.us/img717/1107/togetherq.png [[0.4:Putting the song together|Ein Lied zusammenstellen (arrangieren)]] (englisch) <-should it be "zusammenstellen" or "arrangieren"?<br>
 http://img375.imageshack.us/img375/558/automation.png [[De:0.4:Mit Automatisierung arbeiten|Mit Automatisierung arbeiten]] (unvollständige Übersetzung)<br>
-http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Working with LADSPA effects]] (english)<br>
+http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Working with LADSPA effects]] (english) <-translate this title into German please<br>
 http://img208.imageshack.us/img208/8308/controller.png [[0.4:Working with Controllers|Mit Kontrollreglern arbeiten]] (nicht vorhanden)<br>
-http://img51.imageshack.us/img51/1045/mixerd.png [[0.4:Working with Effects and the Mixer|Mit Effekten und dem Mixer arbeiten]] (englisch)<br>
+http://img51.imageshack.us/img51/1045/mixerd.png [[De:0.4:Mit Effekten und dem Mixer arbeiten|Mit Effekten und dem Mixer arbeiten]] (nicht vorhanden)<br>
 http://img193.imageshack.us/img193/9927/plugint.png [[De:0.4:VST nutzen|VST nutzen]] (unvollständige Übersetzung)<br>
-http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Using MIDI|MIDI benutzen]] (englisch)<br>
-http://img88.imageshack.us/img88/6471/exportu.png [[0.4:Exporting the Song|Das Lied exportieren]] (englisch)<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[De:0.4:MIDI benutzen|MIDI benutzen]] (nicht vorhanden)<br>
+http://img88.imageshack.us/img88/6471/exportu.png [[De:0.4:Das Lied exportieren|Das Lied exportieren]] (nicht vorhanden)<br>
 
 = 0.4 Verweise =
 
@@ -58,9 +58,9 @@ Verweise auf die Funktionsbeschreibungen der einzelnen Menü-Punkte und Werkzeug
 
 = Anlagen =
 
-http://img189.imageshack.us/img189/152/glossary.png [[De:Glossar|Glossar]]<br>
+http://img189.imageshack.us/img189/152/glossary.png [[De:Glossar|Glossar]] (nicht vorhanden)<br>
 http://img708.imageshack.us/img708/4853/keymaph.png [[Key Mappings|TastaturBefehle]] (englisch)<br>
-http://img31.imageshack.us/img31/9783/sourcecpp.png [[License|Lizenz]] (englisch)<br>
+http://img31.imageshack.us/img31/9783/sourcecpp.png [[De:Lizenz|Lizenz]] {nicht vorhanden)<br>
 <!--{\newpage}-->
 http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap]] (englisch)<br>
 
