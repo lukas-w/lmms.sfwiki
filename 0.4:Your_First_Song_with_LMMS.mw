@@ -1,12 +1,12 @@
-{{0.4:Your First Song with LMMSTrans}}
+{{Es:0.4:Your First Song with LMMS}}
 
 So you've just loaded up LMMS and you want to find your way around?  In this situation, programmers write a "hello world" program; we're going to write "Popcorn", a classic for the synthesizer that should be well known.
 
-= Adiar o Instrumento
+== Adiar o Instrumento ==
 
-VOCÊ TEM Uma Tela Padrão em Frente, com o [[Canção Editor]]] Beat [[Bassline Editor Beat | +] Bassline Editor e [projeto] [Notas] Aberto. Primeiro, nao clique Presets ICONE (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side [[Bar]] para Abrir Uma Lista de''' 'Filhos predefinidos. No'''''TripleOscillator DE UM Duplo clique "Abrir ESTA n massas, e VOCÊ Será presenteado com Uma variada gama de Instrumentos. PoDE Voce manter o Botão do mouse em qualquer Predefinição Parágrafo Ouvir Uma Prévia do Seu som.
+VOCÊ TEM Uma Tela Padrão em Frente, com o [[Song Editor|Canção Editor]], [[Beat Bassline Editor]] e [[0.4:Project Notes|Projeto Notas]] Aberto. Primeiro, nao clique Presets Icone (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) no [[Side Bar]] para Abrir Uma Lista de "'''Filhos predefinidos'''". No "'''TripleOscillator'''" DE UM Duplo clique "Abrir ESTA n massas, e VOCÊ Será presenteado com Uma variada gama de Instrumentos. PoDE Voce manter o Botão do mouse em qualquer Predefinição Parágrafo Ouvir Uma Prévia do Seu som.
 
-Por ágora, vamos arrastar o'''''Xylophon "preset Para o Espaço No meio da canção Editor. QUANDO VOCÊ CAIR, uma nova pista Será criada com Uma Predefinição Como Instrumento.
+Por ágora, vamos arrastar o "'''Xylophon''' "preset Para o Espaço No meio da canção Editor. QUANDO VOCÊ CAIR, uma nova pista Será criada com Uma Predefinição Como Instrumento.
 
 (Se Este Instrumento UM fossa do tipo de Percussão, Melhor Que Poderia Ser Vez Parágrafo arrasta-lo par o Beat + Bassline Editor, PORQUE VOCÊ Verá segundo em UM. NÓS Realmente Queremos dar Uma Este Instrumento Uma sequencia de Notas (piano roll OU UM ) Jogar Parágrafo Embora,, é isso Song Por Editor).
 
@@ -34,7 +34,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 
 Depois disso, as novas notas que colocamos abaixo será o mesmo comprimento, porque o Piano Roll Editor está definida como última nota (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
 
-== == Mais notas
+== Mais notas == 
 
 Continue a criar notas no padrão mostrado:
 
@@ -46,7 +46,7 @@ Para colocar uma nota, é preciso apontar para a linha no início da batida; LMM
 
 Se você precisar excluir uma nota, basta clicar com o botão direito sobre ela.
 
-Copie e cole == ==
+== Copie e cole ==
 
 Agora queremos repetir as sete notas no início da barra na barra ao lado. Existem três maneiras de fazer isso.
 
@@ -58,7 +58,7 @@ Alternativamente, você pode usar o bom e velho copiar e colar. Novamente, use C
 
 Para selecionar todas as notas que você pode pressionar Ctrl + A.
 
-Agora nós podemos pressionar o''''play 'botão (http://img685.imageshack.us/img685/2559/play.png) no Piano Roll Editor janela para tocar a melodia de volta. Quando se chega ao final do último compasso em que existem notas, ele irá repetir automaticamente de volta para o início do primeiro compasso.
+Agora nós podemos pressionar o ''play'' botão (http://img685.imageshack.us/img685/2559/play.png) no Piano Roll Editor janela para tocar a melodia de volta. Quando se chega ao final do último compasso em que existem notas, ele irá repetir automaticamente de volta para o início do primeiro compasso.
 <nowiki>Inserir texto não-formatado aqui</nowiki><nowiki>Inserir texto não-formatado aqui</nowiki>
 
 == Oops! ==
@@ -73,7 +73,7 @@ Se você estiver confiante, você pode agora continuar a adicionar as notas da m
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
 <!--{ \ End (center }}-->
 
-= = Mais estrutura
+= Mais estrutura = 
 
 Podemos agora fechar o Piano Roll Editor e voltar para a Song Editor. Você verá que o segmento de faixa que inicialmente um duplo-clique para criar a melodia se expandiu para fora para encaixar as notas que nós adicionamos.
 
@@ -83,7 +83,7 @@ Agora queremos copiar esse segmento para criar os próximos quatro bares. A mane
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
 <!--{ \ End (center }}-->
 
-Drop do segmento na barra 6. Este é realmente um bar muito tarde, como os três primeiros trimestres de um bar desse segmento está vazio, como é o último trimestre do último segmento. Felizmente, os segmentos podem sobrepor-se e as suas notas jogará simultaneamente. <sup> <small> [[Sua primeira canção com LMMS # Notas | [3 ]]]</> <pequenas / sup>. Arraste a segunda cópia para que ele inicia no compasso 5.
+Drop do segmento na barra 6. Este é realmente um bar muito tarde, como os três primeiros trimestres de um bar desse segmento está vazio, como é o último trimestre do último segmento. Felizmente, os segmentos podem sobrepor-se e as suas notas jogará simultaneamente. <sup><small>[[Your First Song with LMMS#Footnotes| [3]]]</small></sup>. Arraste a segunda cópia para que ele inicia no compasso 5.
 
 Você pode agora jogar isso utilizando o botão "play" no Song Editor. Você ouvirá uma breve pausa, já que tem as três primeiras batidas de silêncio, em seguida, a melodia começará. Deve jogar sem problemas através das duas repetições.
 
@@ -93,7 +93,7 @@ A Song Editor deve agora olhar como este:
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
 <!--{ \ End (center }}-->
 
-== 2 == Variação
+== Variação 2 ==
 
 Agora podemos ir para criar outro segmento piano roll e preencher os próximos quatro bares:
 
