@@ -1,0 +1,10 @@
+Here are a few pointers to guide you in making good artwork the right way.
+
+== Naming Artwork ==
+* Keep it short. Long file names suck.
+* Avoid spaces and capitals. Linux doesn't really like spaces in names, and capitals complicate things. If you have to, use _ for spaces.
+* Think of something catchy. People will remember it better.
+
+== Formats ==
+* Try to work with SVG files for icons. You can later export them in all shapes and sizes.
+* PNG is best for icons and computer graphics, JPG is better for pictures.
