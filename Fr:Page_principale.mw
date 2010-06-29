@@ -11,6 +11,7 @@
 | width="160px" style="color: #000" valign="top"|
 http://img20.imageshack.us/img20/1012/contents.png
 | style="color: #000" valign="top"|
+
 '''Documentation'''
 
 http://img199.imageshack.us/img199/6025/wizardq.png [[Fr:0.4:Premiers pas|Premiers pas]]<br>
@@ -26,10 +27,10 @@ http://img34.imageshack.us/img34/5773/userconfig.png
 
 '''Guides'''<br>
 
-http://img690.imageshack.us/img690/1540/memory.png [[Fr:Requirements|Requirements]]<br>
+http://img690.imageshack.us/img690/1540/memory.png [[Fr:Requirements|Requirements]] (Anglais)<br>
 http://img192.imageshack.us/img192/8586/packagesb.png [[Fr:Installation|Installation]]<br>
-http://img35.imageshack.us/img35/28/messageboxwarning.png [[Fr:Troubleshooting]]<br>
-http://img686.imageshack.us/img686/4820/buger.png [[Fr:How to report bugs|How to Report Bugs]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Fr:Troubleshooting|Troubleshooting]]<br>
+http://img686.imageshack.us/img686/4820/buger.png [[Fr:Comment rapporter un bogue|Comment rapporter un bogue]]<br>
 <!-- MOVED TO "INSTALLATION" http://img402.imageshack.us/img402/7923/systemsettings.png [[Fr:Tuning LMMS-installation]]<br> -->
 |}
 </div>
@@ -40,12 +41,13 @@ http://img686.imageshack.us/img686/4820/buger.png [[Fr:How to report bugs|How to
 | width="160px" style="color: #000" valign="top"|
 http://img163.imageshack.us/img163/1751/packagedevelopment.png
 | style="color: #000" valign="top"|
-'''Community'''<br>
 
-http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Developers]]<br>
-http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Writers]]<br>
-http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artists]]<br>
-http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
+'''Communauté'''<br>
+
+http://img717.imageshack.us/img717/8272/dev.png [[Fr:Documentation Développeurs|Développeurs]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Fr:Documentation Rédacteurs|Rédacteurs]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Fr:Documentation Artistes|Artistes]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Fr:Contact|Contact]]<br>
 
 |}
 {| cellspacing="0" valign="top" align="center" width="100%"
@@ -53,7 +55,7 @@ http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
 http://img251.imageshack.us/img251/7428/newsg.png
 | style="color: #000" valign="top"|
 
-'''News'''<br>
+'''Nouvelles'''<br>
 <!-- 
 ==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
 *WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
