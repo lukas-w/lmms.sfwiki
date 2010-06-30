@@ -51,3 +51,20 @@ This page contains various templates used in the wiki in order to guide and faci
 |heading         = This article needs to be ''translated''.
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
  <nowiki>{{msgbox:translate}}</nowiki>
+
+== ..Trans Templates ==
+<!-- Spaces don't work within templates (use _). For info, see the article [[Templates]] -->
+{{imglink|0.4:Manual|{{flag|en}}}}
+{{imglink|De:0.4:Bedienungsanleitung|{{flag|de}}}}
+{{imglink|Fr:0.4:Manuel|{{flag|fr}}}}
+{{imglink|It:0.4:Manuale|{{flag|it}}}}
+{{imglink|Pt:0.4:Manual|{{flag|pt}}}}
+..
+ <nowiki>
+ <!-- Spaces don't work within templates (use _). For info, see the article [[Templates]] -->
+ {{imglink|0.4:Manual|{{flag|en}}}}
+ {{imglink|De:0.4:Bedienungsanleitung|{{flag|de}}}}
+ {{imglink|Fr:0.4:Manuel|{{flag|fr}}}}
+ {{imglink|It:0.4:Manuale|{{flag|it}}}}
+ {{imglink|Pt:0.4:Manual|{{flag|pt}}}}
+ </nowiki>
