@@ -1,1 +1,75 @@
 {{0.4:Working with LADSPA effectsTrans}}
+
+LADSPA-effects can be utilized in both the individual instruments and in the FX-mixer.
+
+'''Using The LADSPA effects in an instrument.'''
+
+When you load an instrument into LMMS' ''song-editor'', you get a 'logolized' click-able 'button' in the song-editor.
+You dont need to add a new instrument now. Just use the 3OSC instrument that always are part of the standard project.
+
+One leftclick on this 'button' opens the instrument, and shows the LMMS default instrument GUI.
+The 'button' has changed to a brighter gray.
+The instrument is now the active instrument!
+
+Add an event in the song-editor, click it open in piano-roll, and make a half note on C4. Then click the play button in the piano-roll. 
+
+(Now is a good idea to look for your headphones and lower the speakers.. The GF annoy effect is quite prominent with a 'tune' like this one – so is the neighbor annoying effect :)
+
+The default GUI has 5 pages, and will default be on the 'plugin-page'.
+In respect to LADSPA-effects it is the fourth page 'FX' that we need to focus on. Click the 'FX' in order to open the FX-page.
+
+You now see the 'FX-chain' and the ON/OFF lamp, for effects on this instrument.
+In the lover part we have the 'Add effect' button.
+Click it now.
+When clicked, LMMS opens the 'Add Effect browser'.
+You can browse through the many effects.
+
+After a while you will get to learn the names, and it will be simple for you to find the effect that you like to use, but you can also write some characters in the ''input-field''. The smart-browser will filter the effects for you:
+
+Try writing 'verb'.
+You will be presented with the LADSPA-effects that will add reverb to your instrument.
+
+CAREFULL!
+''Take off you headphones or lower the volume !! The sound can be very loud!!''
+
+Choose the 'Reverberator' and click OK.
+
+The instrument 'FX-chain' is expanded with the 'TAP-Reverberator' object, and you will see a new set of controls has been opened: 'TAP-Reverberator'.
+You also have 3 controls in the chain-object: W/D / DECAY / GATE.
+
+Observe!
+All these controls are default LMMS controls and ALL can be automated!
+
+Raise the volume carefully and listen to the effect. The dull sound has now a reverb (and is strongly amplified).
+
+The amplifying is unwanted, you can remove it either in the mixer (prefered) -or with the instrument volume-control.
+
+Now 'all'.. that is left, is to fiddle with the controls in the 'TAP-Reverberator' GUI.
+
+I have spend hours playing with controllers in the different FX-generators and its quite amusing. But pay attention to the loudness. Some changes can damage your hearing!
+
+These steps for adding effects on an instrument, is also shown in this video on youTube:
+
+http://www.youtube.com/watch?v=xEjyVXqL5pk
+
+'''Using The LADSPA effects in the FX-mixer.'''
+
+Effects on the mixer can either be placed on individual channels or on the entire mixer.
+
+Open the FX-mixer.
+To the right you have the now familiar window for an Effect-chain.
+In order to add an effect to one specific mixer-channel, the channel must be in focus / be selected.
+Default all channels are named “FX1”..”FX64”.
+The channel-name is written in white text on each channel.
+Left-click on one of the channel-names.
+The name shifts from white to green.
+That channel is now selected, and effects added to the effect-chain will be for that specific channel.
+
+If you add an effect to “FX1” and then click on “FX2” the added effect that was displayed when FX1 had focus, will disappear. FX2 is now in focus and you can add some effect to that channel.
+
+If you sellect FX-channel0 (“Master”) the effects you add will be for the entire mixer.
+I have not been able to find any use for an effect on the entire mixer, but it can be done.
+
+(You should btw. rename the channels with your instrument names. -Just double-click on a channel and enter a new name.)
+
+--[[User:Lmmscomp|musikbear]] 08:56, 11 April 2010 (UTC)
