@@ -22,7 +22,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |backgroundcolor = #fff3f3
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
 |heading         = This article should be ''deleted''.
-|message         = {{{1}}} is probably what you're looking for. Update your bookmarks :)}}
+|message         = It's useless or already exists elesewhere.}}
  <nowiki>{{msgbox:delete}}</nowiki>
 
 ==== Moved ====
