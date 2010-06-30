@@ -21,9 +21,18 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:delete
 |backgroundcolor = #fff3f3
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
-|heading         = This article needs to be ''deleted''.
+|heading         = This article should be ''deleted''.
 |message         = {{{1}}} is probably what you're looking for. Update your bookmarks :)}}
  <nowiki>{{msgbox:delete}}</nowiki>
+
+==== Moved ====
+{{Msgbox
+|id              = Msgbox:moved
+|backgroundcolor = #fff3f3
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Crystal_Clear_action_find.png/48px-Crystal_Clear_action_find.png
+|heading         = This article has been ''moved'' to: {{{1}}}
+|message         = This page doesn't redirect you automatically because it should be deleted to avoid confusion.}}
+ <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
 
 ==== Out of date ====
 {{Msgbox
@@ -32,7 +41,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png
 |heading         = This article is ''out of date''.
 |message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
- <nowiki>{{msgbox:out of date}}</nowiki>
+ <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should about --></nowiki>
 
 ==== Too complex ====
 {{Msgbox
@@ -50,7 +59,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crystal_Clear_app_locale.png/48px-Crystal_Clear_app_locale.png
 |heading         = This article needs to be ''translated''.
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
- <nowiki>{{msgbox:translate}}</nowiki>
+ <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
 
 == ..Trans Templates ==
 <!-- Spaces don't work within templates (use _). For info, see the article [[Templates]] -->
