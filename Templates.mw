@@ -30,8 +30,8 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:moved
 |backgroundcolor = #fff3f3
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Crystal_Clear_action_find.png/48px-Crystal_Clear_action_find.png
-|heading         = This article has been ''moved'' to: {{{1}}}
-|message         = This page doesn't redirect you automatically because it should be deleted to avoid confusion.}}
+|heading         = This page can be deleted. Its content has been ''moved'' to [[{{{1}}}]]
+|message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
  <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
 
 ==== Out of date ====
