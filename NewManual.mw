@@ -1,3 +1,1 @@
-<div style="color: #aa0000; background: #eeeeee;border: 3px solid red; padding: 1em; margin: auto; width: 90%; "> Delete this page please. [[0.4:Manual]] replaces it.</div>
-
-[[Category:Delete]]
+{{msgbox:delete|0.4:Manual}}
