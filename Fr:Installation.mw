@@ -1,5 +1,5 @@
-<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">This page should be in French</div>
 {{InstallationTrans}}
+{{msgbox:to translate|French}}
 
 This is meant to be a very basic and linear tutorial on how to install LMMS.
 
