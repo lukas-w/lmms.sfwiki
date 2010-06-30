@@ -4,6 +4,7 @@ This is a page listing some of the work that should be done in the English wiki.
 == Maintenance ==
 * Hunt for typos
 * Post messages on pages needing them. see ([[Templates]])
+* Make sure no [[:Category:moved|moved]] pages are linked to.
 
 == In General (will never be completed)==
 * Add tips to the [[Tip of the day]] page
