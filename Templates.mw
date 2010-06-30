@@ -16,6 +16,15 @@ This page contains various templates used in the wiki in order to guide and faci
  <nowiki><div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div></nowiki>
 
 == Message Boxes ==
+==== Delete ====
+{{Msgbox
+|id              = Msgbox:delete
+|backgroundcolor = #fff3f3
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
+|heading         = This article needs to be ''deleted''.
+|message         = {{{1}}} is probably what you're looking for. Update your bookmarks :)}}
+ <nowiki>{{msgbox:delete}}</nowiki>
+
 ==== Out of date ====
 {{Msgbox
 |id              = Msgbox:out of date
