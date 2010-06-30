@@ -1,17 +1,18 @@
 __NOTOC__ __NOEDITSECTION__
 This is a page listing some of the work that should be done in the English wiki. All you need is an [[Special:Userlogin|account]], some free time, and a bit of good will.
 
-== In General (will never be completed)==
+== Maintenance ==
 * Hunt for typos
+* Post messages on pages needing them. see ([[Templates]])
+
+== In General (will never be completed)==
 * Add tips to the [[Tip of the day]] page
 * Write simple tutorials for newbies in the [[0.4:Manual#Tutorials|Tutorials]] section
 * Test new or untested [[Tested VSTs|VST plugins]]
-* Categorize pages. (incomplete=[[:Category:Incomplete|Incomplete]], complex=[[:Category:Simplify|Simplify]], out of date=[[:Category:Out of date|Out of date]]
 * [[Translating an Article|Translate]] pages into different languages
 * Write new To-do ideas on this very page
 
 == Specific Work (done once and it's done)==
-
 * Expand the [[Glossary]]
 * Write the [[0.4:Working_with_Controllers]] page
 * Rewrite [[0.4:Getting_Started]] to more user-friendly
