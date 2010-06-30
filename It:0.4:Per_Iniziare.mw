@@ -3,7 +3,7 @@
 = Per Iniziare con LMMS = 
 LMMS &egrave; un software sequencer, di sintesi e di composizione per Linux e Windows. Esso include una serie di plug-in sintetizzatori software, riproduttori di campioni audio, drum machine e composizione piano roll, strumenti di automatizzazione e accesso a effetti LADSPA.
 
-Quando lanciate per la prima volta LMMS, vengono mostrati i componenti chiave. La [[Barra dei Menu Standard]] si trova in cima, sopra la  [[Barra degli Strumenti]] ed i controlli di traccia principali. La barra degli strumenti che si trova fissata sulla sinistra &egrave; la [[Barra Laterale]], che &egrave; un metodo semplice per accedere agli strumenti , ai suoni, preset e progetti. Le finestre visualizzate di default sono il [[Song Editor]], il [[Beat Bassline Editor|Beat + Bassline Editor]] e il [[Project Notes]].
+Quando lanciate per la prima volta LMMS, vengono mostrati i componenti chiave. La [[Barra dei Menu Standard]] si trova in cima, sopra la  [[It:0.4:Barra degli Strumenti|Barra degli Strumenti]] ed i controlli di traccia principali. La barra degli strumenti che si trova fissata sulla sinistra &egrave; la [[Barra Laterale]], che &egrave; un metodo semplice per accedere agli strumenti , ai suoni, preset e progetti. Le finestre visualizzate di default sono il [[Song Editor]], il [[Beat Bassline Editor|Beat + Bassline Editor]] e il [[Project Notes]].
 
 Per inserire uno dei molti preset plugin  strumenti predefiniti nel [[Beat Bassline Editor|Beat + Bassline Editor]] o nel [[Song Editor]], cliccate sulla stella stella gialla (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) nella Barra Laterale per visualizzare i [[Side Bar#Presets|Presets]]. 
 
