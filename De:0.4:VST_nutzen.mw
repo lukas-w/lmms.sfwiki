@@ -1,2 +1,12 @@
 {{0.4:Working with VSTsTrans}}
-{{msgbox:translate|German}}
+
+''Es lohnt sich auch ein Blick auf die [[Tested VSTs|VST Datenbank]] um zu überprüfen, welche Instrumente funktionieren und wo noch Schwierigkeiten auftreten!''
+
+== Vst Instrumente nutzen ==
+
+VST und VSTi Plugins sind Plugins, die branchenweit in den meisten kommerziellen Audiobearbeitungsprogrammen unter Windows und Mac OS X unterstützt werden. Sie reichen vom kleinsten Effekt (ähnlich der LADSPA Effekte) bis hin zu vollständigen Instrumenten. Zum Glück kann man diese leistungsstarken Plugins auch ohne größere Probleme mit LMMS verwenden. Bei der Windows Version von LMMS funktionieren VST und VSTi Plugins nahezu perfekt, aber unter Linux ist die Unterstützung leider nicht so gut. Unter Linux braucht LMMS die Instalation von [http://www.winehq.org/ Wine] before die Plugins genutzt werden können. Der Einsatz von Vst-Plugins funktioniert folgendermaßen: 
+
+* (nur für Linux). "Wine" installieren. (In Debian oder Ubuntu, ist das normlerweise recht einfach, indem man im Paket-Manager nach dem "Wine" Paket sucht und dieses dann installiert.)
+* In LMMS das Vestige-Instrument von der Seitenleiste hinzufügen 
+* Im Instrument-Plugin Fenster auf den Ordner klicken und ein Vst-Instrument laden. Es werden nur .dll und .exe Formate unterstützt 
+* Warten bis das Vst-Instrument geladen ist. Das kann eine Weile dauern und es kann so scheinen als würde LMMS sich aufgehängt haben, gerade bei umfangreichen und großen Vst-Dateien; aber etwas Geduld! (und dann funktioniert's vielleicht doch noch)
