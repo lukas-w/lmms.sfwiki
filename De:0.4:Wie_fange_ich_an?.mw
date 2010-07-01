@@ -1,7 +1,8 @@
 {{0.4:Getting StartedTrans}}
+{{CV}}
 
 = Beginnen, mit LMMS zu arbeiten =
-{{CV}}
+
 LMMS (Linux Multimedia Studio) ist ein Sequencer, Software Synthesizer und eine Tonsatz-Software für Linux und Windows. Es umfasst eine Reihe von Plug-In Software-Synthesizern, die Wiedergabe von Audio-Samples, Komposition mittels Drum-Modul und Klaviatur, Automatisierungswerkzeuge und Zugang zu LADSPA-Effekten.
 
 Beim ersten Start von LMMS werden verschiedene Grundkomponenten angezeigt. Die [[De:0.4:Hauptmenüleiste|Hauptmenüleiste]] befindet sich ganz oben, über der [[De:0.4:Werkzeugleiste|Werkzeugleiste]] und den Mastertrack-Reglern. Die Werkzeugleiste, die sich permanent auf der linken Seite befindet, ist die [[De:0.4:Seitenleiste|Seitenleiste]], welche einen einfachen Weg darstellt, auf Instrumente, Sounds, Presets und Projekte zuzugreifen. Standardmäßig werden folgende Fenster angezeigt: Der [[De:0.4:Song Editor|Song-Editor]], der [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]] und die [[De:0.4:Projekt Notizen|Projekt-Notizen]]. 
