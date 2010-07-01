@@ -1,2 +1,64 @@
 {{0.4:Working with SamplesTrans}}
-{{Msgbox:translate|German}}
+
+= Samples =
+
+Samples sind aufgenommene Audio Dateien in komprimierter oder unkomprimierter Form. Es kann sich dabei um alles handeln, von jemandem der singt oder ein Instrument spielt, oder ein aufgenommenes Geräusch wie z.B. in die Hände klatschen. Samples können in drei verschiedenen Möglichkeiten genutzt werden. Entweder einfach als sogenanntes One-Shot Sample in einer Samplespur abgespielt, als Percussion Instrument oder als polyphones Instrument im Audio File Processor. 
+
+
+= Datei Formate =
+
+Die Sound Dateien können in verschiedenen Formaten vorliegen:
+
+* Lossless - verlustfrei (große Dateien):
+** [http://en.wikipedia.org/wiki/WAV WAV] - Microsoft WAVe Format
+*** (Die Community hat Probleme mit verlustfreien unkomprimierten Wav Dateien gemeldet. Was auch immer das bedeuten mag;)  
+** [http://en.wikipedia.org/wiki/AIFF AIFF] - Audio Interchange File Format
+** [http://en.wikipedia.org/wiki/Au_file_format AU] - AUdio File Format
+** [http://en.wikipedia.org/wiki/Flac FLAC] - Free Lossless Audio Compression
+** RAW [http://en.wikipedia.org/wiki/PCM PCM] Samples in einer Datei.
+* Lossy - (kompakte kleine Dateien):
+** [http://en.wikipedia.org/wiki/Ogg Ogg] - Open Wavelet Compression Format
+** [http://en.wikipedia.org/wiki/MP3 MP3] - Layer 3 MPEG Audio Encoding
+*** Unter Windows wird das Importieren von MP3 Dateien nicht unterstützt. 
+** [http://en.wikipedia.org/wiki/Speex Speex] - An Ogg Unterformat optimiert für Sprachkomprimierung 
+** [http://en.wikipedia.org/wiki/Soundblaster VOC] Datei die mit und für Creative Labs Soundblaster Karten erstellt wurden
+* Lossless - verlustfrei (noch kompakter)
+** DrumSynth (ds) files 
+
+= Samples als Sounds =
+
+Samples als normalen Sound wieder zu geben bedeutet, dass man das Sample mit der Tonhöhe und Geschwindigkeit wiedergibt, in der es auch aufgenommen wurde. Dafür benutzt man im [[Song Editor]] die '''Sample Spur hinzufügen''' Taste (http://img686.imageshack.us/img686/9858/addsampletrackbutton.png) und erstellt einen neuen Abschnitt (Segment) in dem man auf die Zeitlinie klickt. Nun man kann hier ein Sample einfügen, entweder durch DoppelKlick auf dem Abschnitt (was ein Fenster öffnet um ein Sample auszuwählen und zu laden), oder indem man das Sample von der Seitenleiste aus auf den Abschnitt zieht. Das Sample wird in diesem Abschnitt abgespielt und zeigt auch die aktuelle Länge des Samples an. Das Sample kann verkürzt werden, wenn man am mit der Maus das Sample-Ende nach links zieht. 
+
+Eine Sample-Spur erlaubt es, mehrere verschiedene Samples in der gleichen Spur abzuspielen. Das ist hilfreich, wenn man z.B. den Refrain, die Strophe und den Übergang einzeln aufgenommen hat und diese jetzt in der gleichen Spur aneinander fügen möchte. Einfach einen neuen Abschnitt in der Sample-Spur erzeugen und das neue Sample einfügen. 
+
+Samples können sich auch überschneiden und werden dann gleichzeitig wiedergegeben. Allerdings gibt es keinen visuellen Hinweis darüber, wo sich die Samples genau überschneiden. Wenn man also ein Sample über das andere zieht, kann man dieses nicht mehr sehen; erst wenn das andere Sample wieder entfernt wird. Das ist verwirrend und wird deshalb nicht empfohlen. Besser ist es, eine neue Sample-Spur zu erzeugen.
+
+Anders als in anderen Musikprogrammen, sind die Sample-Spuren standardmäßig in Stereo. Wenn man zwei Mono-Aufnahmen hat, für den linken und den rechten Kanal und diese als Stereo-Datei zusammen fügen möchte, kann man sie in zwei verschiedene Sample-Spuren einfügen. Im Moment gibt es keine Möglichkeit das Panorama einer Sample-Spur einzustellen. Deswegen ist es momentan am besten, wenn man die beiden Mono-Spuren in einem anderem Audio Editor (z.B. Wavosaur) als Stereo-Spur zusammenfügt. 
+
+= Samples als Instrumente =
+
+Normalerweise wird man ein Sample als Instrument abspielen, erst recht, wenn es sich um ein Sample einer Einzelnote eines Instrumentes handelt, das man in unterschiedlicher Tonhöhe wiedergeben möchte umd eine Melodie und/oder Harmonie Abfolge zu erstellen.
+
+Um ein Instrument zu erzeugen, dass als Ausgangsmaterial ein Sample besitzt, reicht es, einfach das entsprechende Sample von der Seitenleiste in den Song Editor zu ziehen. Es wir automatisch eine neue Spur erzeugt, mit dem Sample in einem [[AudioFileProcessor Plugin]] Fenster, welches direkt geöffnet ist um Parameter Veränderungen vorzunehmen. Denn oft möchte/muss man noch den Start-/Endpunkt und den Grundton des Samples verändern, damit es richtig klingt. Deshalb ist es praktisch, das dieses Fenster gleich geöffnet ist. Außerdem kann man auch gleich den Namen ändern und den Mixer-Kanal zuweisen.
+
+Die Noten können im [[Piano Roll Editor]] eingegeben und bearbeitet werden. 
+
+= Samples als Percussion =
+
+Ein allgemeiner Gebrauch von Samples ist der Einsatz als Percussion Instrumente oder sich wiederholende Notenmuster. Für diese Möglcihkeit einfach ein Sample von der Seitenleiste in den [[Beat Bassline Editor|Beat + Bassline Editor]] ziehen.  Ein Doppelklick auf einem Sample genügt dafür auch. RechtsKlick auf einem Sample öffnet ein Kontext-Menü mit drei Möglichkeiten: <br>
+1. An aktive Instrumeten Spur senden - je nach dem welche Spur gerade aktiv ausgewählt ist. <br>
+2. In neuer Instrumentenspur im Song Editor öffnen - spricht für sich <br>
+3. In neuer Instrumentenspur im B+B-Editor öffnen - spricht auch für sich
+
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Working with Instruments|Working with Instruments]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Composing in the Piano Roll Editor|Composing in the Piano Roll Editor]]
+|}
+
+[[Category:HowTo]]
+[[Category:0.4-Manual]]
