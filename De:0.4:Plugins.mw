@@ -1,2 +1,50 @@
 {{0.4:PluginsTrans}}
-{{msgbox:translate|German}}
+
+Dies ist die aktuelle Instrumenten-Plugin Liste. Durch anklicken der Namen kommt man auf die Seiten mit den genaueren Beschreibungen: 
+(blaue Schrift: vorhandene Beschreibungen auf englisch, rote Schrift: momentan keine Beschreibungen vorhanden)
+
+= Instrumenten Plugins =
+
+* [[AudioFileProcessor|AudioFileProcessor]] - spielt Audio Dateien ab (.ogg/.wav)
+* [[BitInvader]] - einfacher und "dreckiger" Wavetable Synthesizer
+* [[Kicker]] - (Kick) Drum Synthesizer
+* [[LB302]] - eine monophone Umsetzung des bekannten TB-303 Sounds
+* [[Mallets]] - simuliert den Klang geschlagener Instrumente (z.B. Marimba, Vibraphone, ...)
+* [[Organic]] - Orgel Synthesizer (additiv)
+* [[FreeBoy]] - Sound Chip Emulation des Nintendo Game Boy
+* [[PatMan]] - spielt GUS kompatible [http://de.wikipedia.org/wiki/Gravis_Ultrasound] Patches ab (http://freepats.zenvoid.org/freepats/)
+* [[SF2 Player]] - SoundFont2 Player
+* [[SID]] - C-64 Sound Chip Emulator
+* [[SingerBot]] - Speech Synthesizer
+* [[TripleOscillator]] - 'Standard' Subtraktiver Synthesizer
+* [[VeSTige]] - Plug-In zur Einbindung von Vst-Instrumenten 
+**[[Tested VSTs|geteste Vst Instrumente]]
+* [[Vibed]] -  simuliert Saiten-/Streich Instrumente
+* [[ZynAddSubFX]] - Hybrid Synthesizer
+
+= Effekt Plug-Ins =
+* [[Bass Booster]]
+* [[Definitions#P|Peak Controller]]
+* [[Spectrum Analyzer]]
+* [[Stereo Enhancer]]
+* [[Stereophonic Matrix]]
+
+= Regler =
+* [[LFO Regler]]
+* [[MIDI Regler]]
+* [[Definitions#P|Peak Controller]]
+
+= Navigation =
+
+siehe auch: [[0.4:Working with Instruments|Working with Instruments]] (englisch)
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Side Bar]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Song Editor]]
+|}
+
+[[Category:Reference]]
+[[Category:0.4-Manual]]
+[[Category:Incomplete]]
