@@ -14,13 +14,11 @@ Wenn ein Instrument in den Song-Editor eingefügt wird öffnet sich automatisch 
 
 Der normale Weg einen Musiktitel zu erstellen ist, Rhythmusinstrumente (Schlagzeug) zum [[Beat Bassline Editor(deutsch)|Beat + Bassline Editor]] und Instrumente für Melodiespuren zum [[Song Editor(deutsch)|Song-Editor]] hinzuzufügen. Danach werden verschiedene Drumloops erstellt, indem man den '''Beat/Basslinie hinzufügen'''-Button für jeden gewünschten Pattern (Haupt-Basslauf, Hihat-Lauf, spezielle Rhythmen und Breaks, usw.) verwendet. Diese werden dem Song-Editor hinzugefügt, sobald sie erstellt werden. Um die Patterns im Musiktitel abzuspielen klickt man an die Start-Leiste der Spur im Song-Editor an der gewünschten Stelle, um ein neues Segment hinzuzufügen. Dieses Segment kann man auch in die Länge ziehen, um sie über mehrere Reihen hinweg abspielen zu lassen. Dieselbe Technik kann auch für sich wiederholende Bassläufe verwendet werden.
 
-Um Melodiespuren zu erstellen klickt man die Start-Leiste des Instruments im Song-Editor um ein neues Segment zu erstellen und doppelklickt dieses Segment nun, um den [[Piano Roll Editor(deutsch)|Piano Roll Editor]] zu öffnen. In der Piano Roll werden Noten plaziert, indem man auf ihr Start-Viertel klickt (um sie zu erzeugen) und ihr rechtes Ende danach so lange oder kurz zieht, wie man sie haben will. Noten können in der Tonskala nach oben und unten und in der Zeitposition nach links und rechts verschoben werden um sie korrekt zu positionieren. Alternativ können Noten auch in Echtzeit aufgenommen werden, indem man den "Aufnahme"-Button klickt und die Noten per Tastatur (Y=C, S=C#, X=D, D=D#, Q=C, usw.) oder einem Midi-Keyboard einspielt.
+Um Melodiespuren zu erstellen klickt man die Start-Leiste des Instruments im Song-Editor um ein neues Segment zu erstellen und doppelklickt dieses Segment nun, um den [[Piano Roll Editor(deutsch)|Piano Roll Editor]] zu öffnen. In der Piano Roll werden Noten plaziert, indem man auf die Stelle klickt wo man die Note haben möchte (um sie zu erzeugen) und dann das rechte Ende der Note so lang oder kurz zieht, wie man es haben will. Noten können in der Tonskala nach oben und unten und in der Zeitposition nach links und rechts verschoben werden um sie korrekt zu positionieren. Alternativ können Noten auch in Echtzeit aufgenommen werden, indem man den "Aufnahme"-Button klickt und die Noten per Tastatur (Y=C, S=C#, X=D, D=D#, Q=C, usw.) oder einem Midi-Keyboard einspielt.
 
 Um das fertige Musikstück anzuhören klickt man im Song-Editor "Play".
 
 = Drum Pattern Abbildungen/Anleitungen =
-
-(in Arbeit)
 
 ('''Beispiel''')
 
@@ -28,11 +26,11 @@ Um das fertige Musikstück anzuhören klickt man im Song-Editor "Play".
 http://img295.imageshack.us/img295/804/examplet.png
 
 
-Hier sieht man einen einfaches 4/4-Pattern, welches 1/16-Noten bzw. 16 Segmente pro Pattern verwendet. Man sieht in der Zeile "Bass Drum", dass ein Ton auf 1,5,9 und 13 abgespielt wird, was den typischen Beat produziert, der in den meisten Techno/Trance und House-Musikstücken verwendet wird. In der nächsten Zeile sieht man die Snare, die auf 5 und 13 gespielt wird und dem Rhythmus daher einen Swing-Charakter verleiht. Die geöffnete und geschlossene Hi-Hat komplettieren den Rhythmus schließlich.
+Hier sieht man einen einfaches 4/4-Pattern, welches 1/16-Noten bzw. 16 Segmente pro Pattern verwendet. Man sieht in der Zeile der "Bass Drum", dass ein Ton auf 1,5,9 und 13 abgespielt wird, was den typischen Beat produziert, der in den meisten Techno/Trance und House-Musikstücken verwendet wird. In der nächsten Zeile sieht man die Snare, die auf 5 und 13 gespielt wird und dem Rhythmus daher einen Swing-Charakter verleiht. Die geöffnete und geschlossene Hi-Hat komplettieren den Rhythmus schließlich.
 
 Diesen einfachen Rhythmus kann man nun zu einem Musikstück hinzufügen, indem man den "Beat + Bassline Editor" verwendet (welcher die 1/16-Noten bzw. die 16 Schritte für 4 Schläge benutzt).
 
-Nun einige Beispiele, die man ausprobieren und eventuell in eigenen Musikstücken verwenden kann:
+Es folgen einige Beispiele von bekannten Beats, die man ausprobieren, verändern und eventuell in eigenen Musikstücken verwenden kann:
 
 
 ('''1''') '''Amen Break''' - [Dieses Schlagzeugsolo, das ursprünglich von Gregory Sylvester Coleman gespielt wurde, ist stark modifiziert worden, um in Drum'n'Bass und Jungle-Stücken verwendet werden zu können]
