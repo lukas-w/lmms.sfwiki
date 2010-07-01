@@ -63,17 +63,17 @@ This page contains various templates used in the wiki in order to guide and faci
 
 == ..Trans Templates ==
 <!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
-{{imglink|0.4:Manual|{{flag|en}}}}
-{{imglink|De:0.4:Bedienungsanleitung|{{flag|de}}}}
-{{imglink|Fr:0.4:Manuel|{{flag|fr}}}}
-{{imglink|It:0.4:Manuale|{{flag|it}}}}
-{{imglink|Pt:0.4:Manual|{{flag|pt}}}}
+{{imglink|0.4:Manual|en}}
+{{imglink|De:0.4:Bedienungsanleitung|de}}
+{{imglink|Fr:0.4:Manuel|fr}}
+{{imglink|It:0.4:Manuale|it}}
+{{imglink|Pt:0.4:Manual|pt}}
  <nowiki>
  <!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
-{{imglink|0.4:Manual|{{flag|en}}}}
-{{imglink|De:0.4:Bedienungsanleitung|{{flag|de}}}}
-{{imglink|Fr:0.4:Manuel|{{flag|fr}}}}
-{{imglink|It:0.4:Manuale|{{flag|it}}}}
-{{imglink|Pt:0.4:Manual|{{flag|pt}}}}
+{{imglink|0.4:Manual|en}}
+{{imglink|De:0.4:Bedienungsanleitung|de}}
+{{imglink|Fr:0.4:Manuel|fr}}
+{{imglink|It:0.4:Manuale|it}}
+{{imglink|Pt:0.4:Manual|pt}}
 ...
  </nowiki>
