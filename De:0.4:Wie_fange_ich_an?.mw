@@ -4,7 +4,7 @@
 {{CV}}
 LMMS (Linux Multimedia Studio) ist ein Sequencer, Software Synthesizer und eine Tonsatz-Software für Linux und Windows. Es umfasst eine Reihe von Plug-In Software-Synthesizern, die Wiedergabe von Audio-Samples, Komposition mittels Drum-Modul und Klaviatur, Automatisierungswerkzeuge und Zugang zu LADSPA-Effekten.
 
-Beim ersten Start von LMMS werden verschiedene Grundkomponenten angezeigt. Die [[De:0.4:Hauptmenüleiste|Hauptmenüleiste]] befindet sich ganz oben, über der [[De:0.4:Werkzeugleiste|Werkzeugleiste]] und den Mastertrack-Reglern. Die Werkzeugleiste, die sich permanent auf der linken Seite befindet, ist die [[Seitenleiste|Seitenleiste]], welche einen einfachen Weg darstellt, auf Instrumente, Sounds, Presets und Projekte zuzugreifen. Standardmäßig werden folgende Fenster angezeigt: Der [[Song Editor(deutsch)|Song-Editor]], der [[Beat Bassline Editor(deutsch)|Beat + Bassline Editor]] und die [[De:0.4:Projekt Notizen|Projekt-Notizen]]. 
+Beim ersten Start von LMMS werden verschiedene Grundkomponenten angezeigt. Die [[De:0.4:Hauptmenüleiste|Hauptmenüleiste]] befindet sich ganz oben, über der [[De:0.4:Werkzeugleiste|Werkzeugleiste]] und den Mastertrack-Reglern. Die Werkzeugleiste, die sich permanent auf der linken Seite befindet, ist die [[Seitenleiste|Seitenleiste]], welche einen einfachen Weg darstellt, auf Instrumente, Sounds, Presets und Projekte zuzugreifen. Standardmäßig werden folgende Fenster angezeigt: Der [[Song Editor(deutsch)|Song-Editor]], der [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]] und die [[De:0.4:Projekt Notizen|Projekt-Notizen]]. 
 
 Um ein neues Instrumentenplugin-Preset in den Beat + Bassline Editor oder den Song-Editor einzufügen wird der gelbe Stern (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in der Seitenleiste geklickt, um die [[Side Bar#Presets(deutsch)|Presets]] anzuzeigen. Samples können auch eingefügt werden, indem die grüne Note (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png) ("Meine Samples") in der Seitenleiste angeklickt wird. Durch Klicken und halten eines Instrumenten-Presets oder eines Samples kann der von diesem produzierte Klang vorgehört werden. Instrumente können dem Song-Editor hinzugefügt werden, indem sie mit der Maus in diesen gezogen werden. Durch Doppelklicken eines Presets wird dieses direkt im Beat + Bassline Editor geöffnet. Um ein irrtümlich hinzugefügtes Instrument aus dem Editor-Fenster zu entfernen klickt man den grauen Werkzeug-Button "Aktionen für diese Spur" und wählt "Diese Spur entfernen". Die Instrumente gliedern sich in mitgelieferte und benutzerdefinierte Instrumente. Unterordner im Dateisystem können verwendet werden, um Instrumente und Samples hierachisch zu organisieren.
 
@@ -22,21 +22,15 @@ Um das fertige Musikstück anzuhören klickt man im Song-Editor "Play".
 
 (in Arbeit)
 
-('''Abbildung 1''') ('''Beispiel''')
+('''Beispiel''')
 
-<pre>Metrum....              1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
-Bass Drum             | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
-Snare Drum            | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
-Geschlossenes Hi-Hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
-Geöffnetes Hi-Hat     | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
-</pre>
 
-X=Note wird gespielt ;
-/=Stille
+http://img295.imageshack.us/img295/804/examplet.png
 
-In Abbildung 1 sieht man einen einfaches 4/4-Pattern, welches 1/16-Noten bzw. 16 Segmente pro Pattern verwendet. Man sieht in der Zeile "Bass Drum", dass ein X (Note wird gespielt) auf 1,5,9 und 13 ist, was den typischen Beat produziert, der in den meisten Techno/Trance und House-Musikstücken verwendet wird. In der nächsten Zeile sieht man die Snare, die auf 5 und 13 gespielt wird und dem Rhythmus daher einen Swing-Charakter verleiht. Die geöffnete und geschlossene Hi-Hat komplettieren den Rhythmus schließlich.
 
-Diesen einfachen Rhythmus kann man nun zu einem Musikstück hinzufügen, indem man den "Beat + Bassline Editor" verwendet (welcher die 1/16-Noten bzw. die 15 Schritte für 4 Beats benutzt).
+Hier sieht man einen einfaches 4/4-Pattern, welches 1/16-Noten bzw. 16 Segmente pro Pattern verwendet. Man sieht in der Zeile "Bass Drum", dass ein Ton auf 1,5,9 und 13 abgespielt wird, was den typischen Beat produziert, der in den meisten Techno/Trance und House-Musikstücken verwendet wird. In der nächsten Zeile sieht man die Snare, die auf 5 und 13 gespielt wird und dem Rhythmus daher einen Swing-Charakter verleiht. Die geöffnete und geschlossene Hi-Hat komplettieren den Rhythmus schließlich.
+
+Diesen einfachen Rhythmus kann man nun zu einem Musikstück hinzufügen, indem man den "Beat + Bassline Editor" verwendet (welcher die 1/16-Noten bzw. die 16 Schritte für 4 Schläge benutzt).
 
 Nun einige Beispiele, die man ausprobieren und eventuell in eigenen Musikstücken verwenden kann:
 
