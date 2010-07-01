@@ -1,3 +1,5 @@
+{{OrganicTrans}}
+
 Organic is an additive synthesizer which combines the output of up to 8 oscillators. Although it has more oscillators than the [[TripleOscillator]] it is less flexible because it lacks a lot of its abilities, among them the option to modulate the oscillators with each other.
 
 The phase offsets of each oscillator are randomized whenever a note is played (for both stereo channels separately). For that reason this instrument sounds slightly different everytime you press a key even when you don't change any settings.
