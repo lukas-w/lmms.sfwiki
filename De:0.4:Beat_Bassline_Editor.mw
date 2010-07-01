@@ -1,0 +1,77 @@
+Der Beat + Bassline-Editor ist das wichtigste Werkzeug für die Erstellung von Rhythmen und musikalischen Linien in LMMS. Er sieht so aus:
+
+<!--{\begin{center}}-->
+http://img35.imageshack.us/img35/3290/bbeditor.png
+<!--{\end{center}}-->
+
+= Werkzeugleiste =
+
+Die Werkzeugleiste des Beat + Bassline Editors sieht wie folgt aus:
+
+<!--{\begin{center}}-->
+http://img810.imageshack.us/img810/7596/bbeditortoolbar.png
+<!--{\end{center}}-->
+
+Die '''Abspiel''' und '''Stop''' Tasten (http://img713.imageshack.us/img713/2645/bbeditorplayback.png) spielen das gerade ausgewählte Muster (Pattern) ab. Wenn '''Abspielen''' gedrückt wurde, wird es durch eine '''Pause''' Symbol (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pause.png) ersetzt, so dass man das Pattern pausieren kann ohne es ganz anzuhalten. Dadurch wird es direkt an dieser Stelle weitergespielt und startet nicht erst von vorne, wie das bei '''Stop''' der Fall ist.
+
+Im nächsten Drop-Down-Menü (http://img31.imageshack.us/img31/6892/bbeditorselect.png) kann man das Beat + Bassline Pattern auswählen, welches man bearbeiten möchte. Es zeigt immer das aktuelle zu bearbeitende Pattern an.
+
+Die '''Beat/Bassline''' Taste (http://img704.imageshack.us/img704/4571/bbeditornewbb.png) erstellt ein neues Pattern das automatisch mit aufsteigender Nummer, von "Beat/Balline 0" benannt wird. Das kann (und sollte) im [[Song Editor]] umbenannt werden, zur besseren Übersicht und leichteren Handhabung welches Pattern man gerade bearbeitet. 
+Außerdem kann man auch noch eine Automationsspur hinzufügen (http://img638.imageshack.us/img638/2741/bbeditornewat.png)
+
+= Instrumenten-Spur =
+
+Jedes Instrument/Sample das man zum Beat + Bassline Editor hinzugefügt, wird in einer Leiste dargestellt, die wie folgt aussieht:
+
+<!--{\begin{center}}-->
+http://img198.imageshack.us/img198/6500/bbeditortrack.png
+<!--{\end{center}}-->
+
+== Instrumenten Einstellungen ==
+
+Die Instrumenten Einstellungen sind denen der [[Song Editor#The Track Settings bar|Spur Einstellungen]] des [[Song Editor]]'s sehr ähnlich. Man hat die Möglichkeit das Instrument in der Auflistung nach oben oder unten zu verschieben, es zu kopieren oder zu entfernen, die Lautstärke zu verändern oder zu automatisieren und die [[Plugins|Instrumenten Plugin]] Einstellungen vorzunehmen.
+
+== Steps ==
+
+Auf der rechten Seite sind sechszehn Schritte (Steps) zu sehen, vier für jeden Schlag (Beat) eines Vierteltaktes. Jeder Step kann auf ein oder ausgestellt sein. Wenn ein Step aktiviert ist, wird an dieser Stelle der Sound wiedergegeben. Zur besseren Orientierung und Anwahl sind alle vier Steps dunkler schattiert.  
+
+== Steps hinzufügen/entfernen ==
+
+Es ist möglich, das man Steps hinzufügt und auch wieder entfernt. Das erreicht man im Kontext-Menü (Rechtsklick auf den Steps). Dadurch erhält man z.B. einen zusätzlichen (oder auch verlängerten). Man kann allerdings nicht weniger als insgesamt sechszehn Steps einstellen. Obwohl es möglich ist, Steps in Schritten von eins, zwei, vier,acht und sechszehn einzustellen, macht es wenig Sinn z.B. nur einen Step hinzuzufügen. Für Vier/Viertel-Takte sollte man immer nur in Schritten von sechszehen hinzufügen/entfernen, so dass man entweder 16, 32, oder 64 Steps hat. Für einen Drei/Viertel-Takt sollte die Einstellung 24 oder 48 Steps sein. 
+
+= Kontext-Menu =
+
+Das Kontext-Menü erscheint bei RechtsKlick auf den Steps:
+
+<!--{\begin{center}}-->
+http://img710.imageshack.us/img710/6364/bbeditorcontextmenude.png
+<!--{\end{center}}-->
+
+'''Im Piano-Roll öffnen''' ermöglicht es, die Steps als Noten im [[Piano Roll Editor]] einzugeben. Dadurch kann man genauere Werte als nur eine sechszehntel Note eingeben, und außerdem kann man hier natürlich auch Tonhöhe, Länge und Lautstärke/Anschlagstärke  und die Panorama-Einstellungen für jede einzelen Not bearbeiten. 
+
+'''Kopieren''' und '''Einfügen''' kann man alle Einstellungen einer Spur kopieren und diese in die nächste einfügen. 
+
+'''Stumm/Laut schalten''' ermöglicht es, sofort alle oder diese einzelen Spur stumm/laut zu schalten.
+
+'''Alle Noten löschen''' löscht alle Noten in dieser Spur.
+
+'''Name ändern''' ändert den Namen des Instruments oder des Samples in dieser Spur.  
+'''Name zurücksetzen''' setzt den Namen wieder auf die Standard-Einstellung zurück. 
+
+'''Einfrieren''' erstellt ein Pre-Render dieser Spur. Dadurch wird weniger Rechenleistung verbraucht, als wenn er in Echtzeit abgespielt wird. Wenn die Spur "eingefroren" ist, können keine Änderungen vorgenommen werden.  Man kann eine Spur während der Wiedergabe "auftauen" aber man kann sie nur wieder "einfrieren" wenn die Wiedergabe gestoppt ist. 
+
+'''Steps hinzufügen''' und '''Steps entfernen''' erlaubt es, Steps zum Takt hinzu zu fügen oder aber zu entfernen. (s.o.)
+
+= Navigation =
+
+siehe auch: [[Composing Bass Lines and Drum Sequences]](englisch)
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Piano Roll Editor]]
+| Up: [[0.3:Manual]]
+| Next: [[Automation Editor]]
+|}
+
+[[Category:Reference]]
+[[Category:0.3-Manual]]
