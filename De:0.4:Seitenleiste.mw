@@ -1,0 +1,55 @@
+{{0.4:Side BarTrans}}
+
+Die Seitenleiste ist fest an der linken Seite des Fenster verankert. Es gibt zwei Einstellungen: ein- oder ausgefahren. Im eingefahrenem Zustand sieht sie wie folgt aus:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted.png
+<!--{\end{center}}-->
+
+Es gibt sechs Abschnitte, die einen einfachen (Schnell-)Zugriff auf die verschiedensten Dateien und Presets von LMMS ermöglichen. Wenn man nun auf eines der Abschnitts-Label klickt, erweitert sich die Seitenleiste und zeigt den Inhalt dieses Abschnitts an. 
+
+= 1. Instrument Plugins =
+
+Wenn man auf die Instrument-Plugins Abbildung klickt (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-plugin.png), erweitert sich die Seitenleiste und ermöglicht den direkten Zugriff auf die vorhandenen Instrumente:
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-none.png.
+<!--{\end{center}}-->
+
+Standardmäßig ist kein Instrument-Plugin ausgewählt. Wenn man mit dem Mauszeiger über eine Box fährt, erweitert sich diese und und zeigt eine genauere Beschreibung des jeweiligen Instrument-Plugins an. Das sieht dann wie folgt aus: (englische Version, in der deutschen Version von LMMS ist die Beschreibung auf deutsch:)
+
+<!--{\begin{center}}-->
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-audiofile.png
+<!--{\end{center}}-->
+
+Man kann ein Instrument-Plugin entweder in den [[Song Editor]] oder den [[Beat Bassline Editor|Beat + Bassline Editor]] ziehen, oder auf eines der Instrumenten-Plugin Abbildungen doppelklicken, um es dirket im Beat + Bassline Editor hinzuzufügen. 
+
+
+----
+
+Alle Abschnitte der Seitenleiste mit Ausnahme der Instrumenten-Plugins, besteht die sich öffnende Auflistung aus einer Baumstruktur(Verzeichnisbaum). 
+Ordner sind mit einem Ordner-Symbol gekennzeichnet. Mit einem Doppelklick auf einen Ordner öffntet sich dieser und zeigt den Inhalt, etwas nach rechts eingerückt, darunter an. Den Ordner schließt man einfach wieder mit Doppelklick auf dem entsprechenden Symbol. 
+Diese Ordner entsprechen den Verzeichnissen auf dem eigenen Computer, was eine einfache Möglichkeit bietet, die Sounds und Presets sowohl auf der Festplatte als auch in LMMS zu verwalten und anzupassen.
+
+
+= 2. Meine Projekte =
+
+= 3. Meine Samples =
+
+= 4. Meine Presets =
+
+= 5. Persönlicher Ordner =
+
+= 6. Mein Computer =
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Tool Bar]]
+| Up: [[0.4:Manual]]
+| Next: [[Plugins]]
+|}
+
+[[Category:Reference]] [[Category:Incomplete]]
+[[Category:0.4-Manual]]
