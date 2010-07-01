@@ -1,0 +1,31 @@
+{{0.4:FX MixerTrans}}
+
+Mit dem Mixer kann man die einzelnen Elemente/Spuren des Liedes zusammen zu mischen und aufeinander abzustimmen. Außerdem kann man jede Spur noch mit zusätzlichen Effekten versehen. 
+
+http://img525.imageshack.us/img525/1780/27467115.jpg
+
+==Verwendung==
+
+Um zum Mixer zu gelangen einfach auf folgendes Symbol klicken http://img186.imageshack.us/img186/4696/fxmix.jpg oder '''F9''' drücken. 
+
+*Der Mixer hat 4 Racks, beschriftet mit ''A'', ''B'', ''C'', and ''D''.  Jedes Rack enthält 16 Spuren, die aus 2 Kanälen bestehen, linker und rechter Kanal, erkennbar durch den Lautstärke Balken auf jeder Seite des Schiebereglers. Standartmäßig werden alle Plugins, Dateien, und Spuren über die Master-Spur geleitet.  
+
+
+*Mit dem ''Master'' Schieberegler stellt man die Gesamtlautstärke aller Plugins und/oder Spuren (Tracks) ein. Außerdem kann man auch für diese Spur Effekte einfügen, die dann alle Spuren/Plugins betreffen. Um Effekte einzufügen erst einmal auf den ''Master'' Schieberegler klicken, damit dieser Bereich ausgewählt ist, und dann auf ''Effekte hinzufügen'' klicken. Damit wird eine Dialog-Box mit einer Liste vorhandener Effekte geöffnet, aus der man dann das gewünschte Effekt auswählen kann. 
+
+
+*Mit den Spuren (1-64) läuft das ähnlich wie mit dem ''Master'' Schieberegler, mit der Ausnahme, das diese nur Plugins betreffen.  Aber dafür muss ein Plugin erst einer Spur zugewiesen werden. Dies erreicht man dadurch, das man es entweder '''Song-Editor''' oder '''Beat + Bassline Editor''' auswählt, je nachdem in welchem Editor es sich befindet. Wenn man das Plugin geöffnet hat, einfach unter '''FX Kanal''' den gewüsnschten Kanal einstellen. Es kann jede Anzahl von Plugins einer einzigen Spur im Mixer zugewiesen werden, um somit die Effekt-Einstellungen dieser Spur auf alle anzuwenden und nicht für jedes extra einzustellen. 
+''(Der Name einer Spur kann durch DoppelKlick eingegeben werden.)''
+
+
+== Navigation ==
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Exporting the finished product]]
+| Up: [[0.4:Manual]]
+| Next: [[Tool Bar]]
+|}
+
+[[Category:Reference]]
+[[Category:0.4-Manual]]
