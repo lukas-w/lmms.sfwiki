@@ -61,7 +61,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
  <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
 
-== ..Trans Templates ==
+== Trans Templates ==
 <!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
 {{imglink|0.4:Manual|en}}
 {{imglink|De:0.4:Bedienungsanleitung|de}}
