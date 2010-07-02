@@ -1,0 +1,45 @@
+{{Translating an ArticleTrans}}
+
+The LMMS wiki is a very useful resource, but only when it can be read and understood by everyone.
+Prior to about mid-June, this wiki was a messy and incomplete multilingual chaos. As a solution, I've added a bar with translation links on top of most pages which seems to work great. The only problem is that many of you don't really know how to proceed with translating, and that's exactly what this little guide is for.
+
+Currently, the LMMS wiki is partially translated into 6 languages in addition to English. Unicode characters in titles don't seem to work, which means that some languages won't be able to use them for now. German and Italian versions are relatively complete thanks to generous time-giving fellows [[User:Capdan|Capdan]], [[User:Napocapo|Napocapo]], and many others, but there's still lots of work to do. [[Es:Página principal|Spanish]], [[Fr:Page Principale|French]], and [[Pt:Página principal|Portuguese]] all need a major clean-up, and new languages are more than welcome (bonus points for exotic ones). Esperanto and Toki Pona are the latest additions which I'm currently translating.
+
+== Translating Into a New Language ==
+If you're translating the wiki into an new language that has no main page yet, you should follow these steps. 
+
+# Download the [http://tiny.cc/TranslateLMMS Translation Example File] and write your translation beside the English words.
+# [[Special:Emailuser/Octosquidopus|Send]] me the completed file. 
+# I'll make all the new links and titles for you following the standards described in [[Translating_an_Article#How_It_Works|below]]. All you'll have to do is write the translations.
+If you understand the LMMS naming conventions and feel comfortable enough doing it yourself, go on. You can still download the file to help you out.
+
+== Rules to Remember ==
+* Translations should be based on the original (usually English)
+* Template names with flags in them should borrow the article's name, with "Trans" added. (i.e. ''RequirementsTrans'')
+* Non-English article names should begin with the language's [http://www.mathguide.de/info/tools/languagecode.html|ISO 639-1] code followed by ":" and the rest. (i.e. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
+* Version-dependent articles in the Manual have the LMMS version follow the language code, and precede the title. (i.e. ''0.4:Plugins'', ''De:0.4:Seitenleiste'')
+
+=== Pages NOT to Translate ===
+There ''are'' a few pages we won't be translating because they're constantly changing and would be hard to update in other languages:
+* [[Tested VSTs|VST Database]]
+* [[Roadmap]]
+
+== Message Templates ==
+There are message box template available for translations needing them:
+* Articles needing translation: <span style="color:#000000; background:#FFFFE0">''<nowiki>{{msgbox:translate}}</nowiki>''</span>
+* Articles needing '''re'''translation: <span style="color:#000000; background:#FFFFE0">''<nowiki>{{msgbox:retranslate}}</nowiki>''</span>
+More info: [[Templates#Message Boxes]]
+
+== How It Works ==
+
+==== "Trans" Templates (whit the flags) ====
+Most pages have a list of links to translations on top (those nice-looking flags). If we look in the source code though, these links are invisible. There not there. Why? That's because they're actually on another page which is called a ''Template.'' Templates are embedded into a page and into all of its translations. This way editing the template containing links changes them on all translated versions too. All translations share the same Template.<br>
+
+Let's look at an example:<br>
+
+When looking at the source code of [[Requirements]]), we can spot a template on top. It's name is <span style="color:#000000; background:#FFFFE0">''<nowiki>{{RequirementsTrans}}</nowiki>''</span> (in English), and stays the same in all languages!<br>
+If we look closely, we'll notice that it has the name of the article, and ends with ''Trans'' (without a space in-between).
+What's inside this template is flag images with links to other versions of the same page (Requirements), but in other languages.
+If you need to quickly copy-paste the structure of these flags images and their links, See [[Templates#Trans Templates]]
+
+__NOTOC__ __NOEDITSECTION__
