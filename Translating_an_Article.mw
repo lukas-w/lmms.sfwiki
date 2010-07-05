@@ -37,7 +37,7 @@ Most pages have a list of links to translations on top (those nice-looking flags
 
 Let's look at an example:<br>
 
-When looking at the source code of [[Requirements]]), we can spot a template on top. It's name is <span style="color:#000000; background:#FFFFE0">''<nowiki>{{RequirementsTrans}}</nowiki>''</span> (in English), and stays the same in all languages!<br>
+When looking at the source code of [[Requirements]], we can spot a template on top. It's name is <span style="color:#000000; background:#FFFFE0">''<nowiki>{{RequirementsTrans}}</nowiki>''</span> (in English), and stays the same in all languages!<br>
 If we look closely, we'll notice that it has the name of the article, and ends with ''Trans'' (without a space in-between).
 What's inside this template is flag images with links to other versions of the same page (Requirements), but in other languages.
 If you need to quickly copy-paste the structure of these flags images and their links, See [[Templates#Trans Templates]]
