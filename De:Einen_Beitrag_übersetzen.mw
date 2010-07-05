@@ -1,0 +1,51 @@
+{{imglink|Translating_an_Article|en}}
+{{imglink|De:Einen_Beitrag_übersetzen|de}}
+
+
+Das LMMS Wiki ist eine sehr brauchbare Quelle um mit LMMS besser und einfacher zu arbeiten zu können. Das ist aber nur der Fall, wenn es von jederman gelesen und verstanden werden kann.
+Bis ca. Mitte Juni herum war dieses Wiki unvollständig und ein mehrsprachiges Chaos. Auf den meisten Seiten befindet sich jetzt eine Leiste mit den Links zu den Übersetzungen, was gut zu funktionieren scheint. Das einzige Problem ist jetzt noch, dass viele nicht genau wissen, wie man eine Überstetzung vornehmen kann. Dafür gibt es diese kleine Anleitung.
+
+Momentan ist das LMMS Wiki, neben Englisch, teilweise in 6 weitere Sprachen übersetzt worden. Einige Sprachen können nicht vollständig umgesetzt werden, da Unicode-Zeichen (z.B. spezielle Buchstaben) im Moment nicht verwendet werden können. 
+Die deutschen und italienischen Versionen sind relativ komplett dank der großzügigen Zeitinvestition von [[User:Capdan|Capdan]], [[User:Napocapo|Napocapo]], und vielen anderen; erst recht dank des Einsatzes von [[User:Octosquidopus|Octosquidopus]] der immer wieder kleine aber feine Verbesserungen vorgenommen hat. Aber es gibt noch immer viel zu tun. [[Es:Página principal|Spanisch]], [[Fr:Page Principale|Französisch]], und [[Pt:Página principal|Portugisiesch]] brauchen alle eine Generalüberholung, und neue Sprachen sind natürlich auch sehr willkommen (mit Bonuspunkten für exotische Sprachen;) Die neuesten Ergänzungen sind Esperanto und Toki Pona , die von [[User:Octosquidopus|Octosquidopus]] gerade übersetzt werden. 
+
+
+== In eine neue Sprache übersetzen ==
+Wenn man das LMMS Wiki in eine neue Sprache übersetzen, von der noch keine Hauptseite besteht, sollte man nach folgenden Schritten vorgehen:
+# Die [http://tiny.cc/TranslateLMMS Translation Example File] herunterladen und die Übersetzung neben die englischen Wörter schreiben. 
+# Die fertige Datei an [[Special:Emailuser/Octosquidopus|Octosquidopus]] schicken
+# Es wird dann eine neue Seite mit den entsprechenden Links und Titeln erstellt, nach den Standards erstellt, wie sie [[Einen_Artikel_übersetzen#Wie es geht|unten]] beschrieben wird. Alles was man tun muss, ist die Übersetzung zu schreiben. 
+Wenn man die Seitenbenennung versteht, kann man das natürlich auch alles selber machen. Man kann dann immer noch auf die Beispiel Datei zurückgreifen um sich aushelfen zu lassen. 
+
+
+== Zu beachtende Regeln ==
+* Übersetzungen sollten sich nach dem Original richten (normalerweise Englisch)
+* sogenannte Templates (Schablonen) mit Länderflaggen sollten sich nach dem original Artikelnamen richten und es wird am Ende "Trans" hinzugefügt (z.B. ''RequirementsTrans'')
+* nicht englische Beiträge/Übersetzungen sollten mit dem entsprechenden Ländercode [http://www.mathguide.de/info/tools/languagecode.html|ISO 639-1] gefolgt von einem Doppelpunkt und dem eigentlichen Artikelnamen (z.B. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
+* Versionsbezogene Beiträge der Bedienungsanleitung wird die Versionsnummer von LMMS vorangestellt, nach dem Ländercode, aber vor dem Titel 
+(z.B. ''0.4:Plugins'', ''De:0.4:Seitenleiste'')
+
+=== Seiten, die NICHT übersetzt werden ===
+Es gibt ein paar Seiten, die nicht übersetzt werden, da diese immer wieder erneuert und verändert werden, dass es zu umständlich und schwierig wäre: 
+* [[Tested VSTs|VST Database]]
+* [[Roadmap]]
+
+== Meldungsfeld Vorlagen ==
+Für Übersetzungen, die noch gebraucht werden, gibt es Message Box Templates (Meldungsfeld Vorlagen)
+* Beiträge, die eine Übersetzung brauchen: <span style="color:#000000; background:#FFFFE0">''<nowiki>{{msgbox:translate}}</nowiki>''</span>
+* Beiträge, die eine ''Rück-''Übersetzung brauchen: <span style="color:#000000; background:#FFFFE0">''<nowiki>{{msgbox:retranslate}}</nowiki>''</span>
+Mehr Informationen dazu gibt es hier: [[Templates#Message Boxes]] (englisch)
+
+== Wie es geht ==
+
+==== "Trans" Templates (Übersetzungsschablonen mit den Länderflaggen) ====
+Die meisten Seiten haben ganz oben eine Leiste mit Links zu den verschiedenen Übersetzungen (diese schön gestalteten Flaggen). Wenn man sich allerdings den Quelltext anschaut (auf "edit" (bearbeiten) gehen) sind diese Links unsichtbar. Warum? Der Grund ist, dass sie sich auf einer anderen Seite befinden, das sogenannte "Template" (Schablone). Templates werden in eine Seite eingebettet und somit für alle Übersetzungen vorhanden. Alle übersetzten Versionen werden so geändert, indem das Template mit den enthaltenen Links zu den Übersetzungen bearbeitet wird. Alle Übersetzungen teilen sich dasselbe Template. <br>
+
+Hier ein Beispiel dafür:<br>
+
+Wenn man sich den Quelltext von [[Requirements]] anschaut, kann man ganz oben ein Template entdecken. Die Bezeichnung auf englisch ist <span style="color:#000000; background:#FFFFE0">''<nowiki>{{RequirementsTrans}}</nowiki>''</span> und bleibt auch in allen Übersetzungen so. <br> 
+Wenn man genauer hinschaut, bemerkt man, dass es dieselbe Bezeichnung des Beitragnamens ist und nur mit ''Trans'' endet (ohne Leerzeichen dazwischen). Was sich in diesem Template befindet, sind die Symbole der Länderflaggen mit der Verlinkung zu den anderen Versionen der entsprechenden Seite (Requirements), d.h. zu den anderen Übersetzungen. 
+Wenn man diese Strukur schnell kopieren und wieder einfügen möchte kann man auch auf folgender Seite nachschauen: [[Templates#Trans Templates]] (englisch) 
+
+
+
+__NOTOC__ __NOEDITSECTION__
