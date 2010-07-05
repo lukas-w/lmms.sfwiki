@@ -16,7 +16,7 @@ If you understand the LMMS naming conventions and feel comfortable enough doing 
 == Rules to Remember ==
 * Translations should be based on the original (usually English)
 * Template names with flags in them should borrow the article's name, with "Trans" added. (i.e. ''RequirementsTrans'')
-* Non-English article names should begin with the language's [http://www.mathguide.de/info/tools/languagecode.html|ISO 639-1] code followed by ":" and the rest. (i.e. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
+* Non-English article names should begin with the language's [http://www.mathguide.de/info/tools/languagecode.html ISO 639-1] code followed by ":" and the rest. (i.e. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
 * Version-dependent articles in the Manual have the LMMS version follow the language code, and precede the title. (i.e. ''0.4:Plugins'', ''De:0.4:Seitenleiste'')
 
 === Pages NOT to Translate ===
