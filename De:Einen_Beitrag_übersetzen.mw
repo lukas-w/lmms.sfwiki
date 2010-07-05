@@ -18,7 +18,7 @@ Wenn man die Seitenbenennung versteht, kann man das natürlich auch alles selber
 == Zu beachtende Regeln ==
 * Übersetzungen sollten sich nach dem Original richten (normalerweise Englisch)
 * sogenannte Templates (Schablonen) mit Länderflaggen sollten sich nach dem original Artikelnamen richten und es wird am Ende "Trans" hinzugefügt (z.B. ''RequirementsTrans'')
-* nicht englische Beiträge/Übersetzungen sollten mit dem entsprechenden Ländercode [http://www.mathguide.de/info/tools/languagecode.html|ISO 639-1] gefolgt von einem Doppelpunkt und dem eigentlichen Artikelnamen (z.B. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
+* nicht englische Beiträge/Übersetzungen sollten mit dem entsprechenden Ländercode [http://www.mathguide.de/info/tools/languagecode.html ISO 639-1] gefolgt von einem Doppelpunkt und dem eigentlichen Artikelnamen (z.B. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
 * Versionsbezogene Beiträge der Bedienungsanleitung wird die Versionsnummer von LMMS vorangestellt, nach dem Ländercode, aber vor dem Titel 
 (z.B. ''0.4:Plugins'', ''De:0.4:Seitenleiste'')
 
