@@ -1,13 +1,13 @@
 {{0.4:Getting StartedTrans}}
 
-Começando com LMMS = =
+= Começando com LMMS =
 LMMS sequenciador UM é, síntese e compositor software parágrafo Linux e Windows. Ele Incluí Uma série de plug-ins de sintetizadores em software, uma amostra de Reprodução de Áudio, bateria e composição piano roll, Ferramentas de Automação e Acesso EAo Efeitos LADSPA.
 
-QUANDO VOCÊ LMMS Primeiro Lançamento, Vários Componentes-chave mostrados São Paulo. O [[Main Menu Bar]] ESTÁ NA parte superior, acima do [[Tool Bar]] e controles faixa principal. A barra de ferramentas permanentemente à ESQUERDA E o [[Side Bar]], Que É Uma MANEIRA Fácil de Instrumentos acessar os, filhos, presets e projetos. As Janelas Por Padrão São exibidas como [Song [Editor]], o [Beat [Bassline Editor Beat | + Bassline Editor]] EO [[Project] Notas].
+QUANDO VOCÊ LMMS Primeiro Lançamento, Vários Componentes-chave mostrados São Paulo. O [[Main Menu Bar]] ESTÁ NA parte superior, acima do [[Tool Bar]] e controles faixa principal. A barra de ferramentas permanentemente à ESQUERDA E o [[Side Bar]], Que É Uma MANEIRA Fácil de Instrumentos acessar os, filhos, presets e projetos. As Janelas Por Padrão São exibidas como [[Song Editor]], o [[Beat Bassline Editor|Beat + Bassline Editor]] EO [[Project Notes|Project Notas]].
 
-Para inserir Uma das muitas Fábricas plugin Instrumento pré-Definido Para a pré [Beat [Bassline Editor Beat | + Bassline Editor]] OU [Canção [editor]], clique nd estrela amarela (lmms http://tangram.dnsalias.net/ -imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side Bar parágrafo exibir uma barra [[lateral # Presets | Presets]].
+Para inserir Uma das muitas Fábricas plugin Instrumento pré-Definido Para a pré [[Beat Bassline Editor|Beat + Bassline Editor]] OU [[Song Editor|Canção Editor]], clique nd estrela amarela (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) no Side Bar parágrafo exibir uma barra [[Side Bar#Presets|Presets]].
 
-PoDE Voce Também amostras inserir, escolhendo o Ícone "Meu amostras" http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png () a Partir da barra lateral. Voce clicar e segurar PoDE OU UM Instrumento uma amostra pré-Gera Ouvir o som Que ELE. Voce PoDE então Instrumentos colocar OS Que VOCÊ Quer parágrafo editor o, arrastando-o par o editor. Voce Fazer PoDE Também Duplo clique presets parágrafo coloca-los Diretamente não Beat + Bassline Editor, OU VOCÊ PoDE clicar com o Botão Direito Sobre o Instrumento nd Lista LMMS e menu de contexto UM abrirá. Aqui VOCÊ TEM uma Opção de enviar o Instrumento for clicado em UM OU Vazio slot não Instrumento Atual Ativo. Active Um 'Instrumento e o Instrumento Que São Destaque nd editor música. Use uma Opção de enviar um Instrumento n. Ativo SE VOCÊ Precisa carregar Um instrumento VSTige.
+PoDE Voce Também amostras inserir, escolhendo o Ícone "Meu amostras" (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png) a Partir da barra lateral. Voce clicar e segurar PoDE OU UM Instrumento uma amostra pré-Gera Ouvir o som Que ELE. Voce PoDE então Instrumentos colocar OS Que VOCÊ Quer parágrafo editor o, arrastando-o par o editor. Voce Fazer PoDE Também Duplo clique presets parágrafo coloca-los Diretamente não Beat + Bassline Editor, OU VOCÊ PoDE clicar com o Botão Direito Sobre o Instrumento nd Lista LMMS e menu de contexto UM abrirá. Aqui VOCÊ TEM uma Opção de enviar o Instrumento for clicado em UM OU Vazio slot não Instrumento Atual Ativo. Active Um 'Instrumento e o Instrumento Que São Destaque nd editor música. Use uma Opção de enviar um Instrumento n. Ativo SE VOCÊ Precisa carregar Um instrumento VSTige.
 
 Mais tarde VOCÊ PoDE Gostar de criar Instrumentos SEUS próprios A partir do zero. A barra lateral do 1. Botão Abre o browser predefinido. Estes São Padrão Vazio pré-Modelos Que PoDE VOCÊ USAR SEUS parágrafo Instrumentos próprios.
 (PoDE Fazer Voce Também ofcause Alterações Instrumentos de EAo Definido Fábrica e Como salvar próprios OS SEUS. Substituindo OS Instrumentos de Fábrica Não definido É recomendado)
@@ -23,20 +23,19 @@ A forma Padrão parágrafo criar Uma trilha Instrumentos e agregar de Percussão
 Para Melodia FAIXAS, clique nd barra de Começar um novo segmento criar UM E, em seguida, clique Duas Vezes Nesse segmento parágrafo Abrir o [[Piano Roll Editor]]. Coloque Notas nenhum piano roll, clicando em Linha de iniciar SUA quanta (para CRIA-los) E, em seguida, arrastando SUA Borda Direita n sertão longa curta OU VOCÊ Como deseja. Também Voce PoDE arrastar Notas Acima e abaixo da escala e Para a Frente e Trás parágrafo sem tempo par posicioná-los corretamente. Alternativamente, VOCÊ PoDE pressionar o Botão "record" no piano roll Editor e tocar em tempo real Notas UO, sem Teclado (Z = C, S = C #, X = D, Q = C, etc) ou de hum Teclado MIDI.
 
 Por último hit 'play' e desfrutar da Sua Música!
-[[Imagem: Exemplo.jpg]] [[Imagem: Exemplo.jpg]]
 
 = Drum Tabs Padrão / Mapas =
 
 (Em andamento)
 
-('''''Figura.1') (''''exemplo)
+('''Figura.1''') ('''exemplo''')
 
-<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
-Bumbo | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
-tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+<pre>passo....        1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bumbo          | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+tarola         | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
 fechado hat-oi | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
-| Open hat-oi / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
-</ Pre>
+Open hat-oi    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</pre>
 
 X = nota relativa;
 / Silence =
@@ -51,24 +50,24 @@ Abaixo estão alguns exemplos para você experimentar e talvez usar em suas can�
 ('''1''')''' Amen Break'''- [este era um drum solo originalmente realizado por Sylvester Gregory Coleman, mas tem sido muito amostrado e armou-se para uso em drum and bass e estilos selva]
 
 
-<pre> | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - | 1 - 2 - 3-4 - |
-Bater Cym Ride /. : |-Rrrrrrrr | rrrrrrrr-|-rrrrrrrr | RRRRRCRR-|
-Bass / Snare Dr.: BBS | - S-SBBS - S | BBS - S-SBBS - S | BBS - SB-S-S --- |-SBBS - SB S-S --- - |
-</ Pre>
+<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
+Bater Cym Ride  :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
+Bass / Snare Dr.:  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
+</pre>
 
 
-('''2''')''''Típica Break-beat' - [movendo o bumbo fora do tempo de 04/04 regular criamos um] "break-beat
+('''2''')'''Típica Break-beat''' - [movendo o bumbo fora do tempo de 04/04 regular criamos um "break-beat"]
 
 
-<pre> passo .... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
-Bumbo | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
-tarola / | - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+<pre>passo....        1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bumbo          | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+tarola         | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
 fechado hat-oi | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
-aberto | hat-oi / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
-</ Pre>
+aberto hat-oi  | / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</pre>
 
 
-('''3''')''' Prodigy "Smack My Bitch Up"'''-] [intro break-beat [1 mostrado na Beat + bassline Editor]
+('''3''')''' Prodigy "Smack My Bitch Up"'''- [intro break-beat] [1 mostrado na Beat + bassline Editor]
 
 
 http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
