@@ -1,0 +1,42 @@
+{{0.4:Putting the song togetherTrans}}
+
+Der [[0.4:Song Editor|Song Editor]] dient zum Zusammensetzen der verschiedenen Sounds, Rythmen und Melodien um ein ganzes Musikstück zu arrangieren. 
+
+http://img96.imageshack.us/img96/9158/songeditor.png
+
+= Spur Sorten =
+
+Die grundlegende Einheit mit der im Song-Editor gearbeitet wird, ist ein Spur (Track). Im Song-Editor Fenster ist jede Spur in einer Zeile. Auf der linken Seite einer Spur befinden sich das Namensfeld mit Reglern für Lautstärke und Panorama, und auf der rechten Seite die Zeitlinie, wann was in dieser Spur wiedergegeben wird. Das klingt jetzt sehr allgemein und das ist es auch, denn jede Spur kann aus einer bestimmten Sorte bestehen und jede Spursorte funktioniert auf eine andere Art und Weise.
+
+
+== Sample Spur ==
+
+Sample Spuren werden typischerweise dazu genutzt, um Aufnahmen von Sängern oder live eingespielten Instrumenten einzusetzen. Leider sind noch keine weiteren Bearbeitungsmöglichkeiten vorhanden, wie z.B. den Samplestart verändern, das Sample in der Tonhöhe zu verändern, oder es der in Geschwindigkeit anzupassen. Das sollte mit einem anderen Audio-Bearbeitungsprogramm z.B. [http://audacity.sourceforge.net Audacity] oder [http://www.wavosaur.com Wavosaur] erledigt werden. 
+
+Sample Spuren sind die einfachste Art einer Spur, weil sie nur zwei Optionen bietet: einen Lautstärke-Regler und die Effekt-Kette (öffnet man indem man auf das Namensfeld klickt).
+
+
+== Beat + Bassline Editor Spur ==
+
+Diese Spur enthält ein sogenanntes "Pattern" das im [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]] erstellt wurde. Man kann es durch klicken am Ende (es erscheint ein Doppelpfeil in beide Richtungen) verlängern oder verkürzen. Durch klicken auf die Mitte und gedrückt halten kann man es nach recht oder links verschieben. Mit der mittleren Maustaste kann man es wieder löschen und mit RechtsKlick öffnet sich ein Kontext-Menü. 
+Unter anderem lassen sich hier noch Name und Farbe ändern und der Abschnitt (nicht die Spur:) kann stumm geschaltet werden. 
+Es immer nur ein und dasselbe Pattern pro Spur verwendet werden. Möchte man Änderungen vornehmen muss man eine Kopie oder eine neue Spur erstellen.
+Wie der Name schon sagt, eignet sich diese Spur insbesondere dafür um Beats/Rythmen zu erstellen. 
+
+
+== Instrumenten Spur ==
+
+Eine Instrumenten-Spur beinhaltet ein Plug-in welches zum Erzeugen der Töne dient. Durch klicken auf die Spur wird ein neuer Abschnitt erzeugt und durch DoppelKlick darauf, öffnet sich das Piano-Roll Fenster. Hier können Noten eingegeben werden. Ein Piano-Roll Pattern läßt sich nicht durch ziehen mit der Maus verlängern oder verkürzen. Dies geht nur mit hinzufügen oder löschen von Noten im Piano-Roll Fenster. Ansonsten verhält es sich wie mit einem Beat + Bassline Pattern (s.o.). Durch gedrückt halten der Maustaste läßt es sich nach links oder rechts in der Zeitleiste verschieben. Mit der mittleren Maustaste ein Pattern wieder gelöscht werden und mit RechtsKlick öffnet sich ein Kontext-Menü. 
+Im Gegensatz zur Beat + Bassline Spur kann jedes Piano-Roll Pattern seinen eigenen Inhalt haben. D.h., man kann verschiedene Melodien und Variationen in ein und derselben Spur erstellen. Zur besseren Übersicht kann man jedes Pattern einzeln benennen (RechtsKlick Kontext-Menü)
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Composing Bass Lines and Drum Sequences|Composing Bass Lines and Drum Sequences]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Working with Automation|Working with Automation]]
+|}
+
+[[Category:HowTo]] [[Category:Incomplete]]
+[[Category:0.4-Manual]]
