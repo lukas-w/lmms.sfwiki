@@ -1,2 +1,53 @@
 {{0.4:Working with LADSPA effectsTrans}}
-{{msgbox:translate|German}}
+
+
+LADSPA-Effekte können sowohl auf einzelne Instrumente, als auch im Mixer eingesetzt werden.
+
+'''LADSPA-Effekte auf Instrumente einsetzen'''
+
+Wenn man ein Instrument in den ''Song-Editor'' von LMMS lädt, erhält man eine Spur mit dem Namen und dem Symbol des entsprechenden Instruments.
+Indem man darauf klickt, wird das Standard Fenster der Instrumente geöffnet. 
+Damit man leichter erkennt, welches Instrument gerade aktiv genutzt wird, wird der Name des Instruments hellgrau hinterlegt. 
+
+Jedes Instrument ist in 5 Seiten aufgeteilt, mit der Standard-Einstellung auf der 'Plug-in' Seite. Um LADSAPA-Effekte nutzen zu können, muss man die vierte Seite 'FX' anwählen. Also einfach auf 'FX' drücken und die entsprechende Seite erscheint.
+
+Jetzt sieht man die sogenannte 'FX-Chain' (Effekt-Kette) und die An/Aus Lampen für die Effekte. 
+Im unteren Bereich ist die Taste 'Effekt hinzufügen'. 
+Durch drauf klicken, öffnet sich das Fenster, in dem man die unterschiedlichen Effekte auswählen und hinzufügen kann. 
+
+Ganz oben im Fenster gibt es ein Eingabefeld, das die Suche nach bestimmten Effekten vereinfacht. Man gibt z.B. "Reverb" ein und bekommt eine Liste mit allen LADSPA Reverb Effekten. 
+
+
+Vorsicht!!
+''Kopfhörer abnehmen oder Lautstärke verringern!! Es könnte sehr laut werden!!''
+
+Als Beispiel nutzen wir den 'Reverberator' und klicken auf OK. 
+
+Die Instrumenten 'Effekt-Kette' wird durch das 'TAP-Reverberator' Objekt erweitert und ein neues Bedienfenster wurde geöffnet: 'TAP-Reverberator'. 
+Das Bedienfeld läßt sich durch klicken auf die 'Regler' Taste öffnen und wieder schließen. In der Effekt-Kettenleiste hat man drei weitere Regler zur Verfügung: W/D (Wet/Dry: Level des Effektanteils), DECAY und GATE (für genauere Funktions-Informationen einfach unter der Hauptmenüleiste auf Hilfe->Was ist das gehen und mit der Maus auf den entsprechenden Regler gehen.) 
+
+
+Achtung!
+Alle diese Regler sind Standard LMMS Regler und ALLE können automatisiert werden!
+
+Diese Schritte wie man Effekte auf Instrumente anwendet, werden auch alle in diesem (englischen) Video gezeigt:
+
+[http://www.youtube.com/watch?v=xEjyVXqL5pk Ladspa Effects on LMMS]
+
+'''LADSPA-Effekte im Mixer einsetzen'''
+
+Effekte im Mixer können entweder auf einzelne Kanäle oder auf alle (Master) angewendet werden.
+Man öffnet das Mixer-Fenster (z.B. durch drücken von F9) und ganz rechts befindet sich der Bereich der Effekt-Kette. 
+Um Effekte zu einem bestimmten Kanal hinzuzufügen, muss dieser natürlich ausgewählt sein. 
+Standardmäßig werden alle Kanäle von "FX1" bis "FX64" benannt. 
+Der Nsme steht in weißer Schrift auf jedem Kanal. Indem man auf einen Kanal klickt, wird dieser ausgewählt und als optische Hilfe ändert sich die Schrift auf grün. Nun ist dieser Kanal ausgewählt und alle hizugefügten Effekte werden auf diesen entsprechenden Kanal angewandt. 
+
+Wenn man ein Effekt für den ersten Kanal "FX1" hinzugefügt hat und jetzt den zweiten Kanal "FX2" anwählt, werden die ausgewählten Effekte des ersten Kanals nicht mehr angezeigt, sondern stattdessen die, des aktuellen Kanals (soweit vorhanden).
+
+Wenn man den sogenannten "Master" Kanal auswählt, werden diese Effekte auf den gesammten Mixer angewandt. 
+
+(Es ist übrigens sehr hilfreich, wenn man jeden Kanal umbenennt und zwar entsprechend des Instumentennamens - Das geht durch einfaches DoppelKlicken auf einen Kanal)
+
+
+
+--[[User:Lmmscomp|musikbear]] 08:56, 11 April 2010 (UTC)
