@@ -9,7 +9,7 @@ Wenn man ein Instrument in den ''Song-Editor'' von LMMS lädt, erhält man eine 
 Indem man darauf klickt, wird das Standard Fenster der Instrumente geöffnet. 
 Damit man leichter erkennt, welches Instrument gerade aktiv genutzt wird, wird der Name des Instruments hellgrau hinterlegt. 
 
-Jedes Instrument ist in 5 Seiten aufgeteilt, mit der Standard-Einstellung auf der 'Plug-in' Seite. Um LADSAPA-Effekte nutzen zu können, muss man die vierte Seite 'FX' anwählen. Also einfach auf 'FX' drücken und die entsprechende Seite erscheint.
+Jedes Instrumenten-Fenster ist in 5 Unterseiten (Tabs) aufgeteilt, mit der Standard-Einstellung auf der 'Plug-in' Seite. Um LADSAPA-Effekte nutzen zu können, muss man die vierte Seite 'FX' anwählen. Also einfach auf 'FX' drücken und die entsprechende Seite erscheint.
 
 Jetzt sieht man die sogenannte 'FX-Chain' (Effekt-Kette) und die An/Aus Lampen für die Effekte. 
 Im unteren Bereich ist die Taste 'Effekt hinzufügen'. 
