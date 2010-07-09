@@ -17,12 +17,11 @@ http://img199.imageshack.us/img199/6025/wizardq.png [[De:0.4:Wie_fange_ich_an%3F
 http://img80.imageshack.us/img80/8084/firstsong.png [[De:0.4:Der_erste_Titel_mit_LMMS|Der erste Titel mit LMMS]] - ein Schritt-für-Schritt Leitfaden<br>
 http://img18.imageshack.us/img18/1241/textxpatch.png [[De:0.4:Triple-Oscillator Presets erstellen|Triple-Oscillator Presets erstellen]] - Leitfaden für die Erstellung von brauchbaren Triple-Oscillator Presets<br>
 
-= LMMS 0.4. nutzen =
+= LMMS 0.4 nutzen =
 
 Eine thematisch geordnete Beschreibung, wie die einzelnen Werkzeuge von LMMS funktionieren.<br>
 
 http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[De:0.4:Mit Instrumenten arbeiten|Mit Instrumenten arbeiten]] (unvollständige Übersetzung)<br>
-<!--{\newpage}-->
 http://img231.imageshack.us/img231/9008/workingwithsamples.png [[De:0.4:Mit Samples arbeiten|Mit Samples arbeiten]] <br>
 http://img444.imageshack.us/img444/3952/midipiano.png [[De:0.4:Den Piano Roll Editor nutzen|Den Piano Roll Editor nutzen]] (unvollständige Übersetzung)<br>
 http://img94.imageshack.us/img94/3945/drum.png [[De:0.4:Den Beat und Bassline Sequencer nutzen|Den Beat und Bassline Sequencer nutzen]] (unvollständige Übersetzung)<br>
@@ -44,22 +43,17 @@ Verweise auf die Funktionsbeschreibungen der einzelnen Menü-Punkte und Werkzeug
 * [[De:0.4:Plugins|Plugins]]
 * [[De:0.4:Song Editor|Song Editor]] (nicht vorhanden)
 * [[De:0.4:Piano Roll Editor|Piano Roll Editor]] (nicht vorhanden)
-<!--{\newpage}-->
 * [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]]
-<!--{\newpage}-->
 * [[De:0.4:Automation Editor|Automation Editor]] (nicht vorhanden)
 * [[De:0.4:FX Mixer|FX Mixer]]
-<!--{\newpage}-->
 * [[De:0.4:Projekt Notizen|Projekt Notizen]]
-<!--{\newpage}-->
 * [[De:0.4:LMMS Einstellungen|LMMS Einstellungen]]
+* [[0.4:Key Mappings|TastaturBefehle]] (englisch)<br>
 
 = Anlagen =
 
 http://img189.imageshack.us/img189/152/glossary.png [[De:Glossar|Glossar]] (nicht vorhanden)<br>
-http://img708.imageshack.us/img708/4853/keymaph.png [[Key Mappings|TastaturBefehle]] (englisch)<br>
 http://img31.imageshack.us/img31/9783/sourcecpp.png [[De:Lizenz|Lizenz]]<br>
-<!--{\newpage}-->
 http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap]] (englisch)<br>
 
 <!--{%}-->'' Diese Seite ist nur eine Inhaltsübersicht - alle aufgeführten Artikel sollten von hier verlinkt sein. Die Logik der Struktur hinter dieser Seite kann hier gefunden werden (englisch) [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
