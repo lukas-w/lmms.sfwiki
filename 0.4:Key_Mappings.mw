@@ -1,0 +1,499 @@
+{{0.4:Key MappingsTrans}}
+
+= Key Mappings =
+
+This is an attempt at a complete listing of what keys activate what functions in various parts of LMMS.  It also stands as a reference to try and tidy up LMMS in future so its interface is more consistent.
+
+Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep keys in numerical then alphabetical order, grouped by key modifier.  Mouse modifiers (e.g. shift-drag) go before keys.
+
+== Main Window (i.e. works anywhere) ==
+
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| F6
+| Show [[Beat Bassline Editor|Beat + Bassline Editor]]
+|
+|-
+| F7
+| Show [[Piano Roll Editor]]
+|
+|-
+| F8
+| Show [[Song Editor]]
+|
+|-
+| F9
+| Show [[Automation Editor]]
+|
+|-
+| F10
+| Show [[Project Notes]]
+|
+|-
+| Ctrl-N
+| Create a new project
+| Will ask to save existing project if any changes have been made
+|-
+| Ctrl-O
+| Open an existing project
+| Will ask to save existing project if any changes have been made
+|-
+| Ctrl-S
+| Save current project
+|
+|-
+| Ctrl-Shift-S
+| Save current project under a new name
+|
+|-
+| Ctrl-E
+| Export current project to WAV or OGG
+|
+|-
+| Ctrl-Q
+| Quit LMMS
+| Will ask to save existing project if any changes have been made
+|-
+| Ctrl-Z
+| Undo
+| Patchy at best.  Sometimes works on window other than the one you've just edited in.
+|-
+| Ctrl-R
+| Redo
+| See Undo.
+|}
+
+== Instrument Plugins ==
+
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| '''Any Knob'''
+|-
+| Shift held while dragging control
+| Links the 'drop' knob to the 'drag' knob.  Once linked, changing any linked knob will change all of the linked knobs.
+| Applies only to standard up-down (i.e. non-classical twist-the-knob) mode
+
+|}
+
+== All editors that include a time line ==
+I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]], [[Song Editor]] and [[Automation Editor]].
+
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+
+|-
+| Left-click on timeline
+| Move playback position to that time
+| Works during playback as well as when stopped
+|-
+| Middle click on timeline
+| Move loop start point to that time
+| 
+* If you click after the loop end point, it will move the loop start point to the loop end point and the loop end point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+* Locked to the nearest bar position
+|-
+| Ctrl middle click on timeline
+| Move loop start point to that time exactly
+|
+* Same loop direction behaviour as above.
+* Ignores bar locking of above.
+|-
+| Right click on timeline
+| Move loop end point to that time
+| 
+* If you click before the loop start point, it will move the loop end point to the loop start point and the loop start point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
+* Locked to the nearest bar position
+|-
+| Ctrl right click on timeline
+| Move loop end point to that time exactly
+|
+* Same loop direction behaviour as above.
+* Ignores bar locking of above.
+|}
+
+== [[Beat Bassline Editor|Beat + Bassline Editor]] ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| Right click on pattern
+| Show context menu for editing patterns
+|-
+| Plus ('+')
+| Move to next pattern
+|
+|-
+| Minus ('-')
+| Move to previous pattern
+|
+|-
+| Space
+| Start / pause playback of this pattern
+| Sometimes you have to make sure that you've selected a play point in the Beat + Bassline Editor or it will start playback on the Song Editor.
+
+|}
+
+== [[Piano Roll Editor]] ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| Mouse wheel up or down
+| Move up or down in the song editor view (higher or lower pitches shown)
+|
+|-
+| Shift held down during mouse wheel up or down
+| Move left or right in the song editor view (earlier or later times)
+| Alternatively use horizontal mouse wheel
+|-
+| Ctrl held down during mouse wheel up or down
+| Zoom in or out horizontally
+|
+|-
+| Ctrl-C
+| Copy selected notes
+| 
+|-
+| Ctrl-V
+| Paste copied notes
+| 
+|-
+| Ctrl-X
+| Cut selected notes
+| 
+|-
+| Ctrl-A
+| Select all notes
+|
+|-
+| Shift-D
+| Select draw tool
+|
+|-
+| Shift-E
+| Select erase tool
+|
+|-
+| Shift-S
+| Select selector tool
+|
+|-
+| Shift-T
+| Select detuning tool
+|
+|-
+| Delete
+| Delete selected notes
+|
+|-
+| Home
+| Move playback point to start of automation
+|
+|-
+| Space bar
+| Start or stop playback
+|
+|-
+| Ctrl
+| Temporarily use the select tool
+| When held down
+|-
+| Alt
+| Disable quantization
+| When held down
+|-
+| Ctrl+Shift
+| Keep old selection while selecting new notes
+| When held down
+|-
+| Shift+Drag selection
+| Copy selection and move those notes
+|
+|-
+| Arrow Keys
+| Scroll
+|
+|-
+| Ctrl+Up
+| Move selected notes up an octave
+|
+|-
+| Ctrl+Down
+| Move selected notes down an octave
+|
+|-
+| Shift+Left
+| Move selected notes left
+|
+|-
+| Shift+Right
+| Move selected notes right
+|
+|-
+| Ctrl+Left
+| Move time ticker left
+|
+|-
+| Ctrl+Right
+| Move time ticker right
+|
+|-
+| Num Pad
+| Change quantization
+|
+|}
+
+== [[Song Editor]] ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| Right click on segment
+| Show context menu for segment editing
+| ''Inconsistent with Piano Roll Editor''
+|-
+| Middle click on segment
+| Delete segment
+| ''Inconsistent with Piano Roll Editor''
+|-
+| Ctrl pressed before drag on segment
+| Copy segment
+|
+* Ctrl must be re-pressed each time you want to copy.
+* Can drag to new track (vertically) as well as new time (horizontally).
+* Dropping onto an existing segment replaces that segment.
+|-
+| Ctrl pressed after drag on segment
+| Don't lock segment to bar start during move
+|
+* If Ctrl is pressed before drag starts, see above entry.
+* If you want to re-align the segment to guaranteed bar start, just move it again without holding down Ctrl.
+|-
+| Shift-drag on empty part of track
+| Resize track
+| Clicking on a segment when you start the shift-drag will not do anything.
+|-
+| Ctrl-drag on 'grip' section of track (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png).
+| Copy entire track.
+|
+|-
+| Mouse wheel up or down
+| Move up or down in the song editor view
+|
+|-
+| Shift held down during mouse wheel up or down
+| Move left or right in the song editor view (earlier or later times)
+|
+|-
+| Ctrl held down during mouse wheel up or down
+| Zoom in or out horizontally
+|
+|-
+| Shift-Insert
+| Insert bar immediately after current play point
+|
+|-
+| Shift-Delete
+| Delete bar immediately after current play point
+|
+|-
+| Left and Right arrows
+| Move play point earlier or later
+| Does not move current view window
+|-
+| Up and Down arrows
+| ?
+| 
+|-
+| Space bar
+| Start or pause playback
+|
+|-
+| Home key
+| Move play point to start of song
+| Does not move current view window
+
+|}
+
+== [[Automation Editor]] ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| Shift - Left Click
+| Draw a straight line between this point and the previously clicked point
+|
+|-
+| Mouse wheel up or down
+| Move view up or down
+|-
+| Shift held while mouse wheel up or down
+| Move view left or right
+|-
+| Ctrl held while mouse wheel up or down
+| Zoom in or out horizontally (i.e. show more or less time)
+|-
+| Up and down arrows
+| Move the window up and down
+| 
+|-
+| Left and right arrows
+| Move the playback position left and right
+|
+|-
+| Ctrl-X
+| Cut selected values
+|
+|-
+| Ctrl-C
+| Copy  selected values
+|
+|-
+| Ctrl-V
+| Paste previously selected values
+|
+|-
+| Ctrl-A
+| Select all values
+|
+|-
+| Shift-D
+| Select draw tool
+|
+|-
+| Shift-E
+| Select erase tool
+|
+|-
+| Shift-S
+| Select selector tool
+|
+|-
+| Shift-M
+| Select selection movement tool
+|
+|-
+| Delete
+| Delete selected values
+|
+|-
+| Space
+| Start or stop playback
+|
+|-
+| Home
+| Move playback point to first bar in song
+
+|}
+
+== [[Project Notes]] ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| Ctrl-Z
+| Undo last edit
+|
+|-
+| Ctrl-X
+| Cut selected text
+| 
+|-
+| Ctrl-C
+| Copy selected text
+| 
+|-
+| Ctrl-V
+| Paste selected text
+|
+|-
+| Ctrl-B
+| Toggle '''bold''' text on/off
+| 
+|-
+| Ctrl-I
+| Toggle ''italic'' text on/off
+| 
+|-
+| Ctrl-L
+| Left justify text
+| 
+|-
+| Ctrl-E
+| Centre text
+| 
+|-
+| Ctrl-R
+| Right justify text
+| 
+|-
+| Ctrl-J
+| Justify text to both margins
+|
+
+|}
+
+== File Browser (in Side Bar) ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| F5
+| Refresh file listing
+|
+
+|}
+
+== Other ==
+{| border="1" cellspacing="0"
+|+
+| Key
+| Action
+| Notes
+|-
+| ''' 'Track' editor? ''' - does this mean segments on tracks or the track controls?
+|-
+| Ctrl-click while rubberband active
+| Invert selection
+|-
+| Shift-click on selection
+| Add or remove an object from the selection
+|-
+| Ctrl-drag
+| ??? (track.cpp - seems to start an application drag and drop action)
+|-
+| Ctrl-Middle click
+| Mute segment
+| Watch out for below!
+|-
+| Middle click
+| Delete segment
+| 
+
+|}
+
+[[Category:Incomplete]]
+[[Category:0.4-Manual]]
