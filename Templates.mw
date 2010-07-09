@@ -61,6 +61,15 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
  <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
 
+==== Retranslate ====
+{{Msgbox
+|id              = Msgbox:retranslate
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Crystal_Clear_action_reload.png/48px-Crystal_Clear_action_reload.png
+|heading         = This article needs to be ''retranslated''.
+|message         = Please help improve the wiki by retranslating this article.}}
+ <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
+
 == Trans Templates ==
 <!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
 {{imglink|0.4:Manual|en}}
