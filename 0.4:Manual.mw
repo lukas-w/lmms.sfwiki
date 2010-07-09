@@ -45,22 +45,17 @@ A reference style description of the functions of each menu item and tool, inclu
 * [[0.4:Plugins|Plugins]]<br>
 * [[0.4:Song Editor|Song Editor]]<br>
 * [[0.4:Piano Roll Editor|Piano Roll Editor]]<br>
-<!--{\newpage}-->
 * [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]<br>
-<!--{\newpage}-->
 * [[0.4:Automation Editor|Automation Editor]]<br>
 * [[0.4:FX Mixer|FX Mixer]]<br>
-<!--{\newpage}-->
 * [[0.4:Project Notes|Project Notes]]<br>
-<!--{\newpage}-->
 * [[0.4:LMMS Settings|LMMS Settings]]<br>
+* [[0.4:Key Mappings|Key Mappings]]<br>
 
 = Appendices =
 
 http://img189.imageshack.us/img189/152/glossary.png [[Glossary]]<br>
-http://img708.imageshack.us/img708/4853/keymaph.png [[Key Mappings]]<br>
 http://img31.imageshack.us/img31/9783/sourcecpp.png [[License]]<br>
-<!--{\newpage}-->
 http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap]]<br>
 
 <!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
