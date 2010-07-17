@@ -42,7 +42,7 @@ Continue creating notes in the pattern shown:
 http://img695.imageshack.us/img695/1610/firstbar.png
 <!--{\end{center}}-->
 
-To place a note, you need to aim for the line at the start of the beat; LMMS will recognise a small fraction of the area left of the beat line as being closer to that beat than the previous. You can control this with the 'Q-setting'. Default 'Q' is correlated to note-length. That is 'Note-length'. But again you can change that 'magnetic-point' in the Q-dropdown. If you make a mistake placing a note, you can move it to its correct position by clicking on the middle of the note (where the cursor turns into a four-way cross) and dragging the note to its new position.  LMMS will play the note that you're dragging onto as an aide to correct placement.  You can move notes horizontally (in time) as well as vertically (in pitch).
+To place a note, you need to aim for the line at the start of the beat; LMMS will recognise a small fraction of the area left of the beat line as being closer to that beat than the previous. You can control this with the 'Q-setting'. Default 'Q' is correlated to note-length. That is 'Note-lock'. But again you can change that 'magnetic-point' in the Q-dropdown. If you make a mistake placing a note, you can move it to its correct position by clicking on the middle of the note (where the cursor turns into a four-way cross) and dragging the note to its new position.  LMMS will play the note that you're dragging onto as an aide to correct placement.  You can move notes horizontally (in time) as well as vertically (in pitch).
 
 If you need to delete a note, simply right-click on it.
 
