@@ -53,6 +53,26 @@ Even if your LMMS project is so complex that it can't be played back reliably in
 ====Disable High Quality Mode====
 In LMMS under ''Edit'', ''Settings'', ''General Settings'' there is an option called "HQ-mode for output audio-device" that you may disable. This feature is undocumented (as far as I can tell) and may or may not improve real-time audio rendering performance.
 
+====Changing the default language (win32 from 0.4.6 confirmed )====
+When LMMS is installed the default language will be chosen accordingly to your local pc settings.
+
+In case you want your LMMS installation to be in a different language, you can make a small hack.
+
+Language is defined in 
+<your drive>\LMMS 0.4.6\data\locale.
+
+In this example we change german language to english:
+
+German is defined in the file de.qm. English is defined in the file en.qm. 
+
+Make a backup of the folder. 
+
+Delete de.qm. 
+
+Rename en.qm to de.qm.
+
+LMMS would now load en.qm as de.qm and you have now english text in your LMMS installation.
+
 ==Further Reading==
 If you are using the current version of LMMS and ALSA, your computer has a fast CPU and plenty of RAM and you still experience problems please use the following additional resources to seek help:
 
