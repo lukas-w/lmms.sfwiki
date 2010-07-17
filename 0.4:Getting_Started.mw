@@ -55,9 +55,11 @@ When you insert an instrument into the editor, the instrument's editor window wi
 
 The standard way to create a track is to add drum instruments to the [[Beat Bassline Editor|Beat + Bassline Editor]] and instruments for melody tracks into the [[Song Editor]].  Then create different drum loops using the '''Add bassline''' button in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are listed in the Song Editor as they're created.  To make them sound, click on the start bar in the track's timeline to create a new segment.  You can also drag its end out to make the pattern go across multiple bars.   The same technique can be used for repetitive bass lines.
 
-For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard (Z = C, S = C#, X = D, Q = C, etc) or on a MIDI keyboard.
+For melody tracks, click on the start bar to create a new segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard where the keyboard key 'Z' will play a C note, S plays a C#, X plays D, and D on your keyboard will play D#. To play notes one octave higher we move to key Q to play C, etc.) LMMS can also be used with a MIDI keyboard. A list of successfully installed keyboards are under development. Yamaha PSR 500m, Yamaha E413 keyboard. Midistart 3 pro keys USB keyboard by miditech, and Korg Nano, has in the forum been reported to work. -But hardware differences are not unimportant!
 
-Finally hit 'play' and enjoy your music!
+Before you continue the section on drum-patterns i would recommend that you now read and do the excise in the section 
+[[0.4:Your First Song with LMMS]]
+That helped me a lot when I started on LMMS.
 
 = Drum Pattern Tabs/Maps =
 
