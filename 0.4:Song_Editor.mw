@@ -65,7 +65,7 @@ Double-clicking on a segment aims to '''edit the segment's contents'''.  If you 
 
 The '''Move''' tool (http://img85.imageshack.us/img85/2798/movetool.png) allows you to select a rectangular region of the segments in the tracks and move them as a group.
 
-In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all the segments in the song forward or backward one bar at a time. Effectively, Shift-Insert inserts a new bar at the start of the piece and Shift-Delete removes a bar. Segments that are already at the first bar will not be deleted but other later segments will still move up.
+In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all the segments to the right of the playhead in the song forward or backward one bar at a time. Effectively, Shift-Insert inserts a new bar to the right of the playhead in the song, and Shift-Delete removes a bar, again right to the playhead. Segments that are already at the first bar will not move but other later segments will still move to the left. Hovever -Even though you use the key 'Delete' on your keyboard, you do not delete anything!  Segments will stack as they move to the left.
 
 = The Song Editor toolbar =
 
