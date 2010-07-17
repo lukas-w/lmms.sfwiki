@@ -53,6 +53,8 @@ Even if your LMMS project is so complex that it can't be played back reliably in
 ====Disable High Quality Mode====
 In LMMS under ''Edit'', ''Settings'', ''General Settings'' there is an option called "HQ-mode for output audio-device" that you may disable. This feature is undocumented (as far as I can tell) and may or may not improve real-time audio rendering performance.
 
+==Other tweaks==
+
 ====Changing the default language (win32 from 0.4.6 confirmed )====
 When LMMS is installed the default language will be chosen accordingly to your local pc settings.
 
