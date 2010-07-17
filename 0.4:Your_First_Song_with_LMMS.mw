@@ -32,7 +32,7 @@ However, this is too long: we need notes half a beat - a quaver - long.  To chan
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 <!--{\end{center}}-->
 
-After this, the new notes we put down will be the same length, because the Piano Roll Editor is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png)
+After this, the new notes we put down will be the same length, because the Piano Roll Editor default is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png) -But you can change that in the drop-down. However most of the time you will work with the 'Last Note' setting, but if you suddenly cant create notes in the length you expected, its because you accidentally made a change to this drop-down.
 
 == More notes ==
 
