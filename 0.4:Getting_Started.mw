@@ -32,7 +32,7 @@ Next to these we have the action-button. Here you can delete or clone the instru
 
 To the left we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and balance.
 
-Below the 3OSC you have the Sample-Track. Its purpose is mostly vocals or other larger wave of ogg files that you want to replay un-altered. Never delete this container! You cant add one to your project, because it is not listed in the preset-bank.
+Below the 3OSC you have the Sample-Track. Its purpose is mostly vocals or other larger wave of ogg files that you want to replay un-altered. 
 
 Next you have the default Beat-and -Bassline instance. Just for illustration, click to the right in the song-editor. You get a blue block. Click and drag it and it will expand. This is what I meant by Beat-and Bassline events are 'continuous'. If you do the same with the 3OC, the block is black, and wont expand.
 
