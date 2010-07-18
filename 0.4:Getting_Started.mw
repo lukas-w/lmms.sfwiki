@@ -2,6 +2,7 @@
 {{msgbox:too complex}}
 
 = Getting Started with LMMS =
+(under revision)
 LMMS is a sequencer, software synthesiser and composer for Linux and Windows.  It includes a series of plug-in software synthesisers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
 
 When you first launch LMMS, several key components are shown. The pictures in this manual may differ a little from your actual LMMS installation. The [[Main Menu Bar]] is at the top, above the [[Tool Bar]] and master track controls.  The tabbed toolbar permanently on the left is called the [[Side Bar]], which is a shortcut to access the 1) factory-instruments, 2) projects, 3) samples, 4) Presets, 5) Root-folders, and 6) your entire pc-folderstructure.
@@ -11,47 +12,53 @@ You are now ready to create your first project -aka Song.  Before we go into fin
 
 The first time you save a project you will be prompted for a folder and a project-name. All subsequent saves will take place in the background, and LMMS will show you a small success message in the bottom of the screen. Wait for this message!
 
-A project is made by adding sound generators (sidebar tab 1), existing presets (sidebar tab 5) and Samples (sidebar 4) to either the song-editor or the Beat-and bass-editor. Both work. Whether you want to use the song-editor or the Beat-and bass-editor, is somewhat a question of philosophy. However, most would recommend that you use the song-editor for instruments and the Beat-and bass-editor for percussion, but that's just a suggestion.
+A project is made by adding sound generators (sidebar tab 1), existing presets (sidebar tab 4) and Samples (sidebar tab 3) to either the song-editor or the Beat-and bass-editor. Whether you want to use the song-editor or the Beat-and bass-editor, is somewhat a question of philosophy. However, most would recommend that you use the song-editor for instruments and the Beat-and bass-editor for percussion, but that's just a suggestion.
 
-The reason for this suggestion is that the behavior of sound-events created in these two components is different. Events created in the Beat-and bass-editor are 'continuous' -i.e. they can be expanding-dragged as long as you would like -That's very useful for most percussion! 
+The reason is that the behavior of sound-events created in these two components is different. Events created in the Beat-and bass-editor are 'continuous' -i.e. they can be expanded by mouse-dragging as long as you would like -That's useful for most percussion! 
 
-Events created in the Song-editor are 'atomic' -i.e. they can't be expanded ( but can be copied, of course ), and they are unique  -That's useful for most sections of instruments! 
+Events created in the Song-editor are 'atomic' -i.e. they can't be expanded ( but can be copied, of course ) -That's useful for most melodi-lines made by instruments! 
 
-The actual song is always built in the song-editor. Also the events that are created in the Beat-and bass-editor must be placed as blocks in the song-editor. 
+The actual song is always built in the song-editor. This is where all the blocks, also the events that are created in the Beat-and bass-editor, come together on the timeline, and creates your composistion. 
 
-Lets take a look at the default Song-editor.
-In the Song-editor there are always 4 default items loaded. First is an instance of the Triple OSC (3OSC) generator, as an example of an instrument-container. This instance is without any preset-settings and will only beep a simple sine sound. It could actually be deleted, but before we do that, we should look at it, because it has behavior that is the same for all other instrument-containers.
+Lets take a look at the Song-editor as it is in default state.
+In the default Song-editor there are always 4 items loaded. First is an instance of the Triple OSC (3OSC) generator, as an example of an instrument-container. This instance is without any preset-settings and will only beep a simple sine sound. It could actually be deleted, but before we do that, we should look at it, because it has behavior that is the same for all other instrument-containers.
 When you move your mouse over the Song Editor, the instrument-containers will high-light. This indicates that the instruments can be clicked as if they were buttons! Left-click the Triple OSC. This opens the instrument GUI. Click again, and the GUI is closed. All instruments behave like this. 
 When you make changes on the GUI you create a Preset. If it sounds less than horrible, you have an instrument :)
 If you right-click you will have a rename option. Aways name your instruments!
 
-To the left you have 2 clickable 'lamps'. By default the instrument is ON, shown with a green lamp. In its OFF state the instrument is muted.
-The other lamp is red. In its ON-state the instrument will play solo.
+To the left you have 2 clickable 'lamps'. By default the track is ON, shown with a green lamp. In its OFF state the track is muted.
+The other lamp is red. In its ON-state the track will play solo.
 
-Next to these we have the action-button. Here you can delete or clone the instrument and all of its note-events.
+Next to these we have the action-button. Here you can delete or clone the track and all of its events.
 
-To the left we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and balance.
+To the left we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance.
 
-Below the 3OSC you have the Sample-Track. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. 
+Below the 3OSC you have the Sample-Track. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. You can add a new sampletrack with the 6. button on the song-editor speed-bar.
 
-Next you have the default Beat-and -Bassline instance. Just for illustration, click to the right in the song-editor. You get a blue block. Click and drag it and it will expand. This is what I meant by Beat-and Bassline events are 'continuous'. If you do the same with the 3OC, the block is black, and won't expand.
+Next you have the default Beat-and-Bassline instance. Just for illustration, click to the right in the song-editor. You get a blue block. Click and drag it, and it will expand. This is what I meant by Beat-and Bassline events are 'continuous'. If you do the same with the 3OC, the block is black, and won't expand. 
+You can add a new Beat-and-Bassline with the 5. button on the song-editor speed-bar.
 
-Last is an instance of the Automation-Track. This can give you advanced variations in real-time, like filter-envelope effects.
+Last is an instance of the Automation-Track. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation]].
+You can add a new Automation-Track with the 7. button on the song-editor speed-bar.
 
 But a project needs more than a default 3OC, and luckily LMMS comes with an abundance of great instruments. 
 
-To insert one of the many factory pre-defined instrument plugin presets into the [[Beat Bassline Editor|Beat + Bassline Editor]] or [[Song Editor]], click the yellow star (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in the Side Bar to display the [[Side Bar#Presets|Presets]]. 
+== Your instruments: Presets & Samples ==
+Now we take a look at those components that creates sounds. The Instruments and Samples.
+To insert one of the many factory pre-defined instruments (also called plugin-[[Side Bar#Presets|Presets]]) into the [[Beat Bassline Editor|Beat + Bassline Editor]] or [[Song Editor]], click the yellow star (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in the Side-Bar, that works just like a browser.
+Everything that you can do in the Side-bar-browser with instruments, you can also do with Samples, the Side-bars 3. button opens the MySamples collection.  
+In the browser, you can click and hold your mouse on the name of an instrument preset. LMMS will then let you listen to that particular instrument, as a kind of sound-test. You can then drag the instruments into the editor. You can also double click a preset to place it directly into the Beat + Bassline Editor, or you can right-click on the instrument in the browser-list-tree and LMMS will open a context-menu. Here you have the option to send this instrument into an empty slot in the song-editor or to replace a current active instrument with this new instrument. The 'Active Instrument' is the instrument that is highlighted in the song-editor, and has its GUI opened -In other words: Has been mouse-clicked. Use the send-to-active-instrument option if you need to load a VSTige instrument.
 
-You can also insert samples by choosing the 'My samples' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-sample.png) from the Side Bar.  You can click and hold on an instrument preset or sample to hear the sound it generates.  You can then place the instruments you want into the editor by dragging it to the song-editor. You can also double click a preset to place it directly into the Beat + Bassline Editor, or you can right-click on the instrument in the list-tree and LMMS will open a context-menu. Here you have the option to send this instrument into an empty slot in the song-editor or to make it the current active instrument. The 'Active Instrument' is the instrument that is highlighted in the song-editor. Use the send-to-active-instrument option if you need to load a VSTige instrument.
-
-Later you may like to create your own instruments from scratch. The sidebar's 1. button opens the preset-browser. These are empty default preset-templates that you can use for your own instruments.
-(You can of course also make changes to the factory-defined instruments and save those as your own. Overwriting existing factory-defined instruments is not recommended)
-
-If you make a mistake and want to remove an instrument, click on its gray 'toolkit' icon within the editor and choose 'Remove this track'.  Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organize the instruments or samples hierarchically.
-
-When you insert an instrument into the editor, the instrument's editor window will be automatically opened for you.  You can also see this editor by clicking on its grey 'name' button in the Song or Beat + Bassline editors. When you click the 'name' button the button will change to lightgray. This instrument is now the 'Active Instrument'. This is important when you start to use VSTige instruments! The 'name' button acts as a toggle, to display the editor window again; you can also click on its window controls as normal.  Instruments have five tabs: PLUGIN, ENV/LFO FUNC, FX and MIDI.  The 'PLUGIN' tab changes with the type of instrument; all other tabs are standard for every instrument, however nothing on the ENV/LFO tab will influence VSTige plug-ins.
+When you insert an instrument, the instrument's GUI editor window will automatily open. You can also see this GUI by clicking on its grey 'name' button in the Song or Beat + Bassline editors. When you click the 'name' button the button will change to lightgray. This instrument is now the 'Active Instrument'. The 'name' button acts as a toggle for the GUI editor window. Instrument GUI's have five tabs: PLUGIN, ENV/LFO FUNC, FX and MIDI.  The 'PLUGIN' tab changes with the type of instrument; all other tabs are standard for every instrument, however nothing on the ENV/LFO tab will influence VSTige plug-ins.
 The in and outs of how to use the features on the various tabs, are described in the [[0.4:Working with Instruments]] section.
 
+If you want to remove an instrument completely from your song, click on its gray 'toolkit' icon and choose 'Remove this track'.
+
+Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organize the instruments or samples hierarchically.
+
+Later you may like to create your own instruments from scratch. The sidebar's 1. button opens the Instrument-Plugins. These are empty default preset-templates that you can use for your own instruments. Drag them into your project and play around with all the settings on the GUI.
+Some hints and tips on how to create 3OC instruments can be found in [[0.4:Making Triple-Oscillator Patches]].
+(You can of course also make changes to the factory-defined instruments and save those as your own. Overwriting existing factory-defined instruments is not recommended). 
 
 == Creating a Track ==
 
