@@ -658,8 +658,8 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 
 '''Templates for the compatibility table'''
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
-| {{Yes}}
-| {{No}}
-| {{Depends}}
-| {{?}}
+| {{Yes}} Yes
+| {{No}} No
+| {{Depends}} Depends
+| {{?}} 
 |}
