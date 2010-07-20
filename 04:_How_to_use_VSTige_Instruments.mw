@@ -1,0 +1,57 @@
+(win32/386)
+VSTige is a standard. Read more on this here: [http://en.wikipedia.org/wiki/Virtual_Studio_Technology]
+LMMS supports VST.
+A list of tested VST can be found here: [[Tested VSTs]]. If you have found a VST that works well with LMMS, you can aid the community greatly by adding it to the list.
+
+So, how to use..
+When you have downloaded a VST package. Unpack it in the VST folder in your LMMS installation.
+The package content is depending of how advanced the VST happen to bee, but there will always be a DLL. That is the actual software plug-in.
+Some will have preset-files. Some even banks.
+In respect to LMMS that is not of significant importance, because LMMS can create its own instrument-presets, but i have had no problems using 'banked' VSTs in LMMS anyways.
+
+So..
+Lets load one
+
+Open a project
+
+This next thing will sound silly, and it is.. But first: Save your project. I mention this because loading a VST is a major action, and you should always save before!
+
+On the sidebars 1. option, drag an empty VSTige container into your project.
+
+Open the instrument GUI (eg click on the instrument in the song-editor).
+
+Smack in the middle to the right of the text "No VST Plugin loaded" we have a folder symbol.
+
+Click this symbol.
+
+Browse to the VST folder where you unpacked the download.
+
+Click the DLL and wait for LMMS to load the VST.
+
+When it loads, The VSTs GUI will be opend. 
+
+OBS!!
+Do not ever close this GUI on the windows 'x'
+Always use the button on the LMMS GUI that says "Show/Hide GUI".
+You will 'loose' the handle to the VST-GUI and waist RAM if you 'x' it out.
+
+You now have a VST instrument and you can use it in your project.
+Fiddle a litle with the knobs and sliders, now lets save it as a new preset. We need this because we also want to ''load'' a saved VST-type Preset, so name the instrument, and save it with the Save-button on the preset-GUI, into a folder in MyPresets in your LMMS installation.
+
+
+We will now load this LMMS named, saved, VST-type instrument into a LMMS project.
+
+The way i have found to work best is to use an empty VST container just as described above, so-
+
+On the sidebars 1. option, drag an empty VSTige container into your project.
+
+Open the instrument GUI (eg click on the instrument in the song-editor). It should open the default GUI. That makes it the "Active Instrument".
+
+The existing VST-preset-instrument should be in the myPresets collection. Open myPresets (sidebar 4. button) and browse for the instrument.
+when found, right-click it.
+
+In the context-menu, choose: "Send to Active Instrument Track"
+
+Wait for LMMS to finish.
+
+If all went well LMMS opens the VST-GUI and your saved VST-instrument is ready for use.
