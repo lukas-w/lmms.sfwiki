@@ -7,7 +7,7 @@ LMMS is a sequencer, software synthesiser and composer for Linux and Windows.  I
 
 When you first launch LMMS, several key components are shown. The pictures in this manual may differ a little from your actual LMMS installation. The [[Main Menu Bar]] is at the top, above the [[Tool Bar]] and master track controls.  The tabbed toolbar permanently on the left is called the [[Side Bar]], which is a shortcut to access the 1) factory-instruments, 2) projects, 3) samples, 4) Presets, 5) Root-folders, and 6) your entire pc-folderstructure.
 
-You can collapse the Side Bar again by clicking the active tab once more.  When you launch LMMS, a number of windows will always be opened.  The windows displayed by default are: the [[0.4:Song Editor]], the [[0.4:Beat Bassline Editor]], [[0.4:FX Mixer]] and the [[0.4:Controller Rack]].
+You can collapse the Side Bar again by clicking the active tab once more.  When you launch LMMS, a number of windows will always be opened.  The windows displayed by default are: the [[0.4:Song Editor|Song Editor]], the [[0.4:Beat Bassline Editor|Beat Bassline Editor]], [[0.4:FX Mixer|FX Mixer]] and the [[0.4:Controller Rack|Controller Rack]].
 You are now ready to create your first project -aka Song.  Before we go into finer details, there is one thing that must be emphasized: Do save often!  As a general rule you should save your project every time you have done something that sounds good. It is also a good strategy to save different versions of the song.  This will allow you to 'roll-back'  to a previous version of the project.  
 
 The first time you save a project you will be prompted for a folder and a project-name. All subsequent saves will take place in the background, and LMMS will show you a small success message in the bottom of the screen. Wait for this message!
@@ -41,37 +41,37 @@ Below the 3OSC you have the Sample-Track. Its purpose is mostly vocals or other 
 Next you have the default Beat-and-Bassline instance. Just for illustration, click to the right in the song-editor. You get a blue block. Click and drag its right end, and it will expand. This is what I meant by Beat-and Bassline events are 'continuous'. When you did that the with the 3OC, the block was black, and if you now drag its right end, it won't expand. 
 You can add a new Beat-and-Bassline with the 5. button on the song-editor speed-bar.
 
-Last is an instance of the Automation-Track. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation]].
+Last is an instance of the Automation-Track. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation|Working with Automation]].
 You can add a new Automation-Track with the 7. button on the song-editor speed-bar.
 
 But a project needs more than a default 3OC, and luckily LMMS comes with an abundance of great instruments. 
 
 == Your instruments: Presets & Samples ==
 Now we take a look at those components that creates sounds. The Instruments and Samples.
-To insert one of the many factory pre-defined instruments (also called plugin-[[Side Bar#Presets|Presets]]) into the [[Beat Bassline Editor|Beat + Bassline Editor]] or [[0.4:Song Editor]], click the yellow star (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in the Side-Bar, that works just like a browser.
+To insert one of the many factory pre-defined instruments (also called plugin-[[0.4:Side Bar#Presets|Presets]]) into the [[Beat Bassline Editor|Beat + Bassline Editor]] or [[0.4:Song Editor|Song Editor]], click the yellow star (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) in the Side-Bar, that works just like a browser.
 Everything that you can do in the Side-bar-browser with instruments, you can also do with Samples, the Side-bars 3. button opens the MySamples collection.  
 In the browser, you can click and hold your mouse on the name of an instrument preset. LMMS will then let you listen to that particular instrument, as a kind of sound-test. You can then drag the instruments into the editor. You can also double click a preset-name in the browser. This place the object directly into the Beat + Bassline Editor, or you can right-click on the instrument in the browser-list-tree, and LMMS will open a context-menu. Here you have the option to send this instrument into an empty slot in the song-editor or to replace a current active instrument with this new instrument. The 'Active Instrument' is the instrument that is highlighted in the song-editor, and has its GUI opened -In other words: Has been mouse-clicked. Use the send-to-active-instrument option if you need to load a VSTige instrument. (More on this: [[04: How to use VSTige Instruments]].
 
 When you insert an instrument, the instrument's GUI editor window will open. You can also see this GUI by clicking on the instruments grey 'name' button in the Song or Beat + Bassline editors. When you click the 'name' button the button will change to lightgray. This instrument is now the 'Active Instrument'. The 'name' button acts as a toggle for the GUI editor window. Instrument GUI's have five tabs: PLUGIN, ENV/LFO FUNC, FX and MIDI.  The 'PLUGIN' tab changes with the type of instrument; all other tabs are standard for every instrument, however nothing on the ENV/LFO tab will influence VSTige plug-ins.
-The in and outs of how to use the features on the various tabs, are described in the [[0.4:Working with Instruments]] section.
+The in and outs of how to use the features on the various tabs, are described in the [[0.4:Working with Instruments|Working with Instruments]] section.
 
 If you want to remove an instrument completely from your song, click on its gray 'toolkit' icon and choose 'Remove this track'.
 
 Instruments are divided into factory provided and user specified, and subfolders in your file system can be used to organize the instruments or samples hierarchically.
 
 Later you may like to create your own instruments from scratch. The sidebar's 1. button opens the Instrument-Plugins. These are empty default preset-templates that you can use for your own instruments. Drag them into your project and play around with all the settings on the GUI.
-Some hints and tips on how to create 3OC instruments can be found in [[0.4:Making Triple-Oscillator Patches]].
+Some hints and tips on how to create 3OC instruments can be found in [[0.4:Making Triple-Oscillator Patches|Making Triple-Oscillator Patches]].
 (You can of course also make changes to the factory-defined instruments and save those as your own. Overwriting existing factory-defined instruments is not recommended). 
 
 == Creating a Track ==
 
 The standard way to create a track is to add drum instruments to the [[Beat Bassline Editor|Beat + Bassline Editor]] and instruments for melody tracks into the [[Song Editor]].  Then create different drum loops using the '''Add bassline''' button in the Beat + Bassline Editor for each rhythm you want - a main bass line, a hihat line, special rhythms and breaks, etc.  These are listed in the Song Editor as they're created.  To make them sound, click on the start bar in the track's timeline to create a new segment.  You can also drag in Beat-and-Bassline blocks to make the pattern go across multiple bars. The same technique can be used for repetitive bass lines if you create them in the Beat-and-Bassline-editor.
 
-For melody tracks, click in the song-editor on the bar where you want a new melodi-segment and then double-click that segment to open the [[Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard where the keyboard key 'Z' will play a C note, S plays a C#, X plays D, and D on your keyboard will play D#. To play notes one octave higher we move to key Q to play C, etc.) LMMS can also be used with a MIDI keyboard. A list of successfully installed keyboards is under development. Yamaha PSR 500m, Yamaha E413 keyboard. Midistart 3 pro keys USB keyboard by miditech, and Korg Nano, have been reported to work in the forum. -But hardware and OS differences are not unimportant!
+For melody tracks, click in the song-editor on the bar where you want a new melodi-segment and then double-click that segment to open the [[0.4:Piano Roll Editor|Piano Roll Editor]].  Place notes in the piano roll by clicking on their start quanta line (to create them) and then dragging their right-hand edge to be as long or short as you want.  You can also drag notes up and down the scale and forward and backwards in time to position them correctly.  Alternatively, you can press the 'record' button in the Piano Roll Editor and play notes in real time, either on the keyboard where the keyboard key 'Z' will play a C note, S plays a C#, X plays D, and D on your keyboard will play D#. To play notes one octave higher we move to key Q to play C, etc.) LMMS can also be used with a MIDI keyboard. A list of successfully installed keyboards is under development. Yamaha PSR 500m, Yamaha E413 keyboard. Midistart 3 pro keys USB keyboard by miditech, and Korg Nano, have been reported to work in the forum. -But hardware and OS differences are not unimportant!
 Ask in the instrument-store if you can test the keyboard you want to purchase, and do get a keyboard with regular piano sized keys. In the long run you will apreciate that choice.
 
 Before you continue the section on drum-patterns I would recommend that you now read and do the excise in the section 
-[[0.4:Your First Song with LMMS]]
+[[0.4:Your First Song with LMMS|Your First Song with LMMS]]
 That helped me a lot when I started on LMMS.
 
 = Drum Pattern Tabs/Maps =
