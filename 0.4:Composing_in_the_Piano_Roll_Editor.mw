@@ -32,6 +32,28 @@ You can also '''record''' yourself playing the notes either on a MIDI keyboard o
 
 Once you have finished recording that section, press the '''stop''' button (http://img194.imageshack.us/img194/4457/iconsstop.png) or the space bar to stop recording.
 
+= Real-Time Edits= 
+
+LMMS offers several ways to compose your music. One way that I have found useful is to use the Song-editor in playback-mode simultaneous with an open and active Piano-roll editor.
+This is the setup:
+
+Let's say we have an instrumental bass-line in bar 10. We also have several percussion Beat-and-bass-lines, that overlap bar 10.
+We now want a lead instrument (starting in bar 10) that will go nicely with ''all'' the instruments and percussion.
+To achieve this, it would be great if all the content in the song-editor could run in the background while simultaneously editing done in the lead-track at bar 10.
+
+#Open your Song-editor
+#Set the loop-points from bar 10 to like 18. Eg we plan a lead sequence of 8 bars.
+#Point the 10 bar in the lead-track and click. Open the Piano-roll for the lead-instrument.
+#Go to the context-menu for the Piano-roll.
+#Choose the option "Stay up". Now you can click in lower hierarchy windows without hiding the Piano-roll-editor window.
+#Size ao. place the Piano-roll-editor-window so you can see the Song-editors timeline freely behind the Piano-roll.
+#In the Piano-roll we will initiate the playback by pressing the "Record notes from midi-device"-button.
+#Observe how the playhead in the song-editor now moves synchronized with the playhead in your Piano-roll! Eg. we control the playback of the song-editor with buttons in the Piano-roll!
+#Edits done in the Piano-roll can be heard immediately. You can click the song-editor timeline and both playheads will jump to the new position (without hiding your Piano-roll window).
+#Edit the notes as usual in the Piano-roll.
+If you'd like a video, you can watch one I made on YouTube:
+http://www.youtube.com/watch?v=pFy8tipBbB8
+
 = Editing Notes =
 
 == Copy and paste ==
