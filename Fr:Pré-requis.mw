@@ -10,8 +10,14 @@ Dépendant du type et de la taille des musiques que vous composerez, il est reco
 == Carte son ==
 Il n'y a pas de besoins spéciaux. LMMS peut démarrer avec une carte ordinaire avec 2 canaux mais il peut aussi utiliser les cartes son surround! Un port MIDI devrait être présent si vous prévoyez d'enregistrer un morceau au piano avec LMMS.
 
-= Logiciels =
-Pour démarrer LMMS vous avez besoin de Linux (Debian ou Ubuntu recommandés). Les requis détaillés et recommandations se situent sur [[Installation#Resolving_dependencies|Résoudre les dépendances]].
+= Système d'exploitation =
+
+LMMS est testé et disponible sur les plateformes suivantes : 
+* Linux
+* Windows
+* OS X 
+
+Les recommandations d'installation se situent à la page [[Fr:Installation|Installation]].
 
 = Navigation =
 
