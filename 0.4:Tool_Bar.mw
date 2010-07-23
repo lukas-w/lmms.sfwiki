@@ -27,20 +27,29 @@ The '''Save Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/
 The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) exports the current project as a WAV or OGG file.  It will export it from the current play location in the [[0.4:Song Editor|Song Editor]] so be sure to set the play location to the first bar if you want the entire song exported.
 
 = Window Controls =
+(23. juli 10: this page needs new pictures from the 0.4.6 GUI theese updates are in progress)
+  
+The seven buttons in the second row shows or hides various windows.  When clicked, the action depends on the location of the corresponding window.  If the window selected is not at the front of the LMMS window, it is brought to the front.  If it is at the front, it is closed.  If it is closed, it is opened and brought to the front.  -Or in other words : These buttons are toggle-buttons for LMMS's components. The contents of the window do not disappear when the window is closed.
 
-The five buttons at the left of the bottom row shows or hides various windows.  When clicked, the action depends on the location of the corresponding window.  If the window selected is not at the front of the LMMS window, it is brought to the front.  If it is at the front, it is closed.  If it is closed, it is opened and brought to the front.  The contents of the window do not disappear when the window is closed.
+All GUIs has a useful feature. If you right-click in the top-mostleft cornor, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer, but also for certain special tricks that will allow you to do real-time editing doing replay.
 
-All GUIs has a useful feature. If you right-click in the top-mostleft cornor, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer.
+The Toggle buttons are:
+
+The Song-editor-toggle-button. is the '''Song Editor Window''' toggle-button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-songeditor.png) shows or hides the [[0.4:Song Editor|Song Editor]].
 
 The '''Beat + Bassline Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-bassline.png) shows or hides the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]].
 
-The '''Piano Roll Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png) shows or hides the [[0.4:Piano Roll Editor|Piano Roll Editor]].  You cannot edit in this window, however - you must double-click a piano roll segment in order to edit it.  The window will then display automatically.
+The '''Piano Roll Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png) shows or hides the [[0.4:Piano Roll Editor|Piano Roll Editor]].  If you click the toggle-button in an ''empty'' (new) projet, an empty Piano-Roll window will open, and a message will be shown: "Please open a pattern by double-clicking on it" You cannot edit notes in ''this'' window. What LMMS says is that you opend an Piano-roll editor-window, that ''does not link'' to any track! Use the windows-x or the toggle-button to close this orphant-window.
+however - Piano-roll windows that has been opend with a  double-click in a piano roll segment (block) will open the Piano-roll-editor window ''linked'' to the track that you clicked in! -and you can ''now'' edit its notes. 
 
-The '''Song Editor Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-songeditor.png) shows or hides the [[0.4:Song Editor|Song Editor]].
+The '''Automation Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png) shows or hides the global-song [[0.4:Automation Editor|Automation Editor]] window. Global-song automation is different from track-automation. You get access to global-song-automation by right-clicking a LMMS control, and then choose "Edit song-global automation", in the context-menu. ''This'' action will then open the Automation-editor, and you can create an automation-track that is specific for the controll that you access the context-menu from. There are however no visual 'reminders' from this action. In other words: If you do use  "song-global-automation" you should definately make a note in the project-notes. There are afaik no obvious reason to use "song-global-automation". I would definately recommend using an automation track instead, and name it and place it directly next to the track that it controlls.
+OBS!! Toggling the (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png) in an ''empty'' project can crash LMMS!
 
-The '''Automation Window''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png) shows or hides the [[0.4:Automation Editor|Automation Editor]].  Like the Piano Roll Editor, this does nothing as is; open the automation of a particular control using its context menu to open the automation of that control.
+The FX-mixer-toggle-button. Show / hide the FX-mixer
 
 The '''Project Notes''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-notes.png) shows or hides the [[0.4:Project Notes|Project Notes]] window.
+
+The Controller-rack-toggle-button. Show / hide the Controller-rack.
 
 = Tempo Control =
 
