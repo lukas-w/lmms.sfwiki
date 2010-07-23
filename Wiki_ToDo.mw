@@ -18,7 +18,6 @@ This is a page listing some of the work that should be done in the English wiki.
 * Write the [[0.4:Working_with_Controllers]] page
 * Rewrite [[0.4:Getting_Started]] to more user-friendly
 * Update articles and screenshots that are [[:Category:Out of date|Out of date]]
-* Links in "Trans" templates should be using the "flaglink" template instead of "imglink", as the latter will be for images (not flags)
 
 == Advanced (for admins and people with too much free time)==
 * Improve the [[Roadmap]] page
