@@ -34,7 +34,7 @@ The '''Save current Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmm
 The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) is a shortcut to exports of the current project as a WAV or OGG file. You will get the same options for quality as in the menu's export-option.
 
 = Window Controls =
-(23. juli 10: this page needs new pictures from the 0.4.6 GUI theese updates are in progress)
+
   
 The seven buttons in the second row shows or hides various windows.  When clicked, the action depends on the location of the corresponding window.  If the window selected is not at the front of the LMMS window, it is brought to the front.  If it is at the front, it is closed.  If it is closed, it is opened and brought to the front.  -Or in other words : These buttons are toggle-buttons for LMMS's components. The contents of the window do not disappear when the window is closed.
 
