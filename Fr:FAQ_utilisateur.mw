@@ -1,6 +1,6 @@
 {{User FAQTrans}}
 
-''Cet article liste les questions fréquemment posées lors de l'utilisation de LMMS. '''Si vous rencontrez des problèmes, merci de vous référer à la page [[Troubleshooting|Dépannage (en)]].''' ''<br>
+''Cet article liste des questions fréquemment posées lors de l'utilisation de LMMS. '''Si vous rencontrez des problèmes, merci de vous référer à la page [[Troubleshooting|Dépannage (en)]].''' ''<br>
 Si vous avez encore des questions, posez-les sur le [http://sourceforge.net/apps/phpbb/lmms/ Forum].
 
 
@@ -9,47 +9,50 @@ Si vous avez encore des questions, posez-les sur le [http://sourceforge.net/apps
 '''Q : C'est quoi LMMS, au fait ?'''<br>
 '''R :''' LMMS est un générateur de son, un synthétiseur, un éditeur de rythme/ligne de basse et un système de contrôle MIDI qui peut remplir la fonction de home studio. Les sons et tonalités peuvent être générés, joués et arrangés avec précision pour créer facilement de nombreuses pistes audio, vous offrant la possibilité de créer une musique du début à la fin. Tous les outils servant à créer des sons, à arranger les sons et les rythmes pour créer des pistes, à organiser les pistes pour créer une musique, et enfin à  sauvegarder cette musique, sont là, prêts à être utilisés.  LMMS peut aussi être utilisé avec votre clavier MIDI, vous permettant de jouer en temps réel. 
 
+
 '''Q  : Existe-t-il des produits commerciaux comparables à LMMS ?'''<br>
 '''R:''' LMMS a beaucoup en commun (au moins dans le principe) avec ''GarageBand'' d'Apple, ''FL Studio'' (anciennement ''Fruity Loops''), ''Logic Studio'', ''Beat Machine Pro'', et d'autres puissants outils audio similaires. En terme de possibilités, LMMS remplit aisément les fonctions principales des outils professionnels, faisant de lui une formidable introduction à la production audio, constamment en développement. 
+
 
 '''Q : Et c'est gratuit ?'''<br>
 '''R :''' Oui. LMMS est gratuit et open source.
 
+
 == Paramètres ==
 
 '''Q : Je souhaite utiliser une autre carte son que celle paramétrée par défaut dans LMMS. Comment faire ?'''<br>
-'''R : ''' Il est recommandé de définir votre interface audio et ses paramètres dans la boite de dialogue adéquate. Si pour une raison ou une autre cela ne fonctionne pas, vous pouvez indiquer le périphérique audio à utiliser dans la variable d'environnement "AUDIODEV" (par exemple ''/dev/dsp'' pour OSS ou ''surround40:1,0'' pour ALSA).
-
-== Usage ==
-
-'''Q: I made some piano chords in the Song-Editor but now I want to loop them. How to get them to the Beat+Bassline Editor?<br>
-A: for LMMS < 0.1.2:
-
-First, drag the sound to the Beat+Bassline Editor by clicking just left or right of the button that indicates what kind of sound it is (for example: The button showing Triple Oscillator if it's a Triple Oscillator). That copies the sound to the Beat+Bassline Editor, but not the chords. Now open the chords in Piano-Roll, press Ctrl + A, Ctrl + C, open the Piano-Roll for the copied sound in the Beat+Bassline Editor, and press Ctrl + V. Now you can safely delete the bar in the Song-Editor and use the one in the Beat+Bassline Editor instead.
-
-for LMMS >= 0.1.2
-simply press <Ctrl> while dragging the according pattern onto the destination-pattern in Beat+Bassline-Editor. Of course you can do this in reverse direction too.
+'''R : ''' Il est recommandé de définir votre interface audio et ses paramètres dans la boite de dialogue de configution (Setup-dialog). Si pour une raison ou une autre cela ne fonctionne pas, vous pouvez indiquer le périphérique audio à utiliser dans la variable d'environnement "AUDIODEV" (par exemple ''/dev/dsp'' pour OSS ou ''surround40:1,0'' pour ALSA).
 
 
-'''Q: How do I create an instrument track in the Beat/Bassline Editor?<br>
-A: Open ''My Samples'' or ''My Presets'' (buttons on the far left side of the window) and double click on the instrument you want or right click it and select an appropriate action.
+== Utilisation ==
+
+'''Q : J'ai créé quelques accords au piano dans l'éditeur de morceau (Song-Editor) mais maintenant je veux les mettre en boucle. Comment les récupérer dans le l'éditeur de rythme+ligne de basse (Beat+Bassline-Editor) ?<br>
+'''R :''' <u>Pour LMMS < 0.1.2</u> :<br>
+D'abord, déplacer le son vers l'éditeur de rythme+ligne de basse (Beat+Bassline Editor) en cliquant sur la gauche ou la droite du bouton indiquant le type du son (par exemple : le bouton affichant Triple Oscillator si c'est un Triple Oscillator). Ceci copiera le son vers l'éditeur de rythme+ligne de basse, mais pas les accords. Maintenant, ouvrir la partition dans le piano virtuel (piano roll), appuyer sur Ctrl+A puis Ctrl+C, ouvrir le piano virtuel du son précédemment copié dans l'éditeur de rythme/ligne de basse et appuyer sur Ctrl+V. Maintenant vous pouvez supprimer la barre de l'éditeur de morceau et utiliser celle de l'éditeur de rythme+ligne de basse. <br>
+
+<u>Pour LMMS >= 0.1.2</u> : <br>
+Presser simplement <Ctrl> en déplacement la piste du motif vers l'éditeur de rythme/ligne de basse. Bien sur, vous pouvez effectuer l'action inverse. 
 
 
-'''Q: How do I change the note an instrument plays in the Beat/Bass Editor?<br>
-A: Click on the intrument button on the track. There’s a blue bar just above the keyboard at the bottom, an orange square indicates the key that is played. Click on the blue bar to change the note.
+'''Q : Comment créer une piste d'instrument dans l'éditeur de rythme/ligne de basse ?<br>
+'''R :''' Ouvrir ''My Samples'' ou ''My Presets'' (boutons sur le bord gauche de la fenêtre) et double-cliquer sur l'instrument voulu, ou cliquer droit et sélectionner l'action désirée dans le menu contextuel. 
 
 
-'''Q: How do I enable and adjust looping points?<br>
-A: Click on the enable/disable looppoints button in the song editor or pianoroll. It is disabled by default. Two blue arrows will appear in the upper tracking area of the window. You can adjust these loop points by rightclicking and dragging them or pressing middle and right button.
+'''Q : Comment changer la note de l'instrument jouée dans l'éditeur de rythme/ligne de basse ?<br>
+'''R: ''' Cliquer sur le bouton de l'instrument en question. Dans la fenêtre qui s'ouvre, il y a un bouton vert placé sur une barre noire juste au dessus du clavier virtuel. Déplacer le carré vert (indiquant la note de référence de l'échantillon) en cliquant sur la barre noire pour modifier la note.
 
 
-'''Q: How do I Import a drums beat I'd made in Hydrogen?<br>
-A: If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
+'''Q : Comment activer et ajuster les marques de boucle (loop points)?<br>
+'''R :''' Cliquer sur le bouton d'activation/désactivation des marques de boucle dans l'éditeur de morceau ou le piano virtuel. Elle son déactivée par défaut. Deux flèches vertes apparaissent dans la zone de progression du curseur de lecture. Vous pouvez les ajuster en les déplaçant avec le bouton droit ou le bouton du milieu de la souris. 
 
 
-'''Q: How do I Import a MP3 or OGG file?<br>
-A: Through the [[AudioFileProcessor]] plugin.
+'''Q : Comment importer un rythme créé avec Hydrogen ? <br>
+'''R : ''' Si vous l'avez exporté en MIDI, vous pouvez l'importer facilement via le menu Projet->Import... N'oubliez pas de spécifier un ficher SoundFont. Si d'un autre côté, vous l'avez exporté en WAV, vous devez l'importer via le plugin [[AudioFileProcessor|AudioFileProcessor (en)]]. Vous pouvez également importer des MIDI de cette façon. 
 
 
-'''Q: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
-A: Highlight the folder that you want to be on the sidebar, select it, and drag it to the sidebar.
+'''Q: Comment importer un fichier MP3 ou OGG ?<br>
+'''R :''' Via le plugin [[AudioFileProcessor|AudioFileProcessor (en)]]. 
+
+
+'''Q : Comment éditer un emplacement dans la barre latérale pour ouvrir un fichier dans LMMS ?<br>
+'''R :''' Sélectionner le dossier souhaité, et le déplacer dans la barre latérale.
