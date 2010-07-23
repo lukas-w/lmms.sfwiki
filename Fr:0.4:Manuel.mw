@@ -1,14 +1,13 @@
 {{0.4:ManualTrans}}
-
-'''Notez que ce manuel peut concerner différentes versions, dont certaines peuvent être dépassé !'''  Vous pouvez regarder la catégorie au bas de chaque page pour voir à quelle version celle-ci se rapporte.
+<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">Les pages de ce manuel concerne soit la version 0.3 soit la version courante de LMMS, version 0.4.</div>
 
 = Introduction =
 
 Des pages courtes d'introduction sur chaque sujet, établissant ce dont vous avez besoin pour lancer LMMS et comprendre ce document.<br>
 
-http://img690.imageshack.us/img690/1540/memory.png [[Requirements|Pré-requis (en)]]<br>
-http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|Installer LMMS (en)]]<br>
-http://img683.imageshack.us/img683/4199/infode.png [[Terms and Conventions|Termes et conventions (en)]]<br>
+http://img690.imageshack.us/img690/1540/memory.png [[Fr:Pré-requis|Pré-requis]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Fr:Installation|Installer LMMS]]<br>
+http://img683.imageshack.us/img683/4199/infode.png [[Fr:0.4:Termes_et_conventions|Termes et conventions]]<br>
 
 = Tutoriels =
 
@@ -22,47 +21,41 @@ http://img18.imageshack.us/img18/1241/textxpatch.png [[Making Triple-Oscillator 
 
 Une description thématique comprendre le fonctionnement des différents outils dans LMMS.<br>
 
-http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[Working with Instruments|Utiliser les instruments (en)]]<br>
+http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[0.4:Working with Instruments|Utiliser les instruments (en)]]<br>
 <!--{\newpage}-->
-http://img231.imageshack.us/img231/9008/workingwithsamples.png [[Working with Samples|Utiliser des échantillons (en)]]<br>
-http://img444.imageshack.us/img444/3952/midipiano.png [[Composing in the Piano Roll Editor|Composer dans l'éditeur de notes (en)]]<br>
-http://img94.imageshack.us/img94/3945/drum.png [[Composing Bass Lines and Drum Sequences|Composer des lignes de basse et des séquences de percussions (en)]]<br>
-http://img717.imageshack.us/img717/1107/togetherq.png [[Putting the song together|Mettre les sons ensemble (en)]]<br>
-http://img198.imageshack.us/img198/1558/automation2.png [[Working with Automation|Utiliser l'automatisation (en)]]<br>
-http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Utiliser les effets LADSPA]]<br>
-http://img208.imageshack.us/img208/8308/controller.png [[Working with Controllers|Utiliser les controlleurs (en)]]<br>
-http://img51.imageshack.us/img51/1045/mixerd.png [[Working with Effects and the Mixer|Utiliser les effets et le mixer (en)]]<br>
-http://img444.imageshack.us/img444/3952/midipiano.png [[Using MIDI|Utiliser le MIDI (en)]]<br>
-http://img88.imageshack.us/img88/6471/exportu.png [[Exporting the finished product|Exporter le produit final (en)]]<br>
+http://img231.imageshack.us/img231/9008/workingwithsamples.png [[0.4:Working with Samples|Utiliser des échantillons (en)]]<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Composing in the Piano Roll Editor|Composer dans l'éditeur de notes (en)]]<br>
+http://img94.imageshack.us/img94/3945/drum.png [[0.4:Composing Bass Lines and Drum Sequences|Composer des lignes de basse et des séquences de percussions (en)]]<br>
+http://img717.imageshack.us/img717/1107/togetherq.png [[0.4:Putting the song together|Mettre les sons ensemble (en)]]<br>
+http://img198.imageshack.us/img198/1558/automation2.png [[0.4:Working with Automation|Utiliser l'automatisation (en)]]<br>
+http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Utiliser les effets LADSPA (en)]]<br>
+http://img208.imageshack.us/img208/8308/controller.png [[0.4:Working with Controllers|Utiliser les controlleurs (en)]]<br>
+http://img51.imageshack.us/img51/1045/mixerd.png [[0.4:Working with Effects and the Mixer|Utiliser les effets et le mixer (en)]]<br>
+http://img193.imageshack.us/img193/9927/plugint.png [[0.4:Working with VSTs|Utiliser les VST (en)]]<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Using MIDI|Utiliser le MIDI (en)]]<br>
+http://img88.imageshack.us/img88/6471/exportu.png [[0.4:Exporting the Song|Exporter le morceau (en)]]<br>
 * [[Fr:Licensing|Licences]]<br>
 
 = Référence =
 
 Une description dans le style d'une référence des fonctions de chaque choix du menu et outil, incluant comment il s'inscrit avec les tâches dans la section Utiliser LMMS.
-* [[Main Menu Bar|Barre de menu principale (en)]]
-* [[Tool Bar|Barre d'outils (en)]]
-* [[Side Bar|Panneau latéral (en)]]
-* [[Plugins|Plugins (en)]]
-* [[Song Editor|Éditeur de musique (en)]]
-* [[Piano Roll Editor|Éditeur de notes (en)]]
-<!--{\newpage}-->
-* [[Beat Bassline Editor|Éditeur de percussions et de ligne de basses (en)]]
-<!--{\newpage}-->
-* [[Automation Editor|Éditeur d'automatisation]]
-* [[FX Mixer|Mixer d'effets (en)]]
-<!--{\newpage}-->
-* [[Project Notes|Les notes du projet (en)]]
-<!--{\newpage}-->
-* [[LMMS Settings|Les options de LMMS (en)]]
+* [[0.4:Main Menu Bar|Barre de menu principale (en)]]
+* [[0.4:Tool Bar|Barre d'outils (en)]]
+* [[0.4:Side Bar|Panneau latéral (en)]]
+* [[0.4:Plugins|Plugins (en)]]
+* [[0.4:Song Editor|Éditeur de musique (en)]]
+* [[0.4:Piano Roll Editor|Éditeur de notes (en)]]
+* [[0.4:Beat Bassline Editor|Éditeur de percussions et de ligne de basses (en)]]
+* [[0.4:Automation Editor|Éditeur d'automatisation]]
+* [[0.4:FX Mixer|Mixer d'effets (en)]]
+* [[0.4:Project Notes|Les notes du projet (en)]]
+* [[0.4:LMMS Settings|Les paramètres de LMMS (en)]]
+* [[0.4:Key Mappings|Raccourcis clavier (en)]]<br>
 
 = Annexes =
 
 http://img189.imageshack.us/img189/152/glossary.png [[Definitions|Définitions (en)]]<br>
-* [[Key Mappings|Position de touches (en)]]
-* [[Programming Notes|Notes de programmation (en)]]
-* [[Interfaces and APIs|Interfaces et APIs (en)]]
 http://img31.imageshack.us/img31/9783/sourcecpp.png [[License|Licence (en)]]<br>
-<!--{\newpage}-->
 http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap|Roadmap (en)]]<br>
 
 <!--{%}-->'' Ceci est seulement une page de contenu — tous les articles actuels sont supposés être liés depuis ici. La logique de la structure de cette page peut être trouvée dans l'[http://en.wikipedia.org/wiki/Software_documentation#User_Documentation article de wikipédia sur la documentation logicielle (en)]. ''
