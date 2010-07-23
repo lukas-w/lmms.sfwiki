@@ -15,16 +15,21 @@ The bottom row has buttons for toggling the different LMMS GUIs.
 The colors are also a litle different.)
 
 = File Controls =
+(23. juli 10: this page needs new pictures from the 0.4.6 GUI theese updates are in progress)
 
-The first four buttons in the top row deal with opening and saving files.
+The six buttons in the top row deal with opening and saving files.
 
 The '''New Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-new-project.png) creates a new song.  By clicking on the drop-down symbol on the right hand side of the icon, you will get a list of pre-set templates that can be used to fill out your new song with instruments and configure it ready for work.
 
-The '''Open Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-open-project.png) opens an existing song file in your LMMS Working Directory.
+The "New-Project-from-Template button" will allow the use of saved templates for new projects.
 
-The '''Save Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-save.png) saves the current project. If you have not yet saved the project you will be prompted for a name and location to save it.
+The '''Open existing Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-open-project.png) opens an existing song file in your LMMS Working Directory.
 
-The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) exports the current project as a WAV or OGG file.  It will export it from the current play location in the [[0.4:Song Editor|Song Editor]] so be sure to set the play location to the first bar if you want the entire song exported.
+The "Resently Opend project" button allow you see and browse files that you resently have saved succesfully in LMMS. If you have opend a file and not saved it due to a crash or other similar circumstances,  the file will not be in the list!  
+
+The '''Save current Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-save.png) saves the current project. If you have not yet saved the project you will be prompted for a name and location to save it.
+
+The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-export.png) is a shortcut to exports of the current project as a WAV or OGG file. You will get the same options for quality as in the menu's export-option.
 
 = Window Controls =
 (23. juli 10: this page needs new pictures from the 0.4.6 GUI theese updates are in progress)
