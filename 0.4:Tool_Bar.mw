@@ -38,7 +38,7 @@ The '''Export Project''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.
   
 The seven buttons in the second row shows or hides various windows.  When clicked, the action depends on the location of the corresponding window.  If the window selected is not at the front of the LMMS window, it is brought to the front.  If it is at the front, it is closed.  If it is closed, it is opened and brought to the front.  -Or in other words : These buttons are toggle-buttons for LMMS's components. The contents of the window do not disappear when the window is closed.
 
-All GUIs has a useful feature. If you right-click in the top-mostleft cornor, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer, but also for certain special tricks that will allow you to do real-time editing doing replay.
+All GUIs has a useful feature. If you right-click in the top-mostleft cornor, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer, but also for certain special tricks that will allow you to do real-time editing doing replay. See [[04: Real-time edits]].
 
 The Toggle buttons are:
 
