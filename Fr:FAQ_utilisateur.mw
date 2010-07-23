@@ -15,11 +15,10 @@ Si vous avez encore des questions, posez-les sur le [http://sourceforge.net/apps
 '''Q : Et c'est gratuit ?'''<br>
 '''R :''' Oui. LMMS est gratuit et open source.
 
-== Settings ==
+== Paramètres ==
 
-'''Q: I want to use another soundcard than the default one with LMMS. How to achieve this?<br>
-A: It's recommended to set your preferred audio-interface and it's parameters using the setup-dialog. If this doesn't work for some reason, you can also set the environment-variable "AUDIODEV" to what ever your audio-device is (e.g. ''/dev/dsp'' for OSS or ''surround40:1,0'' for ALSA).
-
+'''Q : Je souhaite utiliser une autre carte son que celle paramétrée par défaut dans LMMS. Comment faire ?'''<br>
+'''R : ''' Il est recommandé de définir votre interface audio et ses paramètres dans la boite de dialogue adéquate. Si pour une raison ou une autre cela ne fonctionne pas, vous pouvez indiquer le périphérique audio à utiliser dans la variable d'environnement "AUDIODEV" (par exemple ''/dev/dsp'' pour OSS ou ''surround40:1,0'' pour ALSA).
 
 == Usage ==
 
