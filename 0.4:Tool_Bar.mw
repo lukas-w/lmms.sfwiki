@@ -62,13 +62,21 @@ The Controller-rack-toggle-button. Show / hide the Controller-rack.
 
 The current '''tempo''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png) is shown in numerals.  This is a standard control, so it can be changed by dragging up and down inside it and it can be automated from its context menu.
 
+= Time Signature Controls =
+The default time signature is 4/4. You can change this by mouse-dragging. The separator in the Piano-roll will automatically adapt to the chosen time-signature.
+
+
 = Sound Quality Controls =
 
-Beneath the tempo control are two controls that set the quality of the sound produced by LMMS.
+Beneath the tempo control versions earlier than 0.4.5 had two controls that set the quality of the sound produced by LMMS.
 
-The '''High Quality''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-highquality.png) turns on use of higher precision mathematics in all the instruments.  This will generally increase the quality of the sound - reducing artifacts and obvious clipping - at the expense of increased CPU usage.  It may also alter the sound of some [[LADSPA]] effects, particularly reverbs.
+The '''High Quality''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-highquality.png) turns on use of higher precision mathematics in all the instruments.  This would generally increase the quality of the sound - reducing artifacts and obvious clipping - at the expense of increased CPU usage.  It may also alter the sound of some [[LADSPA]] effects, particularly reverbs.
 
-The '''Auto Limit''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-autolimit.png) activates a soft limiting function that prevents the sound from hitting the maximum or minimum extents of the 16-bit precision of a WAV file.  This can make some sounds softer but will avoid having clipping if a chance resonance or constructive interference should occur during your song.
+The '''Auto Limit''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-autolimit.png) activated a soft limiting function that prevents the sound from hitting the maximum or minimum extents of the 16-bit precision of a WAV file.  This can make some sounds softer but will avoid having clipping if a chance resonance or constructive interference should occur during your song.
+
+Both these buttons was removed in 0.4.6.
+If your LMMS has these buttons, it is strongly recommended that you upgrade to the newest version of LMMS:
+http://lmms.sourceforge.net/download.php
 
 = Volume and Pitch Controls =
 
