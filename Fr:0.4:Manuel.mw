@@ -4,33 +4,37 @@
 
 = Introduction =
 
-Des pages courtes d'introduction sur chaque sujet, établissant ce dont vous avez besoin pour lancer LMMS et comprendre ce document.
-* [[Requirements|Pré-requis (en)]]
-* [[Installation|Installer LMMS (en)]]
-* [[Terms and Conventions|Termes et conventions (en)]]
+Des pages courtes d'introduction sur chaque sujet, établissant ce dont vous avez besoin pour lancer LMMS et comprendre ce document.<br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Requirements|Pré-requis (en)]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|Installer LMMS (en)]]<br>
+http://img683.imageshack.us/img683/4199/infode.png [[Terms and Conventions|Termes et conventions (en)]]<br>
 
 = Tutoriels =
 
-Des guides pas-à-pas orientés sur une tâche pour achever différents buts dans LMMS.
-* [[Fr:Getting started|Commencer]] - un bref pas en avant pour les impatients
-* [[Fr:Your First Song with LMMS|Votre première musique avec LMMS]] - un tutoriel plus pas-à-pas
-* [[Making Triple-Oscillator patches|Créer des patchs pour le triple-oscillator]] - un guide pour créer des patchs avec le triple-oscillator utiles.
+Des guides pas-à-pas orientés sur une tâche pour achever différents buts dans LMMS.<br>
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[Fr:Getting started|Commencer]] - un bref pas en avant pour les impatients<br>
+http://img80.imageshack.us/img80/8084/firstsong.png [[Fr:Your First Song with LMMS|Votre première musique avec LMMS]] - un tutoriel plus pas-à-pas<br>
+http://img18.imageshack.us/img18/1241/textxpatch.png [[Making Triple-Oscillator patches|Créer des patchs pour le triple-oscillator]] - un guide pour créer des patchs avec le triple-oscillator utiles.<br>
 
 = Utiliser LMMS =
 
-Une description thématique pour voir comment les différents outils dans LMMS marchent.
-* [[Working with Instruments|Utiliser les instruments (en)]]
+Une description thématique pour voir comment les différents outils dans LMMS marchent.<br>
+
+http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[Working with Instruments|Utiliser les instruments (en)]]<br>
 <!--{\newpage}-->
-* [[Working with Samples|Utiliser des échantillons (en)]]
-* [[Composing in the Piano Roll Editor|Composer dans l'éditeur de notes (en)]]
-* [[Composing Bass Lines and Drum Sequences|Composer des lignes de basse et séquences de percussions (en)]]
-* [[Putting the song together|Mettre les sons ensemble (en)]]
-* [[Working with Automation|Utiliser l'automatisation (en)]]
-* [[Working with Controllers|Utiliser les controlleurs (en)]]
-* [[Working with Effects and the Mixer|Utiliser les effets et le mixer (en)]]
-* [[Using MIDI|Utiliser le MIDI (en)]]
-* [[Exporting the finished product|Exporter le produit final (en)]]
-* [[Fr:Licensing|Licences]]
+http://img231.imageshack.us/img231/9008/workingwithsamples.png [[Working with Samples|Utiliser des échantillons (en)]]<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[Composing in the Piano Roll Editor|Composer dans l'éditeur de notes (en)]]<br>
+http://img94.imageshack.us/img94/3945/drum.png [[Composing Bass Lines and Drum Sequences|Composer des lignes de basse et séquences de percussions (en)]]<br>
+http://img717.imageshack.us/img717/1107/togetherq.png [[Putting the song together|Mettre les sons ensemble (en)]]<br>
+http://img198.imageshack.us/img198/1558/automation2.png [[Working with Automation|Utiliser l'automatisation (en)]]<br>
+http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Utiliser les effets LADSPA]]<br>
+http://img208.imageshack.us/img208/8308/controller.png [[Working with Controllers|Utiliser les controlleurs (en)]]<br>
+http://img51.imageshack.us/img51/1045/mixerd.png [[Working with Effects and the Mixer|Utiliser les effets et le mixer (en)]]<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[Using MIDI|Utiliser le MIDI (en)]]<br>
+http://img88.imageshack.us/img88/6471/exportu.png [[Exporting the finished product|Exporter le produit final (en)]]<br>
+* [[Fr:Licensing|Licences]]<br>
 
 = Référence =
 
@@ -53,13 +57,13 @@ Une description dans le style d'une référence des fonctions de chaque choix du
 
 = Appendices =
 
-* [[Definitions|Définitions (en)]]
+http://img189.imageshack.us/img189/152/glossary.png [[Definitions|Définitions (en)]]<br>
 * [[Key Mappings|Position de touches (en)]]
 * [[Programming Notes|Notes de programmation (en)]]
 * [[Interfaces and APIs|Interfaces et APIs (en)]]
-* [[License|Licence (en)]]
+http://img31.imageshack.us/img31/9783/sourcecpp.png [[License|Licence (en)]]<br>
 <!--{\newpage}-->
-* [[Roadmap|Roadmap (en)]]
+http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap|Roadmap (en)]]<br>
 
 <!--{%}-->'' C'est une page à contenu seulement — tous les articles actuels sont supposés être liés depuis ici. La rationalité derrière la structure de cette page peut être trouvée à l'[http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|article de wikipédia sur la documentation logicielle (en)]. ''
 __NOTOC__ __NOEDITSECTION__
