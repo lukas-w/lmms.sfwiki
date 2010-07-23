@@ -1,9 +1,9 @@
 {{0.4:ManualTrans}}
-<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">Les pages de ce manuel concerne soit la version 0.3 soit la version courante de LMMS, version 0.4.</div>
+<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">Les pages de ce manuel concernent soit la version 0.3 soit la version courante de LMMS, version 0.4.</div>
 
 = Introduction =
 
-Des pages courtes d'introduction sur chaque sujet, établissant ce dont vous avez besoin pour lancer LMMS et comprendre ce document.<br>
+Courtes pages d'introduction sur chaque sujet, indiquant ce dont vous avez besoin pour lancer LMMS et comprendre ce document.<br>
 
 http://img690.imageshack.us/img690/1540/memory.png [[Fr:Pré-requis|Pré-requis]]<br>
 http://img192.imageshack.us/img192/8586/packagesb.png [[Fr:Installation|Installer LMMS]]<br>
@@ -19,7 +19,7 @@ http://img18.imageshack.us/img18/1241/textxpatch.png [[Making Triple-Oscillator 
 
 = Utiliser LMMS =
 
-Une description thématique comprendre le fonctionnement des différents outils dans LMMS.<br>
+Une description thématique pour comprendre le fonctionnement des différents outils dans LMMS.<br>
 
 http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[0.4:Working with Instruments|Utiliser les instruments (en)]]<br>
 <!--{\newpage}-->
