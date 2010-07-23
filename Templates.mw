@@ -80,11 +80,11 @@ This page contains various templates used in the wiki in order to guide and faci
 {{imglink|Pt:0.4:Manual|pt}}
 <pre><nowiki>
 <!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
-{{imglink|0.4:Manual|en}}
-{{imglink|De:0.4:Bedienungsanleitung|de}}
-{{imglink|Fr:0.4:Manuel|fr}}
-{{imglink|It:0.4:Manuale|it}}
-{{imglink|Pt:0.4:Manual|pt}}
+{{flaglink|0.4:Manual|en}}
+{{flaglink|De:0.4:Bedienungsanleitung|de}}
+{{flagink|Fr:0.4:Manuel|fr}}
+{{flaglink|It:0.4:Manuale|it}}
+{{flaglink|Pt:0.4:Manual|pt}}
 ...
  </nowiki>
 </pre>
