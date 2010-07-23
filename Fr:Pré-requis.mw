@@ -5,7 +5,7 @@ Le matériel et les logiciels requis pour démarrer LMMS sont résonnablement mo
 = Matériel =
 
 == Processeur/RAM ==
-Dépendant du type et de la taille des musiques que vous composerez, il est recommandé d'avoir 1GHz et 512Mo de RAM. Si vous utiliser les plugins VST, et une copie récente du SVN, il est recommandé d'avoir plusieurs coeurs et/ou processeurs.
+Dépendant du type et de la taille des musiques que vous composerez, il est recommandé d'avoir au moins 1GHz et 512Mo de RAM. Si vous utiliser les plugins VST, et une copie récente du SVN, il est recommandé d'avoir plusieurs coeurs et/ou processeurs.
 
 == Carte son ==
 Il n'y a pas de besoins spéciaux. LMMS peut démarrer avec une carte ordinaire avec 2 canaux mais il peut aussi utiliser les cartes son surround! Un port MIDI devrait être présent si vous prévoyez d'enregistrer un morceau au piano avec LMMS.
