@@ -26,9 +26,17 @@ You can then drag an instrument plugin to either the [[Song Editor]] or the [[Be
 
 ----
 
-In all sections but the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you double-click on a folder, it opens and displays its contents indented to the right of the folder name.  To close it again, double-click on the folder name again.
+In all sections but the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name.  To close it again, click the check-box again.
 
 These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
+
+Opend folders can be smart-searched. 
+For this you use the small input-field in the bottom. This makes it possible for you to find a item with token search. Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.
+Smart-search does ''not'' search subfolders!
+
+Right next to the input-field there is an update-button. If you cant find your latest item, press this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
+
+Lets take a closer look at the tabs.
 
 = My Projects =
 Is the 2. option in the sidebar.
