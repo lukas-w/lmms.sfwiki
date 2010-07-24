@@ -65,6 +65,7 @@ If you drag a preset into an existing preset in either of the editors, it will r
 Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
 
 = Home Directory =
+5. tab in the sidebar, MyHome -is shortcuts to specific folders on your system. On win32/386 pc's these are cookies, desktop, favorites, MyDocuments, start, userdata and WINDOWS
 
 = Root File System =
 
