@@ -49,7 +49,14 @@ There are 2 more buttons for accessing projects. Both are in the top speedbar.
 The 3. speedbar button points to the projects-folder, and will open a project-browser.
 The 4. speedbar button will open a listing of recently opened projects.
 
+The next two tabs on the side-bar contain your instruments. They are the Samples and the Instruments. Both has similar behavior 
+
 = Samples =
+Samples or MySamples as the tab are named, gives you easy access to LMMS samples collection. Samples can be either wave or ogg sound-files. You have smart-search and can update the display. If you place your mouse over a sample-name and left-click it, it will high-light and you can listen to the sample.
+Hold and drag the sample to the song-editor.
+If you double-click on a sample it will be loaded in the Beat-and-bass-editor.
+If you drag a sample into an existing sample in either of the editors, it will replace that sample.
+Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
 
 = Presets =
 
