@@ -1,6 +1,6 @@
 ''Bienvenidos a la wiki de LMMS! Aqui encontraras toda la informacion relacionada con LMMS.'' 
 
-''(Go to LMMS [http://lmms.sourceforge.net  homepage''] or [http://sourceforge.net/apps/phpbb/lmms/ ''forum''])
+''(Ir a LMMS [http://lmms.sourceforge.net  homepage''] o al [http://sourceforge.net/apps/phpbb/lmms/ ''forum''])
 
 <!--
 #######################
@@ -26,25 +26,25 @@
 | width="160px" style="color: #000" valign="top"|
 http://img20.imageshack.us/img20/1012/contents.png
 | style="color: #000" valign="top"|
-'''Documentation'''
+'''Documentación'''
 
-http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting Started|Getting Started]]<br>
-http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|User's Manual]]<br>
+http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting Started|Primeros pasos]]<br>
+http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|Manual del usuario]]<br>
 http://img97.imageshack.us/img97/5625/helpfaq.png [[User FAQ|FAQ]]<br>
-http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|Tip of the Day]]<br>
-http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|VST Database]]<br>
+http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|Tip del día]]<br>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|Base de datos VST]]<br>
 |}
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
 http://img34.imageshack.us/img34/5773/userconfig.png
 | style="color: #000" valign="top"|
 
-'''Guides'''<br>
+'''Guías'''<br>
 
-http://img690.imageshack.us/img690/1540/memory.png [[Requirements]]<br>
-http://img192.imageshack.us/img192/8586/packagesb.png [[Installation]]<br>
-http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting]]<br>
-http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|How to Report Bugs]]<br>
+http://img690.imageshack.us/img690/1540/memory.png [[Requisitos]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Instalación]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Solución de problemas]]<br>
+http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|Cómo informar bugs]]<br>
 <!-- MOVED TO "INSTALLATION" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br> -->
 |}
 </div>
@@ -55,12 +55,12 @@ http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|How to Re
 | width="160px" style="color: #000" valign="top"|
 http://img163.imageshack.us/img163/1751/packagedevelopment.png
 | style="color: #000" valign="top"|
-'''Community'''<br>
+'''Comunidad'''<br>
 
-http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Developers]]<br>
-http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Writers]]<br>
-http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artists]]<br>
-http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
+http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Desarrolladores]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Escritores]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artistas]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Contactar]]<br>
 
 |}
 {| cellspacing="0" valign="top" align="center" width="100%"
@@ -68,7 +68,7 @@ http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
 http://img251.imageshack.us/img251/7428/newsg.png
 | style="color: #000" valign="top"|
 
-'''News'''<br>
+'''Noticias'''<br>
 <!-- 
 ==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
 *WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
