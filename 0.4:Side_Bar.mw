@@ -44,10 +44,6 @@ You get a shortcut to the project folder-browser.
 Depending on your user-created subfolders, there will be a browser-tree.
 Loading a project is simple. Just double-click on the name of the project you like to load. Wait for the project to load ''completely'', before using other features in LMMS!
 
-Observe the small input-field in the bottom. This makes it possible for you to find a project with token search. Just enter a few characters from the project disk-name, and the smart-search in LMMS will filter the projects in the folder that is highlighted.
-
-Right next to the input-field there is an update-button. If you cant find your latest project, press this button. The tree will collapse, and all folders are updated.
-
 There are 2 more buttons for accessing projects. Both are in the top speedbar.
 
 The 3. speedbar button points to the projects-folder, and will open a project-browser.
