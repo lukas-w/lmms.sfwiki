@@ -2,6 +2,18 @@
 
 If you find all your instruments sounding like an Atari 2600 (unless that's what you were going for), these guidelines for creating patched that sound like familiar musical instruments or sounds will help.  These instructions are intentionally a bit vague, so you can easily adapt them to the type of music you want to write.  When making patches, it often helps to have a BB track playing the sound over and over as you edit.
 
+When creating instruments with different generators, not just 3OC, there are a few unwanted events that may occur. The most frequent problem is 'clicks'.
+The instrument sounds pretty much ok, but theres a distinct 'click' artifact every time the note play. Clicks are annoying, but most can rather easy be removed. The start-event clicks are the easiest. 
+*Open the ENV for VOLUME.
+*Set AMT to max.
+*Set ATTACK to just a little over 0 – like 0.04
+Listen to the sound. If your click artifact didn't at least changed a little, then the click is from the 'termination' of the sound. Here the situation is more difficult.
+You may be able to remove the click by giving REL <= 0.05.
+Another annoying problem is 'noisy cratter' randomly occurring in longer notes.
+This is often caused by to high Q in respect to either the cutoffFrq or the actual chosen filter. These type of artifacts can be serious difficult to remove without changing the quality of the sound. Often success versus fiasco depends on minute alterations in Q.
+
+If you are not familiar with terms like LFO, filters and resonance-Q amo. you should now go to the section [[0.4:Working with Instruments]] and read the paragraph ''The Env/LFO/Filter tab''. All the basics and more is explained there.
+
 = Synth bass =
 We'll start with your basic synth techno bass sound, because this is a relatively simple patch to start learning your way around the Triple-Oscillator with.
 Start with a fresh Triple-Oscillator with the default sine-wave patch.  
@@ -27,6 +39,7 @@ Electric bass guitars produce a wide variety of tones.  This is just your basic 
 *  Go to the "FX" page and add a TAP Chorus/Flanger effect.  This adds an extra layer of richness to the sound.
 *  Now, go back to the "PLUGIN" page and decide where you want OSC 3's volume (that is, the amount of phase modulation between OSC 3 and OSC 2).
 *  Finally, re-enforce the fundamental (lowest harmonic) of your sound by turning OSC 1 up just a bit.  This is optional.  Or you can use a triangle wave.  Whatever, it's your sound.
+
 
 = Navigation =
 
