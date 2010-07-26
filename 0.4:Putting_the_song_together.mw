@@ -6,17 +6,21 @@ http://img96.imageshack.us/img96/9158/songeditor.png
 
 = Track types =
 
-The fundamental unit that you work with in the Song Editor is a track.  Each track is a row in the song editor window; the left part of the track controls the type of track and the right part displays when sounds are going to be created by that track.  This sounds like a generalisation, because it is - tracks can be of a number of different types, and each type of track has a different way of working.
+The fundamental unit that you work with in the Song Editor is a track.  Each track is a row in the song editor window; -Eg, the Song-editor on the picture above has 4 tracks: An Instrument, a Sample, a Beat-Baseline and an Automation- track, and that is also the default “New Project” configuration. The left part of the track controls the type of track and the right part displays when sounds are going to be created by that track.  This sounds like a generalisation, because it is - tracks can be of a number of different types, and each type of track has a different way of working.
 
 == Sample Tracks ==
-
-Typically, sample tracks are used to include recordings of singers or instruments playing a melody line.  This allows you to have live musicians alongside the music in your LMMS projects.  However, as yet there are no facilities to trim the start of the sample, or to tune it or scale it to fit with the bars in your music.  These should be done in an audio editing program such as Audacity beforehand.
+Typically, sample tracks are used to include recordings of singers or instruments playing a melody line.  You should choose the Sample-track when you want to replay a soundfile ''exactly'' as it was recorded. This allows you to have live musicians alongside the music in your LMMS projects.  However, as yet there are no facilities to trim the start of the sample, or to tune it or scale it to fit with the bars in your music.  These should be done in an audio editing program such as Audacity beforehand.
 
 Sample tracks are the simplest type of track because they only have a volume control and an effects chain.
 
-== Bassline Tracks ==
+== AudioProcessor-Tracks ==
+The AudioProcessor-plugin is also a container for samples, but the audioProcessor has all the possibilities you find in the instruments. You have ENV/LFO with filters, FUNC with arpeggio and a FX-train. You should use an AudioProcessor-track when you have a sound-file that you want to alter with effects or 'tricks'. Experiment! LMMS can produce a lot of amazing sounds. 
+
+== Beat-and-Bassline Tracks ==
+BB-tracks are different from the other song-editor tracks, because their note-events are created in the Beat-and-Baseline-editor, and only a representation of the track is shown in your song-editor (default as a blue block). This mean that you can only see the timeline-event for the track in the song-editor. If you need to change something in the quality, you need to open your Beat-and-Baseline-editor, where the tracks note-event are defined in the actual track for a plugin. The benefit of BB-tracks are that they are 'continuous'. They can, as the only track, be dragged to any length and the note-events in the track will synchronized be repeated. Most use these type of tracks for percussion and repeated baselines. Some prefers to play instruments in these tracks also. They are best suited for percussion. Remember to rename your BB-tracks in the song-editor.
 
 == Instrument Tracks ==
+-Are the standard component for your compositions melodies. They are filled with black blocks that can be moved freely horizontally and copied both vertically and horizontally (Ctrl+left-mouse), but they cant be dragged to new length. 
 
 = Navigation =
 
