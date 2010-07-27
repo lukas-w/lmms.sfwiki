@@ -2,16 +2,27 @@
 {{msgbox:too complex}}
 
 = Getting Started with LMMS =
-(under revision)
-LMMS is a sequencer, software synthesizer, and composer for Linux and Windows.  It includes a series of plug-in software synthesizers, audio sample playback, drum machine and piano roll composition, automation tools and access to LADSPA effects.
 
-When you first launch LMMS, several key components are shown. The pictures in this manual may differ a little from your actual LMMS installation. The [[Main Menu Bar]] is at the top, above the [[Tool Bar]] and master track controls.  The toolbar on the far left is called the [[Side Bar]], which can access tabs for 1) factory-instruments, 2) projects, 3) samples, 4) presets, 5) root-folders, and 6) your entire pc-folderstructure. You can collapse the Side Bar again by clicking the active tab once more.  
+== The Interface ==
+Disclaimer: the interface may vary slightly based on which version is installed. 
 
-When you launch LMMS, a number of windows will always be opened.  The windows displayed by default are: the [[0.4:Song Editor|Song Editor]], the [[0.4:Beat Bassline Editor|Beat Bassline Editor]], [[0.4:FX Mixer|FX Mixer]] and the [[0.4:Controller Rack|Controller Rack]].
+The LMMS interface can be broken down into parts: the [[Main Menu Bar]] at the very top, the [[Tool Bar]] directly below the Main Menu Bar, and the [[Side Bar]] at the far left.  The largest portion of the interface is occupied by some windows which are used to actually create and edit the music.
+
+The Main Menu Bar is what you might expect from any other program. It has a few options dealing with project files, undoing and redoing actions to the current project, accessing some plugins, and accessing online help, if necessary.  
+
+The Tool Bar, below the menu bar, has the same buttons for dealing with the project files - make new, open, save, and export. The second row of buttons on the Tool Bar are used to show/hide windows in the main section of the interface. The right side of the Tool Bar contains some of the master controls for the song. They include tempo, time signature, volume, pitch, and a master-output visualization pane.
+
+The Side Bar, to the far left of the interface, is a set of tab buttons. They can be clicked to display the tab's contents, and then clicked a second time to hide it.  The items in the Side Bar will be explained as necessary, but for now, the items include Instrument plugins, My projects, My samples, My presets, My home, and My computer.
+
+The main part of the interface contains a number of windows.
+
+Upon launch of LMMS, there will always be a few windows opened. The four windows opened by default are the [[0.4:Song Editor|Song-Editor]], the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:FX Mixer|FX-Mixer]], and the [[0.4:Controller Rack|Controller Rack]]
 
 Before you are ready to jump right in, one thing must be emphasized: Save often!  Save your project every time you have done something that sounds good. It is also a good strategy to save different versions of the song.  This will allow you to 'roll-back'  to a previous version of the project.  
 
 The first time you save a project you will be prompted for a folder and a project-name. Subsequent saves will overwrite this file, and LMMS will show you a small success message in the bottom of the screen. Wait for this message!
+
+==Jumping Right In==
 
 A project is made by adding sound generators (sidebar tab 1), existing presets (sidebar tab 4) and samples (sidebar tab 3) to either the song-editor or the Beat-and bass-editor. The song editor is useful for non-repeating sound events, such as melody lines, and the Beat-and bass-editor is useful for repeating sounds, like percussion.
 
