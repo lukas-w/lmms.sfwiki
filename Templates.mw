@@ -25,7 +25,7 @@ This page contains various templates used in the wiki in order to guide and faci
 </pre>
 
 == Message Boxes ==
-==== Delete ====
+==== [[Template:msgbox:delete|Delete]] ====
 {{Msgbox
 |id              = Msgbox:delete
 |backgroundcolor = #fff3f3
@@ -34,7 +34,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = It's useless or already exists elesewhere.}}
  <nowiki>{{msgbox:delete}}</nowiki>
 
-==== Moved ====
+==== [[Template:msgbox:moved|Moved]] ====
 {{Msgbox
 |id              = Msgbox:moved
 |backgroundcolor = #fff3f3
@@ -43,7 +43,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
  <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
 
-==== Out of date ====
+==== [[Template:msgbox:out of date|Out of date]] ====
 {{Msgbox
 |id              = Msgbox:out of date
 |backgroundcolor = #faf6ed
@@ -52,7 +52,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
  <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should about --></nowiki>
 
-==== Too complex ====
+==== [[Template:msgbox:too complex|Too complex]] ====
 {{Msgbox
 |id              = Msgbox:too complex
 |backgroundcolor = #faf6ed
@@ -61,7 +61,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = Please help improve the wiki by simplifying it.}}
  <nowiki>{{msgbox:too complex}}</nowiki>
 
-==== Translate ====
+==== [[Template:msgbox:translate|Translate]] ====
 {{Msgbox
 |id              = Msgbox:translate
 |backgroundcolor = #faf6ed
@@ -70,7 +70,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
  <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
 
-==== Retranslate ====
+==== [[Template:msgbox:retranslate|Retranslate]] ====
 {{Msgbox
 |id              = Msgbox:to retranslate
 |backgroundcolor = #faf6ed
