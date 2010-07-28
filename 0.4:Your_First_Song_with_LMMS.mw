@@ -20,7 +20,7 @@ http://img101.imageshack.us/img101/8506/pianoroll.png
 
 == The first note ==
 
-Now click in the black square just to the right of the 'A5' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
+Now click in the black square just to the right of the 'A4' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
 
 <!--{\begin{center}}-->
 http://img682.imageshack.us/img682/3583/pianorollnoteareademo1s.png
@@ -62,7 +62,7 @@ We can now press the '''play''' button (http://img685.imageshack.us/img685/2559/
 
 == Oops! ==
 
-When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat.
+When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat (see picture below).
 
 == The first 'four' bars ==
 
