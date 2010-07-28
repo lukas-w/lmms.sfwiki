@@ -71,7 +71,7 @@ Vous pouvez maintenant enclencher le bouton de lecture (http://img685.imageshack
 
 == Oups! ==
 
-When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat.
+En jouant la mélodie, on réalise qu'elle démarre sur un mauvais temps. La deuxième note "A4" devrait être jouée sur le temps, et le deux notes d'avant dans la mesure précédente. Cependant nous ne pouvons pas allez en amont de la première mesur de notre piano virtuel. Nous devons déplacer toutes les notes vers l'avant. Appuyez sur Ctrl+A pour sélectionner toutes les notes. Ensuite, vous pourrez cliquer et déplacer toutes les notes pour que la première soit placée au bon endroit (voir image ci-dessous).
 
 == The first 'four' bars ==
 
