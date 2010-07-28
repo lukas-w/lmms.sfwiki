@@ -123,11 +123,11 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16b
 
 = Remarques =
 
-[[Fr:0.4:Votre_première_musique_avec_LMMS#Choisir_l'instrument| [1]]] - You could alternatively have dropped it on the existing "TripleOscillator: Default" track to replace that instrument with the one you were dragging, but this gives you an idea of how to create new instrument tracks.
+[[Fr:0.4:Votre_première_musique_avec_LMMS#Choisir_l'instrument| [1]]] - Vous auriez pu à la place le relâcher sur la piste "TripleOscillator: Default" existante, ce qui aurait remplacer cet instrument par celui que vous déplaciez, mais ça vous donnait ainsi une idée de la façon dont on ajoute une nouvelle piste d'instrument. 
 
-[[Fr:0.4:Votre_première_musique_avec_LMMS#Copier_et_coller| [2]]] - As of version 0.3.1, the copy and paste functionality in the Piano Roll Editor has several known problems.  The developers are aware of these problems and plan to fix them in a future release.
+[[Fr:0.4:Votre_première_musique_avec_LMMS#Copier_et_coller| [2]]] - Comme dans la version 0.3.1, le copier-coller dans le piano virtuel a de gros problèmes. Les développeurs sont au courant et les règleront dans une prochaine livraison. 
 
-[[Fr:0.4:Votre_première_musique_avec_LMMS#Plus_de_structure| [3]]] - You should avoid having segments that overlap as there is no clear display of how many segments overlap in a particular area.  A small segment might completely disappear behind a large one, leaving you confused as to where those extra notes were coming from.  In this case, it makes good sense to use it.
+[[Fr:0.4:Votre_première_musique_avec_LMMS#Plus_de_structure| [3]]] - Vous devriez éviter d'avoir des segments qui se chevauchent car il n'y a pas d'affichage clair du nombre de  segments qui se chevauchent à un endroit donné. Un petit segment pourrait complètement disparaître derrière un grand, vous laissant perplexe si des notes supplémentaires apparaissaient. Dans ce cas, il est logique de s'en servir.
 
 = Navigation =
 
