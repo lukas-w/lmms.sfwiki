@@ -83,19 +83,20 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bar
 
 = Plus de structure =
 
-Nous pouvons maintenant fermer le piano virtuel pour revenir à l'éditeur de morceau (Song Editor). Vous pourrez voir que le segment de la piste sur lequel nous avons initialement double cliqué pour créer la mélodie s'est maintenant agrandit pour contenir toutes les notes que nous avons ajouter. 
+Nous pouvons maintenant fermer le piano virtuel pour revenir à l'éditeur de morceau (Song Editor). Vous pourrez voir que le segment de la piste sur lequel nous avons initialement double cliqué pour créer la mélodie s'est maintenant agrandit pour contenir toutes les notes que nous avons ajoutées. 
 
-We now want to copy that segment to create the next four bars.  The easiest way to do that is to simply hold down the Ctrl key, then drag the initial segment.  This will drag a copy of the segment to a new location, which must be outside the initial segment.  This process will look like this:
+Nous souhaitons maintenant copier se segment pour créer les quatre mesures suivantes. La façon la plus simple est de maintenir enfoncer la touche Ctrl, et de déplacer le segment initial. Cela déplacera en fait une copie du segment vers un nouvel endroit, qui doit être en dehors de la zone du segment initial. Cette action devrait ressembler à ceci :
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
 <!--{\end{center}}-->
 
-Drop the segment on bar 6.  This is actually one bar too late, as the first three quarters of a bar of this segment is empty, as is the last quarter of the last segment.  Fortunately, segments can overlap and their notes will play simultaneously.<sup><small>[[Your First Song with LMMS#Footnotes| [3]]]</small></sup>.  Drag the second copy so that it starts at bar 5.
+Relâchez le segment sur la mesure 6. C'est en fait une mesure trop tard, car les trois premières croches de la première mesure de ce segment sont vide ainsi que la dernière du dernier segment. 
+Heureusement, les segments peuvent se chevaucher et leurs notes être jouées simultanément. <sup><small>[[Fr:0.4:Votre_première_musique_avec_LMMS#Remarques| [3]]]</small></sup>. Déplacez la copie du segment pour qu'il débute à la mesure 5.
 
-You can now play this using the play button in the Song Editor.  You will hear a short pause as it counts the first three beats of silence, then the melody will start.  It should play smoothly through the two repeats.
+Vous pouvez maintenant jouer cette partie en utilisant le bouton de lecture (Play) de l'éditeur de morceau. Vous entendez alors une courte pause, correspondant aux trois temps de silence, puis la mélodie commence. Elle doit ensuite se jouer sans problème durant les deux répétitions. 
 
-The Song Editor should now look like this:
+L'éditeur de morceau devrait ressembler à ceci : 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
@@ -103,17 +104,19 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8ba
 
 == Variation 2 ==
 
-We can now go on to create another piano roll segment and fill in the next four bars:
+Nous pouvons désormais créer un autre segment du piano virtuel et remplir les quatre mesures suivantes :
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.png
 <!--{\end{center}}-->
 
-Due to the way that the segments overlap, you will have to create the new segment in a new bar (e.g. bar 11) and then move it into position over the previous segment.
+Parce que les segments se chevauchent, vous devrez créer un nouveau segment dans une nouvelle mesure (par ex. la mesure 11) puis le déplacer au bon endroit par dessus le segment précédent.
 
-Note that there is a slight oddity in the Piano Roll Editor that causes you to start editing at bar 2 when opening occasional new segments.  Check which bar you're writing notes into before getting to far!
+Notez qu'il y a une petite bizarrerie dans le piano virtuel qui fait commencer l'édition à la mesure 2 lors de l'ouverture de nouveaux segments. Vérifier la mesure pour laquelle vous écrivez les notes avant d'aller trop loin !
 
-Your Song Editor should now look like this:
+
+
+Votre éditeur de morceau doit maintenant ressembler à ceci :
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
