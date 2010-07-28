@@ -73,9 +73,9 @@ Vous pouvez maintenant enclencher le bouton de lecture (http://img685.imageshack
 
 En jouant la mélodie, on réalise qu'elle démarre sur un mauvais temps. La deuxième note "A4" devrait être jouée sur le temps, et les deux notes d'avant dans la mesure précédente. Cependant nous ne pouvons pas allez en amont de la première mesure de notre piano virtuel. Nous devons déplacer toutes les notes vers l'avant. Appuyez sur Ctrl+A pour sélectionner toutes les notes. Ensuite, vous pourrez cliquer et déplacer toutes les notes pour que la première soit placée au bon endroit (voir image ci-dessous).
 
-== The first 'four' bars ==
+== Les quatre premières mesures ==
 
-If you're confident, you can now continue adding the notes of the tune to make the first four bars (up to where the main melody repeats).  Here's what your piano roll should look like at the end of this:
+Si vous êtes confiant, vous pouvez continuer à ajouter les notes nécessaires pour faire les quatre premières mesure (jusqu'à ce que la mélodie principale ce répète). Voici à quoi devrait ressembler votre piano virtuel à la fin : 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
