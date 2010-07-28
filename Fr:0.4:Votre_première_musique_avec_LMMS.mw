@@ -71,7 +71,7 @@ Vous pouvez maintenant enclencher le bouton de lecture (http://img685.imageshack
 
 == Oups ! ==
 
-En jouant la mélodie, on réalise qu'elle démarre sur un mauvais temps. La deuxième note "A4" devrait être jouée sur le temps, et le deux notes d'avant dans la mesure précédente. Cependant nous ne pouvons pas allez en amont de la première mesur de notre piano virtuel. Nous devons déplacer toutes les notes vers l'avant. Appuyez sur Ctrl+A pour sélectionner toutes les notes. Ensuite, vous pourrez cliquer et déplacer toutes les notes pour que la première soit placée au bon endroit (voir image ci-dessous).
+En jouant la mélodie, on réalise qu'elle démarre sur un mauvais temps. La deuxième note "A4" devrait être jouée sur le temps, et les deux notes d'avant dans la mesure précédente. Cependant nous ne pouvons pas allez en amont de la première mesure de notre piano virtuel. Nous devons déplacer toutes les notes vers l'avant. Appuyez sur Ctrl+A pour sélectionner toutes les notes. Ensuite, vous pourrez cliquer et déplacer toutes les notes pour que la première soit placée au bon endroit (voir image ci-dessous).
 
 == The first 'four' bars ==
 
