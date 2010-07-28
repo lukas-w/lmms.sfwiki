@@ -12,10 +12,9 @@ Vous venez juste de lancer LMMS et vous voulez maintenant trouver votre chemin ?
 Vous avez l'écran principal face à vous, où sont ouverts l'[[Song Editor|éditeur de Morceau (ou Song Editor)]], l'[[Beat Bassline Editor|éditeur de rythme+ligne de basse (Beat + Bassline Editor)]] et les [[Project Notes|Notes du projet (Project Notes)]]. Commencez par cliquer sur l'icône des réglages "My presets" (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) sur la barre latérale pour ouvrir la liste des sons pré-réglés.  Double-cliquez sur "'''TripleOscillator'''" pour ouvrir ce répertoire, qui vous présentera un large éventail d'instruments. Vous pouvez laisser le bouton de la souris enfoncé sur un des réglages listés pour l'écouter. 
 
 
-Pour le moment, cliquer et déplacer le réglage "'''Xylophon'''" vers l'éditeur de morceau. Quand vous l'y relâcherez, une nouvelle piste sera créée, utilisant ce réglage comme instrument. 
+Pour le moment, cliquer et déplacer le réglage "'''Xylophon'''" vers une zone vide de l'éditeur de morceau. Quand vous l'y relâcherez, une nouvelle piste sera créée, utilisant ce réglage comme instrument. 
 
 (S'il s'agissait d'un instrument de type percussion, nous aurions peut-être mieux fait de le déplacer vers l'éditeur de rythme+ligne de basse, nous verrons ça dans un instant. Mais là nous voulons jouer une série de notes (ou Piano Roll) avec cet instrument, c'est pourquoi nous utilisons l'éditeur de morceau.)
-
 
 = Créer la mélodie =
 
