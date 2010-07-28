@@ -19,27 +19,29 @@ Pour le moment, cliquer et déplacer le réglage "'''Xylophon'''" vers l'éditeu
 
 = Créer la mélodie =
 
-We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
+Nous voulons ajouter les notes pour créer la mélodie. Cliquez (avec le bouton gauche) sur la première mesure de la piste "Xylophon". Un segment de piano virtuel (Piano Roll) apparaît (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png) . Double-cliquez dessus pour afficher le piano virtuel, ce qui permettra d'ajouter des notes dans ce segment nouvellement créé. 
 
 <!--{\begin{center}}-->
 http://img101.imageshack.us/img101/8506/pianoroll.png
 <!--{\end{center}}-->
 
-== The first note ==
 
-Now click in the black square just to the right of the 'A5' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
+== La première note ==
+
+Maintenant cliquez sur le carré noir situé juste à droite de la note "A4" (qui se trouve trois lignes, ou demi-tons, en dessous de la note marqué "C5"). Cela crée une noire - une note d'une durée d'un temps.
 
 <!--{\begin{center}}-->
 http://img682.imageshack.us/img682/3583/pianorollnoteareademo1s.png
 <!--{\end{center}}-->
 
-However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
+Cependant, cette note est trop longue : nous avons besoin d'une note d'un demi temps - d'une croche. Pour changer cela, positionnez le pointeur de la souris sur le côté droit de la note, afin que le curseur se change en une double flèche gauche-droite. Ensuite, maintenez le bouton de la souris appuyé en déplaçant la fin de la note de deux "blocs" vers la gauche (chaque bloc représentant un seizième de mesure). 
+
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 <!--{\end{center}}-->
 
-After this, the new notes we put down will be the same length, because the Piano Roll Editor default is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png) -But you can change that in the drop-down. However most of the time you will work with the 'Last Note' setting, but if you suddenly cant create notes in the length you expected, its because you accidentally made a change to this drop-down.
+Après avoir fait ça, les nouvelles notes que nous ajouterons auront cette même longueur car, par défaut dans le piano virtuel, la longueur est réglée sur "Last Note" (dernière note) (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png) - mais nous pouvons le modifier dans le menu déroulant. Nous utiliserons "Last Note" la plupart du temps, mais sachez que si soudainement vous ne créez plus des notes de la longueur que vous attendiez, c'est parce que vous avez accidentellement modifié ce réglage. 
 
 == More notes ==
 
