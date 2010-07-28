@@ -30,7 +30,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:delete
 |backgroundcolor = #fff3f3
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
-|heading         = This article should be ''deleted''.
+|heading         = This article should be [[:Category:delete|''deleted'']].
 |message         = It's useless or already exists elesewhere.}}
  <nowiki>{{msgbox:delete}}</nowiki>
 
@@ -39,7 +39,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:moved
 |backgroundcolor = #fff3f3
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Crystal_Clear_action_find.png/48px-Crystal_Clear_action_find.png
-|heading         = This page can be deleted. Its content has been ''moved'' to [[{{{1}}}]]
+|heading         = This page can be deleted. Its content has been [[:Category:moved|''moved'']] to [[{{{1}}}]]
 |message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
  <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
 
@@ -48,7 +48,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:out of date
 |backgroundcolor = #faf6ed
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png
-|heading         = This article is ''out of date''.
+|heading         = This article is [[:Category:out of date|''out of date'']].
 |message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
  <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should about --></nowiki>
 
@@ -57,7 +57,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:too complex
 |backgroundcolor = #faf6ed
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Crystal_Clear_app_error.png/48px-Crystal_Clear_app_error.png
-|heading         = This article is ''too complex''.
+|heading         = This article is [[:Category:too complex|''too complex'']].
 |message         = Please help improve the wiki by simplifying it.}}
  <nowiki>{{msgbox:too complex}}</nowiki>
 
@@ -66,7 +66,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:translate
 |backgroundcolor = #faf6ed
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crystal_Clear_app_locale.png/48px-Crystal_Clear_app_locale.png
-|heading         = This article needs to be ''translated''.
+|heading         = This article needs to be [[:Category:to translate|''translated'']].
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
  <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
 
@@ -75,7 +75,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |id              = Msgbox:to retranslate
 |backgroundcolor = #faf6ed
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Crystal_Clear_action_reload.png/48px-Crystal_Clear_action_reload.png
-|heading         = This article needs to be ''retranslated''.
+|heading         = This article needs to be [[:Category:to retranslate|''retranslated'']].
 |message         = Please help improve the wiki by retranslating this article based on the latest English version.}}
  <nowiki>{{msgbox:retranslate}}</nowiki>
 
