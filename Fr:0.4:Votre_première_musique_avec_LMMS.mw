@@ -81,9 +81,9 @@ Si vous êtes confiant, vous pouvez continuer à ajouter les notes nécessaires 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
 <!--{\end{center}}-->
 
-= More structure =
+= Plus de structure =
 
-We can now close the Piano Roll Editor and go back to the Song Editor.  You will see that the track segment that we initially double-clicked to create the melody has expanded out to fit the notes that we've added.
+Nous pouvons maintenant fermer le piano virtuel pour revenir à l'éditeur de morceau (Song Editor). Vous pourrez voir que le segment de la piste sur lequel nous avons initialement double cliqué pour créer la mélodie s'est maintenant agrandit pour contenir toutes les notes que nous avons ajouter. 
 
 We now want to copy that segment to create the next four bars.  The easiest way to do that is to simply hold down the Ctrl key, then drag the initial segment.  This will drag a copy of the segment to a new location, which must be outside the initial segment.  This process will look like this:
 
