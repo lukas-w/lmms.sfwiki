@@ -1,4 +1,5 @@
 {{0.4:Automation EditorTrans}}
+{{msgbox:incomplete}}
 
 The Automation Editor allows you to control the absolute value of any automatable control at any point in time during the performance.  This allows you everything from very simple effects like turning the volume on an instrument up at the start of the song, to very complex manipulation of the envelopes or filters of the instrument itself.  Even the controls in [[LADSPA Effects]] can be automated!
 
@@ -97,5 +98,5 @@ HowTo: [[0.4:Working with Automation]]
 | Next: [[0.4:Project Notes]]
 |}
 
-[[Category:Reference]] [[Category:Incomplete]]
+[[Category:Reference]]
 [[Category:0.4-Manual]]
