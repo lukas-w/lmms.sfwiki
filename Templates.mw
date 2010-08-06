@@ -43,6 +43,15 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
  <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
 
+==== [[Template:Msgbox:Incomplete|Incomplete]] ====
+{{Msgbox
+|id              = Msgbox:incomplete
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Crystal_Clear_app_kghostview.png/48px-Crystal_Clear_app_kghostview.png
+|heading         = This article is [[:Category:incomplete|''incomplete'']].
+|message         = Please help improve the wiki by expanding it.}}
+ <nowiki>{{msgbox:incomplete}}</nowiki>
+
 ==== [[Template:msgbox:out of date|Out of date]] ====
 {{Msgbox
 |id              = Msgbox:out of date
