@@ -3,7 +3,7 @@
 The LMMS wiki is a very useful resource, but only when it can be read and understood by everyone.
 Prior to about mid-June, this wiki was a messy and incomplete multilingual chaos. As a solution, I've added a bar with translation links on top of most pages which seems to work great. The only problem is that many of you don't really know how to proceed with translating, and that's exactly what this little guide is for.
 
-Currently, the LMMS wiki is partially translated into 6 languages in addition to English. Unicode characters in titles don't seem to work, which means that some languages won't be able to use them for now. German and Italian versions are relatively complete thanks to generous time-giving fellows [[User:Capdan|Capdan]], [[User:Napocapo|Napocapo]], and many others, but there's still lots of work to do. [[Es:Página principal|Spanish]], [[Fr:Page Principale|French]], and [[Pt:Página principal|Portuguese]] all need a major clean-up, and new languages are more than welcome (bonus points for exotic ones). Esperanto and Toki Pona are the latest additions which I'm currently translating.
+Currently, the LMMS wiki is partially translated into 6 languages in addition to English. Unicode characters in titles don't seem to work, which means that some languages won't be able to use them for now. German and Italian versions are relatively complete thanks to generous time-giving fellows [[User:Capdan|Capdan]], [[User:Napocapo|Napocapo]], and many others, but there's still lots of work to do. [[Es:Página principal|Spanish]], [[Fr:Page Principale|French]], and [[Pt:Página principal|Portuguese]] all need a major clean-up, and new languages are more than welcome (bonus points for exotic ones).
 
 == Translating Into a New Language ==
 If you're translating the wiki into an new language that has no main page yet, you should follow these steps. 
@@ -18,6 +18,7 @@ If you understand the LMMS naming conventions and feel comfortable enough doing 
 * Template names with flags in them should borrow the article's name, with "Trans" added. (i.e. ''RequirementsTrans'')
 * Non-English article names should begin with the language's [http://www.mathguide.de/info/tools/languagecode.html ISO 639-1] code followed by ":" and the rest. (i.e. ''Fr:Astuce du jour'', ''De:0.4:Der erste Titel mit LMMS'')
 * Version-dependent articles in the Manual have the LMMS version follow the language code, and precede the title. (i.e. ''0.4:Plugins'', ''De:0.4:Seitenleiste'')
+* Special characters are not supported on this wiki.
 
 === Pages NOT to Translate ===
 There ''are'' a few pages we won't be translating because they're constantly changing and would be hard to update in other languages:
