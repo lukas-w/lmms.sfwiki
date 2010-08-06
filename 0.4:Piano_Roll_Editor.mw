@@ -79,9 +79,7 @@ The main area of the Piano Roll Editor is the note area:
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-all-empty.png
 <!--{\end{center}}-->
 
-= Notes =
-
-= Velocities =
+= Note Velocity =
 
 The 'weight' of each note - its loudness or softness - is termed '''velocity''' in music sequencers.  This velocity is shown as a vertical bar at the bottom of the window.  You can change the velocity of each note by clicking on this bar and dragging it to its preferred location.  This information is also recorded when you record notes from a MIDI keyboard that is capable of recording the velocity of the notes as they are played.
 
@@ -96,5 +94,5 @@ HowTo: [[0.4:Composing in the Piano Roll Editor|Composing in the Piano Roll Edit
 | Next: [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
 |}
 
-[[Category:Reference]]  [[Category:Incomplete]]
+[[Category:Reference]]
 [[Category:0.4-Manual]]
