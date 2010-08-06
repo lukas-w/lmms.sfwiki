@@ -43,7 +43,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
  <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
 
-==== [[Template:Msgbox:Incomplete|Incomplete]] ====
+==== [[Template:Msgbox:incomplete|Incomplete]] ====
 {{Msgbox
 |id              = Msgbox:incomplete
 |backgroundcolor = #faf6ed
