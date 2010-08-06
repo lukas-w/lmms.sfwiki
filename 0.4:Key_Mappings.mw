@@ -1,5 +1,5 @@
 {{0.4:Key MappingsTrans}}
-
+{{msgbox:incomplete}}
 = Key Mappings =
 
 This is an attempt at a complete listing of what keys activate what functions in various parts of LMMS.  It also stands as a reference to try and tidy up LMMS in future so its interface is more consistent.
@@ -495,5 +495,4 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 
 |}
 
-[[Category:Incomplete]]
 [[Category:0.4-Manual]]
