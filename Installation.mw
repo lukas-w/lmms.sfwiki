@@ -130,20 +130,26 @@ To compile LMMS from sources you need several development libraries, from graphi
 * Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
 ** under Debian based distributions (including Ubuntu) run:
  sudo aptitude install libqt4-dev qt4-dev-tools build-essential
+** under Fedora (as root) run:
+ yum -y install git cmake qt-devel gcc 
 * sound file library - for reading and writing files containing sampled audio data
 ** under Debian based distributions (including Ubuntu) run: 
  sudo aptitude install ''libsndfile1-dev''
+** under Fedora (as root) run:
+ yum -y install libsndfile-devel
 
 Next you need to allow LMMS to communicate with your audio hardware, so you have to choose one or more of the following setups and provide corresponding development libraries:
 * [http://www.alsa-project.org/ ALSA] - Advanced Linux Sound Architecture - apart from libs and -dev libs, you need ALSA modules for your soundcard (built-in with 2.6.x kernels) and those modules loaded - see [http://www.alsa-project.org/ http://www.alsa-project.org/] and [http://alsa.opensrc.org/ http://alsa.opensrc.org/] for info - '''ALSA is the recommended audio-interface to use with LMMS'''.
 ** under Debian run ''sudo aptitude install libasound2-dev''
+** under Fedora (as root) run ''alsa-libs-devel''
 * [http://jackaudio.org/ JACK] - Jack Audio Connection Kit - a low latency audio server that allows the connection of multiple applications to an audio device (typically an ALSA one), as well as allowing them to share audio between themselves
 ** under Debian run ''sudo aptitude install libjack0.100.0-dev libjackasyn-dev''
+** under Fedora (as root) run ''jack-libs-devel''
 * [http://www.libsdl.org/index.php SDL] - Simple Directmedia Layer - a layer that allows LMMS to output it's sound to sound servers like aRts, esd (otherwise you need to kill them ''before'' starting LMMS)
 ** under Debian run ''sudo aptitude install libsdl-sound1.2-dev libsdl1.2-dev libsdl-mixer1.2-dev''
 * [http://www.opensound.com/ OSS] - Open Sound System - now replaced by [http://www.alsa-project.org/ ALSA]
-
-
+* [http://www.pulseaudio.org/ PulseAudio]
+** under Fedora (as root) run ''pulseaudio-libs-devel''
 
 === Optional (but strongly recommended) libraries ===
 
