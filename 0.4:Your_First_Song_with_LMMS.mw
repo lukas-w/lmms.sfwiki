@@ -11,7 +11,11 @@ http://lmms.sourceforge.net/wiki/images/1/19/Initial_screen.png
 
 = Choosing the instrument =
 
-You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
+You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' or click on the plus symbol on its left to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/0/06/Presets_tripple_oscillator.png
+<!--{\end{center}}-->
 
 For now, let's drag the "'''Xylophon'''" preset onto the space in the middle of the Song Editor. When you drop it, a new track will be created with that preset as the instrument.
 
