@@ -19,6 +19,15 @@ http://lmms.sourceforge.net/wiki/images/0/06/Presets_tripple_oscillator.png
 
 For now, let's drag the "'''Xylophon'''" preset onto the space in the middle of the Song Editor. When you drop it, a new track will be created with that preset as the instrument.
 
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/9/99/Drag_xylophon.png
+<!--{\end{center}}-->
+
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/f/fd/Xylophon_track.png
+<!--{\end{center}}-->
+
 (If this were a percussion-type instrument, we might be better off dragging it to the Beat+Bassline Editor instead; you'll see why in  a second. We really want to give this instrument a string of notes (or a Piano Roll) to play, though, so Song Editor it is.)
 
 = Making the melody =
