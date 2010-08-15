@@ -43,7 +43,7 @@ http://img101.imageshack.us/img101/8506/pianoroll.png
 Now click in the black square just to the right of the 'A4' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
 
 <!--{\begin{center}}-->
-http://img682.imageshack.us/img682/3583/pianorollnoteareademo1s.png
+http://lmms.sourceforge.net/wiki/images/0/05/First_popcorn_tone.png
 <!--{\end{center}}-->
 
 However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
