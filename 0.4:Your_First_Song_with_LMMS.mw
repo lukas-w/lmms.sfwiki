@@ -74,7 +74,20 @@ The first and worst way to do it is to simply click the correct notes. But this 
 
 The first real way to do it is to use the duplicator tool. First select the notes you want to copy. Hold down Ctrl and make a selection rectangle around the notes you want to copy. Next, hold Shift and drag the newly selected notes. You are now dragging a copy of the selected notes. You can place these where you want them to go.
 
-Alternatively you can use good old copy and paste. Again, use Ctrl to select the notes you want, and then press Ctrl+C. Press Ctrl+V to paste the notes, and move them to their new location.
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/4/49/Selected_notes.png
+<!--{\end{center}}-->
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/b/bb/Drag_copied_notes.png
+<!--{\end{center}}-->
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/2/23/Drop_copied_notes.png
+<!--{\end{center}}-->
+
+Alternatively you can use good old copy and paste. Again, use Ctrl to select the notes you want, and then press Ctrl+C. Press Ctrl+V to paste the notes at the beginning, and move them to their new location.
 
 To select all notes you can press Ctrl+A.
 
