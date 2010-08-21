@@ -1,101 +1,99 @@
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-[[tarot free reading|tarot free reading]]
+__NOTOC__
+This page contains various templates used in the wiki in order to guide and facilitate further development.
+
+== Useful Links ==
+*[http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet Wiki Cheatsheet]
+*[http://tangram.dnsalias.net/lmms-imgs/ Old LMMS Images]
+*[http://commons.wikimedia.org/wiki/Template:External_link_icon External link icons]
+
+== Trans Templates ==
+<!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
+{{flaglink|0.4:Manual|en}}
+{{flaglink|De:0.4:Bedienungsanleitung|de}}
+{{flaglink|Fr:0.4:Manuel|fr}}
+{{flaglink|It:0.4:Manuale|it}}
+{{flaglink|Pt:0.4:Manual|pt}}
+<pre><nowiki>
+<!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
+{{flaglink|0.4:Manual|en}}
+{{flaglink|De:0.4:Bedienungsanleitung|de}}
+{{flagink|Fr:0.4:Manuel|fr}}
+{{flaglink|It:0.4:Manuale|it}}
+{{flaglink|Pt:0.4:Manual|pt}}
+...
+ </nowiki>
+</pre>
+
+== Message Boxes ==
+==== [[Template:msgbox:delete|Delete]] ====
+{{Msgbox
+|id              = Msgbox:delete
+|backgroundcolor = #fff3f3
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
+|heading         = This article should be [[:Category:delete|''deleted'']].
+|message         = It's useless or already exists elesewhere.}}
+ <nowiki>{{msgbox:delete}}</nowiki>
+
+==== [[Template:msgbox:moved|Moved]] ====
+{{Msgbox
+|id              = Msgbox:moved
+|backgroundcolor = #fff3f3
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Crystal_Clear_action_find.png/48px-Crystal_Clear_action_find.png
+|heading         = This page can be deleted. Its content has been [[:Category:moved|''moved'']] to [[{{{1}}}]]
+|message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
+ <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
+
+==== [[Template:Msgbox:incomplete|Incomplete]] ====
+{{Msgbox
+|id              = Msgbox:incomplete
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Crystal_Clear_app_kghostview.png/48px-Crystal_Clear_app_kghostview.png
+|heading         = This article is [[:Category:incomplete|''incomplete'']].
+|message         = Please help improve the wiki by expanding it.}}
+ <nowiki>{{msgbox:incomplete}}</nowiki>
+
+==== [[Template:msgbox:out of date|Out of date]] ====
+{{Msgbox
+|id              = Msgbox:out of date
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png
+|heading         = This article is [[:Category:out of date|''out of date'']].
+|message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
+ <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should about --></nowiki>
+
+==== [[Template:msgbox:too complex|Too complex]] ====
+{{Msgbox
+|id              = Msgbox:too complex
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Crystal_Clear_app_error.png/48px-Crystal_Clear_app_error.png
+|heading         = This article is [[:Category:too complex|''too complex'']].
+|message         = Please help improve the wiki by simplifying it.}}
+ <nowiki>{{msgbox:too complex}}</nowiki>
+
+==== [[Template:msgbox:translate|Translate]] ====
+{{Msgbox
+|id              = Msgbox:translate
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crystal_Clear_app_locale.png/48px-Crystal_Clear_app_locale.png
+|heading         = This article needs to be [[:Category:to translate|''translated'']].
+|message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
+ <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
+
+==== [[Template:msgbox:retranslate|Retranslate]] ====
+{{Msgbox
+|id              = Msgbox:to retranslate
+|backgroundcolor = #faf6ed
+|signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Crystal_Clear_action_reload.png/48px-Crystal_Clear_action_reload.png
+|heading         = This article needs to be [[:Category:to retranslate|''retranslated'']].
+|message         = Please help improve the wiki by retranslating this article based on the latest English version.}}
+ <nowiki>{{msgbox:retranslate}}</nowiki>
+
+== Boxes ==
+
+<div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">Red message template (45%)</div><br><br>
+
+ <nowiki><div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">(example:)The outdated or useless pages below are requested to be removed by an administrator.</div></nowiki>
+
+<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">Yellow message template (95%)</div><br><br>
+
+ <nowiki><div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div></nowiki>
