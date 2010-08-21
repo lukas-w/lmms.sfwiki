@@ -31,7 +31,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |backgroundcolor = #fff3f3
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
 |heading         = This article should be [[:Category:delete|''deleted'']].
-|message         = It's useless or already exists elesewhere.}}
+|message         = It's useless or already exists elsewhere.}}
  <nowiki>{{msgbox:delete}}</nowiki>
 
 ==== [[Template:msgbox:moved|Moved]] ====
