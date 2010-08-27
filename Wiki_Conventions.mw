@@ -1,42 +1,14 @@
-{{Wiki ConventionsTrans}}
+kfrldbet
 
-= Images =
-
-= Naming Articles =
-All version-dependent article titles should begin with the concerned version number, followed by the actual title, with a ":" between the two. 
-Here's an example: ''0.4:Manual''
-
-List of version-dependent articles: (basically all sections in the Manual, except "Introduction" and "Appendices")
- ====0.4 Tutorials====
- Getting Started - a brief walk-through for the impatient
- Your First Song with LMMS - a more step-by-step tutorial
- Making Triple-Oscillator patches - Guidelines for creating useful triple-oscillator patches
- ====Using LMMS 0.4====
- Working with Instruments
- Working with Samples
- Composing in the Piano Roll Editor
- Composing Bass Lines and Drum Sequences
- Putting the song together
- Working with Automation
- Working with LADSPA effects
- Working with Controllers
- Working with Effects and the Mixer
- Working with VSTs
- Using MIDI
- Exporting the Song
- ====0.4 Reference====
- Main Menu Bar
- Tool Bar
- Side Bar
- Plugins
- Song Editor
- Piano Roll Editor
- Beat + Bassline Editor
- Automation Editor
- FX Mixer
- Project Notes
- LMMS Settings
- Key Mappings
-
-= Translations =
-All translations should be based on the English version. The articles' title should begin with the language's two-lettered ISO 639-1 code (Fr, De, Es, ...), followed by the LMMS version (if the article is version-dependent), followed by the actual title, in that language.  It wouldn't make much sense to translate articles leaving the titles in English, wouldn't it? Here are some examples: ''Fr:Page Principale, Fr:0.4:Manuel''. The English version doesn't need that part though.
+[http://www.sh-massage.org shanghai massage]
+[http://www.sh-massage.org massage shanghai]
+[http://www.sh-massage.org massage in shanghai]
+[http://www.sh-massage.org shanghai escort]
+[http://www.theshenzhen.net shenzhen massage]
+[http://www.theshenzhen.net massage in shenzhen]
+[http://www.theshenzhen.net escort shenzhen]
+[http://www.shanghai-massage-in-shanghai.net shanghai escort]
+[http://www.dongguanescort.net dongguan massage]
+[http://www.dongguanescort.net massage dongguan]
+[http://www.dongguanescort.net massage in dongguan]
+[http://www.massage-shenzhen.cn shenzhen escort]
