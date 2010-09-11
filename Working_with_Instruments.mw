@@ -1,3 +1,5 @@
+<div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">This page refers to version 0.3 of LMMS. For version 0.4, read [[0.4:Working_with_Instruments|here]]</div>
+
 = Instrument Basics =
 
 An instrument is a sound generator that plays notes on command.  Each instrument is comprised of a specific plugin that generates the sound and a number of common ways to control the sound generated.  Many parameters of an instrument can be changed in real time using [[Automation]].
