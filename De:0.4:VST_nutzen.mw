@@ -10,3 +10,12 @@ VST und VSTi Plugins sind Plugins, die branchenweit in den meisten kommerziellen
 * In LMMS das Vestige-Instrument von der Seitenleiste hinzufügen 
 * Im Instrument-Plugin Fenster auf den Ordner klicken und ein Vst-Instrument laden. Es werden nur .dll und .exe Formate unterstützt 
 * Warten bis das Vst-Instrument geladen ist. Das kann eine Weile dauern und es kann so scheinen als würde LMMS sich aufgehängt haben, gerade bei umfangreichen und großen Vst-Dateien; aber etwas Geduld! (und dann funktioniert's vielleicht doch noch)
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[]]
+| Up: [[De:0.4:Bedienungsanleitung|Bedienungsanleitung]]
+| Next: [[]]
+|}
