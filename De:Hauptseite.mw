@@ -38,7 +38,7 @@ http://img686.imageshack.us/img686/4820/buger.png [[De:Wie man Fehler berichten 
 <div style="padding: .4em .9em .9em">
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://img163.imageshack.us/img163/1751/packagedevelopment.png
+[[File:Dev.png]]
 | style="color: #000" valign="top"|
 '''Community'''<br>
 
@@ -55,17 +55,18 @@ http://img251.imageshack.us/img251/7428/newsg.png
 
 '''Neuigkeiten'''<br>
 <!-- 
-==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
-*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
-*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
-*KEEP ONLY THE 5 MOST RECENT NEWS
+==DER ZWECK DER NEUIGKEITEN IST DAS WIKI AM LEBEN ZU ERHALTEN==
+*ALSO NUR WICHTIGE NEUIGKEITEN SCHREIBEN, WIE Z.B.: NEUE ANLEITUNGEN, GRÖSSERE UPDATES, USW. 
+*HALTE DIE NEUIGKEITEN KURZ:("UPDATE", "NEUER ARTIKEL", "VEREINFACHT", "KORRIGIERT", USW...)
+*NUR DIE LETZTEN 5 AKTUELLEN NEUIGKEITEN ANZEIGEN/BEIBEHALTEN
 -->
 
+10.08: Update des MediaWiki (1.16.0) und Upload von Dateien ermöglicht<br>
 01.07: neu: [[De:Einen Beitrag übersetzen|Einen Beitrag übersetzen]]<br>
 23.06: große Übersetzungs-Aufräumarbeiten<br>
 25.01: ''Hauptseite'' erneuert<br>
 20.01: neuer Artikel ''[[De:Ein Theme erstellen|Ein Theme erstellen]]''<br>
-11.01: [[Tested VSTs|''VST Datenbank'']] vereinfacht<br>
+<!--11.01: [[Tested VSTs|''VST Datenbank'']] vereinfacht<br>
 
 |}
 </div>
