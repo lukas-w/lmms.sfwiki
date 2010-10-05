@@ -113,7 +113,7 @@ To install manually from Git (Examples provided assume you're running Debian or 
 * Next resolve any unmet dependencies (see section "[[Installation#Resolving_dependencies|Resolving dependencies]]" below for more on this topic)
 * Then you have to configure LMMS:
  mkdir build target
- cd build      ''(KoenR: don't think this is correct, you need to run cmake inside the lmms directory, not the build directory)''
+ cd build
  cmake .. -DCMAKE_INSTALL_PREFIX=../target
 * Now compile LMMS: (People with more than one CPU core can use make's -j2 option to compile some files in parallel instead, accelerating the process. Otherwise '''"make"''' is just fine. )
  make -j2
