@@ -216,6 +216,8 @@ After running cmake you might get the following cmake error:
 
 I forgot exactly how I arrived to this solution: sudo aptitude install libxft-dev libfreetype6-dev .
 
+''(KoenR: had the same issue, but resolved it using sudo aptitude install libxinerama1 libxinerama-dev)''
+
 See also: [[Tuning LMMS-installation]]
 
 = Navigation =
