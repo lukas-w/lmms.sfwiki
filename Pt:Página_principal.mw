@@ -7,52 +7,63 @@ LMMS pretende ser uma alternativa livre, gratuita e multi-plataforma a programas
 <div style="padding: .4em .9em .9em">
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki-media/guide.png
+http://img20.imageshack.us/img20/1012/contents.png
 | style="color: #000" valign="top"|
-'''Documentação de Usuário(a) Final'''
-* [[Pt:Getting Started|Começando]] ([[Getting Started|inglês]])
-* [[Pt:Manual|Manual do(a) Usuário(a)]] ([[0.4:Manual|Manual]])
 
-* [[How to report bugs|Como reportar defeitos/bugs (inglês)]]
-* [[Tip of the day|Dica do dia (inglês)]]
-* [[Mailing lists|Listas de Email (inglês)]]
-* [[User FAQ|Perguntas frequêntes (inglês)]]
-* [[Tested VSTs|VSTs testados (inglês)]]
-* [[0.3:Manual|Manual da Versão 0.3 (inglês)]]
+'''Documentação de Usuário(a) Final'''
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[Pt:0.4:Começando|Começando]]<br>
+http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|Manual do(a) Usuário(a)]] (inglês)<br>
+http://img97.imageshack.us/img97/5625/helpfaq.png [[User FAQ|Perguntas frequêntes]] (inglês)<br>
+http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|Dica do dia]] (inglês)<br>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|VSTs testados]] (inglês)<br>
+
 |}
-<br>
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki-media/admin.png
+http://img34.imageshack.us/img34/5773/userconfig.png
 | style="color: #000" valign="top"|
-'''Guias do(a) usuário(a)'''
-* [[Download|Como baixar]]
-* [[Requirements|Requisitos (inglês)]]
-* [[Installation|Instalação (inglês)]]
-* [[Troubleshooting|Solução de Problemas (inglês)]]
+
+'''Guias do(a) usuário(a)''' <br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Requirements|Requisitos]] (inglês)<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|Instalação]] (inglês)<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting|Solução de Problemas]] (inglês)<br>
+http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|Como reportar defeitos/bugs]] (inglês)<br>
+
 |}
 </div>
+<br>
 | width="50%" style="color: #000" valign="top"|
 <div style="padding: .4em .9em .9em">
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki-media/development.png
+http://lmms.sourceforge.net/wiki/images/a/a0/Dev.png
 | style="color: #000" valign="top"|
-'''Desenvolvedores(as)'''
-* [[Compiling LMMS on Windows|Compilando LMMS no Windows (inglês)]]
-* [[Accessing Git repository|Acessando o repositório Git (inglês)]]
-* [[Developer Documentation|Documentação (inglês)]]
-* [[Creating a localization|Criando uma localização (inglês)]]
-* [[Plugin development tutorial|Tutorial de desenvolvimento de Plugins (inglês)]]
-* [[Guidelines on coding style|Explicação sobre estilos de codificação (inglês)]]
-* [[Submitting a patch|Enviando um patch (inglês)]]
-* [[Mailing lists|Listas de email (inglês)]]
-* [[Roadmap|Roadmap/A fazer (inglês)]]
-* [[Developer FAQ|Perguntas Frequentes (inglês)]]
-* [[Developer Discussion|Discussão de desenvolvedores(as) (inglês)]]
-* [[Artwork contest|Concurso artístico]] (já acabou)
+
+'''Comunidade'''<br>
+
+http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Desenvolvedores]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Escritores]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artistas]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Contact|Contato]]<br>
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img251.imageshack.us/img251/7428/newsg.png
+| style="color: #000" valign="top"|
+
+'''Wiki News'''<br>
+
+08-10 Updated to MediaWiki 1.16.0 and enabled file uploads<br>
+07-01: new article [[Translating an Article|''Translating an Article'']]<br>
+06-23: major translations clean-up<br>
+01-25: updated ''Main Page''<br>
+01-20: new article ''[[Creating a Theme]]''<br>
+
 |}
 </div>
 |}
-
+----
 {{Main PageTrans}}
