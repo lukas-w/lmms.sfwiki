@@ -390,7 +390,7 @@ A display shows the knob and slider values. This allows more control over the sy
 | {{rh}} | virtual juno6
 | {{wikitable_cell}} | Synthesizer
 | {{Yes}}
-| {{?}}
+| {{Yes}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}| Juno 6 is an VST based virtual Analogue Synthesizer for Windows written in C++, that emulates the sound technics of the original Roland Juno 6/60 Synthesizer. The project itself is based on the ultramaster juno 6 linux sources **when adjusting faders sometimes they can run away to max, but they can easily be adjusted back down to desired setting**
