@@ -216,7 +216,7 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{wikitable_cell}}| http://www.vst4free.com/free_vst.php?id=371
 |-
 | {{rh}} | HERCS Abakos
-| {{wikitable_cell}} | Synth
+| {{wikitable_cell}} | Synthesizer
 | {{Yes}}
 | {{Yes}} 
 | {{?}}
@@ -225,7 +225,7 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{wikitable_cell}}| http://www.hercsmusicsystems.com/
 |-
 | {{rh}} | ORCA
-| {{wikitable_cell}} | Analog modeling monosynth 
+| {{wikitable_cell}} | Analog Modeling Mono-Synth
 | {{Yes}}
 | {{?}} 
 | {{?}}
@@ -261,7 +261,7 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{wikitable_cell}}| http://hosted.filefront.com/aeonsound/
 |-
 | {{rh}} | Synth1-v1.0.7
-| {{wikitable_cell}} | polyphonic synth
+| {{wikitable_cell}} |Polyphonic Synth
 | {{Yes}}
 | {{Yes}} 
 | {{?}}
@@ -270,7 +270,7 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 | {{wikitable_cell}}| all versions of synth1 http://www.geocities.jp/daichi1969/softsynth/
 |-
 | {{rh}} | TAL-NoiseMaker
-| {{wikitable_cell}} | synth
+| {{wikitable_cell}} | Synthesizer
 | {{Yes}}
 | {{Yes}}
 | {{?}}
@@ -330,8 +330,18 @@ A display shows the knob and slider values. This allows more control over the sy
 | {{?}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}|String synthesizer with unique filter section.  MIDI channel must be set to "All".
+| {{wikitable_cell}}|String Synthesizer with unique filter section.  MIDI channel must be set to "All".
 | {{wikitable_cell}}|http://www.gtgsynths.com
+|-
+| {{rh}} | ErsDrums
+| {{wikitable_cell}} |Drum Synthesizer
+| {{?}}
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|ErsDrums is a VST 2.3 compatible drum machine.
+All sounds are calculated in "real time", no samples are used.
+| {{wikitable_cell}}|http://www.bostreammail.net/ers/ersdrums.html
 |-
 | {{rh}} | Wollo Drone
 | {{wikitable_cell}} | Synthesizer
@@ -348,11 +358,11 @@ A display shows the knob and slider values. This allows more control over the sy
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{wikitable_cell}}|Layering synth.  Great pads and keys.  After waiting 10 minutes for it to load I gave up.
+| {{wikitable_cell}}|Layering Synthesizer.  Great pads and keys.  After waiting 10 minutes for it to load I gave up.
 | {{wikitable_cell}}|http://rekkerd.org/dsk-vsti/
 |-
 | {{rh}} | PolyIblit
-| {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}} |Synthesizer
 | {{Yes}}
 | {{Yes}}
 | {{?}}
