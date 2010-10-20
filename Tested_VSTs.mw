@@ -279,6 +279,15 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 A display shows the knob and slider values. This allows more control over the synth. A ringmodulator and a syncable triangle are also part of this synth. TAL-NoiseMaker includes new filter types as the self resonating 6dB low pass and a notch filter. Its improved amplitude ADSR is very suitable for slow pads as for really fast envelopes. 128 factory presets included.
 | {{wikitable_cell}} | http://kunz.corrupt.ch/?Products:VST_TAL-NoiseMaker
 |-
+| {{rh}} | TAL-U-No-62
+| {{wikitable_cell}} | Synthesizer
+| {{?}}
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}| U-No-62 is an improved and completely refactored version of U-No-60.
+| {{wikitable_cell}}| http://kunz.corrupt.ch/?Products:VST_TAL-U-No-62
+|-
 | {{rh}} | GTG 44 S
 | {{wikitable_cell}} | Synthesizer
 | {{Yes}}
