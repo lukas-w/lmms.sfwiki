@@ -33,7 +33,7 @@ Events created in the Song-editor are 'atomic' -i.e. they can't be expanded (but
 The actual song is always built in the song-editor. This is where all the blocks, including events in the Beat-and bass-editor, come together on the timeline, and reveal your complete composition.
 
 Lets take a look at the default Song-editor.
-In the default Song-editor there are 4 items loaded. First is an instance of the Triple OSC (3OSC) generator, as an example of an instrument-container. This instance is without any preset-settings and will only beep a simple sine sound. It could actually be deleted, but before we do that, we should look at it, because it has behavior that is the same for all other instrument-containers.
+In the default Song-editor there are 4 items loaded. The first one, named'Default Preset',is an instance of the Triple OSC (3OSC) generator, as an example of an instrument-container. This instance is without any preset-settings and will only beep a simple sine sound. It could actually be deleted, but before we do that, we should look at it, because it has behavior that is the same for all other instrument-containers.
 When you move your mouse over the instrument-containers, they will high-light. This indicates that the instruments can be clicked as if they were buttons! Left-click the Triple OSC. This opens the instrument GUI. Click again, and the GUI is closed. All instruments behave like this. 
 
 When you make changes on the GUI you create a Preset. If it sounds less than horrible, you have an instrument :)
@@ -42,22 +42,22 @@ If you right-click you will have a rename option. Always name your instruments!
 To the left of the instruments there are 2 clickable 'lamps'. When the green lamp is ON, the track is activated. In its OFF state the track is muted.
 The other lamp is red. When the red lamp is ON, the track will mute all other tracks, and play solo.
 
-Next to these we have the action-button. Here you can delete or clone the track and all of its events.
+Next, to the left of these, we have the action-button. Here you can delete or clone the track and all of its events.
 
-To the right of the instruments we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance. 
+To the right of the instruments, before the knobs, we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance. 
 On the right half of the song-editor, we have the timeline. Create a track by adding events to this timeline.
-The timeline is divided in bar-sized blocks. Click in one next to 3OC. You get a black box. If you double-click the black box, you open the Piano-Roll editor. This is where you create your tune.
+The timeline is divided in bar-sized blocks. Click in one next to 3OSC. You get a black box. If you double-click the black box, you open the Piano-Roll editor. This is where you create your tune.
 We will return to that later.
 
 Below the 3OSC you have the Sample-Track. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. You can add a new sampletrack with the 6. button on the song-editor speed-bar.
 
-Next you have the default Beat-and-Bassline instance. Just for illustration, click on one of the boxes in the timeline next to the Beat/bassline track. You get a blue block. Click and drag its right end, and it will expand. This is what I meant by Beat-and Bassline events are 'continuous'. When you did that the with the 3OC, the block was black, and would not expand.
+Next you have the default Beat-and-Bassline instance. Just for illustration, click on one of the boxes in the timeline next to the Beat/bassline track. You get a blue block. Click and drag its right end, and it will expand. This is what I meant by Beat-and Bassline events are 'continuous'. When you did that the with the 3OSC, the block was black, and would not expand.
 You can add a new Beat-and-Bassline with the 5. button on the song-editor speed-bar.
 
 Last is an instance of the Automation-Track. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation|Working with Automation]].
-You can add a new Automation-Track with the 7. button on the song-editor speed-bar.
+You can add a new Automation-Track with the 7. button on the song-editor speed-bar, at the top of the song editor window.
 
-But a project needs more than a default 3OC, and luckily LMMS comes with an abundance of great instruments. 
+But a project needs more than a default 3OSC, and luckily LMMS comes with an abundance of great instruments. 
 
 == Your instruments: Presets & Samples ==
 Now we take a look at those components that creates sounds. The Instruments and Samples.
