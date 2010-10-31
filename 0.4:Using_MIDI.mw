@@ -26,6 +26,8 @@ Let’s get your keyboard up and running, playing an instrument.
 * Click on this option.
 * Turn your PC speakers on, turn the volume up and play some notes on your keyboard. You should hear an organ-like tone.
 * If you do, congratulations! You’re good to go! See the next section to get some really realistic sounds and effects. 
+* Some operating systems like Windows Vista will not let you change MIDI output device (to chose yout keyboard). To solve that have to make a change in the Windows Registry Editor or install and run programs like VistaMidi.exe from IPE Prodipe VE or Putzlowitschs Vista-MIDIMapper before you use LMMS.
+
 
 ==Let’s get some real sounds working!==
 
