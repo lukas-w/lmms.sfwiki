@@ -76,6 +76,7 @@ The Song Editor window has a toolbar that allows you to control playback of the 
 * The '''Play''' button (http://img685.imageshack.us/img685/2559/play.png) starts playback at the current cursor point.
 * The '''Stop''' button (http://img194.imageshack.us/img194/4457/iconsstop.png) stops playback if it has been started and moves the cursor depending on what mode you have chosen in the play control tool (see below).
 * While the song is playing, you can use the '''Pause''' button (http://img695.imageshack.us/img695/6259/pauseo.png) to halt playback without moving the cursor.
+* Between the '''Play''' button and the '''Stop''' button there are two gray buttons: "Record samples from Audio-device" and "Record samples from Audio-device while playing song or BB track". These buttons does not work (yet). If you want to make a recording you can do that in the Piano-Roll, where the two record buttons work.
 
 == Add Track Buttons ==
 
