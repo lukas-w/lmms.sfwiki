@@ -3,6 +3,38 @@
 
 = Getting Started with LMMS =
 
+= Your First Song =
+ 
+LMMS is a tool that can used to make music effectivly without very much hassle.  To showcase this fact, if you follow these step by step instructions you should be able to make your own songs very quickly.  
+
+If you are using Windows, double click the icon on your desktop or go start menu - programs - LMMS to load your version of the LMMS program.  ( I am not aware of anything different in the linux version so I am afraid I can't help here.)
+
+When you first load the program you will see several boxes with various titles and a toolbar at the top left.  Looking at the upper to middle left side of the screen you will also see some small icons.  These are important as most of these are where you sellect your sounds.  
+
+For our first sound we are going to select the small box on the left side with the music note.  This box is your sample collection that comes standard with LMMS.  When you Click the My Samples box a list of folders should appear, one of them labeled "drums".  Double clicking the box will show a list of percussion instruments.  Click on them to hear the different sounds of the instruments.  
+
+If you look at the open boxes one of them should read "Beat and Bassline Editor.  Locate that box before going forward.  If you have closed it by chance it is located on the left top toolbar.  
+
+Going back to the cool samples you just heard select the bassdrum_acoustic02.ogg, click that file and drag it to the beat editor and a new tab should appear in box with that same label.  do the same thing to the instruments hihat_closed04.ogg and snare02.ogg (scroll down).  
+
+If it is done correctly you should have 3 instruments in the beat and bassline editor box (from here this editor will be called bnb box).  Push the play button located on the bnb box.  you should hear silence.  if you press on the small tombstone like icon on the bassdrums instrument line you should eventualy hear the drum with a flash from the the instruments sounding bar (it only lights up when it is being played.) For this part 0 will mean that the instrument bar is left blank.  1 will mean that the instrument bar is active.
+
+Your first Bassdrum line will be 1 0 0 0 | 0 0 1 0 | 0 0 0 0 | 0 0 0 0.
+
+Your first HiHat line will be 1 0 0 0 | 1 0 0 0 | 1 0 0 0 | 1 0 0 0.
+
+Your first Snare line will be 0 0 0 0 | 0 0 0 0 | 1 0 0 0 | 0 0 0 0.
+
+When done correctly this will make a simple drum beat.  We have the beat now we need the melody.  (you can push stop now) 
+
+In the next section we will cover why you should have stuck with those piano lessons.  
+
+  
+
+
+
+
+
 == The Interface ==
 Disclaimer: the interface may vary slightly based on which version is installed. 
 
