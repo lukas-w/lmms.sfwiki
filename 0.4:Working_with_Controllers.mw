@@ -2,8 +2,11 @@ The purpose of LFO controllers are wave-form-pattern automation of controls. Ver
 This subject has been excellently covered in a series of video tutorials on Youtube. We have the author's permission to link to these tutorials, and recommend anyone who is interested in this subject to start with these:
 <br>
 http://www.youtube.com/watch?v=G3Wy7CBhhow&feature=channel
+<br>
 http://www.youtube.com/watch?v=az3fGAFh_B8&feature=channel
+<br>
 http://www.youtube.com/watch?v=1yuaQY2Xs5M&feature=channel
+<br>
 http://www.youtube.com/watch?v=PXUrhL0zmhQ&feature=channel
 <br>
 Currently (0.4.6) you will get a series of error-messages when you load a project that has LFO controllers. This might startle you, but there is no reason for alarm. Even though LMMS will complain about the connections, the project will load correctly and all connections are preserved.
