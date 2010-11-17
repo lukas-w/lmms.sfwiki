@@ -56,12 +56,46 @@ http://www.youtube.com/watch?v=pFy8tipBbB8
 
 = Editing Notes =
 
-== Copy and paste ==
-
-== Note velocities ==
+== Selecting ==
 
 
-•	[[File:Pianorollselect.png]]
+	[[File:Pianorollselect.png]]
+
+The Select tool allows a single note or a group (a rectangular area) of notes to be selected.  Selected notes turn blue.  Once a selection has been made, you can move, delete, cut, copy, paste it.
+
+A shortcut.  The pencil tool is used often,  but cannot be used to select notes.  Instead of switching from pencil to select and back again, you can hold down the CTRL key.  You will see the draw cursor temporarily change  into the select cursor.  This is the method used in the information below, where it is assumed we are in draw mode.
+
+To select a note, hold down CTRL, and click it.  It turns blue.
+
+To select several notes, hold down CTRL, and drag open  a rectangle with the left mouse button.  The notes in the rectangle turn blue.
+
+To move a selection, use the 'cross-hairs' cursor, and drag the note.  For several notes, use any single note.  The complete selection moves with the selected note.
+
+To duplicate a selection - leaving the original intact - hold down SHIFT as you drag.
+
+
+== Cut, Copy and Paste ==
+
+The buttons can be used, or keys:
+
+CTRL  x      cut
+
+CTRL  c      copy
+
+CTRL  v      paste
+
+The position to paste notes cannot be chosen.  The notes are dropped on the piano roll away from your existing notes, and you can drag then(up, down, left, right) to wherever you want.
+
+
+
+
+
+== Note velocities (Changing Volume) ==
+
+The volume of an individual note can be changed, at the bottom of the piano roll.  Drag the yellow tip up/down.   The note dims slightly, as shown below.
+
+
+     [[File:Volume.png]]
 
 = Navigation =
 
