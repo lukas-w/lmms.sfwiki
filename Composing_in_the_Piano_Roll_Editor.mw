@@ -26,6 +26,7 @@ The start time of a note is '''quantised''' to the fraction of a beat shown in t
 
 == By keyboard ==
 
+[[File:keyboard-pianoKeys1.png|400px|thumb|right|keyboard as piano]]
 You can also '''record''' yourself playing the notes either on a MIDI keyboard or on the computer's keyboard using the record button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-playback-record.png).  When recording, you will hear a 'click' sound every beat to help you stay in sync with the time signature.  It can also be useful to set the quantisation to the minimum your piece requires; so even if you play a little early or late, the note will be placed in the piano roll at the correct time.  You may still have to go through and edit the notes (as above) to make sure they're positioned correctly and to remove mistakes.
 
 LMMS also give you the option to record in ‘playing along mode’. For this type of recording you use the record-button with the black center. LMMS will play the existing notes on piano-roll and allow you to play notes simultaneously. The notes you play will be recorded.
