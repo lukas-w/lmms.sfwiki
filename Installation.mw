@@ -3,6 +3,16 @@
 
 This is meant to be a very basic and linear tutorial on how to install LMMS.
 
+= Installation Under Windows =
+
+Download the win32.exe file from:
+
+https://sourceforge.net/projects/lmms/files/
+
+Run it, and follow the installation instructions.
+
+
+
 = http://gsmartcontrol.berlios.de/home/images/os_icons/linux.png Installation under Linux =
 
 '''Please note that many distributions only ship outdated versions of LMMS (0.3.x or even older!). It's strongly advised against using these old versions as they're rather unstable and feature-incomplete compared to the current 0.4.x series!'''
