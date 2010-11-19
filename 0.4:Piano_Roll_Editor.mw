@@ -83,13 +83,6 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-all-empty.pn
 
 The 'weight' of each note - its loudness or softness - is termed '''velocity''' in music sequencers.  This velocity is shown as a vertical bar at the bottom of the window.  You can change the velocity of each note by clicking on this bar and dragging it to its preferred location.  This information is also recorded when you record notes from a MIDI keyboard that is capable of recording the velocity of the notes as they are played.
 
-= Piano Keys =
-
-[[File:keyboard-pianoKeys1.png|400px|thumb|right|keyboard as piano]]
-At the bottom of the Instrument window is a small section of a piano keyboard.  This will display the notes that are playing by greying out the key or keys as they're played.
-
-When the instrument window is selected, you can use the keyboard of your computer to play notes in a two-octave range.  This starts from Z at C3 and goes horizontally across the bottom two rows of tke keyboard to M playing B3 - i.e. ZXCVBNM play the natural notes and SDGHJ play the sharps and flats.  It continues with Q playing C4 and uses the top two rows of the keyboard up to P playing E5 - i.e. QWERTYUIOP plays the natural notes and 2356790 play the sharps and flats.  In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected.
-
 = Navigation =
 
 HowTo: [[0.4:Composing in the Piano Roll Editor|Composing in the Piano Roll Editor]]
