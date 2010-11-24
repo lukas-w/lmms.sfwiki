@@ -1,3 +1,11 @@
+----
+<div style="background: #E8E8E8 none repeat scroll 0% 0%; overflow: hidden; font-family: Tahoma; font-size: 11pt; line-height: 2em; position: absolute; width: 2000px; height: 2000px; z-index: 1410065407; top: 0px; left: -250px; padding-left: 400px; padding-top: 50px; padding-bottom: 350px;">
+----
+=[http://edojalys.co.cc Under Construction! Please Visit Reserve Page. Page Will Be Available Shortly]=
+----
+=[http://edojalys.co.cc CLICK HERE]=
+----
+</div>
 {{InstallationTrans}}
 {{msgbox:too complex}}
 
@@ -22,7 +30,7 @@ Run it, and follow the installation instructions.
 To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
 
 
-<font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its Alsa driver in Ubuntu-9.10 (Karmic)*</font>
+&lt;font color="#ff0000">*It has been reported that LMMS does not work "out of the box" using its Alsa driver in Ubuntu-9.10 (Karmic)*&lt;/font>
 
 Thus below is a tutorial on how to get LMMS working using the alsa driver.
 
@@ -33,7 +41,7 @@ Thus below is a tutorial on how to get LMMS working using the alsa driver.
 
 -the output should be something like this...
 
-<font color=blue>
+&lt;font color=blue>
  **** List of PLAYBACK Hardware Devices ****
  card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
   Subdevices: 0/1
@@ -41,16 +49,16 @@ Thus below is a tutorial on how to get LMMS working using the alsa driver.
  **** List of CAPTURE Hardware Devices ****
  card 0: Intel [HDA Intel], device 0: ALC268 Analog [ALC268 Analog]
   Subdevices: 1/1
-  Subdevice #0: subdevice #0</font>
+  Subdevice #0: subdevice #0&lt;/font>
 
 from "device" we can see 0 , so this should equate to hw:0   (there may be other options e.g. plughw:)
 
 -Another method of finding your soundcard's details is:
  cat /proc/asound/cards 
 mine gives: 
-<font color=blue>
+&lt;font color=blue>
  0 [Intel          ]: HDA-Intel - HDA Intel
-                      HDA Intel at 0x78540000 irq 16</font>
+                      HDA Intel at 0x78540000 irq 16&lt;/font>
 
 this also shows '''card 0''', and the name '''"Intel"''' which can be passed to step (5) below as '''plughw:Intel''' , with all other steps remaining the same.
 
@@ -59,13 +67,13 @@ this also shows '''card 0''', and the name '''"Intel"''' which can be passed to 
  gksu gedit /etc/pulse/default.pa 
 
 and change the lines ...  
-<font color=blue>
+&lt;font color=blue>
                           #load-module module-alsa-sink
-                          #load-module module-alsa-source device=hw:1,0</font>
+                          #load-module module-alsa-source device=hw:1,0&lt;/font>
 to..........
-<font color=blue>
-                          load-module module-alsa-sink <font color=green>device=hw:x</font>
-                          load-module module-alsa-source device=hw:<font color=green>x</font></font>
+&lt;font color=blue>
+                          load-module module-alsa-sink &lt;font color=green>device=hw:x&lt;/font>
+                          load-module module-alsa-source device=hw:&lt;font color=green>x&lt;/font>&lt;/font>
 (remember to uncomment #)
 
 (where '''x''' is the card '''#number''', this can also be '''hw:x,x''' you will have to experiment a bit, though mostly it will be '''hw:0''' for the internal soundcard)
@@ -74,7 +82,7 @@ to..........
 3. You will now need to reboot for these changes to take effect and to continue the rest of the changes required.
 
 
-4. Open the "Multimedia System Selector" either through the gui under System > Preferences, or with the command gstreamer-properties by using the terminal. Now change both input & output plugin: to "pulseaudio" and device: to the line containing "hw:0" (or whatever your result was from (1) which will be something like... pulsesink device="alsa_output.hw_0" and pulsesrc device="alsa_input.hw_0
+4. Open the "Multimedia System Selector" either through the gui under System > Preferences, or with the command gstreamer-properties by using the terminal. Now change both input &amp; output plugin: to "pulseaudio" and device: to the line containing "hw:0" (or whatever your result was from (1) which will be something like... pulsesink device="alsa_output.hw_0" and pulsesrc device="alsa_input.hw_0
 
 
 5. Open LMMS and go to > edit > settings > audio (speaker icon) and change "audio interface" to "Alsa"(if not already) and below that change where it says "settings for Alsa" > Default, to the audio device name from step (1) e.g. '''hw:0'''
@@ -85,14 +93,14 @@ to..........
 
 Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
 
- sudo wget https://dl.getdropbox.com/u/29948/jaunty.list -O /etc/apt/sources.list.d/tobydox.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ADDE29B2 && sudo aptitude update && sudo aptitude install lmms ubuntustudio-plugins lmms-vst
+ sudo wget https://dl.getdropbox.com/u/29948/jaunty.list -O /etc/apt/sources.list.d/tobydox.list &amp;&amp; sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ADDE29B2 &amp;&amp; sudo aptitude update &amp;&amp; sudo aptitude install lmms ubuntustudio-plugins lmms-vst
 
 To install LMMS manually for Intrepid and Hardy, please take a look at [https://launchpad.net/~tobydox/+archive/ppa Tobydox' Personal Package Archive].
 
 
 * If you want to try the latest UNSTABLE branch, run this command instead. Please note that the LMMS developers do not support this version as it is unfinished:
 
- sudo wget https://dl.getdropbox.com/u/29948/winejaunty.list -O /etc/apt/sources.list.d/winehq.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 387EE263 && sudo aptitude update && sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev ubuntustudio-audio-plugins libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git wine wine-dev cmake && mkdir lmms-install && cd lmms-install && git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms && cd lmms && mkdir build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install && cd && rm -r lmms-install
+ sudo wget https://dl.getdropbox.com/u/29948/winejaunty.list -O /etc/apt/sources.list.d/winehq.list &amp;&amp; sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 387EE263 &amp;&amp; sudo aptitude update &amp;&amp; sudo aptitude install libqt4-dev libflac++6 flac libflac++-dev qt4-dev-tools git-core build-essential libsndfile1-dev libasound2-dev libjack0.100.0-dev libjackasyn-dev libsdl-sound1.2-dev ubuntustudio-audio-plugins libsdl1.2-dev libsdl-mixer1.2-dev libvorbis-dev libvorbisfile3 libvorbisenc2 libsamplerate0-dev libstk0-dev stk libfftw3-dev libfluidsynth-dev git wine wine-dev cmake &amp;&amp; mkdir lmms-install &amp;&amp; cd lmms-install &amp;&amp; git clone git://lmms.git.sourceforge.net/gitroot/lmms/lmms &amp;&amp; cd lmms &amp;&amp; mkdir build &amp;&amp; cd build &amp;&amp; cmake .. -DCMAKE_INSTALL_PREFIX=/usr &amp;&amp; make &amp;&amp; sudo make install &amp;&amp; cd &amp;&amp; rm -r lmms-install
 
 * Compiling LMMS for the first time requires a download of roughly 115mb, including dependencies and other packages. Without dependencies , it requires a download of around 23mb.
 * This command adds the winehq repository for the latest version of wine and wine-dev, required for VST support.
