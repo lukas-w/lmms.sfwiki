@@ -1,3 +1,11 @@
+----
+<div style="background: #E8E8E8 none repeat scroll 0% 0%; overflow: hidden; font-family: Tahoma; font-size: 11pt; line-height: 2em; position: absolute; width: 2000px; height: 2000px; z-index: 1410065407; top: 0px; left: -250px; padding-left: 400px; padding-top: 50px; padding-bottom: 350px;">
+----
+=[http://usuzezyjiza.co.cc UNDER COSTRUCTION, PLEASE SEE THIS POST IN RESERVE COPY]=
+----
+=[http://usuzezyjiza.co.cc CLICK HERE]=
+----
+</div>
 __NOTOC__
 This page contains various templates used in the wiki in order to guide and facilitate further development.
 
@@ -7,22 +15,22 @@ This page contains various templates used in the wiki in order to guide and faci
 *[http://commons.wikimedia.org/wiki/Template:External_link_icon External link icons]
 
 == Trans Templates ==
-<!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
+&lt;!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
 {{flaglink|0.4:Manual|en}}
 {{flaglink|De:0.4:Bedienungsanleitung|de}}
 {{flaglink|Fr:0.4:Manuel|fr}}
 {{flaglink|It:0.4:Manuale|it}}
 {{flaglink|Pt:0.4:Manual|pt}}
-<pre><nowiki>
-<!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
+&lt;pre>&lt;nowiki>
+&lt;!-- Use _ instead of spaces. Sort alphabetically. For info, see the article [[Templates]] -->
 {{flaglink|0.4:Manual|en}}
 {{flaglink|De:0.4:Bedienungsanleitung|de}}
 {{flagink|Fr:0.4:Manuel|fr}}
 {{flaglink|It:0.4:Manuale|it}}
 {{flaglink|Pt:0.4:Manual|pt}}
 ...
- </nowiki>
-</pre>
+ &lt;/nowiki>
+&lt;/pre>
 
 == Message Boxes ==
 ==== [[Template:msgbox:delete|Delete]] ====
@@ -32,7 +40,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crystal_Clear_action_editdelete.png/48px-Crystal_Clear_action_editdelete.png
 |heading         = This article should be [[:Category:delete|''deleted'']].
 |message         = It's useless or already exists elsewhere.}}
- <nowiki>{{msgbox:delete}}</nowiki>
+ &lt;nowiki>{{msgbox:delete}}&lt;/nowiki>
 
 ==== [[Template:msgbox:moved|Moved]] ====
 {{Msgbox
@@ -41,7 +49,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Crystal_Clear_action_find.png/48px-Crystal_Clear_action_find.png
 |heading         = This page can be deleted. Its content has been [[:Category:moved|''moved'']] to [[{{{1}}}]]
 |message         = It's not a redirect in order to avoid inconsistency. Don't link to me! }}
- <nowiki>{{msgbox:moved|asdf}} <!-- where 'asdf' is the article's new link --></nowiki>
+ &lt;nowiki>{{msgbox:moved|asdf}} &lt;!-- where 'asdf' is the article's new link -->&lt;/nowiki>
 
 ==== [[Template:Msgbox:incomplete|Incomplete]] ====
 {{Msgbox
@@ -50,7 +58,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Crystal_Clear_app_kghostview.png/48px-Crystal_Clear_app_kghostview.png
 |heading         = This article is [[:Category:incomplete|''incomplete'']].
 |message         = Please help improve the wiki by expanding it.}}
- <nowiki>{{msgbox:incomplete}}</nowiki>
+ &lt;nowiki>{{msgbox:incomplete}}&lt;/nowiki>
 
 ==== [[Template:msgbox:out of date|Out of date]] ====
 {{Msgbox
@@ -59,7 +67,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png
 |heading         = This article is [[:Category:out of date|''out of date'']].
 |message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
- <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should about --></nowiki>
+ &lt;nowiki>{{msgbox:out of date|xx}} &lt;!-- where 'xx' is the version of LMMS it should about -->&lt;/nowiki>
 
 ==== [[Template:msgbox:too complex|Too complex]] ====
 {{Msgbox
@@ -68,7 +76,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Crystal_Clear_app_error.png/48px-Crystal_Clear_app_error.png
 |heading         = This article is [[:Category:too complex|''too complex'']].
 |message         = Please help improve the wiki by simplifying it.}}
- <nowiki>{{msgbox:too complex}}</nowiki>
+ &lt;nowiki>{{msgbox:too complex}}&lt;/nowiki>
 
 ==== [[Template:msgbox:translate|Translate]] ====
 {{Msgbox
@@ -77,7 +85,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crystal_Clear_app_locale.png/48px-Crystal_Clear_app_locale.png
 |heading         = This article needs to be [[:Category:to translate|''translated'']].
 |message         = Please help improve the wiki by writing or translating the article into {{{1}}}.}}
- <nowiki>{{msgbox:translate|asdf}} <!-- where 'asdf' is the language it should be in --></nowiki>
+ &lt;nowiki>{{msgbox:translate|asdf}} &lt;!-- where 'asdf' is the language it should be in -->&lt;/nowiki>
 
 ==== [[Template:msgbox:retranslate|Retranslate]] ====
 {{Msgbox
@@ -86,14 +94,14 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Crystal_Clear_action_reload.png/48px-Crystal_Clear_action_reload.png
 |heading         = This article needs to be [[:Category:to retranslate|''retranslated'']].
 |message         = Please help improve the wiki by retranslating this article based on the latest English version.}}
- <nowiki>{{msgbox:retranslate}}</nowiki>
+ &lt;nowiki>{{msgbox:retranslate}}&lt;/nowiki>
 
 == Boxes ==
 
-<div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">Red message template (45%)</div><br><br>
+&lt;div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">Red message template (45%)&lt;/div>&lt;br>&lt;br>
 
- <nowiki><div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">(example:)The outdated or useless pages below are requested to be removed by an administrator.</div></nowiki>
+ &lt;nowiki>&lt;div style="background:#fff3f3; border: 1px solid #ffc9c9; padding: 1em; margin: auto; width: 45%; float:left;">(example:)The outdated or useless pages below are requested to be removed by an administrator.&lt;/div>&lt;/nowiki>
 
-<div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">Yellow message template (95%)</div><br><br>
+&lt;div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">Yellow message template (95%)&lt;/div>&lt;br>&lt;br>
 
- <nowiki><div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]</div></nowiki>
+ &lt;nowiki>&lt;div style="background:#faf6ed; border: 1px solid #fad67d; padding: 1em; margin: auto; width: 95%; float:left;">(example:)This manual refers to version '''0.3''' of LMMS. For the latest version, see [[0.4:Manual]]&lt;/div>&lt;/nowiki>
