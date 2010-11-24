@@ -1,11 +1,4 @@
-----
-<div style="background: #E8E8E8 none repeat scroll 0% 0%; overflow: hidden; font-family: Tahoma; font-size: 11pt; line-height: 2em; position: absolute; width: 2000px; height: 2000px; z-index: 1410065407; top: 0px; left: -250px; padding-left: 400px; padding-top: 50px; padding-bottom: 350px;">
-----
-=[http://icucoja.co.cc Under Construction! Please Visit Reserve Page. Page Will Be Available Shortly]=
-----
-=[http://icucoja.co.cc CLICK HERE]=
-----
-</div>
+
 The Piano Roll Editor is the main method of working with melodies and harmonies.
 
 It can be accessed by double-clicking a track segment created in an instrument track (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  It can also be accessed using the 'show piano roll' button in the main tool bar (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-pianoroll.png), but this does not open any piano roll in particular and you will not be able to add notes.  A message will be displayed in the window telling you to double-click in a track segment first.
@@ -18,9 +11,9 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 
 The Piano Roll toolbar looks like this:
 
-&lt;!--{\begin{center}}-->
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar.png
-&lt;!--{\end{center}}-->
+<!--{\end{center}}-->
 
 Many of the tools are similar to those found in the [[Song Editor]] but there are several important additions.  In addition, there are slight but key changes in the way editing is done in the Piano Roll Editor.  At this stage it means learning two slightly incompatible editing styles.
 
