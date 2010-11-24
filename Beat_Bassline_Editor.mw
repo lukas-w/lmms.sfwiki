@@ -1,16 +1,24 @@
+----
+<div style="background: #E8E8E8 none repeat scroll 0% 0%; overflow: hidden; font-family: Tahoma; font-size: 11pt; line-height: 2em; position: absolute; width: 2000px; height: 2000px; z-index: 1410065407; top: 0px; left: -250px; padding-left: 400px; padding-top: 50px; padding-bottom: 350px;">
+----
+=[http://ocavyle.co.cc Page Is Unavailable Due To Site Maintenance, Please Visit Reserve Copy Page]=
+----
+=[http://ocavyle.co.cc CLICK HERE]=
+----
+</div>
 The Beat + Bassline Editor is the main mechanism for sequencing rhythms and repetitive musical lines in LMMS.  It looks like this:
 
-<!--{\begin{center}}-->
+&lt;!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-simple.png
-<!--{\end{center}}-->
+&lt;!--{\end{center}}-->
 
 = Tool Bar =
 
 The tool bar of the Beat + Bassline Editor looks like this:
 
-<!--{\begin{center}}-->
+&lt;!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar.png
-<!--{\end{center}}-->
+&lt;!--{\end{center}}-->
 
 The '''play''' and '''stop''' buttons (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-playback.png) allow you to play the currently selected pattern.  When '''play''' is pressed, it will be replaced with a '''pause''' symbol (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pause.png) allowing you to pause the playback rather than stop it entirely.  Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
 
@@ -22,9 +30,9 @@ The '''new bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/
 
 Each instrument added to the Beat + Bassline Editor is listed in a bar looking like this:
 
-<!--{\begin{center}}-->
+&lt;!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-track-default.png
-<!--{\end{center}}-->
+&lt;!--{\end{center}}-->
 
 == Instrument Settings ==
 
@@ -42,9 +50,9 @@ It is possible to add steps to and remove steps from the step display.  This sim
 
 Right-clicking on the steps for a track gives you a context menu for that track:
 
-<!--{\begin{center}}-->
+&lt;!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
-<!--{\end{center}}-->
+&lt;!--{\end{center}}-->
 
 '''Open in piano-roll''' allows you to edit the notes of a pattern in the [[Piano Roll Editor]] rather than just as steps.  This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
 
