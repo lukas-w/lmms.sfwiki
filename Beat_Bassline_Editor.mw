@@ -1,17 +1,16 @@
-
 The Beat + Bassline Editor is the main mechanism for sequencing rhythms and repetitive musical lines in LMMS.  It looks like this:
 
-&lt;!--{\begin{center}}-->
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-simple.png
-&lt;!--{\end{center}}-->
+<!--{\end{center}}-->
 
 = Tool Bar =
 
 The tool bar of the Beat + Bassline Editor looks like this:
 
-&lt;!--{\begin{center}}-->
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar.png
-&lt;!--{\end{center}}-->
+<!--{\end{center}}-->
 
 The '''play''' and '''stop''' buttons (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-playback.png) allow you to play the currently selected pattern.  When '''play''' is pressed, it will be replaced with a '''pause''' symbol (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pause.png) allowing you to pause the playback rather than stop it entirely.  Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
 
@@ -23,9 +22,9 @@ The '''new bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/
 
 Each instrument added to the Beat + Bassline Editor is listed in a bar looking like this:
 
-&lt;!--{\begin{center}}-->
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-track-default.png
-&lt;!--{\end{center}}-->
+<!--{\end{center}}-->
 
 == Instrument Settings ==
 
@@ -43,9 +42,9 @@ It is possible to add steps to and remove steps from the step display.  This sim
 
 Right-clicking on the steps for a track gives you a context menu for that track:
 
-&lt;!--{\begin{center}}-->
+<!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
-&lt;!--{\end{center}}-->
+<!--{\end{center}}-->
 
 '''Open in piano-roll''' allows you to edit the notes of a pattern in the [[Piano Roll Editor]] rather than just as steps.  This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
 
