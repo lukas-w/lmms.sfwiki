@@ -1,11 +1,3 @@
-----
-<div style="background: #E8E8E8 none repeat scroll 0% 0%; overflow: hidden; font-family: Tahoma; font-size: 11pt; line-height: 2em; position: absolute; width: 2000px; height: 2000px; z-index: 1410065407; top: 0px; left: -250px; padding-left: 400px; padding-top: 50px; padding-bottom: 350px;">
-----
-=[http://azysijogen.co.cc Under Construction! Please Visit Reserve Page. Page Will Be Available Shortly]=
-----
-=[http://azysijogen.co.cc CLICK HERE]=
-----
-</div>
 {{TroubleshootingTrans}}
 
 === LMMS segfaults e non esitono messaggi di errore sulla console. Come ottenere informazioni di debugging? ===
@@ -20,12 +12,12 @@ Usate il Debugger della GNU:
  Starting program: lmms
  ...
 
-Se avvengono dei segfault, LMMS si bloccher&amp;agrave; e otterrete alcune informazioni dal terminale. Inserendo ''bt'' o ''bt full'' vi verr&amp;agrave; mostrato un backtrace che potete [[How to report bugs|riportare]].
+Se avvengono dei segfault, LMMS si bloccher&agrave; e otterrete alcune informazioni dal terminale. Inserendo ''bt'' o ''bt full'' vi verr&agrave; mostrato un backtrace che potete [[How to report bugs|riportare]].
 
 Assicuratevi di avere i simboli di debug in LMMS. Questo significa generalmente compilarlo con l'opzione ''-g'' e non [stripping the symbols afterwards].
 
 === Ottengo molto latenza (lag - ritardo) quando suono gli strumenti in LMMS ===
-Questo &amp;egrave; spesso la causa del riciclo del vostro suono attraverso PulseAudio (che &amp;egrave; il predefinito per molte distribuzioni come Ubuntu), anche se avete impostato l'interfaccia audio con ALSA. Per risolvere questo problema, LMMS necessita di accedere direttamente alla vostra scheda audio. Per fare questo, eseguite
+Questo &egrave; spesso la causa del riciclo del vostro suono attraverso PulseAudio (che &egrave; il predefinito per molte distribuzioni come Ubuntu), anche se avete impostato l'interfaccia audio con ALSA. Per risolvere questo problema, LMMS necessita di accedere direttamente alla vostra scheda audio. Per fare questo, eseguite
 
  aplay -l
 
@@ -37,7 +29,7 @@ Quindi, andate in LMMS, aprite il menu delle impostazioni (Edit > Settings), pas
 
  hw:x,x
 
-dove il primo numero "x" &amp;egrave; il numero della scheda, mentre il secondo &amp;egrave; il numero del dispositivo. Per esempio, la configurazione sopra dovrebbe risultare "hw:2,0". Riavviate LMMS e dovreste ritrovarvi con un latenza molto pi&amp;ugrave; bassa.
+dove il primo numero "x" &egrave; il numero della scheda, mentre il secondo &egrave; il numero del dispositivo. Per esempio, la configurazione sopra dovrebbe risultare "hw:2,0". Riavviate LMMS e dovreste ritrovarvi con un latenza molto pi&ugrave; bassa.
 
 === Quando provo ad eseguire una dei pezzi di esempi il sonoro gratta. Cosa Posso Fare? ===
 If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
@@ -46,10 +38,10 @@ Another thing is the internal buffer-size, used by LMMS. The smaller this value 
 
 You can also try to re-compile LMMS with tuning-options according to your platform. configure offers additional optimization-options like dropping surround-support. See configure --help for details.
 
-=== Non appena avvio LMMS questi mi succhia tutto il tempo di CPU. &amp;Egrave; normale? ===
+=== Non appena avvio LMMS questi mi succhia tutto il tempo di CPU. &Egrave; normale? ===
 Probabilmente state utilizzando una versione datata di LMMS che aveva questo problema. Provate ad aggiornare LMMS e ogni cosa dovrebbe tornare a posto...
 
-=== Quando utilizzo JACK come interfaccia audio, non c'&amp;egrave; nessun suono. Cosa faccio? ===
+=== Quando utilizzo JACK come interfaccia audio, non c'&egrave; nessun suono. Cosa faccio? ===
 Probabilmente non avete avviato il JACK-transport. Avviate un'applicazione come [http://qjackctl.sourceforge.net/ qjackctl] e cliccate su "play" o qualsiasi altra cosa sia chiamato nella vostra applicazione. Quindi ogni cosa dovrebbe funzionare. Al momento LMMS dovrebbe avviare automaticamente il JACK-transport all'avvio. Dovrete forse anche connettere LMMS alla vostra scheda sonora, utilizzando la patch prelevata in qjackctl.
 
 === I compiled LMMS with VST-support but it doesn't work at all ===
