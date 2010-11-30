@@ -131,7 +131,7 @@ The track context menu appears when you right-click on a segment of a track's ac
 The instrument track context menu looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-contextmenu-instrument.png
+http://lmms.sourceforge.net/wiki/images/b/b3/Contextmenu-pianoroll.png
 <!--{\end{center}}-->
 
 This gives you the most options of all the song editor context menus.
@@ -161,7 +161,7 @@ Normally the name of the instrument is given to the segment.  This is copied and
 The sample track context menu looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-contextmenu-sample.png
+http://lmms.sourceforge.net/wiki/images/7/71/Contextmenu-sampletrack.png
 <!--{\end{center}}-->
 
 The actions of each option are essentially the same as those for the instrument track above.
@@ -171,7 +171,7 @@ The actions of each option are essentially the same as those for the instrument 
 The bassline track context menu looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-contextmenu-bassline.png
+http://lmms.sourceforge.net/wiki/images/6/66/Contextmenu-bb-editor.png
 <!--{\end{center}}-->
 
 The actions of each option are essentially the same as those for the instrument track above.  The only addition is:
