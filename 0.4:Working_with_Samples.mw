@@ -26,7 +26,7 @@ Your sound files can be in a number of formats:
 
 = Samples as sounds =
 
-A sample treated just as a sound means that you want to play the sample back at exactly the same pitch and speed it was recorded at.  You can put the sample in an [[AudioFileProcessor Plugin]] [[Instrument]] in the [[Song Editor]] and then create a note in the [[Piano Roll Editor]] that is the length of the sample.  This can take some experimentation to stretch the note out to the length of the sample.  By doing this you are also limited to playing only one sample on this track.  There is an easier way.
+A sample treated just as a sound means that you want to play the sample back at exactly the same pitch and speed it was recorded at.  You can put the sample in an [[AudioFileProcessor Plugin]] [[Instrument]] in the [[Song Editor]] and then create a note in the [[Piano Roll Editor]] that is the length of the sample.  It can take some experimenting to stretch the note out to the length of the sample.  By doing this you are also limited to playing only one sample on this track.  There is an easier way.
 
 In the [[Song Editor]], you can use the '''Add Sample Track''' button (http://img686.imageshack.us/img686/9858/addsampletrackbutton.png) to create a track that plays samples.  Click on the sample track timeline to create a new segment for a sample.  You can then add a sample into that segment by either double-clicking on the segment (which will display a File Open dialog for you to choose the sample to be played) or by dragging a sample from the Side Bar into the segment.  The sample will be played in that segment and the segment will expand to take up the entire length of the sample.  You can further crop the segment shorter (to clip sound off the end) by dragging the end of the sample left or right.  All the regular actions of the song editor apply to samples.
 
@@ -53,18 +53,18 @@ A common use of samples is for percussion and repetitive note patterns.  To do t
 These are some pages where you can find samples for your projects. Remember that samples can be copyrighted. It is up to you to make sure that you can use the samples royalty-free in your projects. Public domain samples are not subject to copyright protection.
 
 [http://www.homemusician.net/ homemusician]
-Homemusician is a huge collection of samples soundfonts and useful articles on making music. A neat search option is placed in the right sidebar
+Homemusician is a huge collection of samples, soundfonts and useful articles on making music. A search option is placed on the right sidebar.
 
 [http://www.atomsplitteraudio.com/samples.php atomsplitteraudio]
-Samples, VSTige instruments and effects collections
+Samples, VSTige instruments and effects collections.
 
 [http://brycecoulson.com/samples/ BcMan's Samples]
 These drum sample packs are royalty free and can be used in your music production.  They will work in most music making programs including FL Studio and LMMS.  Each ZIP file contains 20 single hit 16-bit WAV samples. 
 
 [http://www.freesound.org/index.php Freesounds]
-The Freesound Project is a collaborative database of Creative Commons licensed sounds. Freesound focusses only on sound, not songs. This is what sets freesound apart from other splendid libraries like ccMixter. New to this site? Read the What is Freesound page to learn more! 
+The Freesound Project is a collaborative database of Creative Commons licensed sounds. Freesound focuses only on sound, not songs. This is what sets freesound apart from other splendid libraries like ccMixter. New to this site? Read the What is Freesound page to learn more!
 
-[http://www.samples-share.com/ Sample Share] Samples, Articles and tutorials. User generated and user uploaded content! 
+[http://www.samples-share.com/ Sample Share] Samples, Articles and tutorials. User generated and user uploaded content.
 
 
 
