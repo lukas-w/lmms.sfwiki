@@ -1,6 +1,6 @@
 The Triple Oscillator plugin is a synthesizer which generates sounds by combining the waveforms of up to three function generators.
 
-http://img6.imageshack.us/img6/8240/lmmstripleoscillator.png
+http://lmms.sourceforge.net/wiki/images/a/a5/Plugins-tripleoscillator.png
 
 == Plugin settings ==
 The first panel controls the way the oscillators interact with each other. The available settings are:
