@@ -1,5 +1,7 @@
 Kicker is a kick- and bassdrum synthesizer. It works by starting with a triangle wave at a certain frequency and gradually changing it to another frequency.
 
+http://lmms.sourceforge.net/wiki/images/5/55/Plugins-kicker.png
+
 *'''Start:''' Start frequency
 *'''End:''' End frequency
 *'''Decay:''' Time it takes to get from start frequency to end frequency
