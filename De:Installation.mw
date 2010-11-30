@@ -1,13 +1,12 @@
 {{InstallationTrans}}
-{{msgbox:too complex}}
 
-Dies ist als einfache Einführung gedacht, wie man LMMS installieren kann.
+Dies ist als Einführung gedacht, wie man LMMS installieren kann.
 
 = http://gsmartcontrol.berlios.de/home/images/os_icons/linux.png Installation unter Linux =
 
 '''Bitte beachten, dass viele Distributionen noch alte Versionen (0.3.x oder noch älter) von LMMS enthalten. Es wird nicht empfohlen diese zu nutzen, da sie mitunter sehr instabil laufen und auch nicht die neuesten Funktionen der aktuellen 0.4.x Reihe aufweisen!'''
 
-== http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu ==
+== http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu (9.10) ==
 
 Um die aktuellste Version von LMMS auf Ubuntu 9.10 (Karmic) zu bekommen, öffne das Ubuntu Software Centre und suche nach "LMMS".
 
@@ -17,7 +16,7 @@ Um die aktuellste Version von LMMS auf Ubuntu 9.10 (Karmic) zu bekommen, öffne 
 Hier ist eine Anleitung, wie man LMMS mit den ALSA Treibern nutzen kann.
 
 
-1. Als erster muss man den Namen/die Nummer der Soundkarte herausfinden. Um das zu tun, das Terminal Fenster öffnen und folgendes eingeben:
+1. Als erstes muss man den Namen/die Nummer der Soundkarte herausfinden. Um das zu tun, das Terminal Fenster öffnen und folgendes eingeben:
  aplay -l ; arecord -l
 
 
@@ -71,9 +70,9 @@ to..........
 
 6. Restart LMMS, and hopefully you'll be good to go, (you may/will have to use "gstreamer-properties" to change the device back to default when you are not using LMMS, to be able to hear any other audio streams though)
 
-== http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
+== http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Ältere Versionen von Ubuntu ==
 
-Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
+Ubuntu Jaunty beinhaltet eine alte Version von LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
 
  sudo wget https://dl.getdropbox.com/u/29948/jaunty.list -O /etc/apt/sources.list.d/tobydox.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ADDE29B2 && sudo aptitude update && sudo aptitude install lmms ubuntustudio-plugins lmms-vst
 
@@ -89,20 +88,21 @@ To install LMMS manually for Intrepid and Hardy, please take a look at [https://
 
 == http://gsmartcontrol.berlios.de/home/images/os_icons/gentoo.png Gentoo ==
 
-LMMS is now avaible for Gentoo in the official portage tree.
+LMMS ist für Gentoo nun im offiziellem "portage tree" verfügbar.
 
-So, Gentoo users who want to install LMMS only have to do:
+Gentoo Nutzer die LMMS installieren möchten, müssen nur folgendes eingeben:
 
  # echo "media-sound/lmms **" >> /etc/portage/package.keywords
  # emerge -av lmms
 
 == http://gsmartcontrol.berlios.de/home/images/os_icons/fedora.png Fedora ==
 
-LMMS is now available in the standard Fedora updates repository.  If you wish to use VST plugins, you will need to install the ''lmms-vst'' package as well as the ''lmms'' package.
+LMMS ist nun im Standard Fedora Update Repository verfügbar. <br> 
+Wenn man Vst Plugins nutzen möchte, muss man zusätzlich noch das ''lmms-vst'' Paket installieren. 
 
-Just go to: ''System''/''Administration''/''Add''/''Remove Software'' to choose these packages.
+Einfach hierhin gehen: ''System''/''Administration''/''Hinzufügen''/''Software entfernen'' um entsprechende Pakete auszusuchen.
 
-= http://a.fsdn.com/con/icons/pr/progit@sf.net/git.logo.gif Installing LMMS from Git =
+= http://a.fsdn.com/con/icons/pr/progit@sf.net/git.logo.gif LMMS vom Git installieren =
 
 To install manually from Git (Examples provided assume you're running Debian or Ubuntu GNU/Linux, and that you have '''git''' and '''cmake''' installed):
 
@@ -121,11 +121,11 @@ To install manually from Git (Examples provided assume you're running Debian or 
  sudo make install
 
 
-== Resolving dependencies ==
+== Auflösen von Abhängigkeiten ==
 
-To compile LMMS from sources you need several development libraries, from graphical to sound ones. Some are essential and some are optional.
+Um LMMS kompilieren zu können, benötigt man verschiedene Entwicklungsbibliotheken. Manche sind zwingend notwendig und manche nur empfohlen. 
 
-=== Required libraries ===
+=== Benötigte Bibliotheken (Libraries) ===
 
 * Qt >= 4.3 libs + development files (Qt 4.4 recommended for optimal performance, Qt 4.5 heavily improves GUI performance) 
 ** under Debian based distributions (including Ubuntu) run:
@@ -145,7 +145,7 @@ Next you need to allow LMMS to communicate with your audio hardware, so you have
 
 
 
-=== Optional (but strongly recommended) libraries ===
+=== Empfohlene Bibliotheken ===
 
 To make use of the full LMMS potential you may need to install some extra libraries. Here is a list of some of them:
 
@@ -165,8 +165,13 @@ To make use of the full LMMS potential you may need to install some extra librar
 
 If you don't install all the libraries '''before''' running cmake, you'll receive warnings afterwards. So remove CMakeCache.txt and run cmake again until you get the desired result.
 
-= http://gsmartcontrol.berlios.de/home/images/os_icons/windows.png How to compile LMMS on Windows =
-Note!! This guide is incomplete! I can't get past the libsndfile step.
+= http://gsmartcontrol.berlios.de/home/images/os_icons/windows.png LMMS unter Windows =
+
+Die aktuell veröffentlichte Version von LMMS kann auf der Sourceforge Seite als exe-Datei heruntergeladen werden und dann ganz einfach installiert werden. <br> Es können auch alte und neue Version nebeneinander genutzt werden, ist aber nicht zu empfehlen, da es möglicherweise zu Problemen führen kann. 
+
+== Vom Git installieren ==
+Hierbei handelt es sich um die Entwicklungsversion. Es ist die aktuellste Version, aber sie muss selber kompiliert werden. 
+Achtung: Diese Anleitung ist unvollständig, da es Probleme bei der Installation mit der libsndfile gab/gibt. 
 
   1. install git: http://code.google.com/p/msysgit/downloads/list
      as of this writing, I'm using Git-1.6.4-preview20090730.exe 
@@ -196,7 +201,7 @@ Note!! This guide is incomplete! I can't get past the libsndfile step.
 
 you're good to go! you can test the program with F5 and it will build correctly and automatically set up the debugger. you can also check in your edits with the qtcreator git plugin
 
-= Other Notes =
+= Notizen =
 
 After running cmake you might get the following cmake error:
 
