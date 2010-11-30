@@ -1,5 +1,5 @@
 {{0.4:Key MappingsTrans}}
-{{msgbox:incomplete}}
+
 = Key Mappings =
 
 This is an attempt at a complete listing of what keys activate what functions in various parts of LMMS.  It also stands as a reference to try and tidy up LMMS in future so its interface is more consistent.
@@ -130,7 +130,7 @@ I.e. the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:Piano Roll Edi
 * Ignores bar locking of above.
 |}
 
-== [[Beat Bassline Editor|Beat + Bassline Editor]] ==
+== [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] ==
 {| border="1" cellspacing="0"
 |+
 | Key
@@ -154,7 +154,7 @@ I.e. the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:Piano Roll Edi
 
 |}
 
-== [[Piano Roll Editor]] ==
+== [[0.4:Piano Roll Editor|Piano Roll Editor]] ==
 {| border="1" cellspacing="0"
 |+
 | Key
@@ -266,7 +266,7 @@ I.e. the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:Piano Roll Edi
 |
 |}
 
-== [[Song Editor]] ==
+== [[0.4:Song Editor|Song Editor]] ==
 {| border="1" cellspacing="0"
 |+
 | Key
@@ -340,7 +340,7 @@ I.e. the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:Piano Roll Edi
 
 |}
 
-== [[Automation Editor]] ==
+== [[0.4:Automation Editor|Automation Editor]] ==
 {| border="1" cellspacing="0"
 |+
 | Key
@@ -413,7 +413,7 @@ I.e. the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:Piano Roll Edi
 
 |}
 
-== [[Project Notes]] ==
+== [[0.4:Project Notes|Project Notes]] ==
 {| border="1" cellspacing="0"
 |+
 | Key
