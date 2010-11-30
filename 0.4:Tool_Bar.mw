@@ -56,7 +56,7 @@ however - Piano-roll windows that has been opend with a  double-click in a piano
 
 = Tempo Control =
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png The current '''tempo''' is shown in numerals. This is a standard control, so it can be changed by dragging up and down inside it and it can be automated from its context menu (rightclick).
+http://lmms.sourceforge.net/wiki/images/6/65/Tempo-bpm.png The current '''tempo''' is shown in numerals. This is a standard control, so it can be changed by dragging up and down inside it and it can be automated from its context menu (rightclick).
 
 = Time Signature Controls =
 The default time signature is 4/4. You can change this by mouse-dragging. The separator in the Piano-roll will automatically adapt to the chosen time-signature.
