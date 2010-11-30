@@ -77,9 +77,10 @@ Dann kann man das (mehr oder weniger;) ganz leicht anpassen.
 
 = Wellenform und CPU Auslastungs-Anzeige =
 
-(http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-wave-cpu.png) Letztendlich, die '''Wellenform / CPU Anzeige''' Sie gibt die Wellenform  während der Wiedergabe an. 
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-wave-cpu.png Die '''Wellenform / CPU Anzeige''' zeigt die Wellenform  während der Wiedergabe an. 
 
-Darunter wird die CPU Auslastung durch LMMS mit allen Instrumenten und Effekten angegeben. Man kann die Wellenform-Anzeige durch einfaches daraufklicken ausschalten, wenngleich dadurch der CPU Verbrauch nicht wirklich reduziert wird. 
+Darunter wird die CPU Auslastung durch LMMS mit allen Instrumenten und Effekten angegeben. <br> 
+Man kann die Wellenform-Anzeige durch einfaches daraufklicken ausschalten, wenngleich dadurch der CPU Verbrauch nicht wirklich reduziert wird.
 
 = Navigation =
 
