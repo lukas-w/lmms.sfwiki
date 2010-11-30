@@ -77,7 +77,7 @@ http://lmms.sourceforge.net/download.php
 
 To the right of the tempo control are the master volume and pitch controls.
 
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-master-volume.png The '''Master Volume''' control sets the master volume for the entire song.
+http://lmms.sourceforge.net/wiki/images/5/52/Master-volume.png The '''Master Volume''' control sets the master volume for the entire song.
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-master-pitch.png The '''Master Pitch''' control sets the 'root' note on which every other note in the song is based.  Turn this down to make the piece play at a lower pitch, and vice versa.  <br> 
 This can be useful if you have programmed a reproduction of another song to be in a certain key and, upon checking it against the original, find the original to be in a different key.
