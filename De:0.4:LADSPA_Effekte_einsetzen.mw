@@ -40,7 +40,7 @@ Effekte im Mixer können entweder auf einzelne Kanäle oder auf alle (Master) an
 Man öffnet das Mixer-Fenster (z.B. durch drücken von F9) und ganz rechts befindet sich der Bereich der Effekt-Kette. 
 Um Effekte zu einem bestimmten Kanal hinzuzufügen, muss dieser natürlich ausgewählt sein. 
 Standardmäßig werden alle Kanäle von "FX1" bis "FX64" benannt. 
-Der Name steht in weißer Schrift auf jedem Kanal. Indem man darau klickt, wird dieser ausgewählt und als optische Hilfe  wird die Schrift grün. Nun ist dieser Kanal ausgewählt und alle hinzugefügten Effekte werden auf diesen entsprechenden Kanal angewandt. 
+Der Name steht in weißer Schrift auf jedem Kanal. Indem man darauf klickt, wird dieser ausgewählt und als optische Hilfe  wird die Schrift grün. Nun ist dieser Kanal ausgewählt und alle hinzugefügten Effekte werden auf diesen entsprechenden Kanal angewandt. 
 
 Wenn man ein Effekt für den ersten Kanal "FX1" hinzugefügt hat und jetzt den zweiten Kanal "FX2" anwählt, werden die ausgewählten Effekte des ersten Kanals nicht mehr angezeigt, sondern stattdessen die, des aktuellen Kanals (soweit vorhanden).
 
@@ -52,7 +52,7 @@ Wenn man den sogenannten "Master" Kanal auswählt, werden diese Effekte auf den 
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[]]
+| Prev: [[De:0.4:Mit Automatisierung arbeiten|Mit Automatisierung arbeiten]]
 | Up: [[De:0.4:Bedienungsanleitung|Bedienungsanleitung]]
-| Next: [[]]
+| Next: [[De:0.4:Mit Kontrollreglern arbeiten|Mit Kontrollreglern arbeiten]]
 |}
