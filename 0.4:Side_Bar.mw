@@ -2,9 +2,13 @@
 
 The Side Bar is permanently attached to the left-hand side of the window.  It has two modes, retracted and extended.  In retracted mode it looks like this:
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="50px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/9/97/Sidebar.png
+| style="color: #000" valign="middle"|
 
 It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.<br> When you click on any one section label, the side bar will extend and show you the contents of that section. 
+|}
 
 = Instrument Plugins =
 
@@ -28,49 +32,73 @@ In all sections but the Instrument Plugins section, the listing you get function
 
 These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/1/1b/Sidebar-search.png
+| style="color: #000" valign="middle"|
 
-http://lmms.sourceforge.net/wiki/images/1/1b/Sidebar-search.png Open folders can be smart-searched. 
-For this you use the small input-field in the bottom. This makes it possible for you to find an item with token search.<br> Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.
+Open folders can be smart-searched. 
+For this you use the small input-field in the bottom.<br>
+This makes it possible for you to find an item with token search.<br> 
+Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.<br> 
 Smart-search does ''not'' search subfolders!
 
-Right next to the input-field there is an update-button. If you cant find your latest item, press this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
+Right next to the input-field there is an update-button. <br> 
+If you cant find your latest item, press this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
+|}
 
 Lets take a closer look at the tabs.
 
 = My Projects =
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/5/50/Sidebar2-myprojects.png
+| style="color: #000" valign="middle"|
 
-Is the 2. option in the sidebar.
-You get a shortcut to the project folder-browser.
-Depending on your user-created subfolders, there will be a browser-tree.
-Loading a project is simple. Just double-click on the name of the project you like to load. Wait for the project to load ''completely'', before using other features in LMMS!
-
-There are 2 more buttons for accessing projects. Both are in the top speedbar.
-
-The 3. speedbar button points to the projects-folder, and will open a project-browser.
-The 4. speedbar button will open a listing of recently opened projects.
+Is the 2. option in the sidebar. You get a shortcut to the project folder-browser.<br> 
+Depending on your user-created subfolders, there will be a browser-tree. <br> 
+Loading a project is simple. Just double-click on the name of the project you like to load. <br> 
+Wait for the project to load ''completely'', before using other features in LMMS! <br> 
+|}
 
 The next two tabs on the side-bar contain your instruments. They are the Samples and the Instruments. Both have similar behavior. 
 
 = Samples =
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/6/65/Sidebar3-mysamples.png
+| style="color: #000" valign="middle"|
 
-Samples or MySamples as the tab are named, gives you easy access to LMMS samples collection. Samples can be either wave or ogg sound-files. You have smart-search and can update the display. If you place your mouse over a sample-name and left-click it, it will high-light and you can listen to the sample.
+Samples or MySamples as the tab is named, gives you easy access to LMMS samples collection. <br> 
+Samples can be either wave or ogg sound-files. You have smart-search and can update the display. <br> 
+If you place your mouse over a sample-name and left-click it, it will high-light and you can listen to the sample. <br>
 Hold and drag the sample to the song-editor.
-If you double-click on a sample it will be loaded in the Beat-and-bass-editor.
-If you drag a sample into an existing sample in either of the editors, it will replace that sample.
-Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
+If you double-click on a sample it will be loaded in the Beat-and-bass-editor. <br> 
+If you drag a sample into an existing sample in either of the editors, it will replace that sample. <br> 
+Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. <br> 
+When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
+|}
 
 = Presets =
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/1/14/Sidebar4-mypresets.png
+| style="color: #000" valign="middle"|
 
-Presets or MyPresets as the tab is named, gives you easy access to the collection of defined instruments. Presets are saved Instrument-plugins with specific settings that make them sound nice :). You have smart-search and can update the display. But be careful now! You should make it a habit to always save your project before you use pre-listen by placing your mouse over a preset-name. Sometimes this action can crash LMMS. This is particular important if you pre-listen to a VSTige preset! If you want to add the preset to your project, you hold and drag the preset to either-editor.
-If you double-click on a preset it will be loaded in the Beat+Bassline-Editor.
-If you drag a preset into an existing preset in either of the editors, it will replace the previous.
-Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
+Presets or MyPresets as the tab is named, gives you easy access to the collection of defined instruments. <br> 
+Presets are saved Instrument-plugins with specific settings that make them sound nice :). <br> 
+You have smart-search and can update the display. But be careful now! <br> 
+You should make it a habit to always save your project before you use pre-listen by placing your mouse over a preset-name. <br> 
+Sometimes this action can crash LMMS. This is particular important if you pre-listen to a VSTige preset! <br> 
+If you want to add the preset to your project, you hold and drag the preset to either-editor. <br>
+If you double-click on a preset it will be loaded in the Beat+Bassline-Editor. <br>
+If you drag a preset into an existing preset in either of the editors, it will replace the previous. <br> 
+Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. <br> 
+When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
+|}
 
 = Home Directory =
 5. tab in the sidebar, MyHome -is shortcuts to specific folders on your system. On win32/386 pc's these are cookies, desktop, favorites, MyDocuments, start, userdata and WINDOWS
