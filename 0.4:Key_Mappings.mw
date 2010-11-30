@@ -14,24 +14,32 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
+| F5
+| Show [[0.4:Song Editor|Song Editor]]
+|
+|-
 | F6
-| Show [[Beat Bassline Editor|Beat + Bassline Editor]]
+| Show [[0.4:Beat Bassline Editor|Beat+Bassline Editor]]
 |
 |-
 | F7
-| Show [[Piano Roll Editor]]
+| Show [[0.4:Piano Roll Editor|Piano Roll Editor]]
 |
 |-
 | F8
-| Show [[Song Editor]]
+| Show [[0.4:Automation Editor|Automation Editor]]
 |
 |-
 | F9
-| Show [[Automation Editor]]
+| Show [[0.4:FX-Mixer|FX-Mixer]]
 |
 |-
 | F10
-| Show [[Project Notes]]
+| Show [[0.4:Project Notes|Project Notes]]
+|
+|-
+| F11
+| Show Controller Rack
 |
 |-
 | Ctrl-N
