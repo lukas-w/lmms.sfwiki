@@ -1,2 +1,49 @@
 {{0.4:Using MIDITrans}}
 {{msgbox:translate|German}}
+
+
+==MIDI settings==
+http://lmms.sourceforge.net/wiki/screenshots/midi_settings.png
+ALSA-Seq and 'default' as the device settings are the recommended settings. Modify only if necessary.
+==Setting MIDI input/output==
+http://lmms.sourceforge.net/wiki/screenshots/midi_in2.png
+==MIDI tab==
+http://lmms.sourceforge.net/wiki/screenshots/midi_tab.png
+The MIDI tab in an instrument window has some more "advanced" options.
+
+This guide will hopefully allow you to get acquainted with LMMS and get it linked to your keyboard. Future posts will explain some of the more complex and interesting things possible using LMMS.
+
+==Where do I get started?==
+
+Let’s get your keyboard up and running, playing an instrument.
+
+* Turn your keyboard on and make sure it is connected via USB 
+* Refer to your keyboard’s manual to see if there is an option to change the keyboard to “PC Mode”, where no sound will come from the keyboard itself. If there is no option, turning the keyboard’s volume off should suffice.
+* Look at the “song-editor” window. Since you’ve just opened LMMS, there should be a “default preset” at the top. Click on this and you should get a little window that looks somewhat like this:
+
+* Click the word “MIDI” and you’ll go to the MIDI tab.
+* Here, click the button next to “enable MIDI input” and it should light up green.
+* Click the little keyboard icon to the right, with a downward arrow.
+* Look for an option that refers to your keyboard’s brand. For example, on my PC I see “YAMAHA DigitalKBD“
+* Click on this option.
+* Turn your PC speakers on, turn the volume up and play some notes on your keyboard. You should hear an organ-like tone.
+* If you do, congratulations! You’re good to go! See the next section to get some really realistic sounds and effects. 
+* Some operating systems like Windows Vista will not let you change MIDI output device (to chose yout keyboard). To solve that have to make a change in the Windows Registry Editor or install and run programs like VistaMidi.exe from IPE Prodipe VE or Putzlowitschs Vista-MIDIMapper before you use LMMS.
+
+
+==Let’s get some real sounds working!==
+
+* Click the blank page icon in the top left to start a new project.
+* In the song-editor window, click on the tools icon next to each track and click “remove this track“. We want a clean and completely blank canvas to work from.
+* Slightly below the blank page icon is a grey speaker icon, which is the “instrument plugins” menu. Click on it.
+* Each of the options is its own instrument plugin which runs inside LMMS, and can be connected up to your keyboard in the same way as above.
+* Look at the bottom for “Zynaddsubfx“, the most realistic of the plugins which are available. You may also notice there is a plugin for sound samples to be played (audiofileprocessor), a SoundFont plugin (for playing music keyboard tones downloaded from the internet) and even a Game Boy Color sound plugin (freeboy).
+* Drag Zynaddsubfx onto the song-editor.
+* Link it to your keyboard with the above steps.
+* Go to the “plugin” tab in the same window
+* Click “show GUI” and you’ll see something like this, in its own window:
+* Click on the button which says “Click here to load an instrument” (yes, an instrument in an instrument)
+* You’ll get another grey window with lots of blank buttons. Click the drop-down menu at the top and you’ll get this long list of categories. Choose any you like, I recommend “Arpeggio1″ from the “Arpeggio” category. But choose any you like and play around with it for a while. Some of the guitar sounds are impressive too.
+* Enable some of the effects. Go to “Insertion Effects”, change “insert to” to “master out“, then for “EFFtype”, change this to “Reverb”. Now the sound will sound like it’s in a cathedral, or indeed, sound like anything you want it to (you can change the location using the presets menu).
+* I’ll leave it to you to explore what you can to from within this window, as it’ll take days and days. You might be impressed now, but the sheer amount of options available is incredible.
+* Using the same method shown above, you can try other instrument plugins in the same way. Note that only the Zynaddsubfx plugin offers an extra window to change things.
