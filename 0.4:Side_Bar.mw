@@ -2,36 +2,35 @@
 
 The Side Bar is permanently attached to the left-hand side of the window.  It has two modes, retracted and extended.  In retracted mode it looks like this:
 
-<!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted.png
-<!--{\end{center}}-->
+http://lmms.sourceforge.net/wiki/images/9/97/Sidebar.png
 
-It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.  When you click on any one section label, the side bar will extend and show you the contents of that section.
+It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.<br> When you click on any one section label, the side bar will extend and show you the contents of that section. 
 
 = Instrument Plugins =
 
-When you click on the Instrument Plugin button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-plugin.png), the sidebar expands to show you the available instrument plugins:
+When you click on the Instrument Plugin button http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-plugin.png, the sidebar expands to show you the available instrument plugins:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-none.png.
+http://lmms.sourceforge.net/wiki/images/4/4f/Sidebar1-instrumentplugins.png
 <!--{\end{center}}-->
 
 By default, no instrument plugin is selected.  When you hover the mouse over one, its box will expand to include a description of the plugin in question, like so:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-expanded-plugins-audiofile.png
+http://lmms.sourceforge.net/wiki/images/0/0e/Sidebar1-instrumentplugins-info.png
 <!--{\end{center}}-->
 
-You can then drag an instrument plugin to either the [[Song Editor]] or the [[Beat Bassline Editor|Beat + Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat + Bassline Editor.
-
+You can then drag an instrument plugin to either the [[Song Editor]] or the [[Beat Bassline Editor|Beat + Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat + Bassline Editor. 
+<br>
 ----
 
 In all sections but the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name.  To close it again, click the check-box again.
 
 These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
 
-Opend folders can be smart-searched. 
-For this you use the small input-field in the bottom. This makes it possible for you to find a item with token search. Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.
+
+http://lmms.sourceforge.net/wiki/images/1/1b/Sidebar-search.png Open folders can be smart-searched. 
+For this you use the small input-field in the bottom. This makes it possible for you to find an item with token search.<br> Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.
 Smart-search does ''not'' search subfolders!
 
 Right next to the input-field there is an update-button. If you cant find your latest item, press this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
@@ -39,6 +38,9 @@ Right next to the input-field there is an update-button. If you cant find your l
 Lets take a closer look at the tabs.
 
 = My Projects =
+
+http://lmms.sourceforge.net/wiki/images/5/50/Sidebar2-myprojects.png
+
 Is the 2. option in the sidebar.
 You get a shortcut to the project folder-browser.
 Depending on your user-created subfolders, there will be a browser-tree.
@@ -49,9 +51,12 @@ There are 2 more buttons for accessing projects. Both are in the top speedbar.
 The 3. speedbar button points to the projects-folder, and will open a project-browser.
 The 4. speedbar button will open a listing of recently opened projects.
 
-The next two tabs on the side-bar contain your instruments. They are the Samples and the Instruments. Both has similar behavior 
+The next two tabs on the side-bar contain your instruments. They are the Samples and the Instruments. Both have similar behavior. 
 
 = Samples =
+
+http://lmms.sourceforge.net/wiki/images/6/65/Sidebar3-mysamples.png
+
 Samples or MySamples as the tab are named, gives you easy access to LMMS samples collection. Samples can be either wave or ogg sound-files. You have smart-search and can update the display. If you place your mouse over a sample-name and left-click it, it will high-light and you can listen to the sample.
 Hold and drag the sample to the song-editor.
 If you double-click on a sample it will be loaded in the Beat-and-bass-editor.
@@ -59,8 +64,11 @@ If you drag a sample into an existing sample in either of the editors, it will r
 Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
 
 = Presets =
-Presets or MyPresets as the tab are named, gives you easy access to the collection of defined instruments. Presets are saved Instrument-plugins with specific settings that make them sound nice :). You have smart-search and can update the display. But be careful now! You should make it a habit to always save your project before you use pre-listen by placing your mouse over a preset-name. Sometimes this action can crash LMMS. This is particular important if you pre-listen to a VSTige preset! If you want to add the preset to your project, You hold and drag the preset to either-editor.
-If you double-click on a preset it will be loaded in the Beat-and-bass-editor.
+
+http://lmms.sourceforge.net/wiki/images/1/14/Sidebar4-mypresets.png
+
+Presets or MyPresets as the tab is named, gives you easy access to the collection of defined instruments. Presets are saved Instrument-plugins with specific settings that make them sound nice :). You have smart-search and can update the display. But be careful now! You should make it a habit to always save your project before you use pre-listen by placing your mouse over a preset-name. Sometimes this action can crash LMMS. This is particular important if you pre-listen to a VSTige preset! If you want to add the preset to your project, you hold and drag the preset to either-editor.
+If you double-click on a preset it will be loaded in the Beat+Bassline-Editor.
 If you drag a preset into an existing preset in either of the editors, it will replace the previous.
 Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
 
