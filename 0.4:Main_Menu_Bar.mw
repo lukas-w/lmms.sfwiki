@@ -3,12 +3,14 @@
 The main menu bar gives you various options to control the overall functioning of LMMS:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/menubar.png
+[[file:mainmenubar.png]]
 <!--{\end{center}}-->
 
 = Project Menu =
 
 The Project menu allows you to load, save and export projects and import MIDI files.
+
+[[file:mainmenubar1-project.png]]
 
 * '''New''' creates a new project.
 
@@ -32,6 +34,8 @@ The Project menu allows you to load, save and export projects and import MIDI fi
 
 = Edit Menu =
 
+[[file:mainmenubar2-edit.png]]
+
 The first two options in this menu are '''Undo''' and '''Redo'''.  These can be also accessed by pressing the common keys Ctrl-Z and Shift-Ctrl-Z, respectively.  They allow you to step backward, or forward, through a history of edits to your project, reversing mistaken actions or re-applying them.
 
 In this version the undo feature only works correctly for some forms of editing.  In particular, in the [[Piano Roll Editor]] the bulk move, copy and paste facilities using the selection tool and/or clipboard do not get undone or redone correctly.  The developers are aware of this problem and are working on a fix in a future version.
@@ -40,9 +44,13 @@ The third option is '''Settings''', which opens the [[0.4:LMMS Settings|Settings
 
 = Tools Menu =
 
+[[file:mainmenubar3-tools.png]]
+
 The only option currently in this menu is the '''LADSPA Plugin Browser'''.  The [[LADSPA Plugin Browser]] can be used to view information about available LADSPA Plugins, and the alike.
 
 = Help Menu =
+
+[[file:mainmenubar4-help.png]]
 
 There are three items in the Help menu.
 
