@@ -68,7 +68,12 @@ Rechts von der Geschwindigkeitsanzeige befinden sich Regler zur Lautstärke und 
 
 http://lmms.sourceforge.net/wiki/images/5/52/Master-volume.png Der '''Lautstärke''' Regler setzt die Gesamtlautstärke für das ganze Lied.
 
-http://lmms.sourceforge.net/wiki/images/8/8d/Master-pitch.png Der '''Tonhöhen''' Regler setzt die "Grund"-Tonhöhe des Liedes an der sich alle Noten orientieren. Beim herunterdrehen wird das Stück in einer tieferen Tonlage wiedergegeben, und umgekehrt genauso. Das kann hilfreich sein, wenn man ein Lied nachgemacht hat, und feststellt, dass das Original in einer anderen Tonhöhe ist. Oder man möchte das aktuelle Projekt mit einem Lied mischen, das eine andere Tonhöhe hat. Dann kann man das (mehr oder weniger;) ganz leicht anpassen.
+http://lmms.sourceforge.net/wiki/images/8/8d/Master-pitch.png 
+Der '''Tonhöhen''' Regler setzt die "Grund"-Tonhöhe des Liedes an der sich alle Noten orientieren. <br> 
+Beim herunterdrehen wird das Stück in einer tieferen Tonlage wiedergegeben, und umgekehrt genauso. <br> 
+Das kann hilfreich sein, wenn man ein Lied nachgemacht hat, und feststellt, dass das Original in einer anderen Tonhöhe ist. <br> 
+Oder man möchte das aktuelle Projekt mit einem Lied mischen, das eine andere Tonhöhe hat. <br> 
+Dann kann man das (mehr oder weniger;) ganz leicht anpassen.
 
 = Wellenform und CPU Auslastungs-Anzeige =
 
