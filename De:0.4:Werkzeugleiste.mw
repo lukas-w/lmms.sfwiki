@@ -28,19 +28,31 @@ Es wird ausgehend vom aktuellen Abspielort im [[De:0.4:Song Editor|Song Editor]]
 
 = Fenster verwalten =
 
-Die fünf (sieben in der aktuellen Version) Buttons in der zweiten Reihe der Werkzeugleiste öffnen oder schließen die einzelnen Bedienungselemente. Wenn man darauf klickt, hängt die Aktion von der Einstellung des einzelnen Elementen-Fensters ab. Wenn das ausgewählte Element (z.B. der Mixer) nicht im Vordergrund, dann wird es in den Vordergrund gebracht. Wenn es im Vordergrund ist, wird es geschlossen. Wenn es geschlossen ist, wird es geöffnet und in den Vordergrund angezeigt. Wenn ein Bedienfenster geschlossen wird, wird der Inhalt nicht verändert oder gelöscht. 
+Die fünf (sieben in der aktuellen Version) Buttons in der zweiten Reihe der Werkzeugleiste öffnen oder schließen die einzelnen Bedienungselemente.<br>  Wenn man darauf klickt, hängt die Aktion von der Einstellung des einzelnen Elementen-Fensters ab. <br> 
+Wenn das ausgewählte Element (z.B. der Mixer) nicht im Vordergrund, dann wird es in den Vordergrund gebracht. <br> 
+Wenn es im Vordergrund ist, wird es geschlossen. Wenn es geschlossen ist, wird es geöffnet und in den Vordergrund angezeigt. <br> 
+Wenn ein Bedienfenster geschlossen wird, wird der Inhalt nicht verändert oder gelöscht. 
 
-Bei RechtsKlick auf dem Rahmen eines Fensters öffnet sich ein Kontext-Menü. Die Option "Im Vordergrund bleiben" läßt das Fenster immer vor allen anderen Fenster stehen. Das ist z.B. sehr praktisch und hilfreich für den Mixer.
+Bei RechtsKlick auf dem Rahmen eines Fensters öffnet sich ein Kontext-Menü. <br> 
+Die Option "Im Vordergrund bleiben" läßt das Fenster immer vor allen anderen Fenster stehen. <br> 
+Das ist z.B. sehr praktisch und hilfreich für den Mixer.
 
-http://lmms.sourceforge.net/wiki/images/8/82/Menubar-f6-bb-editor.png Der '''Beat/Bassline Editor''' Button zeigt oder versteckt den [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]].
+http://lmms.sourceforge.net/wiki/images/8/82/Menubar-f6-bb-editor.png 
+Der '''Beat/Bassline Editor''' Button zeigt oder versteckt den [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]].
 
-http://lmms.sourceforge.net/wiki/images/3/39/Menubar-f7-pianoroll.png Der '''Piano Roll Editor''' Button zeigt oder versteckt den [[De:0.4:Piano Roll Editor|Piano Roll Editor]].  In diesem Fenster kann man nichts eingeben - nur wenn man vorher ein DoppelKlick auf einem PianoRoll Abschnitt gemacht hat. Dann wird das entsprechende Fenster automatisch angezeigt und kann dementsprechend geöffnet und geschlossen werden.
+http://lmms.sourceforge.net/wiki/images/3/39/Menubar-f7-pianoroll.png 
+Der '''Piano Roll Editor''' Button zeigt oder versteckt den [[De:0.4:Piano Roll Editor|Piano Roll Editor]].  In diesem Fenster kann man nichts eingeben - nur wenn man vorher ein DoppelKlick auf einem PianoRoll Abschnitt gemacht hat. Dann wird das entsprechende Fenster automatisch angezeigt und kann dementsprechend geöffnet und geschlossen werden.
 
-http://lmms.sourceforge.net/wiki/images/8/83/Menubar-f5-songeditor.png Der '''Song Editor''' Button zeigt oder versteckt den [[De:0.4:Song Editor|Song Editor]].
+http://lmms.sourceforge.net/wiki/images/8/83/Menubar-f5-songeditor.png 
+Der '''Song Editor''' Button zeigt oder versteckt den [[De:0.4:Song Editor|Song Editor]].
 
-http://lmms.sourceforge.net/wiki/images/1/1c/Menubar-f8-automation.png Der '''Automations-Fenster''' Button zeigt oder versteckt den [[De:0.4:Automation Editor|Automation Editor]].  Wie auch beim PianoRoll Editor, macht dieser nichts von alleine. Man muss erst die Automation eines Bedienfeldes öffnen (RechtsKlick Kontext-Menü) um die entsprechenden Automations-Daten zu öffnen.
+http://lmms.sourceforge.net/wiki/images/1/1c/Menubar-f8-automation.png 
+Der '''Automations-Fenster''' Button zeigt oder versteckt den [[De:0.4:Automation Editor|Automation Editor]]. <br>
+Wie auch beim PianoRoll Editor, macht dieser nichts von alleine. <br> 
+Man muss erst die Automation eines Bedienfeldes öffnen (RechtsKlick Kontext-Menü) um die entsprechenden Automations-Daten zu öffnen.
 
-http://lmms.sourceforge.net/wiki/images/2/28/Menubar-f10-projectnotes.png Der '''Projekt Notizen''' Button zeigt oder versteckt das [[Project Notes|Projekt Notizen]] Fenster.
+http://lmms.sourceforge.net/wiki/images/2/28/Menubar-f10-projectnotes.png 
+Der '''Projekt Notizen''' Button zeigt oder versteckt das [[Project Notes|Projekt Notizen]] Fenster.
 
 = Tempo Einstellungen =
 
