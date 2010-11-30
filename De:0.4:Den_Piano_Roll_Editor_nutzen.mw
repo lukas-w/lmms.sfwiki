@@ -1,2 +1,108 @@
 {{0.4:Composing in the Piano Roll EditorTrans}}
 {{Msgbox:translate|German}}
+
+The Piano-Roll Editor is the main workspace for composing melodies.
+
+<!--{\begin{center}}-->
+http://img101.imageshack.us/img101/8506/pianoroll.png
+<!--{\end{center}}-->
+
+= Writing Notes =
+
+== By mouse ==
+
+The standard tool for editing notes in the Piano Roll Editor is the pencil tool (http://img96.imageshack.us/img96/6812/pianorolltoolbarediting.png).  With this you can create, move, resize and delete notes.
+
+To '''create''' a note, simply click inside the piano roll grid.  The horizontal dark grey will show you which note on the keyboard you are going to be creating, and when you click the instrument will play that note as an aural cue.
+
+The length of the note created is set by the note length control (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png).  By default this is set to use the length of the last note created or edited.  This is often convenient when creating many notes of the same length.  Alternatively, you can select from a list of standard note lengths, expressed in fractions of a beat.
+
+To '''move''' a note, drag any part of the note (except the end).  You can drag it vertically to change pitch, horizontally to change its start time, or both.
+
+To '''resize''' a note, drag the end of the note.  This simply changes its end 'cut-off' point while keeping the note starting at its original point in time.  You cannot change the start time while keeping the note end at its original point in time - to do this you should move the note to its new start time and then resize it to the desired length.
+
+There are two ways of easily creating a much longer note in a series of short ones (or vice versa) and using the 'last note' length setting above.  One is to create all the notes of one length first at their correct points in time, and then go back and fill in the longer notes; resizing the first longer note will then set the length.  The other way is to create the longer note as a short note, resize it, and then grab the resize handle of a shorter note and resize it to its original length (e.g. move it one quanta shorter and then back).
+
+To '''delete''' a note, right-click on it.  You can also use the eraser tool (http://img198.imageshack.us/img198/6812/pianorolltoolbarediting.png) - when using this, simply left-click on any note to delete it.
+
+The start time of a note is '''quantised''' to the fraction of a beat shown in the quantisation selector (http://img98.imageshack.us/img98/5795/pianorolltoolbarquantis.png).  This controls both where a note starts and its length - both have to be multiples of the quantisation setting.  It does not affect notes that are already created whose property you are not changing - for instance, with quantisation set to 1/32, you can position a note on an odd 32nd (i.e. not on a vertical 1/16th step line); then, with quantisation set to 1/16, you can resize that note and its end point will be forced to be on an even 32nd without changing the start point.  In this example the note would always be an odd number of 32nds in length.
+
+== By keyboard ==
+[[File:keyboard-pianoKeys1.png|400px|thumb|right|keyboard as piano]]
+You can also '''record''' yourself playing the notes either on a MIDI keyboard or on the computer's keyboard (see the picture right) using the record button (http://img24.imageshack.us/img24/9886/pianorolltoolbarplaybac.png).  When recording, you will hear a 'click' sound every beat to help you stay in sync with the time signature.  It can also be useful to set the quantisation to the minimum your piece requires; so even if you play a little early or late, the note will be placed in the piano roll at the correct time.  You may still have to go through and edit the notes (as above) to make sure they're positioned correctly and to remove mistakes.
+
+Once you have finished recording that section, press the '''stop''' button (http://img194.imageshack.us/img194/4457/iconsstop.png) or the space bar to stop recording.
+
+= Real-Time Edits= 
+
+LMMS offers several ways to compose your music. One way that I have found useful is to use the Song-editor in playback-mode simultaneous with an open and active Piano-roll editor.
+This is the setup:
+
+Let's say we have an instrumental bass-line in bar 10. We also have several percussion Beat-and-bass-lines, that overlap bar 10.
+We now want a lead instrument (starting in bar 10) that will go nicely with ''all'' the instruments and percussion.
+To achieve this, it would be great if all the content in the song-editor could run in the background while simultaneously editing done in the lead-track at bar 10.
+
+#Open your Song-editor
+#Set the loop-points from bar 10 to like 18. Eg we plan a lead sequence of 8 bars.
+#Point the 10 bar in the lead-track and click. Open the Piano-roll for the lead-instrument.
+#Go to the context-menu for the Piano-roll.
+#Choose the option "Stay up". Now you can click in lower hierarchy windows without hiding the Piano-roll-editor window.
+#Size ao. place the Piano-roll-editor-window so you can see the Song-editors timeline freely behind the Piano-roll.
+#In the Piano-roll we will initiate the playback by pressing the "Record notes from midi-device"-button.
+#Observe how the playhead in the song-editor now moves synchronized with the playhead in your Piano-roll! Eg. we control the playback of the song-editor with buttons in the Piano-roll!
+#Edits done in the Piano-roll can be heard immediately. You can click the song-editor timeline and both playheads will jump to the new position (without hiding your Piano-roll window).
+#Edit the notes as usual in the Piano-roll.
+If you'd like a video, you can watch one I made on YouTube:
+http://www.youtube.com/watch?v=pFy8tipBbB8
+
+= Editing Notes =
+
+== Selecting ==
+
+
+	[[File:Pianorollselect.png]]
+
+The Select tool allows a single note or a group (a rectangular area) of notes to be selected.  Selected notes turn blue.  Once a selection has been made, you can move, delete, cut, copy, paste it.
+
+A shortcut.  The pencil tool is used often,  but cannot be used to select notes.  Instead of switching from pencil to select and back again, you can hold down the CTRL key.  You will see the draw cursor temporarily change  into the select cursor.  This is the method used in the information below, where it is assumed we are in draw mode.
+
+To select a note, hold down CTRL, and click it.  It turns blue.
+
+To select several notes, hold down CTRL, and drag open  a rectangle with the left mouse button.  The notes in the rectangle turn blue.
+
+To move a selection, use the 'cross-hairs' cursor, and drag the note.  For several notes, use any single note.  The complete selection moves with the selected note.
+
+To duplicate a selection - leaving the original intact - hold down SHIFT as you drag.
+
+
+== Cut, Copy and Paste ==
+
+The buttons can be used, or keys:
+
+CTRL  x      cut
+
+CTRL  c      copy
+
+CTRL  v      paste
+
+The position to paste notes cannot be chosen.  The notes are dropped on the piano roll away from your existing notes, and you can drag then(up, down, left, right) to wherever you want.
+
+
+
+
+
+== Note velocities (Changing Volume) ==
+
+The volume of an individual note can be changed, at the bottom of the piano roll.  Drag the yellow tip up/down.   The note dims slightly, as shown below.
+
+
+     [[File:Volume.png]]
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Mit Samples arbeiten|Mit Samples arbeiten]]
+| Up: [[0.4:Bedienungsanleitung|Bedienungsanleitung]]
+| Next: [[0.4:Den Beat und Bassline Sequenzer nutzen|Den Beat und Bassline Sequenzer nutzen]]
+|}
