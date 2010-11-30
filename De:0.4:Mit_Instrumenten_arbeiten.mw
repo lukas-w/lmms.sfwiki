@@ -1,73 +1,86 @@
 {{0.4:Working with InstrumentsTrans}}
 
-An instrument is a sound generator that plays notes on command.  Each instrument is comprised of a specific plugin that generates the sound and a number of common ways to control the sound generated.  Many parameters of an instrument can be changed in real time using [[0.4:Working with Automation|Automation]].
+Ein Instrument ist ein Sound-Generator, der Noten und Töne auf Befehl abspielt. <br> 
+Jedes Intstrument besteht aus einem bestimmten Plug-In, das den Klang erzeugt und eine Reihe von Möglichkeiten bietet, diesen Sound zu bearbeiten. <br> Viele dieser Parameter können in Echtzeit verändert werden. (siehe:[[De:0.4:Mit Automatisierung arbeiten|Mit Automation arbeiten]])
 
-= Creating an Instrument =
+= Ein Instrument erstellen =
 
-You can create an instrument in a variety of ways. 
-
-The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]]. You drop it in the editor that you want to use it in - most tone-producing instruments (samples and synthesizers) will go into the [[Song Editor]] and drum sounds will go into the [[Beat Bassline Editor|Beat + Bassline Editor]].  This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
-
+Man kann ein Instrument auf verschiedene Art und Weise erstellen. <br> 
+Die gebräuchlichste Methode ist, ein Preset aus dem entsprechenden Abschnitt der [[De:0.4:Seitenleiste|Seitenleiste]] zu ziehen. <br> 
+Man zieht das Instrument in den Editor, in dem man es benutzen möchte - <br> 
+die meisten tonerzeugenden Instrumente (Samples und Synthesizer) kommen in den [[De:0.4:Song Editor|Song Editor]] und Drum-Sounds kommen in den [[De:0.4:Beat Bassline Editor|Beat+Bassline-Editor]]. <br> 
+Das erstellt automatisch eine neue Spur im Song-Editor oder eine neue Linie im Beat+Bassline-Editor.
 
 http://img96.imageshack.us/img96/4769/presetsdemo.png
 
 
 
-You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the editor as above.
+Man kann auch ein neues Instrument erstellen ,in dem man die [[De:0.4:Plugins|Plugin]] Instrumenten Gruppe der Seitenleiste nutzt. <br> 
+Einfach ein Instrument, wie oben beschrieben, in den entsprechenden Editor ziehen. 
 http://img43.imageshack.us/img43/6226/plugindemo.png
 
-= The Instrument Window =
+= Das Instrumenten Fenster =
 
-Various instrument windows looks like this:
+Die verschiedenen Fenster der Instrumente sehen so aus:
 
 <!--{\begin{center}}-->
-http://img59.imageshack.us/img59/2714/tripleoscillator.png
-http://img130.imageshack.us/img130/6513/organic.png
-http://img195.imageshack.us/img195/7711/kicker.png
+http://lmms.sourceforge.net/wiki/images/a/a5/Plugins-tripleoscillator.png
+http://lmms.sourceforge.net/wiki/images/0/03/Plugins-organic.png
+http://lmms.sourceforge.net/wiki/images/5/55/Plugins-kicker.png
 
 <!--{\end{center}}-->
 
-The window is divided up into three main sections - the instrument controls at the top, the sound controls in the middle and the piano keys at the bottom.
+Das Fenster ist in drei Hauptabschitte unterteilt: <br> 
+die allgemeinen Regler sind ganz oben, <br> 
+der Bereich für die Soundveränderung in der Mitte, <br> 
+und die Klaviatur befindet sich ganz unten. 
 
-== Instrument Controls ==
 
-The main controls are:
+== Instrumenten Einstellungen ==
 
-* The instrument's volume.
-* The pitch.
-* The pan.
-* The effects channel that the instrument is currently using.
-* A button to save the settings of this instrument.
+Die Hauptbedienelemente sind:
 
-These are always present no matter what plugin you have selected.
+* Lautstärke des Instruments.
+* Tonhöhe.
+* Pan(orama).
+* Nummer des Effekt-Kanals
+* Möglichkeit, das Instrument mit allen seinen Einstellungen abzuspeichern.
 
-== Sound controls ==
+Diese sind immer vorhanden, egal welches Plug-In man benutzt.
 
-The sound controls section is headed by a selector for five 'tabs':
+== Klang Einstellungen ==
 
-* '''Plugin''' shows the controls for how this particular plugin generates sound.  This is the only tab that changes per plugin.
-* '''Env/LFO/Filter''' shows the controls for the sound's envelope (its loudness over time), its use of the Low Frequency Oscillator, and pitch filtering.
-* '''Arp/Chord''' shows the controls for making the instrument automatically play arpeggios or chords.
-* '''FX''' shows the chain of [[LADSPA]] effects plugins operating on this instrument.
-* '''MIDI''' shows which [[0.4:Using MIDI|MIDI]] channels this instrument will receive and send events on.
+Die Klangregelung wird in fünf Abschnitte (sogenannte 'Tabs') unterteilt: 
 
-Let's deal with these tabs in more detail.
+* '''Plugin''' zeigt die Oberfläche und Bedienelemete für dieses Plug-In an und ändert sich somit für jedes Plug-In. 
+* '''Env/LFO/Filter''' beinhaltet die Regler für Hüllkurven (Envelopes), <br> 
+LFO  shows the controls for the sound's envelope (its loudness over time), its use of the Low Frequency Oscillator, and pitch filtering.
+* '''Arp/Chord''' zeigt die Bedienelemente für den Arppegiator und die Akkord-Einstellungen.
+* '''FX''' zeigt die [[De:0.4:LADSPA Effekte einsetzen|LADSPA]] Effekt-Plugin Kette, die auf dieses Instrument angewendet werden.
+* '''MIDI''' zeigt die [[De:0.4:MIDI benutzen|MIDI]] Kanäle des Instruments an auf denen es Daten sendet und empfängt.
 
-== The Plugin tab ==
+Kommen wir zu den genaueren Beschreibungen der einzelnen Abschnitte ('Tabs'):
 
-The plugin tab contains all the controls that set how this plugin actually generates sound.  For more information on this, read the individual [[Plugins]] page.
+== Der Plugin Abschnitt ==
 
-== The Env/LFO/Filter tab ==
+Der Plugin Abschnitt beinhaltet alle Regler die zur Einstellung dienen, wie dieses Gerät seinen Sound erstellt. <br> 
+Für noch mehr Informationen dazu, liest man am besten die individuellen Beschreibungen der Plugins auf dieser [[De:0.4:Plugins|Seite]].
 
-The Env/LFO/Filter tab looks like this:
+== Der Hüllkurven/LFO/Filter Abschnitt ==
+
+Der Hüllkurven/LFO/Filter Abschnitt sieht wie folgt aus:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
+http://lmms.sourceforge.net/wiki/images/f/f5/Tab-env-lfo.png
 <!--{\end{center}}-->
 
-=== Envelope basics ===
-Perhaps the fist thing that must be emphasized is no VSTige instrument will respond to anything on this tab. We cant use either envelopes nor the filters. VST generates sounds in an internal method, that excludes LMMS envelopes completely!  
-In the plugin-collection that comes with your default LMMS, it is only ZynAddSubFX that cant use the ENV-tab, simply because ZynAddSubFX is in fact a VST-plugin.
+=== Hüllkurven Grundlagen ===
+Es muss an dieser Stelle betont werden, dass kein Vst-Instrument auf Einstellungen dieses Abschnitts reagiert. <br> 
+Es können weder Hüllkurven noch Filter auf ein Vst-Instrument angewandt werden. <br> 
+Vst-Instrumente erstellen ihren Klang intern, das schließt die Nutzung der LMMS Hüllkurven vollständig aus! <br> 
+In der Plugin-Sammlung die mit LMMS mitgeliefert wird, kann nur ZynAddSubFX auch nicht diese Hüllkurven nutzen, aus dem einfachen Grund, weil es sich bei ZynAddSubFX in der Tat auch um ein Vst-Instrument handelt. 
+
+
 
 The '''Envelope''' of an instrument is how loud or soft it is from the moment the note is pressed to after it is released.  Immediately before the note is pressed, the envelope is at zero and the instrument produces no noise.  The note goes through an '''attack''' from when the note is pressed until it reaches its maximum loudness.  From then there is an initial '''hold''' period where the note remains at maximum loudness.  The note then '''decay'''s to a softer pitch which is the '''sustain''' level.  Finally when the note is '''release'''d it fades away to silence.  There may also be a '''pre-delay''' between when the note is pressed and when the volume starts rising.
 
@@ -150,7 +163,7 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 The Arp/Chord tab looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-arp.png
+http://lmms.sourceforge.net/wiki/images/b/b5/Tab-func.png
 <!--{\end{center}}-->
 
 Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously.  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
@@ -180,7 +193,7 @@ The [[LADSPA]] effects allow many ways to control the sound of an instrument.  T
 The FX tab looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-fx.png
+http://lmms.sourceforge.net/wiki/images/b/b3/Tab-fx.png
 <!--{\end{center}}-->
 
 In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument by itself against the 'wet' sound of the effects in place.  The terms '''wet''' and '''dry''' are used often in this context.
@@ -195,7 +208,7 @@ The effects you select are taken from the list installed on your system, so you 
 For instance, here is the LADSPA 'Freeverb' effect added to the effects list:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-fx-freeverb.png
+http://lmms.sourceforge.net/wiki/images/b/b0/Tab-fx1.png
 <!--{\end{center}}-->
 
 Note that some effects will also have ways to set their internal wet/dry level.  This sometimes takes the form of a wet/dry knob, but also can be two knobs to set the level of the wet output and the level of the dry, bypassed, output.
@@ -209,7 +222,7 @@ Note that the CPU increase and signal quality change when using effects is menti
 The MIDI tab looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-midi.png
+http://lmms.sourceforge.net/wiki/images/d/d6/Tab-midi.png
 <!--{\end{center}}-->
 
 These controls allow you to set which MIDI channel the instrument receives MIDI events on, and which it sends events to.  Both these controls work in similar ways:
@@ -235,14 +248,11 @@ The scroll bar at the bottom of the screen allows you to move up and down (i.e. 
 
 = Navigation =
 
-References: [[Plugins]]
+References: [[De:0.4:Plugins|Plugins]]
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[0.4:Your First Song with LMMS]]
-| Up: [[0.4:Manual]]
-| Next: [[0.4:Working with Samples]]
+| Prev: [[De:0.4:Der erste Titel mit LMMS|Das erste Lied mit LMMS]]
+| Up: [[De:0.4:Bedienungsanleitung|Bedienungsanleitung]]
+| Next: [[De:0.4:Mit Samples arbeiten|Mit Samples arbeiten]]
 |}
-
-[[Category:HowTo]]
-[[Category:0.4-Manual]]
