@@ -1,58 +1,74 @@
 {{0.4:Beat Bassline EditorTrans}}
 
-THIS PAGE IS NOT COMPLETELY UPDATED YET
-
 The Beat + Bassline Editor is the main mechanism for sequencing rhythms and repetitive musical lines in LMMS.  It looks like this:
 
 <!--{\begin{center}}-->
-http://img30.yfrog.com/img30/2728/beatbasslineeditor.png
+http://img35.imageshack.us/img35/3290/bbeditor.png
 <!--{\end{center}}-->
+<br>
 
 = Tool Bar =
 
 The tool bar of the Beat + Bassline Editor looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar.png
+http://img810.imageshack.us/img810/7596/bbeditortoolbar.png
 <!--{\end{center}}-->
 
-The '''play''' and '''stop''' buttons (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-playback.png) allow you to play the currently selected pattern.  When '''play''' is pressed, it will be replaced with a '''pause''' symbol (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pause.png) allowing you to pause the playback rather than stop it entirely.  Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
+'''Play''' & '''stop''' buttons allow you to play the currently selected pattern. <br> 
+When '''play''' is pressed, it will be replaced with a '''pause''' symbol allowing you to pause the playback rather than stop it entirely. <br> 
+Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
 
-The next drop-down menu (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-bassline.png) allows you to select the '''bassline''' to edit.  It displays the current bassline being edited.
+http://img31.imageshack.us/img31/6892/bbeditorselect.png  The next drop-down menu allows you to select the '''beat/bassline''' pattern to edit.  It displays the current bassline being edited.
 
-The '''new bassline''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-toolbar-new-bassline.png) creates a new bassline, incrementally numbered from "Beat/Bassline 0" up.  This can (and should) be renamed in the [[Song Editor]] to make it easier to identify which pattern you are editing.
+http://img704.imageshack.us/img704/4571/bbeditornewbb.png 
+The '''add beat/bassline''' button creates a new beat/bassline track, incrementally numbered from "Beat/Bassline 0" up. <br> 
+This can (and should) be renamed in the [[0.4:Song Editor|Song Editor]] to make it easier to identify which pattern you are editing.
 
 = Instrument Track =
 
 Each instrument added to the Beat + Bassline Editor is listed in a bar looking like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-track-default.png
+http://img198.imageshack.us/img198/6500/bbeditortrack.png
 <!--{\end{center}}-->
+
+The instrument settings on the left side and than the step editor to the right. 
 
 == Instrument Settings ==
 
-The instrument settings are very similar to the [[Song Editor]]'s [[Song Editor#The Track Settings bar|track settings]] bar.  This gives you a way to move the instrument up and down in the order, clone or remove the instrument, change or automate the volume, and set the instrument's [[Plugins|plugin]] settings.
+The instrument settings are very similar to the [[0.4:Song Editor|Song Editor]]'s [[0.4:Song Editor#The Track Settings bar|track settings]] bar. <br> 
+This gives you a way to move the instrument up and down in the order, <br>
+clone or remove the instrument, change or automate the volume, and set the instrument's [[Plugins|plugin]] settings.
 
-== Steps ==
+== Step Editor ==
 
-To the right are shown sixteen steps, four to each beat in a four-beat bar.  Each step is a button that can be turned on and off.  When a step is turned on, the sound from the instrument will play at that step in the bar.  The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly.
+To the right are shown sixteen steps, four to each beat in a four-beat bar. <br> 
+Each step is a button that can be turned on and off. <br> 
+When a step is turned on, the sound from the instrument will play at that step in the bar. <br> 
+The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly.
 
-== Adding and removing steps ==
+Adding and removing steps:
 
-It is possible to add steps to and remove steps from the step display.  This simply adds an extra bar (or more) and puts steps in that, so it does not change the tempo of the beats currently in the track or the duration of each step.  You cannot remove steps so that there would be less than sixteen steps.  Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, it makes little sense to add less than sixteen at a time.
+It is possible to add steps to and remove steps from the step display. <br> 
+This simply adds an extra bar (or more) and puts steps in that, <br>
+so it does not change the tempo of the beats currently in the track or the duration of each step. <br> 
+You cannot remove steps so that there would be less than sixteen steps. <br> 
+Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, <br>
+it makes little sense to add less than sixteen at a time.
 
 = Context Menu =
 
 Right-clicking on the steps for a track gives you a context menu for that track:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
+http://lmms.sourceforge.net/wiki/images/6/69/Contextmenu-in-bb-editor.png
 <!--{\end{center}}-->
 
-'''Open in piano-roll''' allows you to edit the notes of a pattern in the [[Piano Roll Editor]] rather than just as steps.  This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
+'''Open in piano-roll''' allows you to edit the notes of a pattern in the [[0.4:Piano Roll Editor|Piano Roll Editor]] rather than just as steps. <br> 
+This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
 
-'''Copy''' and '''Paste''' allow you to copy a set of steps from one track to another, by copying the original track's steps, right-clicking on the new track and choosing Paste.
+'''Copy''' & '''Paste''' allow you to copy a set of steps from one track to another, by copying the original track's steps, right-clicking on the new track and choosing Paste.
 
 '''Mute/Unmute''' allows you to quickly mute or unmute the entire instrument in all patterns.
 
@@ -60,9 +76,12 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/bbeditor-contextmenu.png
 
 '''Change Name''' allow you to change the name of this track from its default of the instrument plugin or sample you loaded.  '''Reset Name''' resets it back to this default.
 
-'''Freeze''' allows you to pre-render the sound of this track.  This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time each time.  While the track is frozen, changes to it do not take effect.  You can thaw a track while playing, but can only refreeze it when playback is stopped.
+'''Freeze''' allows you to pre-render the sound of this track. <br> 
+This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time each time. <br> 
+While the track is frozen, changes to it do not take effect. <br> 
+You can thaw a track while playing, but can only refreeze it when playback is stopped.
 
-'''Add steps''' and '''Remove steps''' allow you to add steps to or remove steps from the bar.  See above for a more complete description.
+'''Add steps''' & '''Remove steps''' allow you to add steps to or remove steps from the bar.  See above for a more complete description.
 
 = Navigation =
 
