@@ -3,7 +3,7 @@
 The Beat + Bassline Editor is the main mechanism for sequencing rhythms and repetitive musical lines in LMMS.  It looks like this:
 
 <!--{\begin{center}}-->
-http://img35.imageshack.us/img35/3290/bbeditor.png
+http://lmms.sourceforge.net/wiki/images/d/d6/Bb-editor.png
 <!--{\end{center}}-->
 <br>
 
@@ -12,30 +12,41 @@ http://img35.imageshack.us/img35/3290/bbeditor.png
 The tool bar of the Beat + Bassline Editor looks like this:
 
 <!--{\begin{center}}-->
-http://img810.imageshack.us/img810/7596/bbeditortoolbar.png
+http://lmms.sourceforge.net/wiki/images/8/8a/Bb-editor-toolbar.png
 <!--{\end{center}}-->
 
 '''Play''' & '''stop''' buttons allow you to play the currently selected pattern. <br> 
 When '''play''' is pressed, it will be replaced with a '''pause''' symbol allowing you to pause the playback rather than stop it entirely. <br> 
 Stopping the playback returns you to the first step in the pattern, pause will allow you to continue from the step last played.
 
-http://img31.imageshack.us/img31/6892/bbeditorselect.png  The next drop-down menu allows you to select the '''beat/bassline''' pattern to edit.  It displays the current bassline being edited.
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/4/4a/Bb-editor-select.png 
+<!--{\end{center}}-->
 
-http://img704.imageshack.us/img704/4571/bbeditornewbb.png 
+The drop-down menu allows you to select the '''beat/bassline''' pattern to edit.  It displays the current beat/bassline being edited.
+
+http://lmms.sourceforge.net/wiki/images/7/70/Button-addbeatbassline.png
 The '''add beat/bassline''' button creates a new beat/bassline track, incrementally numbered from "Beat/Bassline 0" up. <br> 
 This can (and should) be renamed in the [[0.4:Song Editor|Song Editor]] to make it easier to identify which pattern you are editing.
+
+http://lmms.sourceforge.net/wiki/images/4/4a/Button-addautomation.png
+The '''add automation''' button creates a new automation track.
 
 = Instrument Track =
 
 Each instrument added to the Beat + Bassline Editor is listed in a bar looking like this:
 
 <!--{\begin{center}}-->
-http://img198.imageshack.us/img198/6500/bbeditortrack.png
+http://lmms.sourceforge.net/wiki/images/1/17/Bb-editor-trackbar.png
 <!--{\end{center}}-->
 
-The instrument settings on the left side and than the step editor to the right. 
+The '''instrument settings''' on the left side and than the '''step editor''' to the right. 
 
 == Instrument Settings ==
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png
+<!--{\end{center}}-->
 
 The instrument settings are very similar to the [[0.4:Song Editor|Song Editor]]'s [[0.4:Song Editor#The Track Settings bar|track settings]] bar. <br> 
 This gives you a way to move the instrument up and down in the order, <br>
@@ -43,23 +54,17 @@ clone or remove the instrument, change or automate the volume, and set the instr
 
 == Step Editor ==
 
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/d/df/Bb-editor-stepeditor.png
+<!--{\end{center}}-->
+
 To the right are shown sixteen steps, four to each beat in a four-beat bar. <br> 
 Each step is a button that can be turned on and off. <br> 
 When a step is turned on, the sound from the instrument will play at that step in the bar. <br> 
-The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly.
-
-Adding and removing steps:
-
-It is possible to add steps to and remove steps from the step display. <br> 
-This simply adds an extra bar (or more) and puts steps in that, <br>
-so it does not change the tempo of the beats currently in the track or the duration of each step. <br> 
-You cannot remove steps so that there would be less than sixteen steps. <br> 
-Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, <br>
-it makes little sense to add less than sixteen at a time.
+The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly. <br> 
+Right-clicking on the steps for a track gives you a context menu for that track:
 
 = Context Menu =
-
-Right-clicking on the steps for a track gives you a context menu for that track:
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/6/69/Contextmenu-in-bb-editor.png
@@ -81,7 +86,13 @@ This requires much less CPU time to render the sound of the track compared to pl
 While the track is frozen, changes to it do not take effect. <br> 
 You can thaw a track while playing, but can only refreeze it when playback is stopped.
 
-'''Add steps''' & '''Remove steps''' allow you to add steps to or remove steps from the bar.  See above for a more complete description.
+'''Add steps''' & '''Remove steps''' allow you to add steps to or remove steps from the bar. <br> 
+It is possible to add steps to and remove steps from the step display. <br> 
+This simply adds an extra bar (or more) and puts steps in that, <br>
+so it does not change the tempo of the beats currently in the track or the duration of each step. <br> 
+You cannot remove steps so that there would be less than sixteen steps. <br> 
+Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, <br>
+it makes little sense to add less than sixteen at a time.
 
 = Navigation =
 
