@@ -1,130 +1,203 @@
 {{0.4:Song EditorTrans}}
-{{msgbox:out of date|0.4}}
 
-The Song Editor displays the structure of your song.
+The Song Editor displays the structure of the song.
 
-http://img96.imageshack.us/img96/9158/songeditor.png
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/9/9c/Song-editor.png
+<!--{\end{center}}-->
 
-Down the left-hand side of the window are listed the instrument and beat/bassline tracks available; on the right of these is listed the activity of each track at each bar in the song. For beat lines this is simply a block showing that the beat/bassline is active; Instruments will have a small display of the notes in a piano roll. Double-clicking on this small note display will bring up the Piano Roll editor for that instrument at that point in time.
+Down the left-hand side of the window are listed the instrument and beat/bassline tracks available; <br>
+on the right of these is listed the activity of each track at each bar in the song. <br> 
+The scroll bars at the right and bottom of the window allow you to move the segment view around. <br> 
+You can also hold down '''shift''' and use the mouse wheel to scroll horizontally.
 
-= Tracks =
+= Working with Elements =
 
-== The anatomy of a track ==
+Anatomy of a track:
 
-Each track has a section on the left hand side that shows the track tools and settings.  The right hand side displays the segments of audio that the track will play over time.  The right hand side scrolls left and right to show you a window of time from the song; the whole song editor scrolls up and down to show you the various tracks.
+Each track's activity is divided into '''elements'''. <br> 
+http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png
+For '''instrument tracks''', these display a miniature piano roll. <br> 
+Double-clicking on it, the [[0.4:Piano Roll Editor|Piano Roll Editor]] window will open and the notes in that element will be displayed for editing. 
 
-Each track's activity is divided into '''segments'''.  For instrument tracks, these display a miniature piano roll; for beat-bassline tracks it simply displayed a filled (shaded) coloured bar for the length of the beat or bassline; for sample tracks it displays a miniature wave display of the sample.
+http://lmms.sourceforge.net/wiki/images/e/ed/Pattern-sampletrack.png
+For '''sample tracks''' it displays a miniature wave display of the sample. <br> 
+Double-clicking on it, a file open dialog will display allowing you to choose a new sample for that element.
 
-== Adding new tracks ==
+http://lmms.sourceforge.net/wiki/images/3/3d/Pattern-beatbassline.png
+For '''beat + basslines''' this is simply a block showing that the beat/bassline is active.
+It displayes a filled (shaded) coloured bar for the length of the beat or bassline. <br>
+Double-clicking on it, the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] window will open and that beat/bassline will be displayed.
 
-You can add new instrument track to the song editor by dragging them from the Side Bar. The instrument's [[Plugins|plugin]] will be displayed, allowing you to make any changes you need to the sound of the instrument. You can dispel this plugin display by using its close button or by clicking on the instrument name button in the song editor.
+To '''create a new element''', simply left-click on the track activity inside the bar in which you want the segment to start. <br> 
+For instrument and sample tracks, this creates a blank area to put notes or samples in. <br> 
+For beat/bassline tracks, this creates one bar filled with the beat/bassline as programmed.
 
-To add a new beat or bassline track, click the '''add beat/bassline''' button (http://img69.imageshack.us/img69/1264/newbassline.png) to add a new bassline.  Alternatively, you can open the [[Beat Bassline Editor|Beat + Bassline Editor]] and click the '''add beat/bassline''' button (same symbol) to the right of the bassline selector.  You can then right-click on the name of the beat/bassline in the song editor in order to rename it to something more identifiable.
+To '''move an element''', simply drag it around by clicking and holding anywhere inside the segment. <br> 
+Normally this will lock to the start of the bar, but you can free drag (with a 1/64th resolution) the segment by pressing the ''control'' key down ''once you have started dragging''.
 
-To add a new sample track, click the '''add sample-track''' button (http://img686.imageshack.us/img686/9858/addsampletrackbutton.png) to add a new sample track.
+To '''copy an element''', simply hold the ''control'' key down ''before you click'' and then drag the segment to its copies' new location. <br> 
+You can also right-click on the segment, choose ''copy'' from the context menu, <br> 
+click to create a new sample where you want the copy to go, right click and choose ''paste'' from the menu. <br> 
+You can't copy segments of one type to tracks of another type, however. <br> 
+To copy more than once, the control key has to be released and re-pressed before the next drag operation.
 
-Note that there is no button allowing you to add a new instrument track.  This is because you would have to select a plugin for the instrument before the track was created, and this is far easier to do by tradding the correct plugin or preset from the [[Side Bar]].
+To '''delete an element''', click on it using the middle mouse button or right-click on it and choose 'delete' from the context menu. <br> 
+Double-clicking on an element aims to '''edit the element's contents'''. 
 
-== Working with existing tracks ==
-
-=== Moving tracks ===
-
-You can drag instruments and beat/bassline tracks up and down in order to organise them by dragging the 'grip' - the stippled handle on the left-hand side of the instrument line (http://img13.imageshack.us/img13/3373/grabbar.png).  You can also easily make a copy of an entire track by holding down ''Ctrl'' while dragging the grip.
-
-The button next to the stippled handle is a drop-down menu for the track controls, allowing you to clone or remove the track.
-
-=== Resizing tracks ===
-
-By holding down the '''shift''' key and dragging in a track, you can resize the height of a track.  This can be very useful for sample tracks when you need to see more precision in the sample.
-
-=== Scrolling around ===
-
-The scroll bars at the right and bottom of the window allow you to move the segment view around.  You can also hold down '''shift''' and use the mouse wheel to scroll horizontally.
-
-=== Zooming in and out ===
-
-The zoom control (http://img690.imageshack.us/img690/9824/zoomsection.png) allows you to choose a magnification control for the segment area.  Larger magnifications will show detail more clearly, and smaller magnifications will allow you to see more of the playback.  You can also hold down '''ctrl''' and use the mose wheel to control the zoom setting.
-
-== Working with Segments ==
-
-Despite their different content, the ways of working with segments are mostly similar.  Most of the work with segments is done using the edit tool (http://img96.imageshack.us/img96/6812/pianorolltoolbarediting.png).
-
-=== The Edit Tool ===
-
-To '''create a new segment''', simply left-click on the track activity inside the bar in which you want the segment to start.  For instrument and sample tracks, this creates a blank area to put notes or samples in.  For beat and bassline tracks, this creates one bar filled with the bassline as programmed.
-
-To '''move a segment''', simply drag it around by clicking and holding anywhere inside the segment.  Normally this will lock to the start of the bar, but you can free drag (with a 1/64th resolution) the segment by pressing the ''control'' key down ''once you have started dragging''.
-
-To '''copy a segment''', simply hold the ''control'' key down ''before you click'' and then drag the segment to its copies' new location.  You can also right-click on the segment, choose ''copy'' from the context menu, click to create a new sample where you want the copy to go, right click and choose ''paste'' from the menu.  You can't copy segments of one type to tracks of another type, however.  To copy more than once, the control key has to be released and re-pressed before the next drag operation.
-
-To '''delete a segment''', click on it using the middle mouse button or right-click on it and choose 'delete' from the context menu.
-
-Double-clicking on a segment aims to '''edit the segment's contents'''.  If you double-click on an instrument track segment, the [[Piano Roll Editor]] window will open and the notes in that segment will be displayed for editing.  If you double-click on a sample track segment, a file open dialog will display allowing you to choose a new sample for that segment.  If you double-click on a beat or bassline segment, the [[Beat Bassline Editor|Beat + Bassline Editor]] window will open and that beat or bassline will be displayed.
-
-=== The Move Tool ===
-
-The '''Move''' tool (http://img85.imageshack.us/img85/2798/movetool.png) allows you to select a rectangular region of the segments in the tracks and move them as a group.
-
-In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all the segments to the right of the playhead in the song forward or backward one bar at a time. Effectively, Shift-Insert inserts a new bar to the right of the playhead in the song, and Shift-Delete removes a bar, again right to the playhead. Segments that are already at the first bar will not move but other later segments will still move to the left. Hovever -Even though you use the key 'Delete' on your keyboard, you do not delete anything!  Segments will stack as they move to the left.
-
-= The Song Editor toolbar =
-
-The Song Editor window has a toolbar that allows you to control playback of the song, add new tracks, choose edit tools, customise the method of playback, and control the view of the song.
-
-== Playback Buttons ==
-
-* The '''Play''' button (http://img685.imageshack.us/img685/2559/play.png) starts playback at the current cursor point.
-* The '''Stop''' button (http://img194.imageshack.us/img194/4457/iconsstop.png) stops playback if it has been started and moves the cursor depending on what mode you have chosen in the play control tool (see below).
-* While the song is playing, you can use the '''Pause''' button (http://img695.imageshack.us/img695/6259/pauseo.png) to halt playback without moving the cursor.
-* Between the '''Play''' button and the '''Stop''' button there are two gray buttons: "Record samples from Audio-device" and "Record samples from Audio-device while playing song or BB track". These buttons does not work (yet). If you want to make a recording you can do that in the Piano-Roll, where the two record buttons work.
-
-== Add Track Buttons ==
-
-* The '''Add Bassline Track''' button (http://img69.imageshack.us/img69/1264/newbassline.png) allows you to add a new beat / bassline track.
-* The '''Add Sample Track''' button (http://img686.imageshack.us/img686/9858/addsampletrackbutton.png) allows you to add a new sample track, and not to add a new penguin as you may have suspected.  Penguins can only be added to LMMS in audio form.
 
 == Editing Tools ==
 
-* The '''Edit''' tool (http://img96.imageshack.us/img96/6812/pianorolltoolbarediting.png) is the main tool used in the Song Editor.  You use it to create segments in tracks ([[Song Editor#The Edit Tool|see above]]).
-* The '''Move''' tool (http://img85.imageshack.us/img85/2798/movetool.png) allows you to select regions of segments and move them around as one group ([[Song Editor#The Move Tool|see above]]). 
+=== Edit Tool ===
+
+Despite their different content, the ways of working with elements are mostly similar. <br> 
+http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png 
+Most of the work with in the song editor is done using the '''edit tool'''.
+
+=== Move Tool ===
+
+http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
+The '''move tool''' allows you to select a rectangular region of the segments in the tracks and move them as a group.
+
+In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all the elements to the right of the playhead in the song forward or backward one bar at a time. <br> 
+Effectively, Shift-Insert inserts a new bar to the right of the playhead in the song, and Shift-Delete removes a bar, again right to the playhead. <br> Elements that are already at the first bar will not move but other later segments will still move to the left. <br> 
+However - even though you use the key 'Delete' on your keyboard, you do not delete anything! <br> 
+Elements will stack as they move to the left.
+
+= Song Editor Toolbar =
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/b/b1/Song-editor-toolbar.png
+<!--{\end{center}}-->
+
+The Song Editor window has a toolbar that allows you to control playback of the song, add new tracks, choose edit tools, customise the method of playback, and control the view of the song.
+
+
+== Playback Buttons ==
+
+http://lmms.sourceforge.net/wiki/images/2/23/Button-play.png
+The '''Play''' button starts playback at the current cursor point. 
+
+http://lmms.sourceforge.net/wiki/images/2/2d/Button-stop.png
+The '''Stop''' button stops playback if it has been started <br> 
+It moves the cursor depending on what mode you have chosen in the play control tool (see below).
+
+http://lmms.sourceforge.net/wiki/images/b/b4/Button-pause.png 
+While the song is playing, you can use the '''Pause''' button to halt playback without moving the cursor. <br> 
+
+Between the '''Play''' button and the '''Stop''' button there are two other buttons: 
+* "Record samples from Audio-device" 
+* "Record samples from Audio-device while playing song or BB track"
+
 
 == Playback Controls ==
 
-* The '''Autoscroll''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-autoscroll-yes.png) (in versions later than 0.4.5 this button is a blue arrow pointing to the right) is normally turned on.  During playback, the view in the song editor will automatically move to include the current playback point.  If it moves off the right hand edge of the window, the window will be repositioned so it is at the left hand edge.  If the autoscroll button is turned off (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-autoscroll-no.png) (in versions later than 0.4.5 this button is a gray arrow pointing to the right), then the window position will not follow the playback point during playback. 
-* The '''Loop''' button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-loop-no.png) (in versions later than 0.4.5 this button is a green double-arrow)is normally turned off.  When turned on (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-loop-yes.png), the loop points are turned on and playback will loop continuously between the start and end loop points.  This can be useful when testing a particular section of your piece, but it only exists as a playback mode, not as a way to repeat a section a certain number of times.
-* The '''Return''' button controls the way the playback position moves after you halt playback using the stop button (see above).  It has three modes:
-** '''To Start''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tostart.png) - by default, the playback position will return to the start of the song.
-** '''To Before''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tobefore.png) - when in this mode, the playback position will return to the position that it previously started from.  This will usually be where you last placed the playback position.
-** '''Continue''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png) - in this mode, the playback position will not be moved and playback will commence from where it is stopped.
+http://lmms.sourceforge.net/wiki/images/e/e1/Button-autoscroll.png
+The '''Autoscroll''' button is normally turned on. <br> 
+During playback, the view in the song editor will automatically move to include the current playback point. <br> 
+If it moves off the right hand edge of the window, the window will be repositioned so it is at the left hand edge. <br> 
 
-== Zoom Controls ==
+If the autoscroll button is turned off, then the window position will not follow the playback point during playback. <br> 
 
-* The final control is the '''Zoom''' control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-zoom-100.png).  Setting this allows you to control how much detail is shown in the view of the track segments.  The larger this is, the more detail you see; the smaller it is, the more of the song you see in the view.  You can also hold down '''ctrl''' and use the mouse wheel to zoom in and out.
+http://lmms.sourceforge.net/wiki/images/a/af/Button-looppoints.png
+The '''Loop''' button is normally turned off. <br> 
 
-= The Track Settings bar =
+When turned on, the loop points are turned on and playback will loop continuously between the start and end loop points. <br> 
+This can be useful when testing a particular section of your piece, but it only exists as a playback mode, not as a way to repeat a section a certain number of times. <br> 
 
-To the left of the track's activity is a set of buttons and controls that allow you to work with the track as a whole.
+* The '''Return''' button controls the way the playback position moves after you halt playback using the stop button. 
+There are three modes: <br> 
+http://lmms.sourceforge.net/wiki/images/3/3c/Button-settings.png
+'''To Start''' - by default, the playback position will return to the start of the song.
 
-The grey stippled area immediately at the left of the track (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-grabbar.png) is the '''grab bar'''.  This allows you to grab the track and drag it up and down in the order of tracks.  This is very useful since new tracks are, by default, created at the bottom of the track list and you may be adding a track that is logically connected with tracks near the top.
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tobefore.png
+'''To Before''' - when in this mode, the playback position will return to the position that it previously started from. <br> 
+This will usually be where you last placed the playback position. <br> 
 
-Next appears the '''track tools menu''' icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-tools.png). This displays a drop-down menu with two options: '''clone track''' and '''remove track'''.  Cloning a track makes an exact copy of the track and its contents and pastes them at the bottom of the track list.  Hopefully it won't be necessary to explain what removing a track does. :-)
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png
+'''Continue''' - in this mode, the playback position will not be moved and playback will commence from where it is stopped.
 
-After this is the '''mute control''' (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-mute.png).  This allows you to turn off the sound of this track temporarily.  This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument.  Right clicking on the track gives you the option to [[Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control.  Once the automation menu is displayed, right-clicking ''again'' on the control (which will require you to move your mouse slightly to the left) will toggle all the track mute buttons - in other words, all tracks 'on' will be turned 'off' and vice versa.
 
-The rest of the track settings displays the '''sound source''' information.  This varies between instrument tracks, sample tracks and beat/bassline tracks.
+== Adding Tracks ==
 
-For instrument tracks you get a volume control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-volume.png) (also automatable), a drop-down menu to select the track's midi inputs and outputs (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-midi.png), and the button that displays the instrument's plugin (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-plugin.png).
+You can add new instrument tracks to the song editor by dragging them from the [[0.4:Side Bar|Side Bar]]. <br> 
+The instrument's [[Plugins|plugin]] will be displayed, allowing you to make any changes you need to the sound of the instrument. <br> 
+You can dispel this plugin display by using its close button or by clicking on the instrument name button in the song editor.
 
-For sample tracks you get a volume control (likewise also automatable), a button which allows you to set up [[LADSPA|effects]] on the samples in the track, and the name of the sample track (which can be edited by right-clicking on it).
+http://lmms.sourceforge.net/wiki/images/7/70/Button-addbeatbassline.png
+To add a new beat or bassline track, click the '''add beat/bassline''' button. <br> 
+You can right-click on the name of the beat/bassline in order to rename it to something more identifiable.
 
-For beat / bassline tracks, you get an graphic displaying the content of the pattern (clicking on this gives you a file open dialog open to a directory of icons to allow you to choose an icon which reflects the content of the track) and the pattern's name
-(likewise editable with a right-click).
+http://lmms.sourceforge.net/wiki/images/c/c8/Button-addsampletrack.png
+To add a new sample track, click the '''add sample-track''' button.
 
-At the far right of the sound source there is an '''activity bar''' ((http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png) which lights up when the instrument is actually playing.
+Note that there is no button allowing you to add a new instrument track. <br> 
+This is because you would have to select a plugin for the instrument before the track was created, <br>
+and this is far easier to do by trading the correct plugin or preset from the [[0.4:Side Bar|Side Bar]].
 
-= The Track Context menu =
 
-The track context menu appears when you right-click on a segment of a track's activity.  The options presented depend on which type of track it is.
+== Zoom Control ==
+
+http://lmms.sourceforge.net/wiki/images/a/a3/Zoomsection.png 
+The final control is the '''Zoom''' control. <br> 
+Setting this allows you to control how much detail is shown in the view of the track segments. <br> 
+The larger this is, the more detail you see; the smaller it is, the more of the song you see in the view. <br> 
+You can also hold down '''ctrl''' and use the mouse wheel to zoom in and out.
+
+Resizing tracks:
+
+By holding down the '''shift''' key and dragging in a track, you can resize the height of a track. <br> 
+This can be very useful for sample tracks when you need to see more precision in the sample.
+
+
+= Track Settings Bar =
+
+To the left of the track's activity is a set of buttons and controls that allow you to work with the track as a whole. <br> 
+http://lmms.sourceforge.net/wiki/images/f/fa/Trackbar4-automation.png
+
+http://lmms.sourceforge.net/wiki/images/3/35/Grabbar.png
+The grey stippled area immediately at the left of the track is the '''grab bar'''. <br> 
+This allows you to grab the track and drag it up and down in the order of tracks. <br> 
+You can also easily make a copy of an entire track by holding down ''Ctrl'' while dragging the grip. <br> 
+
+http://lmms.sourceforge.net/wiki/images/d/d3/Button-tracksettings.png
+Next appears the '''track tools menu''' icon. This displays a drop-down menu with two options: '''clone track''' and '''remove track'''. <br> 
+Cloning a track makes an exact copy of the track and its contents and pastes them at the bottom of the track list. <br> 
+Hopefully it won't be necessary to explain what removing a track does. :-)
+
+http://lmms.sourceforge.net/wiki/images/8/89/Button-solomute.png
+After this is the '''mute control'''.  This allows you to turn off the sound of this track temporarily. <br> 
+This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument. <br> 
+Right clicking on the track gives you the option to [[0.4:Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control. <br> 
+
+http://lmms.sourceforge.net/wiki/images/5/53/Trackbar-name.png
+
+The rest of the track settings displays the '''sound source''' information. <br> 
+This varies between instrument tracks, sample tracks and beat/bassline tracks.
+
+http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png <br> 
+For '''instrument tracks''' you get a volume and a pan control (also automatable). <br>
+A drop-down menu to select the track's midi inputs and outputs (in track tools menu). <br>
+and the button that displays the instrument's plugin and preset name. <br> 
+Clicking on it opens the actual instrument editor. <br> 
+Right-clicking opens a dialog to rename that track. <br> 
+At the far right of the sound source there is an "activity bar" which lights up when the instrument is actually playing.
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png <br> 
+You can also click on it to preview the sound.
+
+http://lmms.sourceforge.net/wiki/images/b/b5/Trackbar2-sample.png <br> 
+For '''sample tracks''' you get also a volume control (likewise also automatable). <br> 
+Clicking on the track name button allows you to set up [[LADSPA|effects]] on the sample track. <br> 
+Right-clicking opens a dialog to rename that track.
+
+http://lmms.sourceforge.net/wiki/images/6/64/Trackbar3-beatbassline.png <br> 
+For '''beat/bassline tracks''', you get a graphic displaying the content of the pattern. <br> 
+Clicking on it opens the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]], if it's not already open. <br> 
+Right-clicking opens a dialog to rename that track.
+
+= Track Context Menu =
+
+The track context menu appears when you right-click on an element of a track's activity.  The options presented depend on which type of track it is.
 
 == Instrument Tracks ==
 
@@ -146,15 +219,21 @@ This gives you the most options of all the song editor context menus.
 
 '''Paste''' pastes the contents of the clipboard into this segment, overwriting its previous contents.
 
-'''Mute/Unmute''' allows you to turn sound off or on for this track while editing it.  This does not affect the set volume of the track, but acts like the 'mute' button on a mixing desk.
+'''Mute/Unmute''' allows you to turn sound off or on for this track while editing it. 
+This does not affect the set volume of the track, but acts like the 'mute' button on a mixing desk.
 
-'''Clear all notes''' allows you to erase the contents of the clicked-on segment without deleting the segment itself.
+'''Clear all notes''' allows you to erase the contents of the clicked-on segment without deleting the segment itself. <br> 
+Normally the name of the instrument is given to the segment. <br> 
+This is copied and pasted with the contents of the segment, so you can see the original source of this segment. <br> 
 
-Normally the name of the instrument is given to the segment.  This is copied and pasted with the contents of the segment, so you can see the original source of this segment.  '''Reset name''' allows you to reset that name to the name of the instrument plugin of the track, and '''Change name''' allows you to edit it manually.
+'''Reset name''' allows you to reset that name to the name of the instrument plugin of the track, and '''Change name''' allows you to edit it manually.
 
-'''Freeze''' allows you to [[Definitions#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone.  This then cuts down on the workload of rendering this track, which may be useful on lower-powered systems or tracks with complex effects and melodies.  You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
+'''Freeze''' allows you to [[Glossary#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone. <br> 
+This cuts down on the workload of rendering this track, which may be useful on low-powered systems or tracks with complex effects and melodies. <br> 
+You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen. <br> 
 
-'''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern.  This is similar to the same option in the [[Beat Bassline Editor|Beat + Bassline Editor]] but seems to have little purpose here.
+'''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern. <br> 
+This is similar to the same option in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] but seems to have little purpose here.
 
 == Sample Tracks ==
 
@@ -166,9 +245,9 @@ http://lmms.sourceforge.net/wiki/images/7/71/Contextmenu-sampletrack.png
 
 The actions of each option are essentially the same as those for the instrument track above.
 
-== Bassline Tracks ==
+== Beat/Bassline Tracks ==
 
-The bassline track context menu looks like this:
+The beat/bassline track context menu looks like this:
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/6/66/Contextmenu-bb-editor.png
@@ -176,7 +255,9 @@ http://lmms.sourceforge.net/wiki/images/6/66/Contextmenu-bb-editor.png
 
 The actions of each option are essentially the same as those for the instrument track above.  The only addition is:
 
-'''Change color''' allows you to change the colour of the bassline track.  This allows you to coordinate the function or content of the tracks by their colour, allowing you to quickly work out which bassline in a complex rhythm section you are dealing with.
+'''Change color''' allows you to change the colour of the bassline track. <br> 
+This allows you to coordinate the function or content of the tracks by their colour, <br>
+allowing you to quickly work out which bassline in a complex rhythm section you are dealing with.
 
 = Navigation =
 
@@ -191,4 +272,3 @@ Howto: [[Putting the song together]]
 
 [[Category:Reference]]
 [[Category:0.4-Manual]]
-[[Category:Incomplete]]
