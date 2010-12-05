@@ -6,23 +6,23 @@ Here are a list of terms used in LMMS and their meaning.
 == A ==
 
 ; Automation
-: Setting the position of a knob or other control in LMMS over time by a manually-drawn envelope.  Automation is edited in the [[Automation Editor]] for individual controls.  See the article on [[Working With Automation]] for a more task-oriented description.
+: Setting the position of a knob or other control in LMMS over time by a manually-drawn envelope.  Automation is edited in the [[0.4:Automation Editor|Automation Editor]] for individual controls.  See the article on [[0.4:Working with Automation|Working with Automation]] for a more task-oriented description.
 
 == B ==
 == C ==
 
 ; Controller
-: Setting the position of a knob or other control in LMMS over time by a generated envelope such as an [[Definitions#L|LFO]].  This differs from automation because automation is drawn manually by the user and is often not a repeated effect such as a sine, square or saw wave, whereas controllers use such waves to give a regular pattern to a control.
+: Setting the position of a knob or other control in LMMS over time by a generated envelope such as an [[#L|LFO]].  This differs from automation because automation is drawn manually by the user and is often not a repeated effect such as a sine, square or saw wave, whereas controllers use such waves to give a regular pattern to a control.
 
 == D ==
 == E ==
 == F ==
 
 ; Filter
-: A filter alters the frequency spectrum of a sound coming out of an oscillator.  Common filters are low-pass (meaning low frequencies are let through), high-pass (allowing high frequencies through), notch (blocking a narrow range of frequencies), and band-pass (allowing only a narrow range of frequencies).  Filters, even in the digital world, cannot be truly linear - i.e. the graph of the filter's response over frequency shows a curved 'knee' dropping down rather than a vertical line.  This means that a low-pass filter set to 100Hz will let some frequencies lower than that through, although the lower the frequency the more it will be cut.  The steepness of the drop in a filter is called it's [[Definitions#Q|Q]] parameter.  Historically, some analogue filters also introduced 'resonance' or amplification of frequencies around the 'knee' point in the filter - this effect has been used in much electronic music and is included in LMMS.
+: A filter alters the frequency spectrum of a sound coming out of an oscillator.  Common filters are low-pass (meaning low frequencies are let through), high-pass (allowing high frequencies through), notch (blocking a narrow range of frequencies), and band-pass (allowing only a narrow range of frequencies).  Filters, even in the digital world, cannot be truly linear - i.e. the graph of the filter's response over frequency shows a curved 'knee' dropping down rather than a vertical line.  This means that a low-pass filter set to 100Hz will let some frequencies lower than that through, although the lower the frequency the more it will be cut.  The steepness of the drop in a filter is called it's [[Glossary#Q|Q]] parameter.  Historically, some analogue filters also introduced 'resonance' or amplification of frequencies around the 'knee' point in the filter - this effect has been used in much electronic music and is included in LMMS.
 
 ; Freeze
-: To freeze a song or bassline track is to pre-render its sound and play that rather than render the track in real time.  This allows you to render a very complex track that would otherwise take too much CPU time to play with all the other tracks in the song.  While a track is frozen, changes to it do not take effect.  When [[Definitions#T|thawed]], the changes will take effect and the track will once again be rendered in real time as the song progresses.  Tracks can only be frozen when playback is stopped.
+: To freeze a song or bassline track is to pre-render its sound and play that rather than render the track in real time.  This allows you to render a very complex track that would otherwise take too much CPU time to play with all the other tracks in the song.  While a track is frozen, changes to it do not take effect.  When [[Glossary#T|thawed]], the changes will take effect and the track will once again be rendered in real time as the song progresses.  Tracks can only be frozen when playback is stopped.
 
 ; FX
 : Effects. 
@@ -58,7 +58,7 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 == Q ==
 
 ; Q
-: The steepness of the cutoff of a [[Definitions#F|filter]].
+: The steepness of the cutoff of a [[#F|filter]].
 
 == R ==
 == S ==
@@ -68,18 +68,18 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 ; Sample Track
 : A type of [[#T|track]] that is designed to take audio files.  Multiple different [[#S|Samples]] can be placed in one sample track, and they can overlap.  See [[Working with Samples]].
 ; Segment
-: A block in a [[#T|track]] that contains a sample (in the case of a [[#S|sample track]]), notes in a [[#P|piano roll]] or repeats of a [[#B|beat / bassline]].  Each type of [[#T|track]] only uses one type of segment.  See [[Song Editor]].
+: A block in a [[#T|track]] that contains a sample (in the case of a [[#S|sample track]]), notes in a [[#P|piano roll]] or repeats of a [[#B|beat / bassline]].  Each type of [[#T|track]] only uses one type of segment.  See [[0.4:Song Editor|Song Editor]].
 ; Song
-: The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[Song Editor]].
+: The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[0.4:Song Editor|Song Editor]].
 ; Step
-: One sixteenth of a bar in the [[Beat Bassline Editor|Beat + Bassline Editor]]; a single 'tab' in the pattern display.
+: One sixteenth of a bar in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; a single 'tab' in the pattern display.
 
 == T ==
 
 ; Thaw
-: To unfreeze a track, rendering it again in real time during playback.  See [[Definitions#F|freeze]].
+: To unfreeze a track, rendering it again in real time during playback.  See [[#F|freeze]].
 ; Track
-: A row in the [[Song Editor]] containing an instrument, sample track, or beat / bassline.
+: A row in the [[0.4:Song Editor|Song Editor]] containing an instrument, sample track, or beat/bassline.
 
 == U ==
 == V ==
