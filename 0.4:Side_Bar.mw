@@ -7,7 +7,7 @@ The Side Bar is permanently attached to the left-hand side of the window.  It ha
 http://lmms.sourceforge.net/wiki/images/9/97/Sidebar.png
 | style="color: #000" valign="middle"|
 
-It has six sections that provide easy access to the variety of files and presets that you will use in LMMS.<br> When you click on any one section label, the side bar will extend and show you the contents of that section. 
+It has six sections that provide easy access to the variety of '''elements''' (instruments, samples, files and presets) that you will use in LMMS.<br> When you click on any one section label, the side bar will extend and show you the contents of that section. 
 |}
 
 = Instrument Plugins =
@@ -110,9 +110,9 @@ The 6. and final tab on the side-bar let you access your complete pc folder stru
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[0.4:Tool Bar]]
-| Up: [[0.4:Manual]]
-| Next: [[0.4:Plugins]]
+| Prev: [[0.4:Tool Bar|Tool Bar]]
+| Up: [[0.4:Manual|Manual]]
+| Next: [[0.4:Plugins|Plugins]]
 |}
 
 [[Category:Reference]] [[Category:Incomplete]]
