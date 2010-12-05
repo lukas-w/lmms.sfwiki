@@ -35,7 +35,7 @@ The six buttons in the top row deal with opening and saving files.
   
 The seven buttons in the second row show or hide various windows.  When clicked, the action depends on the location of the corresponding window.  If the window selected is not at the front of the LMMS window, it is brought to the front.  If it is at the front, it is closed.  If it is closed, it is opened and brought to the front.  -Or in other words : These buttons are toggle-buttons for LMMS's components. The contents of the window do not disappear when the window is closed.
 
-All GUIs have a useful feature. If you right-click in the top-mostleft cornor, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer, but also for certain special tricks that will allow you to do real-time editing doing replay. See [[04: Real-time edits]].
+All GUIs have a useful feature. If you right-click in the top-mostleft corner, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer, but also for certain special tricks that will allow you to do [[0.4:Composing in the Piano Roll Editor#Real-Time Edits|real-time editing]] during replay.
 
 The Toggle buttons are:
 
@@ -43,8 +43,8 @@ The Toggle buttons are:
 
 [[file:menubar-f6-bb-editor.png]] The '''Beat+Bassline Editor Window''' button shows or hides the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]].
 
-[[file:menubar-f7-pianoroll.png]] The '''Piano Roll Editor Window''' button shows or hides the [[0.4:Piano Roll Editor|Piano Roll Editor]].  If you click the toggle-button in an ''empty'' (new) projet, an empty Piano-Roll window will open, and a message will be shown: "Please open a pattern by double-clicking on it" You cannot edit notes in ''this'' window. What LMMS says is that you opend an Piano-roll editor-window, that ''does not link'' to any track! Use the windows-x or the toggle-button to close this orphant-window.
-however - Piano-roll windows that has been opend with a  double-click in a piano roll segment (block) will open the Piano-roll-editor window ''linked'' to the track that you clicked in! -and you can ''now'' edit its notes. 
+[[file:menubar-f7-pianoroll.png]] The '''Piano Roll Editor Window''' button shows or hides the [[0.4:Piano Roll Editor|Piano Roll Editor]].  If you click the toggle-button in an ''empty'' (new) projet, an empty Piano-Roll window will open, and a message will be shown: "Please open a pattern by double-clicking on it" You cannot edit notes in ''this'' window. What LMMS says is that you opened a Piano-roll editor-window, that ''does not link'' to any track! Use the windows-x or the toggle-button to close this orphant-window.
+However - Piano-roll windows that have been opened with a double-click in a piano roll segment (block) will open the Piano-roll-editor window ''linked'' to the track that you clicked in! -and you can ''now'' edit its notes. 
 
 [[file:menubar-f8-automation.png]] The '''Automation Window''' button shows or hides the global-song [[0.4:Automation Editor|Automation Editor]] window. Global-song automation is different from track-automation. You get access to global-song-automation by right-clicking a LMMS control, and then choose "Edit song-global automation", in the context-menu. ''This'' action will then open the Automation-editor, and you can create an automation-track that is specific for the controll that you access the context-menu from. There are however no visual 'reminders' from this action. In other words: If you do use  "song-global-automation" you should definately make a note in the project-notes. There are afaik no obvious reason to use "song-global-automation". I would definately recommend using an automation track instead, and name it and place it directly next to the track that it controlls.
 
@@ -90,9 +90,9 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-wave-cpu.png Finally, t
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[0.4:Main Menu Bar]]
-| Up: [[0.4:Manual]]
-| Next: [[0.4:Side Bar]]
+| Prev: [[0.4:Main Menu Bar|Main Menu Bar]]
+| Up: [[0.4:Manual|Manual]]
+| Next: [[0.4:Side Bar|Side Bar]]
 |}
 
 [[Category:Reference]]
