@@ -1,17 +1,18 @@
 {{0.4:Automation EditorTrans}}
-{{msgbox:incomplete}}
 
-The Automation Editor allows you to control the absolute value of any automatable control at any point in time during the performance.  This allows you everything from very simple effects like turning the volume on an instrument up at the start of the song, to very complex manipulation of the envelopes or filters of the instrument itself.  Even the controls in [[LADSPA Effects]] can be automated!
-
-= The window itself =
-
-When opened using the Automation Editor button (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-automation.png), the main window looks like this:
+When opened using the Automation Editor button ('''F8'''), the main window looks like this: <br> 
+This is because the content of the automation has to be applied to an actual control. <br> 
+As the text suggests, you need to right-click on a control in order to edit the automation for that control.
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-nopattern.png
+http://lmms.sourceforge.net/wiki/images/e/ef/Automation-editor1.png
 <!--{\end{center}}-->
 
-This is because the content of the automation has to be applied to an actual control.  As the text suggests, you need to right-click on a control in order to edit the automation for that control.
+The Automation Editor allows you to control the absolute value of any automatable control at any point in time during the performance. <br> 
+This allows you everything; from very simple effects like turning the volume on an instrument up at the start of the song, <br> 
+to very complex manipulation of the envelopes or filters of the instrument itself. <br> 
+Even the controls in [[LADSPA Effects]] can be automated!
+
 
 = What can be automated? =
 
@@ -19,24 +20,38 @@ To automate a control, right-click on it and select '''Open in automation editor
 
 The following controls allow you to automate them:
 
-* Almost any knob (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-volume.png).
-* The BPM display (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-tempo.png).
-* Any other control that features seven-segment numeric LED display (e.g. http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-fx-chnl.png).
-* The Instrument plugin's sound position pan and fade (i.e. X and Y axes) (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-general-settings-pan-fade.png) independently.
+* the '''tempo/bpm''' display http://lmms.sourceforge.net/wiki/images/6/65/Tempo-bpm.png and '''time-signature''' display <br> 
+* any other control that features a numeric LED display (e.g. FX-channel) <br>  
+
+* almost any knob (e.g. the volume/pan/pitch/...) http://lmms.sourceforge.net/wiki/images/e/e2/Trackbar-volume.png <br>
+
 * Multi-value selectors such as the waveform shape in the [[TripleOscillator]] Plugin.
-* Radio button selectors such as the '''100x frequency multiplier''' in the Envelope settings of an instrument.
+* Radio button selectors such as the '''100x frequency multiplier''' in the envelope settings of an instrument.
 * The filter selector drop-down menu in the standard instrument plugin.
-* The mute control on any instrument (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-mute.png).
+* The '''mute/solo''' controls on any instrument. http://lmms.sourceforge.net/wiki/images/8/89/Button-solomute.png 
+
+= Automation Editor Toolbar =
+
+The toolbar for the Automation Editor controls much of its functionality, and is similar in many ways to the toolbars of other windows.
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/8/8d/Automation-editor-toolbar.png
+<!--{\end{center}}-->
+
+The fundamental tools are similar in behaviour to their equivalents in the [[0.4:Piano Roll Editor#Piano Roll Tool Bar|Piano Roll Editor]] and their description is not repeated here.  The main changes are:
+
+* There is no record functionality (that I know of).
+* The zoom controls can control both the horizontal and vertical directions of the window.
 
 = Editing automation =
 
 This is a typical view of the automation window:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-volume-channel-default.png
+http://lmms.sourceforge.net/wiki/images/1/14/Automation-editor2.png 
 <!--{\end{center}}-->
 
-The window title '''Default - Channel volume''' tells you that this is editing the volume channel of the Default instrument plugin.
+The window title '''Automation Editor - Lead>Volume''' tells you that this is editing the volume channel of the lead sound.
 
 In the main part of the window we have a graph of the value of the control over time.  The time is listed along the X axis (at the top of the window) and the value of the control is listed along the Y axis.  The editor cursor is linked to horizontal and vertical red lines to make it easier to correlate a value either with a previous or future value or to precisely line it up with a time.
 
@@ -56,13 +71,21 @@ The yellow mark is the '''control point'''.  There is only ever one control poin
 
 == Drawing Control Points ==
 
-Using the Edit tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/icons-pencil-up.png) you can create new points simply by dragging over the graph.  You can also move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can also delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).  You can also quickly select the drawing tool by pressing '''shift-D'''.
+http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png
+Using the Edit tool you can create new points simply by dragging over the graph. <br> 
+You can  move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).  You can also quickly select the drawing tool by pressing '''shift-D'''.
 
-The spacing of control points as you draw is set by the quantisation setting (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png).  By default this is set to 1/16th notes
+http://lmms.sourceforge.net/wiki/images/5/5f/Automation-editor-quantisation.png 
+The spacing of control points as you draw is set by the quantisation setting.  By default this is set to 1/16th notes
 
 == Copying Control Points ==
 
-In version 0.3, each automated control is separate from all others and there is no way to have one set of automation run two controls.  To solve this, you can copy and paste control points from one automated control to another.  On the one hand you can select all the points by pressing ''Ctrl-A'', then copying and pasting the points from one control to the other.  Alternately, you can use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-select.png) to select a region of points and then copy and paste that region.  While the points are selected you can also move these points in both directions on the page.
+Each automated control is separate from all others and there is no way to have one set of automation run two controls. <br> 
+To solve this, you can copy and paste control points from one automated control to another. <br> 
+On the one hand you can select all the points by pressing ''Ctrl-A'', then copying and pasting the points from one control to the other. <br> 
+http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
+Alternately, you can use the select tool to select a region of points and then copy and paste that region. <br> 
+While the points are selected you can also move these points in both directions on the page.
 
 == Pasting Control Points ==
 
@@ -70,32 +93,30 @@ Like other windows in LMMS that can select and copy points, when you paste the c
 
 == Erasing Control Points ==
 
-Points can be erased either by right-clicking on them or by using the eraser tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-eraser.png).  When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png).
+http://lmms.sourceforge.net/wiki/images/e/eb/Button-eraser.png 
+Points can be erased either by right-clicking on them or by using the eraser tool. <br> 
 
-However, you often have to be almost exactly on the point to erase it and this gets increasingly difficult as you try to erase more points.  It is much easier to use the select tool (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar-editing-select.png) to select the points you want to remove and then press the '''Delete''' key to delete them.
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="90px" style="color: #000" valign="top"|
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png
+| style="color: #000" valign="middle"|
+When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow. <br> 
+However, you often have to be almost exactly on the point to erase it and this gets increasingly difficult as you try to erase more points. <br> 
+|}
 
-= Automation Editor Toolbar =
+http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
+It is much easier to use the select tool to select the points you want to remove and then press the '''Delete''' key to delete them.
 
-The toolbar for the Automation Editor controls much of its functionality, and is similar in many ways to the toolbars of other windows.
-
-<!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar.png
-<!--{\end{center}}-->
-
-The fundamental tools are similar in behaviour to their equivalents in the [[Piano Roll Editor]] and their description is not repeated here.  The main changes are:
-
-* There is no record functionality (that I know of).
-* The zoom controls can control both the horizontal and vertical directions of the window.
 
 = Navigation =
 
-HowTo: [[0.4:Working with Automation]]
+HowTo: [[0.4:Working with Automation|Working with Automation]]
 
 {| style="border: 1px solid black;"
 |-
-| Prev: [[0.4:Beat Bassline Editor|0.4:Beat+Bassline Editor]]
-| Up: [[0.4:Manual]]
-| Next: [[0.4:Project Notes]]
+| Prev: [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
+| Up: [[0.4:Manual|Manual]]
+| Next: [[0.4:Project Notes|Project Notes]]
 |}
 
 [[Category:Reference]]
