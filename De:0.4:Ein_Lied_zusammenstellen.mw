@@ -18,11 +18,10 @@ Sample Spuren sind die einfachste Art einer Spur, weil sie nur zwei Optionen bie
 
 == Beat + Bassline Editor Spur ==
 
-Diese Spur enthält ein sogenanntes "Pattern" das im [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]] erstellt wurde. Man kann es durch klicken am Ende (es erscheint ein Doppelpfeil in beide Richtungen) verlängern oder verkürzen. Durch klicken auf die Mitte und gedrückt halten kann man es nach recht oder links verschieben. Mit der mittleren Maustaste kann man es wieder löschen und mit RechtsKlick öffnet sich ein Kontext-Menü. 
+Diese Spur enthält ein sogenanntes "Pattern" das im [[De:0.4:Beat Bassline Editor|Beat + Bassline Editor]] erstellt wurde. Man kann es durch klicken am Ende (es erscheint ein Doppelpfeil in beide Richtungen) verlängern oder verkürzen. Durch klicken auf die Mitte und gedrückt halten kann man es nach recht oder links verschoben werden. Mit der mittleren Maustaste kann man es wieder löschen und mit einem RechtsKlick öffnet sich ein Kontext-Menü. 
 Unter anderem lassen sich hier noch Name und Farbe ändern und der Abschnitt (nicht die Spur:) kann stumm geschaltet werden. 
-Es immer nur ein und dasselbe Pattern pro Spur verwendet werden. Möchte man Änderungen vornehmen muss man eine Kopie oder eine neue Spur erstellen.
-Wie der Name schon sagt, eignet sich diese Spur insbesondere dafür um Beats/Rythmen zu erstellen. 
-
+Es kann immer nur ein und dasselbe Pattern pro Spur verwendet werden. Möchte man Änderungen vornehmen muss man eine Kopie oder eine neue Spur erstellen.
+Wie der Name schon sagt, eignet sich diese Spur insbesondere dafür um Beats/Rythmen zu erstellen.
 
 == Instrumenten Spur ==
 
