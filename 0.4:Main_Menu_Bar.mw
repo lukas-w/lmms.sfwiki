@@ -28,7 +28,7 @@ This does not include a project that you have just created and saved, so you hav
 * '''Export''' allows you to export your song as an uncompressed WAV file or compressed OGG file. <br> 
 No MP3 file export support is planned.  Once you have chosen a name and location to save the file, you then get presented with a dialog:
 
-: This allows you to choose the format of the file and, for OGG files, the bit rate and bit rate management method (these settings are ignored for WAV files).  Please note that, at this stage, the format chosen here and the extension you used on the file in the export file dialog are not synchronised automatically - you must set them the same manually to end up with a file which is named correctly for its content.  You can also choose whether to use the [[Tool Bar#Sound_Quality_Controls|High Quality Mode]] when performing the song.
+: This allows you to choose the format of the file and, for OGG files, the bit rate and bit rate management method (these settings are ignored for WAV files).  Please note that, at this stage, the format chosen here and the extension you used on the file in the export file dialog are not synchronised automatically - you must set them the same manually to end up with a file which is named correctly for its content.  You can also choose whether to use the [[0.4:Exporting the Song#|High Quality Mode]] when performing the song.
 
 : On pressing 'OK' the song will be performed from where the playback point was last set.  To get the entire song exported you should check that the playback mark is at the start of the song before exporting it.
 
@@ -41,7 +41,7 @@ http://lmms.sourceforge.net/wiki/images/6/6e/Mainmenubar2-edit.png
 The first two options in this menu are '''Undo''' and '''Redo'''.  These can be also accessed by pressing the common keys Ctrl-Z and Shift-Ctrl-Z, respectively. <br> 
 They allow you to step backward, or forward, through a history of edits to your project, reversing mistaken actions or re-applying them.
 
-In this version the undo feature only works correctly for some forms of editing.  In particular, in the [[Piano Roll Editor]] the bulk move, copy and paste facilities using the selection tool and/or clipboard do not get undone or redone correctly.  The developers are aware of this problem and are working on a fix in a future version.
+In this version the undo feature only works correctly for some forms of editing.  In particular, in the [[0.4:Piano Roll Editor|Piano Roll Editor]] the bulk move, copy and paste facilities using the selection tool and/or clipboard do not get undone or redone correctly.  The developers are aware of this problem and are working on a fix in a future version.
 
 The third option is '''Settings''', which opens the [[0.4:LMMS Settings|Settings dialog]].
 
