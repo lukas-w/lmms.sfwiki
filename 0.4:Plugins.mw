@@ -28,10 +28,10 @@ This is the current list of instrument plugins, and links to their specific sect
 * [[Effect Plugins#Stereo Enhancer|Stereo Enhancer]]
 * [[Effect Plugins#Stereophonic Matrix|Stereophonic Matrix]]
 
-= Controllers =
-* [[LFO Controller]]
+= Controller Rack =
+* [[Controller Rack#Peak Controller|Peak Controller]]
+* [[Controller Rack#LFO Controller|LFO Controller]]
 * [[MIDI Controller]]
-* [[Definitions#P|Peak Controller]]
 
 = Navigation =
 
