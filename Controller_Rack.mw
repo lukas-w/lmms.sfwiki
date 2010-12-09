@@ -1,0 +1,51 @@
+Controller Rack: 
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="265px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/3/37/Contoller-rack.png
+| style="color: #000" valign="middle"|
+
+...info...
+
+|}
+
+...description...
+
+
+== Peak Controller == 
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="133px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/d/dd/Fx-peakcontroller.png
+| style="color: #000" valign="middle"|
+
+...info...
+
+|}
+
+...description...
+
+
+== LFO Controller == 
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="255px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/0/01/Lfo-controller.png
+| style="color: #000" valign="middle"|
+
+...info...
+
+|}
+
+...description...
+
+
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Effect Plugins]]
+| Up: [[0.4:Plugins|Plugins]]
+| Next: [[0.4:Song Editor|Song Editor]]
+|}
+
+[[Category:Plugins]]
