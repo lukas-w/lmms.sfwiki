@@ -7,9 +7,10 @@ Short, introductory pages on each topic, establishing what you need to run LMMS 
 
 http://img690.imageshack.us/img690/1540/memory.png [[Requirements]]<br>
 http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|Installing LMMS]]<br>
-http://img683.imageshack.us/img683/4199/infode.png [[Terms and Conventions]]<br>
+http://img683.imageshack.us/img683/4199/infode.png [[Compiling LMMS]] (advanced users/developers)<br>
+* [[Terms and Conventions]]
 
-= 0.4 Tutorials =
+= Tutorials =
 
 Step-by-step task-oriented guides to achieving particular goals in LMMS.<br>
 
@@ -17,9 +18,9 @@ http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting Started|Gettin
 http://img80.imageshack.us/img80/8084/firstsong.png [[0.4:Your First Song with LMMS|Your First Song with LMMS]] - a more step-by-step tutorial<br>
 http://img18.imageshack.us/img18/1241/textxpatch.png [[0.4:Making Triple-Oscillator Patches|Making Triple-Oscillator patches]] - Guidelines for creating useful triple-oscillator patches<br>
 
-= Using LMMS 0.4 =
+= Using (LMMS) Elements =
 
-A thematic description of how the various tools in LMMS work.<br>
+A thematic description of how the various tools/elements in LMMS work.<br>
 
 http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[0.4:Working with Instruments|Working with Instruments]]<br>
 <!--{\newpage}-->
@@ -35,7 +36,7 @@ http://img193.imageshack.us/img193/9927/plugint.png [[0.4:Working with VSTs|Work
 http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Using MIDI|Using MIDI]]<br>
 http://img88.imageshack.us/img88/6471/exportu.png [[0.4:Exporting the Song|Exporting the Song]]<br>
 
-= 0.4 Reference =
+= Reference =
 
 A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.<br>
 
