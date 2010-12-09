@@ -22,11 +22,11 @@ This is the current list of instrument plugins, and links to their specific sect
 * [[ZynAddSubFX]] - A powerful hybrid synthesizer
 
 = Effect Plugins =
-* [[Bass Booster]]
-* [[Definitions#P|Peak Controller]]
-* [[Spectrum Analyzer]]
-* [[Stereo Enhancer]]
-* [[Stereophonic Matrix]]
+* [[Effect Plugins#Bass Booster|Bass Booster]]
+* [[Effect Plugins#Peak Controller|Peak Controller]]
+* [[Effect Plugins#Spectrum Analyzer|Spectrum Analyzer]]
+* [[Effect Plugins#Stereo Enhancer|Stereo Enhancer]]
+* [[Effect Plugins#Stereophonic Matrix|Stereophonic Matrix]]
 
 = Controllers =
 * [[LFO Controller]]
