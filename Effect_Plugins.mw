@@ -7,11 +7,11 @@ Effect Plugins:
 http://lmms.sourceforge.net/wiki/images/8/88/Fx-bassbooster.png
 | style="color: #000" valign="middle"|
 
-...
+...info...
 
 |}
 
-...
+...description...
 
 
 == Peak Controller == 
@@ -21,11 +21,11 @@ http://lmms.sourceforge.net/wiki/images/8/88/Fx-bassbooster.png
 http://lmms.sourceforge.net/wiki/images/d/dd/Fx-peakcontroller.png
 | style="color: #000" valign="middle"|
 
-...
+...info...
 
 |}
 
-...
+...description...
 
 
 == Spectrum Analyzer == 
@@ -35,11 +35,11 @@ http://lmms.sourceforge.net/wiki/images/d/dd/Fx-peakcontroller.png
 http://lmms.sourceforge.net/wiki/images/b/b5/Fx-spectrumanalyzer.png
 | style="color: #000" valign="middle"|
 
-...
+...info...
 
 |}
 
-...
+...description...
 
 == Stereo Enhancer == 
 
@@ -48,11 +48,11 @@ http://lmms.sourceforge.net/wiki/images/b/b5/Fx-spectrumanalyzer.png
 http://lmms.sourceforge.net/wiki/images/4/4a/Fx-stereoenhancer.png
 | style="color: #000" valign="middle"|
 
-...
+...info...
 
 |}
 
-...
+...description...
 
 
 == Stereophonic Matrix == 
@@ -62,13 +62,16 @@ http://lmms.sourceforge.net/wiki/images/4/4a/Fx-stereoenhancer.png
 http://lmms.sourceforge.net/wiki/images/f/fc/Fx-stereophonicmatrix.png
 | style="color: #000" valign="middle"|
 
-...
+...info...
 
 |}
 
-...
+...description...
 
 
+
+{| style="border: 1px solid black;"
+|-
 | Prev: [[ZynAddSubFX]]
 | Up: [[0.4:Plugins|Plugins]]
 | Next: [[LFO Controller]]
