@@ -69,7 +69,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-highquality.png The '''
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/toolbar-autolimit.png The '''Auto Limit''' button activated a soft limiting function that prevents the sound from hitting the maximum or minimum extents of the 16-bit precision of a WAV file.  This can make some sounds softer but will avoid having clipping if a chance resonance or constructive interference should occur during your song.
 
-Both these buttons was removed in 0.4.6.
+Both buttons have been removed since version 0.4.6.
 If your LMMS has these buttons, it is strongly recommended that you upgrade to the newest version of LMMS:
 http://lmms.sourceforge.net/download.php
 
