@@ -2,14 +2,17 @@
 
 So you've just loaded up LMMS and you want to find your way around?  In this situation, programmers write a "hello world" program; we're going to write "Popcorn", a classic for the synthesizer that should be well known.
 
-= In the beginning =
-You will start with this screen:
+= Your First Song =
+ 
+LMMS is a tool that can be used to make music effectively without very much hassle.  To showcase this fact, if you follow these step by step instructions you should be able to make your own songs very quickly.  
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/1/19/Initial_screen.png
-<!--{\end{center}}-->
+If you are using Windows, double click the icon on your desktop or go start menu - programs - LMMS to load your version of the LMMS program.  ( I am not aware of anything different in the linux version so I am afraid I can't help here.)
 
-= Choosing the instrument =
+When you first load the program you will see several boxes with various titles and a toolbar at the top left.  Looking at the upper to middle left side of the screen you will also see some small icons.  These are important as most of these are where you select your sounds.  
+
+== Your First Melody ==
+
+=== Choosing the instrument ===
 
 You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' or click on the plus symbol on its left to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
 
@@ -30,7 +33,7 @@ http://lmms.sourceforge.net/wiki/images/f/fd/Xylophon_track.png
 
 (If this were a percussion-type instrument, we might be better off dragging it to the Beat+Bassline Editor instead; you'll see why in  a second. We really want to give this instrument a string of notes (or a Piano Roll) to play, though, so Song Editor it is.)
 
-= Making the melody =
+=== Making the melody ===
 
 We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
 
@@ -38,7 +41,7 @@ We now want to add notes to make the melody.  Left-click in the first bar of the
 http://img101.imageshack.us/img101/8506/pianoroll.png
 <!--{\end{center}}-->
 
-== The first note ==
+==== The first note ====
 
 Now click in the black square just to the right of the 'A4' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
 
@@ -54,7 +57,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 
 After this, the new notes we put down will be the same length, because the Piano Roll Editor default is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png) -But you can change that in the drop-down. However most of the time you will work with the 'Last Note' setting, but if you suddenly cant create notes in the length you expected, its because you accidentally made a change to this drop-down.
 
-== More notes ==
+==== More notes ====
 
 Continue creating notes in the pattern shown:
 
@@ -66,7 +69,7 @@ To place a note, you need to aim for the line at the start of the beat; LMMS wil
 
 If you need to delete a note, simply right-click on it.
 
-== Copy and paste ==
+==== Copy and paste ====
 
 We now want to repeat those seven notes at the start of the bar in the next bar.  There are three ways to do this.
 
@@ -93,11 +96,11 @@ To select all notes you can press Ctrl+A.
 
 We can now press the '''play''' button (http://img685.imageshack.us/img685/2559/play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
 
-== Oops! ==
+==== Oops! ====
 
 When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat (see picture below).
 
-== The first 'four' bars ==
+==== The first 'four' bars ====
 
 If you're confident, you can now continue adding the notes of the tune to make the first four bars (up to where the main melody repeats).  Here's what your piano roll should look like at the end of this:
 
@@ -105,7 +108,7 @@ If you're confident, you can now continue adding the notes of the tune to make t
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
 <!--{\end{center}}-->
 
-= More structure =
+=== More structure ===
 
 We can now close the Piano Roll Editor and go back to the Song Editor.  You will see that the track segment that we initially double-clicked to create the melody has expanded out to fit the notes that we've added.
 
@@ -125,7 +128,7 @@ The Song Editor should now look like this:
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
 <!--{\end{center}}-->
 
-== Variation 2 ==
+==== Variation 2 ====
 
 We can now go on to create another piano roll segment and fill in the next four bars:
 
@@ -142,6 +145,79 @@ Your Song Editor should now look like this:
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
 <!--{\end{center}}-->
+
+
+== Your First Beat ==
+
+For our first sound we are going to select the small box on the left side with the music note.  This box is your sample collection that comes standard with LMMS.  When you Click the My Samples box a list of folders should appear, one of them labeled "drums".  Double clicking the box will show a list of percussion instruments.  Click on them to hear the different sounds of the instruments.  
+
+If you look at the open boxes one of them should read "Beat and Bassline Editor.  Locate that box before going forward.  If you have closed it by chance it is located on the left top toolbar.  
+
+Going back to the cool samples you just heard select the bassdrum_acoustic02.ogg, click that file and drag it to the beat editor and a new tab should appear in box with that same label.  do the same thing to the instruments hihat_closed04.ogg and snare02.ogg (scroll down).  
+
+If it is done correctly you should have 3 instruments in the beat and bassline editor box (from here this editor will be called bnb box).  Push the play button located on the bnb box.  you should hear silence.  if you press on the small tombstone like icon on the bassdrums instrument line you should eventually hear the drum with a flash from the the instruments sounding bar (it only lights up when it is being played.) For this part 0 will mean that the instrument bar is left blank.  1 will mean that the instrument bar is active.
+
+Your first Bassdrum line will be: |1 0 0 0 | 0 0 1 0 | 0 0 0 0 | 0 0 0 0|
+Your first HiHat line will be:    |1 0 0 0 | 1 0 0 0 | 1 0 0 0 | 1 0 0 0|
+Your first Snare line will be:    |0 0 0 0 | 0 0 0 0 | 1 0 0 0 | 0 0 0 0|
+
+When done correctly this will make a simple drum beat. 
+
+=== Drum Pattern (examples) ===
+
+''(work in progress)''
+
+('''figure.1''') ('''example''')
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - / - / | X - / - / - / | X - / - / - / | X - / - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - X - / - X | X - X - / - X | X - X - / - X | X - X - / - X |
+open hi-hat    | / - / - X - / | / - / - X - / | / - / - X - / | / - / - X - / |
+</pre>
+
+X=note on ;
+/=silence
+
+above in (Figure.1) we have a simple 4 beat pattern using 16ths or 16 segments within our pattern. You can see from "Bass drum" that there is an X (note on) at 1,5,9,13, ,this gives us the typical beat used in most techno/trance or house style music. Next is the snare drum at 5, and 13, which gives us a swing type feel to the rhythm. And finally the open and closed hi-hats to compliment the rhythm.
+ 
+now that you have the general idea these patterns can be applied to your songs in LMMS using the "beat + bassline editor" (which uses the 16ths/16 steps to 1 bar or 4 beats).
+
+
+below are some examples for you to try out and perhaps use in your songs.
+
+('''1''') '''Amen Break''' - [this was a drum solo originally performed by Gregory Sylvester Coleman, but has been heavily sampled and pitched up for use in drum and bass and jungle styles]
+
+
+<pre>                   | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  | 1 - 2 - 3 - 4 -  |
+Crash/Ride Cym. :  | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-R-R-R- | R-R-R-R-R-C-R-R- |
+Bass/Snare Dr.  :  | B-B-S--S-SBBS--S | B-B-S--S-SBBS--S | B-B-S--S-SB---S- | -SBBS--S-SB---S- |
+</pre>
+
+
+('''2''') '''Typical Break-beat''' - [by moving the Bass drum out of regular 4/4 timing we create a "break-beat]
+
+
+<pre>step....         1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16 
+Bass drum      | X - / - X - / | / - / - / - / | / - / - X - / | / - X - / - / |
+snare drum     | / - / - / - / | X - / - / - / | / - / - / - / | X - / - / - / |
+closed hi-hat  | X - / - X - / | X - / - X - / | X - / - X - / | X - / - X - / |
+open hi-hat    | / - / - / - X | / - / - / - / | / - / - / - X | / - X - X - / |
+</pre>
+
+
+('''3''') '''Prodigy "Smack My Bitch Up"''' - [break-beat intro] [shown 1st in the Beat+bassline Editor]
+
+
+http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
+
+[main beat]
+
+http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
+
+(*note the lowered volumes of the snare drum in the 2 examples above i.e the dimmed <FONT COLOR="#00ff00">led's</FONT> in certain steps)
+
+
 
 = Footnotes =
 
