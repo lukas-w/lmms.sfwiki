@@ -4,9 +4,47 @@
 
 == Working with VSTs and VSTi Plugins ==
 
-VST and VSTi plugins are industry-wide audio plugins supported in most commercial audio editors on Windows and Mac OS X. They range from the smallest effects (similar to LADSPA effects) to entire instruments and programs in their own right. Luckily, these powerful plugins work with LMMS the vast majority of the time. On the Windows version of LMMS, VST and VSTi plugins work perfectly, but on Linux the support isn't quite as good. LMMS on Linux requires the installation of [http://www.winehq.org/ Wine] before these plugins can be used. Here are the steps:
+[http://en.wikipedia.org/wiki/Virtual_Studio_Technology| VST] and VSTi plugins are industry-wide audio plugins supported in most commercial audio editors on Windows and Mac OS X. They range from the smallest effects (similar to LADSPA effects) to entire instruments and programs in their own right. Luckily, these powerful plugins work with LMMS the vast majority of the time. On the Windows version of LMMS, VST and VSTi plugins work perfectly, but on Linux the support isn't quite as good. LMMS on Linux requires the installation of [http://www.winehq.org/ Wine] before these plugins can be used. Here are the steps:
 
 * (Linux only) Install Wine. On Debian or Ubuntu, this is usually as simple and searching for and installing the package "Wine" from the package manager
 * Add the Vestige instrument from the toolbar on the left
 * Browse to the VST or VSTi plugin from the instrument plugin window. Only the .dll and .exe formats are supported.
 * Wait for the VST to load. This may take a while or appear to crash LMMS when using the biggest VST plugins, but be patient!
+
+A list of tested VST can be found here: [[Tested VSTs]]. If you have found a VST that works well with LMMS, you can aid the community greatly by adding it to the list.
+
+
+== How to use VSTige Instrument Presets ==
+
+When you have downloaded a VST package, unpack it in the VST folder in your LMMS installation.
+The package content depends on how advanced the VST happens to be, but there will always be at least a single DLL file. That is the actual software plug-in.
+Some will have preset-files, some even preset-banks. Note that LMMS can create its own instrument-presets.
+
+So... lets load one - open a project and this next thing might sound silly, but first save your project. I mention this because loading a VST is a major action, and you should always save before you do so!
+
+On the sidebars 1. option, drag an empty VSTige container into your project.
+Open the instrument GUI (eg. click on the instrument in the song-editor).
+Smack in the middle to the right of the text "No VST Plugin loaded" we have a folder symbol.
+Click on this symbol.
+Browse to the VST folder where you unpacked the download.
+Click on the DLL and wait for LMMS to load the VST.
+When it loads, The VSTs GUI will open. 
+
+WARNING!
+Do not ever close this GUI on the window's 'x'
+Always use the button on the LMMS GUI that says "Show/Hide GUI".
+You will 'loose' the handle to the VST-GUI and waste RAM if you click on the 'x'.
+
+You now have a VST instrument and you can use it in your project.
+After fiddling a little with the knobs and sliders, lets save it as a new preset. We need this because we also want to ''load'' a saved VST-type Preset. So name the instrument and save it with the Save button on the preset-GUI, into a folder in MyPresets in your LMMS installation.
+
+
+We will now load this named and saved VST-type instrument into a LMMS project.
+The way I have found to work best is to use an empty VST container just as described above, so -
+
+on the sidebars 1. option, drag an empty VSTige container into your project.
+Open the instrument GUI (eg click on the instrument in the song-editor). It should open the default GUI. That makes it the "Active Instrument".
+The existing VST-preset-instrument should be in the myPresets collection. Open myPresets (sidebar 4. button) and browse for the instrument and right-click on it.
+In the context-menu, choose: "Send to Active Instrument Track"
+Wait for LMMS to finish.
+If all went well LMMS opens the VST-GUI and your saved VST-instrument is ready for use.
