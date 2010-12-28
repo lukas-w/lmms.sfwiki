@@ -28,7 +28,7 @@ The next three panels are the settings for the three oscillators.
 ;Triangle: Similar to sine, although a lot less smooth.  Useful for string instruments
 ;Sawtooth: A very sharp, "synth-like" sound.  Useful for string instruments and generic "synth-like" instruments.
 ;Pulse/Square wave: The typical sound of vintage arcade games. Sounds much less old-fashioned when combined with other waveforms.  Be cautious, as the square wave will sound a lot louder than the other waves.
-;Moog-like Triangle: Sounds similar to saw, but can also be used for some organ-like sounds.
+;Moog-like Triangle: Sounds similar to saw, but can also be used for some organ-like sounds.  The shape is due to a historic glitch in the analogue circuitry of the original Moog synthesizer.
 ;Exponential Wave: If used correctly, it can be used for softer synths.
 ;Noise: Useful for creating drum beats and other effects like wind (You might prefer to use [[Kicker]] for synthesized percussion instruments).
 ;User-defined: Double-click to use any sound file as a waveform.
