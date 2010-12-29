@@ -68,8 +68,8 @@ http://lmms.sourceforge.net/wiki/images/f/f5/Tab-env-lfo.png
 <!--{\end{center}}-->
 
 === Envelope basics ===
-Perhaps the fist thing that must be emphasized is no VSTige instrument will respond to anything on this tab. We cant use either envelopes nor the filters. VST generates sounds in an internal method, that excludes LMMS envelopes completely!  
-In the plugin-collection that comes with your default LMMS, it is only ZynAddSubFX that cant use the ENV-tab, simply because ZynAddSubFX is in fact a VST-plugin.
+''Note: the fist thing that must be emphasized is that no VSTige instrument will respond to anything on this tab. We cant use either envelopes nor the filters. VST generates sounds in an internal method, that excludes LMMS envelopes completely!  
+In the plugin-collection that comes with your default LMMS, it is only ZynAddSubFX that cant use the ENV-tab, simply because ZynAddSubFX is in fact a VST-plugin.''
 
 The '''Envelope''' of an instrument is how loud or soft it is from the moment the note is pressed to after it is released.  Immediately before the note is pressed, the envelope is at zero and the instrument produces no noise.  The note goes through an '''attack''' from when the note is pressed until it reaches its maximum loudness.  From then there is an initial '''hold''' period where the note remains at maximum loudness.  The note then '''decay'''s to a softer pitch which is the '''sustain''' level.  Finally when the note is '''release'''d it fades away to silence.  There may also be a '''pre-delay''' between when the note is pressed and when the volume starts rising.
 
