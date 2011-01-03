@@ -2,22 +2,6 @@
 
 ''(Ir a LMMS [http://lmms.sourceforge.net  homepage''] o al [http://sourceforge.net/apps/phpbb/lmms/ ''forum''])
 
-<!--
-#######################
-## TRANSLATION GUIDE ##
-##########################################################################################################
-#
-# 1-Translate the link names (2nd element) -> "|Getting Started]]"
-# 2-Translate the actual links (1st element) -> "[[0.4:Getting Started|"
-# 3-Don't forget to add an "Es" (Español) in front of the actual link -> "[[Es:0.4:Gettingos Startos|"
-#
-# !NEVER OVERWRITE THE ENGLISH PAGES! MAKE SPANISH VERSIONS FIRST!
-# 
-# Questions/Comments: Octosquidopus
-#
-##########################################################################################################
--->
-
 
 {| cellspacing="3" valign="top" align="center" width="100%"
 | width="50%" style="color: #000" valign="top"|
@@ -41,9 +25,9 @@ http://img34.imageshack.us/img34/5773/userconfig.png
 
 '''Guías'''<br>
 
-http://img690.imageshack.us/img690/1540/memory.png [[Requisitos]]<br>
-http://img192.imageshack.us/img192/8586/packagesb.png [[Instalación]]<br>
-http://img35.imageshack.us/img35/28/messageboxwarning.png [[Solución de problemas]]<br>
+http://img690.imageshack.us/img690/1540/memory.png [[Requirements|Requisitos]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|Instalación]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting|Solución de problemas]]<br>
 http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|Cómo informar bugs]]<br>
 <!-- MOVED TO "INSTALLATION" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br> -->
 |}
@@ -60,7 +44,7 @@ http://lmms.sourceforge.net/wiki/images/a/a0/Dev.png
 http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Desarrolladores]]<br>
 http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Escritores]]<br>
 http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artistas]]<br>
-http://img709.imageshack.us/img709/3940/mailsend.png [[Contactar]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Contact|Contactar]]<br>
 
 |}
 {| cellspacing="0" valign="top" align="center" width="100%"
@@ -76,10 +60,12 @@ http://img251.imageshack.us/img251/7428/newsg.png
 *KEEP ONLY THE 5 MOST RECENT NEWS
 -->
 
-06-23: started major translations clean-up<br>
+08-10 Updated to MediaWiki 1.16.0 and enabled file uploads<br>
+07-01: new article [[Translating an Article|''Translating an Article'']]<br>
+06-23: major translations clean-up<br>
 01-25: updated ''Main Page''<br>
 01-20: new article ''[[Creating a Theme]]''<br>
-01-11: simplified [[Tested VSTs|''VST Database'']]<br>
+<!--01-11: simplified [[Tested VSTs|''VST Database'']]<br>-->
 
 |}
 </div>
