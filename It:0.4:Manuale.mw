@@ -1,65 +1,61 @@
 {{0.4:ManualTrans}}
 <div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">Questo manuale si riferisce alla versione corrente di LMMS, versione '''0.4'''. Per una versione precedente di LMMS, si veda [[It:0.3:Manuale|0.3:Manuale]]</div>
 
-''Tenete conto che anche se questo manuale sia al momento aggiornato alla versione 0.4, alcuni articoli si riferiscono ancora alla versione 0.3 e quindi potrebbero essere parzialmente datati.''
-Controllate la categoria in fondo alla pagina per vedere quale versione si riferiscono.
-
 = Introduzione =
 
-Pagine brevi e introduttive su ogni argomento, per stabilire cosa si necessita per eseguire LMMS e per comprendere questo documento.
-* [[It:Requisiti|Requisiti]]
-* [[It:Installazione|Installare LMMS]]
-* [[Termini e Convenzioni]]
+Pagine brevi e introduttive su ogni argomento, per stabilire cosa si necessita per eseguire LMMS e per comprendere questo documento. <br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[It:Requisiti|Requisiti]] <br> 
+http://img192.imageshack.us/img192/8586/packagesb.png [[It:Installazione|Installare LMMS]] <br> 
+http://img683.imageshack.us/img683/4199/infode.png [[Compiling LMMS|Compiling LMMS]] <br> 
+* [[Terms and Conventions|Termini e Convenzioni]]
 
 = Tutorial =
 
-Guide passo passo orientate a temi per ottenere particolari obbiettivi in LMMS.
-* [[It:0.4:Per Iniziare|Per Iniziare]] - una scorsa veloce per l'impaziente
-* [[0.4:Your First Song with LMMS|La Vostra Prima Canzone con LMMS]] - un ulteriore tutorial passo passo
-* [[0.4:Making Triple-Oscillator Patches|Eseguire patch Triple-Oscillator]] - Linee guida per la creazione di utili patch triple-oscillator
+Guide passo passo orientate a temi per ottenere particolari obbiettivi in LMMS. <br> 
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[It:0.4:Per Iniziare|Per Iniziare]] - una scorsa veloce per l'impaziente <br> 
+http://img80.imageshack.us/img80/8084/firstsong.png [[0.4:Your First Song with LMMS|La Vostra Prima Canzone con LMMS]] - un ulteriore tutorial passo passo <br> 
+http://img18.imageshack.us/img18/1241/textxpatch.png [[0.4:Making Triple-Oscillator Patches|Eseguire patch Triple-Oscillator]] - Linee guida per la creazione di utili patch triple-oscillator <br> 
 
 = Utilizzare LMMS =
 
-A thematic description of how the various tools in LMMS work.
-* [[0.4:Working with Instruments|Lavorare con gli strumenti]]
+A thematic description of how the various tools in LMMS work. <br> 
+http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[0.4:Working with Instruments|Lavorare con gli strumenti]] <br> 
 <!--{\newpage}-->
-* [[0.4:Working with Samples|Lavorare con i Campioni]]
-* [[0.4:Composing in the Piano Roll Editor|Comporre nel Editor Piano Roll]]
-* [[0.4:Composing Bass Lines and Drum Sequences|Comporre le Linee di Basso e Sequenze di Drum]]
-* [[0.4:Putting the song together|Putting the song together]]
-* [[0.4:Working with Automation|Lavorare con l'Automazione]]
-* [[0.4:Working with Controllers|Lavorare con i Controller]]
-* [[0.4:Working with Effects and the Mixer|Lavorare con gli Effetti e il Mixer]]
-* [[0.4:Working with VSTs|Lavorare con i VST]]
-* [[0.4:Using MIDI|Utilizzare il MIDI]]
-* [[0.4:Exporting the Song|Esportare una Traccia]]
+http://img231.imageshack.us/img231/9008/workingwithsamples.png [[0.4:Working with Samples|Lavorare con i Campioni]] <br> 
+http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Composing in the Piano Roll Editor|Comporre nel Editor Piano Roll]] <br> 
+http://img94.imageshack.us/img94/3945/drum.png [[0.4:Composing Bass Lines and Drum Sequences|Comporre le Linee di Basso e Sequenze di Drum]] <br> 
+http://img717.imageshack.us/img717/1107/togetherq.png [[0.4:Putting the song together|Putting the song together]] <br> 
+http://img198.imageshack.us/img198/1558/automation2.png [[0.4:Working with Automation|Lavorare con l'Automazione]] <br> 
+http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Working with LADSPA effects]]<br>
+http://img208.imageshack.us/img208/8308/controller.png [[0.4:Working with Controllers|Lavorare con i Controller]] <br> 
+http://img51.imageshack.us/img51/1045/mixerd.png [[0.4:Working with Effects and the Mixer|Lavorare con gli Effetti e il Mixer]] <br> 
+http://img193.imageshack.us/img193/9927/plugint.png [[0.4:Working with VSTs|Lavorare con i VST]] <br> 
+http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Using MIDI|Utilizzare il MIDI]] <br> 
+http://img88.imageshack.us/img88/6471/exportu.png [[0.4:Exporting the Song|Esportare una Traccia]] <br> 
 
 = Riferimenti =
 
 A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.
-* [[0.4:Barra Menu Principale|Barra dei Menu Principale]]
-* [[0.4:Barra degli Strumenti|Barra degli Strumenti]]
-* [[0.4:Barra Laterale|Barra Laterale]]
-* [[0.4:Plugin|I Plugin]]
-* [[0.4:Editor Traccia|Editor Traccia]]
-* [[0.4:Piano Roll Editor|Piano Roll Editor]]
-<!--{\newpage}-->
-* [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
-<!--{\newpage}-->
-* [[0.4:Automation Editor|Automation Editor]]
-* [[0.4:FX Mixer|FX Mixer]]
-<!--{\newpage}-->
-* [[0.4:Project Notes|Note di Progetto]]
-<!--{\newpage}-->
-* [[0.4:LMMS Settings|Impostazioni di LMMS]]
+* [[0.4:Barra Menu Principale|Barra dei Menu Principale]] <br>
+* [[0.4:Tool Bar|Barra degli Strumenti]] <br>
+* [[0.4:Side Bar|Barra Laterale]] <br>
+* [[0.4:Plugins|I Plugin]] <br>
+* [[0.4:Song Editor|Editor Traccia]] <br>
+* [[0.4:Piano Roll Editor|Piano Roll Editor]] <br>
+* [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] <br>
+* [[0.4:Automation Editor|Automation Editor]] <br>
+* [[0.4:FX Mixer|FX Mixer]] <br>
+* [[0.4:Project Notes|Note di Progetto]] <br>
+* [[0.4:LMMS Settings|Impostazioni di LMMS]] <br>
+* [[0.4:Key Mappings|Key Mappings]] <br>
 
 = Appendici =
 
-* [[Glossario]]
-* [[Key Mappings]]
-* [[Licenza]]
-<!--{\newpage}-->
-* [[Roadmap]]
+http://img189.imageshack.us/img189/152/glossary.png [[Glossary|Glossario]] <br>
+http://img31.imageshack.us/img31/9783/sourcecpp.png [[License|Licenza]] <br>
+http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap]] <br>
 
-<!--{%}-->'' [...] This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
+<!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
 __NOTOC__ __NOEDITSECTION__
