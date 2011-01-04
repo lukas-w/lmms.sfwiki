@@ -1,8 +1,33 @@
-The LB-302...
+The LB-302 is an incomplete monophonic imitation of the TB-303.
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/5/52/Plugins-lb302.png
+| style="color: #000" valign="middle"|
+
+'''VCO''' [http://en.wikipedia.org/wiki/Voltage-controlled_oscillator (Voltage-Controlled Oscillator)] <br>
+You can set different waveforms for the oscillator: <br> 
+saw, triangle, square, square with rounded end, moog-like wave, sine wave, exponential wave and white-noise
+
+'''Slide''' sets the slide decay. 
 
 
+'''VCF''' [http://en.wikipedia.org/wiki/Voltage-controlled_filter (Voltage-Controlled Filter)] <br> 
+* '''24dB/oct'''
+* '''Cut'''off 
+* '''Res'''onance 
+* '''Env Mod'''
+* '''Dec'''ay
+
+
+'''Dist'''ortion
+* Slide 
+* Accent 
+* Dead
+
+
+
+|}
 
 = Navigation =
 
