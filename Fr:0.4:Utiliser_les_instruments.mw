@@ -76,8 +76,8 @@ Peut-être que la première chose qui doit être soulignée est qu'aucun instrum
 Parmi l'ensemble de plugins fournis avec LMMS, seul ZynAddSubFX ne pourra pas utiliser l'onglet Env/LFO, tout simplement parce que ZynAddSubFX est en fait un plugin VST. 
 
 
-L' '''enveloppe''' d'un instrument représente l'intensité de celui-ci au moment où la note est pressée ou après qu'elle soit relâchée. Juste avant que la note soit pressée, l'enveloppe est à zéro et l'instrument ne produit aucun bruit. La note débute par une "attaque" (attack) au moment où la note est enfoncée et jusqu'à ce qu'elle atteigne son intensité maximale. Ensuite, il y a une première période nommée '''hold'''<sup><small>[[Fr:0.4:Utiliser_les_instruments#Notes_du_traducteur| [1]]]</small></sup> où la note reste au volume maximum. Ensuite la note décline (decay) jusqu'au niveau de maintien (sustain). Enfin la note et relâchée (release) et disparait jusqu'au silence. 
-Il peut aussi y avoir un '''pre-delay''' entre le moment où la note est enfoncée et celui où le volume commence à s'élever. 
+L' '''enveloppe''' d'un instrument représente l'intensité de celui-ci au moment où la note est pressée ou après qu'elle soit relâchée. Juste avant que la note soit pressée, l'enveloppe est à zéro et l'instrument ne produit aucun bruit. La note débute par une "attaque" (attack) au moment où la note est enfoncée et jusqu'à ce qu'elle atteigne son intensité maximale. Ensuite, il y a une première période nommée maintien de l'attaque (hold) où la note reste au volume maximum. Ensuite la note décline (decay) jusqu'au niveau de maintien (sustain). Enfin la note et relâchée (release) et disparait jusqu'au silence. 
+Il peut aussi y avoir un retard (pre-delay) entre le moment où la note est enfoncée et celui où le volume commence à s'élever. 
 
 
 Pour avoir une idée de chacun de ces paramètres, on peut les comparer à l'enveloppe d'instruments que l'on connait. Un piano a une attaque (attack) très courte et pas de "hold", un très long déclin (decay) jusqu'à un niveau de maintien (sustain) très léger, et enfin un relâchement (release) très rapide, mais pas instantané.
