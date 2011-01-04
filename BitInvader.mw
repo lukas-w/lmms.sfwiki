@@ -1,8 +1,24 @@
-The BitInvader plugin...
+The BitInvader plugin is a customizable wavetable synthesizer.
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/f/f6/Plugins-bitinvader.png
+| style="color: #000" valign="middle"|
 
 
+* '''Interpolation''': 
+* '''Normalize''': 
+* The knob on the left side sets the '''sample-length''' of the waveform in a range from 8 to 128. 
+* '''Smooth''' the waveform by clicking on the button labeled with ''S''
+* '''Draw''' your own waveform on the wavedisplay. 
+* On the right side of the waveform display are pre-configured waveforms: <br> 
+** '''sine''' 
+** '''triangle''' 
+** '''saw''' 
+** '''square''' 
+** '''white-noise''' and 
+** '''user-defined shape'''
+|}
 
 = Navigation =
 
