@@ -1,0 +1,80 @@
+''Welcome to the LMMS Wiki! Here you'll find the documentation, the tutorials, the guides, the resources, and much more.'' 
+
+''(Go to LMMS [http://lmms.sourceforge.net  homepage''] or [http://sourceforge.net/apps/phpbb/lmms/ ''forum''])
+
+
+
+{| cellspacing="3" valign="top" align="center" width="100%"
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img20.imageshack.us/img20/1012/contents.png
+| style="color: #000" valign="top"|
+
+'''Documentatie'''
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[Nl:0.4:Aan de slag|Aan de slag]]<br>
+http://img62.imageshack.us/img62/1012/contents.png [[Nl:0.4:Handleiding|Gebruikers Handleiding]]<br>
+http://img97.imageshack.us/img97/5625/helpfaq.png [[Nl:Gebruikers FAQ|FAQ]]<br>
+http://img689.imageshack.us/img689/261/ktipx.png [[Nl:Tip van de dag|Tip van de dag]]<br>
+http://img43.imageshack.us/img43/769/databases.png [[Nl:VST database|VST database]]<br>
+http://lmms.sourceforge.net/wiki/images/0/0d/Resource2.png [[Useful resources]]<br>
+
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img34.imageshack.us/img34/5773/userconfig.png
+| style="color: #000" valign="top"|
+
+'''Handleiding'''<br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Nl:Vereisten|Vereisten]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Nl:Installatie|Installatie]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Nl:Troubleshooting|Troubleshooting]]<br>
+http://img686.imageshack.us/img686/4820/buger.png [[Nl:Hoe bugs te raporteren|Hoe bugs te raporteren]]<br>
+<!-- MOVED TO "[[Installatie]]" http://img402.imageshack.us/img402/7923/systemsettings.png [[Afstellen LMMS-installatie]]<br> -->
+|}
+</div>
+<br>
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/a/a0/Dev.png
+| style="color: #000" valign="top"|
+
+'''Gemeenschap'''<br>
+
+http://img717.imageshack.us/img717/8272/dev.png [[Nl:Ontwikkelaars Documentatie|Ontwikkelaars]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Nl:Auteurs Documentatie|Auteurs]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Nl:Documentatie voor Grafici|Grafische ontwikkelaars]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Nl:Contact|Contact]]<br>
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img251.imageshack.us/img251/7428/newsg.png
+| style="color: #000" valign="top"|
+
+'''Wiki Nieuws'''<br>
+<!-- 
+==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
+*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
+*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
+*KEEP ONLY THE 4 MOST RECENT NEWS; COMMENT OLD ONES.
+-->
+
+08-10 Updated to MediaWiki 1.16.0 and enabled file uploads<br>
+07-01: new article [[Nl:Een Artikkel Vertalen|''Een Artikkel Vertalen'']]<br>
+06-23: major translations clean-up<br>
+01-25: updated ''Main Page''<br>
+01-20: new article ''[[Nl:Een Thema Creëren|Een Thema Creëren]]''<br>
+<!--01-11: simplified [[Nl:VST database|''VST database'']]<br>-->
+
+|}
+</div>
+|}
+----
+{{Main PageTrans}}
