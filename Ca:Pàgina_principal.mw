@@ -1,0 +1,80 @@
+''Benvinguts a la wiki de l'LMMS! Aquí hi trobaràs la documentació, els tutorials, les guies, els recursos i molt més.'' 
+
+''(Ves a la [http://lmms.sourceforge.net  pàgina principal''] de l'LMMS o al [http://sourceforge.net/apps/phpbb/lmms/ ''fòrum''])
+
+
+
+{| cellspacing="3" valign="top" align="center" width="100%"
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img20.imageshack.us/img20/1012/contents.png
+| style="color: #000" valign="top"|
+
+'''Documentació'''
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[Ca:0.4:Primers_passos|Primers passos]]<br>
+http://img62.imageshack.us/img62/1012/contents.png [[Ca:0.4:Manual|Manual]]<br>
+http://img97.imageshack.us/img97/5625/helpfaq.png [[Ca:PMF_usuari|PMF]]<br>
+http://img689.imageshack.us/img689/261/ktipx.png [[Ca:Consell_del_dia|Consell del dia]]<br>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|Base de dades dels VST]] (en anglès)<br>
+http://lmms.sourceforge.net/wiki/images/0/0d/Resource2.png [[Useful resources|Recursos útils]] (en anglès)<br>
+
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img34.imageshack.us/img34/5773/userconfig.png
+| style="color: #000" valign="top"|
+
+'''Guies'''<br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Ca:Requisits|Requisits]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Ca:Instal·lació|Instal·lació]]<br>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Ca:Solució_de_problemes|Solució de problemes]]<br>
+http://img686.imageshack.us/img686/4820/buger.png [[Ca:Com_avisar_dels_errors_de_programari|Com avisar dels errors de programari]]<br>
+<!-- MOVED TO "[[Installation]]" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br> -->
+|}
+</div>
+<br>
+| width="50%" style="color: #000" valign="top"|
+<div style="padding: .4em .9em .9em">
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/a/a0/Dev.png
+| style="color: #000" valign="top"|
+
+'''Communitat'''<br>
+
+http://img717.imageshack.us/img717/8272/dev.png [[Ca:Documentació_pels_desenvolupadors|Desenvolupadors]]<br>
+http://img130.imageshack.us/img130/9206/pencill.png [[Ca:Documentació_pels_escriptors|Escriptors de la wiki]]<br>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Ca:Documentació_pels_artistes|Artistes]]<br>
+http://img709.imageshack.us/img709/3940/mailsend.png [[ca:Contacte|Contacte]]<br>
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img251.imageshack.us/img251/7428/newsg.png
+| style="color: #000" valign="top"|
+
+'''Novetats de la wiki'''<br>
+<!-- 
+==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
+*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
+*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
+*KEEP ONLY THE 4 MOST RECENT NEWS; COMMENT OLD ONES.
+-->
+
+08-10 Updated to MediaWiki 1.16.0 and enabled file uploads<br>
+07-01: new article [[Translating an Article|''Translating an Article'']]<br>
+06-23: major translations clean-up<br>
+01-25: updated ''Main Page''<br>
+01-20: new article ''[[Creating a Theme]]''<br>
+<!--01-11: simplified [[Tested VSTs|''VST Database'']]<br>-->
+
+|}
+</div>
+|}
+----
+{{Main PageTrans}}
