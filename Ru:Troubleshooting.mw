@@ -1,9 +1,9 @@
 {{TroubleshootingTrans}}
 
-''You might also be interested in "[[How to report bugs|Как Сообщить об ошибке]]"''
+''Возможно, Вам будет также интересно почитать о "[[How to report bugs|Как сообщить об ошибке]]"''
 
-=== LMMS segfaults and there are no error messages on the console. How do I get debugging information? ===
-Use the GNU Debugger:
+=== В консоли нет сообщений об ошибке сегментации LMMS. Как получить информацию об отладке? ===
+Воспользуйтесь GNU Debugger:
 
  :~$ gdb lmms
  GNU gdb 6.X
@@ -14,54 +14,54 @@ Use the GNU Debugger:
  Starting program: lmms
  ...
 
-If a segfault happens, LMMS will freeze and you'll get some information on the terminal. Entering ''bt'' or ''bt full'' will show a backtrace you can [[How to report bugs|report]].
+Если ошибка сегментации появляется, LMMS будет зависать и Вы получите некоторую информацию в терминале. Ввод ''bt'' или ''bt full'' покажет данные, которые Вы можете [[How to report bugs|сообщить]].
 
-Make sure you have debugging symbols in LMMS. That usually means compiling with the ''-g'' flag and not stripping the symbols afterwards.
+Убедитесь, что Вы имеете символы отладки в LMMS. Это обычно подразумевает компиляцию с ''-g'' флагом и не скрывает символы впоследствии.
 
-=== I get lots of latency (lag) when playing instruments in LMMS ===
-This is often the cause of your sound being routed through PulseAudio (which is the default for many desktop distributions such as Ubuntu), even if you have set the audio interface to ALSA. To fix this problem, LMMS needs to directly access your sound card. To do this, run
+=== Я получаю большую задержку (лаги) проигрывая инструменты в LMMS ===
+This is often the cause of your sound being routed through PulseAudio (который имеется по умолчанию для многих дистрибутивов, например, Ubuntu), даже если Вы поставили аудио-интерфейс на ALSA. Чтобы исправить эту проблему, LMMS нужен прямой доступ к звуковой карте. Чтобы сделать это, выполните:
 
  aplay -l
 
-And look at the card and device numbers - for example:
+И взгляните на звуковые карты и номера устройств - например:
 
  card 2: SI7012 [SiS SI7012], device 0: Intel ICH [SiS SI7012]
 
-Next, go to LMMS, open the settings menu (Edit > Settings), go to the Audio Settings tab, and in the "device" field, delete "default" and type 
+Далее откройте LMMS, open окно найстройки (Edit > Settings), перейдите на вкладку Audio Settings, и в поле "device" удалите "default" и введите 
 
  hw:x,x
 
-Where the first "x" is the card number, and the second is the device number. For example, the above configuration would be "hw:2,0". Restart LMMS and you should have very little latency.
+где первый "x" номер карты, и второй номер устрйства. For example, the above configuration would be "hw:2,0". ПЕрезагрузите LMMS и Вы должны получить очень маленькую задержку.
 
-=== When I try to play one of the demo-songs the sound gets crapped. What can I do? ===
-If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
+=== Когда я пробую играть одну из демо-песен . Что мне делать? ===
+Если Вы используете OSS, Вы можете попробовать ALSA вместо этого, потому что в использовании OSS с LMMS есть проблемы в некоторых случаях. Если это не помогает, ваш компьютер, вероятно, слишком медленный, чтобы отдавать все данные в реальном времени. Попробуйте экспортировать проект как WAVE/OGG-файл или заморозить образцы (patterns), пока он работает. Замораживание образцов означает, что они отдаются в одно время и при воспроизведении песни только рендер-буфер должен быть смешан с выходом. Конечно, это экономит много процессорного времени.
 
-Another thing is the internal buffer-size, used by LMMS. The smaller this value the smaller the latency. If you have problems because of low performance, you can try to increase the buffer-size. Then LMMS renders more data at one time and interrupts aren't always spurious... Use the setup-dialog to change this parameter.
+Другое дело внутренний буфер размера, используемый LMMS. Чем меньше эта величина, тем меньше задержки. Если у вас возникли проблемы из-за низкой производительности, вы можете попытаться увеличить размер буфера. Тогда LMMS отдает больше данных за один раз и прерывания не будут всегда ложные... Используйте окно настройки для изменения этого параметра.
 
 You can also try to re-compile LMMS with tuning-options according to your platform. configure offers additional optimization-options like dropping surround-support. See configure --help for details.
 
 
-=== As soon as I start LMMS it eats all my CPU-time. Is that normal? ===
+=== Через некоторое время после запуска LMMS "съедает" все ресурсы ЦП (CPU). Это нормально? ===
 You're using a quite old version of LMMS which had this bug. Try to upgrade LMMS and everything should be alright...
 
 
-=== When using JACK as audio-interface, there's no sound. What to do? ===
-You probably didn't start JACK-transport. Start an application like [http://qjackctl.sourceforge.net/ qjackctl] and click on "play" or whatever it is named in your application. Then everything should be alright. Actually LMMS automatically should start JACK-transport on startup. You may also need to connect lmms to your sound card, using the patch bay in qjackctl. 
+=== При использовании аудио-интерфейса JACK нет звука. Что делать? ===
+Вы, наверное, не запустили звуковой сервер JACK. Запустите приложение, такое как [http://qjackctl.sourceforge.net/ qjackctl] и нажмите на кнопку "play" или как там оно называется в вашем приложении. Далее все должно быть в порядке. На самом деле LMMS автоматически должен начать JACK-транспорт после заупска. Вам также может понадобиться, связать LMMS к звуковой карте, используя патч в qjackctl.
 
 
-=== I compiled LMMS with VST-support but it doesn't work at all ===
-Make sure you didn't pass -fomit-frame-pointer in a FLAG-parameter to configure. This is known to lead to an unusable LVSL (LMMS VST Support Layer).
+=== Я скомпилировал LMMS с поддержкой VST, но он вообще не работает ===
+Убедитесь, что Вы не пропустили -fomit-frame-pointer in a FLAG-parameter to configure. This is known to lead to an unusable LVSL (LMMS VST Support Layer).
 
 
 === The singerbot-plugin just produces undefinable sounds ===
-Please make sure '''not''' to have installed ''swh-plugins''-package. It's known to break Festivals speech-synthesis for some reason.
+Убедитесь, что в системе пакет ''swh-plugins'' '''не''' установлен. It's known to break Festivals speech-synthesis for some reason.
 
-=== Plugins don't load on 64bit platforms ===
+=== Плагины не загружаются на 64-битной платформе ===
 The path to the plugins directory is (as of v. 0.3.0) hardcoded, meaning that you'll have to manually setup a link from the right place, to the expected place:
 
- - open a terminal
- - type "su -"
- - enter the password for root
- - type "ln -s /usr/lib64/lmms/ /usr/lib/lmms"
+ - откройте терминал
+ - введите "su -"
+ - введите пароль root
+ - введите "ln -s /usr/lib64/lmms/ /usr/lib/lmms"
 
-And you're ready to go. Someone should fix this (hint: src/core/config_mgr.cpp ;-) )
+And you're ready to go. Кто-нибудь, почините это (совет: src/core/config_mgr.cpp ;-) )
