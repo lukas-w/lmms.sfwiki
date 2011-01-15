@@ -157,7 +157,7 @@ The Arp/Chord tab looks like this:
 http://lmms.sourceforge.net/wiki/images/b/b5/Tab-func.png
 <!--{\end{center}}-->
 
-Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously.  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
+Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously).  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
 
 Both sections have two common controls - the list of chords that can be played and the range in octaves over which the chord will be played.  Since some chords span more than one octave, some chords or arpeggios will overlap.  The list of chords available is vast, ranging from standard chords through jazz to regional chords and natural modes such as Lydian and Dorian.
 
