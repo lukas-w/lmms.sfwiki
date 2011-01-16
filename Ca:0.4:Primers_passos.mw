@@ -9,7 +9,11 @@ http://lmms.sourceforge.net/wiki/images/1/19/Initial_screen.png
 
 ''Advertència: la interfície canviarà lleugerament segons la versió del programa que utilitzis i del sistema operatiu on estigui instal·lada.'' 
 
-La interfície de l'LMMS es pot dividir en diferents ''elements'' (parts): la '''barra de meú principal''' a dalt de tot, la '''barra d'eines''' just sota el menú principal, i la '0'barra lateral'0' a l'extrem esquerre. La major part de la interície està ocupada per les diverses finestres que, de fet, són les que s'utilitzen per editar la música.
+La interfície de l'LMMS es pot dividir en diferents ''elements'' (parts): la '''barra de menú principal''' a dalt de tot, la '''barra d'eines''' just sota el menú principal, i la '0'barra lateral'0' a l'extrem esquerre. La major part de la interície està ocupada per les diverses finestres que, de fet, són les que s'utilitzen per editar la música.
+
+La [[Ca:0.4:barra de menú principal|barra de menú principal]] és el que també esperaries trobar en qualsevol altre programa. Té unes quantes opcions referents als arxius de projecte, accés a alguns connectors, i accés a l'ajuda si fos necessari.
+
+La [[Ca:0.4:barra d'eines|barra d'eines]], sota la barra del menú, té els mateixos botons referents als arxius de projecte (crear-ne de nous, obrir-ne, guardar-los i exportar-los). La segona renglera de botons s'utilizen per mostrar/amagar les finestres de la secció principal de la interfície. La part dreta de la barra d'eines conté alguns dels controls principals de la cançó. Inclou el tempo, el compàs, el volum, el timbre, i una drecera a l'exportació a fitxer d'àudio.
 
 ''Secció en preparació...''
 
