@@ -10,11 +10,11 @@ http://lmms.sourceforge.net/wiki/images/1/19/Initial_screen.png
 ''注意：LMMSのバージョン、使用しているOSによってインターフェイスの見た目は多少異なります。'' 
 
 
-LMMSのインターフェイス画面は最上部にある'''メインメニューバー'''、メインメニューバーのすぐ下の'''ツールバー'''、そして左端にある'''サイドバー'''等、いくつかのパートに分けることができます。その他の大部分のスペースは、実際に作曲・編曲の作業のためのウィンドウで占められています。 
+LMMSのインターフェイス画面は最上部にある'''メインメニューバー'''、メインメニューバーのすぐ下の'''ツールバー'''、そして左端にある'''サイドバー'''等、いくつかのパートに分けることができます。その他の大部分のスペースは、実際に作曲・編曲の作業のためのウィンドウ（ソングエディター、Fxエディター等）で占められています。 
 
 [[0.4:Main Menu Bar|メインメニューバー]] には一般的なプログラムにあるようなProject-Edit-Tools-Helpのメニューがあり、プロジェクトファイルの新規作成・保存をしたり、各種設定、プラグイン、オンラインヘルプが利用できます。
 
-メニューバーの下にある[[0.4:Tool Bar|ツールバー]]は、メインメニューバーにもあるプロジェクトファイルを新規作成したり、開いたり、保存したり、エクスポートしたりするためのアイコンが一列目に並んでいます。
+メニューバーの下にある[[0.4:Tool Bar|ツールバー]]は、メインメニューバーにもあるプロジェクトファイルを新規作成したり、開いたり、保存したり、エクスポートしたりするためのアイコンが一列目に並んでいます。二列目のアイコンは、各種ウィンドウの表示、非表示を切り替えるために使用します。ツールバーの右側には、テンポ（TEMPO/BPM）、拍子（TIME/SIG）、ボリューム、ピッチ、マスター出力のためのグラフィカルコントローラーがあります。 
 
 The [[0.4:Side Bar|Side Bar]], to the far left of the interface, is a set of tab buttons. They can be clicked to display the tab's contents, and then clicked a second time to hide it.  The items in the Side Bar will be explained as necessary, but for now, the items include Instrument plugins, My projects, My samples, My presets, My home, and My computer.
 
