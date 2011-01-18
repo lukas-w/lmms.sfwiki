@@ -1,23 +1,62 @@
-<h1>[http://www.iscaffold.com.cn scaffolding]</h1>
+{{TroubleshootingTrans}}
 
-Mobile scaffolding of the lightning method 
+=== LMMS segfaults e non esitono messaggi di errore sulla console. Come ottenere informazioni di debugging? ===
+Usate il Debugger della GNU:
 
-First, the four corners of the <b>[http://www.iscaffold.com.cn scaffolding]</b> in housing on the pole stand, height not less than 1 meter, and all should be the top horizontal pole connected to form a lightning network. Rack installed in the vertical transport in the middle of a lightning rod should be set to the side of the pole above the top of the access not less than 2 meters, the lower end of the stand pole ground wire, and hoist chassis ground. 
-  
-Second, grounding wire should maximize the use of steel. Vertical grounding can be 1.5 to 2 meters long, 25 to 30 mm in diameter, wall thickness of not less than 2.5 mm steel pipe with a diameter not less than 20 mm angle steel bar or 50 * 5. Grounding can choose the length of the level of not less than 3 meters in diameter from 8 to 14 mm round or thickness of not less than 4 mm wide and 25 to 40 mm flat steel. Also buried in the ground can also be used metal pipes, metal post, drill pipe, water pipe and into a reliable connection with the earth as a grounding metal structure. Scaffolding on the ground electrode by a continuous length of 50 meters within the set one, and should meet the furthest point away from the ground within a scaffolding pole transition resistance on the requirements of not more than 10 ohms. Ground resistance shall not exceed 20 ohms. 
-  
-Third, the ground wire that is deflectors, can be not less than 16 mm2 cross-section of aluminum wire or a section of not less than 12 square millimeters of copper wire. In order to save non-ferrous metals can be used under the premise of a reliable connection is not less than 8 mm in diameter, round, or not less than 4 mm thick flat steel. Ground wire connection to be absolutely reliable contact, connect to contacts 
+ :~$ gdb lmms
+ GNU gdb 6.X
+ Copyright (C) 2006 Free Software Foundation, Inc.
+ ...
+ 
+ (gdb) r
+ Starting program: lmms
+ ...
 
-Paint and surface oxide removal, exposing metallic luster, and painted a neutral petroleum jelly. Ground wire and the grounding connection is best to use solder, solder ground wire length should be more than 6 times the diameter or more than 2 times the width of flat steel. Lightning protection should also note that setting the following: 
+Se avvengono dei segfault, LMMS si bloccher&agrave; e otterrete alcune informazioni dal terminale. Inserendo ''bt'' o ''bt full'' vi verr&agrave; mostrato un backtrace che potete [[How to report bugs|riportare]].
 
-First, the grounding device before setting the limits under the grounding resistance, soil moisture and conductivity characteristics of the design, selection and location of grounding, and grounding wire grounding and layout, material selection, connection, production and installation requirements be specified. After the installation of sheet resistance measurement to use for compliance. 
+Assicuratevi di avere i simboli di debug in LMMS. Questo significa generalmente compilarlo con l'opzione ''-g'' e non [stripping the symbols afterwards].
 
-Second, the grounding line position should be selected not easy to come to the local people in order to avoid hazards and reduce the step voltage to prevent the ground suffered mechanical damage, grounding and other metals or cables should be maintained between the distance of 3 meters or more. 
+=== Ottengo molto latenza (lag - ritardo) quando suono gli strumenti in LMMS ===
+Questo &egrave; spesso la causa del riciclo del vostro suono attraverso PulseAudio (che &egrave; il predefinito per molte distribuzioni come Ubuntu), anche se avete impostato l'interfaccia audio con ALSA. Per risolvere questo problema, LMMS necessita di accedere direttamente alla vostra scheda audio. Per fare questo, eseguite
 
-Third, the use of grounding devices in 6 months or more, should not be used in the ground as bare aluminum grounding wire or grounding wire. The soil in a strongly corrosive, use galvanized or copper grounding pole. 
+ aplay -l
 
-Fourth, in case of lightning strikes during construction, the steel scaffolding on the operator should be immediately evacuated.
+E date un'occhiata ai numeri di scheda e dispositivo - per esempio:
 
-Jan. 17 more knowledge of scaffolding and <b>[http://www.iscaffold.com.cn aluminum beam]</b> description, please visit this site and the <b>[http://www.iscaffold.com.cn/bbs scaffolding bbs]</b> to the website: http://www.iscaffold.com.cn 24 hour customer service phone!
+ card 2: SI7012 [SiS SI7012], device 0: Intel ICH [SiS SI7012]
 
-link:>> <b>[http://www.christian-louboutinsale.net Christian Louboutin Shoes sale]</b> | <b>[http://www.weipuconnector.com/waterproof-connectors.html waterproof connectors]</b>
+Quindi, andate in LMMS, aprite il menu delle impostazioni (Edit > Settings), passate alla scheda Impostazioni Audio, e all'interno del campo "device", cancellate "default" e digitate 
+
+ hw:x,x
+
+dove il primo numero "x" &egrave; il numero della scheda, mentre il secondo &egrave; il numero del dispositivo. Per esempio, la configurazione sopra dovrebbe risultare "hw:2,0". Riavviate LMMS e dovreste ritrovarvi con un latenza molto pi&ugrave; bassa.
+
+=== Quando provo ad eseguire una dei pezzi di esempi il sonoro gratta. Cosa Posso Fare? ===
+If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
+
+Another thing is the internal buffer-size, used by LMMS. The smaller this value the smaller the latency. If you have problems because of low performance, you can try to increase the buffer-size. Then LMMS renders more data at one time and interrupts aren't always spurious... Use the setup-dialog to change this parameter.
+
+You can also try to re-compile LMMS with tuning-options according to your platform. configure offers additional optimization-options like dropping surround-support. See configure --help for details.
+
+=== Non appena avvio LMMS questi mi succhia tutto il tempo di CPU. &Egrave; normale? ===
+Probabilmente state utilizzando una versione datata di LMMS che aveva questo problema. Provate ad aggiornare LMMS e ogni cosa dovrebbe tornare a posto...
+
+=== Quando utilizzo JACK come interfaccia audio, non c'&egrave; nessun suono. Cosa faccio? ===
+Probabilmente non avete avviato il JACK-transport. Avviate un'applicazione come [http://qjackctl.sourceforge.net/ qjackctl] e cliccate su "play" o qualsiasi altra cosa sia chiamato nella vostra applicazione. Quindi ogni cosa dovrebbe funzionare. Al momento LMMS dovrebbe avviare automaticamente il JACK-transport all'avvio. Dovrete forse anche connettere LMMS alla vostra scheda sonora, utilizzando la patch prelevata in qjackctl.
+
+=== I compiled LMMS with VST-support but it doesn't work at all ===
+Make sure you didn't pass -fomit-frame-pointer in a FLAG-parameter to configure. This is known to lead to an unusable LVSL (LMMS VST Support Layer).
+
+
+=== The singerbot-plugin just produces undefinable sounds ===
+Please make sure '''not''' to have installed ''swh-plugins''-package. It's known to break Festivals speech-synthesis for some reason.
+
+=== I Plugin non si caricano su piattaforme a 64bit ===
+The path to the plugins directory is (as of v. 0.3.0) hardcoded, meaning that you'll have to manually setup a link from the right place, to the expected place:
+
+ - open a terminal
+ - type "su -"
+ - enter the password for root
+ - type "ln -s /usr/lib64/lmms/ /usr/lib/lmms"
+
+And you're ready to go. Someone should fix this (hint: src/core/config_mgr.cpp ;-) )
