@@ -1,0 +1,63 @@
+{{0.4:ManualTrans}}
+<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">This manual refers to the current version of LMMS, version '''0.4'''. For an older version of LMMS, see [[0.3:Manual]]</div>
+
+= Introduction =
+
+Short, introductory pages on each topic, establishing what you need to run LMMS and understand this document.<br>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Requirements|動作環境]]<br>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|LMMSのインストール]]<br>
+http://img683.imageshack.us/img683/4199/infode.png [[Compiling LMMS]] (advanced users/developers)<br>
+* [[Terms and Conventions|規約および規則の合意]]
+
+= Tutorials =
+
+Step-by-step task-oriented guides to achieving particular goals in LMMS.<br>
+
+http://img199.imageshack.us/img199/6025/wizardq.png [[Jp:0.4:Getting Started|はじめに]] - a brief walk-through for the impatient<br>
+http://img80.imageshack.us/img80/8084/firstsong.png [[0.4:Your First Song with LMMS|LMMSでつくるはじめの一曲]] - a more step-by-step tutorial<br>
+http://img18.imageshack.us/img18/1241/textxpatch.png [[0.4:Making Triple-Oscillator Patches|トリプルオシレーターのパッチを制作する]] - Guidelines for creating useful triple-oscillator patches<br>
+
+= Using (LMMS) Elements =
+
+A thematic description of how the various tools/elements in LMMS work.<br>
+
+http://img94.imageshack.us/img94/2387/workingwithinstruments.png [[0.4:Working with Instruments|インストルメントを使う]]<br>
+<!--{\newpage}-->
+http://img231.imageshack.us/img231/9008/workingwithsamples.png [[0.4:Working with Samples|サンプルを使う]]<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Composing in the Piano Roll Editor|ピアノロールエディターでの作曲]]<br>
+http://img94.imageshack.us/img94/3945/drum.png [[0.4:Composing Bass Lines and Drum Sequences|ベースライン・ドラムシーケンスでの作曲]]<br>
+http://img717.imageshack.us/img717/1107/togetherq.png [[0.4:Putting the song together|各トラックから楽曲を構成する]]<br>
+http://img198.imageshack.us/img198/1558/automation2.png [[0.4:Working with Automation|オートメーションを使う]]<br>
+http://img189.imageshack.us/img189/5848/effectsv.png [[0.4:Working with LADSPA effects|Working with LADSPA effects]]<br>
+http://img208.imageshack.us/img208/8308/controller.png [[0.4:Working with Controllers|コントローラーを使う]]<br>
+http://img51.imageshack.us/img51/1045/mixerd.png [[0.4:Working with Effects and the Mixer|エフェクトとミキサーを使う]]<br>
+http://img193.imageshack.us/img193/9927/plugint.png [[0.4:Working with VSTs|VSTを使う]]<br>
+http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Using MIDI|MIDIを使う]]<br>
+http://img88.imageshack.us/img88/6471/exportu.png [[0.4:Exporting the Song|楽曲をエクスポートする]]<br>
+
+= Reference =
+
+A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.<br>
+
+* [[0.4:Main Menu Bar|メインメニューバー]]<br>
+* [[0.4:Tool Bar|ツールバー]]<br>
+* [[0.4:Side Bar|サイドバー]]<br>
+* [[0.4:Plugins|プラグイン]]<br>
+* [[0.4:Song Editor|ソングエディター]]<br>
+* [[0.4:Piano Roll Editor|ピアノロール]]<br>
+* [[0.4:Beat Bassline Editor|ベースライン・ドラムエディター]]<br>
+* [[0.4:Automation Editor|オートメーションエディター]]<br>
+* [[0.4:FX Mixer|FXミキサー]]<br>
+* [[0.4:Project Notes|プロジェクトに関するノート]]<br>
+* [[0.4:LMMS Settings|LMMSの設定]]<br>
+* [[0.4:Key Mappings|ショートカットキー]] （英語のみ） <br>
+
+= Appendices =
+
+http://img189.imageshack.us/img189/152/glossary.png [[Glossary|用語の解説]]<br>
+http://img31.imageshack.us/img31/9783/sourcecpp.png [[License|ライセンス]]<br>
+http://img153.imageshack.us/img153/3821/progresso.png [[Roadmap|ロードマップ]] （英語のみ） <br>
+
+<!--{%}-->'' This is a contents page only - all actual articles are supposed to be linked from here.  The rationale behind the structure of this page can be found at the [http://en.wikipedia.org/wiki/Software_documentation#User_Documentation|the Wikipedia article on Software Documentation]. ''
+__NOTOC__ __NOEDITSECTION__
