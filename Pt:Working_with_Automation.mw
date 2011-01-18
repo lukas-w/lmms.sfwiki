@@ -1,11 +1,125 @@
-<h1>[http://www.iscaffold.com.cn scaffolding]</h1>
+Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song.
 
-Note that the problems mobile scaffolding 
+= Automatizar esse! =
 
-(A) moving the scaffolding <b>[http://www.iscaffold.com.cn scaffolding]</b> load over 15KN/mm2. To distinguish those parts of the tube length changes greater impact on the load, the upper part of the template free length of stent should be considered a not too long, generally less than 500mm suitable (in the new specification may be revised), the general calculation Pole the top step and bottom step of the maximum force should be calculated as the main point. Capacity requirements should be satisfied when the group increased to reduce pole step. 
+A lista dos controles que podem ser automatizadas é vasto, como pode ser visto a partir da lista em [[Automação Editor # What_can_be_automated.3F | Automação Editor de referência]]. No entanto, vale a pena olhar para esta lista com mais detalhes para ver a grande quantidade de controles que podem ser automatizadas:
 
-(2) The prevalence of domestic scaffolding steel, fasteners, backwater, and the end of substandard quality care and other materials, the actual construction of the theoretical calculations do not take them into account. Sweeping bar missing, vertical and horizontal junction is not connected, sweeping shot from the distance is too large or too small, etc.; scaffold board listed, the thickness is not enough, do not meet the specifications overlap; large formwork removal of the medial pole and the wall thickness is not between anti-dropping network; scissors in the plane did not continuous; opening brace scaffolding is not set; small bar under the scaffold board spacing is too large; even failed to do inside and outside wall rigid parts. 
+* Track controles, como o volume e as configurações de Mute, tanto no [[Beat Beat Bassline Editor | + Bassline Editor]] e] a [[Piano Roll Editor].
+* Praticamente todos os controles de Instrumento:
+** As definições do acto [[Plugins | Plugin]] em si, digno de uma subseção em sua própria direita:
+*** Todos os botões, como fase de ajuste e pan.
+*** Todos os seletores de vários valores, tais como a forma de onda de cada oscilador e mesmo tipo de mistura entre eles.
+** Os botões de controle do envelope, LFO e parâmetros de filtro.
+** Os botões de controle do filtro e LFO.
+** O tipo de filtro selecionado.
+** O tipo de arpejo e comprimento.
+** Os controles para todos os efeitos que você tem sobre o instrumento, e se todos os efeitos estão ligados ou não.
+** Os canais MIDI para receber e enviar dados sobre a nota.
+* O mestre tempo, tom e volume.
 
-Jan. 17 more knowledge of scaffolding and <b>[http://www.iscaffold.com.cn aluminum beam]</b> description, please visit this site and the <b>[http://www.iscaffold.com.cn/bbs scaffolding bbs]</b> to the website: http://www.iscaffold.com.cn 24 hour customer service phone!
+Basicamente opção, clique com o botão direito sobre ele, e se ele tem um "Open in Editor Automation" no menu de contexto, é automatable!
 
-link:>> <b>[http://www.christian-louboutinsale.net Christian Louboutin Shoes sale]</b> | <b>[http://www.weipuconnector.com/waterproof-connectors.html waterproof connectors]</b>
+Há duas coisas a lembrar quando os controles automação:
+
+* A automação para o controlo de faixas em uma batida / bassline só vai para o primeiro compasso (ou como muitos bares como o beat / padrão bassline dura).
+* Todos os outros automação começa a partir de uma barra do editor de música.
+
+Vejamos alguns exemplos de como usar a automação em suas canções.
+
+== Em == Fading
+
+O Comum Mais e Mais simples parágrafo em Automação USO É UM Instrumento de atenuação No começo do Desempenho, De que modo o Pedaço dominantes Não Entra em que. É isto conseguido Através da automatização do controle de volume do Instrumento nd Canção Editor.
+
+A primeira Coisa Que VOCÊ vai Descobrir Que É um AUTOMAÇÃO E semper medido A partir da música do início, independentemente do local Onde uma faixa de instrumento o Seu dez Primeiro segmento. SE VOCÊ TEM então o Primeiro bar de rolo nd trilha piano Instrumento aparecendo nd barra de 33, VOCÊ vai precisar parágrafo Começar um Desvanecer-se o Instrumento nd Barra 33 AO inves de hum bar.
+
+A segunda Coisa Que VOCÊ vai Descobrir e Um Que fade em bares normalmente Duram Para muitos, e E mais Fácil parágrafo desenhar Uma Linha diagonal de comprimento Que, Quando uma escala horizontal (http://tangram.dnsalias.net/lmms-imgs/lmms -0.3.1/automation-toolbar-horizzoom-100.png) e Reduzido n º Cerca de 25%.
+
+A terceira Coisa Que VOCÊ vai Descobrir Que um ter e Monte de Pontos de Controle e Necessário n o volume, POIs Pessoas Não São Muito sensíveis um volume não Pequenas Mudanças. Além disso, pontos de Controlo ter Mais, Uma edição Mais tarde SE VOCÊ Mudar SUA Mente. DeFina o controle de quantização http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png () para Cerca de 01/02 e 01/04 OU VOCÊ Ainda PoDE obter Linha relativamente hum, hum Mesmo sem ter monte de Pontos de controle desnecessário SE VOCÊ Quiser mudá-lo tarde MAIS.
+
+Por exemplo, Nesta Peça:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-songeditor.png
+
+A Automação nenhum controle da faixa Moog Primeiro volume parecido com Este:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automation.png
+
+Observar uma POSIÇÃO da Régua tempo de - o fade in Cerca Começa em 41 de bar, QUANDO Ocorrem como Primeiras Notas.
+
+== == Adicionando Expressão
+
+Ao automatizar o controle de tempo par conseguir dominar Mais lento (a''''rallentando) à Medida Que se aproxima o final de Uma frase E, em seguida, retomar o Seu DEPOIS logo Ritmo, VOCÊ Dá o Seu Pedaço de Expressão - Como SE UM Jogador de piano ao vivo estivesse enfatizando Que uma seção. Isso UM Parece Pouco Como UM único "dente de serra" negativo Retirado da Automação, Como
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
+
+== == Efeitos do ácido Eighties
+
+O http://en.wikipedia.org/wiki/Acid_house [Acid House] e http://en.wikipedia.org/wiki/Acid_trance [Movimentos Acid Trance ERAM] famosos Por utilizar o Roland TR303 parágrafo tocar Uma melodia repetitiva e variação da freqüência de corte do filtro e Outros Parâmetros de envelope n º Através alterar o som de Toda uma PECA. Devido a Natureza da melodia repetitiva, É tentador USAR UM armazenar n bassline uma melodia, uma Automação Mas não Beat / Bassline Editor tão vai enquanto o Padrão - por isso, a Automação VOCÊ vai colocar em repetir-se CADA Vez o Padrão se repete, AO inves de Mudança constante.
+
+Primeiro, CRIE Uma nova pista com qualquer Instrumento (não VSTige. Neste exemplo, vamos USAR OS Filtros da LFO Guia ENV / Instrumentos VST e Não Posso utilizar esse mês RECURSO. Gerador ZynAddSubFX O Pacote É UM Instrumento VST e Ele Não PoDE Filtros USAR LFO. ) colocar Uma barra de Notas repetitivo e, em seguida copiar Que criar barras (dezesseis eu copiar Esse bar não rolam piano e cola-lo Três Vezes parágrafo criar Uma frase de Quatro compassos, e DEPOIS copiar Esse segmento editor da musica para conseguir Que Quatro Quatro segmentos de compassos). Em seguida, abra o plugin de instrumento e selecione o Envelope / LFO / Guia Filtro:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
+
+Ligue uma seção Filtro, DeFina o tipo de filtro n Moog, e certifique-se que o Montante LFO ESTÁ Definido n. zero.
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-filter-pointers.png
+
+então clique com o controle Botão Direito Sobre corte o''filtro''de e automatizá-lo:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automation.png
+
+Voce PoDE desenhar Diferentes Formas - blocos, Subindo e caindo curvas, saltos e sawteeth.
+Pôde Ser Difícil parágrafo desenhar com o mouse. Desde .4.4 sh + clicar leftMouse criará estreito Linhas conectadas. Use isso parágrafo Fazer multa lenta linear Mudanças graduais.
+
+http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.ogg
+
+O ARQUIVO DE PROJETO PoDE Ser Baixado AQUI:
+
+http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
+
+É Interessante notar Que Aqui uma freqüência das Alterações Pontos de controle do som. Nenhum compasso 17, ha Quatro varreduras n Cima com uma quantização 16/01 Definido como, e Depois do compasso 21, ha Quatro varreduras parágrafo Baixo com uma quantização Definido Como 1 / 32 (ou seja, Duas Vezes Como Para muitos Pontos de controle). Como Alterações Para o corte do filtro Não Acontecem de forma Analógica, entre instantaneamente digitalmente Acontecem Como Alguém Botão UM desanimo - Que Pular e como Definições. Isso Significa Que VOCÊ Ouvir PoDE como Mudanças na freqüência Como Etapas distintas - Os Quatro varreduras n Cima PoDE soar Um pouco irregular OU stuttery e Varre Baixo Mais Parecer n PoDE suave. Para o controle fino VOCÊ PoDE Até Querer USAR 1/64th quantização. No entanto, Uma Vez Que É Mais Difícil conseguir Uma curva verdadeiramente Ou mesmo Linha de Desenho, uma desvantagem Desta PoDE Abordagem Ser O Que Seu Próprio imprecisões nd Elaboração dos Pontos de controle tornam-se audíveis e São Mais Difíceis de editar parágrafo fóruns.
+
+== Sons voando passado ==
+
+Em uma canção que eu escrevi que eu tinha uma série de aplausos stacatto em um padrão e eu quero que eles voam da direita para a esquerda, como um tiroteio. Eu automatizou o controle panorâmico (ou seja, na direção X) do instrumento no editor bater bassline:
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-1.png
+
+Eu, então, criou uma linha diagonal direita da bandeja (1024 em cima) para pan-esquerda (-1.024 em baixo):
+
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-2.png
+
+E agora o som "voa" passado da direita para a esquerda!
+
+http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.ogg
+
+Observe que redefine o "som" para a direita depois de cada bar, porque o padrão é apenas uma barra longa. Se eu quisesse outro conjunto de palmas que voava no sentido contrário, tenho algumas opções:
+
+* Eu posso criar um segundo padrão que tem de tomar automação da esquerda para a direita e suplentes dos padrões na música. Isso significa que você tem uma segunda faixa, que pode ser inconveniente.
+* Eu posso adicionar uma segunda barra de notas (através do padrão''menu de contexto 'Adicionar Passos''' opção) e depois ter o retorno de automação para a direita. Isso me limitar a ter as palmas retornar imediatamente depois que eles deixaram, que não podem trabalhar na peça.
+
+Você pode baixar este como um arquivo de MMPZ
+
+http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
+
+= When not to use Automation =
+
+Though Automation gives you great power and flexibility over the sound of an instrument or your entire piece, there are some times where it is overkill and others where there are easier ways to achieve what you want.
+
+* Automation currently lacks any tools to make regular shapes such as sine waves.  Drawing these can be quite difficult, especially if you are looking at drawing such a shape for a long time.  Instead, use an LFO - either in the instrument plugin or as an effect.
+* Automation can be applied to change the characteristics of each note individually - for example, to have a note gradually fade away or gradually introduce vibrato - but it is tedious to do this to every note.  The LFO settings in the instrument plugin's Evelope/LFO/Filter section allow you to set the attack rate of the LFO to gradually fade in vibrato, and the envelope can be set to give a long decay time.
+
+= Navigation =
+
+Reference: [[Automation Editor]]
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Putting the song together]]
+| Up: [[0.3:Manual]]
+| Next: [[0.4:Working with LADSPA effects|Working with LADSPA effects]]
+|}
+
+[[Category:HowTo]] [[Category:Incomplete]]
+[[Category:0.3-Manual]]
+[[Category:Portuguese]]
