@@ -14,17 +14,17 @@ LMMSのインターフェイス画面は最上部にある'''メインメニュ�
 
 [[0.4:Main Menu Bar|メインメニューバー]] には一般的なプログラムにあるようなProject-Edit-Tools-Helpのメニューがあり、プロジェクトファイルの新規作成・保存をしたり、各種設定、プラグイン、オンラインヘルプが利用できます。
 
-メニューバーの下にある[[0.4:Tool Bar|ツールバー]]は、メインメニューバーにもあるプロジェクトファイルを新規作成したり、開いたり、保存したり、エクスポートしたりするためのアイコンが一列目に並んでいます。二列目のアイコンは、各種ウィンドウの表示、非表示を切り替えるために使用します。ツールバーの右側には、テンポ（TEMPO/BPM）、拍子（TIME/SIG）、ボリューム、ピッチ、マスター出力のためのグラフィカルコントローラーがあります。 
+メニューバーの下にある[[0.4:Tool Bar|ツールバー]]は、プロジェクトファイルの新規作成、開く、保存、エクスポートのアイコンが一列目に並んでいます（メニューバーのProjectメニューからも同様のことが可能です）。二列目のアイコンは、各種エディターなどのウィンドウの表示、非表示を切り替えるために使用します。ツールバーの右側には、テンポ（TEMPO/BPM）、拍子（TIME/SIG）、ボリューム、ピッチ、マスター出力のためのグラフィカルコントローラーがあります。 
 
-The [[0.4:Side Bar|Side Bar]], to the far left of the interface, is a set of tab buttons. They can be clicked to display the tab's contents, and then clicked a second time to hide it.  The items in the Side Bar will be explained as necessary, but for now, the items include Instrument plugins, My projects, My samples, My presets, My home, and My computer.
+インターフェイス画面の左側にある[[0.4:Side Bar|サイドバー]]には、いくつかのタブがあります。タブはクリックすることで内容が表示され、もう一度クリックすると元に戻ります。サイドバーの各種項目は、これから説明していきますが、いまのとことろは音源プラグイン（Instrument plugins）、プロジェクト（My projects）、サンプル（My samples）、プリセット（My presets）、ホーム（My home）、マイコンピュータ(My computer)があることを覚えておきましょう。
 
-The main part of the interface contains a number of windows.
+メニューバー以外のインターフェイス画面の大部分は、いくつかのウィンドウで占められています。 
 
-Upon launch of LMMS, there will always be a few windows opened. The four windows opened by default are the [[0.4:Song Editor|Song-Editor]], the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], [[0.4:FX Mixer|FX-Mixer]], and the [[Controller Rack|Controller Rack]]
+LMMSを起動したばかりの状態では、いつでも４つのウィンドウ（[[0.4:Song Editor|ソングエディタ]]、[[0.4:Beat Bassline Editor|ビート+ベースラインエディタ]]、[[0.4:FX Mixer|FXミキサー]]、[[Controller Rack|コントローララック]]）があります。
 
-Before you are ready to jump right in, one thing must be emphasized: Save often!  Save your project every time you have done something that sounds good. It is also a good strategy to save different versions of the song.  This will allow you to 'roll-back'  to a previous version of the project.  
+楽曲の制作をはじめるまえに、一つぜひ覚えておくべきことがあります。それはとにかくの保存をこまめにすることです！なにか作業をして、それが気に入った場合はとにかくプロジェクトを保存しましょう。一つの曲を仕上げる途中でも、別名をつけていくつかのバージョンを保存することで、いつでも前のバージョンに戻ってこれるようにするとよいでしょう。
 
-The first time you save a project you will be prompted for a folder and a project-name. Subsequent saves will overwrite this file, and LMMS will show you a small success message in the bottom of the screen. Wait for this message!
+一番最初にプロジェクトを保存するときには、保存先のフォルダーとプロジェクトの名前を聞かれます。それ以降は上書きされます。保存終了のメッセージが画面下の方にでますので、メッセージを確認してから作業を続けましょう。
 
 ==Jumping Right In==
 
