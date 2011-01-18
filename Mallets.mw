@@ -5,10 +5,10 @@ Mallets is a sample-based synth emulating tuneful things to bang on:) <br>
 http://lmms.sourceforge.net/wiki/images/f/fd/Plugins-mallets.png
 | style="color: #000" valign="middle"|
 
-There are 3 different categories and the settings are accordingly different depending on the sound you are choosing. <br> 
-# Percussion instruments:Marimba, Vibraphone, Agogo, Wood1, Reso, Wood2, Beats, Two Fixed and Clumps
-# Tubular bells 
-# Bars:Uniform Bar, Tuned Bar, Glass and Tibetan Bowl
+There are 3 different categories and the settings are accordingly different depending on the sound you are selecting. <br> 
+# [[Mallets#Percussion_instruments_settings|Percussion instruments:]] Marimba, Vibraphone, Agogo, Wood1, Reso, Wood2, Beats, Two Fixed and Clumps
+# [[Mallets#Tubular_bells_settings|Tubular bells:]]
+# [[Mallets#Bars_settings|Bars:]]Uniform Bar, Tuned Bar, Glass and Tibetan Bowl
 
 You can change the basic sound by clicking on the name in the box. <br>
 Left-click to step forward, right-click to go backward. <br>
@@ -16,7 +16,7 @@ You can also click on the arrow and will get a drop-down menu with all included 
 
 |}
 
-==Percussion instrument settings:== 
+==Percussion instrument settings== 
 
 '''Hardness'''
 
@@ -31,7 +31,7 @@ You can also click on the arrow and will get a drop-down menu with all included 
 '''Spread'''
 
 
-==Tubular bells settings:== 
+==Tubular bells settings== 
 
 '''Modulator'''
 
@@ -46,7 +46,7 @@ You can also click on the arrow and will get a drop-down menu with all included 
 '''Spread'''
 
 
-==Bar settings:== 
+==Bar settings== 
 
 '''Bowed''' on/off
 
