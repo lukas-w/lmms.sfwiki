@@ -63,15 +63,27 @@ http://img251.imageshack.us/img251/7428/newsg.png
 ==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
 *WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
 *KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
-*KEEP ONLY THE 4 MOST RECENT NEWS; COMMENT OLD ONES.
+*KEEP ONLY THE 10 MOST RECENT NEWS; MOVE OLD ONES TO THE NEWS ARCHIVE.
 -->
 
-08-10 Updated to MediaWiki 1.16.0 and enabled file uploads<br>
-07-01: new article [[Translating an Article|''Translating an Article'']]<br>
-06-23: major translations clean-up<br>
-01-25: updated ''Main Page''<br>
-01-20: new article ''[[Creating a Theme]]''<br>
-<!--01-11: simplified [[Tested VSTs|''VST Database'']]<br>-->
+<div style="height: 100px; width: 250px; overflow: auto; padding: 3px;text-align: left; border:solid 1px;" title="braglist"; >
+
+'''2011''' <br>
+01-18: {{flaglink|Jp:Main_Page|ja}} [[Jp:Main Page|main page]] added + [[Jp:0.4:Manual|manual]] <br> 
+01-10: {{flaglink|Ca:Pàgina_principal|ca}} [[Ca:Pàgina principal|main page]] added <br> 
+01-05: {{flaglink|Nl:Hoofdpagina|nl}} [[Nl:Hoofdpagina|main page]] added <br> 
+01-03: {{flaglink|Ru:Main_Page|ru}} [[Ru:Main Page|main page]] added + [[Ru:0.4:Manual|manual]] <br> 
+
+
+'''2010''' <br> 
+12-15: [http://sourceforge.net/projects/lmms/files/lmms/0.4.9/  ''LMMS 0.4.9 released''] <br> 
+08-10: Updated to MediaWiki 1.16.0 and enabled file uploads <br>
+07-01: new article [[Translating an Article|''Translating an Article'']] <br>
+06-23: major translations clean-up <br>
+01-25: updated ''Main Page'' <br>
+01-20: new article ''[[Creating a Theme]]'' <br>
+</div>
+[[News Archive]] <br>
 
 |}
 </div>
