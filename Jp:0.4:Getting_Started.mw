@@ -28,40 +28,34 @@ LMMSを起動したばかりの状態では、常に４つのウィンドウ（[
 
 ==Jumping Right In==
 
-A project is made by adding '''instruments''' (sidebar tab 1), '''samples''' (sidebar tab 3) and existing '''presets''' (sidebar tab 4) to either the Song Editor or the Beat+Bassline Editor. 
+プロジェクトは、'''楽器'''（サイドバーの１つ目のタブ）、'''サンプル'''（サイドバーの３つ目のタブ）、'''既存のプリセット'''（サイドバーの４つ目のタブ）をソングエディタまたはビート+ベースラインエディタにドラックして追加していくことで制作していきます。
 
-The Song Editor is useful for non-repeating sound events, such as melody lines, and the Beat+Bassline Editor is useful for repeating sounds, like percussion. <br> 
-Events created in the Beat+Bassline Editor are 'continuous' -i.e. they can be expanded by mouse-dragging as long as you would like. <br>
-Events created in the Song Editor are 'atomic' -i.e. they can't be expanded (but can be copied, of course).
+ソングエディタは、メロディーラインなど、基本的に繰り返さないイベントに使います。<br> 
+一方、ビート+ベースラインエディタは、パーカッションやベースラインのように、繰り返しの多いイベントに利用すると便利でしょう。<br>
+ビート+ベースラインエディタで作成されたイベントは、'連続的'に使用可能です。つまり、マウスで右端をドラッグすることによって好きなだけ引き延ばすことができます（後述）。ソングエディタで作成されたイベントは、'アトミック（不連続）'です。つまり、これらは引き延ばして繰り返すことはできません（もちろん、コピーすることはできます）。
 
-The actual song is always built in the Song Editor. This is where all the '''elements''' (blocks), including events in the Beat+Bassline Editor, come together on the timeline, and reveal your complete composition.
+楽曲は、常にソングエディタ上で制作されます。ソングエディタは楽曲を構成するすべての要素（ブロック）をタイムライン上に配置するためにつかわれ、ビート+ベースラインエディタのイベントもここに配置されます。これにより完全な楽曲が完成します。
 
-Lets take a look at the default [[0.4:Song Editor|Song Editor]].
-In the default Song Editor there are 4 items loaded. The first one, named ''"Default Preset"'',is an instance of the [[TripleOscillator|Triple Oscillator]] (3-OSC) generator, as an example of an instrument-container. This instance is without any preset-settings and will only beep a simple sine sound. It could actually be deleted, but before we do that, we should look at it, because it has behavior that is the same for all other instrument-containers.
-When you move your mouse over the instrument-containers, they will high-light. This indicates that the instruments can be clicked as if they were buttons! Left-click the 3-OSC. This opens the instrument GUI. Click again, and the GUI is closed. All instruments behave like this. 
+それでは、デフォルト（初期状態）の[[0.4:Song Editor|ソングエディタ]]を見ていきましょう。
+デフォルトのソングエディタで4つのアイテムが読み込まれています。 最初にある''"デフォルトのプリセット（Default Preset）"''には、[[TripleOscillator|トリプルオシレーター]]（3-OSC）ジェネレータが楽器コンテナの例として、読み込まれています。この3-OSCは、とくにプリセット設定を持たずに構成されているため、単純な正弦波のビープ音を出すだけです。
 
-When you make changes on the GUI you create a '''preset'''. If it sounds less than horrible, you have an instrument :)
-If you right-click you will have a rename option. ''Always name your instruments!''
+このままではあまり使い道がないので、削除してしまってもかまいませんが、その前にどの楽器コンテナにも共通な部分について見ていきましょう。まず楽器コンテナの上にマウスを移動すると、色が変わります。これは、クリックできる状態であることを示しています。では、左クリックしてみましょう。楽器のグラフィカルユーザーインターフェイス（GUI）が開きます。もう一度クリックするとGUIは閉じられます。この動作はすべての楽器コンテナに共通です。
 
-To the left of the instruments there are 2 clickable 'lamps'. When the green lamp is ON, the track is activated. In its OFF state the track is muted.
-The other lamp is red. When the red lamp is ON, the track will mute all other tracks, and play solo.
+では、GUIをいじってみて何かしら音に変更を加えてみましょう。これであなたの'''プリセット'''が作成されたことになります。もし、それほどひどい音でなかった場合、あなたは楽器を制作したといえるでしょう。マウスの右ボタンから名前の変更ができます。''いつもあなたの楽器に適当な名前を付けましょう！''
 
-Next, to the left of these, we have the action-button. Here you can delete or clone the track and all of its events.
+楽器コンテナの左側には2つの丸い'インジケーター'があります。左の緑色のインジケーターがオンになっている場合、このトラックがアクティブになります。オフ状態ではトラックはミュートされます。右の赤色インジケーターがONになっている場合、他のトラックがすべてミュートされ、ソロ演奏になります。 
 
-To the right of the '''Instruments''', before the knobs, we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance. 
-On the right half of the song-editor, we have the timeline. Create a track by adding events to this timeline.
-The timeline is divided in bar-sized blocks. Click in one next to 3-OSC. You get a black box. If you double-click the black box, you open the [[0.4:Piano Roll Editor|Piano-Roll Editor]]. This is where you create your tune.
-We will return to that later.
+次に、インジケーターの左側のアイコンをみてみましょう。これはアクションボタンとよび、ここからトラックの複製や削除、MIDIの設定ができます。 
 
-Below the 3-OSC you have the '''Sample Track'''. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. You can add a new sampletrack with the 6. button on the song editor tool bar.
+'''楽器コンテナ'''とその右側の２つのノブとの間には細い縦のバーがあります。これをクリックすると楽器の基音が演奏されます。２つのノブは音量とステレオバランス（パン）に使います。ソングエディターの右半分はタイムラインです。このタイムラインにイベントを追加することによってトラックを作成します。タイムラインはバーサイズのブロックに分かれています。タイムライン上をクリックすると、黒いバーができます。これをダブルクリックすると、[[0.4:Piano Roll Editor|ピアノロールエディタ]]が開きます。ピアノロールエディタに実際の音符を配置していくことで作曲します。ピアノロールの詳細は後で説明します。
 
-Next you have the default '''Beat+Bassline''' instance. Just for illustration, click on one of the boxes in the timeline next to the Beat+Bassline track. You get a blue block. Click and drag its right end, and it will expand. This is what I meant by Beat+Bassline events are 'continuous'. When you did that the with the 3-OSC, the block was black, and would not expand.
-You can add a new Beat+Bassline with the 5. button on the song editor tool bar.
+3-OSCの下には、'''サンプルトラック'''があります。これは歌やギターの生演奏などのwavまたはoggファイルを変更なしで置きたい場合に使われます。サンプルトラックを追加する場合にはソングエディターツールバーの左から六つ目のアイコンから追加できます。
 
-Last is an instance of the '''Automation Track'''. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation|Working with Automation]].
-You can add a new Automation-Track with the 7. button on the song editor tool bar, at the top of the song editor window.
+次には、デフォルトの'''ビート+ベースライン'''のインスタンスがあります。タイムライン上で左クリックすると青いバー（イベント）ができます。この右端をドラッグすると、右に引き延ばすことができます。これが前述したビート+ベースラインが‘連続的’であるという意味です。前述の3-OSCは‘連続的’ではないインスタンスなので黒いバーができ、引き延ばすことはできません。新しいビート+ベースラインを追加する場合はソングエディターツールバーの左から六つ目のアイコンをクリックします。 
 
-But a project needs more than a default 3-OSC, and luckily LMMS comes with an abundance of great instruments. 
+最後、4つ目は'''オートメーショントラック'''のインスタンスです。これは、フィルタエンベロープのエフェクトのような、リアルタイムで変化を与えたいときに使用します。詳細は[[0.4:Working with Automation|オートメーションを使う]]の項目で説明します。新しいオートメーショントラックを追加するには7つ目のアイコンを使います。
+
+実際のところ、プロジェクトには、デフォルトの3-OSCだけでは不足でしょう。しかし、幸運にも、LMMSには素晴らしい楽器が豊富に付属しています。
 
 == Instruments: Samples & Presets ==
 
