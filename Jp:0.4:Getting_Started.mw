@@ -57,25 +57,18 @@ LMMSを起動したばかりの状態では、常に４つのウィンドウ（[
 
 実際のところ、プロジェクトには、デフォルトの3-OSCだけでは不足でしょう。しかし、幸運にも、LMMSには素晴らしい音源が豊富に付属しています。
 
-== Instruments: Samples & Presets ==
+== 音源: サンプルとプリセット ==
 
-Now we take a look at those components that create sounds: samples and instrument-presets.
-To insert one of the many factory pre-defined instrument-presets into the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] or [[0.4:Song Editor|Song Editor]], click the 4. button in the side bar, that works just like a browser. You can now choose a preset and drag it into the song editor. 
-Everything that you can do in the side bar browser with presets, you can also do with samples. (Just click the 3. button in the side bar.)
-Furthermore, you can click and hold your mouse on the name of a preset or sample. LMMS will then let you listen to that particular instrument, as a kind of sound-test. You can then drag the instrument into the editor. You can also double click a instrument in the browser. This will place the objects directly into the Beat+Bassline Editor, or you can right-click on the instrument in the browser-list-tree, and LMMS will open a context-menu. Here you have the option to send this instrument into an empty slot in the song-editor or to replace a current active instrument with this new instrument. The 'Active Instrument' is the instrument that is highlighted in the song editor, and has its GUI opened - in other words: has been mouse-clicked.
+さて、それではサンプルやインストゥルメントのプリセットといった実際に音を作成するコンポーネントについて見ていきましょう。
+多くのデフォルトで使用可能なプリセット音源のなかから、そのいずれかを[[0.4:Beat Bassline Editor|ビート＋ベースラインエディタ]]や[[0.4:Song Editor|ソングエディタ]]に挿入するには、まずサイドバーの上から四つ目（My presets）をクリックしプリセットのブラウザーを開きます。 プリセットを選択し、ソングエディタにドラッグしてみましょう。My preset（プリセット）で可能なことはすべてMy samples（サンプル）でも行うことができます。 （My samplesは上から三つ目）
 
-Use the send-to-active-instrument option if you need to load a VST-Instrument Preset. (More on this: [[04: How to use VSTige Instruments|How to use Vst-Instrument Presets]]) 
+次に、プリセットやサンプルの名前をクリックし、そのまま押し続けてみましょう。こうすることでサウンドのプレビューが簡単にできます。好きなプリセットを見つけたら、エディタにドラッグします。また、ダブルクリックした場合は、自動的にビート+ベースラインエディタへとプリセットが配置されます。右クリックした場合はコンテキストメニューが開き、ソングエディターの空のスロットへ送ったり、現在選択されてアクティブになっている音源と交換することができます（send-to-active-instrument option）。 'アクティブな音源'とはは、ソングエディタで強調表示されて、かつそのGUIが開いている状態の音源のことです（つまり一度クリックされている必要があるということ）。
 
-When you insert an instrument, the instrument's GUI editor window will open. You can also see this GUI by clicking on the instruments grey 'name' button in the Song or Beat+Bassline Editors. When you click the 'name' button the button will change to lightgray. This instrument is now the 'Active Instrument'. The 'name' button acts as a toggle for the GUI editor window. Instrument GUI's have five tabs: PLUGIN, ENV/LFO FUNC, FX and MIDI.  The 'PLUGIN' tab changes with the type of instrument; all other tabs are standard for every instrument, however nothing on the ENV/LFO tab will influence VSTige plug-ins.
-The in and outs of how to use the features on the various tabs, are described in the [[0.4:Working with Instruments|Working with Instruments]] section.
+VST音源のプリセットをロードする必要がある場合には、このsend-to-active-instrument optionを使用してください（これに関するさらに詳しい内容は、[[04: How to use VSTige Instruments|VST音源プリセットを使用する]]の項目を参照）。
+音源を挿入すると、音源のGUIウィンドウが表示されます。また、ソングエディタやビート+ベースラインエディタの楽器の名前のボタン（音源コンテナ）をクリックしても、このGUIを表示できます。名前をクリックするとボタンがグレーからライトグレーになり、これが現在のアクティブ音源であることを意味します。名前ボタンはGUIエディタウィンドウの表示・非表示を切り替えるトグルボタンとして機能します。GUIエディタウィンドウには5つのタブがあります。これらはプラグイン（PLUGIN）、エンベロープ/LFO（ENV/ LFO）、ファンクション（FUNC）、FXおよびMIDIです。楽器の種類によってプラグインタブの内容は変化します。その他のタブは、すべての音源に対して標準で装備されているため変化しません。ただし、エンベロープ/LFOのタブはVSTigeプラグインについては影響を与えません。これらのタブの詳しい使い方は[[0.4:Working with Instruments|音源を使う]]の項目に記述されています。
 
-If you want to remove an instrument completely from your song, click on its gray 'toolkit' icon and choose 'Remove this track'.
-
-Instruments are divided into factory provided and user specified. Subfolders in your file system can be used to organize the instruments or samples hierarchically.
-
-Later you may like to create your own instruments from scratch. The sidebar's 1. button opens the Instrument-Plugins. These are empty default preset-templates that you can use for your own instruments. Drag them into your project and play around with all the settings on the GUI.
-Some hints and tips on how to create 3-OSC instruments can be found in [[0.4:Making Triple-Oscillator Patches|Making Triple-Oscillator Patches]].
-(You can of course also make changes to the factory-defined instruments and save those as your own. Overwriting existing factory-defined instruments is not recommended). 
+完全に音源を削除したい場合、名前ボタンの左のツールキットアイコンを押して'Remove this track' を押してください。
+音源はLMMSに標準のものとユーザーが作った物に分かれています。サブフォルダをつくって階層的に音源やサンプルを整理するために使用することができます。 自分の楽器を完全に最初から自作したい場合は、サイドバーの一番上のボタンからInstrument pluginsを開きます。これらは空のデフォルトのプリセットであり、自分の音源制作のためのテンプレートです。テンプレートをドラッグして、GUIエディタウィンドウ上でいろいろと試してみましょう。3-OSCの音源を作成するいくつかのヒントは、[[0.4:Making Triple-Oscillator Patches|トリプルオシレーターのパッチを作成する]]にあります。（もちろんLMMSで標準で定義されている楽器を変更し、あなた自身のものとして保存することもできます。ただし、LMMSで標準で定義された機器の上書きは推奨されていません）。
 
 == Creating a Track ==
 
