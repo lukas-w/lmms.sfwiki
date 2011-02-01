@@ -1,5 +1,4 @@
 {{0.4:ManualTrans}}
-<div style="color: #000000; background: #F5FFFA;border: 1px solid #A3BFB1; padding: 1em; margin: auto; width: 95%; ">This manual refers to the current version of LMMS, version '''0.4'''. For an older version of LMMS, see [[0.3:Manual]]</div>
 
 = Introduction =
 
@@ -14,12 +13,45 @@ http://img683.imageshack.us/img683/4199/infode.png [[Compiling LMMS]] (advanced 
 
 Step-by-step task-oriented guides to achieving particular goals in LMMS.<br>
 
+http://img80.imageshack.us/img80/8084/firstsong.png '''Beginners''':
+
 http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting Started|Getting Started]] - a brief walk-through for the impatient<br>
-http://img80.imageshack.us/img80/8084/firstsong.png [[0.4:Your First Song with LMMS|Your First Song with LMMS]] - a more step-by-step tutorial<br>
-http://img18.imageshack.us/img18/1241/textxpatch.png [[0.4:Making Triple-Oscillator Patches|Making Triple-Oscillator patches]] - Guidelines for creating useful triple-oscillator patches<br>
+* [[0.4:Your First Song with LMMS|Your First Song with LMMS]] - a more step-by-step tutorial<br>
+** Your first beat 
+** Your first bass
+** Your first melody 
+** Your first arp 
+** Your first automation 
+** Your first vocals 
+** Your first effects (FX)
+** Your first song 
+
+http://img18.imageshack.us/img18/1241/textxpatch.png '''Advanced''':
+
+* [[0.4:Making Triple-Oscillator Patches|Making Triple-Oscillator patches]] - Guidelines for creating useful triple-oscillator patches<br>
 
 * [http://brycecoulson.com/tutorials/sidechain Sidechaining] - how to sidechain using the FX-Mixer and a peak controller <br>
 * [http://brycecoulson.com/tutorials/autotunevst Autotune Tutorial] - how to sound like T-Pain or fix vocal pitch using GSnap autotune <br>
+= Manual =
+
+A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the [[#Using (LMMS) Elements|Using LMMS]] section.<br>
+
+* [[0.4:Main Menu Bar|Main Menu Bar]] <br>
+* [[0.4:Tool Bar|Tool Bar]] <br>
+* [[0.4:Side Bar|Side Bar]] <br>
+* [[0.4:Plugins|Instrument Plugins]] <br>
+* [[0.4:Instrument Editor|Instrument Editor]] <br>
+* [[0.4:Song Editor|Song Editor]] <br>
+* [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] <br>
+* [[0.4:Piano Roll Editor|Piano Roll Editor]] <br>
+* [[0.4:Automation Editor|Automation Editor]] <br>
+* [[0.4:FX Mixer|FX Mixer]] <br> 
+* [[0.4:Project Notes|Project Notes]] <br>
+* [[Controller Rack]] <br> 
+** [[Effect Plugins]] <br> 
+** [[LADSPA|Ladspa Effects]]
+* [[0.4:LMMS Settings|LMMS Settings]] <br>
+* [[0.4:Key Mappings|Key Mappings]] <br>
 
 
 = Using (LMMS) Elements =
@@ -40,22 +72,6 @@ http://img193.imageshack.us/img193/9927/plugint.png [[0.4:Working with VSTs|Work
 http://img444.imageshack.us/img444/3952/midipiano.png [[0.4:Using MIDI|Using MIDI]]<br>
 http://img88.imageshack.us/img88/6471/exportu.png [[0.4:Exporting the Song|Exporting the Song]]<br>
 
-= Reference =
-
-A reference style description of the functions of each menu item and tool, including how it fits in with the tasks in the Using LMMS section.<br>
-
-* [[0.4:Main Menu Bar|Main Menu Bar]]<br>
-* [[0.4:Tool Bar|Tool Bar]]<br>
-* [[0.4:Side Bar|Side Bar]]<br>
-* [[0.4:Plugins|Plugins]]<br>
-* [[0.4:Song Editor|Song Editor]]<br>
-* [[0.4:Piano Roll Editor|Piano Roll Editor]]<br>
-* [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]<br>
-* [[0.4:Automation Editor|Automation Editor]]<br>
-* [[0.4:FX Mixer|FX Mixer]]<br>
-* [[0.4:Project Notes|Project Notes]]<br>
-* [[0.4:LMMS Settings|LMMS Settings]]<br>
-* [[0.4:Key Mappings|Key Mappings]]<br>
 
 = Appendices =
 
