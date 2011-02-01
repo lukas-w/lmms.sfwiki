@@ -21,17 +21,6 @@ This is the current list of instrument plugins, and links to their specific sect
 * [[Vibed]] -  powerful vibrating-string synthesis module.
 * [[ZynAddSubFX]] - A powerful hybrid synthesizer
 
-= Effect Plugins =
-* [[Effect Plugins#Bass Booster|Bass Booster]]
-* [[Effect Plugins#Peak Controller|Peak Controller]]
-* [[Effect Plugins#Spectrum Analyzer|Spectrum Analyzer]]
-* [[Effect Plugins#Stereo Enhancer|Stereo Enhancer]]
-* [[Effect Plugins#Stereophonic Matrix|Stereophonic Matrix]]
-
-= Controller Rack =
-* [[Controller Rack#Peak Controller|Peak Controller]]
-* [[Controller Rack#LFO Controller|LFO Controller]]
-* [[MIDI Controller]]
 
 = Navigation =
 
@@ -41,7 +30,7 @@ Howto: [[0.4:Working with Instruments|Working with Instruments]]
 |-
 | Prev: [[0.4:Side Bar|Side Bar]]
 | Up: [[0.4:Manual|Manual]]
-| Next: [[0.4:Song Editor|Song Editor]]
+| Next: [[0.4:Instrument Editor|Instrument Editor]]
 |}
 
 [[Category:Reference]]
