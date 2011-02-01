@@ -1,0 +1,221 @@
+{{0.4:Plugin-EditorTrans}}
+
+= The Instrument Window =
+
+Various instrument windows look like this:
+
+<!--{\begin{center}}-->
+http://lmms.sourceforge.net/wiki/images/a/a5/Plugins-tripleoscillator.png
+http://lmms.sourceforge.net/wiki/images/0/03/Plugins-organic.png
+http://lmms.sourceforge.net/wiki/images/5/55/Plugins-kicker.png
+
+<!--{\end{center}}-->
+
+The window is divided up into three main sections: <br>
+the instrument controls at the top, <br>
+the sound controls in the middle <br>
+and the piano keys at the bottom. <br> 
+
+== Instrument Controls ==
+
+The main controls are:
+
+* Preset name dialog
+* The instrument's volume.
+* The pan.
+* The pitch.
+* The effects channel that the instrument is currently using.
+* A button to save the settings of this instrument.
+
+These are always present no matter what plugin you have selected.
+
+== Sound controls ==
+
+The sound controls section is headed by a selector for five 'tabs':
+
+* '''Plugin''' shows the controls for how this particular plugin generates sound.  This is the only tab that changes per plugin.
+* '''Env/LFO''' shows the controls for the sound's envelope (its loudness over time), its use of the Low Frequency Oscillator, and pitch filtering.
+* '''Func''' shows the controls for making the instrument automatically play arpeggios or chords.
+* '''FX''' shows the chain of [[LADSPA]] effects plugins operating on this instrument.
+* '''MIDI''' shows which [[0.4:Using MIDI|MIDI]] channels this instrument will receive and send events on.
+
+Let's deal with these tabs in more detail.
+
+=== The Plugin tab ===
+
+The plugin tab contains all the controls that set how this plugin actually generates sound. <br> 
+For more information on this, read the individual [[Plugins]] page. <br> 
+
+=== The ENV/LFO tab ===
+
+The Env/LFO tab looks like this:
+
+''Note: VSTige and ZynAddSubFX instruments won't respond to anything on this tab.''
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/f/f5/Tab-env-lfo.png
+| style="color: #000" valign="middle"|
+
+=== Envelopes ===
+
+The '''Envelope''' of an instrument is how loud or soft it is from the moment the note is pressed to after it is released.  Immediately before the note is pressed, the envelope is at zero and the instrument produces no noise.  The note goes through an '''attack''' from when the note is pressed until it reaches its maximum loudness.  From then there is an initial '''hold''' period where the note remains at maximum loudness.  The note then '''decay'''s to a softer pitch which is the '''sustain''' level.  Finally when the note is '''release'''d it fades away to silence.  There may also be a '''pre-delay''' between when the note is pressed and when the volume starts rising.
+
+The Env/LFO/Filter section has three 'sub-tabs' that select the 'target' for three separate envelopes.  The default one, and the one discussed above, is the '''volume''' target.  You select the target in the same way that you select the tab in the instrument, by clicking on the label.  To control the envelope, you have six knobs to set each of the above parameters - '''pre-delay''' (DEL), '''attack, hold, decay, sustain, release''' - and a seventh one to control the '''amount''' (AMT) of effect that the envelope has on the parameter.
+
+For the volume envelope, this 'amount' does not actually affect the sound - the envelope only works if the amount control is 100% on.  Note that you can either either set the amount using its knob control or click on the envelope graph in order to turn it completely on or off.  The graph is green when it's turned on, grey when off and a shade between those two colours when the control is between fully on (1) and fully off (0).  The amount can also be turned down to negative one, a feature which is only useful for the Cutoff and Q/Reso targets.
+
+|}
+
+=== Filters ===
+
+In order to enable the filter, press the '''filter''' title bar and the light at the left will turn on.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
+
+The types of filter that LMMS offers are:
+
+* '''Lowpass''' - This filter lets low frequencies through.
+* '''Highpass''' - This filter lets high frequencies through.
+* '''Bandpass csg''' and '''Bandpass czpg''' - These filters let only a certain band of frequencies through.
+* '''Notch''' - The inverse of the Bandpass filter, this cuts only a certain frequency band.
+* '''Allpass''' - A filter that lets all frequencies through but has the same phase shifts, time delays and resonance properties as other filters.
+* '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesisers.
+* '''2x Lowpass''' - A lowpass filter with twice the Q factor.
+
+Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies - using anything other than a sine wave will do that - and then set the cutoff and Q factor and see how it changes the sound.
+
+''' Filters with Envelopes '''
+
+Filters do not have to be static and unchanged throughout the entire note.  LMMS allows you to control both the cutoff frequency and the Q factor via an envelope.  Nor does this envelope have to be the same as the volume envelope for the note - each parameter can have an independent envelope.  The envelope sets the value from its maximum or minimum to the set control level; for example, if a low-pass filter has the cutoff control set to 1000Hz and an envelope is used to sweep this value up in a long attack and long decay, the value of the control will go from 14000Hz (the maximum) down to 1000Hz and then back up.  This will make the instrument sound like it's been damped down and then the damping removed.
+
+=== The LFO ===
+
+''All LFO effects takes place through a filter, so the first thing is to activate the filter (lamp ON) and choose one from the drop-down. ''
+
+The LFO provided by LMMS allows you to control the value of the volume, cutoff and Q factor targets independently - the LFO for each is shown under the same 'tab' as the envelope for the same target.  Each has four parameters that you can set:
+
+* The '''delay''' before the oscillator starts.
+* The '''attack''' or fade-in rate of the oscillator - the rate at which it goes from starting to having full effect.
+* The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)If right-click the knob, LMMS open a context-menu, and you will have the option to beat-synchronize the speed. This is a strong feature and very useful for wobble or dubstep instruments.
+* The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
+
+=== The Func tab ===
+
+The Func tab looks like this:
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/b/b5/Tab-func.png
+| style="color: #000" valign="middle"|
+
+Normally, each 'note down' command plays one note in the instrument.  With the '''Arp/Chord''' controls, you can change this so that it plays a '''chord''' (with the root note being the note played) and/or an '''arpeggio''' (i.e. the notes of the chord played one after another rather than simultaneously).  To control this, the '''Arp/Chord''' tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be turned off. 
+
+Both sections have two common controls - the '''list of chords''' that can be played and the '''range in octaves''' over which the chord will be played.  Since some chords span more than one octave, some chords or arpeggios will overlap.  The list of chords available is vast, ranging from standard chords through jazz to regional chords and natural modes such as Lydian and Dorian.
+|}
+
+=== Chords ===
+
+The chords section has no other controls than the ones listed above.  When a note down signal is received, that note will be the base for the rest of the chord.  All the notes of the chord will play simultaneously until the note is released.
+
+=== Arpeggios ===
+
+The arpeggios section has a number of extra controls:
+
+* The '''direction''' that the arpeggio is played in can be selected from up, down, both directions (up then down) and random notes from the chord.
+* The '''time''' (in milliseconds) between each note. Right-click opens context menu to set '''tempo sync'''.
+* The '''gate''' time (as a percentage of the note time above).  At 100% gate time, each note will be played for the full time between each note.  At less than this, each note will be cut short and the rest will be filled with silence.  At more than this, each note will overlap the next note and will finish later than the start of the next.
+* The '''mode''' of playing the arpeggio.
+** In '''free''' mode, an arpeggio will be started when the note starts.  If a second note is played later, a second arpeggio will start at that (later) time and play independently of the first.
+** In '''sort''' mode, no matter when another note is pressed, the arpeggios will be played in the same order, with only one note being played at any one time.  For example, if the key for C is played with an ascending Major chord arpeggio, the arpeggio of C-E-G will be played repeatedly.  If the key for F is then held down, the arpeggio will play C-E-G-F-A-C one after the other - the arpeggio for C then the arpeggio for F.
+** In '''sync''' mode, any notes held down at the same time will play a chord arpeggio in that interval.  To take the above example, when F was held down the arpeggio would play CF-EA-GC repeatedly - the notes C and F simultaneously, then the notes E and A, then the notes G and C.
+
+== The FX tab ==
+
+The [[LADSPA]] effects allow many ways to control the sound of an instrument.  These can vary from simple effects like delays and echos to complex phasers, distortion and reverberation.  Effects can also be chained one after the other to produce very complex sounds.
+
+The FX tab looks like this:
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/b/b0/Tab-fx1.png
+| style="color: #000" valign="middle"|
+
+In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument by itself against the 'wet' sound of the effects in place.
+
+Click the 'add' button to select a new LADSPA/VST effect to add to the chain.  This then gives you several controls over the process of sending sound to and receiving it from the effect:
+
+
+
+* The '''W/D (wet/dry)''' knob sets the ratio between the input signal and the effect signal that forms the output. 
+* The '''decay''' control sets how much silence must pass before the effect turns off completely.  Turning the effect off reduces the amount of CPU time used processing silence and reduces the chance of unwanted noise.  However, if the effect turns off too soon it may introduce a 'clipped' sound to the effect: for instance, in the case of a reverb, if the reverb time is longer than the decay time then the reverb will be cut off before it has fully died away.
+* The '''gate''' threshold controls a similar parameter: it sets the level of noise below which the instrument will be considered to be silent.  A flanger effect placed on an instrument with a very long fade-out (say a ride cymbal) will be almost inaudible at the end of the tail of the cymbal.  Cutting the effect off early may reduce the CPU requirements and the chance of unwanted effect noise being heard.
+* The '''controls''' button displays (or removes) the separate window giving the controls specific to this effect.
+|}
+
+Note that some effects will also have ways to set their internal wet/dry level.  This sometimes takes the form of a wet/dry knob, but also can be two knobs to set the level of the wet output and the level of the dry, bypassed, output.
+
+To remove an effect, select its context menu (right-click) and choose 'Remove effect'. <br> 
+You can also change the order of any effect in the effect rack by moving it up or down. <br> 
+
+== The MIDI tab ==
+
+The MIDI tab looks like this:
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/d/d6/Tab-midi.png
+| style="color: #000" valign="middle"|
+
+These controls allow you to set which MIDI channel the instrument receives MIDI events on, and which it sends events to.  Both these controls work in similar ways:
+
+* Click the '''Receive MIDI-events''' or '''Send MIDI-events''' title next to the light to turn the reception or sending of MIDI events on or off.
+* The '''channel''' setting controls which MIDI channel events will be received or sent on.
+* The '''Default velocity''' control clamps all incoming or outgoing notes to once velocity when set.
+* The '''Device selector''' button shows a list of which devices in your system can act as sources or sinks for MIDI events.
+|} 
+
+= Piano Keys =
+
+At the bottom of the Instrument window is a small section of a piano keyboard. <br> 
+This will display the notes that are playing by greying out the key or keys as they're played. <br> 
+The scroll bar at the bottom of the screen allows you to move up and down (i.e. left and right) the keyboard to see different ranges of notes. <br> 
+
+== Base note ==
+
+http://lmms.sourceforge.net/wiki/images/7/77/Plugins-pianokeys.png
+
+In addition, the green mark just above the keys shows the 'base note' of the keyboard. <br> 
+Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz. <br> 
+For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth). <br> 
+This allows you to adjust an individual instrument to be pitched correctly in relation to all the others. <br>  
+This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz. <br> 
+However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch. <br> 
+As an example, if you recorded a saxophone playing a Bb, you would adjust the base note to be Bb; so that the saxophone was played in the same pitch as your other instruments.
+
+
+
+[[File:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
+<br>
+<br>
+'''Keyboard'''
+
+When the instrument window is selected, <br> 
+you can use the keyboard of your computer to play notes in a two-octave range. <br>
+In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected. <br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+= Navigation =
+
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Plugins]]
+| Up: [[0.4:Manual]]
+| Next: [[0.4:Song Editor]]
+|}
+
+
+[[Category:0.4-Manual]]
