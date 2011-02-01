@@ -1,68 +1,159 @@
-Here is a list of [[Working with VSTs|VST's]] that have been found to work with LMMS using WINE. There is no guarantee that they will definitely work with your system though.  Think of it as a guide.  Please feel free to add any that you find to work also (or not). It is generally good practise to test a [[Working with VSTs|VST]] you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up. 
+Here is a list of [[Working with VSTs|VST's]] that have been found to work with LMMS. There is no guarantee that they will definitely work with your system though.  Think of it as a guide.  Please feel free to add any that you find to work also (or not). It is generally good practise to test a [[Working with VSTs|VST]] you haven't used before on a blank project, this way you won't lose any work you've done if it fails to load and causes LMMS to lock-up. 
 
-==== Drums ====
+''You can sort by plugin/plugin type/developer (in case javascript is enabled)''
 
-{| style="font-size: 85%; text-align:center; {{wikitable_table}}"
-| {{rh}}|VST plugin name
-| {{rh}}|Plugin type
-| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
-| {{rh}}|http://img412.imageshack.us/img412/2830/freebsdj.png
-| {{rh}}|Other
-| {{rh}}|Remarks, information
-| {{rh}}|Homepage
+==== Commercial Synths ====
+
+{| class="wikitable sortable" style="font-size: 85%; text-align:center"
+! Plugin name (Version)
+! Plugin type
+! Company
+! class="unsortable" |http://a.fsdn.com/con/img/icons/linux.png 
+! class="unsortable" |http://a.fsdn.com/con/img/icons/windows.png 
+! class="unsortable" |http://a.fsdn.com/con/img/icons/mac.png 
+!! class="unsortable" |Remarks, information 
+!! class="unsortable" |Homepage
 |-
-| {{rh}} | Superior Drummer 2.0
-| {{wikitable_cell}}|Drums
-| {{?}}
+| {{rh}} | Blue
+| {{wikitable_cell}}|Synthesizer <br> (Hybrid)
+| {{wikitable_cell}}|Rob Papen
 | {{Yes}}
 | {{?}}
 | {{?}}
+| {{wikitable_cell}}|
+This synth delivers FM Synthesis, Phase Distortion Synthesis, Wave Shaping Synthesis and Subtractive Synthesis in one creative combination. <br>
+| {{wikitable_cell}}|http://www.robpapen.com/blue.html        
+|-
+| {{rh}} | DirectWave
+| {{wikitable_cell}}|Sampler
+| {{wikitable_cell}}|Image-Line
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.image-line.com/documents/directwave.html
+|-
+| {{rh}} | Garritan Personal Orchestra
+| {{wikitable_cell}}|Virtual Orchestra
+| {{wikitable_cell}}|Garritan
+| {{?}}
+| {{Yes}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.garritan.com
+|-
+| {{rh}} | Morphine
+| {{wikitable_cell}}| Synthesizer <br> (Additive)
+| {{wikitable_cell}}| Image-Line
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.image-line.com/documents/morphine.html
+|-
+| {{rh}} | PoiZone
+| {{wikitable_cell}}|Subtractive Synthesizer
+| {{wikitable_cell}}| Image-Line
+| {{Yes}}
+| {{Yes}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.image-line.com/documents/poizone.html
+|-
+| {{rh}} | SimSynth Live
+| {{wikitable_cell}}| Synthesizer <br> (Virtual Analogue)
+| {{wikitable_cell}}| Image-Line
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{lc}}|
+Following issues on Linux:
+* Takes a while to load
+* Various UI glitches
+* Not very stable
+| {{wikitable_cell}}|http://www.image-line.com/documents/simsynthlive.html
+|-
+| {{rh}} | Superior Drummer (2.0)
+| {{wikitable_cell}}|Drums
+| {{wikitable_cell}}|Toontrack
+| {{?}}
+| {{Yes}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.toontrack.com/
+|-
+| {{rh}} | Sytrus
+| {{wikitable_cell}} | Synthesizer <br> (Hybrid FM)
+| {{wikitable_cell}}| Image-Line
+| {{Yes}}
+| {{Yes}}
+| {{?}}
+| {{wikitable_cell}}| Sytrus Hybrid Synthesizer - subtractive but addictive. A disruptive innovation in software synthesis, nothing else compares to the diversity Sytrus packs. FM, RM & Subtractive synthesis - have it all.
+| {{wikitable_cell}}| http://www.image-line.com/documents/sytrus.html
+|-
+| {{rh}} | WASP
+| {{wikitable_cell}}| Synthesizer <br> (Virtual Analogue)
+| {{wikitable_cell}}|Image-Line
+| {{No}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.image-line.com/documents/wasp.html
+|-
+| {{rh}} | Wavestation
+| {{wikitable_cell}}| Synthesizer <br> (Wavetable)
+| {{wikitable_cell}}| KORG
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.korg.com/service/downloadinfo.asp?DID=719
+|-
+| {{rh}} | z3ta+ <br> (1.4 & 1.5)
+| {{wikitable_cell}} | Synthesizer <br> (Waveshaping)
+| {{wikitable_cell}}| Cakewalk
+| {{Yes}}
+| {{Yes}}
+| {{?}}
+| {{wikitable_cell}}| Powerful analog-style Synthesizer 
+| {{wikitable_cell}}| http://www.cakewalk.com/products/Z3TA/
 |}
 
 ==== Guitar ====
 
-{| style="font-size: 85%; text-align:center; {{wikitable_table}}"
-| {{rh}}|VST plugin name
+{| class="wikitable sortable" style="font-size: 85%; text-align:center"
+| {{rh}}|Plugin name (Version)
 | {{rh}}|Plugin type
-| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
-| {{rh}}|http://img412.imageshack.us/img412/2830/freebsdj.png
-| {{rh}}|Other
-| {{rh}}|Remarks, information
-| {{rh}}|Homepage
+| {{rh}}|Developer
+| class="unsortable" |http://a.fsdn.com/con/img/icons/linux.png
+| class="unsortable" |http://a.fsdn.com/con/img/icons/windows.png
+| class="unsortable" |http://a.fsdn.com/con/img/icons/mac.png
+! class="unsortable" |Remarks, information
+! class="unsortable" |Homepage
 |-
 | {{rh}} | DSK AcoustiKGruitarZ
 | {{wikitable_cell}}|Acoustic Guitar
+| {{wikitable_cell}}|DSK
 | {{Yes}}
 | {{Yes}}
-| {{?}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | DSK ElectriKGruitarZ
 | {{wikitable_cell}}|Electric Guitar
+| {{wikitable_cell}}|DSK 
 | {{Yes}}
 | {{Yes}}
-| {{?}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| Takes ~15 seconds to load
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | DVS Guitar
 | {{wikitable_cell}}|Electric Guitar
+| {{wikitable_cell}}|DreamVortex
 | {{Yes}}
 | {{Yes}}
-| {{?}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
@@ -71,70 +162,79 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 ==== Harmonica ====
 
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
-| {{rh}}|VST plugin name
+| {{rh}}|Plugin name (version)
 | {{rh}}|Plugin type
+| {{rh}}|Developer
 | {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
 | {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
 | {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
-| {{rh}}|Other
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
 |-
 |-
 | {{rh}} | DSK Harmonica (beta)
 | {{wikitable_cell}}|Harmonica
+| {{wikitable_cell}}|DSK
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| Very primitive
 | {{wikitable_cell}}|http://www.dskmusic.com
 |}
 
-==== Piano ====
+==== Keys ====
 
-{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
-| {{rh}}|VST plugin name
+{| class="wikitable sortable" style="font-size: 85%; text-align:center"
+| {{rh}}|Plugin name
 | {{rh}}|Plugin type
-| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
-| {{rh}}|Other
-| {{rh}}|Remarks, information
-| {{rh}}|Homepage
-|-
-| {{rh}} | MDA Piano
-| {{wikitable_cell}}|Piano
-| {{Yes}}
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|Pretty common piano sound
-| {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
+| {{rh}}|Developer
+| {{rh}} class="unsortable" |http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}} class="unsortable" |http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}} class="unsortable" |http://a.fsdn.com/con/img/icons/mac.png
+! class="unsortable" |Remarks, information
+! class="unsortable" |Homepage
 |-
 | {{rh}} | JazzBaby
 | {{wikitable_cell}}|Piano
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://smatni.tripod.com/safwanmatnivstplugins/ http://download.dontcrack.com/safwan_matni/Jazz%20Baby.rar (direct)
 |-
-| {{rh}} | GTG MicroOrganMkIII
-| {{wikitable_cell}} | Organ
+| {{rh}} | LazySnake
+| {{wikitable_cell}}|Electric Piano
+| {{wikitable_cell}}|Andreas Ersson
+| {{?}}
+| {{Yes}}
+| {{?}}
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|http://www.bostreammail.net/ers/lazysnake.html 
+|-
+| {{rh}} | MDA Piano
+| {{wikitable_cell}}|Piano
+| {{wikitable_cell}}|MDA
 | {{Yes}}
 | {{Yes}}
 | {{?}}
+| {{wikitable_cell}}|Pretty common piano sound
+| {{wikitable_cell}}|http://mda.smartelectronix.com/synths.htm
+|-
+| {{rh}} |MicroOrgan MkIII
+| {{wikitable_cell}}|Organ
+| {{wikitable_cell}}|GTG
+| {{Yes}}
+| {{Yes}}
 | {{?}}
 | {{wikitable_cell}}|Drawbar organ with percussion, key click, vibrato and unison.  MIDI channel must be set to "All".
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
-| {{rh}} | MrRay73 1.0
-| {{wikitable_cell}} | Electric Piano
+| {{rh}} | MrRay73 (1.0)
+| {{wikitable_cell}} |Electric Piano
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Fender Rhodes electric piano synthesizer (no samples).  Very good sound.  This is the old version, but it's free. Click on "MrRay seventy three" to hide the donations message and get to the controls.
 | {{wikitable_cell}}|http://www.genuinesoundware.com/?a=downloads (archive)
@@ -142,165 +242,157 @@ Here is a list of [[Working with VSTs|VST's]] that have been found to work with 
 
 ==== Synthesizer ====
 
-{| style="font-size: 85%; text-align: center; {{wikitable_table}}"
-| {{rh}}|VST plugin name
+{| class="wikitable sortable" style="font-size: 85%; text-align:center"
+| {{rh}}|Plugin name (version)
 | {{rh}}|Plugin type
-| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
-| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
-| {{rh}}|Other
-| {{rh}}|Remarks, information
-| {{rh}}|Homepage
-|-
-| {{rh}} | Garritan Personal Orchestra
-| {{wikitable_cell}}|Virtual Orchestra
-| {{?}}
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|
-| {{wikitable_cell}}|http://www.garritan.com
+| {{rh}}|Developer
+| {{rh}} class="unsortable" |http://a.fsdn.com/con/img/icons/linux.png
+| {{rh}} class="unsortable" |http://a.fsdn.com/con/img/icons/windows.png
+| {{rh}} class="unsortable" |http://a.fsdn.com/con/img/icons/mac.png
+| {{rh}} class="unsortable" |Remarks, information
+| {{rh}} class="unsortable" |Homepage
 |-
 | {{rh}} | DSK ThoR
 | {{wikitable_cell}}|Synthesizer
+| {{wikitable_cell}}|DSK
 | {{No}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| Error message on Linux. Very cool UFO-type echoed sound
 | {{wikitable_cell}}|http://www.dskmusic.com
 |-
 | {{rh}} | Crystal
 | {{wikitable_cell}}|Synthesizer
+| {{wikitable_cell}}|GreenOak
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| (generic crossbreeding)
 | {{wikitable_cell}}|http://www.greenoak.com/crystal/
 |-
 | {{rh}} | Rain
 | {{wikitable_cell}}|Rain Simulator
+| {{wikitable_cell}}|xoxos
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.xoxos.net/vst/vst.html#nature
 |-
 | {{rh}} | AquesTone
-| {{wikitable_cell}}|Vocal Synthesizer
+| {{wikitable_cell}}| Synthesizer <br> (Voice)
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.a-quest.com/aquestone/index_en.html
 |-
-| {{rh}} | ARCDEV Mainliner x2
-| {{wikitable_cell}} | 3x3 Oscillator Monosynth
+| {{rh}} | ARCDEV Mainliner X2
+| {{wikitable_cell}} | Mono Synth
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}} 
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|specialising in sinister detuned d'n'b basslines
 | {{wikitable_cell}}|http://www.arcanedevice.com/
 |-
 | {{rh}} | Drakqs
-| {{wikitable_cell}} | 2VCO (2osc for FM) Synth
+| {{wikitable_cell}} | Synthesizer <br> (FM)
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}} 
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|
 | {{wikitable_cell}}| http://www.vst4free.com/free_vst.php?id=371
 |-
 | {{rh}} | HERCS Abakos
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}} 
 | {{?}}
-| {{?}}
 | {{wikitable_cell}}|
-| {{wikitable_cell}}| http://www.hercsmusicsystems.com/
+| {{wikitable_cell}}| http://www.hercsmusicsystems.com/old_index.html
 |-
 | {{rh}} | ORCA
-| {{wikitable_cell}} | Analog Modeling Mono-Synth
+| {{wikitable_cell}} | Synthesizer <br> (Virtual Analog)
+| {{wikitable_cell}}|FXpansion
 | {{Yes}}
 | {{?}} 
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Based on detailed and accurate models of analogue synthesizer circuits and components, ORCA excels at deep, squelchy basses and thick unison leads.
 | {{wikitable_cell}}| http://www.fxpansion.com 
 |-
 | {{rh}} | Rhythm 2 - The Legendary Soviet Synth
-| {{wikitable_cell}} | Classic Synth 
+| {{wikitable_cell}} | Synthesizer <br> (Emulation)
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{?}} 
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Based on the EMI Ritm 2 which is an one-voice keyboard synthesizer designed for solo, ensembles and orchestral playing musical compositions of any genre. It can be used both for educational needs and creating different musical effects.
 | {{wikitable_cell}}| http://vst.smtp.ru/ 
 |-
 | {{rh}} | RTICUL8R
-| {{wikitable_cell}} | Spiky Synth
+| {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|Krakli
 | {{Yes}}
 | {{?}} 
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Best played with a velocity sensitive keyboard, it can turn its hand to natural sounding or totally synthetic tones.
 | {{wikitable_cell}}| http://krakli.com/krakli-free-synths/
 |-
 | {{rh}} | Squelch
-| {{wikitable_cell}} | Monophonic Squelch Generator
+| {{wikitable_cell}} | Mono Synth
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{?}} 
 | {{?}}
-| {{?}}
-| {{wikitable_cell}}| Squelch is designed to easily and quickly implement those all-too-popular acidic psytrance squiggles.
+| {{wikitable_cell}}| Monophonic Squelch Generator. 
+Squelch is designed to easily and quickly implement those all-too-popular acidic psytrance squiggles.
 | {{wikitable_cell}}| http://hosted.filefront.com/aeonsound/
 |-
-| {{rh}} | Synth1-v1.0.7
-| {{wikitable_cell}} |Polyphonic Synth
+| {{rh}} | Synth1 (1.0.7)
+| {{wikitable_cell}} |Synthesizer
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}} 
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| Synth1 is a virtual analogue synth.it features 2xosc,2xlfo,arpeggiator,effects,equaliser,unison mode & writable patch banks.
 | {{wikitable_cell}}| all versions of synth1 http://www.geocities.jp/daichi1969/softsynth/
 |-
-| {{rh}} | TAL-NoiseMaker
+| {{rh}} | NoiseMaker (2.5)
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|TAL
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}} | TAL-NoiseMaker is an improved version of TAL-Elek7ro and has a completely new synth engine and a lot of improvements in sound and usability. The synth also includes a small effect section with a reverb, chorus and a simple bit crusher effect.
 A display shows the knob and slider values. This allows more control over the synth. A ringmodulator and a syncable triangle are also part of this synth. TAL-NoiseMaker includes new filter types as the self resonating 6dB low pass and a notch filter. Its improved amplitude ADSR is very suitable for slow pads as for really fast envelopes. 128 factory presets included.
 | {{wikitable_cell}} | http://kunz.corrupt.ch/?Products:VST_TAL-NoiseMaker
 |-
-| {{rh}} | TAL-U-No-62
-| {{wikitable_cell}} | Synthesizer
+| {{rh}} | U-No-62
+| {{wikitable_cell}} | Synthesizer <br> (Emulation)
+| {{wikitable_cell}}|TAL
 | {{?}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| U-No-62 is an improved and completely refactored version of U-No-60.
 | {{wikitable_cell}}| http://kunz.corrupt.ch/?Products:VST_TAL-U-No-62
 |-
 | {{rh}} | GTG 44 S
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|GTG
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|Analog modeling synth.  MIDI Channel must be set to "---".
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
 | {{rh}} | GTG FM4
-| {{wikitable_cell}} | FM Synthesizer
+| {{wikitable_cell}} | Synthesizer <br> (FM)
+| {{wikitable_cell}}|GTG
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|4-operator FM synth.  Good pads, keys.  MIDI Channel must be set to "All".
@@ -308,17 +400,17 @@ A display shows the knob and slider values. This allows more control over the sy
 |-
 | {{rh}} | GTG MX 2008
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|GTG
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|3-osc analog-style synth with 3 LFOs (only one is host-syncable), delay and chorus effects.  MIDI channel must be set to "--".
 | {{wikitable_cell}}|http://www.gtgsynths.com
 |-
 | {{rh}} | GTG NK 1001
-| {{wikitable_cell}} | Monosynth
+| {{wikitable_cell}} | Mono-Synth
+| {{wikitable_cell}}|GTG
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|Analog modeling monophonic synth.  Very warm sound.  MIDI channel must be set to "All".  I recommend setting Key Trig to "Last".
@@ -326,8 +418,8 @@ A display shows the knob and slider values. This allows more control over the sy
 |-
 | {{rh}} | GTG Strings
 | {{wikitable_cell}} | String Synthesizer
+| {{wikitable_cell}}|GTG
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}|String Synthesizer with unique filter section.  MIDI channel must be set to "All".
@@ -335,9 +427,9 @@ A display shows the knob and slider values. This allows more control over the sy
 |-
 | {{rh}} | ErsDrums
 | {{wikitable_cell}} |Drum Synthesizer
+| {{wikitable_cell}}|Andreas Ersson
 | {{?}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|ErsDrums is a VST 2.3 compatible drum machine.
 All sounds are calculated in "real time", no samples are used.
@@ -345,209 +437,127 @@ All sounds are calculated in "real time", no samples are used.
 |-
 | {{rh}} | Wollo Drone
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|Wollo
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Analog modeling synth.
 | {{wikitable_cell}}|http://www.wollo.com/vst.htm
 |-
-| {{rh}} | DSK SizSenze
+| {{rh}} | DSK SixSenze
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|DSK
 | {{No}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Layering Synthesizer.  Great pads and keys.  After waiting 10 minutes for it to load I gave up.
 | {{wikitable_cell}}|http://rekkerd.org/dsk-vsti/
 |-
 | {{rh}} | PolyIblit
-| {{wikitable_cell}} |Synthesizer
+| {{wikitable_cell}} |Synthesizer <br> (Virtual Analog)
+| {{wikitable_cell}}|Andreas Ersson
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}|Analog-style synth with two multimode filters.  Lots and lots of filter types.  4 LFOs and 4 Envelopes, routable in semi-modular fashion.  Badly in need of a unison mode or chorus effect.  Great for fat leads, keys, arps and basses but lousy for pads.
 | {{wikitable_cell}}|http://www.bostreammail.net/ers/polyiblit.html
 |-
 | {{rh}} | Cheeze Machine
-| {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}} | String Synthesizer
+| {{wikitable_cell}}|BigTick
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{?}}
 | {{wikitable_cell}}| Emulates the classic string ensemble sound, made popular by such classic synths as the Crumar Performer or the Arp Solina. Generates sound by feeding a simple, saw-like waveform, into a chorus ensemble emulator, a 6-stages phaser, and a reverb. 
 | {{wikitable_cell}}| http://bigtick.pastnotecut.org/index.php?action=PROD&pcode=110
 |-
 | {{rh}} | GalactiX
-| {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}} | Synthesizer <br> (Subtractive)
+| {{wikitable_cell}}|smartelectronix
 | {{Yes}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| Subtractive virtual VST Synth 
 | {{wikitable_cell}}| http://www.smartelectronix.com/~alex/
 |-
-| {{rh}} | z3ta+
-| {{wikitable_cell}} | Synthesizer
+| {{rh}} | Virtual Juno 6
+| {{wikitable_cell}} | Synthesizer <br> (Emulation)
+| {{wikitable_cell}}|
 | {{Yes}}
 | {{Yes}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}| Powerful analog-style Synthesizer 
-| {{wikitable_cell}}| http://www.cakewalk.com/products/Z3TA/
-|-
-| {{rh}} | virtual juno6
-| {{wikitable_cell}} | Synthesizer
-| {{Yes}}
-| {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| Juno 6 is an VST based virtual Analogue Synthesizer for Windows written in C++, that emulates the sound technics of the original Roland Juno 6/60 Synthesizer. The project itself is based on the ultramaster juno 6 linux sources **when adjusting faders sometimes they can run away to max, but they can easily be adjusted back down to desired setting**
 | {{wikitable_cell}}| http://juno6.gruftie.com/index2.html
 |-
-| {{rh}} | Sytrus
-| {{wikitable_cell}} | Synthesizer
-| {{Yes}}
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}| Sytrus Hybrid Synthesizer - subtractive but addictive. A disruptive innovation in software synthesis, nothing else compares to the diversity Sytrus packs. FM, RM & Subtractive synthesis - have it all.
-| {{wikitable_cell}}| http://www.image-line.com/documents/sytrus.html
-|-
-| {{rh}} | WASP
-| {{wikitable_cell}}|Analogue Virtual Synthesizer
-| {{No}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|The WASP vsti-dxi is best described as a "broad" analogue emulation synth, which means it can model sounds from a large range of analog synths such as Moog, Roland and others.
-| {{wikitable_cell}}|http://www.image-line.com/documents/wasp.html
-|-
-| {{rh}} | Morphine
-| {{wikitable_cell}}|Additive Virtual Synthesizer
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|Morphine is a powerful Additive Synthesizer with a logical, flexible architecture that allows you to create any sound. You can do this directly by adjusting harmonics manually or by taking any input sample and resynthesizing it into one of 4 independent voices.
-| {{wikitable_cell}}|http://www.image-line.com/documents/morphine.html
-|-
-| {{rh}} | PoiZone
-| {{wikitable_cell}}|Subtractive Synthesizer
-| {{Yes}}
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|The concept behind PoiZone was to design a synthesizer that had the smallest number of controls while providing the maximum flexibility and features.
-| {{wikitable_cell}}|http://www.image-line.com/documents/poizone.html
-|-
-| {{rh}} | DirectWave
-| {{wikitable_cell}}|Sampler
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|DirectWave loads and edits most of the existing sound formats out there (WAV (any), SF2 (Soundfont), AKP (Akai), Propellerheads Recycle, Native Instruments Battery, Kontakt *(nki), GIGA *(gig) & eMagic EXS24, ...) and it can even sample your existing VSTi instruments. 
-| {{wikitable_cell}}|http://www.image-line.com/documents/directwave.html
-|-
-| {{rh}} | SimSynth Live
-| {{wikitable_cell}}|Synthesizer
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{lc}}|SimSynth Live captures the big multi-oscillator sound of a MiniMoog, and combines it with the warm, fat sound of Oberheim style SVF filters.
-
-Following issues on Linux:
-* Takes a while to load
-* Various UI glitches
-* Not very stable
-| {{wikitable_cell}}|http://www.image-line.com/documents/simsynthlive.html
-|-
-| {{rh}} | KORG Wavestation
-| {{wikitable_cell}}|Wavetable Synth
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|Wavestation synthesizer features:
-    * 32 note polyphonic (CPU dependant).
-    * 484 PCM waveforms.
-    * 32 digital oscillators.
-    * 32 digital filters.
-    * 64 envelope generators.
-    * 64 LFOs.
-    * 55 effect types.
-    * 550 performances, 385 patches (ROM8 Banks + RAM3 Banks) sound included.
-    * Performance/Patch/Wave Sequence Data can be imported (in .SYX file).
-| {{wikitable_cell}}|http://www.korg.com/service/downloadinfo.asp?DID=719
-|-
-| {{rh}} | Rob Papen's Blue
-| {{wikitable_cell}}|Synth
-| {{Yes}}
-| {{?}}
-| {{?}}
-| {{?}}
-| {{wikitable_cell}}|This exciting synth delivers FM Synthesis, Phase Distortion Synthesis, Wave Shaping Synthesis and Subtractive Synthesis is one creative combination! We call it "Crossfusion synthesis".
-
-BLUE has six oscillators which can be connected in various ways, two analogue style modelled stereo filters, an enormous range of processing and modulation options, sequencer and an incredibly powerful arpeggiator.
-Despite these heavy features, BLUE is so easy-to-use thanks to its user interface and the innovative 'easy edit' page for quick sound changes!
-
-This all brought together with over 1700 inspirational Rob Papen presets covering a wide range of musical styles.
-| {{wikitable_cell}}|http://www.robpapen.com/blue.html                                                                      
-|-
 | {{rh}} | DelayLama
-| {{wikitable_cell}} | Voice Synthesizer
+| {{wikitable_cell}} | Synthesizer <br> (Voice)
+| {{wikitable_cell}}|
 | {{yes}}
 | {{Yes}}
 | {{?}} 
-| {{?}}
 | {{wikitable_cell}}| Virtual Singing Monk
 | {{wikitable_cell}}| http://www.audionerdz.com/
 |-
 | {{rh}} | Gargoyle
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|Krakli
 | {{?}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| 
 | {{wikitable_cell}}| http://krakli.com/krakli-free-synths/
 |-
 | {{rh}} | DAO
 | {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}}|
 | {{?}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| 
 | {{wikitable_cell}}| http://www.kvraudio.com/get/388.html
 |-
 | {{rh}} | Hotelsinus Reese Bassline 
-| {{wikitable_cell}} | Synthesizer
+| {{wikitable_cell}} | Synthesizer <br> (Bass)
+| {{wikitable_cell}}|
 | {{?}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| 
 | {{wikitable_cell}}| http://www.kvraudio.com/get/3120.html
 |-
-| {{rh}} | EVM Bassline 1.3
-| {{wikitable_cell}} | Synthesizer
+| {{rh}} | EVM Bassline (1.3)
+| {{wikitable_cell}} | Synthesizer <br> (Bass)
+| {{wikitable_cell}}|EVM
 | {{?}}
 | {{Yes}}
-| {{?}}
 | {{?}}
 | {{wikitable_cell}}| 
 | {{wikitable_cell}}| http://evm.110mb.com/free.htm
 |-
-| {{rh}} | Sample plugin (for adding your own)
+| {{rh}} | Drumatic 3
+| {{wikitable_cell}}|Drum Synthesizer
+| {{wikitable_cell}}|e-phonic
 | {{?}}
+| {{Yes}} <br> 
+| {{?}}
+| {{wikitable_cell}}|Made with SynthEdit
+| {{wikitable_cell}}|http://www.e-phonic.com/plugins/drumatic3.php
+|-
+| {{rh}} | SyncModular
+| {{wikitable_cell}}| Modular Synthesizer
+| {{wikitable_cell}}|Dr Sync
+| {{?}}
+| {{no}} <br> 
+| {{?}}
+| {{wikitable_cell}}| you can't close the GUI (LMMS 0.4.9) <br> crashing while opening project 
+| {{wikitable_cell}}|http://www.syncmodular.com/ 
+|-
+| {{rh}} | Sample plugin <br> (for adding your own)
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|
 | {{Yes}}
-| {{Yes}} (as of 0.4.x)
+| {{Yes}} <br> (as of 0.4.x)
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|some exceptions and other interesting stuff
 | {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
 |}
@@ -556,95 +566,89 @@ This all brought together with over 1700 inspirational Rob Papen presets coverin
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
 | {{rh}}|VST plugin name
 | {{rh}}|Plugin type
+| {{rh}}|Developer
 | {{rh}}|http://a.fsdn.com/con/img/icons/linux.png
 | {{rh}}|http://a.fsdn.com/con/img/icons/windows.png
 | {{rh}}|http://a.fsdn.com/con/img/icons/mac.png
-| {{rh}}|Other
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
 |-
 |-
 | {{rh}} | DSK Etheral Padz 2
 | {{wikitable_cell}}|Pad syntheziser
+| {{wikitable_cell}}|DSK
 | {{?}}
 | {{Yes}}
 | {{?}}
-| {{?}}
-| {{wikitable_cell}}| *Loading takes -very- long and LMMS will often crash -Pagefile bloates 
+| {{lc}}|
+* Loading takes -very- long and LMMS will often crash 
+* Pagefile bloates 
 | {{wikitable_cell}}|http://www.dskmusic.com
 |}
 
 ===VST Effects===
 {| style="font-size: 85%; text-align: center; {{wikitable_table}}"
-| {{rh}}|VST plugin name
+| {{rh}}|Plugin name
 | {{rh}}|Plugin type
-| {{rh}}|Linux
-| {{rh}}|Windows
-| {{rh}}|OSX
-| {{rh}}|Other OS
+| {{rh}}|http://a.fsdn.com/con/img/icons/linux.png 
+| {{rh}}|http://a.fsdn.com/con/img/icons/windows.png 
+| {{rh}}|http://a.fsdn.com/con/img/icons/mac.png 
 | {{rh}}|Remarks, information
 | {{rh}}|Homepage
 |-
-| {{rh}} |TLs Pocket Limiter version 1.2)
+| {{rh}} |TLs Pocket Limiter (1.2)
 | {{wikitable_cell}}|Limiter
 | {{Yes}}
 | {{?}}
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|Handy Limiter
 | {{wikitable_cell}}|http://rekkerd.org/tbt-releases-tls-pocket-limiter-v12/
 |-
-| {{rh}} | Omnisone - Spatial processor v1.0.5
+| {{rh}} | Omnisone - Spatial Processor (1.0.5)
 | {{wikitable_cell}}|spatial image processor VST plugin
 | {{Yes}}
 | {{?}}
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|Omnisone is a free spatial image processor VST plugin, with control of the side signal level, means to enhance the ambiance, and to re-pan both input signals individually, even outside the loudspeaker base
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/omnisone/omnisone.zip
 |-
-| {{rh}} |PC-2 Pschoacoustic compressor v1.0.1
+| {{rh}} |PC-2 Pschoacoustic Compressor (1.0.1)
 | {{wikitable_cell}}|compressor
 | {{Yes}}
 | {{?}}
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|Conventional compressors are based on peak or rms-level estimation to compute their time-variant gain or attenuation. This property of most compressors often causes undesirable intermodulation distortion and pumping/breathing artefacts.
 PC-2 features a 'psycho-acoustic relevance' mode. Instead of using a peak or rms-level estimation, this mode employes a perceptual loudness model to compute the loudness of the input signal. This perceptual loudness model is combined with advanced attack and release stages that model peripheral adaptation of the human auditory nerve. The result is a very transparent compression characteristic, even with very short attack and release times.
 On the other hand, the simple, classic compression behavior can be engaged too by simply switching off the complex loudness model. 
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/pc2/pc2.zip
 |-
-| {{rh}} |Timemachine - Vintage sampler v1.0.2
+| {{rh}} |Timemachine - Vintage Sampler (1.0.2)
 | {{wikitable_cell}}|digititus creator
 | {{Yes}}
 | {{?}} 
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|The ultimate digititus creator! TimeMachine is a VST plugin that provides accurate reproduction of the characteristic sound of vintage samplers, such as the Commodore 64, or older Akai samplers. The (virtual) sampling rate can be varied, as well as the number of bits used for digital representation. furthermore, aliasing distortion can be generated individually for AD and DA conversion. 
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/timemachine/timemachine.zip
 |-
 | {{rh}} |Leftover Lasagne Pushtec 5+1A
-| {{wikitable_cell}}|6-band mid-range and program EQ
+| {{wikitable_cell}}|6-Band mid-range and program EQ
 | {{Yes}}
 | {{?}}
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|6 band mid-range and program EQ. The algorithm is based on a circuit schematic of two of the most sought-after vintage analogue EQ's
 | {{wikitable_cell}}|http://www.kvraudio.com/developer_challenge/2006/PushTec1.2.zip
 |-
-| {{rh}} |SEND - Spectrum Enhancer v1.0.1
-| {{wikitable_cell}}|
+| {{rh}} |SEND (1.0.1)
+| {{wikitable_cell}}| Spectrum Enhancer
 | {{Yes}}
 | {{?}}
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|SEND combines resonating low and high-pass filters with non-linear elements that generate even or odd harmonics. 
 | {{wikitable_cell}}|http://www.jeroenbreebaart.com/downloads/send/send.zip
 |-
 | {{rh}} |MDA Plugins
 | {{wikitable_cell}}|various, see website
-| {{Yes}} (as of 0.4.4)
-| {{?}}
+| {{Yes}} <br> (as of 0.4.4)
 | {{?}}
 | {{?}}
 | {{lc}}|Lots of versatile OpenSource effect plugins:
@@ -680,13 +684,13 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 * VocInput - Pitch tracking oscillator for generating vocoder carrier input
 | {{wikitable_cell}}|http://mda.smartelectronix.com/effects.htm http://sourceforge.net/projects/mda-vst/
 |-
-| {{rh}} |Glitch
-| {{wikitable_cell}}|Glitch machine
+| {{rh}} |Glitch 
+| {{wikitable_cell}}|Pattern-based Effect Sequencer
 | {{Yes}}
-| {{?}}
+| {{Yes}} <br> (as of 0.4.9)
 | {{No}}
-| {{?}}
-| {{wikitable_cell}}|Glitch chops up your audio in real-time and applies a variety of effects which can either be chosen at random, manually sequenced, or a mixture of both. The sounds it generates range from quite subtle to extremely bizarre, depending on how much you tweak the controls. **when trying to change paramters on the different effects it can max them out and then be unable to change back again**
+| {{wikitable_cell}}|Windows (Lmms 0.4.8): it's loading and working, but out of sync...
+Glitch chops up your audio in real-time and applies a variety of effects which can either be chosen at random, manually sequenced, or a mixture of both. The sounds it generates range from quite subtle to extremely bizarre, depending on how much you tweak the controls. **when trying to change paramters on the different effects it can max them out and then be unable to change back again**
 | {{wikitable_cell}}|http://illformed.org/plugins/glitch/
 |-
 | {{rh}} |CamelCrusher
@@ -694,16 +698,14 @@ On the other hand, the simple, classic compression behavior can be engaged too b
 | {{Yes}}
 | {{?}}
 | {{?}}
-| {{?}}
 | {{wikitable_cell}}|CamelCrusher is a free 'colouring' multi-effect plugin. It offers two characteristically different distortion sounds which can be blended together to create a wide variety of tones and textures. Great for guitars, drums and plenty more!
 | {{wikitable_cell}}|http://www.camelaudio.com/camelcrusher.php
 |-
-| {{rh}} | Sample plugin (for adding your own)
+| {{rh}} | Sample plugin <br> (for adding your own)
 | {{?}}
 | {{Yes}}
-| {{Yes}} (as of 0.4.x)
+| {{Yes}} <br> (as of 0.4.x)
 | {{No}}
-| {{?}}
 | {{wikitable_cell}}|some exceptions and other interesting stuff
 | {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
 |-
