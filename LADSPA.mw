@@ -1,4 +1,8 @@
-LADSPA is explained in this wikipedia article. [http://en.wikipedia.org/wiki/LADSPA LADSPA]
+[http://en.wikipedia.org/wiki/LADSPA LADSPA] effects can be either on the individual [[0.4:Instrument Editor#The FX Tab|instruments’ FX-tab]], or inserted on the FX-channels in the [[0.4:FX Mixer|FX Mixer]].
 
-The LMMS specifics around LADSPA could be a discussion on great, reasonable and insufficient effects. All 3 categories can be found in the LADSPA collection. This page is however not the best place for a discussion.
-Effects can be either on the individual instruments’ FX-tab, or inserted on the FX-channels in the Mixer.
+Clicking the "'''add effect'''" button in either of the effect chains opens following dialog: 
+
+http://lmms.sourceforge.net/wiki/images/2/25/Add-effect.png
+
+Just double-click to select an effect. <br> 
+You can even search for a specific effect (e.g. filter/delay/...) using the bar at the top. <br>
