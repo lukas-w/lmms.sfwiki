@@ -33,13 +33,21 @@ http://lmms.sourceforge.net/wiki/images/d/dd/Fx-peakcontroller.png
 http://lmms.sourceforge.net/wiki/images/0/01/Lfo-controller.png
 | style="color: #000" valign="middle"|
 
-...info...
+LFO stands for Low Frequency Oscillator, and it can be used to control different settings and knobs on an instrument or effect plugin.
 
 |}
 
-...description...
+
+To create an LFO controller, you simply click on the controller rack button, which is to the right of the project notes and to the lower left of the tempo section. It has an icon of a hand tweaking a knob(though it does look somewhat like a CD). When you invoke the controller rack, it will appear as a small empty window at first with an 'Add' button at the bottom. Click the button and an LFO controller will appear in the rack and in your workstation.
+
+Each controller has eight waveforms, four knobs and three buttons for speed settings. Of the eight waveforms, one is a custom wave, which you can use to import your own files for a unique effect. Along with that and the standard sine, saw, square and triangle, there are also the reverse saw which is particularly useful for filtering samples, the exponential wave, and the random or noise waveform.
+
+The Base knob determines the center or zero line for modulation, while the SPD knob controls automation speed, AMT controls the strength of the automation, and PHS or 'Phase Offset' alters the wave by creating a second wave and in many cases multiplying the two waveforms or subtracting one from another(*1).
+
+The three speed settings can be used for many different modulation effects. The X 100 multiplies the modulation speed by 100, the X 1 is normal speed, and the divided by 100 is the slowest. 
 
 
+*1 http://www.bytenoise.co.uk/Phase_offset_modulation
 
 {| style="border: 1px solid black;"
 |-
