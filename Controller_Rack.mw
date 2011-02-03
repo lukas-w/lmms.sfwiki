@@ -42,14 +42,14 @@ To create an LFO controller, you simply click on the controller rack button, whi
 
 Each controller has eight waveforms, four knobs and three buttons for speed settings. Of the eight waveforms, one is a custom wave, which you can use to import your own files for a unique effect. Along with that and the standard sine, saw, square and triangle, there are also the reverse saw which is particularly useful for filtering samples, the exponential wave, and the random or noise waveform.
 
-The Base knob determines the center or zero line for modulation, while the SPD knob controls automation speed, AMT controls the strength of the automation, and PHS or 'Phase Offset' alters the wave by creating a second wave and in many cases multiplying the two waveforms or subtracting one from another<ref>http://www.bytenoise.co.uk/Phase_offset_modulation</ref>.
+The Base knob determines the center or zero line for modulation, while the SPD knob controls automation speed, AMT controls the strength of the automation, and PHS or 'Phase Offset' alters the wave by creating a second wave and in many cases multiplying the two waveforms or subtracting one from another(1).
 
 The three speed settings can be used for many different modulation effects. The X 100 multiplies the modulation speed by 100, the X 1 is normal speed, and the divided by 100 is the slowest. 
 
 
 ==Notes==
 
-{{Reflist}}
+1. Explanation of Phase Offset: http://www.bytenoise.co.uk/Phase_offset_modulation
 
 {| style="border: 1px solid black;"
 |-
