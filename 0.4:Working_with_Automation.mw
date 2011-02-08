@@ -1,119 +1,120 @@
 {{0.4:Working with AutomationTrans}}
 {{msgbox:out of date|0.4}}
 
-Дорожка автоматизации — это мощный инструмент для настройки звука вашего проекта. Она может обеспечить все, от "автоматизированного" пульта микшера - перемещение уровни громкости вверх и вниз в разных этапах песни, до изменения звука инструмента, его настройки эффектов, и даже темп всей песни. Виртуально [[Automation#What_can_be_automated.3F|any control]] могут быть автоматизирован, позволяя очень мощный контроль над песней.
+Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song.
 
-= Автоматизируй это! =
+= Automate This! =
 
-Список элементов управления, которые могут быть автоматизированы, огромен, как видно из списка [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]]. Однако, стоит посмотреть на этот список более подробно:
+The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
 
-* Элементы управления дорожки, такие как настройки громкости и Mute, и в [[0.4:Beat Bassline Editor|басовых линиях и барабанных лупах]] и в [[0.4:Piano Roll Editor|секвенсоре]].
-* Виртуально все элементы управления инструментами:
-** Настройки инструментов, \ [[0.4:Plugins|Plugin]] itself, worthy of a subsection in its own right:
-*** Все набалдашники (knobs), такие как фазировка (phase), тонкая настройка (tuning) и панорама (pan).
-*** Все многозначные селекторы, такие как форма звуковой волны каждого осциллятора и даже типы смеси между ними.
-** Набалдашники контролирующие огибующую, LFO и параметры фильтров.
-** Переключатели, контролирующие фильтры и LFO.
-** Выбранный тип фильтра.
-** Длина и типы арпеджио.
-** контроль за любыми эффектами, которые Вы получили на инструменте, и все ли эффекты или нет.
-** Каналы MIDI to receive and send note data on.
-* Главные темп, питч и громкость.
+* Track controls such as the Volume and Mute settings, in both the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] and the [[0.4:Piano Roll Editor|Piano Roll Editor]].
+* Virtually all Instrument controls:
+** The settings of the Instrument [[0.4:Plugins|Plugin]] itself, worthy of a subsection in its own right:
+*** All the knobs, such as phase, tuning, and pan.
+*** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix type between them.
+** The knobs controlling the envelope, LFO and filter parameters.
+** The radio buttons controlling the filter and LFO.
+** The type of filter selected.
+** The arpeggio type and length.
+** The controls for any effects you've got on the instrument, and whether all effects are on or not.
+** The MIDI channels to receive and send note data on.
+* The master Tempo, Pitch and Volume.
 
-В основном, щелкните правой кнопкой мыши на нем, и если он получил опцию "Открыть в дорожке автоматизации" в контекстном меню.
+Basically, right-click on it, and if it's got an 'Open in Automation Editor' option in the context menu, it's automatable!
 
-Однако, только элементы управления, которые по умолчанию в LMMS GUI можут быть автоматизированы. Например, Вы не можете автоматизировать набалдашники или ползунки на любом стороннем VST инструменте, включая ZynAddSubFX, даже если он входит в состав LMMS.
+However, only controls that are on default LMMS GUI's can be automated. -eg: You cant automate any knobs or sliders on any 3. parts VST instruments. including zynAddSubFX, even though it is included with LMMS. 
 
-Есть две вещи, которые нужно помнить при автоматизации дорожки:
+There are two things to remember when automating controls:
 
-* Автоматизация элементов управления на дорожках в Пошаговом Секвенсоре работает только на первой полоске (bar) (или несколько последних полосок в Пошаговом Секвенсоре).
-* Все другие автоматизации начинаются с полоски 1 Финального Секвенсора.
+* The automation for controls on tracks in a beat/bassline only goes for the first bar (or as many bars as the beat/bassline pattern lasts).
+* All other automation starts from bar 1 of the song editor.
 
-Давайте рассмотрим несколько примеров как использовать автоматизации в ваших песнях.
+Let's look at some examples of how to use automation in your songs.
 
-== Затухание ==
+== Fading in ==
 
-Наиболее распространенное и простое использование автоматизации — нарастание инструмента в песне. Это достигается за счет автоматизации регулятор громкости инструментов в Финальном Секвенсоре.
+The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece when it enters.  This is accomplished by automating the volume control of the instrument in the Song Editor.
 
-Первое, что вы узнаете, что автоматизация всегда измеряется от начала песни, независимо от того, где дорожка инструмента имеет первый сегмент. Так что если у вас первая полоска Секвенсора в дорожке инстумента появляется в полоске 33, вам придется начать нарастание инструмента в полоске 33, а не 1.
+The first thing you will find out is that automation is always measured from the start of the song, regardless of where the instrument track has its first segment.  So if you have the first bar of piano roll in the instrument track appearing in bar 33, you will need to start fading the instrument in at bar 33 rather than bar 1.
 
-Второе, что вы узнаете, что нарастать будут последние полоски, и легче нарисовать диагональную линию этой длины при горизонтальной шкале, которая (http://tangram.dnsalias.net/lmms-imgs/lmms -0.3.1/automation-toolbar-horizzoom-100.png) снижена примерно к 25%.
+The second thing you will find out is that a fade in will usually last for many bars, and it's easier to draw a diagonal line of that length when the horizontal scale (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-horizzoom-100.png) is reduced to about 25%.
 
-Третье вы узнаете, что наличие большого количества контрольных точек не является необходимым в громкости, так как люди не очень чувствительны к малейшим изменениям в объеме. Кроме того, имея больше контрольных точек означает больше редактирования позже, если вы измените свои планы в работе. Установить контроль квантования (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png) около 1/2 или 1/4, и вы все равно можете получить относительный результат, даже если линия имеет много ненужных контрольных точек, которые вы хотите изменить позже.
+The third thing you will find out is that having lots of control points is unnecessary for volume, as people are not very sensitive to small changes in volume.  In addition, having more control points means more editing later if you change your mind.  Set the quantisation control (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-toolbar-quantise-16.png) to around 1/2 or 1/4 and you can still get a relatively even line without having a lot of unnecessary control points if you want to change it later.
 
-Например, в этой части:
+For example, in this piece:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-songeditor.png
 
-Дорожка автоматизации громкости первого трека Moog выглядит так:
+The automation on the first Moog track's Volume control looks like this:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automation.png
 
-Обратите внимание позицию времени линейки — нарастание начинается в полоске около 41, когда появились первые ноты.
+Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
 
-== Добавление выразительности ==
+== Adding expression ==
 
-За счет автоматизации контроля темпа, чтобы получить медленнее (''rallentando'') по мере приближения к концу фразы, а затем возобновить его темпы сразу после, вы даете в штучном выражении — как будто маэстро на пианино подчеркнул этот раздел. Это выглядит как одна "негативная" пилообразная, выведенная из автоматизации. То есть:
+By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
 
-== Acid-эффекты ==
+== Eighties acid effects ==
 
-[http://en.wikipedia.org/wiki/Acid_house Acid House] и [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] были известны в использовании Roland TB303 в воспроизведении повторяющейся мелодии, срезе различных частот фильтра, и изменении других параметров огибающей (envelope)  звука через весь кусок. Из-за повторяющихся природы мелодии, заманчиво использовать басовую дорожку для хранения мелодии, но автоматизация в Пошаговом секвенсоре только идет так долго, как паттерн - поэтому, положенная Вами автоматизация будет повторятся каждый раз, когда паттерн повторяется, а не непрерывно меняясь.
+The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
 
-Сперва создайте новый трек с любым инструментом, положите повторяющиеся ноты, а затем скопируйте их для создания шестнадцати баров (Я скопировал этот бар в Piano Roll и вставил его три раза, чтобы создать четыре-барную фразу, и затем скопировать этот сегмент в Финальном секвенсоре, чтобы получить четыре четыре-барных сегмента). Затем откройте плагин инструмента и выберите Envelope/LFO/Filter вкладки:
+First, create a new track with any instrument, put a bar of repetitive notes in it, and then copy that to create sixteen bars (I copy that bar in the piano roll and paste it three times to create a four-bar phrase, and then copy that segment in the song editor to get four four-bar segments).  Then open the instrument's plugin and select the Envelope/LFO/Filter tab:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
 
-Включите раздел Фильтр, поставьте тип фильтра на Moog, и убедитесь, что количество LFO равен 0. 
+Turn on the Filter section, set the filter type to Moog, and make sure that the LFO amount is set to zero.  
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-filter-pointers.png
 
-Щелкните правой кнопкой на рычаге управления '''обрезки''' фильтра и атоматизируйте ее:
+Then right-click on the filter's '''Cutoff''' control and automate it:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automation.png
 
-Вы можете рисовать различные фигуры - блоки, возрастающие и убывающие кривые, пилообразные и скачки.
-Это может быть трудно сделать с помощью мыши. С версии 0.4.4 Shift+Левая кнопка Мыши создаст ровные соединенные линии. Используйте это, чтобы сделать медленные  постепенные изменения.
+You can draw various shapes - blocks, rising and falling curves, sawteeth and jumps.
+It can be difficult to draw with the mouse. Since .4.4 sh+leftMouse Clicking will create strait connected lines. Use this to make slow fine linear gradual changes.
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.ogg
 
-Файл проекта можно скачать отсюда:
+The project file can be downloaded here:
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
 
-Стоит отметить, что частота контрольных точек изменяет звук. В баре 17 существуют четыре _зачистки вверх с установленным квантованием в 1/16, а затем из бара 21 имеются четыре зачистки вниз с квантованием 1/32 (т.е. в два раза больше контрольных точек). Изменения в среза фильтра не бывает в аналоговом виде, как будто кто-то повернул набалдашник - они происходят в цифровом виде и мгновенно переходят между настройками. Это означает, что вы можете услышать изменения в частоте как различные шаги - четыре зачистки вверх может звучать немного stuttery или прерывисто и зачистки вниз могут показаться гладкими. Для точного контроля вы можете использовать даже квантование в 1/64. Однако, пока довольно трудно получить действительно ровную линию или кривую линию, недостатком этого подхода могут быть собственные неточности в составлении контрольных точек, которые стали слышимыми и их сложнее отредактировать.
+It is worth noting here that the frequency of control points changes the sound.  At bar 17 there are four upward sweeps with the quantisation set to 1/16, and then from bar 21 there are four downward sweeps with the quantisation set to 1/32 (i.e. twice as many control points).  The changes to the filter cutoff do not happen in an analog fashion, like someone turning a knob - they happen digitally and jump instantly between settings.  This means that you can hear the changes in frequency as distinct steps - the four upward sweeps may sound a little stuttery or jerky and the downward sweeps may sound smoother.  For fine control you may even want to use 1/64th quantisation.  However, since it is more difficult to get a truly even curve or line by drawing, the downside to this approach may be that your own inaccuracies in drawing the control points become audible and are harder to edit out.
 
-== Вылет звуков ==
+== Sounds flying past ==
 
-В одной песне я написал, что я имею серию Стакатто-хлопков в шаблоне, и я хочу, чтобы они "перелетали" справа налево, как будто стреляя из машины. Я автоматизировал управление pan (т.е. направление Х) инструмента в Пошаговом Секвенсоре:
+In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-1.png
 
-Затем я создал диагональную линию из направо pan (+1024 наверх) налево (-1024 вниз):
+I then created a diagonal line from pan-right (+1024 at top) to pan-left (-1024 at bottom):
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-2.png
 
-И теперь звук "перелетает" past справа налево!
+And now the sound 'flies' past from right to left!
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.ogg
 
-Обратите внимание, что звук "сбрасывается" вправо сразу после каждого бара, потому что pattern длиной только один бар. Если бы я хотел другой набор хлопков, которые перелетают по разным направлениям, поэтому у меня есть несколько способов:
+Notice that the sound 'resets' to the right after each bar, because the pattern is only one bar long.  If I wanted another set of claps that flew in the other direction, I have a couple of options:
 
-* Я могу создать второй pattern, который имеет автоматизацию слева направо и альтернативные pattern в песне. Это означает, что у вас есть вторая дорожка, которая может быть неудобная.
-* Я могу добавить второй бар нот (через опции контекстное меню pattern'''Добавить шаги'''), а затем вернуть автоматизацию вправо. Это ограничило бы мне с получение хлопков обратно сразу же после их ухода, который не может работать в части.
+* I can create a second pattern that has automation taking it from left to right and alternate the patterns in the song.  This means that you have a second track, which may be inconvenient.
+* I can add a second bar of notes (via the pattern's context menu '''Add Steps''' option) and then have the automation return to the right.  This would limit me to having the claps return immediately after they left, which may not work in the piece.
 
-Вы можете скачать это как файл MMPZ с
+You can download this as an MMPZ file from
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
 
-= Когда не использовать автоматизацию =
+= When not to use Automation =
 
-* Хотя автоматизация дает вам большие возможности и гибкость, над звуком инструмента или всего куска, Есть некоторые моменты, где это является излишеством и другие, где есть более простые способы достичь того, чего вы хотите.
-* В автоматизации в настоящее время отсутствуют какие-либо средства, чтобы сделать правильные формы, такие как синус волны. Рисование их может быть довольно трудно, особенно если вы смотрите на рисунок такой формы в течение длительного времени. Вместо этого используйте LFO - либо в плагине инструмента или как эффект.
-* Автоматизация может быть применена к изменению характеристик каждой ноты в отдельности - например, чтобы отметить их постепенное исчезание или постепенно ввести вибрато - но это утомительно делать для каждой ноты. Огибающая/LFO/Фильтры позволяют устанавливать скорость атаки LFO для постепенного исчезания в вибрато в настройках LFO в плагине инструмента, и огибающая может быть установлена на долгое время спада.
+Though Automation gives you great power and flexibility over the sound of an instrument or your entire piece, there are some times where it is overkill and others where there are easier ways to achieve what you want.
 
-= Навигация =
+* Automation currently lacks any tools to make regular shapes such as sine waves.  Drawing these can be quite difficult, especially if you are looking at drawing such a shape for a long time.  Instead, use an LFO - either in the instrument plugin or as an effect.
+* Automation can be applied to change the characteristics of each note individually - for example, to have a note gradually fade away or gradually introduce vibrato - but it is tedious to do this to every note.  The LFO settings in the instrument plugin's Evelope/LFO/Filter section allow you to set the attack rate of the LFO to gradually fade in vibrato, and the envelope can be set to give a long decay time.
+
+= Navigation =
 
 Reference: [[0.4:Automation Editor|Automation Editor]]
 
