@@ -1,57 +1,54 @@
 {{User FAQTrans}}
 
-''This article describes frequently asked questions regarding usage of LMMS. '''If you have any problems please refer to [[Troubleshooting]].''' ''<br>
-If you have more questions, ask them in the [http://sourceforge.net/apps/phpbb/lmms/ Forum]
+''В этой статье описываются часто задаваемые вопросы об использовании LMMS. '''Если у Вас имеются проблемы, перейдите в [http://lmms.sourceforge.net/wiki/index.php?title=Ru:Troubleshooting Решения Проблем].''' ''<br>
+Если у Вас другие подобные вопросы, задайте их в [http://sourceforge.net/apps/phpbb/lmms/ Форуме].
 
 
-== About ==
+== О программе ==
 
-'''Q: What is LMMS, anyway?<br>
-A: LMMS is a sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio. Sounds and tones can be generated, played and artfully arranged to create entire tracks easily, giving you the opportunity to create music from beginning to end. The tools to create the sounds, arrange the sounds and rhythms to create tracks, layer the tracks to create songs, and then save the songs to an output format are all there, ready for you to use. LMMS can also connect to your MIDI keyboard, allowing you to play music live.
+'''В: Вообще, что такое LMMS?<br>
+О: LMMS — это система создания звука, синтезатор, редактор  Басовых линий и барабанных лупов, система управления MIDI, которая может может служить как домашняя студия. Звуки и сигналы могут быть сгенерированы, вопроизведены и расположены без особых усилий, давая вам возможность создания музыки от начала до конца. Инструменты для создания песен и ритмов, манипулирования звуками, слоев треков, а затем сохранения в цифровом формате готовы для Вашего использования. 
+С помощью LMMS можете также подключиться к вашей клавиатуре MIDI, что позволяет играть музыку вживую.
 
-'''Q: Is there anything commercial to which LMMS might be comparable?<br>
-A: LMMS seems to have much in common (at least in principle) with Apple's Garage Band, FL Studio (formerly Fruity Loops), Logic Studio, Beat Machine Pro and similar powerful audio tools. In terms of capability, LMMS easily matches the lower to middle-tier professional tools available, making it a great introduction to audio production which is constantly developing.
+'''В: Есть ли какое-нибудь коммерческое ПО, которое может быть сопоставимо с LMMS?<br>
+О: LMMS имеет много общего (по крайней мере в принципе) с Apple Band Garage, FL Studio (ранее Fruity Loops), Logic Studio, Pro и Beat Machine Pro и подобные мощные звуковые инструменты. С точки зрения возможностей, LMMS совпадает с нижнего до среднего уровня профессиональными инструментами, что делает его отличным введением в аудио продукцию, которая постоянно развивается.
 
-'''Q: Is it free?<br>
-A: Yes. LMMS is free and open source.
-
-
-== Settings ==
-
-'''Q: I want to use another soundcard than the default one with LMMS. How to achieve this?<br>
-A: It's recommended to set your preferred audio-interface and it's parameters using the setup-dialog. If this doesn't work for some reason, you can also set the environment-variable "AUDIODEV" to what ever your audio-device is (e.g. ''/dev/dsp'' for OSS or ''surround40:1,0'' for ALSA).
+'''В: Это бесплатно?<br>
+О: Да. LMMS бесплатный и имеет открытый исходный код.
 
 
-== Usage ==
+== Настройки ==
 
-'''Q: I made some piano chords in the Song-Editor but now I want to loop them. How to get them to the Beat+Bassline Editor?<br>
-A: for LMMS < 0.1.2:
-
-First, drag the sound to the Beat+Bassline Editor by clicking just left or right of the button that indicates what kind of sound it is (for example: The button showing Triple Oscillator if it's a Triple Oscillator). That copies the sound to the Beat+Bassline Editor, but not the chords. Now open the chords in Piano-Roll, press Ctrl + A, Ctrl + C, open the Piano-Roll for the copied sound in the Beat+Bassline Editor, and press Ctrl + V. Now you can safely delete the bar in the Song-Editor and use the one in the Beat+Bassline Editor instead.
-
-for LMMS >= 0.1.2
-simply press <Ctrl> while dragging the according pattern onto the destination-pattern in Beat+Bassline-Editor. Of course you can do this in reverse direction too.
+'''В: Я хочу использовать другую звуковую карту вместо той, которая по умолчанию в LMMS. Как сделать это?<br>
+О: Рекомендуется установить нужный аудио-интерфейс и его параметры с помощью жиалога установки. Если по некоторым причинам это не работает, вы также можете установить переменную окружения "AUDIODEV" к любому вашему аудио-устройству (например,''/dev/ dsp для OSS или "surround40:1,0" для ALSA).
 
 
-'''Q: How do I create an instrument track in the Beat/Bassline Editor?<br>
-A: Open ''My Samples'' or ''My Presets'' (buttons on the far left side of the window) and double click on the instrument you want or right click it and select an appropriate action.
+== Использование ==
+
+'''В: Я сделал некоторые аккорды в Финальном Секвенсоре, но хочу, чтобы они повторялись (сделать как лупы). Как получить их в Пошаговом Секвенсоре?<br>
+О: для LMMS версий >= 0.1.2:
+Просто нажмите <Ctrl> во время перетаскивания нужного лейтмотива на лейтмотив назначения в Пошаговый Секвенсор. Конечно, Вы можете также сделать это в обратном порядке.
 
 
-'''Q: How do I change the note an instrument plays in the Beat/Bass Editor?<br>
-A: Click on the intrument button on the track. There’s a blue bar just above the keyboard at the bottom, an orange square indicates the key that is played. Click on the blue bar to change the note.
+'''В: Как создать дорожку инструмента в Пошаговом Секвенсоре?<br>
+О: Откройте ''My Samples'' или ''My Presets'' (кнопки на левой стороне окна) и дважды щелкните на нужном инструменте или правой кнопкой и выберите соответствующее действие.
 
 
-'''Q: How do I enable and adjust looping points?<br>
-A: Click on the enable/disable looppoints button in the song editor or pianoroll. It is disabled by default. Two blue arrows will appear in the upper tracking area of the window. You can adjust these loop points by rightclicking and dragging them or pressing middle and right button.
+'''В: Как изменить одну высоту нот инструмента, играющего в Пошаговом Секвенсоре?<br>
+О: Кликните на нужный Вам инструмент. Чуть выше над клавишами есть черная полоска и желтый квадрат, который обозначает высоту нот инструмента. Кликните на нужный участок черной полоски, чтобы изменить высоту.
 
 
-'''Q: How do I Import a drums beat I'd made in Hydrogen?<br>
-A: If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
+'''В: Как включить и настроить точки лупов?<br>
+О: Кликните на кнопку "Вкл/выкл точки перемотки" в Финальном Секвенсоре или в Секвенсоре. По умолчанию она отключена. Две зеленые стрелки появяться в окне чуть выше дорожек. Вы можете переместить эти точки перемотки с помощью правой кнопкой мыши и перемещения их или нажимая среднюю и правую кнопки.
 
 
-'''Q: How do I Import a MP3 or OGG file?<br>
-A: Through the [[AudioFileProcessor]] plugin.
+'''В: Как импортировать удары барабанов, которые я сделал в Hydrogen?<br>
+О: Если Вы экспортировали их как MIDI, они могут быть легко импортированы через Проект->Импорт. Не забудьте указать SoundFont-файл! С другой стороны, если Вы экспортировали как WAV, Вам нужно использовать плагин [[AudioFileProcessor]] и сделать импорт сюда. Вы можете импортировать MIDI таким же способом.
 
 
-'''Q: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
-A: Highlight the folder that you want to be on the sidebar, select it, and drag it to the sidebar.
+'''В: Как импортировать MP3 или OGG-файлы?<br>
+О: Через плагин [[AudioFileProcessor]].
+
+
+'''В: Как изменить место расположения директории в боковой панели, когда открываю файл в LMMS?<br>
+О: Наведите курсор на папку, которую Вы хотите на боковую панель, выберите ее, и перетащите ее на боковую панель.
