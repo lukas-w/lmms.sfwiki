@@ -36,6 +36,12 @@ So, Gentoo users who want to install LMMS only have to do:
 
 == http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu ==
 
+10.10: lmms-0.4.5 is in the Software Centre
+
+For more current versions, install from the PPA: https://launchpad.net/~tobydox/+archive/lmms
+
+== http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
+
 To install the latest version of LMMS on Ubuntu 9.10 (Karmic), open Ubuntu Software Centre and search for "LMMS".
 
 
@@ -97,8 +103,6 @@ to..........
 5. Open LMMS and go to > edit > settings > audio (speaker icon) and change "audio interface" to "Alsa"(if not already) and below that change where it says "settings for Alsa" > Default, to the audio device name from step (1) e.g. '''hw:0'''
 
 6. Restart LMMS, and hopefully you'll be good to go, (you may/will have to use "gstreamer-properties" to change the device back to default when you are not using LMMS, to be able to hear any other audio streams though)
-
-== http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
 
 Ubuntu Jaunty comes with an old version of LMMS (0.4.2). To install the latest version of LMMS on Ubuntu Jaunty, run the command below:
 
