@@ -552,6 +552,15 @@ All sounds are calculated in "real time", no samples are used.
 | {{wikitable_cell}}| you can't close the GUI (LMMS 0.4.9) <br> crashing while opening project 
 | {{wikitable_cell}}|http://www.syncmodular.com/ 
 |-
+| {{rh}} | Superwave P8
+| {{wikitable_cell}}|Synthesizer
+| {{wikitable_cell}}|Chris Gill
+| {{Yes}}
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|sometimes doesn't want to attach into LMMS window; after loading VeSTige preset, controls look OK in GUI but in reality they are at default values
+| {{wikitable_cell}}|http://home.btconnect.com/christopherg/
+|-
 | {{rh}} | Sample plugin <br> (for adding your own)
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|
