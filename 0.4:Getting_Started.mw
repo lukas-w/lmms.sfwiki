@@ -53,13 +53,13 @@ On the right half of the song-editor, we have the timeline. Create a track by ad
 The timeline is divided in bar-sized blocks. Click in one next to 3-OSC. You get a black box. If you double-click the black box, you open the [[0.4:Piano Roll Editor|Piano-Roll Editor]]. This is where you create your tune.
 We will return to that later.
 
-Below the 3-OSC you have the '''Sample Track'''. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. You can add a new sampletrack with the 6. button on the song editor tool bar.
+Below the 3-OSC you have the '''Sample Track'''. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. You can add a new sampletrack with the 6. button on the song editor tool bar ([[File:Add_sample.png]]).
 
 Next you have the default '''Beat+Bassline''' instance. Just for illustration, click on one of the boxes in the timeline next to the Beat+Bassline track. You get a blue block. Click and drag its right end, and it will expand. This is what I meant by Beat+Bassline events are 'continuous'. When you did that the with the 3-OSC, the block was black, and would not expand.
-You can add a new Beat+Bassline with the 5. button on the song editor tool bar.
+You can add a new Beat+Bassline with the 5. button on the song editor tool bar ([[File:Add_beat.png]]).
 
 Last is an instance of the '''Automation Track'''. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation|Working with Automation]].
-You can add a new Automation-Track with the 7. button on the song editor tool bar, at the top of the song editor window.
+You can add a new Automation-Track with the 7. button on the song editor tool bar ([[File:Add_automation.png]]), at the top of the song editor window.
 
 But a project needs more than a default 3-OSC, and luckily LMMS comes with an abundance of great instruments.
 
