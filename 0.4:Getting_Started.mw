@@ -42,12 +42,13 @@ When you move your mouse over the instrument-containers, they will high-light. T
 When you make changes on the GUI you create a '''preset'''. If it sounds less than horrible, you have an instrument :)
 If you right-click you will have a rename option. ''Always name your instruments!''
 
-To the left of the instruments there are 2 clickable 'lamps'. When the green lamp is ON, the track is activated. In its OFF state the track is muted.
+To the left of the instruments there are 2 clickable 'lamps'[[File:Lamps.png]]. When the green lamp is ON, the track is activated. In its OFF state the track is muted.
 The other lamp is red. When the red lamp is ON, the track will mute all other tracks, and play solo.
 
-Next, to the left of these, we have the action-button. Here you can delete or clone the track and all of its events.
+Next, to the left of these, we have the action-button [[File:Action_button.png]]. Here you can delete or clone the track and all of its events.
 
-To the right of the '''Instruments''', before the knobs, we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance. 
+To the right of the '''Instruments''', before the knobs, we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance. [[File:Instrument_volume.png]]
+
 On the right half of the song-editor, we have the timeline. Create a track by adding events to this timeline.
 The timeline is divided in bar-sized blocks. Click in one next to 3-OSC. You get a black box. If you double-click the black box, you open the [[0.4:Piano Roll Editor|Piano-Roll Editor]]. This is where you create your tune.
 We will return to that later.
@@ -60,7 +61,7 @@ You can add a new Beat+Bassline with the 5. button on the song editor tool bar.
 Last is an instance of the '''Automation Track'''. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation|Working with Automation]].
 You can add a new Automation-Track with the 7. button on the song editor tool bar, at the top of the song editor window.
 
-But a project needs more than a default 3-OSC, and luckily LMMS comes with an abundance of great instruments. 
+But a project needs more than a default 3-OSC, and luckily LMMS comes with an abundance of great instruments.
 
 == Instruments: Samples & Presets ==
 
