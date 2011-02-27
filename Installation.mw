@@ -38,7 +38,13 @@ So, Gentoo users who want to install LMMS only have to do:
 
 10.10: lmms-0.4.5 is in the Software Centre
 
-For more current versions, install from the PPA: https://launchpad.net/~tobydox/+archive/lmms
+For more current versions, install from one of the PPAs:
+
+https://launchpad.net/~kxstudio-team/+archive/ppa
+
+https://launchpad.net/~philip5/+archive/extra
+
+https://launchpad.net/~tobydox/+archive/lmms
 
 == http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
 
