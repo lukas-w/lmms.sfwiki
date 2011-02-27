@@ -13,7 +13,7 @@ The different parts of the screen ('''elements''') are numbered in yellow. They 
 
 # The [[0.4:Main Menu Bar|Main Menu Bar]] provides options dealing with project files, accessing some plugins, and accessing online help.  
 # The [[0.4:Tool Bar|Tool Bar]] provides buttons to deal with the project files - make new, open, save, and export. 
-:#The second row of Tool Bar buttons are used to show/hide windows in the main section of the interface.
+::The second row of Tool Bar buttons are used to show/hide windows in the main section of the interface.
 # The right side of the Tool Bar contains some of the master controls for the song; such as tempo, time signature, volume, pitch, and a master-output visualization pane.
 # The [[0.4:Side Bar|Side Bar]] has six buttons.  Clicking on any button toggles a tab on/off.
 Each tab displays a specific type of resource: Instrument plugins, My projects, My samples, My presets, My home, and My computer. These resources can be used in to compose your song.
