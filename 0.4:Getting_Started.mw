@@ -20,8 +20,8 @@ The main part of the interface contains a number of windows.
 
 When LMMS is launched, four windows are opened by default: 
 * [[0.4:Song Editor|Song-Editor]] This is where you compose the song.
-* [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] This is where drum (beats) sounds are created.<br /> The output of this window is automatically inserted as the beats/bassline track in the Song-Editor window.
-* [[0.4:FX Mixer|FX-Mixer]] This is the sound mixer, where volume of each channel is separately controlled.<br/>It also has a sub-window where you can add special effects.
+* [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] This is where drum (beats) sounds are created.<br /> The output of this window is automatically inserted as the beat/bassline track in the Song-Editor window.
+* [[0.4:FX Mixer|FX-Mixer]] This is the sound mixer, where volume of each channel is separately controlled.<br/>It also has a sub-window where you can add special effects and chain them together.
 * [[Controller Rack|Controller Rack]] 
 
 Remember to save often!  Save your project every time you have created something that sounds good. It is also a good strategy to save different versions of your song.  This will allow you to revert to a previous version of the project.
