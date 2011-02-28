@@ -16,7 +16,7 @@ The different parts of the screen ('''elements''') are numbered in yellow. They 
 # The right side of the Tool Bar contains some master controls for the song; such as tempo, time signature, volume, pitch, and a master-output visualization pane.
 # The [[0.4:Side Bar|Side Bar]] has six buttons.  Clicking on any button toggles a tab on/off. <br />Each tab displays a specific type of resource: Instrument plugins, My projects, My samples, My presets, My home, and My computer. These resources can be used in to compose your song.
 
-The main part of the interface contains a number of windows.
+The main part of the interface contains a number of windows, each serving a different purpose.<br/>You can show/hide any of these windows using the buttons in the second row of the [[0.4:Tool Bar|Tool Bar]].
 
 When LMMS is launched, four windows are opened by default: 
 * [[0.4:Song Editor|Song-Editor]] This is where you compose the song.
