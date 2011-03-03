@@ -1,9 +1,9 @@
 {{0.4:Working with AutomationTrans}}
 {{msgbox:out of date|0.4}}
 
-Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song.
+Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song. Automation tracks can even be added in the song editor to make repetitive automation tasks much easier to manage.
 
-= Automate This! =
+== What can be Automated? ==
 
 The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
 
@@ -29,9 +29,19 @@ There are two things to remember when automating controls:
 * The automation for controls on tracks in a beat/bassline only goes for the first bar (or as many bars as the beat/bassline pattern lasts).
 * All other automation starts from bar 1 of the song editor.
 
-Let's look at some examples of how to use automation in your songs.
+== Song Editor Automation ==
 
-== Fading in ==
+An easy way to manage repetitive or very lengthy automation is through the [[Song Editor]]. You can easily create an automation track in the song editor by clicking the "Add automation-track" button. Then, to automate a control from your new track, ctrl-click a control that can be automated and drag it over the new automation track.
+
+Now, just like an instrument track, you can add an automation element just by clicking in an empty segment in the track. Double clicking on the newly made element will bring you up to the familiar [[Automation Editor]]. Unlike regular automation, the measure numbers shown do not correspond to the song time. Instead, they correspond to the track's position in the song editor. Here is an example of how an automation track looks next to an instrument track:
+
+http://lmms.sourceforge.net/wiki/images/2/24/Song-editor-automation.png
+
+Automation elements can be duplicated and moved around just like other elements in the song editor.
+
+== Automation Examples ==
+
+=== Fading in ===
 
 The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece when it enters.  This is accomplished by automating the volume control of the instrument in the Song Editor.
 
@@ -51,13 +61,13 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automat
 
 Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
 
-== Adding expression ==
+=== Adding expression ===
 
 By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
 
-== Eighties acid effects ==
+=== Eighties acid effects ===
 
 The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
 
@@ -84,7 +94,7 @@ http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
 
 It is worth noting here that the frequency of control points changes the sound.  At bar 17 there are four upward sweeps with the quantisation set to 1/16, and then from bar 21 there are four downward sweeps with the quantisation set to 1/32 (i.e. twice as many control points).  The changes to the filter cutoff do not happen in an analog fashion, like someone turning a knob - they happen digitally and jump instantly between settings.  This means that you can hear the changes in frequency as distinct steps - the four upward sweeps may sound a little stuttery or jerky and the downward sweeps may sound smoother.  For fine control you may even want to use 1/64th quantisation.  However, since it is more difficult to get a truly even curve or line by drawing, the downside to this approach may be that your own inaccuracies in drawing the control points become audible and are harder to edit out.
 
-== Sounds flying past ==
+=== Sounds flying past ===
 
 In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
 
@@ -107,14 +117,14 @@ You can download this as an MMPZ file from
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
 
-= When not to use Automation =
+== When not to use Automation ==
 
 Though Automation gives you great power and flexibility over the sound of an instrument or your entire piece, there are some times where it is overkill and others where there are easier ways to achieve what you want.
 
 * Automation currently lacks any tools to make regular shapes such as sine waves.  Drawing these can be quite difficult, especially if you are looking at drawing such a shape for a long time.  Instead, use an LFO - either in the instrument plugin or as an effect.
 * Automation can be applied to change the characteristics of each note individually - for example, to have a note gradually fade away or gradually introduce vibrato - but it is tedious to do this to every note.  The LFO settings in the instrument plugin's Evelope/LFO/Filter section allow you to set the attack rate of the LFO to gradually fade in vibrato, and the envelope can be set to give a long decay time.
 
-= Navigation =
+== Navigation ==
 
 Reference: [[0.4:Automation Editor|Automation Editor]]
 
