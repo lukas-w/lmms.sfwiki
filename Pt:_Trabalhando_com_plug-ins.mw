@@ -1,0 +1,44 @@
+''Plugins'' são os arquivos responsáveis por produzirem som no LMMS, são os instrumentos que você usará.
+
+== AudioFileProcessor ==
+Ou "[[AudioFileProcessor|processador de arquivo de áudio]]". Este plugin permite que você carregue sons dentro do LMMS para serem usados no [[Piano-roll]]. Você pode usar a maioria dos sons que você tem (seja os que vêm com o LMMS na pasta "[[Sample|samples]]" ou sons baixados de ''sites'' que permitem o download de samples para uso gratuito), mas os que melhor funcionam são ''samples'' em formato .wav, .ds ou .ogg.
+Você pode, através da configuração do plugin, modificar a amplitude, o ponto de início ou o ponto final do som, pôr o som para tocar ao contrário ou em ''loop''.
+
+== BitInvader ==
+O BitInvader é um sintetizador de ondas personalizável. Você pode desenhar seu próprio formato de onde ou escolher entre ondas pré-definidas (''[[Sine|sine]]'', [[Triangle wave|triângulo]], [[Pulse|pulso]], ''[[Sawtooth|sawtooth]]'' ou [[Noise|ruído]]). Cada onda produz um som diferente, logo é possível criar uma grande variedade de sons sintéticos.
+
+== Kicker ==
+Permite a criação de ''[[Kick|kicks]]'' a partir de síntese simples. Você pode configurar a frequência inicial e final do ''kick'', a [[Envelope|cadência]], a distorção e o ganho (amplificação).
+
+== LB302 ==
+Trata-se de uma imitação monofônica incompleta do sintetizador TB303. O seu som deriva da escolha de formas de onda pré-definidas (''sawtooth'', ''moog-like'', ''sine'', pulso...). Você tem controle sobre a frequência de ''[[Cutoff|cutoff]]'', a ressonância, a distorção e outros parâmetros do som.
+
+== Mallets ==
+Imita o som de xilofone. Você pode escolher entre os tipos de xilofone que já estão disponíveis e modificá-los conforme os controles de cada um.
+
+== Organic ==
+Trata-se de um sintetizador que simula o som de órgãos eletrônicos, baseado em nove osciladores e controle de distorção. Cada oscilador tem controles de forma de onda, volume, ''[[Panning|panning]]'' e desafinamento. Para facilitar a configuração, existe um botão ''randomise'', que gera configurações aleatórias. Assim, você pode apertar ''ramdomise'' até conseguir um bom som.
+
+== FreeBoy ==
+Emulação do chip de som APU, usado no GameBoy (TM) e no GameBoy Color (TM). Você pode controlar o volume da saída direita e esquerda, a frequência do ''[[Bass|baixo]]'', o valor do ''treble'', habilitação/invalidação dos quatro canais de som do chip e vários outros controles que permitem a emulação da gama de sons produzidos pelo GameBoy.
+
+== PatMan ==
+O AudioFileProcessor permite que você carregue arquivos de áudio, mas o PatMan permite que você carregue arquivos ''patch'' (.pat). ''Patch-files'' são arquivos amostrados do antigo chip de som Gravis Ultrasound. Permite ''looping'' dos arquivos por padrão.
+
+== Sf2 Player ==
+De forma similar ao PatMan, o [[Sf2Player]] carrega bancos de ''samples'' conhecidos como ''soundfonts'' (.sf2). Tem controles sobre ''reverb'' e ''chorus'', além de um seletor das ''samples'' da ''soundfont''.
+
+== SID ==
+Emulador dos dois chips de som usados no Commodore 64. Tem três osciladores e quatro formas de onda: ''sawtooth'', triângulo, pulso, ruído. Cada oscilador tem controles ADSR (''attack, decay, sustain, release'') e desafinamento.
+
+== TripleOscilator ==
+É um sintetizador de três vozes (osciladores) cujo som vem de formas de onda pré-definidas. é possível escolher a relação entre os osciladores (modulação de frequência, modulação de fase...), desafinamento e muitos outros controles.
+
+== VeSTige ==
+É um hospedeiro de VST (''[[Virtual Studio Technology]]'') que suporta VSTis em formato .dll (em Linux, é necessário instalar o WINE para fazer as VSTs e VSTis funcionarem). Cada VSTi tem seus próprios controles e GUI.
+
+== Vibed ==
+O Vibed é um sintetizador de cordas vibrantes que funciona de forma similar ao BitInvader, mas suportando até nove ondas, ao invés de só uma. As ondas são combinadas numa onda só que pode ser usada como ''string'' ou como instrumentos de corda convencionais.
+
+== ZynAddSubFX ==
+O [[ZynAddSubFX]] é um poderoso sintetizador híbrido capaz dos mais variados sons sintéticos. Ele tem uma GUI própria e vários controles. É pesado, mas produz sons maravilhosos. O ZynAddSubFX tem dois tipos de GUI: básica e avançada.
