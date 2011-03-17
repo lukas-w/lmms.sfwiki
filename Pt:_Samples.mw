@@ -1,0 +1,11 @@
+''[[Samples]]'' ("amostras") são sons curtos gravados ("amostrados") que podem ter diversas fontes: instrumentos reais, sons do ambiente, criações sintéticas ou até mesmo outros sequenciadores.
+O LMMS vem com ''samples'' prontas para uso, divididas em pastas:
+* ''Basses'' contém "baixos" sintéticos para dar batida e ritmo.
+* ''Bassloopes'' contém ''[[loop|loops]]'' de batidas que podem ser livremente usadas em sequências quaisquer.
+* ''Beats'' contém batidas já prontas.
+* ''Drums'' contém baterias, tambores, tons e ''[[snares]]''.
+* ''Drumsynth'' contém amostras sintéticas no peculiar formato "[[Drumsynth|.ds]]". Muitos são amostrados de antigas ''drum machines'', como TR909.
+* ''Effects'' contém efeitos sintéticos ou não que não podem realmente ser chamados "instrumentos".
+* ''Misc'' contém amostras que não se encaixam em nenhuma das outras pastas.
+* ''Shapes'' contém sons incompletos, como se fossem "chiados" ou leves, quase mudas, alterações de onda. Não fazem muito sozinhas, mas criam efeitos interessantes ao serem usadas em conjunto com outras amostras ou ''[[Preset|presets]]''.
+* ''Stringsnpads'' contém sons contínuos, [[String|cordas]], em sua maioria sintéticas.
