@@ -1,0 +1,5 @@
+Automation
+De LMMS-Wiki
+
+Os controles do LMMS são esses botões que podem ser girados, como VOL e PAN. A maioria dos controles do LMMS podem ser "presos" à [[Automation Track|trilha de automação]], permitindo, obviamente, a [[Automation|automação]]. Para fazer isso, segure Ctrl, segure e arraste um controle qualquer para a trilha de automação que está no projeto por padrão ou que você tenha colocado ao clicar sobre "Add Automation-track" na janela do [[Song-Editor]] ou do [[Beat+Bassline Editor]].
+Dê dois cliques sobre a automação que você criou e edite-a como desejar. Em seguida, feche a janela do [[Automation Editor]] e arrasta a extremidade direita da automação até o ponto onde você quer que a automação termine (como você faz com [[Beat|beats]] e [[Bassline|basslines]]).
