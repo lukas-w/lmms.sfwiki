@@ -55,15 +55,15 @@ In LMMS under ''Edit'', ''Settings'', ''General Settings'' there is an option ca
 
 ==Other tweaks==
 
-====Changing the default language (win32 from 0.4.6 confirmed )====
+====Changing the default language (win32 from 0.4.6 confirmed, Ubuntu Linux 10.04 confirmed)====
 When LMMS is installed the default language will be chosen accordingly to your local pc settings.
 
 In case you want your LMMS installation to be in a different language, you can make a small hack.
 
-Language is defined in 
-<your drive>\LMMS 0.4.6\data\locale.
+On Windows, the language is defined in: <your drive>\LMMS 0.4.6\data\locale.
+On Linux, it is defined in: /usr/share/lmms/locale
 
-In this example we change german language to english:
+In this example we switch from German to English:
 
 German is defined in the file de.qm. English is defined in the file en.qm. 
 
