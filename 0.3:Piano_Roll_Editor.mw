@@ -10,9 +10,9 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-simple.png
 
 The Piano Roll toolbar looks like this:
 
-<!--{\begin{center}}-->
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-toolbar.png
-<!--{\end{center}}-->
+</center>
 
 Many of the tools are similar to those found in the [[Song Editor]] but there are several important additions.  In addition, there are slight but key changes in the way editing is done in the Piano Roll Editor.  At this stage it means learning two slightly incompatible editing styles.
 
@@ -65,17 +65,17 @@ The current note length setting is displayed in a drop-down menu http://tangram.
 
 Below the tool bar on the left-hand side of the window is the keyboard. This shows a segment of a keyboard, seen side-on, that relates to the notes displayed in the piano roll.
 
-<!--{\begin{center}}-->
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-keyboard.png
-<!--{\end{center}}-->
+</center>
 
 This can be scrolled up and down using the scroll bar on the right-hand side of the piano roll, or by using the scroll wheel on your mouse.  You can also click on this to play the corresponding note.
 
 The main area of the Piano Roll Editor is the note area:
 
-<!--{\begin{center}}-->
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/pianoroll-notearea-all-empty.png
-<!--{\end{center}}-->
+</center>
 
 == Piano Keys ==
 
