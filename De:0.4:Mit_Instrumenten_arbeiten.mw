@@ -101,9 +101,6 @@ Um den Filter zu aktivieren, drücke auf die Titelleiste im Filter-Bereich. Du s
 
 Filterarten gibt es in LMMS folgende:
 
-In order to enable the filter, press the '''filter''' title bar and the light at the left will turn on.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
-
-The types of filter that LMMS offers are:
 
 * '''Lowpass''' - This filter lets low frequencies through.
 * '''Highpass''' - This filter lets high frequencies through.
