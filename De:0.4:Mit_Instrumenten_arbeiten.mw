@@ -16,7 +16,7 @@ http://img96.imageshack.us/img96/4769/presetsdemo.png
 
 
 Man kann auch ein neues Instrument erstellen ,in dem man die [[De:0.4:Plugins|Plugin]] Instrumenten Gruppe der Seitenleiste nutzt. <br> 
-Einfach ein Instrument, wie oben beschrieben, in den entsprechenden Editor ziehen. 
+Einfach ein Instrument, wie oben beschrieben, in den entsprechenden Editor ziehen. <br> 
 http://img43.imageshack.us/img43/6226/plugindemo.png
 
 = Das Instrumenten Fenster =
@@ -81,13 +81,13 @@ Vst-Instrumente erstellen ihren Klang intern, das schließt die Nutzung der LMMS
 In der Plugin-Sammlung die mit LMMS mitgeliefert wird, kann nur ZynAddSubFX auch nicht diese Hüllkurven nutzen, aus dem einfachen Grund, weil es sich bei ZynAddSubFX in der Tat auch um ein Vst-Instrument handelt. 
 
 
-Die '''Hüllkurve''' eines Instrumentes basiert darauf, wie laut oder leise ein Ton erklingt von dem Moment an, dass eine Taste gedrückt wird bis hin zu dem Punkt, wo die Taste losgelassen wird.  Kurz bevor die Note gedrückt wird, ist die Hüllkurve auf Null und das Instrument erzeugt keinen Klang.   The Note geht durch eine '''Attack'''-Phase, sobald sie gedrückt wird bis hin zur maximalen Lautstärke. An diesem Punkt gibt es eine erstmalige '''Hold'''-Phase, bei der der Ton auf der maximalen Lautstärke bestehen bleibt. Die Lautstärke gleitet dann abwärts ('''decay'''s) hin zu einer leiseren Tonhöhe, die mit dem Terminus '''Sustain''' bezeichnet wird.  Schließlich wird die Taste losgelassen ('''release'''d) und der Ton gibt dann nach, bis er nicht mehr zu hören ist.  Es kann auch eine Vorverzögerung ('''Pre-delay''') geben. '''Pre-delay''' bezeichnet den Zeitabschnitt, nachdem die Taste angeschlagen wurde bis hin zur Erhöhung der Lautstärke. 
+Die '''Hüllkurve''' eines Instrumentes basiert darauf, wie laut oder leise ein Ton erklingt von dem Moment an, dass eine Taste gedrückt wird bis hin zu dem Punkt, wo die Taste losgelassen wird.  Kurz bevor die Note gedrückt wird, ist die Hüllkurve auf Null und das Instrument erzeugt keinen Klang. Die Note geht durch eine '''Attack'''-Phase, sobald sie gedrückt wird bis hin zur maximalen Lautstärke. An diesem Punkt gibt es eine erstmalige '''Hold'''-Phase, bei der der Ton auf der maximalen Lautstärke bestehen bleibt. Die Lautstärke gleitet dann abwärts ('''decay'''s) hin zu einer leiseren Tonhöhe, die mit dem Terminus '''Sustain''' bezeichnet wird.  Schließlich wird die Taste losgelassen ('''release'''d) und der Ton gibt dann nach, bis er nicht mehr zu hören ist.  Es kann auch eine Vorverzögerung ('''Pre-delay''') geben. '''Pre-delay''' bezeichnet den Zeitabschnitt, nachdem die Taste angeschlagen wurde bis hin zur Erhöhung der Lautstärke. 
 
 Um diese Parameter besser verstehen zu können, hilft es, diese mit der Hüllkurve von bekannten Instrumenten in Verbindung zu bringen. Ein Klavier hat ein sehr kurzes '''Attack''' und kein '''Hold''', ein langes '''Delay''' hin zu einem sehr leisen '''Sustain''', schließlich ein '''Release''', das schnell ist, aber nicht augenblicklich. Eine Flöte hat ein etwas längeres '''Attack''', ein sehr kurzes '''Hold''' und '''Decay''', sobald der erste Hauch vergeben ist. Die '''Sustain'''-Höhe ist der höchste Pegel und die Note hat einen augenblicklichen '''release'''. Eine Glocke hat einen sehr kurzatmigen '''Attack''', keinen '''Hold''' oder '''Sustain''', dafür aber einen sehr langen '''Release'''. Ein Auto, das vorbeifährt, hat einen langen '''Attack''' und einen langen '''Release'''.
 
 Die ENV/LFO/Filter-Sektion hat drei weitere Reiter, in denen du das Ziel für die verschiedenen Hüllkurven festlegen kannst. Die Voreinstellung, welche oben erläutert wurde, ist das Ziel 'Volume'. Du entscheidest dich für das Ziel wie gehabt, indem du auf den Label klickst. Du hast hier sechs Regler, um die jeweiligen (s. oben) Parameter der Hüllkurve einstellen zu können: Predelay, Attack, Hold, Decay, Sustain, Release - und einen siebten, um die Menge (Amount, AMT) des Effektes zu kontrollieren, die die Hüllkurve auf den Parameter ausübt. 
 
-Was die Lautstärke-Hüllkurve betrifft, hat diese Menge (AMT) keinen direkten Einfluss auf den Sound - die Hüllkurve funktioniert nur, wenn die Einstllung von AMT auf 100% steht. Du kannst hier entweder Einstellungen vornehmen, indem du den Regler bedienst, oder, indem du direkt auf den Label klickst, wobei du den Graph komplett an- oder ausschaltest. Er ist grün, wenn angeschaltet, grau, wenn aus und in farblichen Abstufungen zwischen den beiden Farben für ganz und teilweise angeschaltet. Die Menge (AMT) kann auch auf einen negativen Wert eingestellt werden, ein Feature, welches nur nützlich ist für Cutoff und Q/Reso-Ziele.
+Was die Lautstärke-Hüllkurve betrifft, hat diese Menge (AMT) keinen direkten Einfluss auf den Sound - die Hüllkurve funktioniert nur, wenn die Einstellung von AMT auf 100% steht. Du kannst hier entweder Einstellungen vornehmen, indem du den Regler bedienst, oder, indem du direkt auf den Label klickst, wobei du den Graph komplett an- oder ausschaltest. Er ist grün, wenn angeschaltet, grau, wenn aus und in farblichen Abstufungen zwischen den beiden Farben für ganz und teilweise angeschaltet. Die Menge (AMT) kann auch auf einen negativen Wert eingestellt werden, ein Feature, welches nur nützlich ist für Cutoff und Q/Reso-Ziele.
 
 Um diese zu verstehen, befassen wir uns erst einmal mit Filtern.
 
@@ -146,7 +146,7 @@ This is pretty much it. You can now try different curve-shapes, but the default 
 Envelopes can also be used additively on the RESO and VOL tab. Try that.
 I have used all in my trance-uplifter that you can find a tutorial for here:
 
-http://www.youtube.com/watch?v=NBzL1qfbSGg
+[http://www.youtube.com/watch?v=NBzL1qfbSGg Video Tutorial]
 === The Low Frequency Oscillator ===
 
 Often you may want to have the sound waver or change in a repetitive way.  This is where the low frequency oscillator comes in.  It is called 'low frequency' because it is designed to have cycles of up to two seconds (?) rather than the many hundreds or thousands of cycles per second of an audible sound.  The low frequency oscillator is usually called the LFO for short.
