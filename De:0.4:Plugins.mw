@@ -1,7 +1,7 @@
 {{0.4:PluginsTrans}}
 
 Dies ist die aktuelle Instrumenten-Plugin Liste. Durch anklicken der Namen kommt man auf die Seiten mit den genaueren Beschreibungen:<br> 
-(blaue Schrift: vorhandene Beschreibungen auf englisch, rote Schrift: momentan keine Beschreibungen vorhanden)
+(auf englisch)
 
 = Instrumenten Plugins =
 
@@ -12,27 +12,16 @@ Dies ist die aktuelle Instrumenten-Plugin Liste. Durch anklicken der Namen kommt
 * [[Mallets]] - simuliert den Klang geschlagener Instrumente (z.B. Marimba, Vibraphone, ...)
 * [[Organic]] - Orgel Synthesizer (additiv)
 * [[FreeBoy]] - Sound Chip Emulation des Nintendo Game Boy
-* [[PatMan]] - spielt GUS kompatible [http://de.wikipedia.org/wiki/Gravis_Ultrasound] Patches ab (http://freepats.zenvoid.org/freepats/)
+* [[PatMan]] - spielt [http://de.wikipedia.org/wiki/Gravis_Ultrasound GUS] kompatible Patches ab (http://freepats.zenvoid.org/freepats/)
 * [[SF2 Player]] - SoundFont2 Player
 * [[SID]] - C-64 Sound Chip Emulator
-* [[SingerBot]] - Speech Synthesizer
+* [[Singerbot]] - Speech Synthesizer
 * [[TripleOscillator]] - 'Standard' Subtraktiver Synthesizer
 * [[VeSTige]] - Plug-In zur Einbindung von Vst-Instrumenten 
 **[[Tested VSTs|geteste Vst Instrumente]]
 * [[Vibed]] -  simuliert Saiten-/Streich Instrumente
 * [[ZynAddSubFX]] - Hybrid Synthesizer
 
-= Effekt Plug-Ins =
-* [[Bass Booster]]
-* [[Definitions#P|Peak Controller]]
-* [[Spectrum Analyzer]]
-* [[Stereo Enhancer]]
-* [[Stereophonic Matrix]]
-
-= Regler =
-* [[LFO Regler]]
-* [[MIDI Regler]]
-* [[Definitions#P|Peak Controller]]
 
 = Navigation =
 
