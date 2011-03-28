@@ -44,9 +44,9 @@ Let's deal with these tabs in more detail.
 === The Plugin tab ===
 
 The plugin tab contains all the controls that set how this plugin actually generates sound. <br> 
-For more information on this, read the individual [[Plugins]] page. <br> 
+For more information on this, read the individual [[0.4:Plugins]] page. <br> 
 
-=== The ENV/LFO tab ===
+== The ENV/LFO tab ==
 
 The Env/LFO tab looks like this:
 
@@ -98,7 +98,7 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 * The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)If right-click the knob, LMMS open a context-menu, and you will have the option to beat-synchronize the speed. This is a strong feature and very useful for wobble or dubstep instruments.
 * The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
 
-=== The Func tab ===
+== The Func tab ==
 
 The Func tab looks like this:
 
@@ -179,10 +179,9 @@ At the bottom of the Instrument window is a small section of a piano keyboard. <
 This will display the notes that are playing by greying out the key or keys as they're played. <br> 
 The scroll bar at the bottom of the screen allows you to move up and down (i.e. left and right) the keyboard to see different ranges of notes. <br> 
 
-== Base note ==
-
 http://lmms.sourceforge.net/wiki/images/7/77/Plugins-pianokeys.png
 
+=== Base note ===
 In addition, the green mark just above the keys shows the 'base note' of the keyboard. <br> 
 Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz. <br> 
 For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth). <br> 
