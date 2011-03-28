@@ -14,9 +14,43 @@ It has six sections that provide easy access to the variety of '''elements''' (i
 
 When you click on the Instrument Plugin button http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-plugin.png, the sidebar expands to show you the available instrument plugins:
 
-<!--{\begin{center}}-->
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/4/4f/Sidebar1-instrumentplugins.png
-<!--{\end{center}}-->
+| style="color: #000" valign="middle"|
+
+
+
+
+
+* [[AudioFileProcessor|AudioFileProcessor]] - simple sampler with various settings for using samples
+
+* [[BitInvader]] - 'simple and dirty' wavetable synthesis
+
+* [[Kicker]] - (kick) drum synthesis
+
+* [[LB302]] - a monophonic implementation of the TB-303 sound
+
+* [[Mallets]] - a struck-instrument synthesizer
+
+* [[Organic]] - an additive organ synthesizer
+
+* [[FreeBoy]] - an emulator of the sound chip of the Nintendo Game Boy
+
+* [[PatMan]] - a GUS-compatible patch instrument
+
+* [[SF2 Player]] - the official SoundFont2 player
+
+* [[SID]] - an emulator of the sound chips used by the C64
+
+* [[TripleOscillator]] - the 'standard' subtractive synthesis module
+
+* [[VeSTige]] - VSTi-hosting plugin 
+
+* [[Vibed]] -  powerful vibrating-string synthesis module
+
+* [[ZynAddSubFX]] - A powerful hybrid synthesizer
+|}
 
 By default, no instrument plugin is selected.  When you hover the mouse over one, its box will expand to include a description of the plugin in question, like so:
 
@@ -24,7 +58,7 @@ By default, no instrument plugin is selected.  When you hover the mouse over one
 http://lmms.sourceforge.net/wiki/images/0/0e/Sidebar1-instrumentplugins-info.png
 <!--{\end{center}}-->
 
-You can then drag an instrument plugin to either the [[Song Editor]] or the [[Beat Bassline Editor|Beat + Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat + Bassline Editor. 
+You can then drag an instrument plugin to either the [[0.4:Song Editor|Song Editor]] or the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat + Bassline Editor. 
 <br>
 ----
 
