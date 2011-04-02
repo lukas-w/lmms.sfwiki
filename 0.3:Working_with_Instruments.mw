@@ -103,6 +103,9 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 * The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)
 * The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
 
+Unfortunately VSTige instruments generates sounds ‘internally’. This means that you will not be able to use the ENV/LFO tab posibillities on VST instruments at all. ZynAddSubFX is in fact a LMMS included VST instrument, so this limitation goes for ZynAddSubFX as well.
+You can however still add LADSPA-effects to VSTige instrument in FX-tab.
+
 == The Arp/Chord tab ==
 
 The Arp/Chord tab looks like this:
@@ -124,7 +127,7 @@ The chords section has no other controls than the ones listed above.  When a not
 The arpeggios section has a number of extra controls:
 
 * The '''direction''' that the arpeggio is played in can be selected from up, down, both directions (up then down) and random notes from the chord.
-* The '''time''' (in milliseconds) between each note.
+* The '''time''' (in milliseconds) between each note. Obs: If you right-click the knob, you have the option to beat-synchronize the time!
 * The '''gate''' time (as a percentage of the note time above).  At 100% gate time, each note will be played for the full time between each note.  At less than this, each note will be cut short and the rest will be filled with silence.  At more than this, each note will overlap the next note and will finish later than the start of the next.
 * The '''mode''' of playing the arpeggio.
 ** In '''free''' mode, each note will be start an arpeggio when the note starts.  If a second note is played later, a second arpeggio will start at that (later) time and play independently of the first.
@@ -182,10 +185,12 @@ These controls allow you to set which MIDI channel the instrument receives MIDI 
 At the bottom of the Instrument window is a small section of a piano keyboard.  This will display the notes that are playing by greying out the key or keys as they're played.
 
 When the instrument window is selected, you can use the keyboard of your computer to play notes in a two-octave range.  This starts from Z at C3 and goes horizontally across the bottom two rows of tke keyboard to M playing B3 - i.e. ZXCVBNM play the natural notes and SDGHJ play the sharps and flats.  It continues with Q playing C4 and uses the top two rows of the keyboard up to P playing E5 - i.e. QWERTYUIOP plays the natural notes and 2356790 play the sharps and flats.  In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected.
+Some instruments will produce lovely sounds if the mouse is 'dragged' over the keys, but be carefull! Fast keyboard events can make LMMS hang, and you will have lost your unsaved project.
 
 == Base note ==
 
-In addition, the orange mark just above the keys shows the 'base note' of the keyboard.  Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz.  For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth).  This allows you to adjust an individual instrument to be pitched correctly in relation to all the others.  This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz.  However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch.  As an example, if you recorded a saxophone playing a Bb, you would adjust the base note to be Bb; so that the saxophone was played in the same pitch as your other instruments.
+In addition, the collored mark just above the keys shows the 'base note' of the keyboard.  Whichever note you select with this mark will be played as A4 - i.e. the concert pitch of 440 Hertz.  For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth).  This allows you to adjust an individual instrument to be pitched correctly in relation to all the others.  This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz.  However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch.  As an example, if you recorded a saxophone playing a Bb, you would adjust the base note to be Bb; so that the saxophone was played in the same pitch as your other instruments.
+Do not change the 'base-note' when LMMS is in play mode. Some instruments (VSTs) can 'lock-up', and this can be somewhat anoying. 
 
 The scroll bar at the bottom of the screen allows you to move up and down (i.e. left and right) the keyboard to see different ranges of notes.
 
