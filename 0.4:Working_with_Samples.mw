@@ -4,6 +4,14 @@
 
 Samples are simply recorded audio in compressed or uncompressed form.  They can be almost anything, from someone singing or playing a real instrument or an atmospheric recorded effect to the sound of a hand-clap, drum beat or percussion hit.  Samples can be used in three fundamental ways - either played as a sound in their own right, played as an instrument, or played as percussion. You can find some links to useful resources here: [[Useful resources]].
 
+LMMS comes with ready to use samples, divided into folders. Just press the sample-button on the [[0.4:Side Bar#Samples|Side Bar]].
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" style="color: #000" valign="top"|
+http://lmms.sourceforge.net/wiki/images/7/78/Sidebar-samples.png
+| style="color: #000" valign="middle"|
+
+|}
 = File formats =
 
 Your sound files can be in a number of formats:
@@ -18,7 +26,7 @@ Your sound files can be in a number of formats:
 * Lossy (compact):
 ** [http://en.wikipedia.org/wiki/Ogg Ogg] - Open wavelet compression format
 ** [http://en.wikipedia.org/wiki/MP3 MP3] - Layer 3 MPEG audio encoding
-*** On Win32 v0.4.6 mp3 import in Sample-track is not supported.
+*** MP3 import is (currently) not supported.
 ** [http://en.wikipedia.org/wiki/Speex Speex] - An Ogg subformat optimised for speech compression
 ** [http://en.wikipedia.org/wiki/Soundblaster VOC] files created using Creative Labs Soundblaster cards
 * Lossless (yet compact)
@@ -26,9 +34,9 @@ Your sound files can be in a number of formats:
 
 = Samples as sounds =
 
-A sample treated just as a sound means that you want to play the sample back at exactly the same pitch and speed it was recorded at.  You can put the sample in an [[AudioFileProcessor Plugin]] [[Instrument]] in the [[Song Editor]] and then create a note in the [[Piano Roll Editor]] that is the length of the sample.  It can take some experimenting to stretch the note out to the length of the sample.  By doing this you are also limited to playing only one sample on this track.  There is an easier way.
+A sample treated just as a sound means that you want to play the sample back at exactly the same pitch and speed it was recorded at.  You can put the sample in an [[AudioFileProcessor]] plugin in the [[0.4:Song Editor|Song Editor]] and then create a note in the [[0.4:Piano Roll Editor|Piano Roll Editor]] that is the length of the sample.  It can take some experimenting to stretch the note out to the length of the sample.  By doing this you are also limited to playing only one sample on this track.  There is an easier way.
 
-In the [[Song Editor]], you can use the '''Add Sample Track''' button (http://img686.imageshack.us/img686/9858/addsampletrackbutton.png) to create a track that plays samples.  Click on the sample track timeline to create a new segment for a sample.  You can then add a sample into that segment by either double-clicking on the segment (which will display a File Open dialog for you to choose the sample to be played) or by dragging a sample from the Side Bar into the segment.  The sample will be played in that segment and the segment will expand to take up the entire length of the sample.  You can further crop the segment shorter (to clip sound off the end) by dragging the end of the sample left or right.  All the regular actions of the song editor apply to samples.
+In the [[0.4:Song Editor|Song Editor]], you can use the '''Add Sample Track''' button (http://img686.imageshack.us/img686/9858/addsampletrackbutton.png) to create a track that plays samples.  Click on the sample track timeline to create a new segment for a sample.  You can then add a sample into that segment by either double-clicking on the segment (which will display a File Open dialog for you to choose the sample to be played) or by dragging a sample from the Side Bar into the segment.  The sample will be played in that segment and the segment will expand to take up the entire length of the sample.  You can further crop the segment shorter (to clip sound off the end) by dragging the end of the sample left or right.  All the regular actions of the song editor apply to samples.
 
 The Sample Track also allows you to play several different samples in the same track.  This is useful if you have recorded a chorus, solo and bridge separately (for example) and want to combine them into the same track.  Simply create more than one segment and drop your samples into this.
 
@@ -42,11 +50,11 @@ Typically, you will use a sample as an instrument when the sample is of an instr
 
 In order to create an instrument using a sample, drag the sample from the Samples section of the Side Bar onto the Song Editor.  This will create a new track with the sample in an [[AudioFileProcessor Plugin]] instrument window, already displayed if you need to change some parameters.  Often you might need to change the amplitude, start or end time, or the base note of the sample in order to get the sound right, so having this window opened for you makes this easier.  To close it, simply choose its close window or the large instrument button in the Song Editor.
 
-You then create notes and edit them using the [[Piano Roll Editor]].
+You then create notes and edit them using the [[0.4:Piano Roll Editor|Piano Roll Editor]].
 
 = Samples as percussion =
 
-A common use of samples is for percussion and repetitive note patterns.  To do this, drag the sample from the Side Bar into the [[Beat Bassline Editor|Beat + Bassline Editor]].  You can also double-click on a sample to directly add it to the Beat + Bassline Editor.  Like other instruments, the instrument plugin is displayed when the track is opened in case you want to edit any of its parameters.
+A common use of samples is for percussion and repetitive note patterns.  To do this, drag the sample from the Side Bar into the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]].  You can also double-click on a sample to directly add it to the Beat + Bassline Editor.  Like other instruments, the instrument plugin is displayed when the track is opened in case you want to edit any of its parameters.
 
 
 
