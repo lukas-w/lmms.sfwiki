@@ -6,12 +6,8 @@ Samples are simply recorded audio in compressed or uncompressed form.  They can 
 
 LMMS comes with ready to use samples, divided into folders. Just press the sample-button on the [[0.4:Side Bar#Samples|Side Bar]].
 
-{| cellspacing="0" valign="top" align="center" width="100%"
-| width="300px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki/images/7/78/Sidebar-samples.png
-| style="color: #000" valign="middle"|
-
-|}
+[[Image:Sidebar-samples.png|left]]
+<br clear="both"/>
 = File formats =
 
 Your sound files can be in a number of formats:
