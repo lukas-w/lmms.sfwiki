@@ -68,7 +68,7 @@ L'onglet greffon contient tous les contrôles qui fixent comment ce plugin gén�
 L'onglet Env/LFO/Filter ressemble à ceci :
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
+http://lmms.sourceforge.net/wiki/images/f/f5/Tab-env-lfo.png
 <!--{\end{center}}-->
 
 === Principes de base de l'enveloppe ===
@@ -108,6 +108,7 @@ The types of filter that LMMS offers are:
 * '''Highpass''' - This filter lets high frequencies through.
 * '''Bandpass csg''' and '''Bandpass czpg''' - These filters let only a certain band of frequencies through.
 * '''Notch''' - The inverse of the Bandpass filter, this cuts only a certain frequency band.
+* '''Allpass''' - A filter that lets all frequencies through but has the same phase shifts, time delays and resonance properties as other filters.
 * '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesisers.
 * '''2x Lowpass''' - A lowpass filter with twice the Q factor.
 
@@ -117,7 +118,38 @@ Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Res
 
 Filters do not have to be static and unchanged throughout the entire note.  LMMS allows you to control both the cutoff frequency and the Q factor via an envelope.  Nor does this envelope have to be the same as the volume envelope for the note - each parameter can have an independent envelope.  The envelope sets the value from its maximum or minimum to the set control level; for example, if a low-pass filter has the cutoff control set to 1000Hz and an envelope is used to sweep this value up in a long attack and long decay, the value of the control will go from 14000Hz (the maximum) down to 1000Hz and then back up.  This will make the instrument sound like it's been damped down and then the damping removed.
 
-Another typical use of this is to add a resonance to an instrument that changes with time.  In this case the volume and Q envelopes would be quite similar, so that as the note hits the resonance sweeps down, and then disappears upwards again when the note is released.  (Writer's note: add more detail about how to actually achieve this.)
+Another typical use of this is to add a resonance to an instrument that changes with time.  In this case the volume and Q envelopes would be quite similar, so that as the note hits the resonance sweeps down, and then disappears upwards again when the note is released.  
+
+-To achieve this for CUTOFF we add a long note and plays it in a loop. We do this so we can hear the effect of our settings. -Wear headphones or anticipate a divorce-lawyer ..
+
+Open the ENV/LFO tab and go to the CUTOFF sub-tab.
+We will initially work only in the LFO (lower) section, but very often some adjustments are needed in the Envelope (upper) section, because of unwanted artifacts, that can be avoided with some minor adjustments.
+
+All LFO effects takes place through a filter, so the first thing is to activate the filter (lamp ON) and choose one from the drop-down. Try LowPass or 2LowPass.
+The RESO should be close to 1.0.
+
+First it may be interesting to mimic the ENV-automation. This will show you what you can achieve.
+Try manually up-down motions on the cutoff-knob.
+You should hear a wau-wau effect. This is what we will get, but controlled by a curve.
+
+Now set AMT to max.
+
+Try a SPD around 0.05.
+
+Now you have your wobble waii automated!
+
+You need to monitor the output db, so open the FX-mixer and watch the amplitude. The instrument should only peak briefly, If it overshootes, try lovering either the general VOL or the RESO.
+
+Only in dubstep a fast wobble like the one we have now is used. Alter the SPD and listen to your instrument. 
+
+Also try the MODULATE ENV-AMOUNT. This will for the cutoff be rather subtle, but in the volume or reso-tab it will be more dramatic.
+
+This is pretty much it. You can now try different curve-shapes, but the default sinus will give the smoothest result. 
+
+Envelopes can also be used additively on the RESO and VOL tab. Try that.
+I have used all in my trance-uplifter that you can find a tutorial for here:
+
+http://www.youtube.com/watch?v=NBzL1qfbSGg
 
 === The Low Frequency Oscillator ===
 
@@ -135,10 +167,10 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 The Arp/Chord tab looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-arp.png
+http://lmms.sourceforge.net/wiki/images/b/b5/Tab-func.png
 <!--{\end{center}}-->
 
-Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously.  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
+Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously).  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
 
 Both sections have two common controls - the list of chords that can be played and the range in octaves over which the chord will be played.  Since some chords span more than one octave, some chords or arpeggios will overlap.  The list of chords available is vast, ranging from standard chords through jazz to regional chords and natural modes such as Lydian and Dorian.
 
@@ -165,7 +197,7 @@ The [[LADSPA]] effects allow many ways to control the sound of an instrument.  T
 The FX tab looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-fx.png
+http://lmms.sourceforge.net/wiki/images/b/b3/Tab-fx.png
 <!--{\end{center}}-->
 
 In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument by itself against the 'wet' sound of the effects in place.  The terms '''wet''' and '''dry''' are used often in this context.
@@ -180,7 +212,7 @@ The effects you select are taken from the list installed on your system, so you 
 For instance, here is the LADSPA 'Freeverb' effect added to the effects list:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-fx-freeverb.png
+http://lmms.sourceforge.net/wiki/images/b/b0/Tab-fx1.png
 <!--{\end{center}}-->
 
 Note that some effects will also have ways to set their internal wet/dry level.  This sometimes takes the form of a wet/dry knob, but also can be two knobs to set the level of the wet output and the level of the dry, bypassed, output.
@@ -194,7 +226,7 @@ Note that the CPU increase and signal quality change when using effects is menti
 The MIDI tab looks like this:
 
 <!--{\begin{center}}-->
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-midi.png
+http://lmms.sourceforge.net/wiki/images/d/d6/Tab-midi.png
 <!--{\end{center}}-->
 
 These controls allow you to set which MIDI channel the instrument receives MIDI events on, and which it sends events to.  Both these controls work in similar ways:
@@ -206,13 +238,30 @@ These controls allow you to set which MIDI channel the instrument receives MIDI 
 
 = Piano Keys =
 
-At the bottom of the Instrument window is a small section of a piano keyboard.  This will display the notes that are playing by greying out the key or keys as they're played.
+[[File:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
+<br>
+<br>
+At the bottom of the Instrument window is a small section of a piano keyboard. <br> 
+This will display the notes that are playing by greying out the key or keys as they're played. <br>
 
-When the instrument window is selected, you can use the keyboard of your computer to play notes in a two-octave range.  This starts from Z at C3 and goes horizontally across the bottom two rows of tke keyboard to M playing B3 - i.e. ZXCVBNM play the natural notes and SDGHJ play the sharps and flats.  It continues with Q playing C4 and uses the top two rows of the keyboard up to P playing E5 - i.e. QWERTYUIOP plays the natural notes and 2356790 play the sharps and flats.  In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected.
+When the instrument window is selected, <br> 
+you can use the keyboard of your computer to play notes in a two-octave range. <br>
+This starts from Z at C3 and goes horizontally across the bottom two rows of tke keyboard to M playing B3 <br> 
+- i.e. Z X C V B N M play the natural notes and S D G H J play the sharps and flats. <br>
+It continues with Q playing C4 and uses the top two rows of the keyboard up to P playing E5 <br>
+- i.e. Q W E R T Y U I O P play the natural notes and 2 3 5 6 7 9 0 play the sharps and flats. <br> 
+In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected.
+
 
 == Base note ==
 
-In addition, the orange mark just above the keys shows the 'base note' of the keyboard.  Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz.  For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth).  This allows you to adjust an individual instrument to be pitched correctly in relation to all the others.  This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz.  However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch.  As an example, if you recorded a saxophone playing a Bb, you would adjust the base note to be Bb; so that the saxophone was played in the same pitch as your other instruments.
+In addition, the green mark just above the keys shows the 'base note' of the keyboard. <br> 
+Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz. <br> 
+For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth). <br> 
+This allows you to adjust an individual instrument to be pitched correctly in relation to all the others. <br>  
+This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz. <br> 
+However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch. <br> 
+As an example, if you recorded a saxophone playing a Bb, you would adjust the base note to be Bb; so that the saxophone was played in the same pitch as your other instruments.
 
 The scroll bar at the bottom of the screen allows you to move up and down (i.e. left and right) the keyboard to see different ranges of notes.
 
