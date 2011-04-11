@@ -10,24 +10,25 @@ You can create an instrument in a variety of ways.
 
 The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]]. You drop it in the editor that you want to use it in - most tone-producing instruments (samples and synthesizers) will go into the [[Song Editor]] and drum sounds will go into the [[Beat Bassline Editor|Beat + Bassline Editor]].  This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
 
-
+<center>
 http://img96.imageshack.us/img96/4769/presetsdemo.png
-
+</center>
 
 
 You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the editor as above.
+<center>
 http://img43.imageshack.us/img43/6226/plugindemo.png
+</center>
 
 = The Instrument Window =
 
 Various instrument windows looks like this:
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/a/a5/Plugins-tripleoscillator.png
-http://lmms.sourceforge.net/wiki/images/0/03/Plugins-organic.png
-http://lmms.sourceforge.net/wiki/images/5/55/Plugins-kicker.png
-
-<!--{\end{center}}-->
+{|align="center"
+|[[Image:Plugins-tripleoscillator.png]]
+|[[Image:Plugins-organic.png]]
+|[[Image:Plugins-kicker.png]]
+|}
 
 The window is divided up into three main sections - the instrument controls at the top, the sound controls in the middle and the piano keys at the bottom.
 
@@ -63,9 +64,7 @@ The plugin tab contains all the controls that set how this plugin actually gener
 
 The Env/LFO/Filter tab looks like this:
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/f/f5/Tab-env-lfo.png
-<!--{\end{center}}-->
+[[Image:Tab-env-lfo.png|center]]
 
 === Envelope basics ===
 ''Note: the fist thing that must be emphasized is that no VSTige instrument will respond to anything on this tab. We cant use either envelopes nor the filters. VST generates sounds in an internal method, that excludes LMMS envelopes completely!  
@@ -153,9 +152,7 @@ The LFO provided by LMMS allows you to control the value of the volume, cutoff a
 
 The Arp/Chord tab looks like this:
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/b/b5/Tab-func.png
-<!--{\end{center}}-->
+[[Image:Tab-func.png|center]]
 
 Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously).  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
 
@@ -183,9 +180,7 @@ The [[LADSPA]] effects allow many ways to control the sound of an instrument.  T
 
 The FX tab looks like this:
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/b/b3/Tab-fx.png
-<!--{\end{center}}-->
+[[Image:Tab-fx.png|center]]
 
 In order to enable any effects processing to take place on your instrument, you must enable the FX tab by clicking the 'light' button beside at the top of the tab.  This gives you an easy way to check the 'dry' sound of the instrument by itself against the 'wet' sound of the effects in place.  The terms '''wet''' and '''dry''' are used often in this context.
 
@@ -198,9 +193,7 @@ The effects you select are taken from the list installed on your system, so you 
 
 For instance, here is the LADSPA 'Freeverb' effect added to the effects list:
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/b/b0/Tab-fx1.png
-<!--{\end{center}}-->
+[[Image:Tab-fx1.png|center]]
 
 Note that some effects will also have ways to set their internal wet/dry level.  This sometimes takes the form of a wet/dry knob, but also can be two knobs to set the level of the wet output and the level of the dry, bypassed, output.
 
@@ -212,9 +205,7 @@ Note that the CPU increase and signal quality change when using effects is menti
 
 The MIDI tab looks like this:
 
-<!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/d/d6/Tab-midi.png
-<!--{\end{center}}-->
+[[Image:Tab-midi.png|center]]
 
 These controls allow you to set which MIDI channel the instrument receives MIDI events on, and which it sends events to.  Both these controls work in similar ways:
 
@@ -225,7 +216,7 @@ These controls allow you to set which MIDI channel the instrument receives MIDI 
 
 = Piano Keys =
 
-[[File:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
+[[Image:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
 <br>
 <br>
 At the bottom of the Instrument window is a small section of a piano keyboard. <br> 
