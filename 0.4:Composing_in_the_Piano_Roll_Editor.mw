@@ -2,9 +2,9 @@
 {{msgbox:incomplete}}
 The Piano-Roll Editor is the main workspace for composing melodies.
 
-<!--{\begin{center}}-->
+<center>
 http://img101.imageshack.us/img101/8506/pianoroll.png
-<!--{\end{center}}-->
+</center>
 
 = Writing Notes =
 
@@ -59,7 +59,7 @@ http://www.youtube.com/watch?v=pFy8tipBbB8
 == Selecting ==
 
 
-	[[File:Pianorollselect.png]]
+[[File:Pianorollselect.png|center]]
 
 The Select tool allows a single note or a group (a rectangular area) of notes to be selected.  Selected notes turn blue.  Once a selection has been made, you can move, delete, cut, copy, paste it.
 
@@ -95,7 +95,7 @@ The position to paste notes cannot be chosen.  The notes are dropped on the pian
 The volume of an individual note can be changed, at the bottom of the piano roll.  Drag the yellow tip up/down.   The note dims slightly, as shown below.
 
 
-     [[File:Volume.png]]
+[[File:Volume.png|center]]
 
 = Navigation =
 
