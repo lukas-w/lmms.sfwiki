@@ -35,7 +35,9 @@ An easy way to manage repetitive or very lengthy automation is through the [[Son
 
 Now, just like an instrument track, you can add an automation element just by clicking in an empty segment in the track. Double clicking on the newly made element will bring you up to the familiar [[Automation Editor]]. Unlike regular automation, the measure numbers shown do not correspond to the song time. Instead, they correspond to the track's position in the song editor. Here is an example of how an automation track looks next to an instrument track:
 
+<center>
 http://lmms.sourceforge.net/wiki/images/2/24/Song-editor-automation.png
+</center>
 
 Automation elements can be duplicated and moved around just like other elements in the song editor.
 
@@ -53,11 +55,15 @@ The third thing you will find out is that having lots of control points is unnec
 
 For example, in this piece:
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-songeditor.png
+</center>
 
 The automation on the first Moog track's Volume control looks like this:
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automation.png
+</center>
 
 Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
 
@@ -65,7 +71,9 @@ Note the time ruler's position - the fade in starts at around bar 41, when the f
 
 By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
+</center>
 
 === Eighties acid effects ===
 
@@ -73,15 +81,21 @@ The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedi
 
 First, create a new track with any instrument, put a bar of repetitive notes in it, and then copy that to create sixteen bars (I copy that bar in the piano roll and paste it three times to create a four-bar phrase, and then copy that segment in the song editor to get four four-bar segments).  Then open the instrument's plugin and select the Envelope/LFO/Filter tab:
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/instrument-std-env-volume.png
+</center>
 
 Turn on the Filter section, set the filter type to Moog, and make sure that the LFO amount is set to zero.  
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-filter-pointers.png
+</center>
 
 Then right-click on the filter's '''Cutoff''' control and automate it:
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automation.png
+</center>
 
 You can draw various shapes - blocks, rising and falling curves, sawteeth and jumps.
 It can be difficult to draw with the mouse. Since .4.4 sh+leftMouse Clicking will create strait connected lines. Use this to make slow fine linear gradual changes.
@@ -98,11 +112,15 @@ It is worth noting here that the frequency of control points changes the sound. 
 
 In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-1.png
+</center>
 
 I then created a diagonal line from pan-right (+1024 at top) to pan-left (-1024 at bottom):
 
+<center>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-2.png
+</center>
 
 And now the sound 'flies' past from right to left!
 
