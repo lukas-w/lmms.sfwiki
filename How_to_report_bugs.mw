@@ -5,7 +5,7 @@ For reporting any kind of bugs, use the [https://sourceforge.net/tracker/?func=a
 
 == How to efficiently report bugs with GDB ==
 
-*If you are using LMMS and encounter a bug, please include a full backtrace:
+*If you are using LMMS and encounter a segmentation fault (crash), please include a full backtrace:
 
   $ gdb /usr/bin/lmms
   ...
