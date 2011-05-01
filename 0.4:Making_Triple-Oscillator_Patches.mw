@@ -1,6 +1,6 @@
 {{0.4:Making Triple-Oscillator PatchesTrans}}
 
-If you find all your instruments sounding like an Atari 2600 (unless that's what you were going for), these guidelines for creating patched that sound like familiar musical instruments or sounds will help.  These instructions are intentionally a bit vague, so you can easily adapt them to the type of music you want to write.  When making patches, it often helps to have a BB track playing the sound over and over as you edit.
+If you find all your instruments sounding like an Atari 2600 (unless that's what you were going for), these guidelines for creating patches that sound like familiar musical instruments or sounds will help you.  These instructions are intentionally a bit vague, so you can easily adapt them to the type of music you want to write.  When making patches, it often helps to have a [[0.4:Beat Bassline Editor|BB track]] playing the sound over and over as you edit.
 
 When creating instruments with different generators, not just TripleOscillator patches, there are a few unwanted events that may occur. The most frequent problem is 'clicks'.
 The instrument sounds pretty much ok, but theres a distinct 'click' artifact every time the note play. Clicks are annoying, but most can rather easy be removed. The start-event clicks are the easiest. 
@@ -12,7 +12,7 @@ You may be able to remove the click by giving REL <= 0.05.
 Another annoying problem is 'noisy cratter' randomly occurring in longer notes.
 This is often caused by to high Q in respect to either the cutoffFrq or the actual chosen filter. These type of artefacts can be serious difficult to remove without changing the quality of the sound. Often success versus fiasco depends on minute alterations in Q.
 
-If you are not familiar with terms like LFO, filters and resonance-Q amount. you should now go to the section [[0.4:Working with Instruments]] and read the paragraph ''The Env/LFO/Filter tab''. All the basics and more are explained there.
+If you are not familiar with terms like LFO, filters and resonance-Q amount. you should now go to the section [[0.4:Working with Instruments]] and read the [[0.4:Working with Instruments#The Env/LFO/Filter tab|paragraph ''The Env/LFO/Filter tab'']]. All the basics and more are explained there.
 
 = Synth bass =
 We'll start with your basic synthesized techno bass sound, because this is a relatively simple patch to start learning your way around the Triple-Oscillator with.
@@ -33,7 +33,7 @@ Real organs are basically additive synthesizers:  They add together a few dozen 
 
 = Electric bass =
 Electric bass guitars produce a wide variety of tones.  This is just your basic bass with no overdrive or anything like that.
-*  Start with a sine patch and mute OSC 1.  Turn OSC 2's valume to 100%.
+*  Start with a sine patch and mute OSC 1.  Turn OSC 2's volume to 100%.
 *  Set "OSC 2 + OSC 3" to PM (Phase Modulation)
 *  Turn on the volume envelope and give it a long decay, very short release and an attack around 1/50 or 1/20 of a second.
 *  Go to the "FX" page and add a TAP Chorus/Flanger effect.  This adds an extra layer of richness to the sound.
