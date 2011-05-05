@@ -1,0 +1,50 @@
+{{0.4:Making Triple-Oscillator PatchesTrans}}
+
+Si vous trouvez que tous vos instruments sonnent comme un Atari 2600 (à moins que ce soit ce que vous recherchez), ces conseils pour créer des patchs qui sonnent comme des instruments de musique ou des sons familiers sont faits pour vous. Ces instructions sont intentionnellement un peu vague, donc vous pourrez facilement les adapter au type de musique que vous souhaitez composer. Quand on crée des patchs, cela aide souvent d'avoir une [[0.4:Beat Bassline Editor|piste de percussions et de ligne de basses]] qui joue le son encore et encore pendant que vous modifiez.
+
+Quand vous créez des instruments avec différents générateurs, et non uniquement des patchs de triple-oscillateur, il y a quelques effets non désirés qui peuvent arriver. Le problème le plus fréquent étant les ''clics''. L'instrument sonne plutôt pas mal OK, mais il y a un effet de ''clic'' bien distinct à chaque fois que la note est jouée. Les clics sont désagréables, mais la plupart peuvent être facilement enlevés. Les clics d'effet de début sont les plus faciles.
+* Ouvrez l'<code>ENV</code> pour le <code>VOLUME</code>.
+* Régler l'<code>AMP</code> au maximum.
+* Régler l'<code>ATTAQUE</code> juste un peu au-dessus de 0 – comme 0,04
+
+Écoutez le son. Si l'effet de clic n'a pas bougé d'un poil, alors le clic vient de la ''terminaison'' du son. Ici, la situation est plus difficile. Vous devriez être capable de supprimer le clic en choisissant <code>REL</code> <= 0,05. Un autre problème ennuyeux est le ''cratère bruiteux'' se produisant aléatoirement sur les longues notes. Ceci est souvent causé par un trop grand <code>Q</code> par rapport à la fréquence de filtrage ou au filtre choisi. Ce type d'effet peut s'avérer très difficile à enlever sans changer la qualité du son. Souvent le succès ou le fiasco dépend d'altérations de minute sur <code>Q</code>.
+
+Si vous n'êtes pas familier avec des termes comme LFO, filtres et facteur de qualité, vous devriez dès maintenant aller à la section [[Fr:0.4:Utiliser les instruments]] et lire le [[Fr:0.4:Utiliser les instruments#L'onglet Env/LFO/Filter|paragraphe ''L'onglet Env/LFO/Filtre'']]. Toutes les bases et plus encore y sont expliquées.
+
+= Basse de synthé =
+Nous allons commencer avec votre son de basse techno synthétique de base, parce que c'est un patch relativement simple pour faire vos premiers pas avec le triple-oscillateur.
+Partez d'un triple-oscillateur tout neuf avec le patch de l'onde sinusoïdale par défaut.
+# Commencez sur la page <code>GREFFON</code> et changez les formes d'onde. Essayez différentes combinaisons : les ondes carré, triangulaire et sinusoïdale sont un bon combo, ou réglez les toutes sur la dent de scie ou la dent de scie proche du moog.
+# Sélectionnez la page <code>ENV/LFO</code>. Réglez le filtre sur ''Passe-bas'', ''Passe-bas x 2'' ou ''Moog'' et réglez le filtrage jusqu'en bas. Votre son devient presque inaudible.
+# Allez à la sous-page <code>FILTRAGE</code> et activez l'enveloppe en cliquant dessus. Réglez la <code>PERSISTANCE</code>, le <code>MAINTIEN</code> et le <code>RELÂCHEMENT</code> à zéro. Vous entendez le filtre maintenant ?
+# Maintenant, commencez à jouer avec la molette dans la section <code>FILTRE</code>. Si vous utilisez le filtre moog, ne réglez pas la résonance au-delà d'environ 0,85 — vous êtes prévenu !
+# Maintenant, jouez de très basses notes.
+
+= Orgue =
+Les vrais orgues sont basiquement des synthétiseurs additifs : ils additionnent ensemble une petite dizaine d'ondes sinusoïdales simples pour former une tonalité complexe. Ceci est facile à imiter avec le triple-oscillateur et les accords de LMMS.
+# Commencez avec un nouveau patch de sinusoïdale, et utilisez chaque molette <code>Crs</code> (''coarse'') des oscillateurs en les plaçant sur trois octaves différents.
+# Basculez sur la page <code>FONC</code> et réglez sur <code>ACCORDS</code>. Réglez l'accord sur <code>octave</code> et réglez l'<code>INTERVALLE</code> sur trois ou quatre. Cool, hein ?
+# Jouez différentes <code>Crs</code>. Ils sonnent d'une façon très similaire, non ? C'est parce que la plupart des harmoniques sont les mêmes.
+# Pour plus d'amusement, changez un des oscillateurs en onde triangulaire.
+# Vous pouvez affiner le son en changeant l'octave joué par chaque oscillateur, ou en ajustant leur volume relatif.
+
+= Basse électrique =
+La guitare basse électrique produit une large variété de tonalités. Ceci est juste votre basse de base sans distorsion ni d'autres choses comme ça.
+# Démarrez avec un patch de sinusoïdale et mettez l'<code>OSC 1</code>. Réglez le volume de l'<code>OSC 2</code> sur 100%.
+# Réglez <code>OSC 2 + OSC 3</code> sur <code>PM</code> (modulation de phase)
+# Activez l'enveloppe de volume en cliquant dessus et donnez-lui un long déclin, un très court relâchement et une attaque aux alentours de 1/50 ou 1/20 d'une seconde.
+# Allez à la page <code>EFFET</code> et ajouter un effet <code>TAP Chorus/Flanger</code>. Ceci ajoute une extra couche de richesse au son.
+# Maintenant, retournez à la page <code>GREFFON</code> et décidez du volume que vous voulez pour l'<code>OSC 3</code> (à savoir, le niveau de modulation de phase entre l'<code>OSC 3</code> et l'<code>OSC 2</code>).
+# Enfin, renforcez la fondamentale (l'harmonique la plus basse) de votre son  en remontant l'<code>OSC 1</code> juste un peu. Ceci est optionnel. Ou vous pouvez utiliser une onde triangulaire. Comme vous voulez, c'est votre son.
+
+= Navigation =
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[Fr:0.4:Votre première musique avec LMMS|Votre première musique avec LMMS]]
+| Up: [[Fr:0.4:Manuel|Manuel]]
+| Next: [[Fr:0.4:Utiliser les instruments|Utiliser les instruments]]
+|}
+
+[[Category:Tutorial]]
+[[Category:0.4-Manual]]
