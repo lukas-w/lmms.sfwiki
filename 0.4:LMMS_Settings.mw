@@ -1,6 +1,7 @@
 {{0.4:LMMS SettingsTrans}}
 
 LMMS is very configurable, with many settings allowing you to control how you interact with the software.  There are two main ways to work with these configuration parameters.
+For the current version 0.4.11 and previous versions, Its is very important that the paths, that you enter in the preferences, only uses the letters a..z and or A..Z. If any umlaut or other carachters are used, your preferences will NOT be saved!
 
 = Settings Dialog =
 
