@@ -570,6 +570,15 @@ All sounds are calculated in "real time", no samples are used.
 | {{wikitable_cell}}|sometimes doesn't want to attach into LMMS window; after loading VeSTige preset, controls look OK in GUI but in reality they are at default values
 | {{wikitable_cell}}|http://home.btconnect.com/christopherg/
 |-
+| {{rh}} | Mini DiZi
+| {{wikitable_cell}}|Flute
+| {{wikitable_cell}}|Kong Audio
+| {{Yes}} <br> (as of 0.4.8)
+| {{?}}
+| {{?}}
+| {{wikitable_cell}}|Chinese Flute
+| {{wikitable_cell}}|http://chineekong.com/free.htm
+|-
 | {{rh}} | Sample plugin <br> (for adding your own)
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|
