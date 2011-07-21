@@ -39,7 +39,7 @@ Events created in the Song Editor are 'atomic' -i.e. they can't be expanded (but
 The actual song is always built in the Song Editor. This is where all the '''elements''' (blocks), including events in the Beat+Bassline Editor, come together on the timeline, and reveal your complete composition.
 
 Lets take a look at the default [[0.4:Song Editor|Song Editor]].
-In the default Song Editor there are 4 items loaded. The first one, named ''"Default Preset"'',is an instance of the [[TripleOscillator|Triple Oscillator]] (3-OSC) generator, as an example of an instrument-container. This instance is without any preset-settings and will only beep a simple sine sound. It could actually be deleted, but before we do that, we should look at it, because it has behavior that is the same for all other instrument-containers.
+In the default Song Editor there are 4 items loaded. The first one, named ''"Default Preset"'', is an instance of the [[TripleOscillator|Triple Oscillator]] (3-OSC) generator; it's a good example of an instrument-container. This Triple Oscillator instance has default settings that will generate musical notes using a simple sine wave, so it's a very basic electronic tone generator. We can delete it, but before we do that, let's look at it, because it has behavior that is the same for all other instrument-containers.
 When you move your mouse over the instrument-containers, they will high-light. This indicates that the instruments can be clicked as if they were buttons! Left-click the 3-OSC. This opens the instrument GUI. Click again, and the GUI is closed. All instruments behave like this. 
 
 When you make changes on the GUI you create a '''preset'''. If it sounds less than horrible, you have an instrument :)
