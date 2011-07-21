@@ -136,8 +136,6 @@ The 5th tab in the sidebar, My Home is a shortcut to a specific folder on your s
 = My Computer =
 The last tab on the side-bar is a shortcut to the root of your computer's folder tree. You can browse the tree and even use token-search. Quite handy for general purposes.
 
-= Navigation =
-
 {| style="border: 1px solid black;"
 |-
 | Prev: [[0.4:Tool Bar|Tool Bar]]
