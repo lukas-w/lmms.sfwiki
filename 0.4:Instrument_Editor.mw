@@ -50,7 +50,7 @@ For more information on this, read the individual [[0.4:Plugins]] page. <br>
 
 The Env/LFO tab looks like this:
 
-''Note: VSTige and ZynAddSubFX instruments won't respond to anything on this tab.''
+''Note: VeSTige and ZynAddSubFX instruments won't respond to anything on this tab.''
 
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="300px" style="color: #000" valign="top"|
