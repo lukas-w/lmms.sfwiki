@@ -61,23 +61,20 @@ You can then drag an instrument plugin to either the [[0.4:Song Editor|Song Edit
 
 = Navigation =
 
-In all sections except for the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name.  To close it again, click the check-box again.
+In all sections except for the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with a folder icon. If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name. To close it, click the check-box again.
 
-These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
+These folders match the folders on your computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
 
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/1/1b/Sidebar-search.png
 | style="color: #000" valign="middle"|
 
-Open folders can be smart-searched. 
-For this you use the small input-field in the bottom.<br>
-This makes it possible for you to find an item with token search.<br> 
-Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.<br> 
+Open folders can be smart-searched, so you can find an item with a token search. Use the small input-field in the bottom.<br>
+Just enter a few characters from the item's filename, and the smart-search in LMMS will filter the names in the currently open folder. <br> 
 '''Smart-search does ''not'' search subfolders!'''
 
-Next to the input-field there is an update-button. <br> 
-If you can't find your latest item, click this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
+To the right of the input-field there is an Update button. If you can't find a newly created file, click the Update button: all the folders are updated and the tree will collapse (this is also an easy way to close all open folders).
 |}
 
 Lets take a closer look at the tabs.
