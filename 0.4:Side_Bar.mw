@@ -1,13 +1,13 @@
 {{0.4:Side BarTrans}}
 
-The Side Bar is permanently attached to the left-hand side of the window.  It has two modes, retracted and extended.  In retracted mode it looks like this:
+The Side Bar is permanently attached to the left-hand side of the window.  It has 2 modes: retracted and extended. In retracted mode it looks like this:
 
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="50px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/9/97/Sidebar.png
 | style="color: #000" valign="middle"|
 
-It has six sections that provide easy access to the variety of '''elements''' (instruments, samples, files and presets) that you will use in LMMS.<br> When you click on any one section label, the side bar will extend and show you the contents of that section. 
+It has 6 sections that provide easy access to the various '''elements''' (instruments, samples, files, and presets) that you will use in LMMS. When you click on any one section label, the side bar will extend and show you the contents of that section. Click the section label again to retract the bar.
 |}
 
 = Instrument Plugins =
@@ -52,7 +52,7 @@ http://lmms.sourceforge.net/wiki/images/4/4f/Sidebar1-instrumentplugins.png
 * [[ZynAddSubFX]] - A powerful hybrid synthesizer
 |}
 
-By default, no instrument plugin is selected.  When you hover the mouse over one, its box will expand to include a description of the plugin in question, like so:
+By default, no instrument plugin is selected. When you hover the mouse over one, its box will expand to include a description of the plugin:
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/0/0e/Sidebar1-instrumentplugins-info.png
@@ -62,7 +62,7 @@ You can then drag an instrument plugin to either the [[0.4:Song Editor|Song Edit
 <br>
 ----
 
-In all sections but the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name.  To close it again, click the check-box again.
+In all sections except for the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with an folder icon.  If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name.  To close it again, click the check-box again.
 
 These folders match the directories on your own computer, allowing you a convenient way to group sounds and presets both on your hard disk and in LMMS.
 
