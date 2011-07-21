@@ -108,7 +108,7 @@ http://lmms.sourceforge.net/wiki/images/6/65/Sidebar3-mysamples.png
 Samples or MySamples as the tab is named, gives you easy access to LMMS samples collection. <br> 
 Samples can be either WAV or OGG sound files. You have smart-search and can update the display. <br> 
 To preview the sample, '''left-click and hold''' on its name. <br>
-Drag the sample to the Song-Editor or the Beat+Bassline-Editor to add it as a new track. When you drag-and-drop a sample into either editor, the new track will be added at the bottom of the track list. You can drag the grip dots on the left end of the track to move the track to where you want it in the track list.
+Drag the sample to the Song-Editor or the Beat+Bassline-Editor to add it as a new track. When you drag-and-drop a sample into either editor, the new track will be added at the bottom of the track list. You can drag the grip dots on the left end of the track to move the track to where you want it in the track list. <br>
 Double-click the sample to add it to the Beat+Bassline-Editor as a new track. <br> 
 The mouse cursor symbol will show a null sign as you drag if the sample can't be dropped into that window. <br> 
 
