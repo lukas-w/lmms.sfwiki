@@ -131,7 +131,7 @@ The mouse cursor symbol will show a null sign as you drag if the preset can't be
 |}
 
 = My Home =
-The 5th tab in the sidebar, MyHome is a shortcut to a specific folder on your system. On Windows systems this corresponds to the %HOMEPATH% folder (i.e. the current user's profile) containing folders such as Desktop, Favorites, MyDocuments, etc.
+The 5th tab in the sidebar, My Home is a shortcut to a specific folder on your system. On Windows systems this corresponds to the %HOMEPATH% folder (i.e. the current user's profile) containing folders such as Desktop, Favorites, MyDocuments, etc.
 
 = My Computer =
 The last tab on the side-bar is a shortcut to the root of your computer's folder tree. You can browse the tree and even use token-search. Quite handy for general purposes.
