@@ -59,7 +59,7 @@ http://lmms.sourceforge.net/wiki/images/0/0e/Sidebar1-instrumentplugins-info.png
 
 You can then drag an instrument plugin to either the [[0.4:Song Editor|Song Editor]] or the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], or double-click an instrument plugin label to add it directly to the Beat+Bassline Editor. 
 
-= Navigation =
+= Section Navigation =
 
 In all sections except for the Instrument Plugins section, the listing you get functions like a directory tree listing.  Folders are marked with a folder icon. If you click in the check-box to the left of the folder-icon, the folder opens and displays its contents indented to the right of the folder name. To close it, click the check-box again.
 
@@ -131,6 +131,8 @@ The 5th tab in the sidebar, My Home is a shortcut to a specific folder on your s
 
 = My Computer =
 The last tab on the side-bar is a shortcut to the root of your computer's folder tree. You can browse the tree and even use token-search. Quite handy for general purposes.
+
+= Navigation =
 
 {| style="border: 1px solid black;"
 |-
