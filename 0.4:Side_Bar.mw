@@ -106,13 +106,12 @@ http://lmms.sourceforge.net/wiki/images/6/65/Sidebar3-mysamples.png
 | style="color: #000" valign="middle"|
 
 Samples or MySamples as the tab is named, gives you easy access to LMMS samples collection. <br> 
-Samples can be either wave or ogg sound-files. You have smart-search and can update the display. <br> 
-If you place your mouse over a sample-name and left-click it, it will high-light and you can listen to the sample. <br>
-Hold and drag the sample to the song-editor.
-If you double-click on a sample it will be loaded in the Beat-and-bass-editor. <br> 
-If you drag a sample into an existing sample in either of the editors, it will replace that sample. <br> 
-Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. <br> 
-When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
+Samples can be either WAV or OGG sound files. You have smart-search and can update the display. <br> 
+To preview the sample, '''left-click and hold''' on its name. <br>
+Drag the sample to the Song-Editor or the Beat+Bassline-Editor to add it as a new track. When you drag-and-drop a sample into either editor, the new track will be added at the bottom of the track list. You can drag the grip dots on the left end of the track to move the track to where you want it in the track list.
+Double-click the sample to add it to the Beat+Bassline-Editor as a new track. <br> 
+The mouse cursor symbol will show a null sign as you drag if the sample can't be dropped into that window. <br> 
+
 |}
 
 = Presets =
