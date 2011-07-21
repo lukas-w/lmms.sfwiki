@@ -130,7 +130,7 @@ Double-click the preset to add it to the Beat+Bassline-Editor as a new track. <b
 The mouse cursor symbol will show a null sign as you drag if the preset can't be dropped into that window.
 |}
 
-= Home Directory =
+= My Home =
 The 5th tab in the sidebar, MyHome is a shortcut to a specific folder on your system. On Windows systems this corresponds to the %HOMEPATH% folder (i.e. the current user's profile) containing folders such as Desktop, Favorites, MyDocuments, etc.
 
 = My Computer =
