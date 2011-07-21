@@ -75,10 +75,10 @@ Open folders can be smart-searched.
 For this you use the small input-field in the bottom.<br>
 This makes it possible for you to find an item with token search.<br> 
 Just enter a few characters from the items disk-name, and the smart-search in LMMS will filter the items in the folder that is open.<br> 
-Smart-search does ''not'' search subfolders!
+'''Smart-search does ''not'' search subfolders!'''
 
-Right next to the input-field there is an update-button. <br> 
-If you cant find your latest item, press this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
+Next to the input-field there is an update-button. <br> 
+If you can't find your latest item, click this button, all folders are updated and the tree will collapse, so this is also an convenient way to close all open folders.
 |}
 
 Lets take a closer look at the tabs.
