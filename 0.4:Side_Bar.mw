@@ -121,16 +121,13 @@ The mouse cursor symbol will show a null sign as you drag if the sample can't be
 http://lmms.sourceforge.net/wiki/images/1/14/Sidebar4-mypresets.png
 | style="color: #000" valign="middle"|
 
-Presets or MyPresets as the tab is named, gives you easy access to the collection of defined instruments. <br> 
-Presets are saved Instrument-plugins with specific settings that make them sound nice :). <br> 
-You have smart-search and can update the display. But be careful now! <br> 
-You should make it a habit to always save your project before you use pre-listen by placing your mouse over a preset-name. <br> 
-Sometimes this action can crash LMMS. This is particular important if you pre-listen to a VSTige preset! <br> 
-If you want to add the preset to your project, you hold and drag the preset to either-editor. <br>
-If you double-click on a preset it will be loaded in the Beat+Bassline-Editor. <br>
-If you drag a preset into an existing preset in either of the editors, it will replace the previous. <br> 
-Observe the cursor-symbol as you drag a sample. It will show a stopsign if the sample cant be placed in that container. <br> 
-When you drop a sample in either editor, it will be added to the bottom. You can easily change this by dragging the sample to a desired position.
+Presets or MyPresets as the tab is named, gives you easy access to a collection of predefined instruments. <br> 
+Presets are Instrument plugins with specific settings that make them sound nice :). <br> 
+You have smart-search and can update the display. <br> 
+'''''Warning''''': you should make it a habit to save your project '''''before''''' you preview a preset (i.e. before you '''left-click and hold''' on a preset), because sometimes preview can crash LMMS. This is particularly important before previewing a VeSTige preset! <br> 
+Drag the preset to the Song-Editor or the Beat+Bassline-Editor to add it as a new track. If you drag a preset into (i.e. on top of) an existing preset in either of the editors, it will replace the previous preset. Otherwise, when you drag-and-drop a preset into either editor, the new track will be added at the bottom of the track list. You can drag the grip dots on the left end of the track to move the track to where you want it in the track list.  <br> 
+Double-click the preset to add it to the Beat+Bassline-Editor as a new track. <br>
+The mouse cursor symbol will show a null sign as you drag if the preset can't be dropped into that window.
 |}
 
 = Home Directory =
