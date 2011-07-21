@@ -33,7 +33,7 @@ The six buttons in the top row deal with opening and saving files.
 = Window Controls =
 
   
-The 7 buttons in the 2nd row show or hide various workspace windows. When clicked, the action depends on the location of the corresponding window. If the window selected is not at the front of the LMMS window, it is brought to the front. If it is at the front, it is closed. If it is closed, it is opened, and brought to the front. In other words: these are toggle buttons for the workspace windows. The contents of the window are not lost when the window is closed.
+The 7 buttons in the 2nd row show or hide various workspace windows. When clicked, the action depends on the current state of that window. If the window selected is not at the front of the LMMS window, it is brought to the front. If it is at the front, it is closed. If it is closed, it is opened, and brought to the front. In other words: these are toggle buttons for the workspace windows. The contents of the window are not lost when the window is closed.
 
 All GUIs have a context menu icon in the top left corner of its window. Click the icon to open the context menu. The '''Stay On Top''' option keeps that window on top of all other windows. This is especially useful for the FX-mixer, and also for some special tricks it allows you to do while your song is playing [[0.4:Composing in the Piano Roll Editor#Real-Time Edits|real-time editing]].
 
