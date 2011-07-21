@@ -18,17 +18,17 @@ The bottom row has buttons for toggling the different LMMS GUIs.
 
 The six buttons in the top row deal with opening and saving files.
 
-[[file:menubar1-new.png]] The '''New Project''' button creates a new song.  By clicking on the drop-down symbol on the right hand side of the icon, you will get a list of pre-set templates that can be used to fill out your new song with instruments and configure it ready for work.
+[[file:menubar1-new.png]] The '''Create New Project''' button creates a new song.  By clicking on the drop-down symbol on the right hand side of the icon, you will get a list of pre-set templates that can be used to fill out your new song with instruments and configure it ready for work.
 
-[[file:menubar2-template.png]] The '''New-Project-from-Template''' button will allow the use of saved templates for new projects.
+[[file:menubar2-template.png]] The '''Create New Project From Template''' button will allow the use of saved templates for new projects.
 
-[[file:menubar3-open.png]] The '''Open existing Project''' button opens an existing song file in your LMMS Working Directory.
+[[file:menubar3-open.png]] The '''Open Existing Project''' button opens an existing song file in your LMMS Working Directory.
 
 [[file:menubar4-recently.png]] The '''Recently Opened Project''' button lists files that you recently have saved succesfully in LMMS. If you have opend a file and not saved it due to a crash or other similar circumstances, the file will not be in the list.
 
 [[file:menubar5-save.png]] The '''Save Current Project''' button saves the current project. If you have not yet saved the project you will be prompted for a name and location to save it.
 
-[[file:menubar6-export.png]] The '''Export Project''' button is a shortcut to exports of the current project as a WAV or OGG file. You will get the same options for quality as in the menu's Export option.
+[[file:menubar6-export.png]] The '''Export Current Project''' button is a shortcut to exports of the current project as a WAV or OGG file. You will get the same options for quality as in the menu's Export option.
 
 = Window Controls =
 
