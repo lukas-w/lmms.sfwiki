@@ -131,7 +131,7 @@ The mouse cursor symbol will show a null sign as you drag if the preset can't be
 |}
 
 = Home Directory =
-5. tab in the sidebar, MyHome -is shortcuts to specific folders on your system. On win32/386 pc's these are cookies, desktop, favorites, MyDocuments, start, userdata and WINDOWS
+The 5th tab in the sidebar, MyHome is a shortcut to a specific folder on your system. On Windows systems this corresponds to the %HOMEPATH% folder (i.e. the current user's profile) containing folders such as Desktop, Favorites, MyDocuments, etc.
 
 = Root File System =
 The 6. and final tab on the side-bar let you access your complete pc folder structure. You can browse through all folders and even use token-search. This can be quite handy also for general purposes.
