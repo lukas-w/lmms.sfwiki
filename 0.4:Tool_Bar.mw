@@ -33,24 +33,23 @@ The six buttons in the top row deal with opening and saving files.
 = Window Controls =
 
   
-The seven buttons in the second row show or hide various windows.  When clicked, the action depends on the location of the corresponding window.  If the window selected is not at the front of the LMMS window, it is brought to the front.  If it is at the front, it is closed.  If it is closed, it is opened and brought to the front.  -Or in other words : These buttons are toggle-buttons for LMMS's components. The contents of the window do not disappear when the window is closed.
+The 7 buttons in the 2nd row show or hide various workspace windows. When clicked, the action depends on the location of the corresponding window. If the window selected is not at the front of the LMMS window, it is brought to the front. If it is at the front, it is closed. If it is closed, it is opened, and brought to the front. In other words: these are toggle buttons for the workspace windows. The contents of the window are not lost when the window is closed.
 
-All GUIs have a useful feature. If you right-click in the top-mostleft corner, LMMS opens a context menu. The option 'Stay in front' will alow that specific window to overlay all other windows. This is especially useful for the FX-mixer, but also for certain special tricks that will allow you to do [[0.4:Composing in the Piano Roll Editor#Real-Time Edits|real-time editing]] during replay.
+All GUIs have a context menu icon in the top left corner of its window. Click the icon to open the context menu. The '''Stay On Top''' option keeps that window on top of all other windows. This is especially useful for the FX-mixer, and also for some special tricks it allows you to do while your song is playing [[0.4:Composing in the Piano Roll Editor#Real-Time Edits|real-time editing]].
 
 The Toggle buttons are:
 
-[[file:menubar-f5-songeditor.png]] The '''Song-Editor Window''' toggle-button shows or hides the [[0.4:Song Editor|Song Editor]].
+[[file:menubar-f5-songeditor.png]] The '''Song-Editor''' toggle-button shows/hides the [[0.4:Song Editor|Song Editor]].
 
-[[file:menubar-f6-bb-editor.png]] The '''Beat+Bassline Editor Window''' button shows or hides the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]].
+[[file:menubar-f6-bb-editor.png]] The '''Beat+Bassline Editor''' button shows/hides the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]].
 
-[[file:menubar-f7-pianoroll.png]] The '''Piano Roll Editor Window''' button shows or hides the [[0.4:Piano Roll Editor|Piano Roll Editor]].  If you click the toggle-button in an ''empty'' (new) projet, an empty Piano-Roll window will open, and a message will be shown: "Please open a pattern by double-clicking on it" You cannot edit notes in ''this'' window. What LMMS says is that you opened a Piano-roll editor-window, that ''does not link'' to any track! Use the windows-x or the toggle-button to close this orphant-window.
-However - Piano-roll windows that have been opened with a double-click in a piano roll segment (block) will open the Piano-roll-editor window ''linked'' to the track that you clicked in! -and you can ''now'' edit its notes. 
+[[file:menubar-f7-pianoroll.png]] The '''Piano Roll Editor Window''' button shows/hides the [[0.4:Piano Roll Editor|Piano Roll Editor]]. If you click the toggle-button in an ''empty'' (new) project, an empty Piano-Roll window will open, and the message will be shown: "Please open a pattern by double-clicking on it!" You cannot edit in ''this'' window, because you opened a Piano-Roll editor window that ''is not linked'' to any track! You must close this orphaned window. However, Piano-roll windows that you open by double-clicking a block in the Song-Editor (or a segment in the Beat+Baseline Editor) will open the Piano-roll editor window ''linked'' to the track that you clicked in, and you can ''now'' edit its notes. 
 
-[[file:menubar-f8-automation.png]] The '''Automation Window''' button shows or hides the global-song [[0.4:Automation Editor|Automation Editor]] window. Global-song automation is different from track-automation. You get access to global-song-automation by right-clicking a LMMS control, and then choose "Edit song-global automation", in the context-menu. ''This'' action will then open the Automation-editor, and you can create an automation-track that is specific for the controll that you access the context-menu from. There are however no visual 'reminders' from this action. In other words: If you do use  "song-global-automation" you should definately make a note in the project-notes. There are afaik no obvious reason to use "song-global-automation". I would definately recommend using an automation track instead, and name it and place it directly next to the track that it controlls.
+[[file:menubar-f8-automation.png]] The '''Automation Window''' button shows/hides the global-song [[0.4:Automation Editor|Automation Editor]] window. Global-song automation is different from track-automation. You get access to global-song-automation by right-clicking a LMMS control, and then choose "Edit song-global automation", in the context-menu. ''This'' action will then open the Automation-editor, and you can create an automation-track that is specific to that control. Warning: there are no visual 'reminders' that you created this automation. In other words: if you decide to use  "song-global-automation" you should definitely make a note of in the project-notes window. There is (afaik) no obvious reason to use "song-global-automation". It is highly recommended that you use track-automation instead, name it, and place it directly next to the track that it controls.
 
 [[file:menubar-f9-mixer.png]] The '''FX-mixer''' toggle-button shows/hides the FX-mixer.
 
-[[file:menubar-f10-projectnotes.png]] The '''Project Notes''' button shows or hides the [[0.4:Project Notes|Project Notes]] window.
+[[file:menubar-f10-projectnotes.png]] The '''Project Notes''' button shows/hides the [[0.4:Project Notes|Project Notes]] window. These are notes to remind yourself why you did things the way you did them.
 
 [[file:menubar-f11-controller rack.png]] The '''Controller-rack''' toggle-button shows/hides the Controller-rack.
 
