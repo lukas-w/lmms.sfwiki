@@ -116,11 +116,11 @@ You need to monitor the output db, so open the FX-mixer and watch the amplitude.
 
 Only Dubstep uses a fast wobble like the one we have now. Change the '''SPD''' value and listen to the difference. 
 
-Also try the MODULATE ENV-AMOUNT toggle. In the Cutoff sub-tab, the effect is rather subtle, but it's more dramatic in the Volume or Q/Reso tab.
+Also try the '''MODULATE ENV-AMOUNT''' toggle. In the Cutoff sub-tab, the effect is rather subtle, but it's more dramatic in the Volume or Q/Reso sub-tab.
 
 This is pretty much it. You can now try different LFO curve shapes, but the default sine wave will give the smoothest result. 
 
-Envelopes can also be used additively on the RESO and VOL tab, so try that.
+Envelopes can also be used additively (??) on the Volume and Q/Reso sub-tabs, so try that.
 I have used all in my trance-uplifter; watch my video tutorial here:
 
 http://www.youtube.com/watch?v=NBzL1qfbSGg
