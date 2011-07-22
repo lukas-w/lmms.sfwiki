@@ -127,14 +127,18 @@ http://www.youtube.com/watch?v=NBzL1qfbSGg
 
 === The Low Frequency Oscillator ===
 
-Often you may want to have the sound waver or change in a repetitive way.  This is where the low frequency oscillator comes in.  It is called 'low frequency' because it is designed to have cycles of up to two seconds (?) rather than the many hundreds or thousands of cycles per second of an audible sound.  The low frequency oscillator is usually called the LFO for short.
+Sometimes you may want to have the notes waver or change in a repetitive way. This is the purpose of the '''LFO''' (Low Frequency Oscillator). It is called 'low frequency' because it can have single oscillations (cycles) as long as 20 seconds rather than the hundreds or thousands of cycles per second of audible sound waves.
 
-The LFO provided by LMMS allows you to control the value of the volume, cutoff and Q factor targets independently - the LFO for each is shown under the same 'tab' as the envelope for the same target.  Each has four parameters that you can set:
+The LFO in LMMS is available to modify the value of the Volume, Cutoff, and Q/Reso targets independently. The LFO for each is available on the ENV/LFO tab, then select the desired Target sub-tab. The LFO has 4 knobs to the right of the LFO graph:
+* The '''Delay''' is the time period before the oscillation begins.
+* The '''Attack''' or fade-in rate of the oscillator--the rate at which it goes from starting to having full effect.
+* The '''Speed''' of oscillation. This sets the rate of oscillation. It is measured in milliseconds per oscillation--the inverse of frequency (i.e. Hertz). This is because setting the LFO rate in fractions of a Hertz is less accurate than setting it in fractions of a second. Right-click the SPD knob for a context menu where you have the option to synchronize the oscillation speed to the song beat. This is a good feature useful for wobble or Dubstep instruments.
+* The '''Amount''' determines how much the LFO affects the given target. Like the envelope, you can either set the amount control using the knob or you can click on the LFO waveform display to turn it full on or full off.
 
-* The '''delay''' before the oscillator starts.
-* The '''attack''' or fade-in rate of the oscillator - the rate at which it goes from starting to having full effect.
-* The '''speed''' of oscillation.  This is probably the parameter you are most likely to use.  It is measured in milliseconds per oscillation, because often one knows the time taken for a complete cycle rather than the rate in Hertz.  (This is also because the accuracy of setting the LFO in fractions of a Hertz is less than setting it in fractions of a second.)If right-click the knob, LMMS open a context-menu, and you will have the option to beat-synchronize the speed. This is a strong feature and very useful for wobble or dubstep instruments.
-* The '''amount''' that the LFO affects the given target.  Like the envelope, you can either set the amount control manually or click on the waveform display at the left of the LFO to turn it on or off.
+Below the LFO waveform display are 4 waveform shape buttons you can choose from.
+Below the LFO knobs are 2 toggles:
+* Freq x 100 - multiplies the displayed waveform frequency by 100
+* Modulate Env-Amount - causes the LFO to control the AMT parameter of the Envelope of the same target.
 
 == The Arp/Chord tab ==
 
