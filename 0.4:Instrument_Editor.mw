@@ -172,9 +172,9 @@ The MIDI tab looks like this:
 http://lmms.sourceforge.net/wiki/images/d/d6/Tab-midi.png
 | style="color: #000" valign="middle"|
 
-These controls allow you to set which MIDI channels on which the instrument receives and sends MIDI events. Both controls work similarly.
+These controls allow you to set the MIDI channels on which the instrument receives and sends MIDI events. Both controls work similarly.
 * Click the '''Enable MIDI Input''' or '''Enable MIDI Output''' toggle switch (LED light) to enable (or disable) MIDI events.
-* The '''Channel''' setting controls which MIDI channel events will be received or sent on.
+* The '''Channel''' setting controls which MIDI channel the events will be received or sent on.
 * The '''Velocity''' control, when set, clamps all incoming or outgoing notes to a single velocity.
 * The '''Device selector''' button displays a list of the MIDI devices in your system that can act as sources or sinks for MIDI events.
 |}
