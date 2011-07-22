@@ -95,7 +95,7 @@ The types of filter that LMMS offers are:
 * '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesizers.
 * '''2x Lowpass''' - A lowpass filter with twice the Q factor.
 
-Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies (using anything other than a sine wave will do that), and then set the cutoff and Q factor and see how it changes the sound.
+To the right of the filter dropdown menu are 2 knobs where you can set the '''Cutoff''' frequency and the Q/'''Reso'''nance factor for the filter. You can experiment by choosing a plugin that generates multiple frequencies (anything other than a sine wave will do that), and then set the cutoff and Q/Reso factor and see how it changes the sound.
 
 === Filters with Envelopes ===
 
