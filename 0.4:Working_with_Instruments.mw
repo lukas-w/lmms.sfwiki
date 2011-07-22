@@ -119,8 +119,8 @@ Below the LFO knobs are 2 toggles:
 
 To demonstrate an LFO for CUTOFF we add a long note and play it in a loop. We do this so we can hear the effect as we change our settings. ''Warning'': wear headphones or get a divorce lawyer.
 * Open the ENV/LFO tab and go to the CUTOFF sub-tab. We will initially work only in the LFO (lower) section, but often some adjustments are needed in the Envelope (upper) section because of unwanted artifacts that can be fixed with some minor adjustments.
-* All LFO effects take place through a filter, so the first thing is to click to turn on the filter (lamp ON).
-* Choose a filter from the drop-down menu. Try LowPass or 2LowPass.
+* Click to turn on the filter (lamp ON).
+* Choose a filter from the drop-down menu--try LowPass or 2LowPass.
 * Set RESO close to 1.0
 * Start playback of your note in a loop.
 * First we'll mimic the ENV automation. While your note is looping, drag your mouse up and down on the Cutoff knob; you should hear a wau-wau effect. This is what we want to achieve by using an LFO curve.
@@ -140,6 +140,7 @@ Envelopes can also be used additively (??) on the Volume and Q/Reso sub-tabs, so
 I have used all in my trance-uplifter; watch my video tutorial here:
 
 http://www.youtube.com/watch?v=NBzL1qfbSGg
+
 == The Arp/Chord tab ==
 
 The Arp/Chord tab looks like this:
