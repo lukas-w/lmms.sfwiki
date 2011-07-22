@@ -90,12 +90,12 @@ The types of filter that LMMS offers are:
 * '''Lowpass''' - This filter lets low frequencies through.
 * '''Highpass''' - This filter lets high frequencies through.
 * '''Bandpass csg''' and '''Bandpass czpg''' - These filters let only a certain band of frequencies through.
-* '''Notch''' - The inverse of the Bandpass filter, this cuts only a certain frequency band.
+* '''Notch''' - The inverse of the Bandpass filter, this blocks only a certain frequency band.
 * '''Allpass''' - A filter that lets all frequencies through but has the same phase shifts, time delays and resonance properties as other filters.
-* '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesisers.
+* '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesizers.
 * '''2x Lowpass''' - A lowpass filter with twice the Q factor.
 
-Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies - using anything other than a sine wave will do that - and then set the cutoff and Q factor and see how it changes the sound.
+Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies (using anything other than a sine wave will do that), and then set the cutoff and Q factor and see how it changes the sound.
 
 === Filters with Envelopes ===
 
