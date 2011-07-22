@@ -181,37 +181,30 @@ These controls allow you to set the MIDI channels on which the instrument receiv
 
 == Piano Keys ==
 
-At the bottom of the Instrument window is a small section of a piano keyboard. <br> 
-This will display the notes that are playing by greying out the key or keys as they're played. <br> 
-The scroll bar at the bottom of the screen allows you to move up and down (i.e. left and right) the keyboard to see different ranges of notes. <br> 
+At the bottom of the Instrument window is a small section of a piano keyboard. It will display the notes that are playing by greying out the key or keys as they're played. The scroll bar at the bottom of the piano keys allows you to move left and right on the keyboard to see all the keys. <br> 
 
 http://lmms.sourceforge.net/wiki/images/7/77/Plugins-pianokeys.png
 
 === Base note ===
-In addition, the green mark just above the keys shows the 'base note' of the keyboard. <br> 
-Whichever note you select with this orange mark will be played as A4 - i.e. the concert pitch of 440 Hertz. <br> 
-For instance, moving this to A3 will make all the notes played move up by an octave (since A3 is now A4 and so forth). <br> 
-This allows you to adjust an individual instrument to be pitched correctly in relation to all the others. <br>  
-This is mostly unimportant for synthesizers where the A4 note is programmed to be 440Hz. <br> 
-However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch. <br> 
-As an example, if you recorded a saxophone playing a Bb, you would adjust the base note to be Bb; so that the saxophone was played in the same pitch as your other instruments.
+The green square just above the keys shows the ''''base note'''' of the keyboard. You can drag the green square to any note position along the keyboard. Whichever note you select with this green mark will be played as A4 (i.e. the concert pitch of 440 Hertz). For example, moving it to A3 will make all the notes played by this instrument move up by an octave (since A3 is now A4). This allows you to adjust an individual instrument to be pitched correctly in relation to all the others. This is not important for synthesizers where the A4 note is programmed to be 440Hz. However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch. As an example, if you recorded a saxophone playing a Bb, you would adjust the '''base note''' to be Bb, so that the saxophone was played in the same pitch as your other instruments.
 
 
 
 [[File:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
 <br>
 <br>
-'''Keyboard'''
+=== Keyboard ===
 
 When the instrument window is selected, <br> 
 you can use the keyboard of your computer to play notes in a two-octave range. <br>
-In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected. <br> 
+In addition, a MIDI keyboard can be used to send MIDI command to this instrument when it's selected. <br> 
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 = Navigation =
 
 
