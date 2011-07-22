@@ -151,6 +151,7 @@ The Func (Arp/Chord) tab looks like this:
 | width="300px" style="color: #000" valign="top"|
 http://lmms.sourceforge.net/wiki/images/b/b5/Tab-func.png
 | style="color: #000" valign="middle"|
+
 Normally, each 'note down' command plays one note in the instrument. With the Arp/Chord controls, you can change this so that it plays a chord (using the note played as the root note) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously). The Func tab is divided into 2 sections: one for chords and the other for arpeggios. You turn them on by clicking on their title bar and the LED light at the left will turn on.
 
 Both sections have 2 common controls:
