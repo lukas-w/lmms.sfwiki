@@ -152,10 +152,10 @@ Click the '''Add Effect''' button to select a new LADSPA/VST effect to add to th
 * The '''W/D (wet/dry)''' knob sets the ratio between the input signal and the effect signal that combine together to form the output signal.
 * The '''Decay''' control sets the amount of silence that must pass before the effect turns off completely. The advantage to having the effects turned off during silence is that it reduces the amount of CPU time used for processing silence, and thereby reduces the chance of unwanted noise. However, if the effect turns off too soon it may introduce a 'clipped' sound to the effect. For example, with reverb, if the reverb time is longer than the decay time, then the reverb will be suddenly cut off before it has fully died away.
 * The '''Gate''' threshold sets the level of noise below which the instrument will be considered to be silent.  For example, if you have a flanger effect with a very long fade-out (say a ride cymbal), it will be almost inaudible at the tail end of the cymbal. Cutting the effect off a bit early may reduce the CPU requirements and the chance of unwanted effect noise.
-* The '''Controls''' button toggles the display of a separate window that has more controls specific to an effect.
+* The '''Controls''' button toggles the display of a separate window that has additional controls specific to a particular effect.
 |}
 
-Note that some effects may also have ways to set their internal wet/dry level. This may be in the form of a wet/dry knob, but also may be 2 separate knobs to set the level of the wet output and the level of the dry (bypassed) output.
+Note that some effects may also have ways to set their internal wet/dry level. This may be in the form of a wet/dry knob, but also may be 2 separate knobs to set the level of the wet output and the dry (bypassed) output.
 
 Each effect in the Effects Chain list has:
 * An on/off toggle switch (LED light), and
