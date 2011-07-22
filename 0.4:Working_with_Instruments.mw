@@ -126,7 +126,7 @@ To demonstrate an LFO for CUTOFF we add a long note and play it in a loop. We do
 * First we'll mimic the ENV automation. While your note is looping, drag your mouse up and down on the Cutoff knob; you should hear a wau-wau effect. This is what we want to achieve by using an LFO curve.
 * To the right of the LFO graph, set '''AMT''' knob to max (or just click on the LFO graph)--graph's line will turn bright green.
 * To the right of the LFO graph, set '''SPD''' knob to around 0.05
-* Now you have your wobble waii automated!
+* Now you have your wobble automated!
 
 You need to monitor the output db, so open the FX-mixer and watch the amplitude. The instrument should only peak briefly. If it overshoots, try lowering either the general VOL or the RESO.
 
