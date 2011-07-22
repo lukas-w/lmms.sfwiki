@@ -199,11 +199,6 @@ When the instrument window is selected, <br>
 you can use the keyboard of your computer to play notes in a 2-octave range. It starts from Z at C3 and goes horizontally across the bottom 2 rows of the keyboard to M playing B3 (i.e. Z X C V B N M play the natural notes and S D G H J play the sharps and flats). It continues with Q playing C4 and uses the top 2 rows of the keyboard to P playing E5 (i.e. Q W E R T Y U I O P play the natural notes and 2 3 5 6 7 9 0 play the sharps and flats). <br>
 In addition, a MIDI keyboard can be used to send MIDI command to this instrument when it's selected. <br> 
 Furthermore, the Piano Roll window allows you to record notes as if you were playing a piano by using either a computer keyboard or a MIDI keyboard.<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 = Navigation =
 
