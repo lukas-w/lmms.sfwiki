@@ -101,6 +101,24 @@ To the right of the filter dropdown menu are 2 knobs where you can set the '''Cu
 
 In addition, you can modify the static filter (described above) with an envelope. Both the Cutoff and Q/Reso envelopes are separate and independent from each other and the Volume envelope. The envelope will sweep the Cutoff or Q/Reso value from its maximum (or minimum) to the level set by the control (i.e. the knob to the right of the filter drop-down menu). For example, select a low-pass filter with the cutoff control (knob) set to 1000Hz, and shape the Cutoff envelope to sweep this cutoff value in a long attack and long decay. Then, during the note, the effect of the cutoff filter is to start at 14000Hz (the maximum), sweep down to 1000Hz (the control value) during the attack phase, and then sweep back up to 14000Hz (the maximum) during the decay phase. This will make the note sound like it's been damped down (during the attack phase of the cutoff envelope) and then the damping removed (during the decay phase of the cutoff envelope). Another typical use of this is to add a resonance that changes during the note's lifetime. In this case, the Volume and Q/Reso envelopes would be quite similar, so that as the note begins the resonance sweeps down, and then disappears upwards again when the note is released.  
 
+
+
+=== The Low Frequency Oscillator ===
+
+Sometimes you may want to have the notes waver or change in a repetitive way. This is the purpose of the '''LFO''' (Low Frequency Oscillator). It is called 'low frequency' because it can have single oscillations (cycles) as long as 20 seconds rather than the hundreds or thousands of cycles per second of audible sound waves.
+
+The LFO in LMMS is available to modify the value of the Volume, Cutoff, and Q/Reso targets independently. The LFO for each is available on the ENV/LFO tab, then select the desired Target sub-tab. The LFO has 4 knobs to the right of the LFO graph:
+* The '''Delay''' is the time period before the oscillation begins.
+* The '''Attack''' or fade-in rate of the oscillator--the rate at which it goes from starting to having full effect.
+* The '''Speed''' of oscillation. This sets the rate of oscillation. It is measured in milliseconds per oscillation--the inverse of frequency (i.e. Hertz). This is because setting the LFO rate in fractions of a Hertz is less accurate than setting it in fractions of a second. Right-click the SPD knob for a context menu where you have the option to synchronize the oscillation speed to the song beat. This is a good feature useful for wobble or Dubstep instruments.
+* The '''Amount''' determines how much the LFO affects the given target. Like the envelope, you can either set the amount control using the knob or you can click on the LFO waveform display to turn it full on or full off.
+
+Below the LFO waveform display are 4 waveform shape buttons you can choose from.
+
+Below the LFO knobs are 2 toggles:
+* Freq x 100 - multiplies the displayed waveform frequency by 100
+* Modulate Env-Amount - causes the LFO to control the AMT parameter of the Envelope of the same target.
+
 To demonstrate an LFO for CUTOFF we add a long note and play it in a loop. We do this so we can hear the effect as we change our settings. ''Warning'': wear headphones or get a divorce lawyer.
 * Open the ENV/LFO tab and go to the CUTOFF sub-tab. We will initially work only in the LFO (lower) section, but often some adjustments are needed in the Envelope (upper) section because of unwanted artifacts that can be fixed with some minor adjustments.
 * All LFO effects take place through a filter, so the first thing is to click to turn on the filter (lamp ON).
@@ -124,22 +142,6 @@ Envelopes can also be used additively (??) on the Volume and Q/Reso sub-tabs, so
 I have used all in my trance-uplifter; watch my video tutorial here:
 
 http://www.youtube.com/watch?v=NBzL1qfbSGg
-
-=== The Low Frequency Oscillator ===
-
-Sometimes you may want to have the notes waver or change in a repetitive way. This is the purpose of the '''LFO''' (Low Frequency Oscillator). It is called 'low frequency' because it can have single oscillations (cycles) as long as 20 seconds rather than the hundreds or thousands of cycles per second of audible sound waves.
-
-The LFO in LMMS is available to modify the value of the Volume, Cutoff, and Q/Reso targets independently. The LFO for each is available on the ENV/LFO tab, then select the desired Target sub-tab. The LFO has 4 knobs to the right of the LFO graph:
-* The '''Delay''' is the time period before the oscillation begins.
-* The '''Attack''' or fade-in rate of the oscillator--the rate at which it goes from starting to having full effect.
-* The '''Speed''' of oscillation. This sets the rate of oscillation. It is measured in milliseconds per oscillation--the inverse of frequency (i.e. Hertz). This is because setting the LFO rate in fractions of a Hertz is less accurate than setting it in fractions of a second. Right-click the SPD knob for a context menu where you have the option to synchronize the oscillation speed to the song beat. This is a good feature useful for wobble or Dubstep instruments.
-* The '''Amount''' determines how much the LFO affects the given target. Like the envelope, you can either set the amount control using the knob or you can click on the LFO waveform display to turn it full on or full off.
-
-Below the LFO waveform display are 4 waveform shape buttons you can choose from.
-Below the LFO knobs are 2 toggles:
-* Freq x 100 - multiplies the displayed waveform frequency by 100
-* Modulate Env-Amount - causes the LFO to control the AMT parameter of the Envelope of the same target.
-
 == The Arp/Chord tab ==
 
 The Arp/Chord tab looks like this:
