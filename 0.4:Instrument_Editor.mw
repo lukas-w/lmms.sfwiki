@@ -67,23 +67,23 @@ The Env/LFO/Filter section has 3 'sub-tabs' that allow you to adjust 3 separate 
 
 ==== Filters ====
 
-In order to enable the filter, press the '''filter''' title bar and the light at the left will turn on.  When this light is on, the filter is active.  Keep in mind that filtering the sound of an instrument adds a small calculation overhead and can add a slight delay to the sound, so if you're not using the filter then keep it turned off.
+In order to enable the filter, press the '''filter''' title bar and the LED light at the left will turn on. When this light is on, the filter is active. Note that filtering the sound of an instrument adds a small amount of computer calculation time which can add a slight delay to the sound, so if you're not using the filter, keep it turned off.
 
 The types of filter that LMMS offers are:
 
 * '''Lowpass''' - This filter lets low frequencies through.
 * '''Highpass''' - This filter lets high frequencies through.
 * '''Bandpass csg''' and '''Bandpass czpg''' - These filters let only a certain band of frequencies through.
-* '''Notch''' - The inverse of the Bandpass filter, this cuts only a certain frequency band.
+* '''Notch''' - The inverse of the Bandpass filter, this blocks only a certain frequency band.
 * '''Allpass''' - A filter that lets all frequencies through but has the same phase shifts, time delays and resonance properties as other filters.
-* '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesisers.
+* '''Moog''' - A modification to the normal Lowpass filter made popular by Moog synthesizers.
 * '''2x Lowpass''' - A lowpass filter with twice the Q factor.
 
-Each type of filter lets you control the '''cutoff''' frequency and the '''Q/Reso'''nance amount.  You can experiment with this by choosing a plugin that generates multiple frequencies - using anything other than a sine wave will do that - and then set the cutoff and Q factor and see how it changes the sound.
+To the right of the filter dropdown menu are 2 knobs where you can set the '''Cutoff''' frequency and the Q/'''Reso'''nance factor for the filter. You can experiment by choosing a plugin that generates multiple frequencies (anything other than a sine wave will do that), and then set the cutoff and Q/Reso factor and see how it changes the sound.
 
 ''' Filters with Envelopes '''
 
-Filters do not have to be static and unchanged throughout the entire note.  LMMS allows you to control both the cutoff frequency and the Q factor via an envelope.  Nor does this envelope have to be the same as the volume envelope for the note - each parameter can have an independent envelope.  The envelope sets the value from its maximum or minimum to the set control level; for example, if a low-pass filter has the cutoff control set to 1000Hz and an envelope is used to sweep this value up in a long attack and long decay, the value of the control will go from 14000Hz (the maximum) down to 1000Hz and then back up.  This will make the instrument sound like it's been damped down and then the damping removed.
+In addition, you can modify the static filter (described above) with an envelope. Both the Cutoff and Q/Reso envelopes are separate and independent from each other and the Volume envelope. The envelope will sweep the Cutoff or Q/Reso value from its maximum (or minimum) to the level set by the control (i.e. the knob to the right of the filter drop-down menu). For example, select a low-pass filter with the cutoff control (knob) set to 1000Hz, and shape the Cutoff envelope to sweep this cutoff value in a long attack and long decay. Then, during the note, the effect of the cutoff filter is to start at 14000Hz (the maximum), sweep down to 1000Hz (the control value) during the attack phase, and then sweep back up to 14000Hz (the maximum) during the decay phase. This will make the note sound like it's been damped down (during the attack phase of the cutoff envelope) and then the damping removed (during the decay phase of the cutoff envelope). Another typical use of this is to add a resonance that changes during the note's lifetime. In this case, the Volume and Q/Reso envelopes would be quite similar, so that as the note begins the resonance sweeps down, and then disappears upwards again when the note is released.
 
 ==== The LFO ====
 
