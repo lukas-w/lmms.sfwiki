@@ -87,7 +87,7 @@ In addition, you can modify the static filter (described above) with an envelope
 
 ==== The LFO ====
 
-The LFO in LMMS is available to modify the value of the Volume, Cutoff, and Q/Reso targets independently. The LFO for each is available on the ENV/LFO tab, then select the desired Target sub-tab. The LFO has 4 knobs to the right of the LFO graph:
+The LFO (Low Frequency Oscillator) in LMMS is available to modify the value of the Volume, Cutoff, and Q/Reso targets independently. The LFO for each is available on the ENV/LFO tab, then select the desired Target sub-tab. The LFO has 4 knobs to the right of the LFO graph:
 * The '''Delay''' is the time period before the oscillation begins.
 * The '''Attack''' or fade-in rate of the oscillator--the rate at which it goes from starting to having full effect.
 * The '''Speed''' of oscillation. This sets the rate of oscillation. It is measured in milliseconds per oscillation--the inverse of frequency (i.e. Hertz). This is because setting the LFO rate in fractions of a Hertz is less accurate than setting it in fractions of a second. Right-click the SPD knob for a context menu where you have the option to synchronize the oscillation speed to the song beat. This is a good feature useful for wobble or Dubstep instruments.
