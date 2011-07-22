@@ -143,31 +143,34 @@ I have used all in my trance-uplifter; watch my video tutorial here:
 
 http://www.youtube.com/watch?v=NBzL1qfbSGg
 
-== The Arp/Chord tab ==
+== The Func tab ==
 
-The Arp/Chord tab looks like this:
+The Func (Arp/Chord) tab looks like this:
 
 [[Image:Tab-func.png|center]]
 
-Normally, each 'note down' command plays one note in the instrument.  With the Arp/Chord controls, you can change this so that it plays a chord (with the root note being the note played) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously).  To control this, the Arp/Chord tab is divided into two sections, one for chords and the other for arpeggios.  You turn them on by clicking on their title bar and the light at the left will turn on.  By default they will be off but shown; when turned off after this they will 'roll up'.  They will unroll again when turned back on.
+Normally, each 'note down' command plays one note in the instrument. With the Arp/Chord controls, you can change this so that it plays a chord (using the note played as the root note) and/or an arpeggio (i.e. the notes of the chord played one after another rather than simultaneously). The Func tab is divided into 2 sections: one for chords and the other for arpeggios. You turn them on by clicking on their title bar and the LED light at the left will turn on.
 
-Both sections have two common controls - the list of chords that can be played and the range in octaves over which the chord will be played.  Since some chords span more than one octave, some chords or arpeggios will overlap.  The list of chords available is vast, ranging from standard chords through jazz to regional chords and natural modes such as Lydian and Dorian.
+Both sections have 2 common controls:
+* the list of chord types to choose from, and 
+* the range (in octaves) over which the chord will be played.
+Since some chords span more than one octave, some chords or arpeggios will overlap. The list of chords available is vast, ranging from standard chords through jazz to regional chords and natural modes such as Lydian and Dorian.
 
 === Chords ===
 
-The chords section has no other controls than the ones listed above.  When a note down signal is received, that note will be the base for the rest of the chord.  All the notes of the chord will play simultaneously until the note is released.
+The chords section has no other controls than the ones listed above.  When a note down signal is received, that note will be the base for the rest of the chord.  All the notes of the chord will play simultaneously.
 
 === Arpeggios ===
 
-The arpeggios section has a number of extra controls:
+The arpeggios section has several more controls:
 
-* The '''direction''' that the arpeggio is played in can be selected from up, down, both directions (up then down) and random notes from the chord.
-* The '''time''' (in milliseconds) between each note.
-* The '''gate''' time (as a percentage of the note time above).  At 100% gate time, each note will be played for the full time between each note.  At less than this, each note will be cut short and the rest will be filled with silence.  At more than this, each note will overlap the next note and will finish later than the start of the next.
-* The '''mode''' of playing the arpeggio.
-** In '''free''' mode, each note will be start an arpeggio when the note starts.  If a second note is played later, a second arpeggio will start at that (later) time and play independently of the first.
-** In '''sort''' mode, no matter when another note is pressed, the arpeggios will be played in the same order, with only one note being played at any one time.  For example, if the key for C is played with an ascending Major chord arpeggio, the arpeggio of C-E-G will be played repeatedly.  If the key for F is then held down, the arpeggio will play C-E-G-F-A-C one after the other - the arpeggio for C then the arpeggio for F.
-** In '''sync''' mode, any notes held down at the same time will play a chord arpeggio in that interval.  To take the above example, when F was held down the arpeggio would play CF-EA-GC repeatedly - the notes C and F simultaneously, then the notes E and A, then the notes G and C.
+* The '''Direction''' is the scale direction in which the arpeggio is played: up, down, both directions (up then down), and random notes from the chord.
+* The '''Time''' is the time gap (in milliseconds) between each note.
+* The '''Gate''' is time duration that each note is played (as a percentage of the Time knob setting). At 100% gate time, each note will be played for the full time gap (time between each note). At less than 100%, each note will be cut short and the remaining time gap will be silence. At more than 100%, each note will overlap the next note (i.e. will finish after the start of the next note).
+* The '''Mode''' of playing the arpeggio:
+** In '''Free''' mode, the start of each note will trigger an arpeggio to start. If a second note is played later, a second arpeggio will start at that (later) time and play independently of the first.
+** In '''Sort''' mode, no matter when another note is pressed, the arpeggios will be played in the same order, with only one note being played at any one time. For example, if the key for C is played with an ascending Major chord arpeggio, the arpeggio of C-E-G will be played repeatedly.  If the key for F is then held down, the arpeggio will play C-E-G-F-A-C one after the other; the arpeggio for C will be completed before the arpeggio for F is started.
+** In '''Sync''' mode, any notes held down at the same time will play a chord arpeggio in that interval.  Using the 'Sort' example above, when F is held down the arpeggio would now play CF-EA-GC repeatedly - the notes C and F simultaneously, then the notes E and A, then the notes G and C.
 
 == The FX tab ==
 
