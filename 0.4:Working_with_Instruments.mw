@@ -103,10 +103,10 @@ In addition, you can modify the static filter (described above) with an envelope
 
 To demonstrate an LFO for CUTOFF we add a long note and play it in a loop. We do this so we can hear the effect as we change our settings. ''Warning'': wear headphones or get a divorce lawyer.
 * Open the ENV/LFO tab and go to the CUTOFF sub-tab. We will initially work only in the LFO (lower) section, but often some adjustments are needed in the Envelope (upper) section because of unwanted artifacts that can be fixed with some minor adjustments.
-* All LFO effects takes place through a filter, so the first thing is to click to turn on the filter (lamp ON).
+* All LFO effects take place through a filter, so the first thing is to click to turn on the filter (lamp ON).
 * Choose a filter from the drop-down menu. Try LowPass or 2LowPass.
 * Set RESO close to 1.0
-* Start playing your note in a loop.
+* Start playback of your note in a loop.
 * First we'll mimic the ENV automation. While your note is looping, drag your mouse up and down on the Cutoff knob; you should hear a wau-wau effect. This is what we want to achieve by using an LFO curve.
 * To the right of the LFO graph, set '''AMT''' knob to max (or just click on the LFO graph)--graph's line will turn bright green.
 * To the right of the LFO graph, set '''SPD''' knob to around 0.05
