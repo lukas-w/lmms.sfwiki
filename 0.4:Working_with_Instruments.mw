@@ -11,14 +11,14 @@ You can create an instrument in a variety of ways.
 The most common method is to drag a preset of the appropriate type from the relevant section of the [[Side Bar]]. You drop it into the appropriate editor:
 * Use the [[Song Editor]] for non-looping parts of the song (ex: the melody)
 * Use the [[Beat Bassline Editor|Beat + Bassline Editor]] for looping parts of the song (ex: the beat).
-This creates a new track in the song editor or a new drum loop line in the beat + bassline editor.
+This creates a new track in the Song-Editor or a new loop track in the Beat+Bassline Editor.
 
 <center>
 http://img96.imageshack.us/img96/4769/presetsdemo.png
 </center>
 
 
-You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the Song-Editor as above.
+You can also create a new instrument of any type by using the Instrument [[Plugins|Plugin]] section of the Side Bar.  Drag the new instrument into the Song-Editor as shown below.
 <center>
 http://img43.imageshack.us/img43/6226/plugindemo.png
 </center>
