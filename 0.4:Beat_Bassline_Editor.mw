@@ -51,7 +51,7 @@ http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png
 * Left-click the instrument's name to open the Instrument Settings window where you can change the instrument's [[Plugins|plugin]] settings.
 * Drag the stippled handle on the left end of the instrument track to move the track up or down in the track stacking order.
 * Click the '''Actions for this track''' icon to get a menu where you can clone or remove the instrument track.
-* Click the toggle switches (LED lights) to mute/unmute or solo/unsolo an instrument.
+* Click the '''toggle''' switches (the LED lights) to mute/unmute or solo/unsolo an instrument. '''Toggle-mute''' will mute this instrument in all the BB tracks in this project!
 * Drag up or down on a knob to change the Volume or Pan; double-click a knob to get a dialog box where you set the value numerically.
 
 == Step Editor ==
