@@ -17,7 +17,7 @@ http://lmms.sourceforge.net/wiki/images/8/8a/Bb-editor-toolbar.png
 
 '''Play''' & '''Stop''' buttons allow you to play and stop the currently selected Beat/Bassline (BB) track. <br> 
 When '''Play''' is pressed, it will be replaced with a '''Pause''' symbol allowing you to pause the playback rather than stop it entirely. <br> 
-Stop returns the playhead to the first step in the BB track; Pause allows you to continue from the last played step.
+'''Stop''' returns the playhead to the first step in the BB track; '''Pause''' allows you to continue from the last played step.
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/4/4a/Bb-editor-select.png 
