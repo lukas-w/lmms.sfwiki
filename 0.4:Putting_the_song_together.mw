@@ -8,7 +8,7 @@ http://img96.imageshack.us/img96/9158/songeditor.png
 
 = Track types =
 
-The main unit that you work with in the Song Editor is a '''track'''. Each track is a horizontal row in the Song-Editor window. For example, the Song-Editor in the picture above has 4 tracks: an Instrument, a Sample, a Beat/Baseline, and an Automation track; that is the default “New Project” configuration. The left part of the track controls the type of track and the right part (the grid of gray rectangles) displays a timeline of sounds that are going to be produced by that track. There are several different types of tracks, and each type has its own way of working.
+The main unit that you work with in the Song Editor is a '''track'''. Each track is a horizontal row in the Song-Editor window. For example, the Song-Editor in the picture above has 4 tracks: an Instrument, a Sample, a Beat/Bassline, and an Automation track; that is the default “New Project” configuration. The left part of the track controls the type of track and the right part (the grid of gray rectangles) displays a timeline of sounds that are going to be produced by that track. There are several different types of tracks, and each type has its own way of working.
 
 == Sample Tracks ==
 Typically, '''Sample''' tracks are used for playback of a sound file recordings. Use a Sample track when you want to playback a sound file ''exactly'' as it was recorded. This allows you to have live musicians alongside the music you compose within LMMS. Currently, however, there are no tools to trim the start of the sample, tune it, or scale it to fit within the bars of your music. These tasks should be done beforehand in an audio editing program such as Audacity. Sample tracks are the simplest type of track because they only have a volume control and an effects chain.
@@ -20,7 +20,7 @@ The AudioFileProcessor plugin is also a container for samples, but the AudioFile
 Beat/Bassline Tracks (BB tracks) are different from the other Song-Editor tracks, because their notes (i.e. beats) are created in the Beat+Baseline Editor, and only a representation of the track is shown in the Song-Editor (appear as a blue blocks instead of black blocks). Therefore, you can see only the timeline blocks for a BB track in the Song-Editor. If you need to change something in the track, you must do it in the Beat+Baseline Editor, where the track's notes (beats) are defined. The benefit of BB tracks is that they are continuous (i.e. they loop continuously). In the Song-Editor, a BB track can be dragged to any time length and the notes (beats) will be repeated. BB tracks are used mostly for percussion and repeated basslines. You can, however, play instruments in these tracks--just remember that BB tracks will loop. BB tracks have a few idiosyncrasies to watch out for: see [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
 
 == Instrument Tracks ==
--Are the standard component for your compositions melodies. They are filled with black blocks that can be moved freely horizontally and copied both vertically and horizontally (Ctrl+left-mouse), but they cant be dragged to new length. 
+-Are the standard component for your compositions melodies. They are filled with black blocks that can be moved freely horizontally and copied both vertically and horizontally (Ctrl+left-mouse), but they cant be dragged to new length.
 
 = Navigation =
 
