@@ -47,12 +47,12 @@ The '''Track Settings''' are on the left side and the '''Step Editor''' is on th
 http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png
 <!--{\end{center}}-->
 
-The Track Settings are similar to the [[0.4:Song Editor|Song Editor]]'s [[0.4:Song Editor#The Track Settings bar|track settings]] bar. <br>
-Left-click the instrument's name to open the Instrument Settings window where you can change the instrument's [[Plugins|plugin]] settings. <br> 
-Drag the stippled handle on the left end of the instrument track to move the track up or down in the track stacking order. <br>
-Click the '''Actions for this track''' icon to get a menu where you can clone or remove the instrument track. <br>
-Click the toggle switches (LED lights) to mute/unmute or solo/unsolo an instrument. <br>
-Drag up or down on the knobs to change the Volume or Pan.
+* The Track Settings are similar to the [[0.4:Song Editor|Song Editor]]'s [[0.4:Song Editor#The Track Settings bar|track settings]] bar.
+* Left-click the instrument's name to open the Instrument Settings window where you can change the instrument's [[Plugins|plugin]] settings.
+* Drag the stippled handle on the left end of the instrument track to move the track up or down in the track stacking order.
+* Click the '''Actions for this track''' icon to get a menu where you can clone or remove the instrument track.
+* Click the toggle switches (LED lights) to mute/unmute or solo/unsolo an instrument.
+* Drag up or down on the knobs to change the Volume or Pan.
 
 == Step Editor ==
 
