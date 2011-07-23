@@ -72,7 +72,7 @@ http://lmms.sourceforge.net/wiki/images/6/69/Contextmenu-in-bb-editor.png
 
 * '''Open in piano-roll''' allows you to edit the notes of a pattern in the [[0.4:Piano Roll Editor|Piano Roll Editor]] rather than just as steps. This allows you to place notes with more than 1/16th precision, and to vary the pitch, length, and volume of the notes (steps).
 * '''Copy''' & '''Paste''' allow you to copy a set of steps from one track to another by copying the original track's steps, right-clicking on the new track and choosing Paste.
-* '''Mute/Unmute''' allows you to quickly mute or unmute the entire instrument in all patterns.
+* '''Mute/Unmute''' allows you to mute/unmute the instrument in this BB track only. Unlike the mute/unmute track toggle (LED light), this method of muting does not affect the same instrument in other BB tracks in the same project.
 * '''Clear all notes''' allows you to quickly erase all the steps in this track.
 * '''Change Name''' allow you to change the name of this track from the default (i.e. the instrument plugin or sample you loaded). '''Reset Name''' resets it back to this default.
 * '''Freeze''' allows you to pre-render the sound of this track. This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time. While the track is frozen, changes to it do not take effect. You can thaw a track while playing, but can only refreeze it when playback is stopped.
