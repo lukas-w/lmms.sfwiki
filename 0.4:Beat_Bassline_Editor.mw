@@ -64,9 +64,7 @@ By default, an instrument track has 16 steps (16 gray tombstones)--4 steps to ea
 Each step is a button that can be turned on and off. You can also hover your mouse over a step and raise or lower its volume by rolling your mouse scroll wheel up or down. The step is bright green at full volume, gray at zero volume, and an intermediate brightness of green at intermediate volumes.<br> 
 When a step is turned on, the sound from the instrument will play at that step in the bar. <br> 
 The 4 steps in each beat group are shaded alternately light and dark gray to make them easier to pick quickly. <br> 
-Right-clicking on the steps for a track gives you a context menu for that track:
-
-= Context Menu =
+Right-clicking on a step for a track gives you the context menu below for that track:
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/6/69/Contextmenu-in-bb-editor.png
@@ -75,26 +73,23 @@ http://lmms.sourceforge.net/wiki/images/6/69/Contextmenu-in-bb-editor.png
 '''Open in piano-roll''' allows you to edit the notes of a pattern in the [[0.4:Piano Roll Editor|Piano Roll Editor]] rather than just as steps. <br> 
 This allows you to place notes with more than 1/16th precision, and to vary the pitch, length and volume of the notes.
 
-'''Copy''' & '''Paste''' allow you to copy a set of steps from one track to another, by copying the original track's steps, right-clicking on the new track and choosing Paste.
+'''Copy''' & '''Paste''' allow you to copy a set of steps from one track to another by copying the original track's steps, right-clicking on the new track and choosing Paste.
 
 '''Mute/Unmute''' allows you to quickly mute or unmute the entire instrument in all patterns.
 
-'''Clear all notes''' allows you to quickly erase the steps in this track.
+'''Clear all notes''' allows you to quickly erase all the steps in this track.
 
-'''Change Name''' allow you to change the name of this track from its default of the instrument plugin or sample you loaded.  '''Reset Name''' resets it back to this default.
+'''Change Name''' allow you to change the name of this track from the default (i.e. the instrument plugin or sample you loaded). '''Reset Name''' resets it back to this default.
 
 '''Freeze''' allows you to pre-render the sound of this track. <br> 
-This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time each time. <br> 
+This requires much less CPU time to render the sound of the track compared to playing the same sounds in real time. <br> 
 While the track is frozen, changes to it do not take effect. <br> 
 You can thaw a track while playing, but can only refreeze it when playback is stopped.
 
 '''Add steps''' & '''Remove steps''' allow you to add steps to or remove steps from the bar. <br> 
-It is possible to add steps to and remove steps from the step display. <br> 
-This simply adds an extra bar (or more) and puts steps in that, <br>
-so it does not change the tempo of the beats currently in the track or the duration of each step. <br> 
-You cannot remove steps so that there would be less than sixteen steps. <br> 
-Though it is possible to add or remove steps in increments of one, two, four, eight or sixteen, <br>
-it makes little sense to add less than sixteen at a time.
+This will add an extra bar (or more) and puts steps in that bar. It does not change the tempo of the beats or the duration of each step. Although it is possible to add or remove steps in increments of 1, 2, 4, 8 or 16, it makes little sense to add less than 16 at a time.<br> 
+You cannot decrease the total number of steps to less than 16. <br> 
+
 
 = Navigation =
 
