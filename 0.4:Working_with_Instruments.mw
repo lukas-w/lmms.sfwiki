@@ -70,7 +70,7 @@ The Env/LFO/Filter tab looks like this:
 [[Image:Tab-env-lfo.png|center]]
 
 === Envelope basics ===
-''Note: the first thing that must be emphasized is that no VeSTige instrument will respond to anything on this tab! You can't use envelopes or filters, because VST generates sounds using an internal method that excludes LMMS's envelopes completely. In the plugin collection that comes with LMMS by default, only ZynAddSubFX is a VST plugin and, therefore, can't use the ENV/LFO tab.''
+''Note: the first thing that must be emphasized is that no VeSTige instrument will respond to anything on this tab! You can't use envelopes or filters, because VST generates sounds using an internal method that excludes LMMS's envelopes completely. In the default plugin collection that comes with LMMS, only '''ZynAddSubFX''' is a VST plugin and, therefore, can't use the ENV/LFO tab.''
 
 The volume '''Envelope''' of an instrument controls the volume of a note over its lifespan--i.e. from the moment the note begins until it ends. The envelope starts when the note begins in the Piano Roll (which corresponds to pressing a real key on a piano), and ends when the volume of the note returns to zero (silence) which is usually sometime after the end of the note in the Piano Roll (which corresponds to releasing a real key on a piano).
 
