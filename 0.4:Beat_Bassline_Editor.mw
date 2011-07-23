@@ -60,10 +60,10 @@ Drag up or down on the knobs to change the Volume or Pan.
 http://lmms.sourceforge.net/wiki/images/d/df/Bb-editor-stepeditor.png
 <!--{\end{center}}-->
 
-To the right are shown sixteen steps, four to each beat in a four-beat bar. <br> 
-Each step is a button that can be turned on and off. <br> 
+By default, an instrument track has 16 steps (16 gray tombstones)--4 steps to each beat in a 4-beat bar. <br> 
+Each step is a button that can be turned on and off. You can also hover your mouse over a step and raise or lower its volume by rolling your mouse scroll wheel up or down. The step is bright green at full volume, gray at zero volume, and an intermediate brightness of green at intermediate volumes.<br> 
 When a step is turned on, the sound from the instrument will play at that step in the bar. <br> 
-The four steps in each beats are shaded alternately light and dark to make them easier to pick quickly. <br> 
+The 4 steps in each beat group are shaded alternately light and dark gray to make them easier to pick quickly. <br> 
 Right-clicking on the steps for a track gives you a context menu for that track:
 
 = Context Menu =
