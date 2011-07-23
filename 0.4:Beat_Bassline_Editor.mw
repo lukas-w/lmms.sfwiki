@@ -39,17 +39,21 @@ Each instrument added to the Beat + Bassline Editor is listed in a bar looking l
 http://lmms.sourceforge.net/wiki/images/1/17/Bb-editor-trackbar.png
 <!--{\end{center}}-->
 
-The '''instrument settings''' on the left side and than the '''step editor''' to the right. 
+The '''Track Settings''' are on the left side and the '''Step Editor''' is on the right (the gray tombstones).
 
-== Instrument Settings ==
+== Track Settings ==
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png
 <!--{\end{center}}-->
 
-The instrument settings are very similar to the [[0.4:Song Editor|Song Editor]]'s [[0.4:Song Editor#The Track Settings bar|track settings]] bar. <br> 
-This gives you a way to move the instrument up and down in the order, <br>
-clone or remove the instrument, change or automate the volume, and set the instrument's [[Plugins|plugin]] settings.
+The Track Settings are similar to the [[0.4:Song Editor|Song Editor]]'s [[0.4:Song Editor#The Track Settings bar|track settings]] bar. <br>
+Left-click the instrument's name to open the Instrument Settings window where you can change the instrument's [[Plugins|plugin]] settings. <br> 
+Drag the stippled handle on the left end of the instrument track to move the track up or down in the track stacking order. <br>
+Click the '''Actions for this track''' icon to get a menu where you can clone or remove the instrument track. <br>
+Click the toggle switches (LED lights) to mute/unmute or solo/unsolo an instrument. <br>
+Drag up or down on the knobs to change the Volume or Pan. <br>
+
 
 == Step Editor ==
 
