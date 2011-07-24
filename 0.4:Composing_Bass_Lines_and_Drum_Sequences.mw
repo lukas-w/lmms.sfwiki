@@ -50,7 +50,7 @@ Ultimately, like so many artistic things, it is better to use the methods you ar
 
 Naturally, the patterns by themselves do not create rhythms in your songs.  Using the editing tools in the [[0.4:Song Editor|Song Editor]], you 'draw' new areas for the rhythm to be active at any time in your song. You can also have a pattern that goes for a fraction of a bar (using Ctrl-drag); however, you cannot shrink a pattern to be less than 1 bar in length.
 
-= More than one bar? =
+= Multi-bar Rhythms =
 
 Sometimes you may want a rhythm that is 2 bars long or a rhythm that repeats not every bar, but every 2 bars. One way to handle this is to create 2 patterns (rhythm #1 and rhythm #2) and alternate their use in the Song Editor. Another way is to create a single rhythm that is more than 1 bar long; right-click on a step icon, select '''Add Steps''', and choose the number of steps you want to add. This will allow you to increase the number of steps that ''this specific pattern'' requires. Instruments that are not configured to have this many steps will repeat every bar. You can likewise remove steps using the '''Remove Steps''' submenu if you change your mind.
 
