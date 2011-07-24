@@ -62,7 +62,7 @@ The Beat + Bassline Editor can also be used to play instruments, not just drum s
 
 When you turn on a step button for a particular instrument, the instrument sample will play its [[0.4:Working with Instruments#Base note|base note]].  However, you may want a repetitive bassline that does not play the same note all the time. To change the note, right-click on a step button and select '''Open in piano-roll'''.  The [[0.4:Piano Roll Editor|Piano Roll Editor]] will open and display the notes for that instrument. This pattern, too, can be any length (not just a single bar).
 
-Adding or modifying notes in the Piano Roll is also useful for times when you need more notes, or when you need more accuracy in time placement than the sixteen steps per bar that the Beat + Bassline Editor gives you. You can also modify the volume of each note.
+Adding or modifying notes in the Piano Roll is also useful for situations when you need more notes, or when you need more accuracy in time placement than the sixteen steps per bar that the Beat + Bassline Editor gives you. You can also modify the volume of each note.
 
 = Navigation =
 
