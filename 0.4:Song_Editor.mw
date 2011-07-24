@@ -6,10 +6,9 @@ The Song Editor displays the structure of the song.
 http://lmms.sourceforge.net/wiki/images/9/9c/Song-editor.png
 <!--{\end{center}}-->
 
-Down the left-hand side of the window are listed the instrument and beat/bassline tracks available; <br>
-on the right of these is listed the activity of each track at each bar in the song. <br> 
-The scroll bars at the right and bottom of the window allow you to move the segment view around. <br> 
-You can also hold down '''shift''' and use the mouse wheel to scroll horizontally.
+* The left side of the window displays the instrument and beat/bassline tracks.
+* The right side of the window displays the activity of each track at each bar in the song.
+* The scroll bars at the right and bottom of the window allow you to move the segment view around. Use Shift+mouse-wheel to scroll horizontally.
 
 = Working with Elements =
 
@@ -17,33 +16,31 @@ Anatomy of a track:
 
 Each track's activity is divided into '''elements'''. <br> 
 http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png
-For '''instrument tracks''', these display a miniature piano roll. <br> 
-Double-clicking on it, the [[0.4:Piano Roll Editor|Piano Roll Editor]] window will open and the notes in that element will be displayed for editing. 
+For '''Instrument Tracks''', the display is a miniature piano roll. <br> 
+Double-clicking on it will open the [[0.4:Piano Roll Editor|Piano Roll Editor]] window where you can add, delete, or modify individual notes.
 
 http://lmms.sourceforge.net/wiki/images/e/ed/Pattern-sampletrack.png
-For '''sample tracks''' it displays a miniature wave display of the sample. <br> 
-Double-clicking on it, a file open dialog will display allowing you to choose a new sample for that element.
+For '''Sample Tracks''', the display is a miniature waveform of the sample. <br> 
+Double-clicking on it will open a File-Open dialog where you can choose a new sample for that element.
 
 http://lmms.sourceforge.net/wiki/images/3/3d/Pattern-beatbassline.png
-For '''beat + basslines''' this is simply a block showing that the beat/bassline is active.
-It displayes a filled (shaded) coloured bar for the length of the beat or bassline. <br>
-Double-clicking on it, the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] window will open and that beat/bassline will be displayed.
+For '''Beat/Bassline Tracks''', the display is simply a blue block showing that the beat/bassline is active. <br>
+Double-clicking on it will open the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] window where you can add, delete, or modify individual notes (beats).
 
-To '''create a new element''', simply left-click on the track activity inside the bar in which you want the segment to start. <br> 
+To '''create a new element''', left-click in the track activity area within the bar in which you want the block to start. <br> 
 For instrument and sample tracks, this creates a blank area to put notes or samples in. <br> 
-For beat/bassline tracks, this creates one bar filled with the beat/bassline as programmed.
+For beat/bassline tracks, this creates 1 (or more) bars filled with that particular Beat/Bassline as composed.
 
-To '''move an element''', simply drag it around by clicking and holding anywhere inside the segment. <br> 
-Normally this will lock to the start of the bar, but you can free drag (with a 1/64th resolution) the segment by pressing the ''control'' key down ''once you have started dragging''.
+To '''move an element''', drag it by clicking and holding the block. <br> 
+As it's dragged, the block will snap to the start of any bar, but you can free drag (with a 1/64th resolution) by holding down the Ctrl key after dragging has begun (Ctrl+drag before dragging has begun initiates the "copy" procedure).
 
-To '''copy an element''', simply hold the ''control'' key down ''before you click'' and then drag the segment to its copies' new location. <br> 
-You can also right-click on the segment, choose ''copy'' from the context menu, <br> 
-click to create a new sample where you want the copy to go, right click and choose ''paste'' from the menu. <br> 
-You can't copy segments of one type to tracks of another type, however. <br> 
-To copy more than once, the control key has to be released and re-pressed before the next drag operation.
+To '''copy an element''', hold the Ctrl key down before you begin dragging and then drag the copy to its new location. <br> 
+You can also right-click on the block, select ''copy'', left-click to create an empty block where you want the copy to go, right-click and select ''paste''. <br> 
+You can't copy segments of one type to tracks of a different type. <br> 
+To copy again, the control key has to be released and re-pressed before the next drag operation.
 
-To '''delete an element''', click on it using the middle mouse button or right-click on it and choose 'delete' from the context menu. <br> 
-Double-clicking on an element aims to '''edit the element's contents'''. 
+To '''delete an element''', click it using the middle mouse button or right-click on it and select ''delete''. <br> 
+Double-clicking on a block means to '''edit the element's contents'''. 
 
 
 == Editing Tools ==
