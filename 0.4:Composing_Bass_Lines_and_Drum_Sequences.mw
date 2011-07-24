@@ -52,11 +52,9 @@ Naturally, the patterns by themselves do not create rhythms in your songs.  Usin
 
 = More than one bar? =
 
-Sometimes you have a rhythm that that is two bars long; or one that repeats not every bar, but every two bars.  Sometimes it might make sense to create two patterns ('rhythm 1' and 'rhythm 2', for example) and alternate their use in the Song Editor.  However, LMMS caters specifically for this by allowing you to create patterns that are more than one bar long.
+Sometimes you may want a rhythm that is 2 bars long or a rhythm that repeats not every bar, but every 2 bars. One way to handle this is to create 2 patterns (rhythm #1 and rhythm #2) and alternate their use in the Song Editor. Another way is to create a single rhythm that is more than 1 bar long; right-click on a step icon, select '''Add Steps''', and choose the number of steps you want to add. This will allow you to increase the number of steps that ''this specific pattern'' requires. Instruments that are not configured to have this many steps will repeat every bar. You can likewise remove steps using the '''Remove Steps''' submenu if you change your mind.
 
-Simply right-click on the pattern buttons and choose the number of bars you want to add in the '''Add Steps''' submenu of the pattern's context menu.  This will allow you to increase the number of bars that ''this specific pattern'' takes.  Instruments that are not set to have this many steps will repeat every bar.  You can likewise remove steps using the '''Remove Steps''' submenu if you've changed your mind.
-
-When adding a new pattern that is more than one bar long in the Song Editor, the initial pattern 'block' size will the same number of bars as the pattern.  However, once created, you can shrink or enlarge this in multiples of a single bar, thus allowing you to cut a multiple-bar pattern in mid-pattern.  The 'repeat' marks in these bars will be displayed at multiples of the pattern length, for easy identification.
+When you activate a pattern that is more than 1 bar long in the Song-Editor, the initial pattern 'block' size will have the same number of bars as the pattern. However, once present, you can drag the right end of the block to shrink or enlarge it in multiples of a single bar, thus allowing you to end a multi-bar pattern in mid-pattern.  The 'repeat' tick marks within these bars will display at multiples of the actual pattern length, for easy identification.
 
 = Not just the same note? =
 
