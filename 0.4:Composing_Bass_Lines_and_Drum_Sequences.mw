@@ -22,32 +22,29 @@ You have have now created the first of what may be many separate patterns in you
 
 = Philosophies of pattern design =
 
-There are several schools of thought to pattern design, usually stemming from the kind of software one has used previously.  To illustrate the differences, imagine a typical 4/4 'trance' rhythm (the 'oontz-oontz-oontz-oontz' style: kick-snare-kick-snare-kick-snare-kick-snare) and a variation on that style with two snare hits instead of one at the end of the bar.
+There are several schools of thought to pattern design, usually stemming from the kind of software one has used previously.  To illustrate the differences, imagine a typical 4/4 'trance' rhythm (the 'oontz-oontz-oontz-oontz' style: kick-snare-kick-snare-kick-snare-kick-snare) and a variation on that style with 2 snare hits instead of one at the end of the bar.
 
-== One pattern per bar structure ==
+== Plan A. One pattern per bar ==
 
-This is probably the most common style of pattern in use.  Each separate pattern includes beats for all the instruments it uses.  In our example, you would have one pattern containing the kick-snare-kick-snare-kick-snare-kick-snare and one containing the kick-snare-kick-snare-kick-snare-kick-snare''snare''.
+This means having a single Beat/Bassline track active for a particular bar in the Song-Editor. This is probably the most common style of use. Each separate pattern includes beats for all the instruments it uses. In our trance rhythm example, you would have pattern #1 containing the kick-snare-kick-snare-kick-snare-kick-snare and pattern #2 containing the kick-snare-kick-snare-kick-snare-kick-snare-''snare''. You would trigger the 2 separate Beat/Bassline tracks alternately in the Song-Editor, never simultaneously.
 
-== Pattern and variations ==
+== Plan B. Pattern and variations ==
 
-Once again we have two patterns in our example.  The key change here is that the variation pattern ''only'' includes the snare hit on the last sixteenth of the bar.  In order to get the complete variation pattern, we sequence both the rhythm and the variation ''together'' in the Song Editor.
+A different way to do the same thing is to again have 2 patterns in our example. The difference here is that the variation pattern (pattern #2) is totally silent except for a single snare hit on the last step (1/16) of the bar. In other words, pattern #2 only plays the notes that vary from pattern #1. In order to hear the complete variation pattern, you trigger both the main rhythm (pattern #1) and the variation (pattern #2) simultaneously in the Song-Editor. In other words, you have 2 Beat/Bassline tracks playing in those Song-Editor bars where you want the variation to play.
 
-== One pattern per instrument ==
+== Plan C. One pattern per instrument ==
 
-We now change our philosophy significantly by having three separate patterns.  One contains just the kick drum, common to both the rhythm and variation.  The second contains just the snare drum for the rhythm, and the third contains just the snare for the variation.  Once again, in order to get the complete effect you sequence the tracks together in the Song Editor.
+We now change our philosophy significantly by having 3 separate patterns. The first pattern (pattern #1) triggers just the kick drum, common to both the rhythm and variation.  The second (pattern #2) contains just the snare drum for the rhythm, and the third (pattern #3) contains just the snare for the variation.  Once again, you sequence the tracks together in the Song-Editor, so that the appropriate Beat/Bassline tracks play simultaneously in the appropriate bars, in order to get the complete effect.
 
 == Which is best? ==
 
-There are advantages and disadvantages to each of the above approaches:
+There are advantages and disadvantages to each of the approaches above:
 
-* The first makes logical sense considered from a musical notation point of view, and is often easier to see the integration of all the instruments in the rhythm.  For instance, you will get a clearer picture of whether two instruments play on the same sixteenth using this method.
-* However, the first means that you have to reprogram the entire rhythm for each minor variation.  It is often much quicker to simply program that second pattern to contain only the notes that vary.  On the other hand, this does not allow you to take out notes that are already in the 'base' pattern.
-* This might logically suggest that a further break-down into common sections and their variations.
-* The 'one instrument per pattern' method is the logical extension of this.  While it is often harder to compose the instruments individually, it is easy to combine them in new and novel ways in the Song Editor.
-* Adding more tracks to separate out these individual differences, however, may make the rhythm tracks harder to manage and combine together.
-* On the other hand, it often feels tiring to create yet another drum track for another slight variation in the rhythm, even when this might sound significantly better.  The temptation to reuse what is already there even if it sounds boring is one of the great causes of songs sounding dispirited and ordinary.
+* Plan A makes logical sense considered from a musical notation point of view, and it's easier to see the integration of all the instruments in the rhythm. For example, you get a clearer picture of whether 2 instruments play in the same sixteenth using this method.
+* However, Plan A means that you have to re-compose the entire rhythm for each minor variation.  It is quicker to simply compose the variation pattern to contain only the notes that vary (i.e. Plan B). On the other hand, Plan B does not allow you to '''''remove''''' notes that are already in the 'base' pattern--you can only add notes to the 'base' pattern. Logically, this might suggest that you further breakdown the composition into common sections and their variations.
+* Plan C is the logical extension of this. While it is harder to compose the instruments individually, it is easier to combine them in new and novel ways within the Song-Editor. However, creating more tracks in order to separate out these individual differences may make the rhythm tracks harder to manage and combine together. On the other hand, it's tiring to create yet another drum track for another slight variation in the rhythm, even when this might sound significantly better. The temptation to reuse what is already there even if it sounds boring is one of the great causes of songs sounding dispirited and ordinary.
 
-Ultimately, like so many things in the artistic world it is better to use the methods you are familiar with than to struggle with a way that someone else considers 'correct'.  For beginners I would recommend starting with the first or second methods until you have established a clear preference.  It is also very useful to pick and choose from the methods here as the situation dictates.
+Ultimately, like so many things in the artistic world it is better to use the methods you are familiar with than to struggle with a way that someone else considers 'correct'. For beginners, I recommend starting with Plan A or B until you have established a clear preference. It is also useful to pick and choose from these based on the situation.
 
 = Putting patterns into your song =
 
