@@ -26,7 +26,7 @@ There are several schools of thought to pattern design, usually stemming from th
 
 == Plan A. One pattern per bar ==
 
-This means having a single Beat/Bassline track active for a particular bar in the Song-Editor. This is probably the most common style of use. Each separate pattern includes beats for all the instruments it uses. In our trance rhythm example, you would have pattern #1 containing the kick-snare-kick-snare-kick-snare-kick-snare and pattern #2 containing the kick-snare-kick-snare-kick-snare-kick-snare-''snare''. You would trigger the 2 separate Beat/Bassline tracks alternately in the Song-Editor, never simultaneously.
+This means having a single Beat/Bassline track active for a particular bar in the Song-Editor. This is probably the most common style. Each separate pattern includes beats for all the instruments it uses. In our trance rhythm example, you would have pattern #1 containing the kick-snare-kick-snare-kick-snare-kick-snare and pattern #2 containing the kick-snare-kick-snare-kick-snare-kick-snare-''snare''. You would trigger the 2 separate Beat/Bassline tracks alternately in the Song-Editor, never simultaneously.
 
 == Plan B. Pattern and variations ==
 
