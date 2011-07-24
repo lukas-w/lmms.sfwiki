@@ -20,7 +20,10 @@ The '''AudioFileProcessor''' plugin is also a container for samples, but the Aud
 Beat/Bassline Tracks (BB tracks) are different from the other Song-Editor tracks, because their notes (i.e. beats) are created in the Beat+Bassline Editor, and only a representation of the track is shown in the Song-Editor (appear as a blue blocks instead of black blocks). Therefore, you can see only the timeline blocks for a BB track in the Song-Editor. If you need to change something in the track, you must do it in the Beat+Bassline Editor, where the track's notes (beats) are defined. The benefit of BB tracks is that they are continuous (i.e. they loop continuously). In the Song-Editor, a BB track can be dragged to any time length and the notes (beats) will be repeated. BB tracks are used mostly for percussion and repeated basslines. You can, however, play instruments in these tracks--just remember that BB tracks will loop. BB tracks have a few idiosyncrasies to watch out for: see [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]
 
 == Instrument Tracks ==
--Are the standard component for your compositions melodies. They are filled with black blocks that can be moved freely horizontally and copied both vertically and horizontally (Ctrl+left-mouse), but they cant be dragged to new length.
+Instrument tracks are the standard components for composing melodies. They are represented in the Song-Editor by black blocks that:
+* can be moved horizontally,
+* can be copied either vertically or horizontally (Ctrl+drag)
+* cannot be dragged to new length
 
 = Navigation =
 
