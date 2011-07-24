@@ -56,13 +56,13 @@ Sometimes you may want a rhythm that is 2 bars long or a rhythm that repeats not
 
 When you activate a pattern that is more than 1 bar long in the Song-Editor, the initial pattern 'block' size will have the same number of bars as the pattern. However, once present, you can drag the right end of the block to shrink or enlarge it in multiples of a single bar, thus allowing you to end a multi-bar pattern in mid-pattern.  The 'repeat' tick marks within these bars will display at multiples of the actual pattern length, for easy identification.
 
-= Not just the same note? =
+= Modifying Notes =
 
 The Beat + Bassline Editor can also be used to play instruments, not just drum samples.  This is where the word 'bassline' in the title comes from - it is commonly used to play the repetitive notes of a typical bassline in electronic music.  This saves a lot of the copy and paste process that would be required if you were composing for the instrument directly in a track of the Song Editor.
 
-Using the standard pattern buttons as above, the sample will play its [[0.4:Working with Instruments#Base note|base note]].  However, sometimes you will have a repetitive bassline that does not play the same note all the time.  In this situation, right-click on the pattern buttons and choose '''Open in piano-roll'''.  This will open the [[0.4:Piano Roll Editor|Piano Roll Editor]] with a new pattern.  This pattern, too, can be any length (not just a single bar).
+When you turn on a step button for a particular instrument, the instrument sample will play its [[0.4:Working with Instruments#Base note|base note]].  However, you may want a repetitive bassline that does not play the same note all the time. To change the note, right-click on a step button and select '''Open in piano-roll'''.  The [[0.4:Piano Roll Editor|Piano Roll Editor]] will open and display the notes for that instrument. This pattern, too, can be any length (not just a single bar).
 
-Putting notes in a piano roll is also useful for times when you need more notes, or more accuracy in placement, than the sixteen steps per bar of the Beat + Bassline Editor can give you.  It also allows you to vary the volume of each note.
+Adding or modifying notes in the Piano Roll is also useful for times when you need more notes, or when you need more accuracy in time placement than the sixteen steps per bar that the Beat + Bassline Editor gives you. You can also modify the volume of each note.
 
 = Navigation =
 
