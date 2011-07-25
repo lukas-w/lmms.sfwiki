@@ -86,7 +86,7 @@ During playback, the '''Pause''' button icon replaces the Play button icon. It w
 http://lmms.sourceforge.net/wiki/images/2/2d/Button-stop.png
 The '''Stop''' button (or keyboard spacebar) stops playback (or a paused playback), and returns the playhead to the location defined by the Return Mode button (see below).
 
-The '''Return Mode''' button is a 3-position toggle that controls the way the playhead moves when you halt playback using the Stop button. 
+The '''Return Mode''' button is a 3-position toggle that controls where the playhead moves when you halt playback using the Stop button. 
 There are 3 modes: <br> 
 http://lmms.sourceforge.net/wiki/images/3/3c/Button-settings.png
 '''To Start''' (the default mode): the playhead returns to the start of the song (bar #1). <br>
