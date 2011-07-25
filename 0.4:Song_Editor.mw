@@ -172,6 +172,7 @@ The '''Solo/unsolo toggle''' looks like a red LED light that you turn on and off
 
 The rest of the Track Settings Bar displays the '''sound source''' information. <br> 
 This varies somewhat between instrument tracks, sample tracks and beat/bassline tracks.
+
 http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png <br> 
 '''Instrument Tracks''' have:
 * a volume and a pan control (automatable),
