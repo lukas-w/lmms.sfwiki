@@ -50,6 +50,15 @@ Double-clicking on a block means to '''edit the element's contents'''.
 Despite their different content, the ways of working with elements are mostly similar. <br> 
 http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png 
 Most of the work in the Song-Editor is done using the '''Draw Mode''' tool.
+* left-click in an empty bar to add a block
+* middle-click on a block to delete it
+* right-click on a block to get a context menu
+* left-drag on a block to move it (block will snap to bar boundaries)
+* Ctrl key '''after''' left-drag begins on a block to move it freely (won't snap to bar boundaries)
+* Ctrl key '''before''' left-drag begins on a block to copy it
+* When you hover your mouse over the right end of a block, the mouse cursor becomes a double-headed arrow so you can drag the end of the block to make it extend over more or fewer bars--this does not work for instrument tracks!!
+** left-drag = the block extension/retraction snaps to bar boundaries
+** Ctrl+left-drag = the block extension/retraction is free (does not snap to bar boundaries)
 
 === Edit Mode Tool ===
 
