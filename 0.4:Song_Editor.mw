@@ -32,9 +32,9 @@ For instrument and sample tracks, this creates a blank area where you can put no
 For beat/bassline tracks, this creates 1 (or more) bars filled with that particular Beat/Bassline as configured.
 
 To '''move an element''', drag it by clicking and holding the block. <br> 
-As it's dragged, the block will snap to the start of any bar, but you can free drag (with a 1/64th resolution) by holding down the Ctrl key after dragging has begun (Ctrl+drag before dragging has begun initiates the "copy" procedure).
+As it's dragged, the block will snap to the start of any bar, but you can free drag (with a 1/64th resolution) by holding down the Ctrl key '''''after''''' you begin dragging (Ctrl+drag before you begin dragging initiates the "copy" procedure).
 
-To '''copy an element''', hold the Ctrl key down before you begin dragging and then drag the copy to its new location. <br> 
+To '''copy an element''', hold the Ctrl key down '''''before''''' you begin dragging and then drag the copy to its new location. <br> 
 You can also right-click on the block, select ''copy'', left-click to create an empty block where you want the copy to go, right-click and select ''paste''. <br> 
 You can't copy segments of one type to tracks of a different type. <br> 
 To copy again, the control key has to be released and re-pressed before the next drag operation.
