@@ -52,6 +52,7 @@ http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png
 Most of the work in the Song-Editor is done using the '''Draw Mode''' tool.
 * left-click in an empty bar to add a block
 * middle-click on a block to delete it
+* Ctrl+middle-click is a mute/unmute toggle for that block
 * right-click on a block to get a context menu
 * left-drag on a block to move it (block will snap to bar boundaries)
 * Ctrl key '''after''' left-drag begins on a block to move it freely (won't snap to bar boundaries)
