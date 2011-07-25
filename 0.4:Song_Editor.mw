@@ -128,15 +128,15 @@ To add a new sample track, click the '''Add sample-track''' button.
 == Zoom Control ==
 
 http://lmms.sourceforge.net/wiki/images/a/a3/Zoomsection.png 
-The final control is the '''Zoom''' control. <br> 
-Setting this allows you to control how much detail is shown in the view of the track segments. <br> 
-The larger this is, the more detail you see; the smaller it is, the more of the song you see in the view. <br> 
-You can also hold down '''ctrl''' and use the mouse wheel to zoom in and out.
+This is the '''Zoom''' control. <br> 
+You can zoom in to show fewer bars or zoom out to show more bars in the window. There are several ways to zoom:
+* hover your mouse over the Zoom number, and roll your mouse scroll wheel up/down to zoom in/out
+* hover your mouse anywhere else in the Song-Editor window, and Ctrl+mouse-scroll-wheel up/down to zoom in/out
+* left-click on the Zoom number to zoom in by 1 level; right-click on the Zoom number to zoom out by 1 level
+* use the Zoom drop-down arrow and select a zoom level
 
-Resizing tracks:
-
-By holding down the '''shift''' key and dragging in a track, you can resize the height of a track. <br> 
-This can be very useful for sample tracks when you need to see more precision in the sample.
+Changing tracks height:
+Anywhere in a track, use Shift-drag to change the height of a track. You can only make it taller than the default height, not shorter.
 
 = Track Settings Bar =
 
