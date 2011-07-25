@@ -211,11 +211,11 @@ http://lmms.sourceforge.net/wiki/images/b/b3/Contextmenu-pianoroll.png
 * '''Delete''' deletes the clicked-on block.
 * '''Cut''' removes the clicked-on block and puts it in the clipboard.
 * '''Copy''' makes a copy of the clicked-on block and puts it in the clipboard.
-* '''Paste''' pastes the contents of the clipboard into this block, overwriting its previous contents. The block name is copied and pasted with the contents of the block which helps you see the original source of this segment (see "Change name" below).
+* '''Paste''' pastes the contents of the clipboard into this block, overwriting its previous contents. The block name is copied and pasted with the contents of the block which helps you see the original source of this block (see "Change name" below).
 * '''Mute/Unmute''' allows you to turn off the sound of the clicked-on block. It does not affect the volume of the other blocks in the track.
 * '''Clear all notes''' allows you to erase the contents of the clicked-on block without deleting the block itself.
 * '''Change name''' allows you to change a block's name. Blocks within a track can have their own names, and by default, the block name is the same as the track name. '''Reset name''' resets the block name to the name of the track.
-* '''Freeze''' allows you to [[Glossary#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone. This reduces the computer workload involved in rendering this track, which may be useful on low-powered computer systems or on tracks with complex effects and melodies. You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
+* '''Freeze''' allows you to [[Glossary#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone. This reduces the computer workload involved in rendering this track, which may be useful on low-powered computer systems or on tracks with complex effects and melodies. You can edit the track's contents while the track is frozen, but the edits do not take effect until the track is thawed or refrozen.
 * '''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) using a submenu to/from the end of a pattern. This is the same option as in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; not really useful here.
 
 == Sample Tracks ==
