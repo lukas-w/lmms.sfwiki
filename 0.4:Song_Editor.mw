@@ -197,7 +197,7 @@ http://lmms.sourceforge.net/wiki/images/6/64/Trackbar3-beatbassline.png <br>
 = Track Context Menu =
 
 The track context menu appears when you right-click on a block (active bar) in the track. <br>
-The options available vary by the type of track (see below).
+The options available vary by the type of track as follows:
 
 == Instrument Track Context Menu ==
 
@@ -218,7 +218,7 @@ http://lmms.sourceforge.net/wiki/images/b/b3/Contextmenu-pianoroll.png
 * '''Freeze''' allows you to [[Glossary#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone. This reduces the computer workload involved in rendering this track, which may be useful on low-powered computer systems or on tracks with complex effects and melodies. You can edit the track's contents while the track is frozen, but the edits do not take effect until the track is thawed or refrozen.
 * '''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) using a submenu to/from the end of a pattern. This is the same option as in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; not really useful here.
 
-== Sample Tracks Context Menu ==
+== Sample Track Context Menu ==
 
 The sample track context menu looks like this:
 
@@ -228,7 +228,7 @@ http://lmms.sourceforge.net/wiki/images/7/71/Contextmenu-sampletrack.png
 
 The actions of each option are essentially the same as those for the instrument track above.
 
-== Beat/Bassline Tracks Context Menu ==
+== Beat/Bassline Track Context Menu ==
 
 The beat/bassline track context menu looks like this:
 
