@@ -88,11 +88,11 @@ During playback, the '''Pause''' button icon replaces the Play button icon. It w
 
 The '''Return Mode''' button is a 3-position toggle that controls the way the playhead moves when you halt playback using the Stop button. 
 There are 3 modes: <br> 
-* http://lmms.sourceforge.net/wiki/images/3/3c/Button-settings.png
+http://lmms.sourceforge.net/wiki/images/3/3c/Button-settings.png
 '''To Start''' (the default mode): the playhead returns to the start of the song (bar #1).
-* http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tobefore.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tobefore.png
 '''To Before''' : the playhead returns to the position where this playback started.
-* http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png
+http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png
 '''Continue''' : the playhead remains where it was stopped (i.e. it doesn't move).
 
 Between the '''Play''' button and the '''Stop''' button there are two other buttons: 
@@ -114,9 +114,7 @@ When turned on, the loop-point icons become active (bright green) on the timelin
 * start loop-point: Middle-mouse-button+drag
 By default the loop-points are "magnetic" which means that, as you drag them, they snap to the nearest bar boundary; however, you can hold down the Ctrl key as you drag to position them with more precision.
 During Song-Editor playback, the playhead will loop continuously between the start and end loop-points. <br> 
-This is useful for testing a particular section of your piece, but it only exists in playback mode. It is not a way to repeat a section a certain number of times within your composition--you'll have to use copy/paste for that. <br> 
-
-
+This is useful for testing a particular section of your piece, but it only exists in playback mode. It is not a way to repeat a section a certain number of times within your composition--you'll have to use copy/paste for that. <br>
 
 == Adding Tracks ==
 
