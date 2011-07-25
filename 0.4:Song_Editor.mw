@@ -116,21 +116,15 @@ This is useful for testing a particular section of your piece, but it only exist
 
 == Adding Tracks ==
 
-You can add new instrument tracks to the song editor by dragging them from the [[0.4:Side Bar|Side Bar]]. <br> 
-The instrument's [[Plugins|plugin]] will be displayed, allowing you to make any changes you need to the sound of the instrument. <br> 
-You can dispel this plugin display by using its close button or by clicking on the instrument name button in the song editor.
+You can add new instrument tracks to the Song-Editor by dragging them from the [[0.4:Side Bar|Side Bar]]. <br> 
+There is no button for adding a new instrument track. You add a new instrument track by dragging the desired plugin or preset from the [[0.4:Side Bar|Side Bar]] to an empty area in the Song-Editor. Next, click on the instrument track's name to show/hide the [[0.4Instrument Editor|Instrument Editor]] window for this [[Plugins|plugin]]. This window is where you can make changes to the sound of the instrument.
 
 http://lmms.sourceforge.net/wiki/images/7/70/Button-addbeatbassline.png
-To add a new beat or bassline track, click the '''add beat/bassline''' button. <br> 
-You can right-click on the name of the beat/bassline in order to rename it to something more identifiable.
+To add a new Beat/Bassline track, click the '''Add beat/bassline''' button. <br> 
+Right-click on the name of the beat/bassline track's name to rename it to something more identifiable.
 
 http://lmms.sourceforge.net/wiki/images/c/c8/Button-addsampletrack.png
-To add a new sample track, click the '''add sample-track''' button.
-
-Note that there is no button allowing you to add a new instrument track. <br> 
-This is because you would have to select a plugin for the instrument before the track was created, <br>
-and this is far easier to do by trading the correct plugin or preset from the [[0.4:Side Bar|Side Bar]].
-
+To add a new sample track, click the '''Add sample-track''' button.
 
 == Zoom Control ==
 
