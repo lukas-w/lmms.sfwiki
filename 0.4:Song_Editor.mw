@@ -27,9 +27,9 @@ http://lmms.sourceforge.net/wiki/images/3/3d/Pattern-beatbassline.png
 For '''Beat/Bassline Tracks''', the display is simply a blue block showing that the beat/bassline is active. <br>
 Double-clicking on it will open the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] window where you can add, delete, or modify individual notes (beats).
 
-To '''create a new element''', left-click in the track activity area within the bar in which you want the block to start. <br> 
-For instrument and sample tracks, this creates a blank area to put notes or samples in. <br> 
-For beat/bassline tracks, this creates 1 (or more) bars filled with that particular Beat/Bassline as composed.
+To '''create a new element''', left-click in the track activity area within the bar where you want the block to start. <br> 
+For instrument and sample tracks, this creates a blank area where you can put notes or samples. <br> 
+For beat/bassline tracks, this creates 1 (or more) bars filled with that particular Beat/Bassline as configured.
 
 To '''move an element''', drag it by clicking and holding the block. <br> 
 As it's dragged, the block will snap to the start of any bar, but you can free drag (with a 1/64th resolution) by holding down the Ctrl key after dragging has begun (Ctrl+drag before dragging has begun initiates the "copy" procedure).
