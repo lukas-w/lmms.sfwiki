@@ -89,11 +89,11 @@ During playback, the '''Pause''' button icon replaces the Play button icon. It w
 The '''Return Mode''' button is a 3-position toggle that controls the way the playhead moves when you halt playback using the Stop button. 
 There are 3 modes: <br> 
 http://lmms.sourceforge.net/wiki/images/3/3c/Button-settings.png
-'''To Start''' (the default mode): the playhead returns to the start of the song (bar #1).
+'''To Start''' (the default mode): the playhead returns to the start of the song (bar #1). <br>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-tobefore.png
-'''To Before''' : the playhead returns to the position where this playback started.
+'''To Before''' : the playhead returns to the position where this playback started. <br>
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png
-'''Continue''' : the playhead remains where it was stopped (i.e. it doesn't move).
+'''Continue''' : the playhead remains where it was stopped (i.e. it doesn't move). <br>
 
 Between the '''Play''' button and the '''Stop''' button there are two other buttons: 
 * "Record samples from Audio-device" 
