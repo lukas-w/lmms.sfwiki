@@ -81,7 +81,7 @@ http://lmms.sourceforge.net/wiki/images/2/23/Button-play.png
 The '''Play''' button (or keyboard spacebar) starts playback at the current playhead position. 
 
 http://lmms.sourceforge.net/wiki/images/2/2d/Button-stop.png
-The '''Stop''' button (or keyboard spacebar) stops playback and pause, and returns the playhead to the beginning of the song (bar #1).
+The '''Stop''' button (or keyboard spacebar) stops playback (or a paused playback), and returns the playhead to the beginning of the song (bar #1).
 
 http://lmms.sourceforge.net/wiki/images/b/b4/Button-pause.png 
 During playback, the '''Pause''' button icon replaces the Play button icon. It will pause playback and leave the playhead at its current position. Strangely, during a pause, the Pause button icon should change back to the Play button icon, but it doesn't. <br> 
