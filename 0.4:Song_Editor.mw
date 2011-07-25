@@ -196,9 +196,10 @@ http://lmms.sourceforge.net/wiki/images/6/64/Trackbar3-beatbassline.png <br>
 
 = Track Context Menu =
 
-The track context menu appears when you right-click on an element of a track's activity.  The options presented depend on which type of track it is.
+The track context menu appears when you right-click on a block (active bar) in the track. <br>
+The options available vary by the type of track (see below).
 
-== Instrument Tracks ==
+== Instrument Track Context Menu ==
 
 The instrument track context menu looks like this:
 
@@ -206,33 +207,16 @@ The instrument track context menu looks like this:
 http://lmms.sourceforge.net/wiki/images/b/b3/Contextmenu-pianoroll.png
 <!--{\end{center}}-->
 
-This gives you the most options of all the song editor context menus.
-
-'''Open in piano-roll''' opens the clicked-on segment in the [[Piano Roll Editor]] (strangely enough).
-
-'''Delete''' deletes the clicked-on segment.
-
-'''Cut''' removes the clicked-on segment and puts it in the clipboard.
-
-'''Copy''' takes a copy of the clicked-on segment and puts it in the clipboard.
-
-'''Paste''' pastes the contents of the clipboard into this segment, overwriting its previous contents.
-
-'''Mute/Unmute''' allows you to turn sound off or on for this track while editing it. 
-This does not affect the set volume of the track, but acts like the 'mute' button on a mixing desk.
-
-'''Clear all notes''' allows you to erase the contents of the clicked-on segment without deleting the segment itself. <br> 
-Normally the name of the instrument is given to the segment. <br> 
-This is copied and pasted with the contents of the segment, so you can see the original source of this segment. <br> 
-
-'''Reset name''' allows you to reset that name to the name of the instrument plugin of the track, and '''Change name''' allows you to edit it manually.
-
-'''Freeze''' allows you to [[Glossary#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone. <br> 
-This cuts down on the workload of rendering this track, which may be useful on low-powered systems or tracks with complex effects and melodies. <br> 
-You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen. <br> 
-
-'''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) selected from a submenu to the end of a pattern. <br> 
-This is similar to the same option in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] but seems to have little purpose here.
+* '''Open in piano-roll''' opens the clicked-on block in the [[Piano Roll Editor]].
+* '''Delete''' deletes the clicked-on block.
+* '''Cut''' removes the clicked-on block and puts it in the clipboard.
+* '''Copy''' makes a copy of the clicked-on block and puts it in the clipboard.
+* '''Paste''' pastes the contents of the clipboard into this block, overwriting its previous contents. The block name is copied and pasted with the contents of the block which helps you see the original source of this segment (see "Change name" below).
+* '''Mute/Unmute''' allows you to turn off the sound of the clicked-on block. It does not affect the volume of the other blocks in the track.
+* '''Clear all notes''' allows you to erase the contents of the clicked-on block without deleting the block itself.
+* '''Change name''' allows you to change a block's name. Blocks within a track can have their own names, and by default, the block name is the same as the track name. '''Reset name''' resets the block name to the name of the track.
+* '''Freeze''' allows you to [[Glossary#F|freeze]] the sound of this track by creating a pre-rendered sample of the track alone. This reduces the computer workload involved in rendering this track, which may be useful on low-powered computer systems or on tracks with complex effects and melodies. You can edit the track's contents while the track is frozen, but the edits do not take effect until it is thawed or refrozen.
+* '''Add steps''' and '''Remove Steps''' allow you to add or remove a number steps (equal to a 16th note) using a submenu to/from the end of a pattern. This is the same option as in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; not really useful here.
 
 == Sample Tracks ==
 
