@@ -162,9 +162,9 @@ http://lmms.sourceforge.net/wiki/images/3/35/Grabbar.png
 The stippled area at the left end of the track is the '''Grab Handle'''. In Draw mode, use it to drag a track up or down in the track stacking order. The track order has no effect on the sounds produced, it just helps you keep things organized. Ctrl+drag on the grab handle makes a copy of the track that will be placed at the bottom of the track list.
 
 http://lmms.sourceforge.net/wiki/images/d/d3/Button-tracksettings.png
-The '''Track Tools''' icon has a tooltip that says "Actions for this track." Click it to see a menu with 2 options: '''Clone this track''' and '''Remove this track''':
-* Clone this track makes an exact copy of the track (including its contents) and pastes it at the bottom of the track list. 
-* Remove this track deletes the track
+The '''Track Tools''' icon has a tooltip that says "Actions for this track." Click it to see a menu with 2 options:
+* '''Clone this track''' makes an exact copy of the track (including its contents) and pastes it at the bottom of the track list. 
+* '''Remove this track''' deletes the track
 
 http://lmms.sourceforge.net/wiki/images/8/89/Button-solomute.png
 The '''Mute/unmute toggle''' looks like a green LED light that you turn on and off by clicking on it. Use it to turn off the sounds from this track temporarily. For example, you may want to hear the track of an accompanying instrument without hearing the lead instrument. (??)Right clicking on the track gives you the option to [[0.4:Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control. <br>
