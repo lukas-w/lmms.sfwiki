@@ -63,7 +63,13 @@ Most of the work in the Song-Editor is done using the '''Draw Mode''' tool.
 === Edit Mode Tool ===
 
 http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
-The '''Edit Mode''' tool allows you to select a rectangular region of blocks in the tracks and move them as a group. 
+The '''Edit Mode''' tool allows you to drag a rectangular selection box that selects multiple blocks. You can then move the selection as a group by dragging horizontally.
+* selected blocks change color to dark blue
+* '''Ctrl+left-click''' on any block you want to remove from the selection group
+* drag horizontally on any selected block to move the selection group:
+** left-drag = movement where blocks snap to bar boundaries
+** Alt+left-drag = free movement (blocks don't snap to bar boundaries)
+* click on any empty bar to clear the selection from the selected blocks
 
 === Bar Insert & Delete===
 
