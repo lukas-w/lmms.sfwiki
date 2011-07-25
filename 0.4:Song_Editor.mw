@@ -78,19 +78,17 @@ The Song Editor window has a toolbar that allows you to control playback of the 
 == Playback Buttons ==
 
 http://lmms.sourceforge.net/wiki/images/2/23/Button-play.png
-The '''Play''' button starts playback at the current cursor point. 
+The '''Play''' button (or keyboard spacebar) starts playback at the current playhead position. 
 
 http://lmms.sourceforge.net/wiki/images/2/2d/Button-stop.png
-The '''Stop''' button stops playback if it has been started <br> 
-It moves the cursor depending on what mode you have chosen in the play control tool (see below).
+The '''Stop''' button (or keyboard spacebar) stops playback and pause, and returns the playhead to the beginning of the song (bar #1).
 
 http://lmms.sourceforge.net/wiki/images/b/b4/Button-pause.png 
-While the song is playing, you can use the '''Pause''' button to halt playback without moving the cursor. <br> 
+During playback, the '''Pause''' button icon replaces the Play button icon. It will pause playback and leave the playhead at its current position. Strangely, during a pause, the Pause button icon should change back to the Play button icon, but it doesn't. <br> 
 
 Between the '''Play''' button and the '''Stop''' button there are two other buttons: 
 * "Record samples from Audio-device" 
 * "Record samples from Audio-device while playing song or BB track"
-
 
 == Playback Controls ==
 
