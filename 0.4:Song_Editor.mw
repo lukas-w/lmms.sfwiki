@@ -36,7 +36,7 @@ As it's dragged, the block will snap to the start of any bar, but you can free d
 
 To '''copy an element''', hold the Ctrl key down '''''before''''' you begin dragging and then drag the copy to its new location. <br> 
 You can also right-click on the block, select ''copy'', left-click to create an empty block where you want the copy to go, right-click and select ''paste''. <br> 
-You can't copy segments of one type to tracks of a different type. <br> 
+You can't copy blocks of one track type to tracks of a different type. <br> 
 To copy again, the control key has to be released and re-pressed before the next drag operation.
 
 To '''delete an element''', click it using the middle mouse button or right-click on it and select ''delete''. <br> 
