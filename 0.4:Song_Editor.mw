@@ -61,7 +61,9 @@ The '''Edit Mode''' tool allows you to select a rectangular region of blocks in 
 '''Shift+Insert-key''' inserts a new, empty bar to the right of the playhead's current position into all the tracks. Much like inserting a word into a sentence using a word processor. <br> 
 '''Shift+Delete-key''' deletes a bar to the right of the playhead's current position from all the tracks. Much like deleting a word in a sentence using a word processor; '''''however''''', the rules it follows are a bit strange:
 * For each track, if there's an empty bar to the right of the playhead, that bar is deleted which moves all the downstream blocks in that track left by 1 bar.
-* For each track, if there's an occupied bar (i.e. a block is present) to the right of the playhead, the bar to the '''''left''''' of the playhead is deleted (whether occupied or not), which moves all the blocks to the right of the playhead in that track to the left by 1 bar.
+* For each track, if there's an occupied bar (i.e. a block is present) to the right of the playhead, the bar to the '''''left''''' of the playhead is deleted (whether occupied or not), which moves all the blocks to the right of the playhead in that track to the left by 1 bar. An exception to this rule occurs if the playhead is at the beginning of the song (i.e. bar #1 is the bar to the right of the playhead). In this case:
+** if the bar to the right contains the last block in the track, nothing happens.
+** if the bar to the right does not contain the last block in the track, the bar to the right is deleted which moves all the remaining blocks in that track to the left by 1 bar.
 <br>
 
 = Song Editor Toolbar =
