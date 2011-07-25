@@ -155,48 +155,43 @@ Anywhere in a track, use Shift-drag to change the height of a track. You can onl
 
 = Track Settings Bar =
 
-To the left of the track's activity is a set of buttons and controls that allow you to work with the track as a whole. <br> 
+The left side of the track contains buttons and controls that allow you to work with the track as a whole. <br> 
 http://lmms.sourceforge.net/wiki/images/f/fa/Trackbar4-automation.png
 
 http://lmms.sourceforge.net/wiki/images/3/35/Grabbar.png
-The grey stippled area immediately at the left of the track is the '''grab bar'''. <br> 
-This allows you to grab the track and drag it up and down in the order of tracks. <br> 
-You can also easily make a copy of an entire track by holding down ''Ctrl'' while dragging the grip. <br> 
+The stippled area at the left end of the track is the '''Grab Handle'''. In Draw mode, use it to drag a track up or down in the track stacking order. The track order has no effect on the sounds produced, it just helps you keep things organized. Ctrl+drag on the grab handle makes a copy of the track that will be placed at the bottom of the track list.
 
 http://lmms.sourceforge.net/wiki/images/d/d3/Button-tracksettings.png
-Next appears the '''track tools menu''' icon. This displays a drop-down menu with two options: '''clone track''' and '''remove track'''. <br> 
-Cloning a track makes an exact copy of the track and its contents and pastes them at the bottom of the track list. <br> 
-Hopefully it won't be necessary to explain what removing a track does. :-)
+The '''Track Tools''' icon has a tooltip that says "Actions for this track." Click it to see a menu with 2options: '''Clone this track''' and '''Remove this track''':
+* Clone this track makes an exact copy of the track (including its contents) and pastes it at the bottom of the track list. 
+* Remove this track deletes the track
 
 http://lmms.sourceforge.net/wiki/images/8/89/Button-solomute.png
-After this is the '''mute control'''.  This allows you to turn off the sound of this track temporarily. <br> 
-This is useful, for example, when you want to hear the sound of an accompanying instrument without the lead instrument. <br> 
-Right clicking on the track gives you the option to [[0.4:Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control. <br> 
+The '''Mute/unmute toggle''' looks like a green LED light that you turn on and off by clicking on it. Use it to turn off the sounds from this track temporarily. For example, you may want to hear the track of an accompanying instrument without hearing the lead instrument. (??)Right clicking on the track gives you the option to [[0.4:Working with Automation|automate]] the muting process on the track, although this is strongly discouraged in preference to automating the volume control. <br>
+The '''Solo/unsolo toggle''' looks like a red LED light that you turn on and off by clicking on it. Use it to turn off temporarily all the other tracks except this track.
 
-http://lmms.sourceforge.net/wiki/images/5/53/Trackbar-name.png
-
-The rest of the track settings displays the '''sound source''' information. <br> 
-This varies between instrument tracks, sample tracks and beat/bassline tracks.
-
+The rest of the Track Settings Bar displays the '''sound source''' information. <br> 
+This varies somewhat between instrument tracks, sample tracks and beat/bassline tracks.
 http://lmms.sourceforge.net/wiki/images/7/71/Trackbar1-instrument.png <br> 
-For '''instrument tracks''' you get a volume and a pan control (also automatable). <br>
-A drop-down menu to select the track's midi inputs and outputs (in track tools menu). <br>
-and the button that displays the instrument's plugin and preset name. <br> 
-Clicking on it opens the actual instrument editor. <br> 
-Right-clicking opens a dialog to rename that track. <br> 
-At the far right of the sound source there is an "activity bar" which lights up when the instrument is actually playing.
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png <br> 
-You can also click on it to preview the sound.
+'''Instrument Tracks''' have:
+* a volume and a pan control (automatable),
+* a button that displays the instrument's plugin or preset name:
+** left-click opens the [[0.4:Instrument Editor|Instrument Editor]]
+** right-click opens a dialog to rename the track
+The '''Activity light''' is a rectangular light which lights up whenever the instrument plays a note. You can also click it to preview the sound.
 
 http://lmms.sourceforge.net/wiki/images/b/b5/Trackbar2-sample.png <br> 
-For '''sample tracks''' you get also a volume control (likewise also automatable). <br> 
-Clicking on the track name button allows you to set up [[LADSPA|effects]] on the sample track. <br> 
-Right-clicking opens a dialog to rename that track.
+'''Sample Tracks''' have:
+* a volume control (automatable)
+* a button that displays the track name:
+** left-click opens the Effects Chain editor where you can choose [[LADSPA|effects]] to add
+** right-click opens a dialog to rename the track
 
 http://lmms.sourceforge.net/wiki/images/6/64/Trackbar3-beatbassline.png <br> 
-For '''beat/bassline tracks''', you get a graphic displaying the content of the pattern. <br> 
-Clicking on it opens the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]], if it's not already open. <br> 
-Right-clicking opens a dialog to rename that track.
+'''Beat/Bassline Tracks''' have:
+* a button that displays the track name:
+** left-click opens the [[0.4:Beat Bassline Editor|Beat+Bassline Editor]], if it's not already open
+** right-click opens a dialog to rename the track
 
 = Track Context Menu =
 
