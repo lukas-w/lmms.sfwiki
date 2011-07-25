@@ -45,21 +45,20 @@ Double-clicking on a block means to '''edit the element's contents'''.
 
 == Editing Tools ==
 
-=== Edit Tool ===
+=== Draw Mode Tool ===
 
 Despite their different content, the ways of working with elements are mostly similar. <br> 
 http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png 
-Most of the work in the Song-Editor is done using the '''edit tool'''.
+Most of the work in the Song-Editor is done using the '''Draw Mode''' tool.
 
-=== Move Tool ===
+=== Edit Mode Tool ===
 
 http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
-The '''move tool''' allows you to select a rectangular region of the segments in the tracks and move them as a group.
-
-In addition, you can use '''Shift-Insert''' and '''Shift-Delete''' to move all the elements to the right of the playhead in the song forward or backward one bar at a time. <br> 
-Effectively, Shift-Insert inserts a new bar to the right of the playhead in the song, and Shift-Delete removes a bar, again right to the playhead. <br> Elements that are already at the first bar will not move but other later segments will still move to the left. <br> 
-However - even though you use the key 'Delete' on your keyboard, you do not delete anything! <br> 
-Elements will stack as they move to the left.
+The '''Edit Mode''' tool allows you to select a rectangular region of blocks in the tracks and move them as a group. <br>
+'''Shift+Insert-key''' inserts a new, empty bar to the right of the playhead's current position into all the tracks. Much like inserting a word into a sentence using a word processor. <br> 
+'''Shift+Delete-key''' deletes a bar to the right of the playhead's current position from all the tracks. Much like deleting a word in a sentence using a word processor; '''''however''''', the rules it follows are a bit strange:
+* For each track, if there's an empty bar to the right of the playhead, that bar is deleted and all the downstream blocks in that track move left by 1 bar.
+* For each track, if there's an occupied bar (i.e. a block is present) in the bar to the right of the playhead, the bar to the left of the playhead is deleted (whether occupied or not), and all the blocks to the right of the playhead in that track move left by 1 bar.
 
 = Song Editor Toolbar =
 
