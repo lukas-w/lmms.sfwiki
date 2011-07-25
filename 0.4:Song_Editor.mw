@@ -80,11 +80,11 @@ The Song Editor window has a toolbar that allows you to control playback of the 
 http://lmms.sourceforge.net/wiki/images/2/23/Button-play.png
 The '''Play''' button (or keyboard spacebar) starts playback at the current playhead position. 
 
-http://lmms.sourceforge.net/wiki/images/2/2d/Button-stop.png
-The '''Stop''' button (or keyboard spacebar) stops playback (or a paused playback), and returns the playhead to the location defined by the Return Mode button (see below).
-
 http://lmms.sourceforge.net/wiki/images/b/b4/Button-pause.png 
 During playback, the '''Pause''' button icon replaces the Play button icon. It will pause playback and leave the playhead at its current position. Strangely, during a pause, the Pause button icon should change back to the Play button icon, but it doesn't. <br> 
+
+http://lmms.sourceforge.net/wiki/images/2/2d/Button-stop.png
+The '''Stop''' button (or keyboard spacebar) stops playback (or a paused playback), and returns the playhead to the location defined by the Return Mode button (see below).
 
 The '''Return Mode''' button is a 3-position toggle that controls the way the playhead moves when you halt playback using the Stop button. 
 There are 3 modes: <br> 
