@@ -93,17 +93,21 @@ Between the '''Play''' button and the '''Stop''' button there are two other butt
 == Playback Controls ==
 
 http://lmms.sourceforge.net/wiki/images/e/e1/Button-autoscroll.png
-The '''Autoscroll''' button is normally turned on. <br> 
-During playback, the view in the song editor will automatically move to include the current playback point. <br> 
-If it moves off the right hand edge of the window, the window will be repositioned so it is at the left hand edge. <br> 
 
-If the autoscroll button is turned off, then the window position will not follow the playback point during playback. <br> 
+The '''Auto-scroll''' button is on by default. <br> 
+During playback, the view in the Song-Editor window will automatically scroll horizontally to display the current playhead position. <br> 
+As the playhead moves past the right edge of the window, the window will scroll horizontally so the playhead continues at the left edge. <br> 
+With Auto-scroll off, the playhead can disappear during playback. <br> 
 
 http://lmms.sourceforge.net/wiki/images/a/af/Button-looppoints.png
-The '''Loop''' button is normally turned off. <br> 
 
-When turned on, the loop points are turned on and playback will loop continuously between the start and end loop points. <br> 
-This can be useful when testing a particular section of your piece, but it only exists as a playback mode, not as a way to repeat a section a certain number of times. <br> 
+The '''Enable Loop-points''' button is off (disabled) by default. <br> 
+When turned on, the loop-point icons become active (bright green) on the timeline. You can drag the loop-points along the timeline as follows:
+* end loop-point: Right-mouse-button+drag
+* start loop-point: Middle-mouse-button+drag
+By default the loop-points are "magnetic" which means that, as you drag them, they snap to the nearest bar boundary; however, you can hold down the Ctrl key as you drag to position them with more precision.
+During Song-Editor playback, the playhead will loop continuously between the start and end loop-points. <br> 
+This is useful for testing a particular section of your piece, but it only exists in playback mode. It is not as a way to repeat a section a certain number of times within a composition--you'll have to use copy/paste for that. <br> 
 
 * The '''Return''' button controls the way the playback position moves after you halt playback using the stop button. 
 There are three modes: <br> 
@@ -116,7 +120,6 @@ This will usually be where you last placed the playback position. <br>
 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-toolbar-playcontrol-return-cont.png
 '''Continue''' - in this mode, the playback position will not be moved and playback will commence from where it is stopped.
-
 
 == Adding Tracks ==
 
