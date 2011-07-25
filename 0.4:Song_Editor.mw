@@ -116,8 +116,7 @@ This is useful for testing a particular section of your piece, but it only exist
 
 == Adding Tracks ==
 
-You can add new instrument tracks to the Song-Editor by dragging them from the [[0.4:Side Bar|Side Bar]]. <br> 
-There is no button for adding a new instrument track. You add a new instrument track by dragging the desired plugin or preset from the [[0.4:Side Bar|Side Bar]] to an empty area in the Song-Editor. Next, click on the instrument track's name to show/hide the [[0.4:Instrument Editor|Instrument Editor]] window for this [[Plugins|plugin]]. This window is where you can make changes to the sound of the instrument.
+There is no button for adding a new instrument track. You add a new instrument track by dragging the desired plugin or preset from the [[0.4:Side Bar|Side Bar]] to an empty area in the Song-Editor. Next, click on the instrument track's name to show/hide the [[0.4:Instrument Editor|Instrument Editor]] window for that [[Plugins|plugin]]. This window is where you can make changes to the sound of the instrument.
 
 http://lmms.sourceforge.net/wiki/images/7/70/Button-addbeatbassline.png
 To add a new Beat/Bassline track, click the '''Add beat/bassline''' button. <br> 
