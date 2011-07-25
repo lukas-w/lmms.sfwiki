@@ -131,11 +131,11 @@ http://lmms.sourceforge.net/wiki/images/a/a3/Zoomsection.png
 This is the '''Zoom''' control. <br> 
 You can zoom in to show fewer bars or zoom out to show more bars in the window. There are several ways to zoom:
 * hover your mouse over the Zoom number, and roll your mouse scroll wheel up/down to zoom in/out
-* hover your mouse anywhere else in the Song-Editor window, and Ctrl+mouse-scroll-wheel up/down to zoom in/out
-* left-click on the Zoom number to zoom in by 1 level; right-click on the Zoom number to zoom out by 1 level
+* hover your mouse anywhere else in the Song-Editor window, and '''Ctrl+mouse-scroll-wheel''' up/down to zoom in/out
+* '''left-click''' on the Zoom number to zoom in by 1 level; '''right-click''' on the Zoom number to zoom out by 1 level
 * use the Zoom drop-down arrow and select a zoom level
 
-Changing tracks height:
+'''Changing track height''':
 Anywhere in a track, use Shift-drag to change the height of a track. You can only make it taller than the default height, not shorter.
 
 = Track Settings Bar =
