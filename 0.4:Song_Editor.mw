@@ -100,14 +100,12 @@ Between the '''Play''' button and the '''Stop''' button there are two other butt
 * "Record samples from Audio-device while playing song or BB track"
 
 http://lmms.sourceforge.net/wiki/images/e/e1/Button-autoscroll.png
-
 The '''Auto-scroll''' button is on by default. <br> 
 During playback, the view in the Song-Editor window will automatically scroll horizontally to display the current playhead position. <br> 
 As the playhead moves past the right edge of the window, the window will scroll horizontally so the playhead continues at the left edge. <br> 
 With Auto-scroll off, the playhead can disappear during playback. <br> 
 
 http://lmms.sourceforge.net/wiki/images/a/af/Button-looppoints.png
-
 The '''Enable Loop-points''' button is off (disabled) by default. <br> 
 When turned on, the loop-point icons become active (bright green) on the timeline. You can drag the loop-points along the timeline as follows:
 * end loop-point: Right-mouse-button+drag
