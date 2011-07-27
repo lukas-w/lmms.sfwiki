@@ -10,7 +10,7 @@ http://img101.imageshack.us/img101/8506/pianoroll.png
 
 == By mouse ==
 
-The standard tool for editing notes in the Piano Roll Editor is the pencil tool (http://img96.imageshack.us/img96/6812/pianorolltoolbarediting.png).  With this you can create, move, resize and delete notes.
+The tool for editing notes in the Piano Roll Editor is the '''Draw Mode''' tool (http://img96.imageshack.us/img96/6812/pianorolltoolbarediting.png); use it to create, move, resize and delete notes.
 
 To '''create''' a note, simply click inside the piano roll grid.  The horizontal dark grey will show you which note on the keyboard you are going to be creating, and when you click the instrument will play that note as an aural cue.
 
