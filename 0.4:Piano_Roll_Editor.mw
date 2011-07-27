@@ -58,11 +58,11 @@ The '''Detune''' mode tool allows you to edit the frequency profile of an indivi
 http://lmms.sourceforge.net/wiki/images/3/3f/Pianoroll-clipboard.png
 
 The '''Clipboard''' buttons (above) allow you to cut, copy, and paste a selection, and the '''Delete''' key on the computer keyboard will delete the selected notes.
-* Click the '''Copy''' button to copy the selected notes and place them in the Clipboard.
-* Click the '''Cut''' (scissor) button to cut the selected notes (i.e. remove from Piano-Roll) and place them in the Clipboard.
-* Click the '''Paste''' button to paste the notes in the Clipboard into the Piano-Roll (this does not empty the Clipboard, so you can do multiple paste actions with the same Clipboarded notes). Note these 2 things when pasting:
-** Click on the timeline to position the playhead where you want to paste the Clipboarded notes, because these notes will be pasted to the right of the position of the playhead on the timeline, but the distance from the playhead is sometimes unpredictable.
-** The pasted notes are selected (blue) so you can immediately drag them to the exact position you want.
+* Click the '''Copy''' button (Ctrl+C) to copy the selected note(s) and place them in the Clipboard. Shift+drag on the selected note(s) to drag a copy of the selected note(s) away from the original(s).
+* Click the '''Cut''' button (Ctrl+X) to cut the selected note(s) (i.e. remove from Piano-Roll) and place in the Clipboard.
+* Click the '''Paste''' button (Ctrl+V) to paste the note(s) from the Clipboard into the Piano-Roll (this does not empty the Clipboard, so you can do multiple paste actions with the same Clipboarded note(s)). Note these 2 things when pasting:
+** Click on the timeline to position the playhead where you want to paste the Clipboarded note(s), because these note(s) will be pasted to the right of the position of the playhead on the timeline, but the distance from the playhead is sometimes unpredictable.
+** The pasted note(s) are selected (blue) so you can immediately drag them to the exact position you want.
 
 == Playback Control ==
 
