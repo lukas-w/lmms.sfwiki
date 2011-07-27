@@ -73,26 +73,30 @@ The current Quantisation [http://en.wikipedia.org/wiki/Quantization_(music)] set
 
 == Notes ==
 
-=== Note Length ===
+=== Draw and Move Notes ===
+Use the '''Draw mode''' tool to place notes in the Piano-Roll:
+* left-click to place a note; the gray horizontal line help you see the pitch of the note you're placing
+* right-click to delete a note
+* hover over the center of a note until a 4-headed arrow appears then drag the note either left/right in time or up/down in pitch; this also works for a selection of notes
+* hover over the right-end of the note until a 2-headed arrow appears then drag the end of note either left/right to change the length of the note; this also works for a selection of notes
+
+=== Erase Notes ===
+Use the '''Erase mode''' tool to delete notes in the Piano-Roll:
+* left-click to delete a note
+
+=== Default Note Length ===
 
 http://lmms.sourceforge.net/wiki/images/b/be/Pianoroll-notelength.png <br> 
-The current note length setting is displayed in another drop-down menu. <br> 
-This controls the length of notes made with the creation tool. <br> 
-You can either specify a given note length, or specify that the next note will be the same length as the last note.
+The '''Default Note Length''' setting (in bar lengths) is displayed and can be set using a drop-down menu. <br> 
+This sets the default length of notes made when you click in the Piano-Roll with the Draw mode tool. <br> 
+You can choose either a given note length or that the next note will be the same length as the last note drawn.
 
-=== Note Volume (Velocity) ===
+=== Note Volume & Panning ===
+Click on the '''Note Volume/Note Panning''' button below the piano keys to toggle between the Note Volume and Note Panning editor. <br>
+http://lmms.sourceforge.net/wiki/images/4/49/Pianoroll-note-volume.png http://lmms.sourceforge.net/wiki/images/7/74/Pianoroll-note-panning.png<br> 
+The '''volume''' (loudness) of each note is termed '''velocity''' in music sequencing. Velocity is shown as a vertical green bar below the note in the Note Volume editor. You can change the velocity of each note by clicking somewhere on the vertical bar for that note or by dragging the orange box to the level you want. This info is set automatically when you record notes using a MIDI keyboard that is capable of transmitting the velocity of the notes as they are played.
 
-http://lmms.sourceforge.net/wiki/images/4/49/Pianoroll-note-volume.png <br> 
-The 'weight' of each note - its loudness or softness - is termed '''velocity''' in music sequencers. <br> 
-This velocity is shown as a vertical bar at the bottom of the window. <br> 
-You can change the velocity of each note by clicking on this bar and dragging it to its preferred location. <br> 
-This information is also recorded when you record notes from a MIDI keyboard that is capable of recording the velocity of the notes as they are played.
-
-=== Note Panning ===
-
-http://lmms.sourceforge.net/wiki/images/7/74/Pianoroll-note-panning.png <br> 
-Clicking on the note volume gives you the note panning and vice versa.
-Here you can set the channel panning of each note, i.e. the position of the sound in the stereo field.
+The '''pan''' of each note is the ratio of the note volume that is transmitted out the right stereo channel versus the left stereo channel. Pan is shown as a vertical orange bar below the note in the Note Pan editor. By default, the pan is centered (equal volume out the left and right channels). You can change the velocity of each note by clicking somewhere on the vertical bar for that note or by dragging the orange box to the position you want.
 
 = Piano Keys =
 
