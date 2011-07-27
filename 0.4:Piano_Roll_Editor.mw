@@ -79,7 +79,7 @@ This works the same as the [[0.4:Song Editor#Zoom_Control|Zoom Control in the So
 http://lmms.sourceforge.net/wiki/images/1/19/Pianoroll-quantisation.png <br> 
 The current Quantisation [http://en.wikipedia.org/wiki/Quantization_(music)] setting is displayed and can be set using the drop-down menu. This allows you to set the minimum resolution for manipulating note start and end times on the timeline using that fraction of a bar, both when using the Draw mode tool and when using Record.
 
-For example, if you set the Quantisation to 1/1 (i.e. 1 bar resolution), you'll only be able to place notes at the start of a whole bar, and you'll only be able to lengthen or shorten notes in 1-bar increments. You can extrapolate this concept to all the other available quantisation levels.
+For example, if you set the Quantisation to 1/1 (i.e. 1 bar resolution), you'll only be able to place notes at the start of a whole bar, and you'll only be able to lengthen or shorten notes in 1-bar increments. You can extrapolate this example case to all the other available quantisation levels.
 
 == Notes ==
 
