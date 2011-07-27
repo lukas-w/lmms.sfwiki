@@ -46,11 +46,13 @@ The '''Select''' mode tool allows you to select individual notes to create a gro
 * '''Remove from Selection''': can't find a way to do this
 * '''Clear Selection''': left-click on an empty space in the Piano-Roll
 <br>
-<div>
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" valign="top"|
 [[File:LMMS-detuned-notes.png|frame|left|alt=Detuned notes.|Detuned notes.]]
+| valign="middle"|
 The '''Detune''' mode tool allows you to edit the frequency profile of an individual note. When you click on a note, the [[0.4:Automation Editor|Automation Editor]] window opens for that note and is labeled "Note detuning". You can use your mouse to draw a frequency (pitch) profile graph in both higher and lower frequencies (pitches) than the base frequency (pitch) of the original note. This profile will be followed to produce the final pitch (varying or not) of the note when played. Back in the Piano-Roll, the note will have yellow dots either above or below the note which indicates that it has been detuned and in which direction.
-</div>
-<br>
+|}
 
 == Clipboard ==
 
