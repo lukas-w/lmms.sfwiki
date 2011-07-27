@@ -42,9 +42,12 @@ The 4 editing modes (tools) are '''Draw''', '''Erase''', '''Select''', and '''De
 The '''Select''' mode tool allows you to select individual notes to create a group, or "'''selection'''", which you can then move, cut, copy, or paste. 
 * '''Rectangular Selection''': use the Select tool to drag a rectangular area around some notes. When you release the mouse button, the selected notes will turn blue.
 * '''Individual Selection''': use the Select tool to left-click on a note--it will turn blue.
-* '''Add to Selection''': you can add additional notes to the current selection by holding down the Shift key (Shift+drag or Shift+click) and the additional notes will turn blue, too.
+* '''Add to Selection''': you can add more notes to the current selection by holding down the Shift key (Shift+drag or Shift+click) and the additional notes will turn blue, too.
 * '''Remove from Selection''': can't find a way to do this
 * '''Clear Selection''': left-click on an empty space in the Piano-Roll
+
+The '''Detune''' mode tool allows you to edit the frequency profile of an individual note. When you click on a note, the [[0.4:Automation Editor|Automation Editor]] window opens for that note and is labeled "Note detuning". You can use your mouse to draw a frequency (pitch) profile graph in both higher and lower frequencies (pitches) than the base frequency (pitch) of the original note. This profile will be followed to produce the final pitch (varying or not) of the note when played. Back in the Piano-Roll, the note will have yellow dots either above or below the note which indicates that it has been detuned and in which direction, as shown below.
+[[File:LMMS-detuned-notes.png]]
 
 == Clipboard ==
 
