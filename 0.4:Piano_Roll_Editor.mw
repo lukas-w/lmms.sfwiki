@@ -49,16 +49,12 @@ The '''Select''' mode tool allows you to select individual notes to create a gro
 
 http://lmms.sourceforge.net/wiki/images/3/3f/Pianoroll-clipboard.png
 
-The selection tools above also allow you to cut, copy and paste areas of notes.  There are two things to note when pasting notes, however:
-
-* Notes are pasted into the start of the bar that is shown in the piano roll editor when the notes are pasted.  Therefore you must position the window to start at the bar you want the notes to be placed into before pasting.
-* The notes you've just pasted are not selected.
-
-A further gotcha is:
-
-* While you have the note movement tool active and notes are selected, any drag operation on the piano roll will move those notes, whether or not you start the drag inside the selection area or not.
-
-This interface is planned to be improved and simplified in future versions of LMMS.
+The '''Clipboard''' buttons (above) allow you to cut, copy, and paste a selection, and the Delete key on the computer keyboard will delete the selected notes.
+* Click the Copy button to copy the selected notes and place them in the Clipboard.
+* Click the Cut (scissor) button to cut the selected notes (i.e. remove from Piano-Roll) and place them in the Clipboard.
+* Click the Paste button to paste the notes in the Clipboard into the Piano-Roll (this does not empty the Clipboard, so you can do multiple paste actions with the same Clipboarded notes). Note these 2 things when pasting:
+** Click on the timeline to position the playhead where you want to paste the Clipboarded notes, because these notes will be pasted to the right of the position of the playhead on the timeline, but the distance from the playhead is sometimes unpredictable.
+** The pasted notes are selected (blue) so you can immediately drag them to the exact position you want.
 
 == Playback Control ==
 
