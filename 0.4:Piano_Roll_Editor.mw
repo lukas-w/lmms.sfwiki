@@ -1,16 +1,15 @@
 {{0.4:Piano Roll EditorTrans}}
 
-The '''piano roll editor''' is the main method of working with melodies and harmonies and looks like this:
+The '''Piano-roll''' editor is the main workspace for composing and editing melodies and harmonies.
 
 http://lmms.sourceforge.net/wiki/images/c/ce/Pianoroll-main.png
 
 <br> 
-It can be accessed by double-clicking a track element created in an instrument or beat/bassline track, 
-e.g.: http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png. <br> 
-It can also be accessed using the ''show piano roll'' button in the main tool bar 
-http://lmms.sourceforge.net/wiki/images/3/39/Menubar-f7-pianoroll.png '''(F7)''', <br> 
-but this does not open any piano roll in particular and you will not be able to add notes. <br> 
-A message will be displayed in the window telling you to double-click in a track segment first.
+It can be accessed by double-clicking (or right-clicking):
+* a block in an instrument track e.g.: http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png
+* a step in a track in the Beat+Bassline Editor <br> 
+It can also be accessed using the ''Show/Hide Piano-Roll'' button in the main tool bar: 
+http://lmms.sourceforge.net/wiki/images/3/39/Menubar-f7-pianoroll.png '''(F7)'''
 
 = Piano Roll Tool Bar =
 
