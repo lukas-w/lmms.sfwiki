@@ -69,7 +69,7 @@ This works the same as the [[0.4:Song Editor#Zoom_Control|Zoom Control in the So
 == Quantisation ==
 
 http://lmms.sourceforge.net/wiki/images/1/19/Pianoroll-quantisation.png <br> 
-The current Quantisation [http://en.wikipedia.org/wiki/Quantization_(music)] setting is displayed and can be set using the drop-down menu. This allows you to set the minimum resolution for setting note start and end times on the timeline using a fractional portion of a beat, both when using the Draw mode tool and when using Record.
+The current Quantisation [http://en.wikipedia.org/wiki/Quantization_(music)] setting is displayed and can be set using the drop-down menu. This allows you to set the minimum resolution for setting note start and end times on the timeline using a fractional portion of a bar, both when using the Draw mode tool and when using Record.
 
 == Notes ==
 
