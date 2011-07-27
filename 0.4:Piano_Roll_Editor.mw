@@ -8,7 +8,7 @@ http://lmms.sourceforge.net/wiki/images/c/ce/Pianoroll-main.png
 It can be accessed by double-clicking (or right-clicking):
 * a block in an instrument track e.g.: http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png
 * a step in a track in the Beat+Bassline Editor <br> 
-It can also be accessed using the ''Show/Hide Piano-Roll'' button in the main tool bar: 
+It can also be accessed using the '''Show/Hide Piano-Roll''' button in the main tool bar: 
 http://lmms.sourceforge.net/wiki/images/3/39/Menubar-f7-pianoroll.png '''(F7)'''
 
 = Piano Roll Tool Bar =
@@ -19,23 +19,31 @@ The Piano Roll toolbar looks like this:
 http://lmms.sourceforge.net/wiki/images/3/30/Pianoroll-toolbar.png
 <!--{\end{center}}-->
 
-Many of the tools are similar to those found in the [[Song Editor]] but there are several important additions. <br> 
-In addition, there are slight but key changes in the way editing is done in the piano roll editor. <br> 
-At this stage it means learning two slightly incompatible editing styles.
+Many of the tools are similar to those found in the [[Song Editor]] with several important additions. <br> 
+Also, editing is done a bit differently in the Piano-Roll editor, so you'll have to learn 2 slightly incompatible editing styles.
 
 == Playback ==
 
 http://lmms.sourceforge.net/wiki/images/9/9e/Pianoroll-playback.png 
 
-This gives you the standard play and stop controls, with the addition of a '''record''' button.  Pressing this will start recording the notes you play on a MIDI keyboard or your [[0.4:Piano Roll Editor#Keyboard|computer's keyboard]].  Press '''stop''' to stop recording.  You can also press the space bar to toggle between play and stop (which also works when recording).
+In addition to the Playback and Stop controls, there is a '''Record''' button which will record the notes you play on either:
+* an attached [[0.4:Using MIDI|MIDI keyboard]], and/or
+* your [[0.4:Piano Roll Editor#Keyboard|computer's keyboard]].
+Press '''Stop''' to stop recording. <br>
+The keyboard's spacebar will also toggle between Playback and Stop in both playback and record modes.
 
 == Editing ==
 
 http://lmms.sourceforge.net/wiki/images/f/f2/Pianoroll-editing.png
 
-This is where the key difference between editing in the Piano Roll and in the Song Editor comes in.  The four tools you have '''create''' notes, '''erase''' notes, draw '''selections''' and '''move''' selections.  The behaviour of the create and erase tools will be detailed in the [[#Notes|notes]] section below.
+The 4 editing modes (tools) are '''Draw''', '''Erase''', '''Select''', and '''Detune'''.  The Draw and Erase modes are explained below in the [[#Notes|Notes]] section.
 
-The selection tools allow you to move areas of notes around, as well as cutting and copying areas of notes using the clipboard (see below).  Use the selection tool to draw rectangular areas on the piano roll, and notes whose start falls within that area will be selected.  You can then move these notes by selecting the move tool and dragging any selected note.  You can move notes both earlier (left) or later (right) in time, but up and down in pitch as well.  The selection cannot go past the front of the rectangle selected, however, so it often help to leave little extra space on the left side of the drawn area.  It may also help that when the move tool is selected, you can drag on any part of the piano roll to move the notes, not just inside the selection.
+The Select mode tool allows you to select individual notes to create a group, or "selection", which you can then move, cut, copy, or paste. 
+* '''Rectangular Selection''': use the Select tool to drag a rectangular area around some notes. When you release the mouse button, the selected notes will turn blue.
+* '''Individual Selection''': use the Select tool to left-click on a note--it will turn blue.
+* '''Add to Selection''': you can add additional notes to the current selection by holding down the Shift key (Shift+drag or Shift+click) and the additional notes will turn blue, too.
+* '''Remove from Selection''': can't find a way to do this
+* '''Clear Selection''': left-click on an empty space in the Piano-Roll
 
 == Clipboard ==
 
