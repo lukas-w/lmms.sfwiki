@@ -84,7 +84,7 @@ For example, if you set the Quantisation to 1/1 (i.e. 1 bar resolution), you'll 
 == Notes ==
 
 === Draw and Move Notes ===
-Use the '''Draw mode''' tool to place notes in the Piano-Roll. As you hover your mouse or drag a note in the work area, the gray horizontal line helps you see the pitch of the note you're placing:
+Use the '''Draw mode''' tool to place notes in the Piano-Roll. As you hover your mouse or move a note in the work area, the gray horizontal line helps you see the pitch of the note you're placing:
 * '''left-click''' to place a note 
 * '''right-click''' to delete a note
 * hover over the center of a note until a '''4-headed arrow''' appears then:
