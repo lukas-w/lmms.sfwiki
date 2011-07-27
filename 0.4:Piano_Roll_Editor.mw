@@ -77,6 +77,8 @@ http://lmms.sourceforge.net/wiki/images/1/19/Pianoroll-quantisation.png <br>
 The current [[Glossary#quantisation|quantisation]] setting is displayed in a drop-down menu. <br> 
 This allows you to set the minimum 'step' of the start or length of each note when recording, or when using the pencil tool.
 
+== Notes ==
+
 === Note Length ===
 
 http://lmms.sourceforge.net/wiki/images/b/be/Pianoroll-notelength.png <br> 
@@ -84,7 +86,7 @@ The current note length setting is displayed in another drop-down menu. <br>
 This controls the length of notes made with the creation tool. <br> 
 You can either specify a given note length, or specify that the next note will be the same length as the last note.
 
-== Note Volume (Velocity) ==
+=== Note Volume (Velocity) ===
 
 http://lmms.sourceforge.net/wiki/images/4/49/Pianoroll-note-volume.png <br> 
 The 'weight' of each note - its loudness or softness - is termed '''velocity''' in music sequencers. <br> 
@@ -92,7 +94,7 @@ This velocity is shown as a vertical bar at the bottom of the window. <br>
 You can change the velocity of each note by clicking on this bar and dragging it to its preferred location. <br> 
 This information is also recorded when you record notes from a MIDI keyboard that is capable of recording the velocity of the notes as they are played.
 
-== Note Panning ==
+=== Note Panning ===
 
 http://lmms.sourceforge.net/wiki/images/7/74/Pianoroll-note-panning.png <br> 
 Clicking on the note volume gives you the note panning and vice versa.
