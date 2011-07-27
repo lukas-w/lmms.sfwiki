@@ -127,8 +127,8 @@ Click (or click-and-hold) on any piano key to hear the corresponding note.
 
 [[File:keyboard-pianoKeys1.png|500px|thumb|right|Computer keyboard as a piano.]]
 In the Piano-Roll window, you can use the computer keyboard to play notes in a 2-octave range. It starts from Z at C3 and goes horizontally across the bottom 2 rows of the keyboard to M playing B3 (i.e. Z X C V B N M play the natural notes and S D G H J play the sharps and flats). It continues with Q playing C4 and uses the top 2 rows of the keyboard to P playing E5 (i.e. Q W E R T Y U I O P play the natural notes and 2 3 5 6 7 9 0 play the sharps and flats). <br>
-Also, a MIDI keyboard can be used to play notes. <br>
-Both the computer keyboard and a MIDI keyboard can be used to record notes when using the Record feature.
+Also, an attached [[0.4:Using MIDI|MIDI keyboard]] can be used to play notes. <br>
+Both the computer keyboard and a MIDI keyboard can be used to record notes when using the [[#Playback & Record|Record]] feature.
 
 = Navigation =
 
