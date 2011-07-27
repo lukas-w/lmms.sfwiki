@@ -114,22 +114,21 @@ The '''pan''' of each note is the ratio of the note volume that is transmitted o
 
 = Piano Keys =
 
-Below the tool bar on the left-hand side of the window is the keyboard. <br> 
-This shows a segment of a keyboard, seen side-on, that relates to the notes displayed in the piano roll.
-
-<!--{\begin{center}}-->
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="75px" valign="top"|
 http://lmms.sourceforge.net/wiki/images/a/ac/Pianoroll-keys.png
-<!--{\end{center}}-->
+| valign="top"|
+The piano keyboard is on the left side of the window. <br> 
+You can scroll up (higher pitch) and down (lower pitch) using either the scroll bar on the right side of the window or the scroll wheel on your mouse. <br> 
+Click (or click-and-hold) on any piano key to hear the corresponding note.
+|}
 
-This can be scrolled up and down using the scroll bar on the right-hand side of the piano roll, or by using the scroll wheel on your mouse. <br> 
-You can also click on this to play the corresponding note.
+== Computer Keyboard ==
 
-
-== Keyboard ==
-
-[[File:keyboard-pianoKeys1.png|500px|thumb|right|keyboard as piano]]
-You can use the keyboard of your computer to play notes in a two-octave range.  This starts from Z at C3 and goes horizontally across the bottom two rows of tke keyboard to M playing B3 - i.e. ZXCVBNM play the natural notes and SDGHJ play the sharps and flats.  It continues with Q playing C4 and uses the top two rows of the keyboard up to P playing E5 - i.e. QWERTYUIOP plays the natural notes and 2356790 play the sharps and flats.  In addition, any MIDI keyboard can be used to send MIDI command to this instrument when it's selected.
-
+[[File:keyboard-pianoKeys1.png|500px|thumb|right|Computer keyboard as a piano.]]
+In the Piano-Roll window, you can use the computer keyboard to play notes in a 2-octave range. It starts from Z at C3 and goes horizontally across the bottom 2 rows of the keyboard to M playing B3 (i.e. Z X C V B N M play the natural notes and S D G H J play the sharps and flats). It continues with Q playing C4 and uses the top 2 rows of the keyboard to P playing E5 (i.e. Q W E R T Y U I O P play the natural notes and 2 3 5 6 7 9 0 play the sharps and flats). <br>
+Also, a MIDI keyboard can be used to play notes. <br>
+Both the computer keyboard and a MIDI keyboard can be used to record notes when using the Record feature.
 
 = Navigation =
 
