@@ -20,7 +20,8 @@ http://lmms.sourceforge.net/wiki/images/3/30/Pianoroll-toolbar.png
 <!--{\end{center}}-->
 
 Many of the tools are similar to those found in the [[Song Editor]] with several important additions. <br> 
-Also, editing is done a bit differently in the Piano-Roll editor, so you'll have to learn 2 slightly incompatible editing styles.
+Also, editing is done a bit differently in the Piano-Roll editor, so you'll have to learn 2 slightly incompatible editing styles. <br>
+'''''Warning! the Undo action (Edit, Undo or Ctrl-Z) does not work!'''''
 
 == Playback ==
 
