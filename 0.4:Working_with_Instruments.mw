@@ -233,11 +233,6 @@ http://lmms.sourceforge.net/wiki/images/7/77/Plugins-pianokeys.png
 == Base note ==
 The green square just above the keys shows the ''''base note'''' of the keyboard. You can drag the green square to any note position along the keyboard. Whichever note you select with this green mark will be played as A4 (i.e. the concert pitch of 440 Hertz). For example, moving it to A3 will make all the notes played by this instrument move up by an octave (since A3 is now A4). This allows you to adjust an individual instrument to be pitched correctly in relation to all the others. This is not important for synthesizers where the A4 note is programmed to be 440Hz. However, for the [[AudioFileProcessor Plugin]], this is extremely useful, as it allows you to adjust the note to be played back at its correct pitch. As an example, if you recorded a saxophone playing a Bb, you would adjust the '''base note''' to be Bb, so that the saxophone was played in the same pitch as your other instruments.
 
-
-
-[[File:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
-<br>
-<br>
 == Computer Keyboard ==
 
 [[File:keyboard-pianoKeys1.png|500px|thumb|top|right|keyboard as piano]]
