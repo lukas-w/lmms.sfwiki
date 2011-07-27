@@ -84,11 +84,15 @@ For example, if you set the Quantisation to 1/1 (i.e. 1 bar resolution), you'll 
 == Notes ==
 
 === Draw and Move Notes ===
-Use the '''Draw mode''' tool to place notes in the Piano-Roll:
-* left-click to place a note; the gray horizontal line help you see the pitch of the note you're placing
-* right-click to delete a note
-* hover over the center of a note until a 4-headed arrow appears then drag the note either left/right in time or up/down in pitch; this also works for a selection of notes
-* hover over the right-end of the note until a 2-headed arrow appears then drag the end of note either left/right to change the length of the note; this also works for a selection of notes
+Use the '''Draw mode''' tool to place notes in the Piano-Roll. As you hover your mouse or drag a note in the work area, the gray horizontal line helps you see the pitch of the note you're placing:
+* '''left-click''' to place a note 
+* '''right-click''' to delete a note
+* hover over the center of a note until a '''4-headed arrow''' appears then:
+** '''drag''' the note either left/right in time or up/down in pitch. This also works for a selection of notes. The note(s) will snap to the nearest time increment as set in the Quantisation drop-down.
+** '''Alt+drag''' the note either left/right in time or up/down in pitch. This also works for a selection of notes. The note(s) will "free-drag" and snap to the nearest 1/192 time increment (i.e. max Quantisation).
+* hover over the right-end of the note until a '''2-headed arrow''' appears then:
+** '''drag''' the end of note either left/right to change the length of the note. This also works for a selection of notes. The right end of the note(s) will snap to the nearest time increment as set in the Quantisation drop-down.
+** '''Alt-drag''' the end of note either left/right to change the length of the note. This also works for a selection of notes. The right end of the note(s) will "free-drag" and snap to the nearest 1/192 time increment (i.e. max Quantisation).
 
 === Erase Notes ===
 Use the '''Erase mode''' tool to delete notes in the Piano-Roll:
