@@ -38,7 +38,7 @@ http://lmms.sourceforge.net/wiki/images/f/f2/Pianoroll-editing.png
 
 The 4 editing modes (tools) are '''Draw''', '''Erase''', '''Select''', and '''Detune'''.  The Draw and Erase modes are explained below in the [[#Notes|Notes]] section.
 
-The Select mode tool allows you to select individual notes to create a group, or "selection", which you can then move, cut, copy, or paste. 
+The '''Select''' mode tool allows you to select individual notes to create a group, or "'''selection'''", which you can then move, cut, copy, or paste. 
 * '''Rectangular Selection''': use the Select tool to drag a rectangular area around some notes. When you release the mouse button, the selected notes will turn blue.
 * '''Individual Selection''': use the Select tool to left-click on a note--it will turn blue.
 * '''Add to Selection''': you can add additional notes to the current selection by holding down the Shift key (Shift+drag or Shift+click) and the additional notes will turn blue, too.
