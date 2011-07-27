@@ -109,10 +109,14 @@ You can choose either a given note length or that the next note will be the same
 
 === Note Volume & Panning ===
 Click on the '''Note Volume/Note Panning''' button below the piano keys to toggle between the Note Volume and Note Panning editor. <br>
-http://lmms.sourceforge.net/wiki/images/4/49/Pianoroll-note-volume.png http://lmms.sourceforge.net/wiki/images/7/74/Pianoroll-note-panning.png<br> 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" valign="top"|
+[[File:Volume.png|frame|left|alt=Note Volume Editor.|Note Volume Editor.]]
+| valign="top"|
 The '''volume''' (loudness) of each note is termed '''velocity''' in music sequencing. Velocity is shown as a vertical green bar below the note in the Note Volume editor. You can change the velocity of each note by clicking somewhere on the vertical bar for that note or by dragging the orange box to the level you want. This info is set automatically when you record notes using a MIDI keyboard that is capable of transmitting the velocity of the notes as they are played.
 
 The '''pan''' of each note is the ratio of the note volume that is transmitted out the right stereo channel versus the left stereo channel. Pan is shown as a vertical orange bar below the note in the Note Pan editor. By default, the pan is centered (equal volume out the left and right channels). You can change the velocity of each note by clicking somewhere on the vertical bar for that note or by dragging the orange box to the position you want.
+|}
 
 = Piano Keys =
 
