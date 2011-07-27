@@ -72,7 +72,7 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 ; Song
 : The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[0.4:Song Editor|Song Editor]].
 ; Step
-: One sixteenth of a bar in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; a single 'tab' in the pattern display.
+: One sixteenth of a bar in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; a single "tab" or "tombstone" in the pattern display.
 
 == T ==
 
