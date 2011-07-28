@@ -9,7 +9,7 @@ Automation is a powerful tool for customising the sound of your project. You can
 | width="300px" valign="top"|
 [[File:LMMS-controls.png|frame|left|alt=GUI controls.|GUI controls.]]
 | valign="top"|
-'''Controls''' are the knobs, sliders, LED toggle switches, and digital readouts that can be found on the GUIs within LMMS. All controls on default LMMS GUIs can be automated. 
+'''Controls''' are the knobs, sliders, LED toggle switches, and digital readouts that can be found on the GUIs within LMMS (see image at left). All controls on default LMMS GUIs can be automated, even option selector buttons and drop-down menus!
 |}
 
 = What can be Automated? =
