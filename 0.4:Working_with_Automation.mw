@@ -1,44 +1,46 @@
 {{0.4:Working with AutomationTrans}}
 {{msgbox:out of date|0.4}}
 
-Automation is a powerful tool for customising the sound of your project.  It can provide anything from a simple 'automated' mixing desk - moving the volume levels up and down as the song progresses - to changing the sound of an instrument, its effects settings, and even the tempo of the entire song.  Virtually [[Automation#What_can_be_automated.3F|any control]] can be automated, allowing for very powerful control of your song. Automation tracks can even be added in the song editor to make repetitive automation tasks much easier to manage.
+Automation is a powerful tool for customising the sound of your project. You can use it to do tasks as simple as automating a mixing desk (moving the volume levels up and down as the song progresses), or as complex as varying the sound of an instrument, its effects settings, and even the tempo of the entire song.  Almost any GUI control can be automated allowing for very powerful control of your song.
 
-== What can be Automated? ==
+= Controls =
 
-The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor reference]].  However, it is worth looking at this list in more detail to see the sheer quantity of controls that can be automated:
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" valign="top"|
+[[File:LMMS-controls.png|frame|left|alt=GUI controls.|GUI controls.]]
+| valign="top"|
+'''Controls''' are the knobs, sliders, LED toggle switches, and digital readouts that can be found on the GUIs within LMMS. All controls on default LMMS GUIs can be automated. 
+|}
 
-* Track controls such as the Volume and Mute settings, in both the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] and the [[0.4:Piano Roll Editor|Piano Roll Editor]].
-* Virtually all Instrument controls:
-** The settings of the Instrument [[0.4:Plugins|Plugin]] itself, worthy of a subsection in its own right:
-*** All the knobs, such as phase, tuning, and pan.
-*** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix-type between them.
-** The knobs controlling the envelope, LFO, and filter parameters.
-** The radio buttons controlling the filter and LFO.
-** The type of filter selected.
-** The arpeggio type and length.
-** The controls for any effects you've got on the instrument, and whether all effects are on or not.
-** The MIDI channels to receive and send note data on.
-* The master Tempo, Pitch, and Volume.
+= What can be Automated? =
 
-Basically, right-click on a control, and if it has an "Open in Automation Editor" option in the context menu, it's automatable!
+The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor]] manual page. If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS. 
 
-However, only controls on the built-in LMMS instruments can be automated. You '''cannot''' automate any knobs or sliders on third-party VST instruments, including zynAddSubFX, even though it is included with LMMS. 
+= Song-global vs Automation tracks =
 
-There are 2 things to remember when automating controls:
-* The automation for controls on tracks in a Beat/Bassline only apply to the first bar (or as many bars as the beat/bassline pattern lasts).
-* All other automation starts from bar 1 of the song editor.
+There are 2 ways to automate a control: Song-global automation and Automation tracks.
 
-== Song Editor Automation ==
+== Song-global automation ==
+'''Song-global automation''' is a way to automate a control directly without using an automation track. You right-click a control and select '''Edit song-global automation'''. The Automation Editor will open and allow you to automate the control. For Song-global automation, the bar numbers shown in the Automation Editor window are the same as the bar numbers of the song starting at bar #1. If you want to automate a change for this control at bar #7 in the song, you do that at bar #7 in the Automation Editor. When you close the Automation Editor window, you have '''no''' indicators that this control has any automated actions attached. This is '''not''' the recommended way to automate a control.
 
-It's easy to manage repetitive or lengthy automations using the [[Song Editor]]. You can add an automation track in the Song-Editor by clicking the "Add automation-track" button. Also, just like an instrument track, you can add an empty block to a bar just by clicking in an empty bar in the track. [[File:LMMS-auto-editor.png|frame|right|alt=Automation tracks & editor.|Automation tracks & editor.]] Then, to automate a control using your new automation track, '''Ctrl+drag''' the icon of an automatable control into a bar or block in the new automation track. If you have an automation block that already contains 1 or more controls, when you Ctrl+drag another control into the block, the second control becomes controlled by that automation block, too. You can also Ctrl+drag a different control into a different bar or block of the same automation track. So, you see that you can:
+== Automation Tracks ==
+'''Automation Tracks''' are specialized tracks you can add to the Song-Editor. You can create blocks in the automation tracks, the same as you would in an instrument track. Then, you can '''connect''' (bind) controls to blocks within the automation track (explained below). You double-click a block that has a connected control, and it will open in the Automation Editor. Unlike Song-global automation, the bar numbers shown in the Automation Editor do '''not''' correspond to the bar numbers in the song. Instead, they are relative to the automation block's start position in the track. For example, if an automation block begins at bar #4 in the song, then bar #1 in the Automation Editor corresponds to bar #4 in the song. Furthermore, when you close the Automation Editor window, you have indicators in the automation track block that this control has automated actions attached. This is the '''recommended''' way to automate a control. It's good practice to keep the Automation Tracks adjacent to (in the stacking order) the Song-Editor tracks where the control can be found--this helps keep you organised.
+
+(??) Remember this when automating BB track controls:
+* The automation for controls on tracks in a Beat/Bassline track apply to the pattern as seen in the Beat+Bassline Editor; therefore, the automation will loop as the BB track loops.
+
+= Song Editor Automation Tracks =
+
+It's best to manage automations using Automation Tracks in the [[Song Editor]]. You can add an Automation Track in the Song-Editor by clicking the "Add automation-track" button. Then, just like an instrument track, you can add an empty block to a bar by clicking in an empty bar in the track. [[File:LMMS-auto-editor.png|frame|right|alt=Automation tracks & editor.|Automation tracks & editor.]] Then, to automate a control using your new automation track, '''Ctrl+drag''' the icon of an automatable control into a bar or block in the new automation track. If you have an automation block that already contains 1 or more controls, when you Ctrl+drag another control into the block, the second control becomes controlled by that automation block, too. You can also Ctrl+drag a different control into a different bar or block of the same automation track. This means that you can:
 * automate multiple controls simultaneously in the same block of a track, and 
 * automate multiple controls sequentially in different blocks of the same track.
+For a specific block in an automation track, you can list the controls it automates by right-clicking the block in the Song-Editor; the '''Connections''' (connected controls) will be listed at the bottom. The "Connections" context menu item gives you the option to release (disconnect) a connected control from that automation block.
 
-Double-click on any automation track block to open the [[Automation Editor]]. Unlike regular automation, the bar numbers shown in the Automation Editor do '''not''' correspond to the bar numbers in the song. Instead, they are relative to the automation block's start position in the track. For example, if an automation block begins at bar #4 in the song, then bar #1 in the Automation Editor corresponds to bar #4 in the song. Just like other blocks in the Song-Editor, the right-click context menu offers delete, cut, copy, paste, mute/unmute, clear, and rename. Using the mouse, you can move (drag) and lengthen/shorten the duration (drag 2-headed arrow) of an Automation block. The image is an example of 2 automation tracks next to an instrument track. The 1st automation track fades in the volume from zero, holds a while, then fades back down to zero. The 2nd automation track is opened in the Automation Editor, and shows automation of stereo panning from full left, to full right, to full left, then back to center.
+To edit the automation within a block, double-click on the automation track block to open it in the [[Automation Editor]]. Just like other blocks in the Song-Editor, the right-click context menu offers delete, cut, copy, paste, mute/unmute, clear, and rename. Using the mouse, you can move (drag) and lengthen/shorten the duration (drag 2-headed arrow) of an Automation block. The image to the right is an example of 2 automation tracks below an instrument track. The 1st automation track fades-in the volume from zero, holds it steady a while, then fades back down to zero. The 2nd automation track is opened in the Automation Editor, and shows an automation of stereo panning from full left, to full right, to full left, then back to center.
 
-== Automation Examples ==
+= Automation Examples =
 
-=== Fading in ===
+== Fading in ==
 
 The most common and simplest use for Automation is in fading an instrument in at the start of the performance, so it doesn't dominate the piece when it enters.  This is accomplished by automating the volume control of the instrument in the Song Editor.
 
@@ -62,7 +64,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automat
 
 Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
 
-=== Adding expression ===
+===Adding expression ==
 
 By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
 
@@ -70,7 +72,7 @@ By automating the master tempo control to get slower (a ''rallentando'') as you 
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
 </center>
 
-=== Eighties acid effects ===
+== Eighties acid effects ==
 
 The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
 
@@ -103,7 +105,7 @@ http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
 
 It is worth noting here that the frequency of control points changes the sound.  At bar 17 there are four upward sweeps with the quantisation set to 1/16, and then from bar 21 there are four downward sweeps with the quantisation set to 1/32 (i.e. twice as many control points).  The changes to the filter cutoff do not happen in an analog fashion, like someone turning a knob - they happen digitally and jump instantly between settings.  This means that you can hear the changes in frequency as distinct steps - the four upward sweeps may sound a little stuttery or jerky and the downward sweeps may sound smoother.  For fine control you may even want to use 1/64th quantisation.  However, since it is more difficult to get a truly even curve or line by drawing, the downside to this approach may be that your own inaccuracies in drawing the control points become audible and are harder to edit out.
 
-=== Sounds flying past ===
+== Sounds flying past ==
 
 In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
 
@@ -130,14 +132,14 @@ You can download this as an MMPZ file from
 
 http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
 
-== When not to use Automation ==
+= When not to use Automation =
 
 Though Automation gives you great power and flexibility over the sound of an instrument or your entire piece, there are some times where it is overkill and others where there are easier ways to achieve what you want.
 
 * Automation currently lacks any tools to make regular shapes such as sine waves.  Drawing these can be quite difficult, especially if you are looking at drawing such a shape for a long time.  Instead, use an LFO - either in the instrument plugin or as an effect.
 * Automation can be applied to change the characteristics of each note individually - for example, to have a note gradually fade away or gradually introduce vibrato - but it is tedious to do this to every note.  The LFO settings in the instrument plugin's Evelope/LFO/Filter section allow you to set the attack rate of the LFO to gradually fade in vibrato, and the envelope can be set to give a long decay time.
 
-== Navigation ==
+= Navigation =
 
 Reference: [[0.4:Automation Editor|Automation Editor]]
 
