@@ -30,16 +30,11 @@ There are 2 things to remember when automating controls:
 
 == Song Editor Automation ==
 
-{| cellspacing="0" valign="top" align="center" width="100%"
-| width="35%" valign="top"|
-It's easy to manage repetitive or lengthy automations using the [[Song Editor]]. You can add an automation track in the Song-Editor by clicking the "Add automation-track" button. Also, just like an instrument track, you can add an empty block to a bar just by clicking in an empty bar in the track. Then, to automate a control using your new automation track, '''Ctrl+drag''' the icon of an automatable control into a bar or block in the new automation track. If you have an automation block that already contains 1 or more controls, when you Ctrl+drag another control into the block, the second control becomes controlled by that automation block, too. You can also Ctrl+drag a different control into a different bar or block of the same automation track. So, you see that you can:
+It's easy to manage repetitive or lengthy automations using the [[Song Editor]]. You can add an automation track in the Song-Editor by clicking the "Add automation-track" button. Also, just like an instrument track, you can add an empty block to a bar just by clicking in an empty bar in the track. [[File:LMMS-auto-editor.png|frame|right|alt=Automation tracks & editor.|Automation tracks & editor.]] Then, to automate a control using your new automation track, '''Ctrl+drag''' the icon of an automatable control into a bar or block in the new automation track. If you have an automation block that already contains 1 or more controls, when you Ctrl+drag another control into the block, the second control becomes controlled by that automation block, too. You can also Ctrl+drag a different control into a different bar or block of the same automation track. So, you see that you can:
 * automate multiple controls simultaneously in the same block of a track, and 
 * automate multiple controls sequentially in different blocks of the same track.
 
 Double-click on any automation track block to open the [[Automation Editor]]. Unlike regular automation, the bar numbers shown in the Automation Editor do '''not''' correspond to the bar numbers in the song. Instead, they are relative to the automation block's start position in the track. For example, if an automation block begins at bar #4 in the song, then bar #1 in the Automation Editor corresponds to bar #4 in the song. Just like other blocks in the Song-Editor, the right-click context menu offers delete, cut, copy, paste, mute/unmute, clear, and rename. Using the mouse, you can move (drag) and lengthen/shorten the duration (drag 2-headed arrow) of an Automation block. The image is an example of 2 automation tracks next to an instrument track. The 1st automation track fades in the volume from zero, holds a while, then fades back down to zero. The 2nd automation track is opened in the Automation Editor, and shows automation of stereo panning from full left, to full right, to full left, then back to center.
-| valign="top"|
-[[File:LMMS-auto-editor.png|frame|left|alt=Automation tracks & editor.|Automation tracks & editor.]]
-|}
 
 == Automation Examples ==
 
