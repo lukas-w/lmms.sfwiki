@@ -65,7 +65,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-fadein-automat
 
 Note the time ruler's position - the fade in starts at around bar 41, when the first notes occur.
 
-===Adding expression ==
+== Adding expression ==
 
 By automating the master tempo control to get slower (a ''rallentando'') as you approach the end of a phrase and then resume its pace immediately after, you give your piece expression - as if a live piano player were emphasising that section.  This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
 
