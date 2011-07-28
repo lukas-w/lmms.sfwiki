@@ -11,22 +11,21 @@ The list of controls that can be automated is vast, as can be seen from the list
 * Virtually all Instrument controls:
 ** The settings of the Instrument [[0.4:Plugins|Plugin]] itself, worthy of a subsection in its own right:
 *** All the knobs, such as phase, tuning, and pan.
-*** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix type between them.
-** The knobs controlling the envelope, LFO and filter parameters.
+*** All the multivalue selectors, such as the waveform shape of each oscillator and even the mix-type between them.
+** The knobs controlling the envelope, LFO, and filter parameters.
 ** The radio buttons controlling the filter and LFO.
 ** The type of filter selected.
 ** The arpeggio type and length.
 ** The controls for any effects you've got on the instrument, and whether all effects are on or not.
 ** The MIDI channels to receive and send note data on.
-* The master Tempo, Pitch and Volume.
+* The master Tempo, Pitch, and Volume.
 
-Basically, right-click on it, and if it's got an 'Open in Automation Editor' option in the context menu, it's automatable!
+Basically, right-click on a control, and if it has an "Open in Automation Editor" option in the context menu, it's automatable!
 
-However, only controls that are on default LMMS GUI's can be automated. -eg: You cant automate any knobs or sliders on any 3. parts VST instruments. including zynAddSubFX, even though it is included with LMMS. 
+However, only controls on the built-in LMMS instruments can be automated. You '''cannot''' automate any knobs or sliders on third-party VST instruments, including zynAddSubFX, even though it is included with LMMS. 
 
-There are two things to remember when automating controls:
-
-* The automation for controls on tracks in a beat/bassline only goes for the first bar (or as many bars as the beat/bassline pattern lasts).
+There are 2 things to remember when automating controls:
+* The automation for controls on tracks in a Beat/Bassline only apply to the first bar (or as many bars as the beat/bassline pattern lasts).
 * All other automation starts from bar 1 of the song editor.
 
 == Song Editor Automation ==
