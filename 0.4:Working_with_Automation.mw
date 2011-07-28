@@ -14,7 +14,8 @@ Automation is a powerful tool for customising the sound of your project. You can
 
 = What can be Automated? =
 
-The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor]] manual page. If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS. 
+The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor]] manual page. If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS.
+<br>
 
 = Song-global vs Automation tracks =
 
