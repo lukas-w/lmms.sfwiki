@@ -1,5 +1,7 @@
 {{0.4:Automation EditorTrans}}
 
+The Automation Editor allows you to control the value of any automatable control at any point in time during the song. This allows you everything; from very simple effects like turning the volume on an instrument up at the start of the song, to very complex manipulation of the envelopes or filters of the instrument itself. Even the controls in [[LADSPA|LADSPA Effects]] can be automated!
+
 When opened using the Automation Editor button ('''F8'''), the main window looks like this: <br> 
 This is because the content of the automation has to be applied to an actual control. <br> 
 As the text suggests, you need to right-click on a control in order to edit the automation for that control.
@@ -8,10 +10,8 @@ As the text suggests, you need to right-click on a control in order to edit the 
 http://lmms.sourceforge.net/wiki/images/e/ef/Automation-editor1.png
 <!--{\end{center}}-->
 
-The Automation Editor allows you to control the absolute value of any automatable control at any point in time during the performance. <br> 
-This allows you everything; from very simple effects like turning the volume on an instrument up at the start of the song, <br> 
-to very complex manipulation of the envelopes or filters of the instrument itself. <br> 
-Even the controls in [[LADSPA|Ladspa Effects]] can be automated!
+
+
 
 
 = What can be automated? =
