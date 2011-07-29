@@ -51,11 +51,7 @@ The example in the image automates the increase in volume of the instrument trac
 
 == Adding expression ==
 
-You can automate the master tempo control to slow down as the performance approaches the end of a phrase (a '''rallentando''') and have it resume its pace immediately afterward. This gives your song '''expression''', as if a live piano player were emphasising that section. This looks somewhat like a single 'negative' sawtooth taken out of the automation, such as
-
-<center>
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-rallentando-short.png
-</center>
+[[File:LMMS-auto-rallentando.png|frame|right|alt=Rallentando tempo automation.|Rallentando tempo automation.]]You can automate the '''Master Tempo''' control to slow down as the performance approaches the end of a phrase (a '''rallentando''') and have it resume its pace immediately afterward. This gives your song '''expression''', as if a live piano player were emphasising that section. The tempo automation graph looks like a single "negative" sawtooth pattern.
 
 == Eighties acid effects ==
 
