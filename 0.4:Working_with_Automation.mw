@@ -108,8 +108,8 @@ Example files:
 Make a staccato beat with "clap01.ogg", and repeat it for 4 bars in the Song-Editor. To automate the fly-by, '''Ctrl+drag''' the "clap01.ogg" Pan control to an Automation track in the Song-Editor, then double-click the Automation track block to open it in the Automation Editor. In the Automation Editor use the Draw mode tool to:
 # click at 100 (full right) at the beginning of bar #1
 # Shift+click at -100 (full left) at the end of bar #2
-# Shift+click at 100 (full right) at the end of bar #4
-# Shift+click at 0 (center) at the end of bar #4
+# Shift+click at 100 (full right) on the vertical line just before the end of bar #4
+# Shift+click at 0 (center) at the end of bar #4 (optional)
 
 And now the clap sounds "fly" from right-to-left and back again!
 
