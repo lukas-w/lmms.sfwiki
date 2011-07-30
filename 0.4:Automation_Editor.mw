@@ -59,7 +59,7 @@ The actual value of the control at any point in time is dictated by the last '''
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-point-zoomed.png
 <!--{\end{center}}-->
 
-The yellow "dot" is the '''control point'''. There can only by 1 control point for any point in time; therefore, you'll be unable to stack 2 points on the same vertical line. The Automation Editor displays only 16 vertical lines per bar, so if a control point is not on a visible vertical line, remember that it's on an '''invisible''' vertical line that it cannot share.
+The yellow "dot" is the '''control point'''. There can be only 1 control point for any point in time; therefore, you'll be unable to stack 2 points on the same vertical line. The Automation Editor displays only 16 vertical lines per bar, so if a control point is not on a visible vertical line, remember that it's on an '''invisible''' vertical line that it cannot share.
 
 == Drawing Control Points ==
 
