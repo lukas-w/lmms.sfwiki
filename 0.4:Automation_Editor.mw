@@ -45,62 +45,44 @@ This is a typical view of the automation window:
 http://lmms.sourceforge.net/wiki/images/1/14/Automation-editor2.png 
 <!--{\end{center}}-->
 
-The window title '''Automation Editor - Lead>Volume''' tells you that this is editing the volume channel of the lead sound.
+The window title '''Automation Editor-Lead>Volume''' tells you that you are editing the automation graph of the "Volume" control that belongs to the track named "Lead".
 
-In the main part of the window we have a graph of the value of the control over time.  The time is listed along the X axis (at the top of the window) and the value of the control is listed along the Y axis.  The editor cursor is linked to horizontal and vertical red lines to make it easier to correlate a value either with a previous or future value or to precisely line it up with a time.
+The main part of the window is a '''graph''' of the '''value''' of the control over '''time'''. Time is listed along the horizontal axis (at the top of the window) in the units of bars (aka the "timeline"). The value of the control is listed along the vertical axis at the left of the window in whatever units the control uses. Within the graphing area, the mouse cursor is linked to the horizontal and vertical axes by red lines to make it easier to see where you are working in both dimensions. How you should interpret the bar numbers in the Automation Editor depends on which method you are using to automate a control: [[0.4:Working with Automation#Song-global vs Automation Tracks|Song-global or Automation Track]].
 
-For most controls, the time axis (i.e. the horizontal ruler) is equivalent to the time in the Song Editor.  In other words, bar one in the Automation Editor is equal to bar one in the Song Editor.  The exception to this rule is with drum patterns, where bar one is the start of the pattern.  For drum patterns, bar one is repeated every time they are played, and subsequent bars of automation are ignored.
-
-The area under the graph in orange provides an easy way to see the volume over time.  It is displayed in this way because volume goes from 0 upward.  In circumstances where the value can be negative, the zero line is inside the graph and values below zero are shaded orange from the value to zero.  An example of such a control is the left-to-right pan position of an instrument.
+The orange part of the graph provides an easy way to see the curve of the graph. The area between the curve and zero is shaded orange. In the case of a volume control, all the values are zero or greater, so zero is at the bottom of the value scale. For controls where the value can be negative, for example, a stereo pan control, the "zero line" is in the middle of the graph and orange shading can occur on either side of the zero line.
 
 == Control Points ==
 
-The actual value of the control at any point in time is dictated by the last '''control point''' at or before that time.  A zoomed-in view of a control point is shown here:
+The actual value of the control at any point in time is dictated by the last '''control point''' at or before that time.  This is a zoomed-in view of a control point:
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-point-zoomed.png
 <!--{\end{center}}-->
 
-The yellow mark is the '''control point'''.  There is only ever one control point for any point in time, although the same value can occur at many points in time.  (I.e. points do not stack vertically).
+The yellow "dot" is the '''control point'''. There can only by 1 control point for any point in time; therefore, you'll be unable to stack 2 points on the same vertical line. The Automation Editor displays only 16 vertical lines per bar, so if a control point is not on a visible vertical line, remember that it's on an '''invisible''' vertical line that it cannot share.
 
 == Drawing Control Points ==
 
 http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png
-Using the Edit tool you can create new points simply by dragging over the graph. <br> 
-You can  move existing points either by drawing at a different location or by hovering the mouse over the control point and dragging it directly.  You can delete control points by hovering over them with the mouse and right-clicking (thus it is the same mouse interface as the piano roll editor).  You can also quickly select the drawing tool by pressing '''shift-D'''.
+Using the '''Draw mode''' tool (pencil), you can create new control points simply by clicking on (or near) a vertical line or by dragging in any direction over the graph. If a control point already exists somewhere on that vertical line, it will be moved up or down to the new location. If a control point does not exist on that vertical line, it will be created there. You can move an existing point up or down its vertical line by dragging it directly--it will look more like you're dragging the vertical orange bar that belongs to that point rather than dragging a point. You can delete a control point by right-clicking (same as deleting a note in the Piano Roll Editor). The hotkey to switch to the Draw mode tool is '''Shift+D'''.
 
 http://lmms.sourceforge.net/wiki/images/5/5f/Automation-editor-quantisation.png 
-The spacing of control points as you draw is set by the quantisation setting.  By default this is set to 1/16th notes
+The timeline spacing of control points as you draw is set by the '''Q''' (quantisation) setting.  By default this is set to 1/16 which means 16 control points per bar (or a control point vertical line every 1/16th of a bar). You don't have to have a control point at every point that it's possible to have one--a horizontal line only requires 2 control points (one at each end).
 
-== Copying Control Points ==
+== Working on Multiple Control Points ==
 
-Each automated control is separate from all others and there is no way to have one set of automation run two controls. <br> 
-To solve this, you can copy and paste control points from one automated control to another. <br> 
-On the one hand you can select all the points by pressing ''Ctrl-A'', then copying and pasting the points from one control to the other. <br> 
-http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
-Alternately, you can use the select tool to select a region of points and then copy and paste that region. <br> 
-While the points are selected you can also move these points in both directions on the page.
+Operations such as cut, copy, paste, delete, and move selection operate on 1 or more '''selected''' control points.
 
-== Pasting Control Points ==
+http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png The '''Select mode''' tool allows you to drag a rectangular area around 1 or more points to select them. The vertical orange bar of the point(s) will turn blue. Use ''Ctrl+A'' to select all the control points in the Automation Editor window. You can then cut, copy, and/or paste the selected points. The '''Paste''' operation preserves both the timeline position (horizontal value) and the control value (vertical value) of the control points. Be aware that the vertical value might not make sense for a different control. After pasting, the pasted points are still selected, which allows you to move them as a group (see next).
 
-Like other windows in LMMS that can select and copy points, when you paste the control points the will be placed starting from the first bar shown in the automation editor.  Before you paste the points, make sure the window is appropriately located to put the points into place.  Once the points are placed the selection area will still be active and you can still move the points after they have been placed.
+[[File:LMMS-move-tool.png]] The '''Move Selection mode''' tool allows you to move (by dragging) the selected control points and without regard for the Q setting. The selection will move at the maximum Q of 1/192. This is similar to the "free drag" (Alt+drag) of notes in the Piano Roll. Beware while moving a selection that any existing points that the selection passes over will be deleted!
+
+Use the '''Delete''' key on the computer keyboard to delete a selection of points.
 
 == Erasing Control Points ==
 
 http://lmms.sourceforge.net/wiki/images/e/eb/Button-eraser.png 
-Points can be erased either by right-clicking on them or by using the eraser tool. <br> 
-
-{| cellspacing="0" valign="top" align="center" width="100%"
-| width="90px" style="color: #000" valign="top"|
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-cursor-move-point.png
-| style="color: #000" valign="middle"|
-When you are close enough to the point to edit or erase it, the cursor will change to a four-way arrow. <br> 
-However, you often have to be almost exactly on the point to erase it and this gets increasingly difficult as you try to erase more points. <br> 
-|}
-
-http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png
-It is much easier to use the select tool to select the points you want to remove and then press the '''Delete''' key to delete them.
-
+The '''Erase mode''' tool can delete control points, as can right-clicking on them. <br>
 
 = Navigation =
 
