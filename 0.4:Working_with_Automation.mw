@@ -62,6 +62,9 @@ You can automate the '''Master Tempo''' control to slow down as the performance 
 
 The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and varying the filter cutoff frequency and other envelope parameters to change the sound through the entire piece.  Because of the repetitive nature of the melody it is tempting to use a bassline to store the melody, but the automation in the Beat / Bassline Editor only goes for as long as the pattern - therefore, the automation you put in will repeat itself every time the pattern repeats, rather than continuously changing.
 
+[http://www.mediafire.com/file/u7pe63a1uuj3aec/automation-howto-acid-2.mmpz Download LMMS Project File (.mmpz)] <br>
+[http://www.mediafire.com/?q1bepsp7ueg4qho Download Final Product Song (.mp3)]
+
 First, create a new track with any instrument, put a bar of repetitive notes in it, and then copy that to create sixteen bars (I copy that bar in the piano roll and paste it three times to create a four-bar phrase, and then copy that segment in the song editor to get four four-bar segments).  Then open the instrument's plugin and select the Envelope/LFO/Filter tab:
 
 <center>
@@ -82,12 +85,6 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-acid-1-automat
 
 You can draw various shapes - blocks, rising and falling curves, sawteeth and jumps.
 It can be difficult to draw with the mouse. Since .4.4 sh+leftMouse Clicking will create strait connected lines. Use this to make slow fine linear gradual changes.
-
-http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.ogg
-
-The project file can be downloaded here:
-
-http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-acid-1.mmpz
 
 It is worth noting here that the frequency of control points changes the sound.  At bar 17 there are four upward sweeps with the quantisation set to 1/16, and then from bar 21 there are four downward sweeps with the quantisation set to 1/32 (i.e. twice as many control points).  The changes to the filter cutoff do not happen in an analog fashion, like someone turning a knob - they happen digitally and jump instantly between settings.  This means that you can hear the changes in frequency as distinct steps - the four upward sweeps may sound a little stuttery or jerky and the downward sweeps may sound smoother.  For fine control you may even want to use 1/64th quantisation.  However, since it is more difficult to get a truly even curve or line by drawing, the downside to this approach may be that your own inaccuracies in drawing the control points become audible and are harder to edit out.
 
