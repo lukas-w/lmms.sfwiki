@@ -2,33 +2,27 @@
 
 The Automation Editor allows you to control the value of any automatable control at any point in time during the song. This allows you anything from very simple effects like turning up the volume of an instrument at the start of the song, to very complex manipulation of the envelopes or filters of the instrument itself. Even the controls in [[LADSPA|LADSPA Effects]] can be automated!
 
-When opened using the Automation Editor button ('''F8'''), the main window looks like this: <br> 
-This is because the content of the automation has to be applied to an actual control. <br> 
-As the text suggests, you need to right-click on a control in order to edit the automation for that control.
+If you open the Automation Editor with its button or '''F8''', and it looks like the image below, then close it, and double-click on an Automation track block instead.
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/e/ef/Automation-editor1.png
 <!--{\end{center}}-->
 
+= What can be Automated? =
 
-
-
-
-= What can be automated? =
-
-To automate a control, right-click on it and select '''Open in automation editor''' from the context menu.
-
-The following controls allow you to automate them:
-
-* the '''tempo/bpm''' display http://lmms.sourceforge.net/wiki/images/6/65/Tempo-bpm.png and '''time-signature''' display <br> 
-* any other control that features a numeric LED display (e.g. FX-channel) <br>  
-
-* almost any knob (e.g. the volume/pan/pitch/...) http://lmms.sourceforge.net/wiki/images/e/e2/Trackbar-volume.png <br>
-
-* Multi-value selectors such as the waveform shape in the [[TripleOscillator]] Plugin.
-* Radio button selectors such as the '''100x frequency multiplier''' in the envelope settings of an instrument.
-* The filter selector drop-down menu in the standard instrument plugin.
-* The '''mute/solo''' controls on any instrument. http://lmms.sourceforge.net/wiki/images/8/89/Button-solomute.png 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| valign="top"|
+'''Controls''' are the knobs, sliders, LED toggle switches, digital readouts, etc, that can be found on the GUIs within LMMS. All controls on default LMMS GUIs can be automated, including the following types:
+* LED toggles
+* Digital readouts
+* Option buttons
+* Sliders
+* Knobs
+* Drop-down Menus
+If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS.
+| width="300px" valign="top"|
+[[File:LMMS-controls-automatable.png|frame|left|alt=Automatable controls.|Automatable controls.]]
+|}
 
 = Automation Editor Toolbar =
 
