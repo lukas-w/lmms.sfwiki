@@ -64,7 +64,8 @@ The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedi
 
 Example files:
 * [http://www.mediafire.com/file/u7pe63a1uuj3aec/automation-howto-acid-2.mmpz Download LMMS Project File (.mmpz)]
-* [http://www.mediafire.com/?q1bepsp7ueg4qho Download Final Product Song (.mp3)]
+* [http://www.mediafire.com/file/q1bepsp7ueg4qho/automation-howto-acid-2.mp3 Download Final Product Song (.mp3)]
+
 
 First, create a new track in the Song-Editor using any instrument, put a bar of notes in it, and then make that bar repetitive by copying it to create 24 total bars. In the example project file, I opened the bar in the Piano Roll, copied bar #1, and pasted it 3 times to create a 4-bar phrase. Back in the Song-Editor, I copied that 4-bar block, and pasted it 5 times to get six 4-bar blocks (= 24 total bars). 
 
