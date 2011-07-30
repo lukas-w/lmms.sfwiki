@@ -1,14 +1,16 @@
 {{0.4:LMMS SettingsTrans}}
 
-LMMS is very configurable, with many settings allowing you to control how you interact with the software.  There are two main ways to work with these configuration parameters.
-For the current version 0.4.11 and previous versions, Its is very important that the paths, that you enter in the preferences, only uses the letters a..z and or A..Z. If any umlaut or other carachters are used, your preferences will NOT be saved!
+LMMS is very configurable, with many settings that allow you to control how you interact with the software.
 
 = Settings Dialog =
 
-The main settings dialog is accessed through the '''Settings''' menu option in the '''Edit''' menu. <br> 
-The window has a set of tabbed sections on the left and the settings for each on the right. <br> 
-The first tab displayed is the general settings tab.
-
+The Settings Dialog is located on the '''Edit''' menu, '''Settings''' sub-menu. <br> 
+The dialog has 5 buttons on the left side to access these 5 sections:
+* General settings
+* Paths
+* Performance settings
+* Audio settings
+* MIDI settings
 Most of the settings in the Settings Dialog do not take effect until you restart LMMS.
 
 == General Settings ==
@@ -29,15 +31,13 @@ The longer the buffer, the less temporary peaks in CPU usage and interrupts from
 ** '''HQ-mode for output audio-device'''
 |}
 
-== Directories ==
+== Paths ==
 
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="300px" style="color: #000" valign="top"|
 http://img269.imageshack.us/img269/7043/setuplmmspaths.png
 | style="color: #000" valign="middle"|
-
-This tab allows you to set where files are loaded from and saved to.
-
+The Paths section allows you to set the default locations for loading and saving files. For version 0.4.11 (and previous), it's very important that the directory paths that you enter in the preferences only uses the letters a..z and/or A..Z. If any umlaut or other characters are used your preferences will NOT be saved!
 * The '''Working''' directory is where your projects and saved presets are stored.  Projects are saved in a subdirectory named 'projects' and presets similarly.  You can put samples into a directory named 'samples' under the working directory and they will appear in the [[Side Bar]]'s samples section.  You can also use subdirectories in the samples directory to classify your samples; they will appear as folders in the side bar.  They will be listed separately from the default samples and presets that come with LMMS.
 * The '''VST-plugin''' directory is used if you have VST plugins installed (e.g. under WINE).  Set this to the appropriate directory and your VST plugins will be available in LMMS.
 * The '''Artwork''' directory is where themes for customising the look of LMMS can be stored.
@@ -52,8 +52,7 @@ This tab allows you to set where files are loaded from and saved to.
 http://img132.imageshack.us/img132/1096/setuplmmsperformance.png
 | style="color: #000" valign="middle"|
 
-The controls on this tab affect the speed of the rendering of your song into audio in relation to other parts of the interface. <br> 
-While on most modern hardware rendering performance is not an issue, this may help people with older hardware use LMMS without gaps in playback.
+The Performance Settings affect the rendering speed of your song into audio in relation to the performance of other parts of the software. Most modern hardware can handle rendering without an issue, but very complex effects chains or older hardware may cause pauses or delays during playback.
 
 *When the '''Disable channel activity indicators''' control is turned on, the activity indicators on each channel (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-settings-activity-off.png) do not activate whenever there is activity on that channel.  Normally, these glow green and fade as each note is played per channel, and displaying this activity graphically can take up a reasonable amount of CPU time.
 *When '''Only press keys on channel-piano manually''' is turned off, any open instrument plugin window will display the notes that it is playing on its piano keyboard, whether those be from actions by the user (e.g. on a MIDI keyboard) or during playback.  By turning this on, these note presses are only displayed from user input, thus saving an amount of CPU time.
@@ -85,7 +84,7 @@ http://img687.imageshack.us/img687/7949/setuplmmsaudio.png
 http://img63.imageshack.us/img63/9228/setuplmmsmidi.png
 | style="color: #000" valign="middle"|
 
-Similar to the Audio settings above, this allows you to select the interface to use to receive and send MIDI signals with your instruments.  Select the '''MIDI Interface''' that connects your computer to your MIDI instruments and set any device-specific '''Settings''' with these controls.
+The MIDI Settings section allows you to select the interface to use to receive and send MIDI signals with your instruments.  Select the '''MIDI Interface''' that connects your computer to your MIDI instruments and set any device-specific '''Settings''' with these controls.
 |}
 
 == Navigation ==
