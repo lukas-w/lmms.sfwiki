@@ -1,5 +1,4 @@
 {{0.4:Working with AutomationTrans}}
-{{msgbox:out of date|0.4}}
 
 Automation is a powerful tool for customising the sound of your project. You can use it to do tasks as simple as automating a mixing desk (moving the volume levels up and down as the song progresses), or as complex as varying the sound of an instrument, its effects settings, and even the tempo of the entire song.  Almost any GUI control can be automated allowing for very powerful control of your song.
 
