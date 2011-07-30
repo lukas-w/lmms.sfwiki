@@ -35,7 +35,7 @@ http://lmms.sourceforge.net/wiki/images/8/8d/Automation-editor-toolbar.png
 The fundamental tools are similar in behaviour to their equivalents in the [[0.4:Piano Roll Editor#Piano Roll Tool Bar|Piano Roll Editor]] and their description is not repeated here.  The main changes are:
 
 * There is no record functionality (that I know of).
-* The zoom controls can control both the horizontal and vertical directions of the window.
+* There are 2 zoom controls: one for the horizontal and one for the vertical dimension of the window.
 
 = Editing automation =
 
