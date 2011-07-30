@@ -60,7 +60,7 @@ You can automate the '''Master Tempo''' control to slow down as the performance 
 
 == Eighties acid effects ==
 
-The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and and then vary the filter cutoff frequency (and other envelope parameters) to change the sound over the length of the song.  Because of the repetitive nature of the melody you might be tempted to use a Beat/Bassline track to store the melody, but any automation in the Beat+Bassline Editor repeats as the beat pattern repeats instead of changing continuously throughout the song.
+The [http://en.wikipedia.org/wiki/Acid_house Acid House] and [http://en.wikipedia.org/wiki/Acid_trance Acid Trance] movements were famous for using the Roland TB303 to play a repetitive melody and and then varying the filter cutoff frequency (and other envelope parameters) to change the sound over the length of the song.  Because of the repetitive nature of the melody you might be tempted to use a Beat/Bassline track to store the melody, but any automation in the Beat+Bassline Editor repeats as the beat pattern repeats instead of changing continuously throughout the song.
 
 Example files:
 * [http://www.mediafire.com/file/u7pe63a1uuj3aec/automation-howto-acid-2.mmpz Download LMMS Project File (.mmpz)]
