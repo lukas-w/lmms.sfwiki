@@ -19,7 +19,7 @@ http://lmms.sourceforge.net/wiki/images/e/ef/Automation-editor1.png
 * Sliders
 * Knobs
 * Drop-down Menus
-If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS.
+If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only the controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS.
 | width="300px" valign="top"|
 [[File:LMMS-controls-automatable.png|frame|left|alt=Automatable controls.|Automatable controls.]]
 |}
