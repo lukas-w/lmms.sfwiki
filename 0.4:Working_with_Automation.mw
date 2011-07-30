@@ -96,30 +96,22 @@ Remember that '''Q''' (quantisation) sets the resolution of control points (numb
 
 == Sounds flying past ==
 
-In one song I wrote I had a series of stacatto claps in a pattern and I want them to fly from right to left, like a drive-by shooting.  I automated the pan control (i.e. the X direction) of the instrument in the beat-bassline editor:
+This example is a series of stacatto claps in a Beat/Bassline track that "fly" from right-to-left then back left-to-right, like a drive-by shooting.
 
-<center>
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-1.png
-</center>
+Example files:
+* [http://www.mediafire.com/file/1qf5b0h306lfdhh/automation-howto-flyby-2.mmpz Download LMMS Project File (.mmpz)]
+* [http://www.mediafire.com/file/hyznnl456b74axs/automation-howto-flyby-2.mp3 Download Final Product Song (.mp3)]
+<br>
 
-I then created a diagonal line from pan-right (+1024 at top) to pan-left (-1024 at bottom):
+[[File:LMMS-auto-fly-by.png|frame|center|alt=Automate stereo panning for fly-by.|Automate stereo panning for fly-by.]]
 
-<center>
-http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/automation-howto-flyby-2.png
-</center>
+Make a staccato beat with "clap01.ogg", and repeat it for 4 bars in the Song-Editor. To automate the fly-by, '''Ctrl+drag''' the "clap01.ogg" Pan control to an Automation track in the Song-Editor, then double-click the Automation track block to open it in the Automation Editor. In the Automation Editor use the Draw mode tool to:
+# click at 100 (full right) at the beginning of bar #1
+# Shift+click at -100 (full left) at the end of bar #2
+# Shift+click at 100 (full right) at the end of bar #4
+# Shift+click at 0 (center) at the end of bar #4
 
-And now the sound 'flies' past from right to left!
-
-http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.ogg
-
-Notice that the sound 'resets' to the right after each bar, because the pattern is only one bar long.  If I wanted another set of claps that flew in the other direction, I have a couple of options:
-
-* I can create a second pattern that has automation taking it from left to right and alternate the patterns in the song.  This means that you have a second track, which may be inconvenient.
-* I can add a second bar of notes (via the pattern's context menu '''Add Steps''' option) and then have the automation return to the right.  This would limit me to having the claps return immediately after they left, which may not work in the piece.
-
-You can download this as an MMPZ file from
-
-http://tangram.dnsalias.net/lmms-imgs/sounds/automation-howto-flyby.mmpz
+And now the clap sounds "fly" from right-to-left and back again!
 
 = When not to use Automation =
 
