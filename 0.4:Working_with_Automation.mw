@@ -2,18 +2,9 @@
 
 Automation is a powerful tool for customising the sound of your project. You can use it to do tasks as simple as automating a mixing desk (moving the volume levels up and down as the song progresses), or as complex as varying the sound of an instrument, its effects settings, and even the tempo of the entire song.  Almost any GUI control can be automated allowing for very powerful control of your song.
 
-= Controls =
-
-{| cellspacing="0" valign="top" align="center" width="100%"
-| width="300px" valign="top"|
-[[File:LMMS-controls.png|frame|left|alt=GUI controls.|GUI controls.]]
-| valign="top"|
-'''Controls''' are the knobs, sliders, LED toggle switches, and digital readouts that can be found on the GUIs within LMMS (see image at left). All controls on default LMMS GUIs can be automated, even option selector buttons and drop-down menus!
-|}
-
 = What can be Automated? =
 
-The list of controls that can be automated is vast, as can be seen from the list in the [[Automation Editor#What_can_be_automated.3F|Automation Editor]] manual page. If you're unsure if a control can be automated, right-click on its icon and look for a context menu item called '''Edit song-global automation'''. If it's there, the item probably can be automated; however, in the case of instruments, only controls on the '''built-in LMMS instruments''' can be automated. You '''cannot''' automate any controls on third-party VST instruments, including '''zynAddSubFX''', even though it is included with LMMS.
+The list of controls that can be automated is vast, as can be seen from this [[Automation Editor#What_can_be_Automated|'''automatable list''']] on the Automation Editor manual page.
 <br>
 
 = Song-global vs Automation Tracks =
