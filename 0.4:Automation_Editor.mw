@@ -64,10 +64,12 @@ The yellow "dot" is the '''control point'''. There can be only 1 control point f
 == Drawing Control Points ==
 
 http://lmms.sourceforge.net/wiki/images/e/e1/Button-pencil.png
-Using the '''Draw mode''' tool (pencil), you can create new control points simply by clicking on (or near) a vertical line or by dragging in any direction over the graph. If a control point already exists somewhere on that vertical line, it will be moved up or down to the new location. If a control point does not exist on that vertical line, it will be created there. You can move an existing point up or down its vertical line by dragging it directly--it will look more like you're dragging the vertical orange bar that belongs to that point rather than dragging a point. You can delete a control point by right-clicking (same as deleting a note in the Piano Roll Editor). The hotkey to switch to the Draw mode tool is '''Shift+D'''.
+Using the '''Draw mode''' tool (pencil), you can create new control points simply by clicking on (or near) a vertical line or by dragging in any direction over the graph. In all cases, if a control point already exists somewhere on that vertical line, it will be moved up or down to the new location. If a control point does not exist on that vertical line, it will be created there. You can move an existing point up or down its vertical line by dragging it directly--it will look more like you're dragging the vertical orange bar that belongs to that point rather than dragging the point. You can use '''Shift+click''' to draw a "straight" line from the last place you clicked or Shift+clicked to the next place you Shift+click. '''''Tip:''''' always start by doing a plain left-click where you want the straight line to start, then make a series of Shift+clicks to create a chain of 1 or more straight line segments. Both dragging curves and Shift+clicking straight lines require a bit of practice before you'll feel confident that you can draw the shape you want. 
+
+You can delete a control point by right-clicking (same as deleting a note in the Piano Roll Editor).
 
 http://lmms.sourceforge.net/wiki/images/5/5f/Automation-editor-quantisation.png 
-The timeline spacing of control points as you draw is set by the '''Q''' (quantisation) setting.  By default this is set to 1/16 which means 16 control points per bar (or a control point vertical line every 1/16th of a bar). You don't have to have a control point at every point that it's possible to have one--a horizontal line only requires 2 control points (one at each end).
+The timeline spacing of control points as you draw is set by the '''Q''' (quantisation) setting. By default this is set to 1/16 which means 16 control points per bar (or a control point vertical line every 1/16th of a bar). You don't have to have a control point at every point that it's possible to have one--a horizontal line only requires 2 control points (one at each end).
 
 == Working with Selections ==
 
