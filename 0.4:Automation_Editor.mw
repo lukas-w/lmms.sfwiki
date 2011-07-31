@@ -69,7 +69,7 @@ Using the '''Draw mode''' tool (pencil), you can create new control points simpl
 http://lmms.sourceforge.net/wiki/images/5/5f/Automation-editor-quantisation.png 
 The timeline spacing of control points as you draw is set by the '''Q''' (quantisation) setting.  By default this is set to 1/16 which means 16 control points per bar (or a control point vertical line every 1/16th of a bar). You don't have to have a control point at every point that it's possible to have one--a horizontal line only requires 2 control points (one at each end).
 
-== Working on Multiple Control Points ==
+== Working with Selections ==
 
 Operations such as cut, copy, paste, delete, and move selection operate on 1 or more '''selected''' control points.
 
