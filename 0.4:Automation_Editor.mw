@@ -75,11 +75,13 @@ The timeline spacing of control points as you draw is set by the '''Q''' (quanti
 
 Operations such as cut, copy, paste, delete, and move selection operate on 1 or more '''selected''' control points.
 
-http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png The '''Select mode''' tool allows you to drag a rectangular area around 1 or more points to select them. The vertical orange bar of the point(s) will turn blue. Use ''Ctrl+A'' to select all the control points in the Automation Editor window. You can then cut, copy, and/or paste the selected points. The '''Paste''' operation preserves both the timeline position (horizontal value) and the control value (vertical value) of the control points. Be aware that the vertical value might not make sense for a different control. After pasting, the pasted points are still selected, which allows you to move them as a group (see next).
+http://lmms.sourceforge.net/wiki/images/b/bb/Button-movetool.png The '''Select mode''' tool allows you to drag a rectangular area around 1 or more points to select them. The vertical orange bar of the point(s) will turn blue. You can also use ''Ctrl+A'' which will select all the control points in the Automation Editor window. You can then cut, copy, delete, and/or paste the selected points. 
 
-[[File:LMMS-move-tool.png]] The '''Move Selection mode''' tool allows you to move (by dragging) the selected control points and without regard for the Q setting. The selection will move at the maximum Q of 1/192. This is similar to the "free drag" (Alt+drag) of notes in the Piano Roll. Beware while moving a selection that any existing points that the selection passes over will be deleted!
+Use the '''Delete''' key on the computer keyboard to delete the selected points. 
 
-Use the '''Delete''' key on the computer keyboard to delete a selection of points.
+The '''Paste''' operation uses both the timeline position (horizontal value) and the control value (vertical value) of the control points when pasting them into a new (or the same) automation track block. Be aware that the vertical value might not make sense for a different control. After pasting, the pasted points are still selected, which allows you to move them as a group (see next). For example, if you copied the control points from bars 20 to 30 from one automation block and pasted them into a different automation block, the points will occupy bars 20 to 30 in the new block, But, because they are still selected, you can move them to a different location.
+
+[[File:LMMS-move-tool.png]] The '''Move Selection mode''' tool allows you to move (by dragging) the selected control points and without regard for the Q setting. The selection will move at the maximum Q of 1/192. This is similar to the "free drag" (Alt+drag) of notes in the Piano Roll. '''''Beware''''' while moving a selection that any existing points that the selection passes over will be deleted!
 
 == Erasing Control Points ==
 
