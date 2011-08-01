@@ -3,16 +3,8 @@
 = Direct Effects vs FX-mixer =
 
 You have 2 choices in how to add effects to an instrument:
-* Direct Effects are added directly to an instrument in its instrument settings window without using an FX-channel.
-* The FX-Mixer allows you to add 1 or more instruments to an FX-channel and then add the effects to the FX-channel.
-
-== Direct Effects ==
-
-See this section of the Instrument Editor about [[0.4:Instrument Editor#The_FX_tab|the FX tab]].
-
-== The FX Mixer ==
-
-See this page about [[0.4:FX Mixer|the FX-Mixer]].
+* Direct Effects are added directly to an instrument in its instrument settings window without using an FX-channel. See this section of the Instrument Editor about [[0.4:Instrument Editor#The_FX_tab|the FX tab]].
+* The FX-Mixer allows you to add 1 or more instruments to an FX-channel and then add the effects to the FX-channel. See this page about [[0.4:FX Mixer|the FX-Mixer]].
 
 = Navigation =
 
