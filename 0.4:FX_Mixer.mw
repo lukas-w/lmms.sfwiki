@@ -1,22 +1,51 @@
 {{0.4:FX MixerTrans}}
 
-The FX Mixer, as its name implies, is a tool for final edits to the song and its individual elements by adding ''Effects''.  This will bring up the mixer itself.  
+The FX-Mixer, as its name implies, is a tool for making final edits to your song and its individual elements by adding '''Effects'''.
 
-http://img525.imageshack.us/img525/1780/27467115.jpg
+= Overview =
 
-==Usage==
+The http://img186.imageshack.us/img186/4696/fxmix.jpg is the FX-Mixer show/hide toggle button.
+[[File:LMMS-FX-mixer.png|frame|center|alt=FX-Mixer window.|FX-Mixer window.]]
 
-To access the FX Mixer simply click:  http://img186.imageshack.us/img186/4696/fxmix.jpg
+* The FX-Mixer has 4 racks: '''A''', '''B''', '''C''', and '''D''', each with 16 channels, numbered 1 thru 64 and named FX1 thru FX64. You cannot change the FX-channel numbers, but you can rename an FX-channel by double-clicking on its name. 
+* Each FX-channel has separate left and right (stereo) volume indicators located on each side of the '''fader''' slider control, but the left and right volume cannot be controlled independently by the fader--it controls both simultaneously. To change the volume of an FX-channel, drag its fader up and down with the mouse. 
+* Each FX-channel also has a Mute/Unmute LED toggle switch below its name. 
+* An FX-channel can be '''selected''' by clicking on the its name--the name will turn from white to green, and only one FX-channel can be selected at any time.
 
-*The mixer has 4 racks, labelled ''A'', ''B'', ''C'', and ''D''.  Each with 16 tracks, which are made up of 2 channels, a left and a right, indicated by a volume indicator bar on each side of the fader.  By default, all plugins, files, and tracks are routed through the ''Master'' fader/track.  
+= Master FX-channel =
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="100px" valign="top"|
+[[File:LMMS-master-FX-channel.png|frame|center|alt=Master FX-channel.|Master FX-channel.]]
+| valign="top"|
+By default, all instruments have their '''"FX CHNL"''' initially set to channel zero which is the "Master" channel at the far left end of the FX-Mixer window. The '''Master''' channel controls the overall volume of all the combined instruments and FX-channels. Also, it can function as FX-channel zero (FX0) which allows you to apply an effect to the master output (i.e. everything combined).
+|}
 
-*The ''Master'' fader controls the overall volume of the combined plugins and/or tracks, it also gives the ability to to apply an ''effect'' to all tracks/plugins.  To adjust the ''Master fader'' left click once on its name and then click ''Add effect''.  This will bring up the dialogue box for all the effect from which a single effect can be selected.
+= Add Effects to FX-channels =
 
+{| cellspacing="0" valign="top" align="center" width="100%"
+| valign="top"|
+To add an '''effect''' to an FX-channel, select the channel's name, then click the '''Add effect''' button below the '''Effects Chain''' box (see image). This will open a dialog box where you can select one effect from the list of all available effect plugins. You can add another effect by clicking the Add effect button again--you have to add effects one at a time. You will get a dialog individualized for the particular effect plugin you just added--here you can edit the effect plugin's configuration. Notice that the effect plugin has been added as an '''entry''' at the bottom of the stack in the Effects Chain box. Each effect's entry has a standard set of visible controls:
+* On/Off LED toggle switch (yellow)
+* Knobs for W/D, Decay, and Gate
+* a '''Controls''' button that is a show/hide toggle for the effect plugin's configuration dialog
+A right-click context menu allows you to:
+* remove the effect's entry from the Effects Chain box
+* move the effect's entry up or down in the stacking order
+Also notice that the Effects Chain box itself has an On/Off LED toggle (green) that turns off all the effects on that FX-channel only.
+| width="300px" valign="top"|
+[[File:LMMS-effects-chain-box.png|frame|center|alt=Effects chain.|Effects chain.]]
+|}
 
-*Tracks work similarly to the ''Master'' fader, except that they can only control plugins.  However, a plugin must first be assigned to a track.  To assign a plugin select it from either the ''Song-editor'' or the ''Beat-editor'', depending on where it is located.  Once you have selected the plugin adjust the ''FX CHNL'' to whichever track you wish.  Any number of plugins can be assigned to a single track in order to achieve the same effect with each plugin (e.g. A drumkit effect).  Now that the desired plugins have been assigned, effects and volume adjustments may be added.  ''(Note: To change the title of a track double-click on the current title.)''
+= Assign Instruments to FX-channels =
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="300px" valign="top"|
+[[File:LMMS-FX-CHNL-set.png|frame|center|alt=FX-channel assignment.|FX-channel assignment.]]
+| valign="top"|
+To assign an instrument to an FX-channel, click on its name in either the '''Song-Editor''' or '''Beat+Bassline Editor''', depending on where it is located. In the instrument settings window, set the '''FX CHNL''' to the FX-channel you want, by dragging your mouse vertically on the digital readout number--up to increase the number and down to decrease the number. A double-click on the digital readout number will change the selected FX-channel to that FX-channel number. The right-click context menu for the digital readout number has Reset, Copy, and Paste with a number in parentheses. The number in parentheses is the number that it will be reset to, or will be copied to the clipboard, or will be pasted, respectively. Multiple instruments can be assigned to a single FX-channel in order to get the same effect on each instrument (e.g. an equalizer).
+|}
 
-== Navigation ==
+= Navigation =
 
 {| style="border: 1px solid black;"
 |-
