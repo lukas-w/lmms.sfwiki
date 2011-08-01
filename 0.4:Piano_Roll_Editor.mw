@@ -29,7 +29,7 @@ http://lmms.sourceforge.net/wiki/images/9/9e/Pianoroll-playback.png
 
 In addition to the Playback and Stop controls, there is a '''Record''' button which will record the notes you play on either:
 * an attached [[0.4:Using MIDI|MIDI keyboard]], and/or
-* your [[0.4:Piano Roll Editor#Keyboard|computer's keyboard]].
+* your [[0.4:Piano Roll Editor#Computer Keyboard|computer's keyboard]].
 Press '''Stop''' to stop playback or recording. <br>
 The computer keyboard's spacebar will toggle between Playback and Stop in both playback and record modes.
 
