@@ -10,7 +10,7 @@ The http://img186.imageshack.us/img186/4696/fxmix.jpg is the FX-Mixer show/hide 
 * The FX-Mixer has 4 racks: '''A''', '''B''', '''C''', and '''D''', each with 16 channels, numbered 1 thru 64 and named FX1 thru FX64. You cannot change the FX-channel numbers, but you can rename an FX-channel by double-clicking on its name. 
 * Each FX-channel has separate left and right (stereo) volume indicators located on each side of the '''fader''' slider control, but the left and right volume cannot be controlled independently by the fader--it controls both simultaneously. To change the volume of an FX-channel, drag its fader up and down with the mouse. 
 * Each FX-channel also has a Mute/Unmute LED toggle switch below its name. 
-* An FX-channel can be '''selected''' by clicking on the its name--the name will turn from white to green, and only one FX-channel can be selected at any time. When selected, the Effects Chain for that FX-channel will display in the Effects Chain box at the far right end of the window.
+* An FX-channel can be '''selected''' by clicking on the its name--the name will turn from white to green, and only one FX-channel can be selected at any time. When an FX-channel is selected, the Effects Chain for that FX-channel will display in the Effects Chain box at the far right end of the window.
 
 = Master FX-channel =
 
