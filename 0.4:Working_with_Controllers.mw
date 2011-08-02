@@ -1,17 +1,24 @@
+= How to use LFO Controllers =
 The purpose of LFO controllers is to give you automation of controls using waveform patterns. You can make very creative pieces this way, and the method is also suited for live performance.
 
 This subject has been excellently covered in a series of video tutorials on YouTube. We have the author's permission to link to these tutorials, and we recommend that you start with these:
 
-http://www.youtube.com/watch?v=G3Wy7CBhhow&feature=channel
-<br>
-http://www.youtube.com/watch?v=az3fGAFh_B8&feature=channel
-<br>
-http://www.youtube.com/watch?v=1yuaQY2Xs5M&feature=channel
-<br>
-http://www.youtube.com/watch?v=PXUrhL0zmhQ&feature=channel
-
-Currently (0.4.6) you will get a series of error-messages when you load a project that has LFO controllers. This might startle you, but there is no reason for alarm. Even though LMMS will complain about the connections, the project will load correctly and all connections are preserved.
+# http://www.youtube.com/watch?v=G3Wy7CBhhow&feature=channel
+# http://www.youtube.com/watch?v=az3fGAFh_B8&feature=channel
+# http://www.youtube.com/watch?v=1yuaQY2Xs5M&feature=channel
+# http://www.youtube.com/watch?v=PXUrhL0zmhQ&feature=channel
 
 Also, you should not connect '''zynAddSubFX''' plugins to LFO controllers. This will lead to artifacts and strange behavior. 
 
 Remember to experiment, experiment and experiment! There is almost no end to the creative possibilities.
+
+= Navigation =
+
+'''Reference''': [[Controller Rack]]
+
+{| style="border: 1px solid black;"
+|-
+| Prev: [[0.4:Working with LADSPA effects]]
+| Up: [[0.4:Manual|Manual]]
+| Next: [[0.4:Working with Effects and the Mixer]]
+|}
