@@ -50,6 +50,12 @@ A double-click on the digital readout number will change the selected FX-channel
 
 = Navigation =
 
+How To:
+* [[0.4:Working with Effects and the Mixer|Working with Effects and the Mixer]]
+* [[0.4:Working with LADSPA effects|Working with LADSPA Effects]]
+* [[0.4:Working with Controllers|Working with Controllers]]
+<br>
+
 {| style="border: 1px solid black;"
 |-
 | Prev: [[0.4:Automation Editor|Automation Editor]]
