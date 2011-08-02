@@ -1,15 +1,13 @@
-[http://en.wikipedia.org/wiki/LADSPA LADSPA] effects can be either on the individual [[0.4:Instrument Editor#The FX Tab|instruments’ FX-tab]], or inserted on the FX-channels in the [[0.4:FX Mixer|FX Mixer]].
+[http://en.wikipedia.org/wiki/LADSPA LADSPA] effects can be assigned to either an individual instrument on the  [[0.4:Instrument Editor#The_FX_tab|instrument's FX-tab]] or assigned to an FX-channel in the [[0.4:FX Mixer|FX Mixer]].
 
-Clicking the "'''add effect'''" button in either of the effect chains opens following dialog: 
+Clicking the "'''Add effect'''" button below the Effect Chains box opens following dialog: 
 
 http://lmms.sourceforge.net/wiki/images/2/25/Add-effect.png
 
-Just double-click to select an effect. <br> 
-You can even search for a specific effect (e.g. filter/delay/...) using the bar at the top. <br>
-
+Double-click to select an effect. <br> 
+You can narrow the list of effects using the text box at the top (e.g. "filter", "delay", etc). <br>
 
 = Navigation =
-
 
 {| style="border: 1px solid black;"
 |-
