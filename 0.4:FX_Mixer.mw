@@ -18,7 +18,7 @@ The http://img186.imageshack.us/img186/4696/fxmix.jpg is the FX-Mixer show/hide 
 | width="100px" valign="top"|
 [[File:LMMS-master-FX-channel.png|frame|center|alt=Master FX-channel.|Master FX-channel.]]
 | valign="top"|
-By default, all instruments have their '''"FX CHNL"''' initially set to channel zero which is the "Master" channel at the far left end of the FX-Mixer window. The '''Master''' channel controls the overall volume of all the combined instruments and FX-channels. Also, it can function as FX-channel zero (FX0) which allows you to apply an effect to the master output (i.e. everything combined).
+By default, all instruments have their '''"FX CHNL"''' initially set to channel zero which is the "Master" channel at the far left end of the FX-Mixer window. The '''Master''' channel controls the overall volume of all the combined instruments and FX-channels. Also, it can function as FX-channel zero (FX0) which allows you to apply 1 or more effects to the master output (i.e. everything combined).
 |}
 
 = Add Effects to FX-channels =
