@@ -45,7 +45,7 @@ Also notice that the Effects Chain box itself has an On/Off LED toggle (green) t
 To assign an instrument to an FX-channel, click on its name in either the '''Song-Editor''' or '''Beat+Bassline Editor''', depending on where it is located. In the instrument settings window, set the '''FX CHNL''' to the FX-channel you want by:
 * hovering your mouse over the digital readout number and scrolling the mouse wheel, or
 * dragging your mouse vertically on the digital readout number.
-A double-click on the digital readout number will change the selected FX-channel to that FX-channel number. The right-click context menu for the digital readout number has Reset, Copy, and Paste with a number in parentheses. The number in parentheses is the number that it will be reset to, or will be copied to the clipboard, or will be pasted, respectively. Multiple instruments can be assigned to a single FX-channel in order to get the same effect on each instrument (e.g. an equalizer).
+A double-click on the digital readout number will change the selected FX-channel in the FX-Mixer window to the FX-channel with that number. The right-click context menu for the digital readout number has Reset, Copy, and Paste followed by a number in parentheses. The number in parentheses is the number that it will be reset to, or will be copied to the clipboard, or will be pasted, respectively. Multiple instruments can be assigned to a single FX-channel in order to get the same effect on each instrument (e.g. an equalizer).
 |}
 
 = Navigation =
