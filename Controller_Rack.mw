@@ -1,55 +1,49 @@
-Controller Rack: 
+'''Controllers''' are used to vary the position of a knob or other control over time using another signal such as an LFO waveform. Controllers differ from automation because automation uses a shape drawn manually by the user as its signal and usually the shape is not a repeated pattern such as a waveform. In contrast, LFO controllers use waveforms to give a regular pattern to the value of a control.
+
+= Controller Rack =
 
 {| cellspacing="0" valign="top" align="center" width="100%"
-| width="265px" style="color: #000" valign="top"|
+| width="265px" valign="top"|
 http://lmms.sourceforge.net/wiki/images/3/37/Contoller-rack.png
-| style="color: #000" valign="middle"|
+| valign="top"|
 
-...info...
-
+The '''Controller Rack''' displays all the controllers created within this project.
+* There are 2 types of controllers (explained in sections below):
+** LFO controller
+** Peak controller
+* The right-click context menu allows you only 1 option: "Remove this controller". You cannot change the names of the controllers.
 |}
 
-...description...
+== LFO Controller == 
 
+
+LFO stands for '''Low Frequency Oscillator'''.
+
+[[File:LMMS-contr-rack-button.png]]
+This button is the Controller Rack show/hide toggle button ('''F11'''). To add an LFO Controller entry to the Controller Rack, click the Add button at the bottom of the Controller Rack window.
+
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="255px" valign="top"|
+http://lmms.sourceforge.net/wiki/images/0/01/Lfo-controller.png
+| valign="top"|
+To edit the settings for a particular LFO Controller entry, click the Controls button on the right side of the entry. The LFO controller settings are:
+* 8 waveform option buttons
+* 4 knobs
+** BASE: Base is the center (or zero line) around which the wave oscillates
+** SPD: Speed is the rate (frequency) of wave oscillation
+** AMT: Amount is the size (amplitude) of the wave
+** PHS: Phase Offset is where in the waveform the wave starts its first oscillation
+* 3 speed-multiplier option buttons
+|}
 
 == Peak Controller == 
 
 {| cellspacing="0" valign="top" align="center" width="100%"
-| width="133px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki/images/d/dd/Fx-peakcontroller.png
-| style="color: #000" valign="middle"|
-
-...info...
-
+| valign="top"|
+A '''Peak Controller''' allows you to use the volume peaks from an audio source to automate the values of a control. A Peak Controller is similar to a Gate, but with greater flexibility. Peak controllers commonly use the output signal of a percussion track to control the volume of a sustained sound on a different track. This results in the sustained sound being chopped up in time with the percussion, and has been used by artists such as Madonna (Vogue) and Seal (Crazy) to create very distinctive sounds. In LMMS, when you add a Peak Controller it is visible in the Controller Rack, but it's actually an '''effect''' applied to an FX-channel--see [[0.4:FX Mixer|the FX-Mixer page]] for info on how to use effects. If you click on the "Controls" button on the Peak Controller entry in the Controller Rack, you'll get a window telling you to use the FX-channel's controls (magenta arrow). Therefore, to get to the Peak Controller settings, click the "Controls" button on the Peak Controller entry in the Effects Chain box (yellow arrow). Note that an FX-channel can have more than one Peak Controller entry.
+| width="300px" valign="top"|
+[[File:LMMS-peak-controller.png|frame|center|alt=Peak controller.|Peak controller.]]
 |}
-
-...description...
-
-
-== LFO Controller == 
-
-{| cellspacing="0" valign="top" align="center" width="100%"
-| width="255px" style="color: #000" valign="top"|
-http://lmms.sourceforge.net/wiki/images/0/01/Lfo-controller.png
-| style="color: #000" valign="middle"|
-
-LFO stands for Low Frequency Oscillator, and it can be used to control different settings and knobs on an instrument or effect plugin.
-
-|}
-
-
-To create an LFO controller, you simply click on the controller rack button, which is to the right of the project notes and to the lower left of the tempo section. It has an icon of a hand tweaking a knob(though it does look somewhat like a CD). When you invoke the controller rack, it will appear as a small empty window at first with an 'Add' button at the bottom. Click the button and an LFO controller will appear in the rack and in your workstation.
-
-Each controller has eight waveforms, four knobs and three buttons for speed settings. Of the eight waveforms, one is a custom wave, which you can use to import your own files for a unique effect. Along with that and the standard sine, saw, square and triangle, there are also the reverse saw which is particularly useful for filtering samples, the exponential wave, and the random or noise waveform.
-
-The Base knob determines the center or zero line for modulation, while the SPD knob controls automation speed, AMT controls the strength of the automation, and PHS or 'Phase Offset' alters the wave by creating a second wave and in many cases multiplying the two waveforms or subtracting one from another(1).
-
-The three speed settings can be used for many different modulation effects. The X 100 multiplies the modulation speed by 100, the X 1 is normal speed, and the divided by 100 is the slowest. 
-
-
-==Notes==
-
-1. Explanation of Phase Offset: http://www.bytenoise.co.uk/Phase_offset_modulation
 
 {| style="border: 1px solid black;"
 |-
