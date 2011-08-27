@@ -16,7 +16,7 @@ http://lmms.sourceforge.net/wiki/images/2/25/Initial_screen_numbers.png
 # В правой части панели инструментов имеются некоторые инструменты управления композицией, такие как темп, тактовый размер, громкость, высота тона и основная панель визуализации.
 # [[0.4:Side Bar|Боковая панель]] имеет шесть кнопок.  Нажатие на любую из них переводит соответствующую вкладку в положение включено/выключено. <br />Каждая вкладка отображает определённый тип информации: Instrument plugins (Инструменты), My projects (Мои проекты), My samples (Мои семплы), My presets (Мои предустановки), My home (Домашняя папка) и My computer (Мой компьютер). Эти ресурсы могут быть использованы в сочинении вашей композиции.
 
-The main part of the interface contains a number of windows, each serving a different purpose.<br/>You can show/hide any of these windows using the buttons in the second row of the [[0.4:Tool Bar|Tool Bar]].
+Основная часть интерфейса содержит ряд окон, каждое из которых служит определённой цели.<br/>Вы можете показать/спрятать любое из этих окон нажатием кнопок во втором ряду [[0.4:Tool Bar|Панели инструментов]].
 
 When LMMS is launched, four windows are opened by default: 
 * [[0.4:Song Editor|Song-Editor]] This is where you compose the song.
