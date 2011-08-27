@@ -18,11 +18,11 @@ http://lmms.sourceforge.net/wiki/images/2/25/Initial_screen_numbers.png
 
 Основная часть интерфейса содержит ряд окон, каждое из которых служит определённой цели.<br/>Вы можете показать/спрятать любое из этих окон нажатием кнопок во втором ряду [[0.4:Tool Bar|Панели инструментов]].
 
-When LMMS is launched, four windows are opened by default: 
-* [[0.4:Song Editor|Song-Editor]] This is where you compose the song.
-* [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] This is where drum (beats) sounds are created.<br /> The output of this window is automatically inserted as the beat/bassline track in the Song-Editor window.
-* [[0.4:FX Mixer|FX-Mixer]] This is the sound mixer, where volume of each channel is separately controlled.<br/>It also has a sub-window where you can add special effects and chain them together.
-* [[Controller Rack|Controller Rack]] 
+Когда LMMS запущена, четыре окна открываются по умолчанию: 
+* [[0.4:Song Editor|Song-Editor (Финальный секвенсор)]]. Здесь вы сочиняете композиции.
+* [[0.4:Beat Bassline Editor|Beat+Bassline Editor (Пошаговый секвенсор)]]. Здесь создаются ударные (ритм).<br /> Вывод из этого окна автоматически вставляется в окно Song-Editor (Финальный секвенсор) как дорожка ритм/басовой линии.
+* [[0.4:FX Mixer|FX-Mixer (Микшер FX)]]. Это звуковой микшер, где отдельно регулируется громкость каждого канала.<br/>Он также имеет дополнительно окно (Цепь фильтров), где вы можете добавить спецэффекты и связывать их вместе.
+* [[Controller Rack|Controller Rack (Контроллеры)]] 
 
 Remember to save often!  Save your project every time you have created something that sounds good. It is also a good strategy to save different versions of your song.  This will allow you to revert to a previous version of the project.
 
