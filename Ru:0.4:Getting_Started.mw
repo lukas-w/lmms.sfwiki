@@ -20,21 +20,21 @@ http://lmms.sourceforge.net/wiki/images/2/25/Initial_screen_numbers.png
 
 Когда LMMS запущена, четыре окна открываются по умолчанию: 
 * [[0.4:Song Editor|Song-Editor (Финальный секвенсор)]]. Здесь вы сочиняете композиции.
-* [[0.4:Beat Bassline Editor|Beat+Bassline Editor (Пошаговый секвенсор)]]. Здесь создаются ударные (ритм).<br /> Вывод из этого окна автоматически вставляется в окно Song-Editor (Финальный секвенсор) как дорожка ритм/басовой линии.
+* [[0.4:Beat Bassline Editor|Beat+Bassline Editor (Пошаговый секвенсор)]]. Здесь создаются ударные (ритм).<br /> Вывод из этого окна автоматически вставляется в окно Song-Editor (Финальный секвенсор) как ритм/басовая дорожка.
 * [[0.4:FX Mixer|FX-Mixer (Микшер FX)]]. Это звуковой микшер, где отдельно регулируется громкость каждого канала.<br/>Он также имеет дополнительно окно (Цепь фильтров), где вы можете добавить спецэффекты и связывать их вместе.
 * [[Controller Rack|Controller Rack (Контроллеры)]] 
 
-Remember to save often!  Save your project every time you have created something that sounds good. It is also a good strategy to save different versions of your song.  This will allow you to revert to a previous version of the project.
+Не забывайте сохранять чаще! Сохраняйте свой проект всякий раз, когда вы создали то, что хорошо звучит. Также хорошая стратегия - сохранять различные версии вашей композиции. Это позволит вам возвращаться к предыдущей версии проекта.
 
-When you save a project for the first time, you will be prompted for a folder name and a project name. Subsequent saves will overwrite this file, and LMMS will show you a small success message at the bottom of the screen. Wait for this message!
+Когда вы сохраняете проект первый раз, вам будет предложено выбрать папку и ввести название проекта (имя файла). Последующие сохранения будут перезаписывать этот файл, и LMMS будет показывать вам небольшое сообщение об этом в нижней части экрана. Ждите это сообщение!
 
-==Jumping Right In==
+==Переходим к действию==
 
-A project is made by adding '''instruments''' (sidebar tab 1), '''samples''' (sidebar tab 3) and existing '''presets''' (sidebar tab 4) to either the Song Editor or the Beat+Bassline Editor. 
+Проект создаётся путём добавления '''instruments (инструментов)''' (вкладка 1 боковой панели), '''samples (семплов)''' (вкладка 3 боковой панели) и существующих '''presets (предустановок)''' (вкладка 4 боковой панели) в Song Editor (Финальный секвенсор) или в Beat+Bassline Editor (Пошаговый секвенсор). 
 
-The Song Editor is useful for non-repeating sound events, such as melody lines, and the Beat+Bassline Editor is useful for repeating sounds, like percussion. <br> 
-Events created in the Beat+Bassline Editor are 'continuous' -i.e. they can be expanded by mouse-dragging as long as you would like. <br>
-Events created in the Song Editor are 'atomic' -i.e. they can't be expanded (but can be copied, of course).
+Song Editor (Финальный секвенсор) удобен для неповторяющихся звуковых событий, таких как дорожки мелодий, а Beat+Bassline Editor (Пошаговый секвенсор) удобен для повторяющихся звуков, таких как перкуссия. <br> 
+События, созданные в Beat+Bassline Editor (Пошаговом секвенсоре) являются "непрерывными" - то есть они могут быть удлиннены перетаскиванием мышью до тех пор, как вам нравится. <br>
+События, созданные в Song Editor (Финальном секвенсоре) являются "завершёнными" - то есть они не могут быть удлиннены (но могут быть скопированы, конечно).
 
 The actual song is always built in the Song Editor. This is where all the '''elements''' (blocks), including events in the Beat+Bassline Editor, come together on the timeline, and reveal your complete composition.
 
