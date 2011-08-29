@@ -14,7 +14,7 @@ http://lmms.sourceforge.net/wiki/images/2/25/Initial_screen_numbers.png
 # [[0.4:Main Menu Bar|Главное меню]] предоставляет доступ к файлам проекта, некоторым плагинам, и онлайн-справке. 
 # В левой части [[0.4:Tool Bar|Панели инструментов]] имеются два ряда: <br/>Кнопки в верхнем ряду связаны с файлами проекта - создать новый проект, открыть существующий, сохранить текущий и экспортировать в звуковой файл. <br/>Кнопки во втором ряду используются, чтобы показать/скрыть (переключить) различные окна в основной части интерфейса.
 # В правой части панели инструментов имеются некоторые инструменты управления композицией, такие как темп, тактовый размер, громкость, высота тона и основная панель визуализации.
-# [[0.4:Side Bar|Боковая панель]] имеет шесть кнопок.  Нажатие на любую из них переводит соответствующую вкладку в положение включено/выключено. <br />Каждая вкладка отображает определённый тип информации: Instrument plugins (Инструменты), My projects (Мои проекты), My samples (Мои семплы), My presets (Мои предустановки), My home (Домашняя папка) и My computer (Мой компьютер). Эти ресурсы могут быть использованы в сочинении вашей композиции.
+# [[0.4:Side Bar|Боковая панель]] имеет шесть кнопок.  Нажатие на любую из них переводит соответствующую вкладку в положение включено/выключено. <br />Каждая вкладка отображает определённый тип информации: Instrument plugins (Инструменты), My projects (Мои проекты), My samples (Мои семплы), My presets (Мои заготовки), My home (Домашняя папка) и My computer (Мой компьютер). Эти ресурсы могут быть использованы в сочинении вашей композиции.
 
 Основная часть интерфейса содержит ряд окон, каждое из которых служит определённой цели.<br/>Вы можете показать/спрятать любое из этих окон нажатием кнопок во втором ряду [[0.4:Tool Bar|Панели инструментов]].
 
@@ -30,7 +30,7 @@ http://lmms.sourceforge.net/wiki/images/2/25/Initial_screen_numbers.png
 
 ==Переходим к действию==
 
-Проект создаётся путём добавления '''instruments (инструментов)''' (вкладка 1 боковой панели), '''samples (семплов)''' (вкладка 3 боковой панели) и существующих '''presets (предустановок)''' (вкладка 4 боковой панели) в Song Editor (Финальный секвенсор) или в Beat+Bassline Editor (Пошаговый секвенсор). 
+Проект создаётся путём добавления '''instruments (инструментов)''' (вкладка 1 боковой панели), '''samples (семплов)''' (вкладка 3 боковой панели) и существующих '''presets (заготовок)''' (вкладка 4 боковой панели) в Song Editor (Финальный секвенсор) или в Beat+Bassline Editor (Пошаговый секвенсор). 
 
 Song Editor (Финальный секвенсор) удобен для неповторяющихся звуковых событий, таких как дорожки мелодий, а Beat+Bassline Editor (Пошаговый секвенсор) удобен для повторяющихся звуков, таких как перкуссия. <br> 
 События, созданные в Beat+Bassline Editor (Пошаговом секвенсоре) являются "непрерывными" - то есть они могут быть удлиннены перетаскиванием мышью до тех пор, как вам нравится. <br>
@@ -40,35 +40,35 @@ Song Editor (Финальный секвенсор) удобен для непо
 
 Давайте рассмотри [[0.4:Song Editor|Song Editor (Финальный секвенсор)]] по умолчанию.
 По умолчанию в Song Editor (Финальном секвенсоре) загружены 4 элемента. Первый, под названием ''"Default Preset (Не названо)"'', является примером генератора [[TripleOscillator|Triple Oscillator (Трёхполосного осциллятора)]] (3-OSC); это хороший пример инструментального контейнера. Этот пример Triple Oscillator (Трёхполосного осциллятора) по умолчанию имеет настройки, которые будут генерировать музыкальные ноты с помощью простой синусоидальной волны, так что это очень простой электронный генератор тона. Мы можем удалить его, но прежде, чем мы это сделаем, давайте рассмотрим его, поскольку он работает так же, как и все другие инструментальные контейнеры.
-When you move your mouse over the instrument-containers, they will high-light. This indicates that the instruments can be clicked as if they were buttons! Left-click the 3-OSC. This opens the instrument GUI. Click again, and the GUI is closed. All instruments behave like this. 
+Когда вы наводите курсор на инструментальные контейнеры, они станут выделенными. Это сигнализирует, что инструменты могут быть нажаты, как если бы они были кнопками! Щёлкните левой кнопкой мыши на 3-OSC. Это откроет окно инструмента. Нажмите ещё раз, и окно закроется. Все инструменты ведут себя так же. 
 
-When you make changes on the GUI you create a '''preset'''. If it sounds less than horrible, you have an instrument :)
-If you right-click you will have a rename option. ''Always name your instruments!''
+Когда вы вносите изменения в окне инструмента, вы создаёте '''preset (заготовку)'''. Если это звучит менее, чем ужасно, у вас есть инструмент. :)
+Если вы кликните правой кнопкой мыши, вы сможете переименовать элемент. ''Всегда давайте имена вашим инструментам!''
 
-To the left of the instruments there are 2 clickable 'lamps'[[File:Lamps.png]]. When the green lamp is ON, the track is activated. In its OFF state the track is muted.
-The other lamp is red. When the red lamp is ON, the track will mute all other tracks, and play solo.
+Слева от инструментов имеются 2 кликабельные 'лампочки' [[File:Lamps.png]]. Когда горит зелёная лампочка, дорожка активна. В выключенном состоянии дорожка отключена. 
+Другая лампочка - красная. Когда горит красная лампочка, текущая дорожка отключит все остальные дорожки и будет играть соло.
 
-Next, to the left of these, we have the action-button [[File:Action_button.png]]. Here you can delete or clone the track and all of its events.
+Далее, слева от них, имеется кнопка действия [[File:Action_button.png]]. Здесь вы можете удалить или копировать дорожку и все её события.
 
-To the right of the '''Instruments''', before the knobs, we have a vertical bar. When clicked it will play the root-note of the instrument. We also have a knob for volume and one for balance. [[File:Instrument_volume.png]]
+Справа от '''Instruments (Инструментов)''', перед ручками, имеется вертикальная полоска. При нажатии на неё будет играть базовая нота инструмента. Также имеются ручки для громкости и баланса. [[File:Instrument_volume.png]]
 
-On the right half of the song-editor, we have the timeline. Create a track by adding events to this timeline.
-The timeline is divided in bar-sized blocks. Click in one next to 3-OSC. You get a black box. If you double-click the black box, you open the [[0.4:Piano Roll Editor|Piano-Roll Editor]]. This is where you create your tune.
-We will return to that later.
+В правой половине song-editor (Финального секвенсора) имеется временная шкала. Создавайте трек добавлением событий на эту временную шкалу.
+Временная шкала разделена на блоки-полоски. Нажмите на одну из них рядом с 3-OSC. Вы получите чёрный квадратик. Если вы два раза щёлкните по нему, вы откроете [[0.4:Piano Roll Editor|Piano-Roll Editor (Секвенсор)]]. Здесь вы можете создать свою мелодию.
+Мы вернёмся к этому позднее.
 
-Below the 3-OSC you have the '''Sample Track'''. Its purpose is mostly vocals or other larger wave or ogg files that you want to replay un-altered. You can add a new sampletrack with the 6. button on the song editor tool bar ([[File:Add_sample.png]]).
+Под 3-OSC находится '''Sample Track (Дорожка)'''. Её назначение, в основном, вокал или другие большие wave или ogg файлы, которые вы бы хотели проигрывать неизменёнными. Вы можете добавить новую Дорожку с помощью шестой кнопки на панели инструментов song editor (Финального секвенсора) ([[File:Add_sample.png]]).
 
-Next you have the default '''Beat+Bassline''' instance. Just for illustration, click on one of the boxes in the timeline next to the Beat+Bassline track. You get a blue block. Click and drag its right end, and it will expand. This is what I meant by Beat+Bassline events are 'continuous'. When you did that the with the 3-OSC, the block was black, and would not expand.
-You can add a new Beat+Bassline with the 5. button on the song editor tool bar ([[File:Add_beat.png]]).
+Далее по умолчанию находится пример '''Beat+Bassline (Лейтмотив 0)'''. Просто для иллюстрации, кликните на один из квадратиков временной шкалы на дорожке Beat+Bassline (Лейтмотива 0). Вы получите голубой квадратик. Нажмите и перетащите его за правый край, и он растянется. Это то, что я имел в виду, называя события Beat+Bassline (Лейтмотива) 'непрерывными'. Когда вы делали что-нибудь с 3-OSC, квадратик был чёрным и не растягивался.
+Вы можете добавить новый Лейтмотив (Beat+Bassline) с помощью пятой кнопки на панели инструментов song editor (Финального секвенсора) ([[File:Add_beat.png]]).
 
-Last is an instance of the '''Automation Track'''. This can give you advanced variations in real-time, like filter-envelope effects. How to use this track is explained in [[0.4:Working with Automation|Working with Automation]].
-You can add a new Automation-Track with the 7. button on the song editor tool bar ([[File:Add_automation.png]]), at the top of the song editor window.
+Последняя строчка - пример '''Automation Track'''. Он даёт вам продвинутые возможности в режиме реального времени, такие как эффекты  filter-envelope. Как работать с этой дорожкой, объясняется в [[0.4:Working with Automation|Working with Automation]].
+Вы можете добавить новый Automation-Track с помощью седьмой кнопки на панели инструментов song editor (Финального секвенсора) ([[File:Add_automation.png]]), в верхней части окна song editor (Финального секвенсора).
 
-But a project needs more than a default 3-OSC, and luckily LMMS comes with an abundance of great instruments.
+Но проект нуждается более, чем в стандартном 3-OSC, и, к счастью, LMMS поставляется с множествой великолепных инструментов.
 
-== Instruments: Samples & Presets ==
+== Инструменты: семплы и заготовки ==
 
-Now we take a look at those components that create sounds: samples and instrument-presets.
+Сейчас мы рассмотрим те компоненты, которые создают звуки: семплы и инструментальные заготовки.
 To insert one of the many factory pre-defined instrument-presets into the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]] or [[0.4:Song Editor|Song Editor]], click the 4. button in the side bar, that works just like a browser. You can now choose a preset and drag it into the song editor. 
 Everything that you can do in the side bar browser with presets, you can also do with samples. (Just click the 3. button in the side bar.)
 Furthermore, you can click and hold your mouse on the name of a preset or sample. LMMS will then let you listen to that particular instrument, as a kind of sound-test. You can then drag the instrument into the editor. You can also double click a instrument in the browser. This will place the objects directly into the Beat+Bassline Editor, or you can right-click on the instrument in the browser-list-tree, and LMMS will open a context-menu. Here you have the option to send this instrument into an empty slot in the song-editor or to replace a current active instrument with this new instrument. The 'Active Instrument' is the instrument that is highlighted in the song editor, and has its GUI opened - in other words: has been mouse-clicked.
