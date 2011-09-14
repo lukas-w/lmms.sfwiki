@@ -39,7 +39,7 @@ We now change our philosophy significantly by having three separate patterns.  O
 There are advantages and disadvantages to each of the above approaches:
 
 * The first makes logical sense considered from a musical notation point of view, and is often easier to see the integration of all the instruments in the rhythm.  For instance, you will get a clearer picture of whether two instruments play on the same sixteenth using this method.
-* However, the first means that you have to reprogram the entire rhythm for each minor variation.  It is often much quicker to simply program that second pattern to contain only the <span class="plainlinks">[http://www.merchantos.com/ <span style="color:black;font-weight:normal; text-decoration:none!important; background:none!important; text-decoration:none;">point of sale software</span>] notes that vary.  On the other hand, this does not allow you to take out notes that are already in the 'base' pattern.
+* However, the first means that you have to reprogram the entire rhythm for each minor variation.  It is often much quicker to simply program that second pattern to contain only the notes that vary.  On the other hand, this does not allow you to take out notes that are already in the 'base' pattern.
 * This might logically suggest that a further break-down into common sections and their variations.
 * The 'one instrument per pattern' method is the logical extension of this.  While it is often harder to compose the instruments individually, it is easy to combine them in new and novel ways in the Song Editor.
 * Adding more tracks to separate out these individual differences, however, may make the rhythm tracks harder to manage and combine together.
