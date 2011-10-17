@@ -4,7 +4,6 @@
 
 
 
-
 {| cellspacing="3" valign="top" align="center" width="100%"
 | width="50%" style="color: #000" valign="top"|
 <div style="padding: .4em .9em .9em">
@@ -15,13 +14,13 @@ http://img20.imageshack.us/img20/1012/contents.png
 
 '''Documentation'''
 
-http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting_Started|Getting Started]]<br>
-http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual| Online Manual (wiki)]]<br>
-http://img62.imageshack.us/img62/1012/contents.png [https://sourceforge.net/projects/lmms/files/UserManual/ User Manual (pdf)]<br>
-http://img97.imageshack.us/img97/5625/helpfaq.png [[User_FAQ|User FAQ]]<br>
-http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|Tip of the day]]<br>
-http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|VST database]]<br>
-http://lmms.sourceforge.net/wiki/images/0/0d/Resource2.png [[Useful resources]]<br>
+http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting_Started|Getting Started]]<br/>
+http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual| Online Manual (wiki)]]<br/>
+http://img62.imageshack.us/img62/1012/contents.png [https://sourceforge.net/projects/lmms/files/UserManual/ User Manual (pdf)]<br/>
+http://img97.imageshack.us/img97/5625/helpfaq.png [[User_FAQ|User FAQ]]<br/>
+http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|Tip of the day]]<br/>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|VST database]]<br/>
+http://lmms.sourceforge.net/wiki/images/0/0d/Resource2.png [[Useful resources]]<br/>
 
 
 |}
@@ -30,16 +29,16 @@ http://lmms.sourceforge.net/wiki/images/0/0d/Resource2.png [[Useful resources]]<
 http://img34.imageshack.us/img34/5773/userconfig.png
 | style="color: #000" valign="top"|
 
-'''Guides'''<br>
+'''Guides'''<br/>
 
-http://img690.imageshack.us/img690/1540/memory.png [[Requirements]]<br>
-http://img192.imageshack.us/img192/8586/packagesb.png [[Installation]]<br>
-http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting]]<br>
-http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|How to Report Bugs]]<br>
-<!-- MOVED TO "[[Installation]]" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br> -->
+http://img690.imageshack.us/img690/1540/memory.png [[Requirements]]<br/>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation]]<br/>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting]]<br/>
+http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|How to Report Bugs]]<br/>
+<!-- MOVED TO "[[Installation]]" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br/> -->
 |}
 </div>
-<br>
+<br/>
 | width="50%" style="color: #000" valign="top"|
 <div style="padding: .4em .9em .9em">
 {| cellspacing="0" valign="top" align="center" width="100%"
@@ -47,12 +46,12 @@ http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|How to Re
 http://lmms.sourceforge.net/wiki/images/a/a0/Dev.png
 | style="color: #000" valign="top"|
 
-'''Community'''<br>
+'''Community'''<br/>
 
-http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Developers]]<br>
-http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Writers]]<br>
-http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artists]]<br>
-http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
+http://img717.imageshack.us/img717/8272/dev.png [[Developer Documentation|Developers]]<br/>
+http://img130.imageshack.us/img130/9206/pencill.png [[Writer Documentation|Writers]]<br/>
+http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|Artists]]<br/>
+http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br/>
 
 |}
 {| cellspacing="0" valign="top" align="center" width="100%"
@@ -60,36 +59,10 @@ http://img709.imageshack.us/img709/3940/mailsend.png [[Contact]]<br>
 http://img251.imageshack.us/img251/7428/newsg.png
 | style="color: #000" valign="top"|
 
-'''Wiki News'''<br>
-<!-- 
-==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
-*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
-*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
-*KEEP ONLY THE 10 MOST RECENT NEWS; MOVE OLD ONES TO THE NEWS ARCHIVE.
--->
-
-<div style="height: 100px; width: 200px; overflow: auto; padding: 3px;text-align: left; border:solid 1px;" title="braglist"; >
-
-'''2011''' <br>
-08-30: [https://sourceforge.net/projects/lmms/files/UserManual/ User Manual (pdf)] added<br>
-09-02: Cleaning up the Wiki <br> 
-[http://sourceforge.net/projects/lmms/files/lmms/0.4.10/  ''LMMS 0.4.10 released''] <br> 
-02-01: http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|Manual]] expanded, <br> 
-Tutorials and [[Tested VSTs|VST database]] updated <br> 
-01-18: {{flaglink|Jp:Main_Page|ja}} [[Jp:Main Page|main page]] + [[Jp:0.4:Manual|manual]] <br> 
-01-10: {{flaglink|Ca:Pàgina_principal|ca}} [[Ca:Pàgina principal|main page]] added <br> 
-01-05: {{flaglink|Nl:Hoofdpagina|nl}} [[Nl:Hoofdpagina|main page]] added <br> 
-01-03: {{flaglink|Ru:Main_Page|ru}} [[Ru:Main Page|main page]] + [[Ru:0.4:Manual|manual]] <br> 
-
-
-'''2010''' <br> 
-12-15: [http://sourceforge.net/projects/lmms/files/lmms/0.4.9/  ''LMMS 0.4.9 released''] <br> 
-08-10: Updated to MediaWiki 1.16.0 and enabled file uploads <br>
-07-01: ''[[Translating an Article]]'' <br>
-06-23: major translations clean-up <br>
-01-25: updated ''Main Page'' <br>
+'''Wiki News'''<br/><!-- NEWS ARE TRANSCLUDED FROM [[News Archive]] -->
+<div style="height: 120px; width: 240px; overflow: auto; padding: 3px;text-align: left; border:none 1px;" title="braglist"; >{{:News Archive}}
 </div>
-[[News Archive]] <br>
+[[News Archive]] <br/>
 
 |}
 </div>
