@@ -1,4 +1,4 @@
-==2011==
+<!-- !! Keep news from previous years below the "noinclude" tag to avoid cluttering the main page -->
 08-30: [https://sourceforge.net/projects/lmms/files/UserManual/ User Manual (pdf)] added<br/>
 02-01: http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|Manual]] expanded, Tutorials and [[Tested VSTs|VST database]] updated<br/>
 01-18: main page ''reworked''<br/>
@@ -6,8 +6,8 @@
 01-10: {{flaglink|Ca:Pàgina_principal|ca}} [[Ca:Pàgina principal|main page]] added<br/>
 01-05: {{flaglink|Nl:Hoofdpagina|nl}} [[Nl:Hoofdpagina|main page]] added<br/>
 01-03: {{flaglink|Ru:Main_Page|ru}} [[Ru:Main Page|main page]] added + manual<br/>
-
-==2010==
+<noinclude>
+===2010===
 12-15: [http://sourceforge.net/projects/lmms/files/lmms/0.4.9/  ''LMMS 0.4.9 released'']<br/>
 08-10: Updated to MediaWiki 1.16.0 and enabled file uploads<br/>
 07-01: new article [[Translating an Article|''Translating an Article'']]<br/>
@@ -22,3 +22,4 @@
 |-
 | Up: [[Main Page]]
 |}
+</noinclude>
