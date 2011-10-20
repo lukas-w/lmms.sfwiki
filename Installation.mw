@@ -35,16 +35,14 @@ So, Gentoo users who want to install LMMS only have to do:
 
 
 == http://gsmartcontrol.berlios.de/home/images/os_icons/ubuntu.png Ubuntu ==
-
-10.10: lmms-0.4.5 is in the Software Centre
+* '''11.04 Natty Narwhal''': lmms-0.4.10 is in the Ubuntu Software Centre.
+* '''10.10 Maverick Meerkat''': lmms-0.4.5 is in the Ubuntu Software Centre.
 
 For more current versions, install from one of the PPAs:
 
-https://launchpad.net/~kxstudio-team/+archive/ppa
-
-https://launchpad.net/~philip5/+archive/extra
-
-https://launchpad.net/~tobydox/+archive/lmms
+* https://launchpad.net/~kxstudio-team/+archive/ppa
+* https://launchpad.net/~philip5/+archive/extra
+* https://launchpad.net/~tobydox/+archive/lmms
 
 == http://t3.gstatic.com/images?q=tbn:SKnjmCstczbyKM:http://www.johndavies24.com/images/ubuntu28.png Older Versions of Ubuntu ==
 
