@@ -1,29 +1,27 @@
 {{0.4:Piano Roll EditorTrans}}
 {{msgbox:translate|German}}
 
-The '''piano roll editor''' is the main method of working with melodies and harmonies and looks like this:
+Der '''piano roll editor''' ist die Hauptmethode beim Arbeiten mit Melodien und Harmonien und sieht so aus:
 
 http://lmms.sourceforge.net/wiki/images/c/ce/Pianoroll-main.png
 
 <br> 
-It can be accessed by double-clicking a track element created in an instrument or beat/bassline track, 
-e.g.: http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png. <br> 
-It can also be accessed using the ''show piano roll'' button in the main tool bar 
+Der '''piano roll editor''' wird durch ein Doppelklicken auf ein Element in einem Instrument- oder Beat-/Basslinetrack aufgerufen z.B http://lmms.sourceforge.net/wiki/images/5/51/Pattern-pianoroll.png. <br> 
+Alternativ wird er über den ''show piano roll'' im  Hauptmenü aufgerufen
 http://lmms.sourceforge.net/wiki/images/3/39/Menubar-f7-pianoroll.png '''(F7)''', <br> 
-but this does not open any piano roll in particular and you will not be able to add notes. <br> 
-A message will be displayed in the window telling you to double-click in a track segment first.
+aber dieser Editor bezieht sich auf kein bestimmtes Element und nur duch herziehen eines Elements kann eine Note eingefügt, bearbeitet oder verschoben werden.<br> 
 
 = Piano Roll Tool Bar =
 
-The Piano Roll toolbar looks like this:
+Die Piano Roll toolbar sieht so aus:
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/3/30/Pianoroll-toolbar.png
 <!--{\end{center}}-->
 
-Many of the tools are similar to those found in the [[Song Editor]] but there are several important additions. <br> 
-In addition, there are slight but key changes in the way editing is done in the piano roll editor. <br> 
-At this stage it means learning two slightly incompatible editing styles.
+Die meisten Tools sind den Tools im [[Song Editor]] ähnlich, aber es gibt ein paar wichtige Ergänzungen. <br> 
+Ausserdem gibt es kleine aber feine Unterschiede in der Art der Bearbeitung<br> 
+Das bedutet: Man ist gezwungen 2 verschidenen Bearbeitungsstile zu lernen.
 
 == Playback ==
 
