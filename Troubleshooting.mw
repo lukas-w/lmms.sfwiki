@@ -65,8 +65,3 @@ The path to the plugins directory is (as of v. 0.3.0) hardcoded, meaning that yo
  - type "ln -s /usr/lib64/lmms/ /usr/lib/lmms"
 
 And you're ready to go. Someone should fix this (hint: src/core/config_mgr.cpp ;-) )
-
-
-
-hey,
-    i have just finished installing lmms on running it it shows me the splash screen and after that it show a setup window for a second and shutsdown the application without any error msg or alert.. how couldi find a report and a fix for this . please help !!! thanks
