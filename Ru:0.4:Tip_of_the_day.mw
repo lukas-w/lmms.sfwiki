@@ -1,0 +1,25 @@
+{{Tip of the dayTrans}}
+
+Здесь вы можете добавить предложения, которые могут быть показаны в диалоге "Совет Дня" в LMMS.
+
+* Вы можете использовать боковую панель слева для быстрого доступа к: Инструментам (plugins), Проектам (projects), Семплам (samples), Предустановкам (presets), Домашней (home) и Корневой (root) папкам.
+* You can create cool sounds turning BIT INVADER's sample length down a bit and then up again!
+* There are many effects to choose from in the "FX" tab on any instrument.
+* Holding down CTRL while dragging a song segment duplicates it.
+* You can change each track's colour in the Song Editor from its context menu. This helps you group tracks together logically.
+* If your instrument seems to 'click' when you release the note, try extending its decay or release time.
+* You can click on the oscilloscope playback display in order to turn it off if you find it distracting.
+* Once you've customized a sample or instrument to your tastes, it's a good idea to save it as a preset so that you can use it in other songs!
+* Automation applied to an instrument in a [[Beat Bassline Editor|Beat + Bassline Editor]] track only applies to the number of bars that the pattern goes for, typically one.  If you want to automate fade-ins or other effects on an instrument for longer than that one bar, then you must either move the instrument to the [[Song Editor]] or automate its effects via an individual effects line.
+* If you don't have enough effects in the "FX" tab of an instrument, try searching for and installing more LADSPA effects using your distribution's standard package management tool.
+* To quickly copy an entire track in the [[Song Editor]], hold down CTRL while dragging the 'grip' area on the far left of the track.
+* Hover the mouse pointer over a step in the [[Beat Bassline Editor|Beat + Bassline Editor]] and use your mouse wheel to raise/lower the volume of that step.
+* CTRL+S saves your project. Remember to save often!
+* Use CTRL+Z to undo changes, and CTRL+R to redo.
+* Don't forget that the LMMS Wiki is there to help you! You can quickly access it through Help/Online Help.
+* Most instruments that are included in the default installation are named “Default preset”. You should make it a habit to always rename this “Default preset” to a describing new name. Double-click on “Default preset” and enter the new name.
+* You can save the same song with a different name using "save as", this will give a backup of the original song in the event of something going wrong with the original song or it can be used as a remix or experimental version too.
+* If you find that your song is eating too much cpu you can export the song as a .wav and reload it again in an LMMS sample track or AudioFileProcessor, this will bring the cpu load down giving room for use of more instruments, ladspa effects and automation tracks.
+* Sometimes you need to 'add' bars in the Song-editor to a project. Could be that you decides that the composistion needs an intro. Place the play-head where you want the new empty bars. Hold SH and pres INSERT. For each key-press you get one new bar to the rigtht of the play-heads current posistion.
+* Sometimes you want to remove bars in the Song-editor. Place the playhead where the un-needed bars begin. Hold SH and pres DELETE. For each key-press your composistion is moved one bar to the left in respect to play-heads current posistion. OBS! Nothing is deleted! Blocks that are moved to the same posistion will 'stack'!.
+*Basslines can be much longer than the beat pattern in the [[Beat Bassline Editor|Beat + Bassline Editor]]. Just be sure they are on 2 separate beat/bassline tracks and then click and drag the bass pattern out further in the song editor.
