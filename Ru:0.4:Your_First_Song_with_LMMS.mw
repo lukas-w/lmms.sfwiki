@@ -1,18 +1,18 @@
 {{0.4:Your First Song with LMMSTrans}}
 
-Итак, Вы только что загрузили LMMS So you've just loaded up LMMS and you want to find your way around?  In this situation, programmers write a "hello world" program; we're going to write "Popcorn", a classic for the synthesizer that should be well known.
+Итак, Вы только что загрузили LMMS и хотите начать? В этой ситуации программисты пишут программу "привет, мир"; мы же собираемся записать композицию "Popcorn", классику для синтезатора, которая должна быть хорошо известна.
 
-= Your First Song =
+= Ваша Первая Песня =
  
-LMMS is a tool that can be used to make music effectively without very much hassle.  To showcase this fact, if you follow these step by step instructions you should be able to make your own songs very quickly.  
+LMMS - инструмент, который может быть использован для создания музыки практически без хлопот. Для презентации этой возможности следуйте следующей пошаговой инструкции, и Вы очень скоро сможете создать вашу собственную композицию.
 
-If you are using Windows, double click the icon on your desktop or go start menu - programs - LMMS to load your version of the LMMS program.  ( I am not aware of anything different in the linux version so I am afraid I can't help here.)
+Если Вы используете Windows, щёлкните два раза на иконку LMMS на вашем рабочем столе или в меню "Пуск" для загрузки программы. (Я не знаю о различиях в версиях для Linux, поэтому боюсь, что не смогу здесь помочь.)
 
-When you first load the program you will see several boxes with various titles and a toolbar at the top left.  Looking at the upper to middle left side of the screen you will also see some small icons.  These are important as most of these are where you select your sounds.  
+Когда Вы впервые загрузите программу, Вы увидите несколько блоков с различными заголовками и панель инструментов слева. Посмотрите на верхнюю левую часть экрана и Вы увидите несколько маленьких кнопок. Это важно, поскольку они помогут Вам работать со звуком.
 
-== Your First Melody ==
+== Ваша Первая Мелодия ==
 
-=== Choosing the instrument ===
+=== Выбор Инструментов ===
 
 You've got the default screen in front of you, with the [[Song Editor]], [[Beat Bassline Editor|Beat + Bassline Editor]] and [[Project Notes]] open.  First, click the Presets icon (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) on the [[Side Bar]] to open up the list of '''preset''' sounds.  Double-click on the '''TripleOscillator''' or click on the plus symbol on its left to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
 
