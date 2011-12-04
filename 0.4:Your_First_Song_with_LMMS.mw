@@ -6,7 +6,7 @@ So you've just loaded up LMMS and you want to find your way around?  In this sit
  
 LMMS is a tool that can be used to make music effectively without very much hassle.  To showcase this fact, if you follow these step by step instructions you should be able to make your own songs very quickly.  
 
-If you are using Windows, double click the icon on your desktop or go start menu - programs - LMMS to load your version of the LMMS program.  ( I am not aware of anything different in the linux version so I am afraid I can't help here.)
+If you are using Windows, double click the icon on your desktop or go start menu - programs - LMMS to load your version of the LMMS program. If you are using Ubuntu, open up a terminal (CTRL+ALT+T on version 11.04), type in "lmms" (without the quotation marks), and press enter. 
 
 When you first load the program you will see several boxes with various titles and a toolbar at the top left.  Looking at the upper to middle left side of the screen you will also see some small icons.  These are important as most of these are where you select your sounds.  
 
@@ -216,8 +216,6 @@ http://img8.imageshack.us/img8/1038/screenshotsmbulmms0490.png
 http://img23.imageshack.us/img23/3205/screenshotsmbulmms04901.png
 
 (*note the lowered volumes of the snare drum in the 2 examples above i.e. the dimmed <FONT COLOR="#00ff00">led's</FONT> in some steps. To change the volume of a step, hover your mouse over it and roll the scroll wheel down to lower volume and up to raise volume--the brightness of the step's green color will change.)
-
-
 
 = Footnotes =
 
