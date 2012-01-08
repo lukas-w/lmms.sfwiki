@@ -21,27 +21,28 @@ The different parts of the screen ('''elements''') are numbered in yellow. They 
 The main part of the interface contains a number of windows, each serving a different purpose.<br/>You can show/hide any of these windows using the buttons in the second row of the [[0.4:Tool Bar|Tool Bar]].
 
 When LMMS is launched, four windows are opened by default: 
-* [[0.4:Song Editor|Song-Editor]] This is where you compose the song.
-* [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] This is where drum (beats) sounds are created.<br /> The output of this window is automatically inserted as the beat/bassline track in the Song-Editor window.
-* [[0.4:FX Mixer|FX-Mixer]] This is the sound mixer, where volume of each channel is separately controlled.<br/>It also has a sub-window where you can add special effects and chain them together.
-* [[Controller Rack|Controller Rack]] 
+* [[0.4:Song Editor|Song-Editor]] This is different sound elements are organized to produce a song.
+* [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] This is the window where repetitive song elements (such as drum beats or basslines)can be created.
+* [[0.4:FX Mixer|FX-Mixer]] This is the sound mixer, where the volumes of each channel can be separately controlled.<br/>It also has a sub-window where special effects can be added or chained together. 
+* [[Controller Rack|Controller Rack]] This is where controllers are added and configured. 
 
-Remember to save often!  Save your project every time you have created something that sounds good. It is also a good strategy to save different versions of your song.  This will allow you to revert to a previous version of the project.
+==Saving==
+
+Remember to save often!  Save your project every time you've created something that sounds good. Ir's also a good strategy to save different versions of your song, allowing you to revert to a previous version of the project in the event that you've tweaked the production into something you don't like.
 
 When you save a project for the first time, you will be prompted for a folder name and a project name. Subsequent saves will overwrite this file, and LMMS will show you a small success message at the bottom of the screen. Wait for this message!
 
 ==Jumping Right In==
 
-A project is made by adding '''instruments''' (sidebar tab 1), '''samples''' (sidebar tab 3) and existing '''presets''' (sidebar tab 4) to either the Song Editor or the Beat+Bassline Editor. 
+A production is created by adding '''instruments''' (sidebar tab 1), '''samples''' (sidebar tab 3) and/or existing '''presets''' (sidebar tab 4) to either the Song Editor or the Beat+Bassline Editor. 
 
-The Song Editor is useful for non-repeating sound events, such as melody lines, and the Beat+Bassline Editor is useful for repeating sounds, like percussion. <br> 
+The Song Editor is useful for non-repeating sound events, such as melody lines, while the Beat+Bassline Editor is useful for repeating sequences, like percussion. <br> 
 Events created in the Beat+Bassline Editor are 'continuous' -i.e. they can be expanded by mouse-dragging as long as you would like. <br>
 Events created in the Song Editor are 'atomic' -i.e. they can't be expanded (but can be copied, of course).
 
-The actual song is always built in the Song Editor. This is where all the '''elements''' (blocks), including events in the Beat+Bassline Editor, come together on the timeline, and reveal your complete composition.
+The actual song is always built in the Song Editor. This is where all the '''elements''' (blocks), including events in the Beat+Bassline Editor, come together on the timeline forming the complete production.
 
-Lets take a look at the default [[0.4:Song Editor|Song Editor]].
-In the default Song Editor there are 4 items loaded. The first one, named ''"Default Preset"'', is an instance of the [[TripleOscillator|Triple Oscillator]] (3-OSC) generator; it's a good example of an instrument-container. This Triple Oscillator instance has default settings that will generate musical notes using a simple sine wave, so it's a very basic electronic tone generator. We can delete it, but before we do that, let's look at it, because it has behavior that is the same for all other instrument-containers.
+When starting a new project in LMMS there are 4 items loaded in the [[0.4:Song Editor|Song Editor]] by default. The first one, named ''"Default Preset"'', is an instance of the [[TripleOscillator|Triple Oscillator]] (3-OSC) generator; it's a good example of an instrument-container. This Triple Oscillator instance's default settings generate musical notes using simple sine waves. We can delete it, but before we do that, let's study it, because it has behavior that is the same for all other instrument-containers.
 When you move your mouse over the instrument-containers, they will high-light. This indicates that the instruments can be clicked as if they were buttons! Left-click the 3-OSC. This opens the instrument GUI. Click again, and the GUI is closed. All instruments behave like this. 
 
 When you make changes on the GUI you create a '''preset'''. If it sounds less than horrible, you have an instrument :)
