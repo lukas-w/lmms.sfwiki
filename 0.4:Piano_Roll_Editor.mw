@@ -42,8 +42,7 @@ The 4 editing modes (tools) are '''Draw''', '''Erase''', '''Select''', and '''De
 The '''Select''' mode tool allows you to select individual notes to create a group, or "'''selection'''", which you can then move, cut, copy, or paste. 
 * '''Rectangular Selection''': use the Select tool to drag a rectangular area around some notes. When you release the mouse button, the selected notes will turn blue.
 * '''Individual Selection''': use the Select tool to left-click on a note--it will turn blue.
-* '''Add to Selection''': you can add more notes to the current selection by holding down the Shift key (Shift+drag or Shift+click) and the additional notes will turn blue, too.
-* '''Remove from Selection''': can't find a way to do this
+* '''Add to (or remove from) Selection''': you can add more notes to the current selection by holding down the Shift key (Shift+drag or Shift+click) and the additional notes will turn blue, too. If the notes are already selected, it will remove them from the selection.
 * '''Clear Selection''': left-click on an empty space in the Piano-Roll
 <br>
 {| cellspacing="0" valign="top" align="center" width="100%"
