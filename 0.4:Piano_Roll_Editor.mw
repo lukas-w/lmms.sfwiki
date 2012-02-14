@@ -86,7 +86,9 @@ For example, if you set the Quantisation to 1/1 (i.e. 1 bar resolution), you'll 
 '''''Tip''''': holding down the '''Ctrl''' key in Draw mode converts the mouse cursor to the Select mode tool, and it returns to the Draw mode tool when you release the Ctrl key. <br>
 Use the '''Draw mode''' tool to place notes in the Piano-Roll. <br>
 As you hover your mouse or move a note in the work area, the gray horizontal line helps you see the pitch of the note you're placing:
-* '''left-click''' to place a note 
+* '''left-click''' to place a note, or if a chord is selected:
+** place the notes of the chord with current note as the lower note
+** '''Shift+left-click''' idem except that the notes are placed in arpeggio mode
 * '''right-click''' to delete a note
 * hover over the center of a note until a '''4-headed arrow''' appears then:
 ** '''drag''' the note either left/right in time or up/down in pitch. This also works for a selection of notes. The note(s) will snap to the nearest time increment as set in the Quantisation drop-down.
