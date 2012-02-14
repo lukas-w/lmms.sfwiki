@@ -125,7 +125,8 @@ http://lmms.sourceforge.net/wiki/images/a/ac/Pianoroll-keys.png
 | valign="top"|
 The piano keyboard is on the left side of the window. <br> 
 You can scroll up (higher pitch) and down (lower pitch) using either the scroll bar on the right side of the window or the scroll wheel on your mouse. <br> 
-Click (or click-and-hold) on any piano key to hear the corresponding note.
+Left-click (or click-and-hold) on any piano key to hear the corresponding note.
+You can also, by right-clicking, mark the current semitone or all the semitones of the selected chord or scale based on the current note.
 |}
 
 == Computer Keyboard ==
