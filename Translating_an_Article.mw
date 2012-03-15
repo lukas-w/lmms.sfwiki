@@ -33,7 +33,7 @@ More info: [[Templates#Message Boxes]]
 
 == How It Works ==
 
-==== "Trans" Templates (whit the flags) ====
+==== "Trans" Templates (with the flags) ====
 Most pages have a list of links to translations on top (those nice-looking flags). If we look in the source code though, these links are invisible. There not there. Why? That's because they're actually on another page which is called a ''Template.'' Templates are embedded into a page and into all of its translations. This way editing the template containing links changes them on all translated versions too. All translations share the same Template.<br>
 
 Let's look at an example:<br>
