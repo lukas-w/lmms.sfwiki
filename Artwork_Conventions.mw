@@ -7,4 +7,4 @@ Here are a few pointers to guide you in making good artwork the right way.
 
 == Formats ==
 * Try to work with SVG files for icons. You can later export them in all shapes and sizes.
-* PNG is best for icons and computer graphics, JPG is better for pictures.
+* JPG is for pictures. Do not use it for computer graphics nor icons. Use PNG instead.
