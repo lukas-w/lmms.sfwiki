@@ -28,7 +28,7 @@ When LMMS is launched, four windows are opened by default:
 
 ==Saving==
 
-Remember to save often!  Save your project every time you've created something that sounds good. Ir's also a good strategy to save different versions of your song, allowing you to revert to a previous version of the project in the event that you've tweaked the production into something you don't like.
+Remember to save often!  Save your project every time you've created something that sounds good. It's also a good strategy to save different versions of your song, allowing you to revert to a previous version of the project in the event that you've tweaked the production into something you don't like.
 
 When you save a project for the first time, you will be prompted for a folder name and a project name. Subsequent saves will overwrite this file, and LMMS will show you a small success message at the bottom of the screen. Wait for this message!
 
@@ -78,7 +78,7 @@ Furthermore, you can click and hold your mouse on the name of a preset or sample
 
 Use the send-to-active-instrument option if you need to load a VST-Instrument Preset. (More on this: [[04: How to use VSTige Instruments|How to use Vst-Instrument Presets]]) 
 
-When you insert an instrument, the instrument's GUI editor window will open. You can also see this GUI by clicking on the instruments grey 'name' button in the Song or Beat+Bassline Editors. When you click the 'name' button the button will change to lightgray. This instrument is now the 'Active Instrument'. The 'name' button acts as a toggle for the GUI editor window. Instrument GUI's have five tabs: PLUGIN, ENV/LFO FUNC, FX and MIDI.  The 'PLUGIN' tab changes with the type of instrument; all other tabs are standard for every instrument, however nothing on the ENV/LFO tab will influence VSTige plug-ins.
+When you insert an instrument, the instrument's GUI editor window will open. You can also see this GUI by clicking on the instruments grey 'name' button in the Song or Beat+Bassline Editors. When you click the 'name' button the button will change to lightgray. This instrument is now the 'Active Instrument'. The 'name' button acts as a toggle for the GUI editor window. Instrument GUI's have five tabs: PLUGIN, ENV/LFO, FUNC, FX and MIDI.  The 'PLUGIN' tab changes with the type of instrument; all other tabs are standard for every instrument, however nothing on the ENV/LFO tab will influence VSTige plug-ins.
 The in and outs of how to use the features on the various tabs, are described in the [[0.4:Working with Instruments|Working with Instruments]] section.
 
 If you want to remove an instrument completely from your song, click on its gray 'toolkit' icon and choose 'Remove this track'.
