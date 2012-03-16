@@ -15,9 +15,9 @@ saw, triangle, square, square with rounded end, moog-like wave, sine wave, expon
 '''VCF''' [http://en.wikipedia.org/wiki/Voltage-controlled_filter (Voltage-Controlled Filter)] <br> 
 * '''24dB/oct'''
 * '''Cut'''off 
-* '''Res'''onance 
+* '''RES''' (Resonance) 
 * '''Env Mod'''
-* '''Dec'''ay
+* '''DEC''' (Decay)
 
 
 '''DIST''' (Distortion)
