@@ -6,8 +6,8 @@ http://lmms.sourceforge.net/wiki/images/f/f6/Plugins-bitinvader.png
 | style="color: #000" valign="middle"|
 
 
-* '''Interpolation''': 
-* '''Normalize''': 
+* '''Interpolation'''(Somebody who knows - write definition please) 
+* '''Normalize'''(Somebody who knows - write definition please)
 * The knob on the left side sets the '''sample-length''' of the waveform in a range from 8 to 128. 
 * '''Smooth''' the waveform by clicking on the button labeled with ''S''
 * '''Draw''' your own waveform on the wavedisplay. 
