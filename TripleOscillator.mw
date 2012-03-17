@@ -8,10 +8,10 @@ http://lmms.sourceforge.net/wiki/images/a/a5/Plugins-tripleoscillator.png
 == Plugin settings ==
 The first panel controls the way the oscillators interact with each other. The available settings are:
 * '''PM''' ('''Phase Modulation''') - phase of oscillator is modulated (i.e. phase locally changes left/right) by sub-oscillator
-* '''Amplitude Modulation''' - output oscillator and its suboscillator is multiplied 
+* '''AM''' ('''Amplitude Modulation''') - output oscillator and its suboscillator is multiplied 
 * '''Mixed''' - The waveforms are added (default)
-* '''Synchronized''' - The waveform of the first oscillator is restarted with the frequency of the second one (the waveform of the second one does not matter in this mode)
-* '''Frequency Modulation''' - frequency of oscillator is modulated (i.e. phase globally changes left/right) by sub-oscillator
+* '''Sync''' ('''Synchronized''') - The waveform of the first oscillator is restarted with the frequency of the second one (the waveform of the second one does not matter in this mode)
+* '''FM''' ('''Frequency Modulation''') - frequency of oscillator is modulated (i.e. phase globally changes left/right) by sub-oscillator
 The next three panels are the settings for the three oscillators.
 * The waveform generated
 * '''Vol''' - (Volume) Amplitude of the waveform. Set to 0 when you don't want to use this oscillator.
