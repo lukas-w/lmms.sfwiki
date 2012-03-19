@@ -24,7 +24,7 @@ The next three panels are the settings for the three oscillators.
 
 == Waveforms ==
 ;Sine: The "purest" sound. Useful for organ-like instruments. Due to a sine wave being only one exact frequency, normal frequency filters have little effect on sine waves.
-;Triangle: Similar to sine, although a lot less smooth.  Useful for string instruments
+;Triangle: Similar to sine, although a lot less smooth.  Useful for string instruments.
 ;Sawtooth: A very sharp, "synth-like" sound.  Useful for string instruments and generic "synth-like" instruments.
 ;Pulse/Square wave: The typical sound of vintage arcade games. Sounds much less old-fashioned when combined with other waveforms.  Be cautious, as the square wave will sound a lot louder than the other waves.
 ;Moog-like Triangle: Sounds similar to saw, but can also be used for some organ-like sounds.  The shape is due to a historic glitch in the analogue circuitry of the original Moog synthesizer.
