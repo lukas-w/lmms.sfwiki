@@ -13,7 +13,7 @@ The first panel controls the way the oscillators interact with each other. The a
 * '''Sync''' ('''Synchronized''') - The waveform of the first oscillator is restarted with the frequency of the second one (the waveform of the second one does not matter in this mode)
 * '''FM''' ('''Frequency Modulation''') - frequency of oscillator is modulated (i.e. phase globally changes left/right) by sub-oscillator
 The next three panels are the settings for the three oscillators.
-* The waveform generated
+* The waveform generated (pictures)
 * '''Vol''' - (Volume) Amplitude of the waveform. Set to 0 when you don't want to use this oscillator.
 * '''Pan''' - (Panning) Affects the stereo panning of the oscillator.
 * '''Crs''' - (Coarse) Frequency of the oscillator relative to the note played in semitones
