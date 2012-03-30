@@ -145,21 +145,21 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.pn
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
 <!--{\end{center}}-->
 
-== Your First Beat ==
+== Ваш первый удар ==
 
-For our first sound we are going to select the small box on the left side with the music note.  This box is your sample collection that comes standard with LMMS.  When you Click the My Samples box a list of folders should appear, one of them labeled "drums".  Double clicking the box will show a list of percussion instruments.  Click on them to hear the different sounds of the instruments.  
+Для создания нашего первого звука, нужно выбрать вкладку с левой стороны с нарисованной нотой. Эта вкладка содержит вашу коллекцию образцов, которая поставляется с LMMS. При нажатии на вкладку "Мои образцы" должен появиться список папок, одна из них с надписью "drums". Двойной щелчек на ней откроет список ударных инструментов. нажимайте на них, чтобы услышать звуки различных инструментов.
 
-If you look at the open boxes one of them should read "Beat and Bassline Editor.  Locate that box before going forward.  If you have closed it by chance it is located on the left top toolbar.  
+Если вы посмотрите на открытые окна, то увидите, что одно из них называется "Пошаговый секвенсор". Найдите, что окно, прежде чем двинетесь дальше. Если вы закрыли его случайно, кнопка его вызова находится слева на верхней панели.
 
-Going back to the cool samples you just heard select the bassdrum_acoustic02.ogg, click that file and drag it to the beat editor and a new tab should appear in box with that same label.  do the same thing to the instruments hihat_closed04.ogg and snare02.ogg (scroll down).  
+Вернитесь к классным образцам, которые вы только что слушали и выберите bassdrum_acoustic02.ogg, выберите этот файл и перетащить его в пошаговый секвенсор. При этом должна появиться новая дорожка с таким названием. Сделайте то же самое с инструментами hihat_closed04.ogg и snare02.ogg (прокрутите вниз).
 
-If it is done correctly you should have 3 instruments in the beat and bassline editor box (from here this editor will be called bnb box).  Push the play button located on the bnb box.  you should hear silence.  if you press on the small tombstone like icon on the bassdrums instrument line you should eventually hear the drum with a flash from the the instruments sounding bar (it only lights up when it is being played.) For this part 0 will mean that the instrument bar is left blank.  1 will mean that the instrument bar is active.
+Если все сделано правильно, вы должны получить три инструмента в окне пошагового секвенсора (далее будем называть его окно ПС). Нажмите кнопку воспроизведения, находящуюся в окне ПС. Вы должны услышать тишину. Если нажать на маленькую иконку, похожую на надгробную плиту на линии больших барабанов (bassdrum) вы должны через некоторое время услышать барабан и увидеть вспышку на панели инструментов (она происходит только когда воспроизводится звук) Далее 0 будет означать что такт инструмента остается пустым, 1 означает, что такт инструмента является активным.
 
-Your first Bassdrum line will be: |1 0 0 0 | 0 0 1 0 | 0 0 0 0 | 0 0 0 0|
-Your first HiHat line will be:    |1 0 0 0 | 1 0 0 0 | 1 0 0 0 | 1 0 0 0|
-Your first Snare line will be:    |0 0 0 0 | 0 0 0 0 | 1 0 0 0 | 0 0 0 0|
+ Ваша первая линия больших барабанов (bassdrum) будет: | 1 0 0 0 | 0 0 1 0 | 0 0 0 0 | 0 0 0 0 | 
+ Ваша первая линия тарелок (Hihat) будет:              | 1 0 0 0 | 1 0 0 0 | 1 0 0 0 | 1 0 0 0 | 
+ Ваша первая линия малых барабанов(Snare) будет:       | 0 0 0 0 | 0 0 0 0 | 1 0 0 0 | 0 0 0 0 |
 
-When done correctly this will make a simple drum beat. 
+Если все сделано правильно вы должны услышать простой барабанный ритм. 
 
 === Drum Pattern (examples) ===
 
