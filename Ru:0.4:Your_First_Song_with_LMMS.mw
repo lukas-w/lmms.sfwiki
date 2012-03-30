@@ -33,50 +33,49 @@ http://lmms.sourceforge.net/wiki/images/f/fd/Xylophon_track.png
 
 (Если бы это был ударный инструмент, лучше было бы перетащить его в пошаговый секвенсор, сейчас поймете почему. На самом деле мы хотим чтобы этот инструмент играл последовательность нот, однако перетаскиваем в финальный секвенсор.) 
 
-=== Making the melody ===
+=== Создание мелодии ===
 
-We now want to add notes to make the melody.  Left-click in the first bar of the Moog track and a new piano roll segment will appear (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png).  Double-click on that and the [[Piano Roll Editor]] will appear, allowing you to put notes into that newly-created segment.
+Теперь мы собираемся добавить ноты, чтобы создать мелодию. Щелкните левой кнопкой мыши на первом прямоугольнике дорожки "Xylophon" и будет создан новый сегмент. (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/songeditor-track-segment-piano-empty.png). Дважды щелкните на нем и откроется окно секвенсора, которое позволяет размещать ноты в свежесозданном сегменте. 
 
 <!--{\begin{center}}-->
 http://img101.imageshack.us/img101/8506/pianoroll.png
 <!--{\end{center}}-->
 
-==== The first note ====
+==== Первая нота ====
 
-Now click in the black square just to the right of the 'A4' note (which is three lines, or semitones, down from the note marked C5).  This will create a new crotchet - a note one beat long - starting at that time.
+Теперь нажмите на черный квадрат, который находится справа от ноты "A4" (которая на три линии, или полутона ниже по сравнению с нотой отмеченной C5). Это создаст новую четвертную ноту - ноту длиной в один такт - начиная с указанного времени. 
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/0/05/First_popcorn_tone.png
 <!--{\end{center}}-->
 
-However, this is too long: we need notes half a beat - a quaver - long.  To change this, we simply move the mouse pointer to the right-hand edge of the note, until the cursor changes into a left-and-right arrow.  Then we hold the mouse button down and drag the end of the note left two 'blocks' (each block being one sixteenth of a bar).
+Однако, это слишком долго: нам нужна нота в половину такта (восьмая нота) длиной. Чтобы исправить это, просто наведите курсор мыши на правый край ноты, курсор должен превратиться в сдвоенную стрелку. Затем удерживая кнопку мыши потяните край ноты влево на два "квадратика" (каждый квадратик является одной шестнадцатой такта). 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/size-note.png
 <!--{\end{center}}-->
 
-After this, the new notes we put down will be the same length, because the Piano Roll Editor default is set to Last Note (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png) -But you can change that in the drop-down. However most of the time you will work with the 'Last Note' setting, but if you suddenly cant create notes in the length you expected, its because you accidentally made a change to this drop-down.
+После этого, новые ноты, которые вы будете размещать, будут такой же длины, потому что секвенсор умолчанию настраивается на последнюю ноту (http://img34.imageshack.us/img34/5366/pianorolltoolbarnotelen.png) Но вы можете изменить это в выпадающем списке. Однако большую часть времени вы будете работать с настройками "Последней ноты", но если вы вдруг не сможете создать ноты ожидаемой длины, это потому что вы случайно внесли изменения в выпадающем списке. 
 
-==== More notes ====
+==== еще ноты ====
 
-Continue creating notes in the pattern shown:
+Продолжайте создавать ноты, как показано на рисунке:
 
 <!--{\begin{center}}-->
 http://img695.imageshack.us/img695/1610/firstbar.png
 <!--{\end{center}}-->
 
-To place a note, you need to aim for the line at the start of the beat; LMMS will recognise a small fraction of the area left of the beat line as being closer to that beat than the previous. You can control this with the 'Q-setting'. Default 'Q' is correlated to note-length. That is 'Note-lock'. But again you can change that 'magnetic-point' in the Q-dropdown. If you make a mistake placing a note, you can move it to its correct position by clicking on the middle of the note (where the cursor turns into a four-way cross) and dragging the note to its new position.  LMMS will play the note that you're dragging onto as an aide to correct placement.  You can move notes horizontally (in time) as well as vertically (in pitch).
+Чтобы разместить ноту, необходимо прицелиться в линию у начала такта; LMMS распознает неболшой участок слева от линии такта как относящийся к этому такту, а не к предыдущему. Вы можете контролировать это с помощью Q-настройки. 'Q' по умолчанию соотносится с длиной ноты. Это так называемая "блокировка ноты" Но, опять же, вы можете изменить положение этой "магнитной точки" в выпадающем списке "Q". Если вы допустили ошибку размещая ноту, вы можете переместить ее в нужное положение, щелкнув на середине ноты (курсор при этом превратится в крестик) и перетащить ноту на новое место. LMMS при этом будет проигрывать ноту, которую вы тащите, чтобы помочь в ее правильном размещении. Вы можете перемещать ноты по горизонтали (во времени), а также по вертикали (по высоте).
 
-If you need to delete a note, simply right-click on it.
+Если вам нужно удалить ноту, просто щелкните на ней правой кнопкой мыши. 
 
-==== Copy and paste ====
+==== Копирование и вставка ====
 
-We now want to repeat those seven notes at the start of the bar in the next bar.  There are three ways to do this.
+Теперь мы хотим повторить эти семь нот в начале следующего такта. Есть три способа сделать это.
 
-The first and worst way to do it is to simply click the correct notes. But this is tedious. Let's use some of LMMS's features to speed this up.
+Первый и самый худший способ сделать это просто нащелкать нужные ноты. Но это скучно. Давайте используем некоторые особенности LMMS к ускорим этот процесс.
 
-The first real way to do it is to use the duplicator tool. First select the notes you want to copy. Hold down Ctrl and make a selection rectangle around the notes you want to copy. Next, hold Shift and drag the newly selected notes. You are now dragging a copy of the selected notes. You can place these where you want them to go.
-
+Первый реальный способ сделать это состоит в использовании копировального инструмента. Сначала выберите ноты, которые вы хотите скопировать. Удерживая клавишу Ctrl и выделите прямоугольник вокруг нот, которые вы хотите скопировать. Затем, удерживая Shift и перетащите выбранные ноты. Теперь вы перетаскиваете копиии выбранных нот. Вы можете разместить их там, где хотите. 
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/4/49/Selected_notes.png
@@ -90,19 +89,19 @@ http://lmms.sourceforge.net/wiki/images/b/bb/Drag_copied_notes.png
 http://lmms.sourceforge.net/wiki/images/2/23/Drop_copied_notes.png
 <!--{\end{center}}-->
 
-Alternatively you can use good old copy and paste. Again, use Ctrl to select the notes you want, and then press Ctrl+C. Press Ctrl+V to paste the notes at the beginning, and move them to their new location.
+Также вы можете использовать старые добрые копирование и вставку. Снова используйте Ctrl для выбора желаемых нот, а затем нажмите Ctrl + C. Сначала нажмите сочетание клавиш Ctrl + V, чтобы вставить ноты в начале, а затем переместите их на новое место.
 
-To select all notes you can press Ctrl+A.
+Чтобы выбрать все ноты, вы можете нажать Ctrl + A.
 
-We can now press the '''play''' button (http://img685.imageshack.us/img685/2559/play.png) in the Piano Roll Editor window to play the melody back.  When it gets to the end of the last bar in which there are notes, it will automatically repeat back to the start of the first bar.
+Теперь мы можем нажать на кнопку воспроизведения (http://img685.imageshack.us/img685/2559/play.png) в окне секвенсора, чтобы проиграть мелодию. Когда воспроизведение дойдет до конца последнего содержащего ноты такта, оно автоматически начнется с начала первого такта.
 
-==== Oops! ====
+==== Ой! ====
 
-When we play the melody so far, we realize that the melody actually starts on the wrong beat.  The second A4 note is really supposed to be the start of the bar, and the two notes before it are leading in from the previous bar.  However, we can't go further back than bar 1 in our piano roll.  We need to move all the notes forward. Press Ctrl+A to select all the notes. Then you can click and drag to move them all over in order to have the first note start on the right beat (see picture below).
+Теперь, когда мы воспроизводим мелодию, становится понятно, что мелодия на самом деле начинается с неправильного ритма. Вторая нота "A4" на самом деле должна быть началом такта, а две ноты перед ней остались от предыдущего такта. Тем не менее, мы не можем переместиться раньше начала первого такта в нашем секвенсоре. Нам придется переместить все ноты вперед. Нажмите Ctrl + A, чтобы выбрать все ноты. Затем вы можете перетащить их все, чтобы первая нота начиналась с нужного такта (смотрите рисунок нижe). 
 
-==== The first 'four' bars ====
+==== Первые "четыре" такта ====
 
-If you're confident, you can now continue adding the notes of the tune to make the first four bars (up to where the main melody repeats).  Here's what your piano roll should look like at the end of this:
+Если вы уверены в себе, теперь вы можете продолжать добавлять ноты мелодии, чтобы создать первые четыре такта (до того места, где основная мелодия повторяется). Вот как ваш секвенсор должен выглядеть после этого: 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
