@@ -107,44 +107,43 @@ http://lmms.sourceforge.net/wiki/images/2/23/Drop_copied_notes.png
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bars.png
 <!--{\end{center}}-->
 
-=== More structure ===
+=== Более структурированно ===
 
-We can now close the Piano Roll Editor and go back to the Song Editor.  You will see that the track segment that we initially double-clicked to create the melody has expanded out to fit the notes that we've added.
+Теперь мы можем закрыть секвенсор и вернуться к финальному секвенсору. Вы увидите, что участок трека, на котором мы дважды щелкали в начале для создания мелодии, расширился, чтобы вместить добавленные ноты.
 
-We now want to copy that segment to create the next four bars.  The easiest way to do that is to simply hold down the Ctrl key, then drag the initial segment.  This will drag a copy of the segment to a new location, which must be outside the initial segment.  This process will look like this:
+Теперь мы собираемся скопировать этот сегмент чтобы создать следующие четыре такта. Самый простой способ сделать это, просто нажмите и удерживайте клавишу Ctrl, перетащите начальный отрезок. Таким образом вы перетащите копию сегмента на новое место за пределами изначального сегмента. Этот процесс будет выглядеть следующим образом: 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
 <!--{\end{center}}-->
 
-Drop the segment on bar 6.  This is actually one bar too late, as the first three quarters of a bar of this segment is empty, as is the last quarter of the last segment.  Fortunately, segments can overlap and their notes will play simultaneously.<sup><small>[[Your First Song with LMMS#Footnotes| [3]]]</small></sup>.  Drag the second copy so that it starts at bar 5.
+Отпустите сегмент на шестой такт. На самом деле это на один такт позднее чем нужно, так как первые три четверти такта в этом сегменте пустуют, как и последняя четверть такта предыдущего сегмента. К счастью, сегменты могут перекрываться и ноты будут играть одновременно. <sup><small>[[Your First Song with LMMS#Footnotes| [3]]]</small></sup> . Перетащите второй экземпляр, так чтбы он начинается с пятого такта.
 
-You can now play this using the play button in the Song Editor.  You will hear a short pause as it counts the first three beats of silence, then the melody will start.  It should play smoothly through the two repeats.
+Теперь Вы можете воспроизвести мелодию помощью кнопки воспроизведения в окне финального секвенсора. Вы услышите короткую паузу, пока он отсчитает первые три такта тишины, затем начнет играть мелодия. Мелодия должна воспроизводиться плавно и повториться два раза.
 
-The Song Editor should now look like this:
+Финальный секвенсор должен выглядеть следующим образом: 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-8bars.png
 <!--{\end{center}}-->
 
-==== Variation 2 ====
+==== Второй вариант ====
 
-We can now go on to create another piano roll segment and fill in the next four bars:
+Теперь мы можем перейти к созданию другого сегмента секвенсора и заполнить следующие четыре такта:
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/variation-2.png
 <!--{\end{center}}-->
 
-Due to the way that the segments overlap, you will have to create the new segment in a new bar (e.g. bar 11) and then move it into position over the previous segment.
+Благодаря тому, что сегменты перекрываются, вам придется создать новый сегмент в с нового такта (например, одиннадцатого), а затем переместить его в нужное положение по сравнению с предыдущим сегментом.
 
-Note that there is a slight oddity in the Piano Roll Editor that causes you to start editing at bar 2 when opening occasional new segments.  Check which bar you're writing notes into before getting to far!
+Обратите внимание, что есть небольшая странность в секвенсоре, который заставляет Вас, чтобы начать редактирование со второго тактаиногда при открытии нового сегмента. Проверьте, в какой такт вы пишете ноты перед тем, как зайдете слишком далеко!
 
-Your Song Editor should now look like this:
+Ваш финальный секвенсор должен выглядеть следующим образом: 
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/songeditor-16bars.png
 <!--{\end{center}}-->
-
 
 == Your First Beat ==
 
