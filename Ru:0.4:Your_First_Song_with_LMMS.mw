@@ -4,23 +4,23 @@
 
 = Ваша Первая Песня =
  
-LMMS - инструмент, который может быть использован для создания музыки практически без хлопот. Для презентации этой возможности следуйте следующей пошаговой инструкции, и Вы очень скоро сможете создать вашу собственную композицию.
+LMMS является инструментом, который может быть использован для эффективного создания музыки с минимальными трудностями. Чтобы продемонстрировать эту возможность, если вы будете следовать этим пошаговым инструкциям вы очень быстро сможете создать свои собственные композиции.
 
-Если Вы используете Windows, щёлкните два раза на иконку LMMS на вашем рабочем столе или в меню "Пуск" для загрузки программы. (Я не знаю о различиях в версиях для Linux, поэтому боюсь, что не смогу здесь помочь.)
+Если вы используете Windows, дважды щелкните значок на рабочем столе или выберите меню пуск - программы - LMMS для загрузки вашей версии LMMS. Если вы используете Ubuntu, откройте терминал (Ctrl + Alt + T в версии 11,04), введите "LMMS" (без кавычек) и нажмите Enter.
 
-Когда Вы впервые загрузите программу, Вы увидите несколько блоков с различными заголовками и панель инструментов слева. Посмотрите на верхнюю левую часть экрана и Вы увидите несколько маленьких кнопок. Это важно, поскольку они помогут Вам работать со звуком.
+При первой загрузке программы вы увидите несколько окон с различными названиями и панель инструментов в левом верхнем углу. По левому краю экрана, с верхнего края до середины вы увидите несколько небольших иконок. Они важны, поскольку большинство из них обозначает места, где вы будете брать ваши звуки.
 
 == Ваша Первая Мелодия ==
 
 === Выбор Инструментов ===
 
-Перед Вами экран по умолчанию с октрытыми [[0.4:Song Editor|Song-Editor (Финальный Секвенсор)]], [[0.4:Beat Bassline Editor|Beat+Bassline Editor (Пошаговый Секвенсор)]] и [[0.4:Project Notes|Project Notes (Заметки К Проекту)]]. Щёлкните по иконке предустановок (Presets icon) (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) на  [[0.4:Side Bar|Side Bar (Боковая Панель)]], чтобы открыть список '''предустановленных''' ('''preset''') звуков. Double-click on the '''TripleOscillator''' or click on the plus symbol on its left to open this folder and you will be presented with a diverse range of instruments.  You can hold the mouse button down on any preset to hear a preview of its sound.
+Вы видите перед собой экран по умолчанию, с открытыми окнами [[0.4:Song Editor|финального секвенсора]] , [[0.4:Beat Bassline Editor|пошагового секвенсора]] и [[0.4:Project Notes|заметок к проекту]]. Для начала нажмите на иконку предустановок (http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/sidebar-retracted-preset.png) На [[0.4:Side Bar|боковой панели]], чтобы открыть список '''предустановленных''' звуков. Дважды щелкните на '''TripleOscillator''' или нажмите на знак плюс слева, чтобы открыть эту папку, и вам будет представлен широкий спектр инструментов. Вы можете нажать и удерживать кнопку мыши на любом из звуков для его предварительного прослушивания.
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/0/06/Presets_tripple_oscillator.png
 <!--{\end{center}}-->
 
-For now, let's drag the "'''Xylophon'''" preset onto the space in the middle of the Song Editor. When you drop it, a new track will be created with that preset as the instrument.
+А сейчас давайте перетащим предустановленный звук "Xylophon" на свободное место в середине финального секвенсора. Когда вы отпустите его, будет создан новый трек и в качестве инструмента будет задан предустановленный звук.
 
 <!--{\begin{center}}-->
 http://lmms.sourceforge.net/wiki/images/9/99/Drag_xylophon.png
@@ -31,7 +31,7 @@ http://lmms.sourceforge.net/wiki/images/9/99/Drag_xylophon.png
 http://lmms.sourceforge.net/wiki/images/f/fd/Xylophon_track.png
 <!--{\end{center}}-->
 
-(If this were a percussion-type instrument, we might be better off dragging it to the Beat+Bassline Editor instead; you'll see why in  a second. We really want to give this instrument a string of notes (or a Piano Roll) to play, though, so Song Editor it is.)
+(Если бы это был ударный инструмент, лучше было бы перетащить его в пошаговый секвенсор, сейчас поймете почему. На самом деле мы хотим чтобы этот инструмент играл последовательность нот, однако перетаскиваем в финальный секвенсор.) 
 
 === Making the melody ===
 
