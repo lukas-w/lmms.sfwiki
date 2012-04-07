@@ -122,7 +122,7 @@ Below the LFO knobs are 2 toggles:
 * Freq x 100 - multiplies the displayed waveform frequency by 100
 * Modulate Env-Amount - causes the LFO to control the AMT parameter of the Envelope of the same target.
 
-To demonstrate an LFO for CUTOFF we add a long note and play it in a loop. We do this so we can hear the effect as we change our settings. ''Warning'': wear headphones or get a divorce lawyer.
+To demonstrate an LFO for CUTOFF we add a long note and play it in a loop. We do this so we can hear the effect as we change our settings. ''Warning'': wear headphones.
 * Open the ENV/LFO tab and go to the CUTOFF sub-tab. We will initially work only in the LFO (lower) section, but often some adjustments are needed in the Envelope (upper) section because of unwanted artifacts that can be fixed with some minor adjustments.
 * Click to turn on the filter (lamp ON).
 * Choose a filter from the drop-down menu--try LowPass or 2LowPass.
