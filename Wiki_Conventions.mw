@@ -1,8 +1,8 @@
 {{Wiki ConventionsTrans}}
 
-= Images =
+== Images ==
 
-= Naming Articles =
+== Naming Articles ==
 All version-dependent article titles should begin with the concerned version number, followed by the actual title, with a ":" between the two. 
 Here's an example: ''0.4:Manual''
 
@@ -38,5 +38,5 @@ List of version-dependent articles: (basically all sections in the Manual, excep
  LMMS Settings
  Key Mappings
 
-= Translations =
+== Translations ==
 All translations should be based on the English version. The articles' title should begin with the language's two-lettered ISO 639-1 code (Fr, De, Es, ...), followed by the LMMS version (if the article is version-dependent), followed by the actual title, in that language.  It wouldn't make much sense to translate articles leaving the titles in English, wouldn't it? Here are some examples: ''Fr:Page Principale, Fr:0.4:Manuel''. The English version doesn't need that part though.
