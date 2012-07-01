@@ -588,15 +588,6 @@ All sounds are calculated in "real time", no samples are used.
 | {{wikitable_cell}}|Chinese two-stringed bowed musical instrument.
 | {{wikitable_cell}}|http://chineekong.com/free.htm
 |-
-| {{rh}} | Sample plugin <br> (for adding your own)
-| {{wikitable_cell}}|
-| {{wikitable_cell}}|
-| {{Yes}}
-| {{Yes}} <br> (as of 0.4.x)
-| {{No}}
-| {{wikitable_cell}}|some exceptions and other interesting stuff
-| {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
-|-
 | {{rh}} | DVS Megabass
 | {{wikitable_cell}}|Continuous sound Bass Synth
 | {{wikitable_cell}}|DreamVortex
@@ -604,7 +595,7 @@ All sounds are calculated in "real time", no samples are used.
 | {{?}}
 | {{?}}
 | {{lc}}|
-Works flawlessly in Linux
+Great continual tone from this bass synth
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
 | {{rh}} | Transcender SE
@@ -614,7 +605,7 @@ Works flawlessly in Linux
 | {{?}}
 | {{?}}
 | {{lc}}|
-Works flawlessly in Linux
+Full, and dreamy Synth
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
 | {{rh}} | Phat Bass
@@ -624,7 +615,7 @@ Works flawlessly in Linux
 | {{?}}
 | {{?}}
 | {{lc}}|
-Works flawlessly in Linux
+Works well, and is full of bass
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
 | {{rh}} | Nanotron
@@ -634,7 +625,7 @@ Works flawlessly in Linux
 | {{?}}
 | {{?}}
 | {{lc}}|
-Works flawlessly in Linux
+Incredible vintage sound.  Very profressional sounding, and enjoyable.
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
 | {{rh}} | Dream Sequencer
@@ -644,8 +635,17 @@ Works flawlessly in Linux
 | {{?}}
 | {{?}}
 | {{lc}}|
-Works flawlessly in Linux
+Very nice and enjoyable sequencer!!
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
+|-
+| {{rh}} | Sample plugin <br> (for adding your own)
+| {{wikitable_cell}}|
+| {{wikitable_cell}}|
+| {{Yes}}
+| {{Yes}} <br> (as of 0.4.x)
+| {{No}}
+| {{wikitable_cell}}|some exceptions and other interesting stuff
+| {{wikitable_cell}}|http://lmms.sourceforge.net/wiki/index.php?title=Tested_VSTs
 |}
 
 ===VST Pads===
