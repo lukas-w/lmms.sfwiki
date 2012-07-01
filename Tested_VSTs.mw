@@ -603,6 +603,8 @@ All sounds are calculated in "real time", no samples are used.
 | {{Yes}}
 | {{?}}
 | {{?}}
+| {{lc}}|
+Works flawlessly in Linux
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
@@ -612,6 +614,8 @@ All sounds are calculated in "real time", no samples are used.
 | {{Yes}}
 | {{?}}
 | {{?}}
+| {{lc}}|
+Works flawlessly in Linux
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
@@ -621,6 +625,8 @@ All sounds are calculated in "real time", no samples are used.
 | {{Yes}}
 | {{?}}
 | {{?}}
+| {{lc}}|
+Works flawlessly in Linux
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
@@ -630,6 +636,8 @@ All sounds are calculated in "real time", no samples are used.
 | {{Yes}}
 | {{?}}
 | {{?}}
+| {{lc}}|
+Works flawlessly in Linux
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |-
@@ -639,6 +647,8 @@ All sounds are calculated in "real time", no samples are used.
 | {{Yes}}
 | {{?}}
 | {{?}}
+| {{lc}}|
+Works flawlessly in Linux
 | {{wikitable_cell}}|
 | {{wikitable_cell}}|http://www.dreamvortex.co.uk/instruments
 |}
