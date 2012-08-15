@@ -54,12 +54,28 @@ http://img683.imageshack.us/img683/5166/colorscm.png [[Artist Documentation|ال
 http://img709.imageshack.us/img709/3940/mailsend.png [[Contact|الاتصال]]<br>
 
 |}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img251.imageshack.us/img251/7428/newsg.png
+| style="color: #000" valign="top"|
 
+'''أخبار الويكي'''<br>
+<!-- 
+==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
+*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
+*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
+*KEEP ONLY THE 4 MOST RECENT NEWS; COMMENT OLD ONES.
+-->
 
+08-10 Updated to MediaWiki 1.16.0 and enabled file uploads<br>
+07-01: مقالة جديدة [[Translating an Article|''ترجمة مقالة'']]<br>
+06-23: major translations clean-up<br>
+01-25: صفحة رئيسية ''محدّثة''<br>
+01-20: مقالة جديدة ''[[Creating a Theme|إنشاء موضوع]]''<br>
+<!--01-11: simplified [[Tested VSTs|''VST Database'']]<br>-->
 
-
-
-
-
+|}
+</div>
+|}
 ----
 {{Main PageTrans}}
