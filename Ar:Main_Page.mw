@@ -19,4 +19,25 @@ http://img199.imageshack.us/img199/6025/wizardq.png [[0.4:Getting_Started|الش
 http://img62.imageshack.us/img62/1012/contents.png [[0.4:Manual|دليل <nowiki>[ويكي]</nowiki>]] [https://sourceforge.net/projects/lmms/files/UserManual/ <nowiki>[بي دي آف]</nowiki>]<br/>
 http://img97.imageshack.us/img97/5625/helpfaq.png [[User_FAQ|أسئلة وأجوبة المستخدم]]<br/>
 http://img689.imageshack.us/img689/261/ktipx.png [[Tip of the day|تلميح اليوم]]<br/>
-http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|VST قاعدة بيانات]]<br/>
+http://img43.imageshack.us/img43/769/databases.png [[Tested VSTs|قاعدة بيانات VST]]<br/>
+http://lmms.sourceforge.net/wiki/images/0/0d/Resource2.png [[Useful resources|موارد مفيدة]]<br>
+
+
+|}
+{| cellspacing="0" valign="top" align="center" width="100%"
+| width="160px" style="color: #000" valign="top"|
+http://img34.imageshack.us/img34/5773/userconfig.png
+| style="color: #000" valign="top"|
+
+'''الأدلة'''<br/>
+
+http://img690.imageshack.us/img690/1540/memory.png [[Requirements|المتطلبات]]<br/>
+http://img192.imageshack.us/img192/8586/packagesb.png [[Installation|التنصيب]]<br/>
+http://img35.imageshack.us/img35/28/messageboxwarning.png [[Troubleshooting|استكشاف الأخطاء وإصلاحها]]<br/>
+http://img686.imageshack.us/img686/4820/buger.png [[How to report bugs|كيف تبلغ عن الاخطاء]]<br/>
+<!-- MOVED TO "[[Installation]]" http://img402.imageshack.us/img402/7923/systemsettings.png [[Tuning LMMS-installation]]<br/> -->
+|}
+
+
+----
+{{Main PageTrans}}
