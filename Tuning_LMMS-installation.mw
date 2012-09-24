@@ -19,7 +19,7 @@ An Ubuntu-specific third-party repository has been created to offer more up-to-d
 #In steps two and three above you may need to replace "jaunty" with the version of Ubuntu you are using (for example "hardy" or "intrepid"). You can locate the version of Ubuntu you are using from the main menu under ''System'', ''About Ubuntu''.
 
 ===From Source Code===
-In order to use the current developmental release of LMMS (an unofficially-released work in progress) or official LMMS releases that are not available in your Linux distribution's repositories you will need to compile the LMMS source code. This procedure is outside the scope of this document, unless someone adds it in the briefest and simplest way possible (good luck).
+In order to use the current developmental release of LMMS (an unofficially-released work in progress) or official LMMS releases that are not available in your Linux distribution's repositories you will need to compile the LMMS source code. This procedure is outside the scope of this document; ''see'' [[Compiling LMMS]].
 
 ==Post-Installation==
 
