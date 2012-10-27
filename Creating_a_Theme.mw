@@ -31,7 +31,7 @@ To test your theme, all you need to do is open LMMS, go to Edit->Settings->Paths
 
 == Sharing Your Theme ==
 '''Compressing'''<br/>
-Once your theme is complete, it's a great idea to compress it to ''.tar.gz'' and share it with the community :) On Linux you run ''tar cfz theme.tar.gz'' folder to compress. On Windows you can use [http://www.7-zip.org/ 7zip] for this purpose. '''Be aware of this:''' 7zip does not let you compress directly to a ''tar.gz'' file. First you compress the folder to a ''.tar'' file, then you will have to compress the new file again with the gzip (''.gz'') or bzip2 (''.bz2'') format.<br/>
+Once your theme is complete, it's a great idea to compress it to ''.tar.gz'' and share it with the community :) On Linux you run ''"tar cfz theme.tar.gz"'' folder to compress. On Windows you can use [http://www.7-zip.org/ 7zip] for this purpose. '''Be aware of this:''' 7zip does not let you compress directly to a ''tar.gz'' file. First you compress the folder to a ''.tar'' file, then you will have to compress the new file again with the gzip (''.gz'') or bzip2 (''.bz2'') format.<br/>
 
 The [http://lmms.sourceforge.net/lsp/?action=browse&category=UI%20themes LMMS Sharing Platform] is the best place for sharing themes. Remember that you'll need to register to upload content (it's free).
 *Just be cautious about licences and patent infringements if you used others' images!
