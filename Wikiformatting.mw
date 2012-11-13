@@ -3,7 +3,8 @@ To format text on this wiki to e.g. headlines, bold, italic or links, you can si
 
 === Useful ===
 To insert a line break you can use the HTML tag <nowiki><br/></nowiki> or <nowiki><br></nowiki> <br/>
-You can only use the "internal link" button if you are linking to a page on this very same wiki. Then you could simply write the name of the article inside double brackets. Otherwise use the "external link" button with single brackets. You can add a space after the link and write a link title.
+You can only use the "internal link" button if you are linking to a page on this very same wiki. Then you could simply write the name of the article inside double brackets. Otherwise use the "external link" button with single brackets. You can add a space after the link and write a link title. 
+<br><br>
 
 == The manual method ==
 To manually write the format characters might save you some time, and there are a few formatting options which do not got their own buttons. <br/>
