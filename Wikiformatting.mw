@@ -1,0 +1,30 @@
+== The highlight method ==
+To format text on this wiki to e.g. headlines, bold, italic or links, you can simply highlight text and press the desired button. This method is the same as in all major writing programs, however on this wiki you will not see the finished formatted text while you are writing. Instead you will see new characters appearing at the beginning and the end of the selected text. To see the fully formatted article you must press the button "Show preview". You can also press the buttons first and then write. The text you then write will all be formatted.
+
+=== Useful ===
+To insert a line break you can use the HTML tag <nowiki><br/></nowiki> or <nowiki><br></nowiki> <br/>
+You can only use the "internal link" button if you are linking to a page on this very same wiki. Then you could simply write the name of the article inside double brackets. Otherwise use the "external link" button with single brackets. You can add a space after the link and write a link title.
+
+== The manual method ==
+To manually write the format characters might save you some time, and there are a few formatting options which do not got their own buttons. <br/>
+
+'''You write:'''
+*'''Subheadings''' between three equals signs: <nowiki> ===Hello there===</nowiki>
+*'''Bullet points''', with a star: <nowiki>*</nowiki> at the beginning of each line;
+** Bullet points ''within a bulleted list'', with double stars: <nowiki>**</nowiki> at the beginning of each line
+*** This is only the third level bulleted point with triple stars: <nowiki>*** </nowiki> at the beginning, but imagine the possibilities! 
+<br/>
+
+#'''numbered list''', with a hash: <nowiki>#</nowiki> at the beginning of each line. It will automatically renumber.
+# <-- Can you see the invisible hash which has disguised itself as a 2?
+# '''Bullet point list''' ''within a numbered list'', with a hash and a star: #* at the beginning of each line
+#* That was done here. Both hash and star at the beginning, but the hash is invisible.
+# A numbered list within the main numbered list with a double hash: <nowiki>##</nowiki> at the beginning of each line
+## That was done here.
+### There could be 100 hashtags!
+### Really! There could be! But this is just three. <br><br>
+#  Use <nowiki><br></nowiki> to achieve space without starting the list over.
+
+
+
+<br>
