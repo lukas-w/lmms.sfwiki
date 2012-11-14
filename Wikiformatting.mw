@@ -1,13 +1,23 @@
 == The highlight method ==
-To format text on this wiki to e.g. headlines, bold, italic or links, you can simply highlight text and press the desired button. This method is the same as in all major writing programs, however on this wiki you will not see the finished formatted text while you are writing. Instead you will see new characters appearing at the beginning and the end of the selected text. To see the fully formatted article you must press the button "Show preview". You can also press the buttons first and then write. The text you then write will all be formatted.
+To format text on this wiki to e.g. headlines, bold, italic or links, you can simply highlight text and press the desired button.<br>
+http://lmms.sourceforge.net/wiki/images/1/1a/Highlight_method.png <br>
+This method is the same as in all major writing programs, however on this wiki you will not see the finished formatted text while you are writing. Instead you will see new characters appearing at the beginning and the end of the selected text. To see the fully formatted article you must press the button "Show preview". You can also press the buttons first and then write. The text you then write will all be formatted.
 
 === Useful ===
-To insert a line break you can use the HTML tag <nowiki><br/></nowiki> or <nowiki><br></nowiki> <br/>
-You can only use the "internal link" button if you are linking to a page on this very same wiki. Then you could simply write the name of the article inside double brackets. Otherwise use the "external link" button with single brackets. You can add a space after the link and write a link title. 
+To insert a line break you can use the HTML tag <nowiki><br/></nowiki> or <nowiki><br></nowiki> <br/><br/>
+Line break and how it looks in the wiki editor:<br> 
+http://lmms.sourceforge.net/wiki/images/7/72/Line_break_in_editor_Before.png <br> 
+Line break and how it looks in the article: <br>
+http://lmms.sourceforge.net/wiki/images/a/a1/Line_break_in_article_After.PNG <br><br>
+
+You can only use the "internal link" button if you are linking to a page on this very same wiki. Then you could simply write the name of the article inside double brackets, no need of the whole link adress. Otherwise use the "external link" button with single brackets. You can add a space after the link and write a link title. <br><br>
+Example of external link: http://lmms.sourceforge.net/wiki/images/6/61/External_link_in_editor_Before.PNG -> In article: http://lmms.sourceforge.net/wiki/images/3/3d/External_link_in_editor_After.PNG <br>
+You can also change the name of a internal link, by adding a space, a pipe, space and the the new name. <br> 
+Example of internal link: http://lmms.sourceforge.net/wiki/images/6/68/Internal_link_in_editor.png -> in article: 
 <br><br>
 
 == The manual method ==
-To manually write the format characters might save you some time, and there are a few formatting options which do not got their own buttons. <br/>
+To manually write the formatting characters might save you some time, and there are a few formatting options which do not got their own buttons. <br/>
 
 '''You write:'''
 *'''Subheadings''' between three equals signs: <nowiki> ===Hello there===</nowiki>
