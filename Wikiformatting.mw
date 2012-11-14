@@ -13,7 +13,7 @@ http://lmms.sourceforge.net/wiki/images/a/a1/Line_break_in_article_After.PNG <br
 You can only use the "internal link" button if you are linking to a page on this very same wiki. Then you could simply write the name of the article inside double brackets, no need of the whole link adress. Otherwise use the "external link" button with single brackets. You can add a space after the link and write a link title. <br><br>
 Example of external link: http://lmms.sourceforge.net/wiki/images/6/61/External_link_in_editor_Before.PNG -> In article: http://lmms.sourceforge.net/wiki/images/3/3d/External_link_in_editor_After.PNG <br>
 You can also change the name of a internal link, by adding a space, a pipe, space and the the new name. <br> 
-Example of internal link: http://lmms.sourceforge.net/wiki/images/6/68/Internal_link_in_editor.png -> in article: 
+Example of internal link: http://lmms.sourceforge.net/wiki/images/6/68/Internal_link_in_editor.png -> in article: http://lmms.sourceforge.net/wiki/images/6/6d/Internal_link_in_article.png
 <br><br>
 
 == The manual method ==
