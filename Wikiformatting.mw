@@ -26,6 +26,7 @@ To manually write the formatting characters might save you some time, and there 
 *** This is only the third level bulleted point with triple stars: <nowiki>*** </nowiki> at the beginning, but imagine the possibilities! 
 <br/>
 
+'''You write:'''
 #'''numbered list''', with a hash: <nowiki>#</nowiki> at the beginning of each line. It will automatically renumber.
 # <-- Can you see the invisible hash which has disguised itself as a 2?
 # '''Bullet point list''' ''within a numbered list'', with a hash and a star: #* at the beginning of each line
