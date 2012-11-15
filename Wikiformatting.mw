@@ -22,7 +22,7 @@ To manually write the formatting characters might save you some time, and there 
 '''You write:'''
 *'''Subheadings''' between three equals signs: <nowiki> ===Hello there===</nowiki>
 *'''Bullet points''', with a star: <nowiki>*</nowiki> at the beginning of each line;
-** Bullet points ''within a bulleted list'', with double stars: <nowiki>**</nowiki> at the beginning of each line
+** '''Bullet points within a bulleted list''', with double stars: <nowiki>**</nowiki> at the beginning of each line
 *** This is only the third level bulleted point with triple stars: <nowiki>*** </nowiki> at the beginning, but imagine the possibilities! 
 <br/>
 
@@ -31,7 +31,7 @@ To manually write the formatting characters might save you some time, and there 
 # <-- Can you see the invisible hash which has disguised itself as a 2?
 # '''Bullet point list''' ''within a numbered list'', with a hash and a star: #* at the beginning of each line
 #* That was done here. Both hash and star at the beginning, but the hash is invisible.
-# A numbered list within the main numbered list with a double hash: <nowiki>##</nowiki> at the beginning of each line
+# '''A numbered list within the main numbered''' list with a double hash: <nowiki>##</nowiki> at the beginning of each line
 ## That was done here.
 ### There could be 100 hashtags!
 ### Really! There could be! But this is just three. <br><br>
