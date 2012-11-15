@@ -29,11 +29,11 @@ To manually write the formatting characters might save you some time, and there 
 '''You write:'''
 #'''numbered list''', with a hash: <nowiki>#</nowiki> at the beginning of each line. It will automatically renumber.
 # <-- Can you see the invisible hash which has disguised itself as a 2?
-# '''Bullet point listwithin a numbered list''', with a hash and a star: #* at the beginning of each line
+# '''Bullet point list within a numbered list''', with a hash and a star: #* at the beginning of each line
 #* That was done here. Both hash and star at the beginning, but the hash is invisible.
 # '''A numbered list within the main numbered list''' with a double hash: <nowiki>##</nowiki> at the beginning of each line
 ## That was done here.
-### There could be 100 hashtags!
+### There could be many hash tags and thus many lists within lists. Almost like Inception.
 ### Really! There could be! But this is just three. <br><br>
 #  Use <nowiki><br></nowiki> to achieve space without starting the list over.
 
