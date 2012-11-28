@@ -1,0 +1,83 @@
+In the chapter “Working with LADSPA effects” you learned that music made in LMMS can be strongly improved with effects. You can however also use VSTs based effects in LMMS.
+Most of these effects are more streamlined and offer elegant and sleek GUIs. You will however not be able to automate VSTs effects!
+On the LMMS forum DJStriden published his experiences with VSTs effcts, and listed those that he likes the most. Not all users have the same succes with all plugins. You will have to do some T&E, and see if you can make everything swing together. You should test in dummy projects, and whatch your CPU load.
+I add this to the wiki, on his request:
+
+
+= Mixing Tools =
+
+We've all pretty much been there. We make music early in our lives, and show it to critics with our heads held high, and are stunned by how much we didn't do. We're told to master a bit more, and learn music theory, we are told that the mixing... Downright sucks.
+Believe me, it's not shameful. It's a fact that mixing takes months getting used to, and years to master, just like any trade ever. The key to a good track ultimately lies in the mixing.
+What exactly is mixing? Well the term is broadly called "mastering", and it is (in it's bluntest definition) "making the song sound good". But what it actually entails, is using a mixer, and assigning individual instruments to separate mixer tracks, equalizing them, compressing them, adding effects, and above all making it so that they sound good with every other mixed instrument.
+Another thing about mastering is (once your song is completed) to put a limiter on the master track set at 0 db, and this will ensure the volume does not go above 0 db, which is the volume needed for a track to clip.
+You can view countless tutorials on mastering, and there are an unlimited amount of ways to mix. In fact, any track you make has many different ways to be mixed "perfectly." Do you want it majestic, or airy? Flushed, or dense? Loud or dynamic? Do you want to change the whole theme of your track during the middle? Mixing is the FINAL element to music creation in a DAW, and you'd be surprised how much it can effect your track. There have been many times that I have begun the mastering process, and the song was barely resemblant of what I was working on.
+So the point is, mastering is important, and unfortunately, most mastering tools AREN'T CHEAP. Thankfully though, the best ones are! From EQ's to limiters, compressors to reverb, maximizers to stereo wideners, and anything in between, below is an extensive layout of tools that work 100 percent with LMMS, COMPLETELY FREE, and will make your tracks that much better! Good luck, and I hope to see the amazing stuff you guys can do with this!
+
+
+== Equalizers ==
+Are audio processors that cut out certain frequencies of a mix. They are useful for leaving headroom for the rest of the mix, and cutting out unwanted frequencies.
+
+'''Nyquist EQ'''
+Stats: Parametric, Visual
+Bands: Five
+Nyquist EQ: Is probably one of the most useful plugins I know. It will NEVER crash LMMS, NEVER clip, the CPU load is practically non existent, it is ridiculously easy to use, and you can load as many instances into LMMS as you would like! They all stack as well, so if five bands isn't enough, just add another one in the FX chain! This is good for the master track, and shedding off some of the insane low end that LMMS generates, giving a TON of headroom for your mix!
+Link: http://magnus.smartelectronix.com/
+
+'''Electri-Q''' (Posihfopit Edition)
+Stats: Parametric, Visual, Anolog and Digital
+Bands: Starts with 4, 6, or 8. Can have up to 64! O_O
+Electri-Q (Posihfopit Edition): Is a ridiculously, unbelievably, unashamedly powerful parametric graphic equalizer that almost never crashes LMMS (I would save it for the master track though). It has every fall off type imaginable, can process digital (can't clip) or anolog (can clip, but sounds more vintage and realistic) sound, all at 32 bit, with up to 64 bands of pure magic! Seven is standard by the way, 64 bands is just insane... Anyway, it's one of the most amazing free vst's out there, and is definitely in league with some of the best commercial gear out there!
+Link: http://www.aixcoustic.com/index.php/posihfopit_edition/30/0/
+
+'''Melda Production (MEqualizer)'''
+Stats: Parametric, Visual
+Bands: 6
+MEqualizer: Is an incredibly smooth, visual parametric EQ with untapped frequency response! I love using it for the sake of having immediate, high quality results. Out of all of these eq's, it is probably the highest quality. That also means it has the highest CPU usage. Until LMMS gets a better internal processor, or better vst plugin support, or both, just use this on the master track for now 
+Link: http://www.meldaproduction.com/freevstplugins/mequalizer.php (This comes in a vst pack, you get all of Melda's other freeware stuff in it as well. One thing to note, these all have an optional payed version, that gives you incredibly epic features. But they are already complete without paying a dime)
+
+'''ReaEQ'''
+Stats: Parametric, Visual
+Bands: UNLIMITED!!!
+ReaEQ: Harnesses and embodies all that a professional equalization plugin is... FOR FREE! It is unbelievably powerful and can handle any frequencies you throw at it. A word of caution however, if the volume it outputs exceeds 0 db, it may clip! If you like feeling like a god when producing, or even just want to have some fun, this is the plugin for you  Save the best for last right? Best part? No matter how many instances you run, it will NEVER bog down LMMS, and it will NEVER crash! Talk about power! Enjoy this one guys! XD
+Link: http://www.reaper.fm/reaplugs/ (This one also comes in a vst pack)
+
+This concludes the first part of chapter one of improving lmms  I will come out with part two of mixing tools soon, so stay tuned! I hope these tools help you to create the best music you possibly can! I look forward to hearing what you all have to offer! Thanks!
+Keep spreading the music! 
+
+== Compressors ==
+Ah... Virtually the hardest concept in mixing and mastering to grasp (for most people), compression. The Idea of compression is to raise the volume of the track without clipping. How this is achieved, is once the volume hits a certain threshold (a db value) the compression kicks in and raises the volume, up to a specified limit. Generally that limit is 0 db so the track can't clip, but when compressing individual tracks, you may want to set it much lower.
+Another reason that compression is such a touchy subject is because there are an insane amount of "types" of compressors.
+Simple volume compressors, Limiters, brick wall limiters, side chain compressors, eq compressors, harmonics compressors, in fact the compressor world isn't limited to volume in general. There are even FREQUENCY compressors! There are also compressors that barely effect your track at all. One's that have no idea where their place is among the world of vst's. When it comes to compressors and limiters (same difference) the amount of free one's that are actually good is sadly... Surprisingly huge. So it can be very hard to pick out the best from that list.
+Thankfully, I'm going to make it easy for you! These are not only the best free compressor, limiters, and the like, but some of the best EVER.
+
+Compressors (Internal volume knobs to make your track louder, very good for making your track... well... Louder)
+
+'''LoudMax'''
+Stats: Brick wall, cannot exceed 0db
+Loud Max: Is my idea of a final audio master plugin that really does the job! Since it can't exceed 0db, that means it can't clip at ALL! It's so smooth, and works in pretty much any circumstance. Unless sadly, you are using LMMS. It crashes LMMS alot. So immediately when you open it, set the threshold to -6db or something and close the window. Another problem. When you reload LMMS, it somehow sets it's threshold, and db limit to 0. LMMS doesn't like this, and will crash if you try to play the song with it like this. So my recommendation is to just save it until you export your track. Make it the very last thing you do!
+Link: http://loudmax.blogspot.com/
+
+'''ReaXCompressor'''
+Stats: Unlimited multiband compressor/limiter, doesn't crash LMMS
+ReaXompressor: Is downright insane. Cockos has this thing with plugins. They are completely and totally decked! ReaXCompressor is probably my most favorite compressor on this planet! It enables you to create separate bands across the WHOLE spectrum of the audio, and compress each band individually. I don't know what else to say, except that this is an incredible work of art, and well... Have fun being Chuck Norris with LMMS!
+Link: http://www.reaper.fm/reaplugs/ (Note, if you downloaded ReaEQ from the link in part one of mixing tools, then you already have this)
+
+Hmm... That's kind of it. Those are the best. There is one more however!
+
+'''ReaComp'''
+Stats: Simple, easy to use, and highly vintage.
+ReaComp: Is very easy to grasp, and if you don't like the thought or complexity of multi-band compressors, then this is a wonderful substitute! It has amazing capabilities, and is really good for vocals, synths drums, you name it, it can compress it!
+Link: Use the above link for ReaXCompressor. If you have already downloaded ReaXCompressor, or any of Reaplugs, then you already have this.
+
+And there is actually one more compressor. It's legendary. The only problem with it, is you need to give it time to load during project file opening in LMMS, otherwise LMMS will crash!
+
+'''Terry West's CS12m 1.67'''
+Stats: You wouldn't believe me if I told you.
+CS12 1.67: Is uncalled for. Not only is it a compressor, but it is also an equalizer, Limiter, stereo widener, AND a filter! This plugin is a new one I stumbled on very recently, and it works one hundred percent with LMMS! It just eats up your CPU when loading, but other than that it's fine. So just wait a few seconds after it's done loading to do anything in LMMS, and you'll be fine!
+Link: http://www.terrywest.nl/equalizers.html 
+(also, take the time to check out all the other plugins Terry West has made! I have tried them all, and besides the occasional High CPU start up, they all work AMAZINGLY well with LMMS! He has made some incredibly powerful plugins, and I use them all, all the time. He also has a huge list of other compressors, so check them out)
+
+Well, that is all on compression and limiting! I hope the power you will now hold in your hands by obtaining these plugins gives you a sense of satisfaction  If you want a hard limiter that isn't loudmax, then just use some of Terry's stuff, they work!
+And lastly, I hope to see the amazing work you guys do by using these plugins! That is all for this part! Thank you!
+Keep spreading the music!
+DJ Striden
