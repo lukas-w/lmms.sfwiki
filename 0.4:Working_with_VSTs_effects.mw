@@ -1,7 +1,14 @@
-In the chapter "Working with LADSPA effects" you learned that music made in LMMS can be strongly improved with LADSPA effects. You can however also use VSTs based effects in LMMS.
+In the chapter "Working with LADSPA effects" you learned that music made in LMMS can be strongly improved with LADSPA effects. 
+
+You can however also use VSTs based effects in LMMS.
+
 Most of these effects are more streamlined and offer elegant and sleek GUIs. You will however not be able to automate VSTs effects!
-On the LMMS forum DJStriden published his experiences with VSTs effcts, and listed those that he likes the most. Not all users have the same succes with all plugins. You will have to do some T&E, and see if you can make everything swing together. You should test in dummy projects, and whatch your CPU load.
-I add this to the wiki, on his request:
+
+On the LMMS forum DJStriden published his experiences with VSTs effcts, and listed those that he likes the most. 
+
+Not all users have the same succes with all plugins. You will have to do some T&E, and see if you can make everything swing together. You should test in dummy projects, and whatch your CPU load.
+
+I add this to the wiki, on DJ Striden's request:
 
 
 = Mixing Tools =
