@@ -16,6 +16,7 @@ Here you can add things which could be displayed in a "tip of the day"-dialog in
 * Hover the mouse pointer over a step in the [[Beat Bassline Editor|Beat + Bassline Editor]] and use your mouse wheel to raise/lower the volume of that step.
 * CTRL+S saves your project. Remember to save often!
 * Use CTRL+Z to undo changes, and CTRL+R to redo.
+* A middle mouse button-click deletes a song segment in the [[Song Editor]].
 * Don't forget that the LMMS Wiki is there to help you! You can quickly access it through Help/Online Help.
 * Most instruments that are included in the default installation are named “Default preset”. You should make it a habit to always rename this “Default preset” to a describing new name. Double-click on “Default preset” and enter the new name.
 * You can save the same song with a different name using "save as", this will give a backup of the original song in the event of something going wrong with the original song or it can be used as a remix or experimental version too.
@@ -25,4 +26,4 @@ Here you can add things which could be displayed in a "tip of the day"-dialog in
 * Basslines can be much longer than the beat pattern in the [[Beat Bassline Editor|Beat + Bassline Editor]]. Just be sure they are on 2 separate beat/bassline tracks and then click and drag the bass pattern out further in the song editor.
 * In LMMS there is a "My Home" folder in the left toolbar where you can access all your .ogg or .wav media files and drag them into your own song as if they were instruments.
 * If you want your beat to last for more than 4 measures, you can right click in the [[Beat Bassline Editor|Beat + Bassline Editor]] and add up to 16 more steps (equal to 4 measures).
-* In the [[Piano Roll Editor]], you can right click on the keys and mark specific keys to keep within the scale.
+* In the [[Piano Roll Editor]], you can right click on the pino keys to the left and get options to highlight specific keys.
