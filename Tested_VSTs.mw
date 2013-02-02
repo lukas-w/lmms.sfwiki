@@ -565,7 +565,7 @@ All sounds are calculated in "real time", no samples are used.
 | {{wikitable_cell}}|Synthesizer
 | {{wikitable_cell}}|Chris Gill
 | {{Yes}}
-| {{?}}
+| {{Yes}}
 | {{?}}
 | {{wikitable_cell}}|sometimes doesn't want to attach into LMMS window; after loading VeSTige preset, controls look OK in GUI but in reality they are at default values
 | {{wikitable_cell}}|http://home.btconnect.com/christopherg/
