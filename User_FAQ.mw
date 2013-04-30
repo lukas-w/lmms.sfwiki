@@ -48,7 +48,7 @@ A: Click on the enable/disable looppoints button in the song editor or pianoroll
 
 
 '''Q: How do I Import a drums beat I'd made in Hydrogen?<br>
-A: If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
+A: As of LMMS 0.4.14, you can import you Hydrogen file directly into LMMS. If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
 
 
 '''Q: How do I Import a MP3 or OGG file?<br>
