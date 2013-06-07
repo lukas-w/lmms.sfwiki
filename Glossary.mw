@@ -18,7 +18,7 @@ Here are a list of terms used in LMMS and their meaning.
 == E ==
 
 ; EQ
-: Equalizer. A equalizer adjusts the balance between frequencies (by adjusting the amplitude of audio signals at particular frequencies). Equalizers often appear as frequency-specific volume knobs.
+: Equalizer. An equalizer adjusts the balance between frequencies (by adjusting the amplitude of audio signals at particular frequencies). Equalizers often appear as frequency-specific volume knobs.
 
 == F ==
 
@@ -75,6 +75,8 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 : A block in a [[#T|track]] that contains a sample (in the case of a [[#S|sample track]]), notes in a [[#P|piano roll]] or repeats of a [[#B|beat / bassline]].  Each type of [[#T|track]] only uses one type of segment.  See [[0.4:Song Editor|Song Editor]].
 ; Song
 : The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[0.4:Song Editor|Song Editor]].
+; Spectrum
+: A term used to describe all the different frequencies in a sound. "Spectrum Analyzer" is one of the [[Effect Plugins]] and displays the different frequencies present in that FX-channel.
 ; Step
 : One sixteenth of a bar in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; a single "tab" or "tombstone" in the pattern display.
 
