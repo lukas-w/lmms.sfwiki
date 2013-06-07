@@ -59,7 +59,7 @@ This page contains various templates used in the wiki in order to guide and faci
 |signal          = http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Crystal_Clear_app_clock.png/48px-Crystal_Clear_app_clock.png
 |heading         = This article is [[:Category:out of date|''out of date'']].
 |message         = Please help improve the wiki by updating the article to version {{{1}}} of LMMS.}}
- <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should about --></nowiki>
+ <nowiki>{{msgbox:out of date|xx}} <!-- where 'xx' is the version of LMMS it should be about --></nowiki>
 
 ==== [[Template:msgbox:too complex|Too complex]] ====
 {{Msgbox
