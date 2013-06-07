@@ -90,7 +90,7 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 == U ==
 == V ==
 ; VST
-: Virtual Studio Technology. Programs or plugins which tweaks or produce sound. VSTi (Virtual instrument) is a common name for VST´s which generate sounds and signals. VSTfx can be used to describe VST´s which tweaks or changes the signal.
+: Virtual Studio Technology. Programs or plugins which tweaks or produce sound. VSTi (Virtual instrument) is a common name for VST´s which generate sounds and signals. VSTfx can be used to describe VST´s which tweaks or changes signals.
 == W ==
 ; Wav
 : Waveform Audio File Format. A cross-platform uncompressed audio standard.
