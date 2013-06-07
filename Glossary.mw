@@ -76,7 +76,7 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 ; Song
 : The overall combination of [[#T|tracks]] playing simultaneously that makes up your composition.  See [[0.4:Song Editor|Song Editor]].
 ; Spectrum
-: A term used to describe all the different frequencies in a sound. "Spectrum Analyzer" is one of the [[Effect Plugins]] and displays the different frequencies present in that FX-channel.
+: A term used to describe all the different frequencies in a sound. The effect plugin [[Effect Plugins#Spectrum Analyzer | Spectrum Analyzer]] displays the different frequencies present in that FX-channel.
 ; Step
 : One sixteenth of a bar in the [[0.4:Beat Bassline Editor|Beat + Bassline Editor]]; a single "tab" or "tombstone" in the pattern display.
 
@@ -90,7 +90,7 @@ Ogg is a free, open standard container format maintained by the Xiph.Org Foundat
 == U ==
 == V ==
 ; VST
-: Virtual Studio Technology by Steinberg
+: Virtual Studio Technology. Programs or plugins which tweaks or produce sound. VSTi (Virtual instrument) is a common name for VST´s which generate sounds and signals. VSTfx can be used to describe VST´s which tweaks or changes the signal.
 == W ==
 ; Wav
 : Waveform Audio File Format. A cross-platform uncompressed audio standard.
