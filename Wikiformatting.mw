@@ -17,7 +17,7 @@ You can change the name of a internal link, by adding a pipe and the new name. <
 Example of '''internal link''': http://lmms.sourceforge.net/wiki/images/6/68/Internal_link_in_editor.png -> in article: http://lmms.sourceforge.net/wiki/images/6/6d/Internal_link_in_article.png
 <br><br>
 
-'''Link to a section''' can be achieved by adding a hash # after the article name. Example: <nowiki>[[0.4:Getting Started#Saving|Get started and save]]</nowiki> -> in article: [[0.4:Getting Started#Saving|Get started and save]] <br>
+'''Link to a section''' can be achieved by adding a hash # after the article name. Example: <nowiki>[[0.4:Getting Started#Saving|Get started and save]]</nowiki> -> in article: [[0.4:Getting Started#Saving|Get started and save]] <br><br>
 
 == The manual method ==
 To manually write the formatting characters might save you some time, and there are a few formatting options which do not got their own buttons. <br/>
