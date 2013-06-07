@@ -1,7 +1,7 @@
 == The highlight method ==
-To format text on this wiki to e.g. headlines, bold, italic or links, you can simply highlight text and press the desired button.<br>
+To format text on this wiki to e.g. headlines, bold, italic or links, you can simply highlight text and press the desired button. You can also press the buttons first and then write. The text you then write will be formatted.<br>
 http://lmms.sourceforge.net/wiki/images/1/1a/Highlight_method.png <br>
-This method is the same as in all major writing programs, however on this wiki you will not see the finished formatted text while you are writing. Instead you will see new characters appearing at the beginning and the end of the selected text. To see the fully formatted article you must press the button "Show preview". You can also press the buttons first and then write. The text you then write will all be formatted.
+This method is the same as in all major writing programs, however on this wiki you will not see the finished formatted text while you are writing. Instead you will see new characters appearing at the beginning and the end of the selected text. To see the fully formatted article you must press the button "Show preview". 
 
 === Useful ===
 To insert a line break you can use the HTML tag <nowiki><br/></nowiki> or <nowiki><br></nowiki> <br/><br/>
