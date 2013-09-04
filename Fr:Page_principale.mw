@@ -14,7 +14,7 @@ http://img20.imageshack.us/img20/1012/contents.png
 
 '''Documentation'''
 
-http://img199.imageshack.us/img199/6025/wizardq.png [[Fr:0.4:Commencer|Commencer]]<br>
+http://lmms.sourceforge.net/wiki/images/2/20/Getting-started.png [[Fr:0.4:Commencer|Commencer]]<br>
 http://img62.imageshack.us/img62/1012/contents.png [[Fr:0.4:Manuel|Manuel]]<br>
 http://img97.imageshack.us/img97/5625/helpfaq.png [[Fr:FAQ utilisateur|FAQ utilisateur]]<br>
 http://img689.imageshack.us/img689/261/ktipx.png [[Fr:Astuce du jour|Astuce du jour]]<br>
@@ -52,20 +52,13 @@ http://img709.imageshack.us/img709/3940/mailsend.png [[Fr:Contact|Contact]]<br>
 |}
 {| cellspacing="0" valign="top" align="center" width="100%"
 | width="160px" style="color: #000" valign="top"|
-http://img251.imageshack.us/img251/7428/newsg.png
+[[File:News.png]]
 | style="color: #000" valign="top"|
 
-'''Nouvelles'''<br>
-<!-- 
-==THE PURPOSE OF NEWS IS TO KEEP THE WIKI ALIVE==
-*WRITE ONLY MAJOR NEWS LIKE: NEW TUTORIALS, MAJOR UPDATES, ETC.
-*KEEP THE NEWS SHORT: ("UPDATED", "NEW ARTICLE", "SIMPLIFIED", "CORRECTED", ETC..)
-*KEEP ONLY THE 5 MOST RECENT NEWS
--->
-
-01-25: updated ''Main Page''<br>
-01-20: new article ''[[Creating a Theme]]''<br>
-01-11: simplified [[Tested VSTs|''VST Database'']]<br>
+'''Wiki News'''<br/><!-- NEWS ARE TRANSCLUDED FROM [[News Archive]] -->
+<div style="height: 120px; width: 240px; overflow: auto; padding: 3px;text-align: left; border:none 1px;" title="braglist"; >{{:News Archive}}
+</div>
+[[News Archive]] <br/>
 
 |}
 </div>
