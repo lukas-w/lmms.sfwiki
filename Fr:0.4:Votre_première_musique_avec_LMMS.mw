@@ -81,7 +81,7 @@ http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/first-four-bar
 
 Nous pouvons maintenant fermer le piano virtuel pour revenir à l'éditeur de morceau (Song Editor). Vous pourrez voir que le segment de la piste sur lequel nous avons initialement double cliqué pour créer la mélodie s'est maintenant agrandit pour contenir toutes les notes que nous avons ajoutées. 
 
-Nous souhaitons maintenant copier se segment pour créer les quatre mesures suivantes. La façon la plus simple est de maintenir enfoncer la touche Ctrl, et de déplacer le segment initial. Cela déplacera en fait une copie du segment vers un nouvel endroit, qui doit être en dehors de la zone du segment initial. Cette action devrait ressembler à ceci :
+Nous souhaitons maintenant copier ce segment pour créer les quatre mesures suivantes. La façon la plus simple est de maintenir enfoncée la touche Ctrl, et de déplacer le segment initial. Cela déplacera en fait une copie du segment vers un nouvel endroit, qui doit être en dehors de la zone du segment initial. Cette action devrait ressembler à ceci :
 
 <!--{\begin{center}}-->
 http://tangram.dnsalias.net/lmms-imgs/lmms-0.3.1/tutorial-1stsong/ctrl-drag-copying.png
