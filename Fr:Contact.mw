@@ -1,2 +1,25 @@
+__NOTOC__ __NOEDITSECTION__
 {{ContactTrans}}
-{{msgbox:translate|French}}
+
+== Canal IRC ==
+
+Cannal [irc://chat.freenode.net/#lmms #lmms sur irc.freenode.org]
+
+== Liste de diffusion ==
+
+Pour la communication entre les développeurs et utilisateurs de LMMS, nous avons diverses listes de diffusion.
+
+==== LMMS-devel ====
+
+Cette liste est dédiée à toute personne impliquée ou intéressée dans le développement de LMMS. On y discute des nouvelles fonctionnalités, des technologies, des parutions (releases), des boggues et autres problèmes.<br/>
+[http://lists.sourceforge.net/lists/listinfo/lmms-devel http://lists.sourceforge.net/lists/listinfo/lmms-devel]
+
+==== LMMS-users ====
+
+Cette liste est ouverte pour les discutions entre utilisateurs de LMMS.<br/>
+[http://lists.sourceforge.net/lists/listinfo/lmms-users http://lists.sourceforge.net/lists/listinfo/lmms-users]
+
+== Contacter le mainteneur ==
+Si vous souhaitez contacter le mainteneur de LMMS (par ex. pour envoyer une [[Creating a localization|localisation (Anglais)]]), utilisez l'adresse mail suivante :
+
+http://lmms.sourceforge.net/graphics/mailaddr_bw.gif
