@@ -43,7 +43,7 @@ The example in the image automates the increase in volume of the instrument trac
 
 {| cellspacing="0" valign="top" align="center" width="100%"
 | valign="top"|
-You can automate the '''Master Tempo''' control to slow down as the performance approaches the end of a phrase (a '''Rallentando''') and have it resume its pace immediately afterward. This gives your song '''expression''', as if a live piano player were emphasising that section. The tempo automation graph looks like a single "negative" sawtooth pattern.
+You can automate the '''Master Tempo''' control to slow down as the performance approaches the end of a phrase (a '''Rallentando''' or '''Ritardando''') and have it resume its pace immediately afterward. This gives your song '''expression''', as if a live piano player were emphasising that section. The tempo automation graph looks like a single "negative" sawtooth pattern.
 | width="300px" valign="top"|
 [[File:LMMS-auto-rallentando.png|frame|left|alt=Automate tempo for Rallentando.|Automate tempo for Rallentando.]]
 |}
