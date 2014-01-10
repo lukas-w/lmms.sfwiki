@@ -1,24 +1,24 @@
 Here's graphical todo list the way I see it (Vesa):
 
 General
-- simplify and modernize the visual style
-- create a consistent, balanced palette
-- fix flaws eg. blurriness, pixelation
-- use different colours for automation & instrument tracks, decide on a colour for each
+- simplify and modernize the visual style </br>
+- create a consistent, balanced palette< /br>
+- fix flaws eg. blurriness, pixelation </br>
+- use different colours for automation & instrument tracks, decide on a colour for each </br>
 
 Plugin artwork
-- SF2 player: revamp the artwork
-- LB302: fix logo, retouch artwork?
-- triple osc: maybe redo logo, increase conrast, retouch? most used plugin, deserves some attention
-- organic: spice up ui, maybe redo logo?
+- SF2 player: revamp the artwork </br>
+- LB302: fix logo, retouch artwork? </br>
+- triple osc: maybe redo logo, increase conrast, retouch? most used plugin, deserves some attention </br>
+- organic: spice up ui, maybe redo logo? </br>
 
 Icons
-- redo all/most icons to give a consistent, clean style that fits the new palette
-- replace/redo all icons that are blurry, eg. bb editor icon must go
-- automation & instrument track icons should match the tracks
-- bb track icons should match the bb editor
+- redo all/most icons to give a consistent, clean style that fits the new palette </br>
+- replace/redo all icons that are blurry, eg. bb editor icon must go </br>
+- automation & instrument track icons should match the tracks </br>
+- bb track icons should match the bb editor </br>
 
 UI elements
-- redraw all knobs, retouch leds
-- redo transport buttons (consistency)
-- fx leds to match new palette
+- redraw all knobs, retouch leds </br>
+- redo transport buttons (consistency)</br>
+- fx leds to match new palette </br>
