@@ -1,0 +1,57 @@
+== Stylesheet ==
+
+Namechanges: 
+
+trackContainerView -> TrackContainerView
+
+Additions - OpulenZ plugin knob style:
+
+ opl2instrumentView knob {
+ color: rgb(128,128,128);
+ qproperty-outerColor: rgb(255,255,255);
+ qproperty-innerRadius: 2;
+ qproperty-outerRadius: 9;
+ qproperty-lineWidth: 2;
+ }
+
+This is needed for the new instrument. You can leave it as is or modify the knob line colour, like on other instruments.
+
+Additions - Palette block:
+
+ palette:background {color: #5b6571}
+ palette:windowtext {color: #f0f0f0}
+ palette:base {color: #808080}
+ palette:text {color: #e0e0e0}
+ palette:button {color: #c9c9c9}
+ palette:shadow {color: #000000}
+ palette:buttontext {color: #000000}
+ palette:brighttext {color: #4afd85}
+ palette:highlight {color: #202020}
+ palette:highlightedtext {color: #ffffff}
+
+Notes: each line must begin with "palette:", with no leading whitespace, and the next word must be written right next to it - no space after the colon (:). The color value **MUST** be of the form #RRGGBB, no rgb(x,y,z) or rgba(x,y,z,a), no #RGB. I know this is a bit clunky and hacky, but that's how it is right now and at least it lets you modify colours.
+Omitting the palette block will not break the theme, but instead the default colours will be used for things - so you'll probably want to add it in and modify the colour values to make them fit your theme.
+
+The "brighttext" colour is used on the FX mixer to highlight the text of the active channel, and on those blinky things on the instrument tracks that blink in time with the notes.
+"button" is used as the base colour for buttons, although you can override this with CSS so it's not all that useful. "buttontext" is the same.
+"highlight" and "highlightedtext" - like it says on the tin. Again, these can be overridden with CSS - but not everywhere, I think... so better set them just in case.
+"windowtext" is an important one: it is used for the lines on the default knobs (not ones on instruments), both the large and small ones. So you can now style your knobs better! 
+
+Look at the new stylesheet for hints on how to do some more cool things, such as modifying scrollbars, or that neat (if I say so myself) popping-up effect of the text boxes.
+
+== Images ==
+
+* fader_knob.png 
+
+must be the same width as fader_background now, ie. 23 pixels. Exactly 23. Height can be whatever, although you shouldn't probably make it very much taller than the original. A few pixels difference is fine.
+
+* progression_cubic_hermite.png
+* progression_linear.png
+* progression_discrete.png
+
+These three images are for the new buttons in automation editor which let you choose how you edit automations (freehand, linear vectors or curve vectors).
+
+* step_btn_add.png
+* step_btn_remove.png
+
+These images are used now in the bb-editor, before they were unused.
