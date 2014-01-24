@@ -1,3 +1,5 @@
+Guide originally posted by user ''diiz'' on the [http://sourceforge.net/apps/phpbb/lmms/viewtopic.php?t=1141 SF forum]:
+''<blockquote>Since the release of the next version of LMMS is getting near, I thought it'd be nice to post some guidelines on porting themes from 0.4.15 to the new LMMS. <br> This covers the most important things, some things may still be added but probably not too many, I'll update this text if needed.</blockquote>''
 == Stylesheet ==
 
 Namechanges: 
