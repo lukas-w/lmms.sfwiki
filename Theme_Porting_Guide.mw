@@ -18,6 +18,17 @@ Additions - OpulenZ plugin knob style:
 
 This is needed for the new instrument. You can leave it as is or modify the knob line colour, like on other instruments.
 
+Additions - sfxr plugin knob style:
+
+ sfxrInstrumentView knob {
+     color: #b06319;
+     qproperty-outerColor: rgb(194, 177, 145);
+     qproperty-innerRadius: 2;
+     qproperty-outerRadius: 10;
+     qproperty-lineWidth: 2;
+ }
+Same as above.
+
 Additions - Palette block:
 
  palette:background {color: #5b6571}
