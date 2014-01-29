@@ -68,3 +68,7 @@ These three images are for the new buttons in automation editor which let you ch
 * step_btn_remove.png
 
 These images are used now in the bb-editor, before they were unused.
+
+* bb_track_btn.png
+
+Must be added. This image now houses the icon for the bb-track-editor-button in the main toolbar, while bb_track.png is used only for the tracks themselves.
