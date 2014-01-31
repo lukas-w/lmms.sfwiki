@@ -29,6 +29,8 @@ Additions - sfxr plugin knob style:
  }
 Same as above.
 
+The default stylesheet now also contains separate colours for the sfxr knobs. Your theme will work without these, but the knobs will not look as nice. Copy-paste them from the default theme CSS if you want them preserved.
+
 Additions - Palette block:
 
  palette:background {color: #5b6571}
