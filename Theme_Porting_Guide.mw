@@ -1,5 +1,5 @@
-Guide originally posted by user ''diiz'' on the [http://sourceforge.net/apps/phpbb/lmms/viewtopic.php?t=1141 SF forum]:
-''<blockquote>Since the release of the next version of LMMS is getting near, I thought it'd be nice to post some guidelines on porting themes from 0.4.15 to the new LMMS. <br> This covers the most important things, some things may still be added but probably not too many, I'll update this text if needed.</blockquote>''
+'''Note:''' as the development of 1.0.0 is still ongoing, this guide will likely be updated from time to time, until 1.0.0 is released. 
+
 == Stylesheet ==
 
 Namechanges: 
@@ -29,6 +29,8 @@ Additions - sfxr plugin knob style:
  }
 Same as above.
 
+Note, that the sfxr instrument has CSS code that allows different colours for each type of knob. If you want to preserve this functionality, see how it's done in the default theme and/or copy it from there.
+
 The default stylesheet now also contains separate colours for the sfxr knobs. Your theme will work without these, but the knobs will not look as nice. Copy-paste them from the default theme CSS if you want them preserved.
 
 Additions - Palette block:
@@ -53,6 +55,25 @@ The "brighttext" colour is used on the FX mixer to highlight the text of the act
 "windowtext" is an important one: it is used for the lines on the default knobs (not ones on instruments), both the large and small ones. So you can now style your knobs better! 
 
 Look at the new stylesheet for hints on how to do some more cool things, such as modifying scrollbars, or that neat (if I say so myself) popping-up effect of the text boxes.
+
+Additions - Pattern colours 
+
+/* instrument pattern */
+patternView {
+	color: rgb( 119, 199, 216 );
+}
+
+/* sample track pattern */
+SampleTCOView {
+	color: rgb( 74, 253, 133 );
+}
+
+/* automation pattern */
+AutomationPatternView {
+	color: #99afff;
+}
+
+These define the instrument, sample track and automation pattern colours in song editor (and bb-editor for automations). You can only change the base colour, the other colours are still unchangeable for now, so choose your colours wisely...
 
 == Images ==
 
