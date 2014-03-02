@@ -58,20 +58,20 @@ Look at the new stylesheet for hints on how to do some more cool things, such as
 
 Additions - Pattern colours 
 
-/* instrument pattern */
-patternView {
+ /* instrument pattern */
+ patternView {
 	color: rgb( 119, 199, 216 );
-}
+ }
 
-/* sample track pattern */
-SampleTCOView {
-	color: rgb( 74, 253, 133 );
-}
-
-/* automation pattern */
-AutomationPatternView {
-	color: #99afff;
-}
+ /* sample track pattern */
+ SampleTCOView { 
+ 	color: rgb( 74, 253, 133 );
+ }
+ 
+ /* automation pattern */
+ AutomationPatternView {
+ 	color: #99afff;
+ }
 
 These define the instrument, sample track and automation pattern colours in song editor (and bb-editor for automations). You can only change the base colour, the other colours are still unchangeable for now, so choose your colours wisely...
 
