@@ -20,18 +20,51 @@ This is needed for the new instrument. You can leave it as is or modify the knob
 
 Additions - sfxr plugin knob style:
 
+
  sfxrInstrumentView knob {
-     color: #b06319;
-     qproperty-outerColor: rgb(194, 177, 145);
-     qproperty-innerRadius: 2;
-     qproperty-outerRadius: 10;
-     qproperty-lineWidth: 2;
+ 	color: #000;
+ 	qproperty-outerColor: rgb(194, 177, 145); 
+ 	qproperty-innerRadius: 2;
+ 	qproperty-outerRadius: 9;
+ 	qproperty-lineWidth: 2;
  }
-Same as above.
-
-Note, that the sfxr instrument has CSS code that allows different colours for each type of knob. If you want to preserve this functionality, see how it's done in the default theme and/or copy it from there.
-
-The default stylesheet now also contains separate colours for the sfxr knobs. Your theme will work without these, but the knobs will not look as nice. Copy-paste them from the default theme CSS if you want them preserved.
+  
+ sfxrInstrumentView knob#envKnob {
+ 	color:	#263352;
+ 	qproperty-outerColor: #4b66a4;
+ }
+ 
+ sfxrInstrumentView knob#freqKnob {
+ 	color:	#1e4a22;
+ 	qproperty-outerColor: #3c9544;
+ }
+ 
+ sfxrInstrumentView knob#changeKnob {
+ 	color:	#591c1c;
+ 	qproperty-outerColor: #b23737;
+ }
+ 
+ sfxrInstrumentView knob#sqrKnob {
+ 	color:	#3b2714;
+ 	qproperty-outerColor: #724c27;
+ }
+ 
+ sfxrInstrumentView knob#repeatKnob {
+ 	color:	#292929;
+ 	qproperty-outerColor: #515151;
+ }
+ 
+ sfxrInstrumentView knob#phaserKnob {
+ 	color:	#144c4d;
+ 	qproperty-outerColor: #299899;
+ }
+ 
+ sfxrInstrumentView knob#filterKnob {
+ 	color:	#47224c;
+ 	qproperty-outerColor: #8e4397;
+ }
+ 
+Same as above, except the sfxr plugin has code for different coloured knob lines. The knobs are colour-coded and grouped by type.
 
 Additions - Palette block:
 
