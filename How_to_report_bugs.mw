@@ -18,7 +18,7 @@ For reporting any kind of bugs, use the [https://github.com/LMMS/lmms/issues Git
   ...
   (gdb) thread apply all backtrace
 
-* The output of this command is interesting for us!  Please either report it to the [https://sourceforge.net/tracker/?func=add&group_id=105168&atid=640434 bug tracker] or email it to the [[mailing lists|mailing list]].
+* The output of this command is interesting for us!  Please either report it to the [https://github.com/LMMS/lmms/issues issue tracker] or email it to the [[mailing lists|mailing list]].
 
 == How to report bugs without GDB ==
 * Start a new shell/terminal:
