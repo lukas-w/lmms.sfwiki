@@ -51,8 +51,12 @@ A: Click on the enable/disable looppoints button in the song editor or pianoroll
 A: As of LMMS 0.4.14, you can import you Hydrogen file directly into LMMS. If you exported it as a MIDI, it can be easily imported with Project->Import. Remember to specify a SoundFont file! If on the other hand, you exported it to WAV, you'll have to use the [[AudioFileProcessor]] plugin and import it from there. You can import your MIDI the same way too.
 
 
-'''Q: How do I Import a MP3 or OGG file?<br>
+'''Q: How do I Import a FLAC, WAV or OGG file?<br>
 A: Through the [[AudioFileProcessor]] plugin.
+
+
+'''Q: Does LMMS support MP3?<br>
+A: No. You can use some external software to convert to/from MP3-files, such as [[http://audacity.sourceforge.net/ Audacity]].
 
 
 '''Q: How do I edit the locations in the sidebar when you open a file in LMMS?<br>
