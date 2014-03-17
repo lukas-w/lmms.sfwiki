@@ -8,7 +8,7 @@ This is a guide to quickly introduce the world of LMMS.
 When you launch LMMS, you will see this screen first:
 
 <!--{\begin{center}}-->
-http://lmms.sourceforge.net/wiki/images/2/25/Initial_screen_numbers.png
+http://lmms.sourceforge.net/wiki/images/2/2d/Startup_LMMS_new.png
 <!--{\end{center}}-->
 
 The different parts of the screen ('''elements''') are numbered in yellow. They function as follows:
@@ -24,7 +24,7 @@ When LMMS is launched, four windows are opened by default:
 * [[0.4:Song Editor|Song-Editor]] This is different sound elements are organized to produce a song.
 * [[0.4:Beat Bassline Editor|Beat+Bassline Editor]] This is the window where repetitive song elements (such as drum beats or basslines)can be created.
 * [[0.4:FX Mixer|FX-Mixer]] This is the sound mixer, where the volumes of each channel can be separately controlled.<br/>It also has a sub-window where special effects can be added or chained together. 
-* [[Controller Rack|Controller Rack]] This is where controllers are added and configured. 
+* [[Controller Rack|Controller Rack]] This is where controllers are added and configured.
 
 ==Saving==
 
