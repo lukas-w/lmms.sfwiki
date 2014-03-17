@@ -17,10 +17,12 @@ However, this won't correct clipping that was present in the original file. <br>
 This can be used if you only want to play back a specific part of a sample. <br> 
 <br>
 The symbols to the right are also controls:
-* The left-pointing arrow controls the '''direction''' of playback. <br> 
-When grey, the sample is played forward; when blue, the sample is played in reverse.
+* The reversed R controls the '''direction''' of playback. <br> 
+When inactive, the sample is played forward; when active, the sample is played in reverse.
 * The cyclic arrows control whether the sample is '''repeated''' from the beginning. <br> 
 Once it reaches the end (or vice versa for reversed playback) if the note is still held down and playback has progressed all the way through the file.
+* The icon with two bars and a marker enables stutter-mode. In this mode, sample playback is always started from the point where it last ended. You can
+reset the position back to the beginning by playing a very low note, one that is below 20hz in frequency.
 * The folder icon allows you to choose a '''new file''' from a file open dialog. <br> 
 You can also change the current sample by dragging a sample from the Samples section of the Side Bar.
 |}
