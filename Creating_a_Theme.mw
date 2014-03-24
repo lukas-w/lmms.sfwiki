@@ -19,10 +19,10 @@ To create a new theme, or to modify an existent one, some fairly basic knowledge
 * LMMS Sharing Platform account
 
 === Remember ===
--The default theme is named ''default'', and can be found in the ''themes'' folder.<br>
--Each theme has its own folder with its images inside.<br>
--If your theme is missing some files, LMMS will use the default ones.<br>
--Capitalization matters on Linux.
+* The default theme is named ''default'', and can be found in the ''themes'' folder.<br>
+* Each theme has its own folder with its images inside.<br>
+* If your theme is missing some files, LMMS will use the default ones.<br>
+* Capitalization matters on Linux.
 
 == Getting Started ==
 The best thing is to make a copy of the ''default'' folder, rename that copy (i.e. ''"MyTheme"''), and then open the image files with an image editor and modify them as you wish. You can also replace them completely, but be careful with the image dimensions: sometimes they can be a bit different; sometimes they cannot!
