@@ -12,6 +12,7 @@ On Windows it's in the ''themes'' folder inside the LMMS installation directory.
 
 === Prerequisites ===
 To create a new theme, or to modify an existent one, some fairly basic knowledge is required:
+* CSS (find an easy free course and learn on the web!)
 * image manipulation skills ''(gimp, inkscape, paint, ..)''
 * browsing through directories
 * compressing files into archives
