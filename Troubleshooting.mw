@@ -56,9 +56,6 @@ You probably didn't start JACK-transport. Start an application like [http://qjac
 Make sure you didn't pass -fomit-frame-pointer in a FLAG-parameter to configure. This is known to lead to an unusable LVSL (LMMS VST Support Layer).
 
 
-=== The singerbot-plugin just produces undefinable sounds ===
-Please make sure '''not''' to have installed ''swh-plugins''-package. It's known to break Festivals speech-synthesis for some reason.
-
 === Plugins don't load on 64bit platforms ===
 The path to the plugins directory is (as of v. 0.3.0) hardcoded, meaning that you'll have to manually setup a link from the right place, to the expected place:
 
