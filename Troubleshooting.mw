@@ -34,12 +34,15 @@ Next, go to LMMS, open the settings menu (Edit > Settings), go to the Audio Sett
 Where the first "x" is the card number, and the second is the device number. For example, the above configuration would be "hw:2,0". Restart LMMS and you should have very little latency.
 
 === When I try to play one of the demo-songs the sound gets crapped. What can I do? ===
-If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So either try to export the project as WAVE/OGG-file or freeze patterns until it works. Freezing patterns means, that they're rendered one time and when playing song only the render-buffer has to be mixed to the output. Of course this saves a lot of CPU-time.
+If you're using OSS you can try to use ALSA instead, because using OSS with LMMS is known to lead to problems in some cases. If this doesn't help, your computer is probably too slow to render all the data in realtime. So you can try to export the project as WAVE/OGG-file and play that. Even if you can't play the song in realtime, it's possible to render and export it to a file, which you can then listen with any music player.
 
 Another thing is the internal buffer-size, used by LMMS. The smaller this value the smaller the latency. If you have problems because of low performance, you can try to increase the buffer-size. Then LMMS renders more data at one time and interrupts aren't always spurious... Use the setup-dialog to change this parameter.
 
-You can also try to re-compile LMMS with tuning-options according to your platform. configure offers additional optimization-options like dropping surround-support. See configure --help for details.
+You can also try to re-compile LMMS with tuning-options according to your platform. Setting compile flags may help. 
 
+To set optimizing compile flags, run this command before running cmake:
+
+ export CXXFLAGS="-O3 -march=native"
 
 === As soon as I start LMMS it eats all my CPU-time. Is that normal? ===
 You're using a quite old version of LMMS which had this bug. Try to upgrade LMMS and everything should be alright...
