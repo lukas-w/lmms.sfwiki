@@ -101,7 +101,7 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 * If you click after the loop end point, it will move the loop start point to the loop end point and the loop end point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
 * Locked to the nearest bar position
 |-
-| Ctrl middle click on timeline
+| Ctrl middle click on timeline. Or Shift Ctrl right click.
 | Move loop start point to that time exactly
 |
 * Same loop direction behaviour as above.
