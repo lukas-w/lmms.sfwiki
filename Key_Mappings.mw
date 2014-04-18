@@ -132,11 +132,11 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 |-
 | Plus ('+')
 | Move to next pattern
-|
+| Shows next pattern
 |-
 | Minus ('-')
 | Move to previous pattern
-|
+| Shows previous pattern.
 |-
 | Space
 | Start / pause playback of this pattern
