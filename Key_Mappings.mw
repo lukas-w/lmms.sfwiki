@@ -73,11 +73,9 @@ Standard key modifier notation: C, Shift-C, Ctrl-C, Alt-C, Alt-Shift-C.  Keep ke
 | Action
 | Notes
 |-
-| '''Any Knob'''
-|-
-| Ctrl hold and drag
-| Links knob to knob. Once linked, changing any linked knob will change all of the linked knobs. Can also link knob to automation track, fader or led.
-| 
+| Ctrl hold and drag any knob
+| Links knob to anything... 
+| Changing any linked knob will change all of the linked knobs. Can also link knob to automation track, fader or led.
 
 |}
 
