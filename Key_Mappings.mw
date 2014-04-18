@@ -95,7 +95,7 @@ I.e. the [[Beat Bassline Editor|Beat + Bassline Editor]], [[Piano Roll Editor]],
 | Move playback position to that time
 | Works during playback as well as when stopped
 |-
-| Middle click on timeline. Or Shift and right mouse button combined.
+| Middle click on timeline. Or Shift right click.
 | Move loop start point to that time
 | 
 * If you click after the loop end point, it will move the loop start point to the loop end point and the loop end point to where you just clicked.  In other words, it places the loop point where you clicked, but loops always go forward in time.
