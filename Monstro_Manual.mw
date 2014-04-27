@@ -1,0 +1,108 @@
+(work in progress)
+
+
+== Monstro Manual ==
+
+''This is a quick manual on how to use Monstro.''
+
+
+
+'''Main views'''
+
+Monstro is divided in two main views: Operators and Matrix. Operators view contains all sound generators: oscillators 1-3, and additionally two modulators:
+LFO's 1-2, Envelopes 1-2. Matrix view contains the modulation matrix: it has knobs that control how the modulators affect the generators.
+
+
+
+'''Operator view - Generators'''
+
+Oscillator 1 is the pulse wave oscillator. Note that it's a naive pulse wave and is not bandlimited. It has 7 knobs:
+* Volume and panning: fairly obvious, these control the volume and panning of the oscillator.
+* CRS: this controls the coarse tuning, in seminote steps. 
+* FTL and FTR: these control the finetuning for left and right channels, respectively. The units are cents, which is 1/100 of a seminote.
+* SPO: stereo phase offset. Phase difference between left and right channels.
+* PW: pulse width, also known as duty cycle. These control the "shape" of the pulse wave. At 50%, the wave is a perfect square wave. Adjusting the knob to either direction makes the pulse more rectangular.
+
+
+Additionally Osc1 contains a "sync send" mechanism. This controls when the Osc1 sends sync signals. You can set it to send sync signals either on the
+rise, fall or both of the pulse. Rise refers to when off-state changes to on-state, fall is the opposite. Changing the pulse width, phase, FTL/FTR or pitch
+affects the timing of these signals, but changing the volume or panning does not. Sync mechanisms are elaborated below.
+
+
+Oscillator 2 is a regular oscillator. It can generate any of a selection of pre-defined waveforms, some of which are bandlimited, others are not. It can also
+generate white noise. It contains 6 knobs: Volume, panning, CRS, FTL, FTR, SPO. They work the same as above.
+
+Additionally Osc2 contains a sync mechanism. This can be used to sync Osc2 with the sync signals sent by Osc1. There's two sync modes, which can be used
+separately or combined:
+* Hard sync resets the phase at every sync signal, meaning the waveform starts again from the "beginning".
+* Reverse sync inverts the waveform's polarity at every sync signal, meaning that +1.0 amplitude becomes -1.0 and vice versa.
+
+
+Oscillator 3 is a regular oscillator. It is the same as Osc2, except for one difference: it has not FTL/FTR knobs, but instead has a SUB knob, and two 
+waveform selectors.
+The SUB knob interpolates (mixes) linearily between the two waveforms selected. The waveforms themselves are the same as on Osc2. Osc3 also contains the
+same sync mechanism as Osc2, which works the same way.
+
+
+Additionally, in the bottom right corner, there's a modulation mode switch, which controls the relationship between Osc2 and Osc3. The modes are:
+* Mix: Osc2 and Osc3 are mixed together. 
+* AM: Osc2 modulates the amplitude (volume) of Osc3.
+* FM: Osc2 modulates the frequency (pitch) of Osc3.
+* PM: Osc2 modulates the phase of Osc3. 
+
+If the mode is any other than Mix, Osc2 will be inaudible and only affects the output of Osc3. 
+
+
+
+'''Operator view - Modulators'''
+
+LFO is short for "Low Frequency Oscillator". Both LFO 1 and LFO 2 work the same way. They are always inaudible and only affect the generators. 
+Each contains 3 knobs:
+* Rate knob controls the speed (frequency) of the LFO. The units are milliseconds, signifying the length of the cycle. You can convert this to Hz by the formula: Hz = 1 / ( Rate / 1000 )
+* Att controls the attack length of the LFO. Basically, adding more attack makes the LFO start working gradually instead of instantly.
+* Phs controls the phase of the LFO. Does not affect Random or Random Smooth -modes.
+
+
+Each LFO has a selection of waveforms. Note that none of these are bandlimited. They're the same as the non-bandlimited waveforms on the regular 
+oscillators, except for two exceptions: Random and Random Smooth.
+
+Random works as a shaped noise: the LFO generates a random value that changes once per cycle (defined by the Rate knob).
+
+Random Smooth is the same, except that the value of the LFO changes smoothly between the random values - they're interpolated with cosinus interpolation,
+which means each transition between values is shaped like half of a sine wave.
+
+
+Envelopes have 7 knobs: 
+* PRE controls the pre-delay before the envelope
+* ATT controls the length of attack - the phase where the envelope goes up from 0 to 1
+* HOLD controls the length of time the envelope stays at 1
+* DEC controls the length of the decay phase, it's the length of time going from 1 to 0. However if sustain is bigger than 0, the actual decay phase will be cut short
+* SUS controls the sustain level, the level on which the envelope stays in the decay phase when a note is held
+* REL controls the length of the release phase, again expressed as the length of time from 1 to 0. However if sustain is lower than 1, the actual release will be shorter
+* SLOPE controls the shape of the envelope slopes (attack, decay and release). Negative amounts will curve the slopes of the envelope downwards, while positive amounts curve them upwards
+
+
+
+'''Matrix view'''
+
+
+The Matrix view contains 11 modulation targets, each of which can be modulated by any or all of the 4 modulators.
+
+All of the 3 oscillators have these modulation targets:
+* Volume: Envelopes controlling volume are a special case. With volume envelopes, the modulation is always multiplicative: envelopes will never make the volume higher than what it is originally. Volume envelopes are normalized so that the peak part of the envelope is always equal to the original volume. With negative modulation values, the envelope is inverted so that attack starts from original volume and slopes downwards. LFOs work on volume relatively - a modulation value of 0.5 modulates between 50% and 150% of the original volume. Negative values invert the LFO.
+* Phase: the maximum difference on both envelopes and LFOs is 360°. Envelopes on phase always start from +0° phase offset and go either up or down, depending on the modulation value. LFOs oscillate between negative and positive phase offset, but the range is the same: at maximum modulation value, they oscillate between -180° and +180°.
+* Pitch: the maximum range for both envelopes and LFOs is 2 octaves. The scale is logarithmic, so 0.5 represents 1 octave, 0.25 is 6 seminotes, etc. The pitch is capped with minimum and maximum values, which are 18Hz and 48KHz respectively. If the envelope/LFO would go beyond these values, it gets clipped.
+
+
+Additionally, oscillators 1 and 3 each have an extra modulation target:
+* Osc 1 PW: The pulse width (duty cycle) of oscillator 1. The maximum range for both is 100 percentage points, so an envelope can go from +0 to either +100pp, or -100pp with a negative modulation value, and an LFO can oscillate between -50pp and +50pp. The modulation is obviously capped at the min/max values of the PW knob (0% and 100%).
+* Osc 3 SUB: The SUB knob on oscillator 3, which controls the mixing between the two waveforms. This works the same way as the above.
+
+
+
+'''Tips'''
+
+Monstro is a complex synth, so it can at some settings use a lot of CPU power. The more modulators you use, the higher the CPU usage of Monstro grows.
+If you set any modulator in the matrix to other to 0, it gets calculated, and thus consumes more CPU power. 
+
+Similarly, the FM, AM and PM modes consume slightly more CPU than the Mix-mode, as they require additional calculations.
