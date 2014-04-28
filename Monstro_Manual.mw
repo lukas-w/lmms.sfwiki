@@ -3,7 +3,7 @@
 
 == Monstro Manual ==
 
-''This is a quick manual on how to use Monstro.''
+''This is a quick manual on how to use Monstro. Monstro is a native LMMS instrument that will be featured in LMMS 1.1, and can currently only be tried in the master branch. I wrote this because it's a pretty complex synth and it may be helpful to get an idea of what all the dozens of knobs do.''
 
 
 
@@ -38,7 +38,7 @@ separately or combined:
 * Reverse sync inverts the waveform's polarity at every sync signal, meaning that +1.0 amplitude becomes -1.0 and vice versa.
 
 
-Oscillator 3 is a regular oscillator. It is the same as Osc2, except for one difference: it has not FTL/FTR knobs, but instead has a SUB knob, and two 
+Oscillator 3 is a regular oscillator. It is the same as Osc2, except for one difference: it has no FTL/FTR knobs, but instead has a SUB knob, and two 
 waveform selectors.
 The SUB knob interpolates (mixes) linearily between the two waveforms selected. The waveforms themselves are the same as on Osc2. Osc3 also contains the
 same sync mechanism as Osc2, which works the same way.
